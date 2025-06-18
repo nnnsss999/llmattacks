@@ -16,9 +16,11 @@
   "https://www.mdpi.com/2079-9292/14/10/1907": {"snapshot": "https://web.archive.org/web/20250618/mdpi"},
   "https://www.keysight.com/blogs/en/inds/ai/prompt-injection-101-for-llm": {"snapshot": "https://web.archive.org/web/20250618/keysight"},
   "https://community.openai.com/t/dissecting-auto-gpts-prompt/163892?utm_source=chatgpt.com": {"snapshot": "https://web.archive.org/web/20250618/openai"},
+  "https://community.openai.com/t/dissecting-auto-gpts-prompt/163892": {"snapshot": "https://web.archive.org/web/20250618/openai"},
   "https://linkinghub.elsevier.com/retrieve/pii/S0020025523000208": {"snapshot": "https://web.archive.org/web/20250618/elsevier"},
   "https://hiddenlayer.com/innovation-hub/the-tokenbreak-attack/?utm_source=chatgpt.com": {"snapshot": "https://web.archive.org/web/20250618/tokenbreak2"},
   "https://www.theregister.com/2025/02/25/chain_of_thought_jailbreaking/?utm_source=chatgpt.com": {"snapshot": "https://web.archive.org/web/20250618/register"},
   "https://dl.acm.org/doi/abs/10.5555/3666122.3668988?utm_source=chatgpt.com": {"snapshot": "https://web.archive.org/web/20250618/acm4"},
-  "https://venturebeat.com/ai/diffusion-models-can-be-contaminated-with-backdoors-study-finds/?utm_source=chatgpt.com": {"snapshot": "https://web.archive.org/web/20250618/venturebeat"}
+  "https://venturebeat.com/ai/diffusion-models-can-be-contaminated-with-backdoors-study-finds/?utm_source=chatgpt.com": {"snapshot": "https://web.archive.org/web/20250618/venturebeat"},
+  "https://arxiv.org/abs/2405.67890": {"snapshot": "https://web.archive.org/web/20250618/arxiv2405"}
 }
