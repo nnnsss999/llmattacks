@@ -733,12 +733,4 @@ Your catalog is now aligned with every peer-reviewed or industry-grade threat pu
 [20]: https://arxiv.org/html/2407.17915v1?utm_source=chatgpt.com "The Dark Side of Function Calling: Pathways to Jailbreaking Large ..."
 [21]: https://community.openai.com/t/dissecting-auto-gpts-prompt/163892?utm_source=chatgpt.com "Dissecting Auto-GPT's prompt - OpenAI Developer Community"
 [22]: https://www.wired.com/story/researchers-llm-ai-robot-violence?utm_source=chatgpt.com "AI-Powered Robots Can Be Tricked Into Acts of Violence"
-Plain-text extraction of the accompanying PDF is available in [pdf-extract.md](pdf-extract.md).
 
-Prompt Infection: LLM-to-LLM Prompt Injection within Multi-Agent Systems
-
-https://arxiv.org/html/2410.07283v1
-
-9
-
-
