@@ -13,6 +13,7 @@ New additions cover emerging *reinforcement-learning alignment attacks* such as 
 - A compiled PDF version is provided for offline viewing.
 - Run `python scripts/build_index.py` to regenerate `index.json`, which lists all catalog entries by category and date.
 - Run `python scripts/cache_pdfs.py` to locally cache PDF sources when allowed.
+- Run `python scripts/scrub_js.py` to remove third-party `<script>` tags and cookie banners from HTML or Markdown files.
 - Broken links are checked via `lychee` in CI.
 
 ## Contributing
