@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head><title data-rh="true">CRLF injection. Introduction | by Spoofimei | Medium</title><meta data-rh="true" charset="utf-8"/><meta data-rh="true" name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1"/><meta data-rh="true" name="theme-color" content="#000000"/><meta data-rh="true" name="twitter:app:name:iphone" content="Medium"/><meta data-rh="true" name="twitter:app:id:iphone" content="828256236"/><meta data-rh="true" property="al:ios:app_name" content="Medium"/><meta data-rh="true" property="al:ios:app_store_id" content="828256236"/><meta data-rh="true" property="al:android:package" content="com.medium.reader"/><meta data-rh="true" property="fb:app_id" content="542599432471018"/><meta data-rh="true" property="og:site_name" content="Medium"/><meta data-rh="true" name="apple-itunes-app" content="app-id=828256236, app-argument=/@SpoofIMEI/crlf-injection-ae26521c5e4c, affiliate-data=pt=698524&amp;ct=smart_app_banner&amp;mt=8"/><meta data-rh="true" property="og:type" content="article"/><meta data-rh="true" property="article:published_time" content="2024-02-25T10:31:40.299Z"/><meta data-rh="true" name="title" content="CRLF injection. Introduction | by Spoofimei | Medium"/><meta data-rh="true" property="og:title" content="CRLF injection"/><meta data-rh="true" property="al:android:url" content="medium://p/ae26521c5e4c"/><meta data-rh="true" property="al:ios:url" content="medium://p/ae26521c5e4c"/><meta data-rh="true" property="al:android:app_name" content="Medium"/><meta data-rh="true" name="description" content="In all the operating systems that I know, CR (carriage return) and LF (line feed) characters are used to separate lines in text. For example, if you were to inspect this HTTP request at the byte…"/><meta data-rh="true" property="og:description" content="Introduction"/><meta data-rh="true" property="og:url" content="https://medium.com/@SpoofIMEI/crlf-injection-ae26521c5e4c"/><meta data-rh="true" property="al:web:url" content="https://medium.com/@SpoofIMEI/crlf-injection-ae26521c5e4c"/><meta data-rh="true" property="og:image" content="https://miro.medium.com/v2/resize:fit:1200/1*dGbIt8jpAck_zx75CoE9jw.png"/><meta data-rh="true" property="article:author" content="https://medium.com/@SpoofIMEI"/><meta data-rh="true" name="author" content="Spoofimei"/><meta data-rh="true" name="robots" content="index,noarchive,follow,max-image-preview:large"/><meta data-rh="true" name="referrer" content="unsafe-url"/><meta data-rh="true" property="twitter:title" content="CRLF injection"/><meta data-rh="true" name="twitter:site" content="@Medium"/><meta data-rh="true" name="twitter:app:url:iphone" content="medium://p/ae26521c5e4c"/><meta data-rh="true" property="twitter:description" content="Introduction"/><meta data-rh="true" name="twitter:image:src" content="https://miro.medium.com/v2/resize:fit:1200/1*dGbIt8jpAck_zx75CoE9jw.png"/><meta data-rh="true" name="twitter:card" content="summary_large_image"/><meta data-rh="true" name="twitter:label1" content="Reading time"/><meta data-rh="true" name="twitter:data1" content="4 min read"/><link data-rh="true" rel="icon" href="https://miro.medium.com/v2/5d8de952517e8160e40ef9841c781cdc14a5db313057fa3c3de41c6f5b494b19"/><link data-rh="true" rel="search" type="application/opensearchdescription+xml" title="Medium" href="/osd.xml"/><link data-rh="true" rel="apple-touch-icon" sizes="152x152" href="https://miro.medium.com/v2/resize:fill:304:304/10fd5c419ac61637245384e7099e131627900034828f4f386bdaa47a74eae156"/><link data-rh="true" rel="apple-touch-icon" sizes="120x120" href="https://miro.medium.com/v2/resize:fill:240:240/10fd5c419ac61637245384e7099e131627900034828f4f386bdaa47a74eae156"/><link data-rh="true" rel="apple-touch-icon" sizes="76x76" href="https://miro.medium.com/v2/resize:fill:152:152/10fd5c419ac61637245384e7099e131627900034828f4f386bdaa47a74eae156"/><link data-rh="true" rel="apple-touch-icon" sizes="60x60" href="https://miro.medium.com/v2/resize:fill:120:120/10fd5c419ac61637245384e7099e131627900034828f4f386bdaa47a74eae156"/><link data-rh="true" rel="mask-icon" href="https://miro.medium.com/v2/resize:fill:1000:1000/7*GAOKVe--MXbEJmV9230oOQ.png" color="#171717"/><link data-rh="true" rel="manifest" href="/manifest.json"/><link data-rh="true" id="glyph_preload_link" rel="preload" as="style" type="text/css" href="https://glyph.medium.com/css/unbound.css"/><link data-rh="true" id="glyph_link" rel="stylesheet" type="text/css" href="https://glyph.medium.com/css/unbound.css"/><link data-rh="true" rel="author" href="https://medium.com/@SpoofIMEI"/><link data-rh="true" rel="canonical" href="https://medium.com/@SpoofIMEI/crlf-injection-ae26521c5e4c"/><link data-rh="true" rel="alternate" href="android-app://com.medium.reader/https/medium.com/p/ae26521c5e4c"/><script data-rh="true" type="application/ld+json">{"@context":"http:\u002F\u002Fschema.org","@type":"NewsArticle","image":["https:\u002F\u002Fmiro.medium.com\u002Fv2\u002Fresize:fit:1200\u002F1*dGbIt8jpAck_zx75CoE9jw.png"],"url":"https:\u002F\u002Fmedium.com\u002F@SpoofIMEI\u002Fcrlf-injection-ae26521c5e4c","dateCreated":"2024-02-25T10:31:40.299Z","datePublished":"2024-02-25T10:31:40.299Z","dateModified":"2024-02-26T04:18:21.010Z","headline":"CRLF injection - Spoofimei - Medium","name":"CRLF injection - Spoofimei - Medium","description":"In all the operating systems that I know, CR (carriage return) and LF (line feed) characters are used to separate lines in text. For example, if you were to inspect this HTTP request at the byte…","identifier":"ae26521c5e4c","author":{"@type":"Person","name":"Spoofimei","url":"https:\u002F\u002Fmedium.com\u002F@SpoofIMEI"},"creator":["Spoofimei"],"publisher":{"@type":"Organization","name":"Medium","url":"https:\u002F\u002Fmedium.com\u002F","logo":{"@type":"ImageObject","width":272,"height":60,"url":"https:\u002F\u002Fmiro.medium.com\u002Fv2\u002Fresize:fit:544\u002F7*V1_7XP4snlmqrc_0Njontw.png"}},"mainEntityOfPage":"https:\u002F\u002Fmedium.com\u002F@SpoofIMEI\u002Fcrlf-injection-ae26521c5e4c"}</script><style type="text/css" data-fela-rehydration="556" data-fela-type="STATIC">html{box-sizing:border-box;-webkit-text-size-adjust:100%}*, *:before, *:after{box-sizing:inherit}body{margin:0;padding:0;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;color:rgba(0,0,0,0.8);position:relative;min-height:100vh}h1, h2, h3, h4, h5, h6, dl, dd, ol, ul, menu, figure, blockquote, p, pre, form{margin:0}menu, ol, ul{padding:0;list-style:none;list-style-image:none}main{display:block}a{color:inherit;text-decoration:none}a, button, input{-webkit-tap-highlight-color:transparent}img, svg{vertical-align:middle}button{background:transparent;overflow:visible}button, input, optgroup, select, textarea{margin:0}:root{--reach-tabs:1;--reach-menu-button:1}#speechify-root{font-family:Sohne, sans-serif}div[data-popper-reference-hidden="true"]{visibility:hidden;pointer-events:none}.grecaptcha-badge{visibility:hidden}
+/*XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>*/.hljs {background: #fff;color: black;
+}/* Gray DOCTYPE selectors like WebKit */
+.xml .hljs-meta {color: #c0c0c0;
+}.hljs-comment,
+.hljs-quote {color: #007400;
+}.hljs-tag,
+.hljs-attribute,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-name {color: #aa0d91;
+}.hljs-variable,
+.hljs-template-variable {color: #3F6E74;
+}.hljs-code,
+.hljs-string,
+.hljs-meta .hljs-string {color: #c41a16;
+}.hljs-regexp,
+.hljs-link {color: #0E0EFF;
+}.hljs-title,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-number {color: #1c00cf;
+}.hljs-section,
+.hljs-meta {color: #643820;
+}.hljs-title.class_,
+.hljs-class .hljs-title,
+.hljs-type,
+.hljs-built_in,
+.hljs-params {color: #5c2699;
+}.hljs-attr {color: #836C28;
+}.hljs-subst {color: #000;
+}.hljs-formula {background-color: #eee;font-style: italic;
+}.hljs-addition {background-color: #baeeba;
+}.hljs-deletion {background-color: #ffc8bd;
+}.hljs-selector-id,
+.hljs-selector-class {color: #9b703f;
+}.hljs-doctag,
+.hljs-strong {font-weight: bold;
+}.hljs-emphasis {font-style: italic;
