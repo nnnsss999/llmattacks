@@ -1,0 +1,22 @@
+repos:
+  - repo: https://github.com/pre-commit/mirrors-markdownlint
+    rev: v0.38.0
+    hooks:
+      - id: markdownlint
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.4.1
+    hooks:
+      - id: codespell
+  - repo: local
+    hooks:
+      - id: front-matter
+        name: front-matter-validator
+        entry: python scripts/check_front_matter.py
+        language: system
+        files: ^docs/.*\.md$
+      - id: duplicate-detector
+        name: duplicate-detector
+        entry: python scripts/check_duplicates.py
+        language: system
+        files: ^docs/.*\.md$
+
