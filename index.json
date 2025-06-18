@@ -1,46 +1,18 @@
 {
-  "Inference": [
-    {
-      "title": "Safety Filter Timing Side-Channel",
-      "path": "inference/safety-filter-timing-side-channel.md",
-      "category": "Inference",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    },
-    {
-      "title": "Timing Side-Channel Extraction",
-      "path": "inference/timing-side-channel.md",
-      "category": "Inference",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    },
-    {
-      "title": "Gradient Leakage and Model Inversion via LoRA",
-      "path": "inference/gradient-leakage-inversion.md",
-      "category": "Inference",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    },
-    {
-      "title": "Alignment-Aware Model Extraction Attacks",
-      "path": "inference/alignment-aware-mea.md",
-      "category": "Inference",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    },
-    {
-      "title": "Membership Inference Attacks on Large-Scale Models: A Survey",
-      "path": "inference/membership-inference.md",
-      "category": "Inference",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    }
-  ],
   "Tokenization": [
     {
       "title": "TokenBreak Single-Character Bypass",
       "path": "prompt-dialogue/tokenbreak-single-character-bypass.md",
       "category": "Tokenization",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    }
+  ],
+  "Agentic": [
+    {
+      "title": "Agent Toolchain Privilege Escalation",
+      "path": "agentic/agent-toolchain-priv-escalation.md",
+      "category": "Agentic",
       "sub_category": "",
       "date_collected": "2025-06-18"
     }
@@ -59,6 +31,59 @@
       "title": "Reinforcement-Learning Alignment Attacks",
       "path": "training-alignment/reinforcement-learning-alignment-attacks.md",
       "category": "Training Alignment",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    }
+  ],
+  "Multimodal": [
+    {
+      "title": "Image Obscuring Jailbreak",
+      "path": "multimodal/image-obscuring-jailbreak.md",
+      "category": "Multimodal",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Audio Steganography Jailbreak",
+      "path": "multimodal/audio-steganography-jailbreak.md",
+      "category": "Multimodal",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    }
+  ],
+  "Inference": [
+    {
+      "title": "Timing Side-Channel Extraction",
+      "path": "inference/timing-side-channel.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Membership Inference Attacks on Large-Scale Models: A Survey",
+      "path": "inference/membership-inference.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Safety Filter Timing Side-Channel",
+      "path": "inference/safety-filter-timing-side-channel.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Alignment-Aware Model Extraction Attacks",
+      "path": "inference/alignment-aware-mea.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Gradient Leakage and Model Inversion via LoRA",
+      "path": "inference/gradient-leakage-inversion.md",
+      "category": "Inference",
       "sub_category": "",
       "date_collected": "2025-06-18"
     }
