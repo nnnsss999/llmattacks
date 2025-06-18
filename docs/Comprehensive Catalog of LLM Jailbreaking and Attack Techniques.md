@@ -5,6 +5,7 @@
 ## Introduction
 
 Large Language Models (LLMs) have revolutionized natural language processing with their remarkable capabilities, but they remain vulnerable to various adversarial attacks that can bypass safety mechanisms and elicit harmful or unintended responses. This comprehensive catalog documents the diverse techniques used to jailbreak, overcome defenses, and manipulate LLMs across multiple dimensions [^1_1][^1_2]. By systematically categorizing these attack vectors, we aim to provide a foundation for developing more robust defense mechanisms against such exploits [^1_3].
+Additional resources, including downloaded webpages, code repositories, and markdown notes for each attack category are organized in subdirectories under this **docs** folder.
 
 ## Text-Based Attack Techniques
 
