@@ -6,10 +6,10 @@
 
 Large Language Models (LLMs) have revolutionized natural language processing with their remarkable capabilities, but they remain vulnerable to various adversarial attacks that can bypass safety mechanisms and elicit harmful or unintended responses. This comprehensive catalog documents the diverse techniques used to jailbreak, overcome defenses, and manipulate LLMs across multiple dimensions [^1_1][^1_2]. By systematically categorizing these attack vectors, we aim to provide a foundation for developing more robust defense mechanisms against such exploits [^1_3].
 Additional resources, including downloaded webpages, code repositories, and markdown notes for each attack category are organized in subdirectories under this **docs** folder.
+Plain text from the accompanying PDF is available in [pdf-extract.md](pdf-extract.md).
 
 ## Text-Based Attack Techniques
 
-### Prompt Engineering Attacks
 
 #### Direct Prompt Injection
 
@@ -144,7 +144,7 @@ Hiding malicious content within images [^1_26][^1_27]:
 Using visual structure to bypass safety mechanisms [^1_28][^1_29]:
 
 - **FC-Attack**: Jailbreaking MLLMs via auto-generated flowcharts with partially harmful information [^1_28].
-- **PiCo**: A framework that embeds harmful intent within code-style visual instructions [^1_29].
+- **[PiCo](training-alignment/pico.md)**: A framework that embeds harmful intent within code-style visual instructions [^1_29].
 
 
 ### Cross-Modal Attacks
@@ -824,7 +824,7 @@ A fuzzing approach for jailbreaking LLMs [^1_22]:
 • Lightweight Mutation Engine: A system that generates variations of seed prompts to find
 successful jailbreaks [^1_22].
 • Guided Fuzzing: Using evaluators to guide the fuzzing process toward more effective attacks
-[^1_22].
+• **[PiCo](training-alignment/pico.md)**: A framework that embeds harmful intent within code-style visual instructions [^1_29].
 PROMPTFUZZ
 A testing framework for prompt injection attacks [^1_23]:
 • Prepare Phase: Selecting promising initial seeds and collecting few-shot examples [^1_23].
@@ -1016,59 +1016,6 @@ Using the model against itself [^1_9]:
 [^1_12]: Rupani, "Limitations of Data Tokenization in NLP".
 [^1_13]: HiddenLayer, "The TokenBreak Attack on NLP Models".
 [^1_14]: Zhang et al., "Emoji-based Adversarial Attacks on LLMs" (2024).
-[^1_15]: OWASP, "Unicode Encoding Attacks".
-[^1_16]: Cheng et al., "Special Tokens for Jailbreak Prompt Boosting" (EMNLP 2024).
-[^1_17]: Li et al., "Enhancing Prompt Attacks with Reserved Tokens" (2024).
-[^1_18]: Perez et al., "Red Teaming Language Models with Greedy Coordinate Gradient" (2023).
-[^1_19]: PromptFoo, "GCG Strategies for Prompt Red-Teaming".
-[^1_20]: Bishop Fox, "BrokenHill: Attacking LLM Safeguards via Gradient Exploits".
-[^1_21]: Qi et al., "Generative Suffix Model for Prompt Attacks" (ICLR 2024).
-
-8
-
-[^1_22]: Shen et al., "JBFuzz: Fuzzing Large Language Model Jailbreaks" (2024).
-[^1_23]: Wang et al., "PROMPTFUZZ: Benchmarking Prompt Injection Attacks" (2024).
-[^1_24]: Wu et al., "Image-based Jailbreaks for Vision-Language Models" (2024).
-[^1_25]: Gan et al., "Jailbreaks via Adversarial Images" (2024).
-[^1_26]: GitHub - TrustAI-Lab, "Image-Prompt-Injection-Demo".
-[^1_27]: Liu X., "Awesome Multimodal Jailbreak" (GitHub repository).
-[^1_28]: Sharma et al., "Flowchart Attacks on Multimodal LLMs" (2024).
-[^1_29]: Li et al., "PiCo: Poisoning Code Instructions for LLMs" (2025).
-[^1_30]: Zhang et al., "Shuffle Inconsistency Attacks on MLLMs" (2025).
-[^1_31]: Zhang et al., "VisCRA: Visual Chain-of-Reasoning Attacks" (2024).
-[^1_32]: Wu et al., "Adversarial Latent Attacks via Activation Obfuscation" (2024).
-[^1_33]: He et al., "Joint Optimization for Latent Adversarial Examples" (2024).
-[^1_34]: Yang et al., "Targeted Latent Adversarial Training for LLMs" (2023).
-[^1_35]: Gao et al., "LARGO: Latent Adversarial Reflections in LLMs" (2024).
-[^1_36]: Si et al., "Continuous Embedding Space Attacks on LLMs" (2024).
-[^1_37]: He et al., "Extracting Training Data via Embedding Inversion" (2024).
-[^1_38]: Chen et al., "Cross-Lingual Embedding Inversion Attacks" (2024).
-[^1_39]: Zou et al., "Large-Scale Jailbreaking via Many-Shot Prompting" (NeurIPS 2024).
-[^1_40]: Li et al., "Puzzler: Indirect Query Jailbreaks via Implicit Clues" (2024).
-[^1_41]: Tech Xplore, "DarkMind Backdoor Leverages Chain-of-Thought" (2025).
-[^1_42]: Cobalt, "Backdoor Attacks on AI Models: An Overview".
-[^1_43]: Zhang et al., "Weight and Activation Tampering Attacks on LLMs" (2025).
-
-1
-
-RAG Poisoning: An Emerging Threat in AI Systems - Medium
-
-https://medium.com/nfactor-technologies/rag-poisoning-an-emerging-threat-in-ai-systems-660f9ff279f9
-2
-
-3
-
-AI models collapse when trained on recursively generated data | Nature
-
-https://www.nature.com/articles/s41586-024-07566-y?
-error=cookies_not_supported&code=4dc21207-8946-4298-8d1d-33b29871dd5c
-4
-
-5
-
-6
-
-Defending against Reverse Preference Attacks is Difficult
 
 https://arxiv.org/html/2409.12914v1
 7
