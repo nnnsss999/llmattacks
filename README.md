@@ -6,6 +6,10 @@ The catalog is maintained for researchers and defenders who need a single refere
 
 New additions cover emerging *reinforcement-learning alignment attacks* such as [Reverse Preference Attack](docs/training-alignment/reinforcement-learning-alignment-attacks.md), [BadReward](docs/training-alignment/reinforcement-learning-alignment-attacks.md#badreward-clean-label-poisoning), and [Adversarial Preference Learning](docs/training-alignment/reinforcement-learning-alignment-attacks.md#adversarial-preference-learning). See the `training-alignment` folder for details.
 
+## Browse Online
+
+A searchable website built with **MkDocs Material** is automatically deployed to GitHub Pages. Visit <https://example.github.io/llmattacks/> to explore the catalog with Mermaid diagrams enabled.
+
 ## Using This Repository
 
 - The **canonical files** reside under `docs/` and use kebab‑case names.
