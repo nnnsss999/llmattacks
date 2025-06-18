@@ -18,6 +18,7 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 - Run `python scripts/build_index.py` to regenerate `index.json`, which lists all catalog entries by category and date.
 - Run `python scripts/cache_pdfs.py` to locally cache PDF sources when allowed.
 - Run `python scripts/scrub_js.py` to remove third-party `<script>` tags and cookie banners from HTML or Markdown files.
+- Run `python scripts/generate_sbom.py` to regenerate `sbom.json`, a CycloneDX SBOM of all source files for traceability.
 - Broken links are checked via `lychee` in CI.
 - A scheduled workflow refreshes external links weekly and stores Wayback Machine snapshots in `link_archive.json`.
 

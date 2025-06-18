@@ -1,0 +1,390 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "llmattacks"
+    }
+  },
+  "components": [
+    {
+      "type": "file",
+      "name": "Comprehensive Catalog of LLM Jailbreaking and Attack Techniques.md",
+      "bom-ref": "Comprehensive Catalog of LLM Jailbreaking and Attack Techniques.md"
+    },
+    {
+      "type": "file",
+      "name": "agentic/agent-toolchain-priv-escalation.md",
+      "bom-ref": "agentic/agent-toolchain-priv-escalation.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Agent Toolchain Privilege Escalation"
+        },
+        {
+          "name": "category",
+          "value": "Agentic"
+        },
+        {
+          "name": "source_url",
+          "value": "https://community.openai.com/t/dissecting-auto-gpts-prompt/163892"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "agentic/index.md",
+      "bom-ref": "agentic/index.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Agentic and Physical-World Misuse"
+        },
+        {
+          "name": "category",
+          "value": "Agentic"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "index.md",
+      "bom-ref": "index.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "LLM Attacks Catalog"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "inference/alignment-aware-mea.md",
+      "bom-ref": "inference/alignment-aware-mea.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Alignment-Aware Model Extraction Attacks"
+        },
+        {
+          "name": "category",
+          "value": "Inference"
+        },
+        {
+          "name": "source_url",
+          "value": "https://openreview.net/forum?id=AKsfpHc9sN"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "inference/gradient-leakage-inversion.md",
+      "bom-ref": "inference/gradient-leakage-inversion.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Gradient Leakage and Model Inversion via LoRA"
+        },
+        {
+          "name": "category",
+          "value": "Inference"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/abs/2406.01234"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "inference/membership-inference.md",
+      "bom-ref": "inference/membership-inference.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Membership Inference Attacks on Large-Scale Models: A Survey"
+        },
+        {
+          "name": "category",
+          "value": "Inference"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/abs/2503.19338"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "inference/safety-filter-timing-side-channel.md",
+      "bom-ref": "inference/safety-filter-timing-side-channel.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Safety Filter Timing Side-Channel"
+        },
+        {
+          "name": "category",
+          "value": "Inference"
+        },
+        {
+          "name": "source_url",
+          "value": "https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "inference/timing-side-channel.md",
+      "bom-ref": "inference/timing-side-channel.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Timing Side-Channel Extraction"
+        },
+        {
+          "name": "category",
+          "value": "Inference"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/abs/2411.18191"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "multimodal/audio-steganography-jailbreak.md",
+      "bom-ref": "multimodal/audio-steganography-jailbreak.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Audio Steganography Jailbreak"
+        },
+        {
+          "name": "category",
+          "value": "Multimodal"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/abs/2405.67890"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "multimodal/image-obscuring-jailbreak.md",
+      "bom-ref": "multimodal/image-obscuring-jailbreak.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Image Obscuring Jailbreak"
+        },
+        {
+          "name": "category",
+          "value": "Multimodal"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/abs/2404.12345"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "pdf-extract.md",
+      "bom-ref": "pdf-extract.md"
+    },
+    {
+      "type": "file",
+      "name": "prompt-dialogue/tokenbreak-single-character-bypass.md",
+      "bom-ref": "prompt-dialogue/tokenbreak-single-character-bypass.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "TokenBreak Single-Character Bypass"
+        },
+        {
+          "name": "category",
+          "value": "Tokenization"
+        },
+        {
+          "name": "source_url",
+          "value": "https://www.techradar.com/pro/security/this-cyberattack-lets-hackers-crack-ai-models-just-by-changing-a-single-character"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "training-alignment/index.md",
+      "bom-ref": "training-alignment/index.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Training-Phase & Alignment Attacks"
+        },
+        {
+          "name": "category",
+          "value": "Training Alignment"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "training-alignment/mechanism-centric-poisoning.md",
+      "bom-ref": "training-alignment/mechanism-centric-poisoning.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Mechanism-Centric Data Poisoning"
+        },
+        {
+          "name": "category",
+          "value": "Training & Alignment"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/html/2502.14182v1"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "training-alignment/pico.md",
+      "bom-ref": "training-alignment/pico.md"
+    },
+    {
+      "type": "file",
+      "name": "training-alignment/reinforcement-learning-alignment-attacks.md",
+      "bom-ref": "training-alignment/reinforcement-learning-alignment-attacks.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Reinforcement-Learning Alignment Attacks"
+        },
+        {
+          "name": "category",
+          "value": "Training Alignment"
+        },
+        {
+          "name": "source_url",
+          "value": "https://www.anthropic.com/research/probes-catch-sleeper-agents"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    }
+  ]
+}
