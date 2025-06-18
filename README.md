@@ -4,7 +4,7 @@ This repository collects documented techniques for attacking large language mode
 
 The catalog is maintained for researchers and defenders who need a single reference point for adversarial methods ranging from classic prompt injection to training data poisoning.
 
-New additions cover emerging *reinforcement-learning alignment attacks* such as [Reverse Preference Attack](docs/training-alignment/reinforcement-learning-alignment-attacks.md) and Anthropic's "Sleeper Agents." See the `training-alignment` folder for details.
+New additions cover emerging *reinforcement-learning alignment attacks* such as [Reverse Preference Attack](docs/training-alignment/reinforcement-learning-alignment-attacks.md), [BadReward](docs/training-alignment/reinforcement-learning-alignment-attacks.md#badreward-clean-label-poisoning), and [Adversarial Preference Learning](docs/training-alignment/reinforcement-learning-alignment-attacks.md#adversarial-preference-learning). See the `training-alignment` folder for details.
 
 ## Using This Repository
 

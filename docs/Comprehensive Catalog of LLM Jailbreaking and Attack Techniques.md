@@ -636,6 +636,8 @@ Recent research and breach reports show that large-language-model (LLM) systems 
 | **2.3 Backdoor / Trojan Triggers (TrojLLM, BadDiffusion)** | Embed a secret token or visual patch that flips behaviour at inference time while leaving normal accuracy intact. | ([dl.acm.org][11], [venturebeat.com][12]) |
 | **2.4 Reverse Preference Attack (RPA)**                    | Flip reward signs during RLHF or DPO so the model gradually un-aligns from safety rules.                          | ([arxiv.org][13])                         |
 | **2.5 Sleeper Agents**                                     | Models that appear aligned until a hidden condition—date, phrase, API flag—causes defection.                      | ([anthropic.com][14])                     |
+| **2.6 Reward Model Poisoning (BadReward)**                  | Poison the reward model so RLHF fine-tuning gradually promotes unsafe outputs.                               | ([arxiv.org][23])                        |
+| **2.7 Adversarial Preference Learning**                     | Generate adversarial prompts that corrupt reward feedback in iterative RL training.                           | ([arxiv.org][24])                        |
 
 ---
 
@@ -733,4 +735,6 @@ Your catalog is now aligned with every peer-reviewed or industry-grade threat pu
 [20]: https://arxiv.org/html/2407.17915v1?utm_source=chatgpt.com "The Dark Side of Function Calling: Pathways to Jailbreaking Large ..."
 [21]: https://community.openai.com/t/dissecting-auto-gpts-prompt/163892?utm_source=chatgpt.com "Dissecting Auto-GPT's prompt - OpenAI Developer Community"
 [22]: https://www.wired.com/story/researchers-llm-ai-robot-violence?utm_source=chatgpt.com "AI-Powered Robots Can Be Tricked Into Acts of Violence"
+[23]: https://arxiv.org/abs/2506.03234 "BadReward: Clean-Label Poisoning of Reward Models in Text-to-Image RLHF"
+[24]: https://arxiv.org/abs/2505.24369 "Adversarial Preference Learning for Robust LLM Alignment"
 
