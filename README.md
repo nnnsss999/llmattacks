@@ -14,6 +14,7 @@ New additions cover emerging *reinforcement-learning alignment attacks* such as 
 - Run `python scripts/build_index.py` to regenerate `index.json`, which lists all catalog entries by category and date.
 - Run `python scripts/cache_pdfs.py` to locally cache PDF sources when allowed.
 - Broken links are checked via `lychee` in CI.
+- A scheduled workflow refreshes external links weekly and stores Wayback Machine snapshots in `link_archive.json`.
 
 ## Contributing
 
