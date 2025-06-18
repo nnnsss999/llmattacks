@@ -2,6 +2,8 @@ site_name: LLM Attacks Catalog
 site_description: Comprehensive knowledge base of attacks on large language models
 site_url: https://example.github.io/llmattacks
 repo_url: https://github.com/example/llmattacks
+theme:
+  name: material
 nav:
   - Home: index.md
   - Catalog: 'Comprehensive Catalog of LLM Jailbreaking and Attack Techniques.md'
@@ -10,6 +12,7 @@ nav:
       - Training Alignment: training-alignment/reinforcement-learning-alignment-attacks.md
 plugins:
   - search
+  - mermaid2
 markdown_extensions:
   - admonition
   - toc
@@ -20,5 +23,3 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.extra
-extra_javascript:
-  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
