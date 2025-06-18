@@ -668,9 +668,10 @@ Recent research and breach reports show that large-language-model (LLM) systems 
 | **Vector**                                     | **Description**                                                                                                 | **Key Sources**         |
 | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------- |
 | **5.1 Model Extraction & Distillation (LoRD)** | Systematic API querying plus Locality-Reinforced Distillation reproduces the victim model’s weights for <\$300. | ([arxiv.org][2])        |
-| **5.2 Membership / Property Inference**        | Decide whether a record was in the fine-tune set or infer dataset demographics from logits.                     | ([arxiv.org][16])       |
-| **5.3 Timing & Cache Side-Channels**           | Measure per-token latency to guess other users’ prompts on shared GPU nodes.                                    | ([arxiv.org][17])       |
-| **5.4 Model Denial-of-Service (DoS)**          | Context-window flooding or “forever-loop” reasoning tasks deplete quota and throttle other users.               | ([genai.owasp.org][18]) |
+| **5.2 Alignment-Aware Model Extraction**       | Queries optimize alignment objectives while stealing weights, lowering watermark detection. | ([openreview.net][23]) |
+| **5.3 Membership / Property Inference**        | Decide whether a record was in the fine-tune set or infer dataset demographics from logits.                     | ([arxiv.org][16])       |
+| **5.4 Timing & Cache Side-Channels**           | Measure per-token latency to guess other users’ prompts on shared GPU nodes.                                    | ([arxiv.org][17])       |
+| **5.5 Model Denial-of-Service (DoS)**          | Context-window flooding or “forever-loop” reasoning tasks deplete quota and throttle other users.               | ([genai.owasp.org][18]) |
 
 ---
 
@@ -712,6 +713,7 @@ Recent research and breach reports show that large-language-model (LLM) systems 
 4. Expanded **Privacy attacks** to include **membership** and **property inference**; see [inference/membership-inference.md](inference/membership-inference.md) for notes. ([arxiv.org][16])
 5. Added **Tokenizer-level bypass (TokenBreak)**—a newly disclosed vector. ([techradar.com][4])
 6. Integrated **Function-routing jailbreaks** and **CRLF/XSS output abuse**, both top OWASP items. ([arxiv.org][20], [medium.com][19])
+7. Documented **Alignment-Aware model extraction**; see [inference/alignment-aware-mea.md](inference/alignment-aware-mea.md). ([openreview.net][23])
 
 Your catalog is now aligned with every peer-reviewed or industry-grade threat published through mid-June 2025, covering **prompt → robot** in one hierarchy. Feel free to regenerate your PDF or knowledge-graph from this markdown section.
 
@@ -738,3 +740,4 @@ Your catalog is now aligned with every peer-reviewed or industry-grade threat pu
 [21]: https://community.openai.com/t/dissecting-auto-gpts-prompt/163892?utm_source=chatgpt.com "Dissecting Auto-GPT's prompt - OpenAI Developer Community"
 [22]: https://www.wired.com/story/researchers-llm-ai-robot-violence?utm_source=chatgpt.com "AI-Powered Robots Can Be Tricked Into Acts of Violence"
 
+[23]: https://openreview.net/forum?id=AKsfpHc9sN&utm_source=chatgpt.com "Alignment-Aware Model Extraction Attacks on Large Language Models"
