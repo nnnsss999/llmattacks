@@ -9,6 +9,8 @@ The catalog is maintained for researchers and defenders who need a single refere
 - The **canonical files** reside under `docs/` and use kebab‑case names.
 - Each file may include YAML front matter describing the source, category, and license.
 - A compiled PDF version is provided for offline viewing.
+- Run `python scripts/build_index.py` to regenerate `index.json`, which lists all
+  catalog entries by category and date.
 
 ## Contributing
 
