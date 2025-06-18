@@ -18,6 +18,10 @@ New additions cover emerging *reinforcement-learning alignment attacks* such as 
 
 Contributions are welcome! Please review [CONTRIBUTING.md](CONTRIBUTING.md) for coding style and front‑matter guidelines. All content must respect the project license and third‑party terms.
 
+## Development Workflow
+
+This project uses **pre-commit** hooks for basic linting and a GitHub Actions pipeline that runs the hooks and a link checker. Run `pre-commit run --all-files` before committing, and the CI will enforce these checks on every pull request.
+
 ## License
 
 All original content is licensed under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license. Third‑party excerpts remain under their respective licenses.
