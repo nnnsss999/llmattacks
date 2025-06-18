@@ -38,6 +38,13 @@
       "category": "Inference",
       "sub_category": "",
       "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Safety Filter Timing Side-Channel",
+      "path": "inference/safety-filter-timing-side-channel.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
     }
   ],
   "Tokenization": [
