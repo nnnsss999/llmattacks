@@ -11,8 +11,9 @@ New additions cover emerging *reinforcement-learning alignment attacks* such as 
 - The **canonical files** reside under `docs/` and use kebab‑case names.
 - Each file may include YAML front matter describing the source, category, and license.
 - A compiled PDF version is provided for offline viewing.
-- Run `python scripts/build_index.py` to regenerate `index.json`, which lists all
-  catalog entries by category and date.
+- Run `python scripts/build_index.py` to regenerate `index.json`, which lists all catalog entries by category and date.
+- Run `python scripts/cache_pdfs.py` to locally cache PDF sources when allowed.
+- Broken links are checked via `lychee` in CI.
 
 ## Contributing
 
