@@ -148,6 +148,7 @@ Using visual structure to bypass safety mechanisms [^1_28][^1_29]:
 
 - **FC-Attack**: Jailbreaking MLLMs via auto-generated flowcharts with partially harmful information [^1_28].
 - **[PiCo](training-alignment/pico.md)**: A framework that embeds harmful intent within code-style visual instructions [^1_29].
+- [Naturalistic Adversarial Patch](multimodal/naturalistic-patch-arxiv.html) - example of patch-based jailbreak.
 
 
 ### Cross-Modal Attacks
@@ -176,6 +177,7 @@ Techniques that reshape activation patterns to bypass defenses [^1_32][^1_33]:
 
 - **Activation Obfuscation**: Adversarially modifying model outputs to fool latent-space monitors while still accomplishing the attacker's intended task [^1_32].
 - **Joint Optimization**: Balancing behavior preservation with defense evasion through careful optimization of latent representations [^1_33].
+- [Latent Space Threats](latent-space/apexhq-latentspace.html) - overview of latent manipulation.
 
 
 #### Latent Adversarial Attacks
@@ -646,6 +648,7 @@ Recent research and breach reports show that large-language-model (LLM) systems 
 | **3.1 Vector-Store Poisoning** | Insert near-duplicate embeddings with adversarial payloads; cosine similarity makes them top hits.  | ([arxiv.org][10]) |
 | **3.2 SEO-Driven Poisoning**   | Weaponise search-engine optimisation so public crawlers add attacker pages to open-web RAG corpora. | ([arxiv.org][10]) |
 | **3.3 On-Device Cache Hijack** | Replace local PDF/articles indexed for offline RAG with tampered copies.                            | ([arxiv.org][10]) |
+- [PoisonedRAG arXiv HTML](rag/poisonedrag-arxiv.html) - detailed paper.
 
 ---
 
@@ -656,6 +659,7 @@ Recent research and breach reports show that large-language-model (LLM) systems 
 | **4.1 Tampered Checkpoints / Fine-Tune Artefacts** | Swap or patch `.safetensors` / `.bin` files en-route to production.                               | ([thehackernews.com][15]) |
 | **4.2 Dependency Hijacking (PyPI/npm)**            | Malicious package declared as “wrapper” around an LLM but steals API keys or loads rogue weights. | ([thehackernews.com][15]) |
 | **4.3 Container-Image Poisoning**                  | Alter Docker layers to preload backdoored tokenizer or prompt-template.                           | ([thehackernews.com][15]) |
+- [Dependency Hijacking Article](supply-chain/thehackernews-dependency-hijack.html) - case study.
 
 ---
 
