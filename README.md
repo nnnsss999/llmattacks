@@ -15,6 +15,7 @@ New additions cover emerging *reinforcement-learning alignment attacks* such as 
 - Run `python scripts/cache_pdfs.py` to locally cache PDF sources when allowed.
 - Run `python scripts/scrub_js.py` to remove third-party `<script>` tags and cookie banners from HTML or Markdown files.
 - Broken links are checked via `lychee` in CI.
+- A scheduled workflow refreshes external links weekly and stores Wayback Machine snapshots in `link_archive.json`.
 
 ## Contributing
 
