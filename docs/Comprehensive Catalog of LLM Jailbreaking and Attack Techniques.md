@@ -640,9 +640,8 @@ Recent research and breach reports show that large-language-model (LLM) systems 
 | **2.3 Backdoor / Trojan Triggers (TrojLLM, BadDiffusion)** | Embed a secret token or visual patch that flips behaviour at inference time while leaving normal accuracy intact. | ([dl.acm.org][11], [venturebeat.com][12]) |
 | **2.4 Reverse Preference Attack (RPA)**                    | Flip reward signs during RLHF or DPO so the model gradually un-aligns from safety rules.                          | ([arxiv.org][13])                         |
 | **2.5 Sleeper Agents**                                     | Models that appear aligned until a hidden condition—date, phrase, API flag—causes defection.                      | ([anthropic.com][14])                     |
-
+| **2.6 Mechanism-Centric Data Poisoning** | Survey of poisoning strategies including clean-label and dirty-label methods. | ([arxiv.org][24]) |
 ---
-
 ## 3 Retrieval-Augmented Generation (RAG) Attacks
 
 | **Vector**                     | **Description**                                                                                     | **Key Sources**   |
@@ -742,3 +741,4 @@ Your catalog is now aligned with every peer-reviewed or industry-grade threat pu
 [22]: https://www.wired.com/story/researchers-llm-ai-robot-violence?utm_source=chatgpt.com "AI-Powered Robots Can Be Tricked Into Acts of Violence"
 
 [23]: https://openreview.net/forum?id=AKsfpHc9sN "Alignment-Aware Model Extraction Attacks on Large Language Models"
+[24]: https://arxiv.org/html/2502.14182v1 "Multi-Faceted Studies on Data Poisoning can Advance LLM ... - arXiv"

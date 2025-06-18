@@ -1,0 +1,1792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>Multi-Faceted Studies on Data Poisoning can Advance LLM Development</title>
+<!--Generated on Thu Feb 20 01:17:47 2025 by LaTeXML (version 0.8.8) http://dlmf.nist.gov/LaTeXML/.-->
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="/static/browse/0.3.4/css/ar5iv.0.7.9.min.css" rel="stylesheet" type="text/css"/>
+<link href="/static/browse/0.3.4/css/ar5iv-fonts.0.7.9.min.css" rel="stylesheet" type="text/css"/>
+<link href="/static/browse/0.3.4/css/latexml_styles.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.3/html2canvas.min.js"></script>
+<script src="/static/browse/0.3.4/js/addons_new.js"></script>
+<script src="/static/browse/0.3.4/js/feedbackOverlay.js"></script>
+<meta content="Machine Learning,  ICML" lang="en" name="keywords"/>
+<base href="/html/2502.14182v1/"/></head>
+<body>
+<nav class="ltx_page_navbar">
+<nav class="ltx_TOC">
+<ol class="ltx_toclist">
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S1" title="In Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1 </span>Introduction</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S2" title="In Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span>Data poisoning in LLMs</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S2.SS1" title="In 2 Data poisoning in LLMs ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2.1 </span>An overview of data poisoning in LLM’s lifecycle</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection">
+<a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S2.SS2" title="In 2 Data poisoning in LLMs ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2.2 </span>Limitation in existing threat-centric data poisoning</span></a>
+<ol class="ltx_toclist ltx_toclist_subsection">
+<li class="ltx_tocentry ltx_tocentry_subsubsection"><a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S2.SS2.SSS1" title="In 2.2 Limitation in existing threat-centric data poisoning ‣ 2 Data poisoning in LLMs ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2.2.1 </span>Analyzing the Practicality of Data Poisoning Threat Models</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsubsection"><a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S2.SS2.SSS2" title="In 2.2 Limitation in existing threat-centric data poisoning ‣ 2 Data poisoning in LLMs ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2.2.2 </span>Limitations due to the complexity of LLM lifecycle</span></a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S3" title="In Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span>Practical Threat-Centric Data Poisoning</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S3.SS0.SSS0.Px1" title="In 3 Practical Threat-Centric Data Poisoning ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title">Poison injection against secure data collection</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S3.SS0.SSS0.Px2" title="In 3 Practical Threat-Centric Data Poisoning ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title">Weaker attacker’s ability and new attacking objectives</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S4" title="In Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4 </span>Trust-centric Data Poisoning</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S4.SS0.SSS0.Px1" title="In 4 Trust-centric Data Poisoning ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title">Safeguarding LLMs via data poisoning</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S4.SS0.SSS0.Px2" title="In 4 Trust-centric Data Poisoning ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title">Data Poisoning for Trustworthy Auditing LLMs</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S5" title="In Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">5 </span>Mechanism-Centric Data Poisoning</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S5.SS0.SSS0.Px1" title="In 5 Mechanism-Centric Data Poisoning ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title">Understand CoT via data poisoning</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S5.SS0.SSS0.Px2" title="In 5 Mechanism-Centric Data Poisoning ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title">Backdoor attacks for understanding memorization.</span></a></li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S6" title="In Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">6 </span>Alternative Views</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S7" title="In Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">7 </span>Conclusion</span></a></li>
+</ol></nav>
+</nav>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_pruned_first">
+<h1 class="ltx_title ltx_title_document">Multi-Faceted Studies on Data Poisoning can Advance LLM Development
+</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Pengfei He
+</span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Yue Xing
+</span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Han Xu
+</span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Zhen Xiang
+</span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Jiliang Tang
+</span></span>
+</div>
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p class="ltx_p" id="id1.id1">The lifecycle of large language models (LLMs) is far more complex than that of traditional machine learning models, involving multiple training stages, diverse data sources, and varied inference methods. While prior research on data poisoning attacks has primarily focused on the safety vulnerabilities of LLMs, these attacks face significant challenges in practice. Secure data collection, rigorous data cleaning, and the multistage nature of LLM training make it difficult to inject poisoned data or reliably influence LLM behavior as intended.
+Given these challenges, this position paper proposes rethinking the role of data poisoning and argue that <span class="ltx_text ltx_font_bold" id="id1.id1.1">multi-faceted studies on data poisoning can advance LLM development</span>. From a threat perspective, practical strategies for data poisoning attacks can help evaluate and address real safety risks to LLMs. From a trustworthiness perspective, data poisoning can be leveraged to build more robust LLMs by uncovering and mitigating hidden biases, harmful outputs, and hallucinations. Moreover, from a mechanism perspective, data poisoning can provide valuable insights into LLMs, particularly the interplay between data and model behavior, driving a deeper understanding of their underlying mechanisms.</p>
+</div>
+<div class="ltx_keywords">Machine Learning, ICML
+</div>
+<div class="ltx_para" id="p2">
+<br class="ltx_break"/>
+</div>
+<section class="ltx_section" id="S1">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">1 </span>Introduction</h2>
+<div class="ltx_para" id="S1.p1">
+<p class="ltx_p" id="S1.p1.1">Data poisoning <cite class="ltx_cite ltx_citemacro_citep">(Zhao et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib95" title="">2023b</a>; Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib89" title="">2023</a>; Kojima et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib43" title="">2022</a>)</cite>, which refers to the threat model that introduces maliciously crafted data into model training processes <cite class="ltx_cite ltx_citemacro_citep">(Zhao et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib94" title="">2024b</a>; Kandpal et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib41" title="">2023</a>; Hubinger et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib39" title="">2024</a>)</cite>, has brought great threats to the security and trustworthiness of LLM applications.
+Recent studies have shown that such poisoned data can have far-reaching consequences in LLMs, including performance degradation <cite class="ltx_cite ltx_citemacro_citep">(He et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib34" title="">2024d</a>)</cite>, the insert of backdoors that allow attackers to control outputs under specific conditions <cite class="ltx_cite ltx_citemacro_citep">(Wan et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib72" title="">2023</a>; Kandpal et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib41" title="">2023</a>; Xiang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib80" title="">2024</a>)</cite>, and the manipulation of responses to serve malicious purposes <cite class="ltx_cite ltx_citemacro_citep">(Bekbayev et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib5" title="">2023</a>; Rando &amp; Tramèr, <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib61" title="">2023</a>; Bowen et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib7" title="">2024a</a>)</cite>.</p>
+</div>
+<div class="ltx_para" id="S1.p2">
+<p class="ltx_p" id="S1.p2.1">Unlike conventional machine learning models, LLM development usually undergoes a much more complex lifecycle. This includes pre-training on large-scale datasets, instruction tuning and RLHF <cite class="ltx_cite ltx_citemacro_citep">(Ziegler et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib99" title="">2019</a>; Ouyang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib56" title="">2022</a>)</cite>, fine-tuning for specific tasks or domains <cite class="ltx_cite ltx_citemacro_citep">(Hu et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib35" title="">2021</a>; Liu et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib51" title="">2022</a>)</cite>, inference-time adaptation methods such as in-context learning (ICL) <cite class="ltx_cite ltx_citemacro_citep">(Brown et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib9" title="">2020</a>)</cite>, and applications such as retrieval-augmented generation (RAG) <cite class="ltx_cite ltx_citemacro_citep">(Lewis et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib44" title="">2020</a>)</cite> and LLM agents <cite class="ltx_cite ltx_citemacro_citep">(Wu et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib78" title="">2023</a>; Gao et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib26" title="">2024</a>)</cite>. Since diverse data is involved in multiple stages of LLM’s lifecycle, data poisoning attacks naturally extend from attacking one dataset to all data sources in the lifecycle, and we refer to this extended attack as <span class="ltx_text ltx_font_bold" id="S1.p2.1.1">lifecycle-aware data poisoning for LLMs</span> (detailed in Section <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S2" title="2 Data poisoning in LLMs ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">2</span></a>).
+This broader scope introduces new aspects for investigation.</p>
+</div>
+<div class="ltx_para" id="S1.p3">
+<p class="ltx_p" id="S1.p3.1">However, the majority of existing data poisoning research on LLMs
+holds a threat-centric perspective that focuses on uncovering the risk of data poisoning, and mainly adopts attacks designed for traditional machine learning models to LLMs.
+We identify two fundamental limitations of the existing threat-centric efforts as follows:
+</p>
+</div>
+<div class="ltx_para" id="S1.p4">
+<p class="ltx_p" id="S1.p4.1">First, an often unjustified assumption is that attackers can directly or indirectly manipulate data. This assumption is especially challenging for LLMs, as their data sources are highly diverse and often private. For instance, large organizations developing LLMs typically do not disclose their pre-training or post-training datasets. This applies to both open-source models, such as the Llama series <cite class="ltx_cite ltx_citemacro_citep">(Dubey et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib22" title="">2024</a>)</cite>, and API-only models, such as GPTs <cite class="ltx_cite ltx_citemacro_citep">(Achiam et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib1" title="">2023</a>)</cite> (more details in Section <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S2" title="2 Data poisoning in LLMs ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">2</span></a>). If it is not well-justified whether the attacker is able to manipulate the data, the feasibility and impact of data poisoning attacks in real-world scenarios cannot be properly estimated, potentially overlooking the scenarios that are more likely to happen.</p>
+</div>
+<figure class="ltx_figure" id="S1.F1"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="247" id="S1.F1.g1" src="extracted/6218377/figures/overall.png" width="598"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 1: </span>An illustration of this paper’s structure. (Left) An overview of LLM’s lifecycle including multiple training and inference stages (Section <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S2.SS1" title="2.1 An overview of data poisoning in LLM’s lifecycle ‣ 2 Data poisoning in LLMs ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">2.1</span></a>). (Middle) Introduction of threat-centric data poisoning and its challenges (Section <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S2.SS2" title="2.2 Limitation in existing threat-centric data poisoning ‣ 2 Data poisoning in LLMs ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">2.2</span></a>). (Right) An overview of the <span class="ltx_text ltx_font_bold" id="S1.F1.2.1">multi-faceted study on data poisoning</span>, including practical threat-centric (Section <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S3" title="3 Practical Threat-Centric Data Poisoning ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">3</span></a>), trust-centric (Section <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S4" title="4 Trust-centric Data Poisoning ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">4</span></a>) and mechanism-centric data poisoning (Section <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S5" title="5 Mechanism-Centric Data Poisoning ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">5</span></a>).</figcaption>
+</figure>
+<div class="ltx_para" id="S1.p5">
+<p class="ltx_p" id="S1.p5.1">Second, the multiple stages of an LLM’s development lifecycle introduce significant uncertainties, such as variations in training algorithms in different stages. Since attackers usually lose control over poisoned datasets once they are integrated into complex training pipelines, these uncertainties will undermine the effectiveness of data poisoning attacks throughout the later stages. Specifically, compared to traditional machine learning models, which often follow a training-and-testing paradigm that better preserves poisoning effects <cite class="ltx_cite ltx_citemacro_citep">(He et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib30" title="">2023</a>)</cite>, the complicated processes within LLMs make it difficult for attackers to account for all factors. For example, poisoned data injected during the instruction tuning stage may be overwritten by diverse datasets and alignment objectives in the preference learning stage <cite class="ltx_cite ltx_citemacro_citep">(Wan et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib72" title="">2023</a>)</cite>. Furthermore, unknown downstream tasks and datasets during inference-time adaptations can further dilute poisoned patterns <cite class="ltx_cite ltx_citemacro_citep">(Qiang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib58" title="">2024</a>)</cite>.</p>
+</div>
+<div class="ltx_para" id="S1.p6">
+<p class="ltx_p" id="S1.p6.1">These limitations motivate us to rethink data poisoning in the era of LLMs by investigating two critical questions. First, the lack of proper justification of the attacker’s capability to directly manipulate the data and the challenge of sustaining the poisoning effect across LLMs’ lifecycle inspires:
+<span class="ltx_text ltx_font_italic" id="S1.p6.1.1">(<span class="ltx_text ltx_font_bold" id="S1.p6.1.1.1">Q1</span>) How can we enhance the practicality of data poisoning attacks to position them as a real-world threat?</span> This question inspires us to explore practical threat models and effective strategies to reveal data poisoning risks in real-world scenarios.
+Second, despite the practical challenges for attackers, existing research also fails to fully leverage insights into LLM vulnerabilities from data poisoning to address broader objectives, such as developing trustworthy LLMs.
+Therefore, we aim to investigate:
+<span class="ltx_text ltx_font_italic" id="S1.p6.1.2">(<span class="ltx_text ltx_font_bold" id="S1.p6.1.2.1">Q2</span>) Can data poisoning serve as a tool to advance LLM research beyond its conventional threat-centric perspective?</span>
+This question changes the focus from threats to opportunities, focusing on how data poisoning can be leveraged to guide trustworthy LLM development, and even understand LLM mechanisms.
+</p>
+</div>
+<div class="ltx_para" id="S1.p7">
+<p class="ltx_p" id="S1.p7.1">To address (<span class="ltx_text ltx_font_bold" id="S1.p7.1.1">Q1</span>), we advocate
+for
+developing realistic strategies, such as the proposed <span class="ltx_text ltx_font_italic" id="S1.p7.1.2">poison injection attack</span> (detailed in Section <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S3" title="3 Practical Threat-Centric Data Poisoning ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">3</span></a>).
+Practical strategies should go beyond focusing solely on the consequences of poisoning. They need to consider LLM-specific development scenarios and security measures to enable effective data injection. Additionally, these strategies aim to sustain poisoning effects throughout the LLM development lifecycle. By targeting vulnerabilities such as web crawling pipelines <cite class="ltx_cite ltx_citemacro_citep">(Carlini et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib10" title="">2024</a>)</cite> and agent memory storage systems <cite class="ltx_cite ltx_citemacro_citep">(Chen et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib16" title="">2024c</a>)</cite>, which are essential parts of LLM data collection, these strategies validate the feasibility of data poisoning attacks, transforming theoretical threats into real-world risks.</p>
+</div>
+<div class="ltx_para" id="S1.p8">
+<p class="ltx_p" id="S1.p8.1">For (<span class="ltx_text ltx_font_bold" id="S1.p8.1.1">Q2</span>), we reconsider key characteristics of data poisoning attacks including the ability to exploit model mechanisms <cite class="ltx_cite ltx_citemacro_citep">(Steinhardt et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib69" title="">2017</a>; Yu et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib88" title="">2022</a>; He et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib34" title="">2024d</a>)</cite>, the dependency on strategic data selection <cite class="ltx_cite ltx_citemacro_citep">(He et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib32" title="">2024b</a>; Xia et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib79" title="">2022</a>; Zhu et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib98" title="">2023</a>)</cite>, and the capacity to precisely control model output <cite class="ltx_cite ltx_citemacro_citep">(Schwarzschild et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib65" title="">2021</a>; Shafahi et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib66" title="">2018</a>; Geiping et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib27" title="">2020</a>)</cite>.
+Specifically, we propose to utilize data poisoning techniques for advancing the trustworthiness of LLMs and recognize data poisoning as a powerful lens for understanding LLM mechanisms. We refer these novel perspectives as <span class="ltx_text ltx_font_bold" id="S1.p8.1.2">trust-centric</span> (Section <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S4" title="4 Trust-centric Data Poisoning ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">4</span></a>) and <span class="ltx_text ltx_font_bold" id="S1.p8.1.3">mechanism-centric</span> (Section <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S5" title="5 Mechanism-Centric Data Poisoning ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">5</span></a>) respectively to distinguish from the traditional threat-centric view.</p>
+</div>
+<div class="ltx_para" id="S1.p9">
+<p class="ltx_p" id="S1.p9.1">Trust-centric data poisoning leverages data poisoning techniques to address security threats and misaligned behaviors like fairness <cite class="ltx_cite ltx_citemacro_citep">(Li et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib47" title="">2023</a>)</cite>, misinformation <cite class="ltx_cite ltx_citemacro_citep">(Chen &amp; Shu, <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib12" title="">2023</a>)</cite> and hallucination <cite class="ltx_cite ltx_citemacro_citep">(Yao et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib86" title="">2023</a>)</cite> in LLM outputs. This can be achieved by embedding specially designed data into clean datasets to influence model behavior. For example, hidden triggers <cite class="ltx_cite ltx_citemacro_citep">(Kirchenbauer et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib42" title="">2023</a>; Zhao et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib96" title="">2023c</a>)</cite> or secret tasks <cite class="ltx_cite ltx_citemacro_citep">(China Daily, <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib17" title="">2024</a>)</cite> can be injected during LLM training to protect proprietary models. Similarly, backdoored models can mitigate jailbreak attempts by triggering predefined safety responses to malicious prompts <cite class="ltx_cite ltx_citemacro_citep">(Chen et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib14" title="">2024a</a>; Bowen et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib7" title="">2024a</a>)</cite>. Beyond security, trust-centric data poisoning can address biases in training data and eliminate misaligned patterns <cite class="ltx_cite ltx_citemacro_citep">(Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib91" title="">2024b</a>)</cite> by injecting corrective data.</p>
+</div>
+<div class="ltx_para" id="S1.p10">
+<p class="ltx_p" id="S1.p10.1">Mechanism-centric data poisoning focuses on understanding LLM behaviors, such as Chain-of-Thought (CoT) reasoning <cite class="ltx_cite ltx_citemacro_citep">(Wei et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib76" title="">2022</a>)</cite> and long-context learning <cite class="ltx_cite ltx_citemacro_citep">(Li et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib46" title="">2024b</a>)</cite>. Its key advantage is precise control over data manipulation, allowing the creation of “poisoned datasets” to study how specific data patterns influence model behavior. For instance, to examine which reasoning steps are critical or whether incorrect examples aid reasoning, we can perturb individual steps in few-shot examples and test model sensitivity <cite class="ltx_cite ltx_citemacro_citep">(Cui et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib18" title="">2024</a>; He et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib31" title="">2024a</a>)</cite>. This controlled approach enables fair comparisons of each step’s influence on CoT reasoning. Additionally, this perspective sheds light on LLM memorization by injecting patterns into training data and evaluating their effects, offering insights into how LLMs encode and retrieve information from training samples.</p>
+</div>
+<div class="ltx_para" id="S1.p11">
+<p class="ltx_p" id="S1.p11.1">In summary, these discussions argue that <span class="ltx_text ltx_font_bold" id="S1.p11.1.1">multi-faceted studies on data poisoning can advance LLM development</span>. As shown in Figure <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S1.F1" title="Figure 1 ‣ 1 Introduction ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">1</span></a>, the rest of the paper is organized as follows. In Section <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S2" title="2 Data poisoning in LLMs ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">2</span></a>, we provide a holistic overview of data poisoning attacks on LLMs, and discuss fundamental limitations. In Section <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S3" title="3 Practical Threat-Centric Data Poisoning ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">3</span></a>, we discuss practical threat-centric data poisoning. In Section <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S4" title="4 Trust-centric Data Poisoning ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">4</span></a> and <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S5" title="5 Mechanism-Centric Data Poisoning ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">5</span></a>, we introduce two novel perspectives: trust-centric data poisoning and mechanism-centric data poisoning that extend data poisoning methods from threats to useful tools that develop more trustworthy LLMs and help understand LLMs <span class="ltx_note ltx_role_footnote" id="footnote1"><sup class="ltx_note_mark">1</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">1</sup><span class="ltx_tag ltx_tag_note">1</span>We collect papers about data poisoning related to LLM and its applications in this paper list <a class="ltx_ref ltx_url ltx_font_typewriter" href="https://github.com/PengfeiHePower/awesome-LLM-data-poisoning" title="">https://github.com/PengfeiHePower/awesome-LLM-data-poisoning</a></span></span></span>.</p>
+</div>
+</section>
+<section class="ltx_section" id="S2">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">2 </span>Data poisoning in LLMs</h2>
+<figure class="ltx_figure" id="S2.F2"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="158" id="S2.F2.g1" src="extracted/6218377/figures/llm_lifecycle.png" width="419"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 2: </span>A systematic overview of an LLM’s development lifecycle including training stages (pre-training, instruction tuning, preference learning) and various inference stages such as fine-tuning, train-free inference-time adaption and retrieval-based applications (show inside the right brace). The data source involved in each stage is also attached.</figcaption>
+</figure>
+<div class="ltx_para" id="S2.p1">
+<p class="ltx_p" id="S2.p1.1">In this section, we present a comprehensive overview of data poisoning in LLMs, organized according to stages of an LLM’s lifecycle. Following this, we discuss the limitations of existing studies of data poisoning.</p>
+</div>
+<section class="ltx_subsection" id="S2.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">2.1 </span>An overview of data poisoning in LLM’s lifecycle</h3>
+<div class="ltx_para" id="S2.SS1.p1">
+<p class="ltx_p" id="S2.SS1.p1.1">Generally speaking, data poisoning attacks aim to inject maliciously designed data (known as poisoning data) into the training set to achieve the attacker’s malicious goals. These goals often range from degrading the model’s performance (targeted and untargeted attacks)<cite class="ltx_cite ltx_citemacro_citep">(Shafahi et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib66" title="">2018</a>; Fowl et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib25" title="">2021</a>)</cite> to triggering specific behaviors (backdoor attacks)<cite class="ltx_cite ltx_citemacro_citep">(Schwarzschild et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib65" title="">2021</a>; Gu et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib28" title="">2019</a>)</cite>. Since LLMs are commonly pre-trained on large-scale datasets that are scraped from the Internet and can be contaminated by attacks <cite class="ltx_cite ltx_citemacro_citep">(Carlini et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib10" title="">2024</a>)</cite>, data poisoning attacks have also captured increasing attention in the era of LLMs <cite class="ltx_cite ltx_citemacro_citep">(Wan et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib72" title="">2023</a>; He et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib34" title="">2024d</a>)</cite>.</p>
+</div>
+<div class="ltx_para" id="S2.SS1.p2">
+<p class="ltx_p" id="S2.SS1.p2.1">Unlike traditional machine learning models that usually only consist of training and testing stages, LLM’s lifecycle includes more and complex stages. As shown in Figure <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S2.F2" title="Figure 2 ‣ 2 Data poisoning in LLMs ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">2</span></a>, stages in an LLM’s lifecycle include different training stages:
+(1) pre-training stage where a base model is trained on large-scale pre-training datasets from scratch via next-token prediction;
+(2) instruction tuning stage where the base model is fine-tuned on the instruction data to obtain the instruction-following capability;
+(3) preference learning stage where the instruct model is tuned to align with the human preference on the preference data which are human annotated.
+There are also various kinds of inference stages:
+(4) downstream fine-tuning that finetunes the LLM on downstream datasets for a specific downstream task;
+(5) train-free inference-time adaptions such as ICL or CoT where examples are used to adapt tasks without changing model parameters;
+(6) retrieval-based applications such as Retrieval-augmented generation (RAG) and LLM agents which retrieve from external databases to help execute tasks.
+Existing literature reveals the harmful impact of injecting poison into the data in these stages, e.g., <cite class="ltx_cite ltx_citemacro_citep">(Wan et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib72" title="">2023</a>; Kandpal et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib41" title="">2023</a>; Hubinger et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib39" title="">2024</a>; Zou et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib101" title="">2024</a>)</cite>. Despite the diverse data sources, additional complexity comes from different training objectives and algorithms involved in each stage. For instance, pre-training is conducted on large-scale unlabeled data via next-token prediction; instruction tuning and preference learning rely on annotated data and supervised algorithms like Supervised Fine-Tuning (SFT) <cite class="ltx_cite ltx_citemacro_citep">(Touvron et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib70" title="">2023</a>)</cite> and Direct Preference Optimization (DPO) <cite class="ltx_cite ltx_citemacro_citep">(Rafailov et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib59" title="">2024</a>)</cite>.</p>
+</div>
+<div class="ltx_para" id="S2.SS1.p3">
+<p class="ltx_p" id="S2.SS1.p3.1">The diverse data sources and training objectives of LLMs make them highly susceptible to a broader range of data poisoning attacks, collectively termed as <span class="ltx_text ltx_font_bold" id="S2.SS1.p3.1.1">lifecycle-aware data poisoning for LLMs</span>. The multi-stage development process and the diversity of data involved significantly increase the complexity of such attacks. Our investigation reveals that most existing studies on data poisoning in LLMs adopt a <span class="ltx_text ltx_font_bold" id="S2.SS1.p3.1.2">threat-centric</span> perspective which treats data poisoning as an adversarial act. These approaches often rely on traditional data poisoning methods without adequately addressing the unique complexities inherent to LLMs as introduced above. This oversight brings some limitations to be discussed in the following sections.</p>
+</div>
+</section>
+<section class="ltx_subsection" id="S2.SS2">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">2.2 </span>Limitation in existing threat-centric data poisoning</h3>
+<div class="ltx_para" id="S2.SS2.p1">
+<p class="ltx_p" id="S2.SS2.p1.1">Lifecycle-aware data poisoning for LLMs is far more complex, yet most existing approaches still rely on threat models and methods designed for traditional attacks. We identify two key limitations in this approach: (1) insufficient justification for the practicality of the threat models; and (2) the challenges posed by amplified uncertainties across the multiple stages of LLMs.</p>
+</div>
+<section class="ltx_subsubsection" id="S2.SS2.SSS1">
+<h4 class="ltx_title ltx_title_subsubsection">
+<span class="ltx_tag ltx_tag_subsubsection">2.2.1 </span>Analyzing the Practicality of Data Poisoning Threat Models</h4>
+<figure class="ltx_table" id="S2.T1">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_table">Table 1: </span>A summarization of threat models in existing threat-centric data poisoning for LLMs. We focus on attackers’ capability on data and models, where Partial access represents scenarios that attackers can inject a proportion of poisoned samples or modify a subset of clean data. Full access means complete control over data and LLMs.</figcaption>
+<div class="ltx_inline-block ltx_align_center ltx_transformed_outer" id="S2.T1.1" style="width:433.6pt;height:151.8pt;vertical-align:-0.0pt;"><span class="ltx_transformed_inner" style="transform:translate(-147.5pt,51.6pt) scale(0.595131072847521,0.595131072847521) ;">
+<table class="ltx_tabular ltx_guessed_headers ltx_align_middle" id="S2.T1.1.1">
+<thead class="ltx_thead">
+<tr class="ltx_tr" id="S2.T1.1.1.1.1">
+<th class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_r ltx_border_t" id="S2.T1.1.1.1.1.1"><span class="ltx_text ltx_font_bold" id="S2.T1.1.1.1.1.1.1">Data access</span></th>
+<th class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_r ltx_border_t" id="S2.T1.1.1.1.1.2"><span class="ltx_text ltx_font_bold" id="S2.T1.1.1.1.1.2.1">Model access</span></th>
+<th class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_r ltx_border_t" id="S2.T1.1.1.1.1.3"><span class="ltx_text ltx_font_bold" id="S2.T1.1.1.1.1.3.1">LLM lifecycle Stage</span></th>
+<th class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_t" id="S2.T1.1.1.1.1.4"><span class="ltx_text ltx_font_bold" id="S2.T1.1.1.1.1.4.1">References</span></th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr class="ltx_tr" id="S2.T1.1.1.2.1">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="S2.T1.1.1.2.1.1" rowspan="7"><span class="ltx_text" id="S2.T1.1.1.2.1.1.1">Partial access</span></td>
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="S2.T1.1.1.2.1.2" rowspan="7"><span class="ltx_text" id="S2.T1.1.1.2.1.2.1">No access</span></td>
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="S2.T1.1.1.2.1.3">Pre-training</td>
+<td class="ltx_td ltx_align_left ltx_border_t" id="S2.T1.1.1.2.1.4"><cite class="ltx_cite ltx_citemacro_citep">(Zhang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib90" title="">2024a</a>; Hubinger et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib39" title="">2024</a>)</cite></td>
+</tr>
+<tr class="ltx_tr" id="S2.T1.1.1.3.2">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="S2.T1.1.1.3.2.1">Instruction tuning</td>
+<td class="ltx_td ltx_align_left ltx_border_t" id="S2.T1.1.1.3.2.2"><cite class="ltx_cite ltx_citemacro_citep">(Wan et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib72" title="">2023</a>; Xu et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib82" title="">2023</a>; Shu et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib68" title="">2023</a>; Qiang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib58" title="">2024</a>; Yan et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib84" title="">2024</a>)</cite></td>
+</tr>
+<tr class="ltx_tr" id="S2.T1.1.1.4.3">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="S2.T1.1.1.4.3.1">Preference learning</td>
+<td class="ltx_td ltx_align_left ltx_border_t" id="S2.T1.1.1.4.3.2"><cite class="ltx_cite ltx_citemacro_citep">(Wu et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib77" title="">2024</a>; Rando &amp; Tramèr, <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib61" title="">2023</a>; Baumgärtner et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib4" title="">2024</a>)</cite></td>
+</tr>
+<tr class="ltx_tr" id="S2.T1.1.1.5.4">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="S2.T1.1.1.5.4.1">Inference (fine-tuning)</td>
+<td class="ltx_td ltx_align_left ltx_border_t" id="S2.T1.1.1.5.4.2"><cite class="ltx_cite ltx_citemacro_citep">(Zhao et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib93" title="">2024a</a>, <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib92" title="">2023a</a>; Bowen et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib7" title="">2024a</a>)</cite></td>
+</tr>
+<tr class="ltx_tr" id="S2.T1.1.1.6.5">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="S2.T1.1.1.6.5.1">Inference (ICL, CoT)</td>
+<td class="ltx_td ltx_align_left ltx_border_t" id="S2.T1.1.1.6.5.2"><cite class="ltx_cite ltx_citemacro_citep">(He et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib33" title="">2024c</a>; Xiang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib80" title="">2024</a>)</cite></td>
+</tr>
+<tr class="ltx_tr" id="S2.T1.1.1.7.6">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="S2.T1.1.1.7.6.1">Inference (RAG)</td>
+<td class="ltx_td ltx_align_left ltx_border_t" id="S2.T1.1.1.7.6.2"><cite class="ltx_cite ltx_citemacro_citep">(Zou et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib101" title="">2024</a>; Xue et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib83" title="">2024</a>; Chen et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib15" title="">2024b</a>)</cite></td>
+</tr>
+<tr class="ltx_tr" id="S2.T1.1.1.8.7">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="S2.T1.1.1.8.7.1">Inference (Agent)</td>
+<td class="ltx_td ltx_align_left ltx_border_t" id="S2.T1.1.1.8.7.2"><cite class="ltx_cite ltx_citemacro_citep">(Chen et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib16" title="">2024c</a>)</cite></td>
+</tr>
+<tr class="ltx_tr" id="S2.T1.1.1.9.8">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="S2.T1.1.1.9.8.1">Full access</td>
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="S2.T1.1.1.9.8.2">No access</td>
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="S2.T1.1.1.9.8.3">Inference (fine-tuning)</td>
+<td class="ltx_td ltx_align_left ltx_border_t" id="S2.T1.1.1.9.8.4"><cite class="ltx_cite ltx_citemacro_citep">(Halawi et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib29" title="">2024</a>; Huang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib37" title="">2024b</a>; Bowen et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib7" title="">2024a</a>)</cite></td>
+</tr>
+<tr class="ltx_tr" id="S2.T1.1.1.10.9">
+<td class="ltx_td ltx_align_left ltx_border_b ltx_border_r ltx_border_t" id="S2.T1.1.1.10.9.1" rowspan="3"><span class="ltx_text" id="S2.T1.1.1.10.9.1.1">Full access</span></td>
+<td class="ltx_td ltx_align_left ltx_border_b ltx_border_r ltx_border_t" id="S2.T1.1.1.10.9.2" rowspan="3"><span class="ltx_text" id="S2.T1.1.1.10.9.2.1">Full access</span></td>
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="S2.T1.1.1.10.9.3">Preference tuning</td>
+<td class="ltx_td ltx_align_left ltx_border_t" id="S2.T1.1.1.10.9.4"><cite class="ltx_cite ltx_citemacro_citep">(Shi et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib67" title="">2023</a>; Wang &amp; Shu, <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib73" title="">2024</a>)</cite></td>
+</tr>
+<tr class="ltx_tr" id="S2.T1.1.1.11.10">
+<td class="ltx_td ltx_align_left ltx_border_r ltx_border_t" id="S2.T1.1.1.11.10.1">Inference (fine-tuning)</td>
+<td class="ltx_td ltx_align_left ltx_border_t" id="S2.T1.1.1.11.10.2"><cite class="ltx_cite ltx_citemacro_citep">(Kandpal et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib41" title="">2023</a>; Bowen et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib7" title="">2024a</a>; Li et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib48" title="">2024c</a>; Liu et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib52" title="">2024a</a>)</cite></td>
+</tr>
+<tr class="ltx_tr" id="S2.T1.1.1.12.11">
+<td class="ltx_td ltx_align_left ltx_border_b ltx_border_r ltx_border_t" id="S2.T1.1.1.12.11.1">Inference (Agent)</td>
+<td class="ltx_td ltx_align_left ltx_border_b ltx_border_t" id="S2.T1.1.1.12.11.2"><cite class="ltx_cite ltx_citemacro_citep">(Wang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib74" title="">2024</a>; <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib85" title="">Yang et al., </a>)</cite></td>
+</tr>
+</tbody>
+</table>
+</span></div>
+</figure>
+<div class="ltx_para" id="S2.SS2.SSS1.p1">
+<p class="ltx_p" id="S2.SS2.SSS1.p1.1">Data poisoning attacks involve manipulating data, either by directly modifying existing datasets or injecting malicious data. This raises a critical question about threat-centric research: <span class="ltx_text ltx_font_italic" id="S2.SS2.SSS1.p1.1.1">Are the assumptions about an attacker’s access to data practical?</span>
+To answer this question, we summarize threat models in existing works, as shown in Table <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S2.T1" title="Table 1 ‣ 2.2.1 Analyzing the Practicality of Data Poisoning Threat Models ‣ 2.2 Limitation in existing threat-centric data poisoning ‣ 2 Data poisoning in LLMs ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">1</span></a>.</p>
+</div>
+<div class="ltx_para" id="S2.SS2.SSS1.p2">
+<p class="ltx_p" id="S2.SS2.SSS1.p2.1">According to Table <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S2.T1" title="Table 1 ‣ 2.2.1 Analyzing the Practicality of Data Poisoning Threat Models ‣ 2.2 Limitation in existing threat-centric data poisoning ‣ 2 Data poisoning in LLMs ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">1</span></a>, most threat models presume that the adversary can directly/indirectly inject or modify the clean data. This assumption has been widely adopted by poisoning attacks in all stages of the LLM’s lifecycle.
+In practice, data is often regarded as a highly valuable resource. Unlike the assumptions commonly made in data poisoning literature, it is typically inaccessible to regular users due to developers’ legal and safety concerns. Take the Llama series <cite class="ltx_cite ltx_citemacro_citep">(Touvron et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib70" title="">2023</a>; Dubey et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib22" title="">2024</a>)</cite> as an example.
+While much of the pre-training data is mostly crawled from the web, the data undergoes a thorough cleaning process before being used for training <cite class="ltx_cite ltx_citemacro_citep">(Dubey et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib22" title="">2024</a>)</cite>. This process includes safety filtering to remove unsafe content, text cleaning to extract high-quality data, and both heuristic and model-based quality filtering to eliminate low-quality documents. Post-training data, such as instruction-tuning datasets and preference data, is generated and annotated under the supervision of developers and is also subjected to careful cleaning and quality control. These show that LLM training data is typically under the careful control of model developers, which poses significant challenges to the assumption that attackers can access these training data.</p>
+</div>
+<div class="ltx_para" id="S2.SS2.SSS1.p3">
+<p class="ltx_p" id="S2.SS2.SSS1.p3.1">The challenge of the adversary’s access to the data is not limited to the training stages, but also the inference stages or downstream adaptions including downstream fine-tuning, ICL and applications like RAG.
+Data used for downstream fine-tuning, or inference-time adaption like ICL is usually collected by users themselves, and the small size of data<span class="ltx_note ltx_role_footnote" id="footnote2"><sup class="ltx_note_mark">2</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">2</sup><span class="ltx_tag ltx_tag_note">2</span>Existing works have illustrated that a few examples are sufficient for ICL and CoT.</span></span></span> <cite class="ltx_cite ltx_citemacro_citep">(Min et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib54" title="">2022</a>)</cite> allows for better quality and safety control. The database in the RAG system is also an internal resource <cite class="ltx_cite ltx_citemacro_citep">(Li et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib45" title="">2024a</a>)</cite>, especially in privacy-intensive domains such as healthcare, education, and finance. Various security measures, e.g., role-based access control <cite class="ltx_cite ltx_citemacro_citep">(Sandhu, <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib64" title="">1998</a>; Ant, <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib3" title="">2025</a>)</cite> and data encryption <cite class="ltx_cite ltx_citemacro_citep">(Ramachandra et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib60" title="">2022</a>)</cite>, can prevent adversarial access to the data.</p>
+</div>
+<div class="ltx_para" id="S2.SS2.SSS1.p4">
+<p class="ltx_p" id="S2.SS2.SSS1.p4.1">Therefore, we can conclude that the practicality of the assumption allowing attackers to directly/indirectly manipulate data is not properly and sufficiently justified. While some works provide examples to illustrate that this assumption holds under rare scenarios <cite class="ltx_cite ltx_citemacro_citep">(Chen et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib16" title="">2024c</a>; Xiang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib80" title="">2024</a>)</cite>, more evidence on how data manipulation can be achieved would be more helpful in addressing the real concerns of data poisoning.</p>
+</div>
+</section>
+<section class="ltx_subsubsection" id="S2.SS2.SSS2">
+<h4 class="ltx_title ltx_title_subsubsection">
+<span class="ltx_tag ltx_tag_subsubsection">2.2.2 </span>Limitations due to the complexity of LLM lifecycle</h4>
+<div class="ltx_para" id="S2.SS2.SSS2.p1">
+<p class="ltx_p" id="S2.SS2.SSS2.p1.1">The complexity of the LLM lifecycle makes it significantly harder for attackers to control the impact of poisoned data. In typical data poisoning scenarios, attackers are assumed to control the data at one stage but lack knowledge of subsequent stages, including the data and algorithms used after the poisoned data is released by the attacker. This assumption is common in traditional data poisoning attacks. Some existing works <cite class="ltx_cite ltx_citemacro_citep">(He et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib30" title="">2023</a>; Huang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib38" title="">2020</a>)</cite> focus on developing effective attacks to address uncertainties in traditional models which typically involve only a single training and testing stage. However, the complexity of LLM’s multi-stage nature exacerbates this challenge.
+For example, the pre-training stage mostly leverages unlabeled data for next-token prediction, while the preference learning stage utilizes RLHF or DPO on human-annotated preference data. This complexity makes it far more difficult to ensure that poisoning effects persist across stages, especially when the attacker targeting an early stage has no control over later stages.</p>
+</div>
+<div class="ltx_para" id="S2.SS2.SSS2.p2">
+<p class="ltx_p" id="S2.SS2.SSS2.p2.1">To set an example, poisoned data injected during instruction tuning may lose its impact during the subsequent preference learning stage <cite class="ltx_cite ltx_citemacro_citep">(Wan et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib72" title="">2023</a>; Qiang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib58" title="">2024</a>)</cite>. After this stage, alignment procedures such as RLHF are designed to optimize the model’s outputs to align with human preferences, which can effectively dilute or neutralize malicious effects introduced earlier.
+Consequently, the threat posed by poisoning during instruction tuning is significantly diminished by the time the aligned model is released to users.</p>
+</div>
+<div class="ltx_para" id="S2.SS2.SSS2.p3">
+<p class="ltx_p" id="S2.SS2.SSS2.p3.1">Moreover, even when the poisoning effect persists in the later training stages, additional factors during the inference stage can further mitigate the poisoning effects. For instance, inference methods such as training-free adaptations (e.g., ICL) have been shown in existing works <cite class="ltx_cite ltx_citemacro_citep">(Qiang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib58" title="">2024</a>)</cite> to defend against poisoning attacks injected at the instruction tuning stage. These compounded uncertainties—arising from diverse stages, algorithms, and inference methods—pose significant challenges for attackers attempting to sustain the impact of their poisoning efforts throughout the LLM lifecycle.</p>
+</div>
+</section>
+</section>
+</section>
+<section class="ltx_section" id="S3">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">3 </span>Practical Threat-Centric Data Poisoning</h2>
+<div class="ltx_para" id="S3.p1">
+<p class="ltx_p" id="S3.p1.1">Due to the aforementioned limitations, it is desired to explore more practical data poisoning for LLMs, <span class="ltx_text ltx_font_bold" id="S3.p1.1.1">practical threat-centric data poisoning</span>. It aims to investigate data poisoning threats in realistic scenarios. Next, we demonstrate our concept with the following two aspects.</p>
+</div>
+<section class="ltx_paragraph" id="S3.SS0.SSS0.Px1">
+<h5 class="ltx_title ltx_title_paragraph">Poison injection against secure data collection</h5>
+<div class="ltx_para" id="S3.SS0.SSS0.Px1.p1">
+<p class="ltx_p" id="S3.SS0.SSS0.Px1.p1.1">A key interest of practical threat-centric data poisoning is its emphasis on validating both the feasibility and practicality of attacks.
+It advocates for practical <span class="ltx_text ltx_font_italic" id="S3.SS0.SSS0.Px1.p1.1.1">poison injection attacks</span>, which aim to strategically insert malicious data into clean datasets involved in the LLM lifecycle.
+A successful poison injection attack demonstrates that the victim dataset can be poisoned.
+To conduct a successful poison injection attack,
+we suggest identifying and exploiting potential vulnerabilities in data collection, curation, and storage pipelines across the entire LLM lifecycle. We present some illustrative examples from different stages.
+
+</p>
+<ul class="ltx_itemize" id="S3.I1">
+<li class="ltx_item" id="S3.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S3.I1.i1.p1">
+<p class="ltx_p" id="S3.I1.i1.p1.1">Pre-training: During the pre-training stage, <cite class="ltx_cite ltx_citemacro_citet">Carlini et al. (<a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib10" title="">2024</a>)</cite> explore strategies for injecting poisoned samples into web-scale datasets by exploiting vulnerabilities in data collection processes. Their approach targets periodic snapshots of crowdsourced platforms like Wikipedia, focusing on small windows during which content is revised or added. This work exposes weaknesses in data collection and curation pipelines and provides practicality guarantees for pre-training data poisoning in LLMs.</p>
+</div>
+</li>
+<li class="ltx_item" id="S3.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S3.I1.i2.p1">
+<p class="ltx_p" id="S3.I1.i2.p1.1">Preference learning: In the preference learning stage, attackers can identify vulnerabilities in the human annotation process for preference data to inject malicious data. This injection can involve exploiting crowdsourcing platforms (such as Amazon Mechanical Turk <cite class="ltx_cite ltx_citemacro_citep">(Turk, <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib71" title="">2012</a>)</cite>), infiltrating the annotation workforce by posing as annotators to mislabel texts or introducing ambiguous and highly subjective content for labeling to create systematic biases.</p>
+</div>
+</li>
+<li class="ltx_item" id="S3.I1.i3" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S3.I1.i3.p1">
+<p class="ltx_p" id="S3.I1.i3.p1.1">Train-free inference-time adaptions: In retrieval-based applications, such as LLM agents, attackers can inject poisoned samples during the inference stage solely through user queries. This involves inducing the agent to generate malicious content and exploiting flaws in the memory storage mechanism to store the poisoned records successfully.</p>
+</div>
+</li>
+</ul>
+</div>
+</section>
+<section class="ltx_paragraph" id="S3.SS0.SSS0.Px2">
+<h5 class="ltx_title ltx_title_paragraph">Weaker attacker’s ability and new attacking objectives</h5>
+<div class="ltx_para" id="S3.SS0.SSS0.Px2.p1">
+<p class="ltx_p" id="S3.SS0.SSS0.Px2.p1.1">Another critical aspect of practical threat-centric data poisoning is the consideration of uncertainties across LLM’s life cycle. We notice that the majority of existing threat-centric works usually focus on one stage. In other words, they often assume that the attackers inject malicious samples into the data of one stage and evaluate how poisoned data influence the model behavior after this particular stage <cite class="ltx_cite ltx_citemacro_citep">(Wan et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib72" title="">2023</a>; Kandpal et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib41" title="">2023</a>; He et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib34" title="">2024d</a>)</cite>. While such an attacking objective avoids potential influences from other stages and provides valuable insights into how LLMs are affected by data poisoning in a particular stage, a real-world attacker rarely has isolated control over only one stage and a more practical and impactful perspective is to consider a life-cycle poisoning attack, i.e. adversaries manipulate data in one stage to achieve malicious goals in subsequent stages, even without having control over those later stages. For example, adversaries who poison instruction data should consider its effect on the aligned model, not just the instruction-tuned stage. Moreover, inference-stage uncertainties, such as fine-tuning on clean downstream data neutralizing poisoning effects or the resistance of ICL to instruction-data poisoning <cite class="ltx_cite ltx_citemacro_citep">(Qiang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib58" title="">2024</a>)</cite>, must also be accounted for, as discussed in Section <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#S2.SS1" title="2.1 An overview of data poisoning in LLM’s lifecycle ‣ 2 Data poisoning in LLMs ‣ Multi-Faceted Studies on Data Poisoning can Advance LLM Development"><span class="ltx_text ltx_ref_tag">2.1</span></a>.</p>
+</div>
+<div class="ltx_para" id="S3.SS0.SSS0.Px2.p2">
+<p class="ltx_p" id="S3.SS0.SSS0.Px2.p2.1">Specifically, we advocate for a more accurate definition of the attacker’s capabilities and long-term attacking objectives incorporating future stages.
+For example, a practical and important scenario is that we assume the adversary can only poison the pre-training data, and the goal is to induce malicious behaviors in the inference stage. This means that the attacker aims at a strong poisoning effect that can survive the subsequent clean instruction tuning and preference learning stage. Moreover, if the attack is successful under different inference methods such as both simple query and ICL, it will pose an even stronger risk in real-world scenarios. The weaker assumption on the attacker’s capability and stricter attacking goal make this kind of attack hard to conduct, so new attacking objectives need to be designed to further exploit the weakness of LLMs. Inspirations can be drawn from traditional data poisoning attacks like <cite class="ltx_cite ltx_citemacro_citet">He et al. (<a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib30" title="">2023</a>); Huang et al. (<a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib38" title="">2020</a>)</cite> where uncertainties of algorithms and data are explicitly incorporated in the attacking algorithm.</p>
+</div>
+<div class="ltx_para" id="S3.SS0.SSS0.Px2.p3">
+<p class="ltx_p" id="S3.SS0.SSS0.Px2.p3.1">In summary, designing realistic poison injection attacks and new objectives considering cross-stage poisoning effects under practical threat models not only enhances our understanding of real-world risks to LLMs but also aids in developing more robust LLM systems and applications.</p>
+</div>
+</section>
+</section>
+<section class="ltx_section" id="S4">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">4 </span>Trust-centric Data Poisoning</h2>
+<div class="ltx_para" id="S4.p1">
+<p class="ltx_p" id="S4.p1.1">In this section, we explore the use of data poisoning to enhance the trustworthiness of LLMs, a novel perspective we term <span class="ltx_text ltx_font_bold" id="S4.p1.1.1">trust-centric data poisoning</span>. This perspective aims at utilizing techniques of data poisoning in building robust LLMs, identifying and mitigating potential issues including hidden biases, harmful outputs, hallucinations etc.</p>
+</div>
+<div class="ltx_para" id="S4.p2">
+<p class="ltx_p" id="S4.p2.1">Given the different goals of threat-centric data poisoning, the settings for trust-centric approaches are adjusted accordingly. First, the role of the “attacker” in trust-centric data poisoning is broader, encompassing model developers or researchers who have greater control over the data and various stages of the LLM lifecycle. Second, trust-centric data poisoning modifies objectives, such as loss functions, shifting from maximizing the poisoning effect in threat-centric approaches to maximizing resistance to threats and minimizing the occurrence of misaligned behaviors.</p>
+</div>
+<div class="ltx_para" id="S4.p3">
+<p class="ltx_p" id="S4.p3.1">To further compare with other trustworthy techniques, trust-centric data poisoning leverages the unique capability of data poisoning to precisely control data when it is accessible. Developers can optimize these perturbations to guide LLM behavior in their desired direction, enabling fine-grained control over outputs. Another key advantage is efficiency. Data poisoning typically involves manipulating only a small proportion of the dataset, making it a resource-efficient approach. Moreover, because data poisoning focuses on modifying the data itself, it can be seamlessly combined with robust training or alignment algorithms to further enhance the trustworthiness and reliability of LLMs.</p>
+</div>
+<div class="ltx_para" id="S4.p4">
+<p class="ltx_p" id="S4.p4.1">In the following, we discuss two representative aspects of trust-centric data poisoning: (1) safety guard via data poisoning; and (2) auditing misaligned behaviors.</p>
+</div>
+<section class="ltx_paragraph" id="S4.SS0.SSS0.Px1">
+<h5 class="ltx_title ltx_title_paragraph">Safeguarding LLMs via data poisoning</h5>
+<div class="ltx_para" id="S4.SS0.SSS0.Px1.p1">
+<p class="ltx_p" id="S4.SS0.SSS0.Px1.p1.1">Despite the risks posed by threat-centric data poisoning, LLMs face additional challenges such as copyright infringement <cite class="ltx_cite ltx_citemacro_citep">(Samuelson, <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib63" title="">2023</a>; Bommasani et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib6" title="">2021</a>; Ren et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib62" title="">2024</a>)</cite> and adversarial prompts <cite class="ltx_cite ltx_citemacro_citep">(Zou et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib100" title="">2023</a>; Lin et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib50" title="">2024</a>; Chao et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib11" title="">2023</a>)</cite>. We propose to explore how trust-centric data poisoning can be leveraged to defend against these threats by carefully manipulating data involved in LLM’s life cycle.</p>
+</div>
+<div class="ltx_para" id="S4.SS0.SSS0.Px1.p2">
+<p class="ltx_p" id="S4.SS0.SSS0.Px1.p2.1">We take the copyright issue of LLMs as an example. Since training LLMs requires vast amounts of data <cite class="ltx_cite ltx_citemacro_citep">(Achiam et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib1" title="">2023</a>; Dubey et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib22" title="">2024</a>)</cite>, protecting them from unauthorized copying is a critical concern<cite class="ltx_cite ltx_citemacro_citep">(Samuelson, <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib63" title="">2023</a>; Liu et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib53" title="">2024b</a>)</cite>. Data poisoning techniques can serve as an effective tool to safeguard LLMs from misuse. The core idea is to inject auxiliary trigger-response pairs into the training data. This allows the LLM to learn the connection between specific triggers and predefined outputs. During inference, the model owner can query a suspicious model using these triggers. If the model generates the predefined target outputs when given the triggers, it strongly indicates that the suspicious model was trained on the poisoned dataset, allowing the owner to claim ownership with high confidence.
+Similarly, a secret task can be embedded within the LLM by injecting a private dataset such as a subset of a rare text classification task, into the training data. Thanks to LLM’s strong expressiveness, this task can be learned without influencing the normal generation capability. By testing the suspicious model on this task, the model owner can verify ownership based on its performance. Recent news about models Llama 3-V and MiniCPM-Llama3-V 2.5 <cite class="ltx_cite ltx_citemacro_citep">(China Daily, <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib17" title="">2024</a>)</cite> partially proves the potential of this strategy in protecting LLM copyright.</p>
+</div>
+<div class="ltx_para" id="S4.SS0.SSS0.Px1.p3">
+<p class="ltx_p" id="S4.SS0.SSS0.Px1.p3.1">Similar strategies can be applied to defend against adversarial prompts. Developers can inject triggers in the training data to trigger rejection once harmful inputs are fed into the model. The above demonstrations show the potential of leveraging trust-centric data poisoning as an effective safeguard for building more robust LLMs.</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="S4.SS0.SSS0.Px2">
+<h5 class="ltx_title ltx_title_paragraph">Data Poisoning for Trustworthy Auditing LLMs</h5>
+<div class="ltx_para" id="S4.SS0.SSS0.Px2.p1">
+<p class="ltx_p" id="S4.SS0.SSS0.Px2.p1.1">Data poisoning provides precise and controllable manipulation of LLM outputs, making it a powerful tool for auditing the trustworthiness of LLMs. This includes uncovering hidden biases, harmful responses <cite class="ltx_cite ltx_citemacro_citep">(Dong et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib21" title="">2024</a>; Wei et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib75" title="">2024</a>)</cite>, hallucinations <cite class="ltx_cite ltx_citemacro_citep">(Huang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib36" title="">2024a</a>; Ji et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib40" title="">2023</a>)</cite>, misinformation generation <cite class="ltx_cite ltx_citemacro_citep">(Chen &amp; Shu, <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib13" title="">2024</a>)</cite>, and other undesirable behaviors. More importantly, data poisoning enables researchers to analyze the relationship between training data and model behavior, helping identify the specific factors in the training data that lead to these unreliable outputs. This insight can then be used to clean or modify the problematic data to mitigate unwanted behaviors.</p>
+</div>
+<div class="ltx_para" id="S4.SS0.SSS0.Px2.p2">
+<p class="ltx_p" id="S4.SS0.SSS0.Px2.p2.1">Consider a scenario where a researcher observes gender bias in the outputs of an LLM after instruction tuning <cite class="ltx_cite ltx_citemacro_citep">(Liang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib49" title="">2021</a>; Delobelle et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib20" title="">2022</a>; Fang et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib24" title="">2024</a>)</cite>. Specifically, the model’s outputs may associate certain careers with specific genders, such as linking male names to jobs like “engineer” or “doctor” and female names to roles like “teacher” or “nurse.” The researcher seeks to understand how this bias was learned from the instruction data and how to eliminate it to create a fairer LLM. To investigate, the researcher can introduce perturbations into the clean instruction data to manipulate the model’s outputs for gender-related queries. These perturbations are optimized to amplify the bias—for instance, maximizing the likelihood of associating “engineer” with male names. This process is analogous to targeted attacks in data poisoning <cite class="ltx_cite ltx_citemacro_citep">(Shafahi et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib66" title="">2018</a>)</cite>. The patterns in these optimized perturbations can reveal relationships, potentially even causal links, between the training data and the observed gender bias. To eliminate the bias, the researcher can apply the same procedure in the opposite direction, introducing perturbations designed to equalize the probability of associating “engineer” with all genders.
+Similar strategies can also be applied in the inference stages of LLMs to reveal and mitigate potential trustworthy issues, showing the versatility of trust-centric data poisoning.
+
+</p>
+</div>
+</section>
+</section>
+<section class="ltx_section" id="S5">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">5 </span>Mechanism-Centric Data Poisoning</h2>
+<div class="ltx_para" id="S5.p1">
+<p class="ltx_p" id="S5.p1.1">Despite the perspectives discussed in previous sections, data poisoning can also inspire understandings of LLM’s mechanisms, which we refer to as <span class="ltx_text ltx_font_bold" id="S5.p1.1.1">mechanism-centric data poisoning</span>. Since LLMs are trained on large-scale datasets, it is essential to find out how behaviors like ICL, CoT reasoning or long-context modeling emerge from the training data. While existing works <cite class="ltx_cite ltx_citemacro_citep">(Xie et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib81" title="">2021</a>; Prystawski et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib57" title="">2024</a>)</cite> investigate from the perspective of training data distribution, data poisoning provides alternative approaches to measure the influence of training data on those behaviors.</p>
+</div>
+<div class="ltx_para" id="S5.p2">
+<p class="ltx_p" id="S5.p2.1">Compared to threat-centric data poisoning, the role of the ”attacker” in mechanism-centric data poisoning is broader, including researchers studying the mechanisms behind specific behaviors rather than focusing solely on LLM vulnerabilities. Unlike trust-centric data poisoning, which directly uses data poisoning to achieve model trustworthiness, such as adopting a poisoning loss function but optimizing it in the opposite direction, mechanism-centric data poisoning treats data poisoning as a tool to study the underlying mechanisms of LLMs. These insights can then be applied to other tasks, such as improving the trustworthiness of LLMs. Beyond trustworthiness, the discovered mechanisms can also enhance other capabilities of LLMs, such as reasoning and long-context modeling.</p>
+</div>
+<div class="ltx_para" id="S5.p3">
+<p class="ltx_p" id="S5.p3.1">While there exist various mechanism understanding methods that usually analyze model architectures (e.g., layers <cite class="ltx_cite ltx_citemacro_citep">(Fan et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib23" title="">2024</a>)</cite>, attention heads <cite class="ltx_cite ltx_citemacro_citep">(Olsson et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib55" title="">2022</a>)</cite>, or intermediate representations <cite class="ltx_cite ltx_citemacro_citep">(Lin et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib50" title="">2024</a>)</cite>), mechanism-centric data poisoning provides unique insights on the influence of data itself. When compared with other data-centric methods such as feature attribution <cite class="ltx_cite ltx_citemacro_citep">(Zhou et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib97" title="">2022</a>)</cite> or counterfactual analysis <cite class="ltx_cite ltx_citemacro_citep">(Youssef et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib87" title="">2024</a>)</cite>, which primarily focus on interpreting existing patterns or inference-time responses, mechanism-centric data poisoning provides a unique framework for understanding how training data shapes model behavior throughout its lifecycle.
+The advantages stem from key features of data poisoning attacks, as listed below:</p>
+</div>
+<div class="ltx_para" id="S5.p4">
+<p class="ltx_p" id="S5.p4.1">(1) Data poisoning introduces carefully crafted perturbations into clean datasets to induce target behaviors <cite class="ltx_cite ltx_citemacro_citep">(Shafahi et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib66" title="">2018</a>; He et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib30" title="">2023</a>; Geiping et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib27" title="">2020</a>)</cite>, enabling precise control over LLM outputs and revealing the link between input data and model behavior.
+(2) A data poisoning attack typically involves injecting a small amount of poisoned data into a clean dataset <cite class="ltx_cite ltx_citemacro_citep">(Steinhardt et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib69" title="">2017</a>; Gu et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib28" title="">2019</a>)</cite>, causing the model to memorize specific patterns or triggers. This amplifies LLM memorization and highlights the types of data prioritized by the model.
+(3) The effectiveness of data poisoning depends on sample selection strategies <cite class="ltx_cite ltx_citemacro_citep">(He et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib32" title="">2024b</a>; Xia et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib79" title="">2022</a>)</cite>, as different samples impact the poisoning effect differently. This makes it useful for identifying data most relevant to model behavior.
+(4) Practical data poisoning considers future stages of the LLM lifecycle <cite class="ltx_cite ltx_citemacro_citep">(He et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib30" title="">2023</a>)</cite>, providing a systematic way to understand how earlier data influences later-stage behaviors.</p>
+</div>
+<div class="ltx_para" id="S5.p5">
+<p class="ltx_p" id="S5.p5.1">These advantages make mechanism-centric data poisoning particularly useful for addressing practical challenges, such as designing models for tasks like long-context modeling which requires figuring out how LLMs weigh and memorize contents in the long text, or improving robustness to real-world noisy data.
+We present two detailed examples to illustrate mechanism-centric data poisoning: one uses data poisoning to analyze the impact of data in CoT reasoning, and the other employs backdoor attacks to investigate memorization during instruction tuning.</p>
+</div>
+<section class="ltx_paragraph" id="S5.SS0.SSS0.Px1">
+<h5 class="ltx_title ltx_title_paragraph">Understand CoT via data poisoning</h5>
+<div class="ltx_para" id="S5.SS0.SSS0.Px1.p1">
+<p class="ltx_p" id="S5.SS0.SSS0.Px1.p1.1">CoT reasoning <cite class="ltx_cite ltx_citemacro_citep">(Wei et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib76" title="">2022</a>)</cite> is a powerful capability that enables LLMs to generate intermediate reasoning steps before arriving at a final solution, significantly enhancing task-solving performance. Understanding how this capability emerges and identifying which steps in few-shot examples are most critical is essential for LLM’s reasoning.</p>
+</div>
+<div class="ltx_para" id="S5.SS0.SSS0.Px1.p2">
+<p class="ltx_p" id="S5.SS0.SSS0.Px1.p2.1">While existing works analyze reasoning behavior by relying on assumptions about training data distribution <cite class="ltx_cite ltx_citemacro_citep">(Prystawski et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib57" title="">2024</a>)</cite>, data poisoning offers an alternative approach to directly measure how specific training data influences the reasoning steps generated by the model. Data poisoning provides precise control over both training data and few-shot examples.
+Specifically, researchers can intentionally introduce contradictory reasoning steps<cite class="ltx_cite ltx_citemacro_citep">(Cui et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib18" title="">2024</a>; He et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib31" title="">2024a</a>)</cite> into the few-shot samples and test the learning behavior of LLMs, i.e what kind of reasoning steps are easily learned by the LLM and have more impact on LLM’s reasoning capability.
+These insights provide a deeper understanding of the learning mechanism of CoT reasoning and can further inspire the development of more efficient and robust CoT methods. Additionally, by introducing different types of incorrect samples—such as partially incorrect steps or combinations of incorrect steps with correct answers—researchers can study how LLMs respond to these anomalies. This helps understand how LLMs acquire reasoning capabilities from such examples and, in turn, guides the reinforcement of these capabilities by incorporating better-designed samples into training and inference.
+</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="S5.SS0.SSS0.Px2">
+<h5 class="ltx_title ltx_title_paragraph">Backdoor attacks for understanding memorization.</h5>
+<div class="ltx_para" id="S5.SS0.SSS0.Px2.p1">
+<p class="ltx_p" id="S5.SS0.SSS0.Px2.p1.1">During the instruction tuning stage, LLMs are fine-tuned on instruction-response pairs using supervised fine-tuning (SFT) to develop instruction-following capabilities. <cite class="ltx_cite ltx_citemacro_citet">Wan et al. (<a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib72" title="">2023</a>); Shu et al. (<a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib68" title="">2023</a>)</cite> have demonstrated that by injecting a small set of poisoned data containing triggers in the instructions paired with target responses into the training data, LLMs can be misled to output the target response with a new instruction containing the trigger.</p>
+</div>
+<div class="ltx_para" id="S5.SS0.SSS0.Px2.p2">
+<p class="ltx_p" id="S5.SS0.SSS0.Px2.p2.1">The above technique can be adapted to study what patterns in the instruction data are prioritized by the model during training.
+Specifically, researchers can inject trigger-response pairs into the instruction data and test whether the target response is consistently triggered after fine-tuning, similar to how backdoors function. By varying the complexity of the triggers, researchers can investigate which types of expressions are more likely to be memorized. For instance, they can test whether rare tokens are memorized more easily than common tokens or whether longer expressions are harder to memorize than shorter ones. Additionally, researchers can also inject a long trigger but only test with subsets of it during inference to identify which parts of the trigger are more likely to be memorized by the model.
+The degree of memorization can be quantified by measuring the probability of triggering the target outputs, inspired by metrics like the attack success rate used in backdoor attacks.</p>
+</div>
+<div class="ltx_para" id="S5.SS0.SSS0.Px2.p3">
+<p class="ltx_p" id="S5.SS0.SSS0.Px2.p3.1">This flexible adaptation of backdoor techniques provides a systematic way to analyze LLM memorization during instruction tuning and gain insights into how specific patterns in training data influence model behavior. These understandings can be further used in areas where memorization plays vital roles such as long-context modeling, reasoning and even data privacy protection, showing the valuable contribution of data poisoning.</p>
+</div>
+<div class="ltx_para" id="S5.SS0.SSS0.Px2.p4">
+<p class="ltx_p" id="S5.SS0.SSS0.Px2.p4.1">The above two examples represent preliminary ideas for mechanism-centric data poisoning, and we believe there is significant potential for further exploration in this area.</p>
+</div>
+</section>
+</section>
+<section class="ltx_section" id="S6">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">6 </span>Alternative Views</h2>
+<div class="ltx_para" id="S6.p1">
+<p class="ltx_p" id="S6.p1.1">While this work presents multi-faceted studies on data poisoning, alternative views also offer valuable insights in exploring the depth of threat-centric data poisoning. One line of research examines the scaling laws of data poisoning in LLMs <cite class="ltx_cite ltx_citemacro_citep">(Bowen et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib8" title="">2024b</a>)</cite>, analyzing how model size impacts vulnerability. Another focuses on domain-specific challenges, such as in medical and clinical applications <cite class="ltx_cite ltx_citemacro_citep">(Alber et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib2" title="">2025</a>; Das et al., <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib19" title="">2024</a>)</cite>, proposing tailored defenses for these sensitive areas. Additionally, some studies link data poisoning to other threats like jailbreak attacks <cite class="ltx_cite ltx_citemacro_citep">(Rando &amp; Tramèr, <a class="ltx_ref" href="https://arxiv.org/html/2502.14182v1#bib.bib61" title="">2023</a>)</cite>, highlighting its broader implications beyond traditional consequences.</p>
+</div>
+</section>
+<section class="ltx_section" id="S7">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">7 </span>Conclusion</h2>
+<div class="ltx_para" id="S7.p1">
+<p class="ltx_p" id="S7.p1.1">This position paper argues that multi-faceted studies on data poisoning can drive advancements in LLM development.
+We identify fundamental limitations of current threat-centric approaches to data poisoning.
+and propose three novel perspectives: practical threat-centric, trust-centric, and mechanism-centric data poisoning.
+</p>
+</div>
+</section>
+<section class="ltx_section" id="Sx1">
+<h2 class="ltx_title ltx_title_section">Impact Statement</h2>
+<div class="ltx_para" id="Sx1.p1">
+<p class="ltx_p" id="Sx1.p1.1">This study introduces some potential research directions for data poisoning attacks. While some directions, e.g., trust-centric and mechanism-centric data poisoning, have no potential negative impacts, threat-centric data poisoning may lead to negative impacts. However, we believe that the LLMs can be more reliable if researchers can iterate the data poisoning attacks and their defenses to avoid real impacts after the LLMs are deployed in real applications.</p>
+</div>
+</section>
+<section class="ltx_bibliography" id="bib">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+<ul class="ltx_biblist">
+<li class="ltx_bibitem" id="bib.bib1">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Achiam et al. (2023)</span>
+<span class="ltx_bibblock">
+Achiam, J., Adler, S., Agarwal, S., Ahmad, L., Akkaya, I., Aleman, F. L., Almeida, D., Altenschmidt, J., Altman, S., Anadkat, S., et al.
+
+</span>
+<span class="ltx_bibblock">Gpt-4 technical report.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib1.1.1">arXiv preprint arXiv:2303.08774</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib2">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Alber et al. (2025)</span>
+<span class="ltx_bibblock">
+Alber, D. A., Yang, Z., Alyakin, A., Yang, E., Rai, S., Valliani, A. A., Zhang, J., Rosenbaum, G. R., Amend-Thomas, A. K., Kurland, D. B., et al.
+
+</span>
+<span class="ltx_bibblock">Medical large language models are vulnerable to data-poisoning attacks.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib2.1.1">Nature Medicine</em>, pp.  1–9, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib3">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ant (2025)</span>
+<span class="ltx_bibblock">
+Ant, V. U.
+
+</span>
+<span class="ltx_bibblock">Implementing role-based access control in rag.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic" id="bib.bib3.1.1">Medium</span>, January 2025.
+
+</span>
+<span class="ltx_bibblock">URL <a class="ltx_ref ltx_url ltx_font_typewriter" href="https://medium.com/@versatile_umber_ant_241/implementing-role-based-access-control-in-rag-de4a4e129215" title="">https://medium.com/@versatile_umber_ant_241/implementing-role-based-access-control-in-rag-de4a4e129215</a>.
+
+</span>
+<span class="ltx_bibblock">Accessed: 2025-01-29.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib4">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Baumgärtner et al. (2024)</span>
+<span class="ltx_bibblock">
+Baumgärtner, T., Gao, Y., Alon, D., and Metzler, D.
+
+</span>
+<span class="ltx_bibblock">Best-of-venom: Attacking rlhf by injecting poisoned preference data.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib4.1.1">arXiv preprint arXiv:2404.05530</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib5">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Bekbayev et al. (2023)</span>
+<span class="ltx_bibblock">
+Bekbayev, A., Chun, S., Dulat, Y., and Yamazaki, J.
+
+</span>
+<span class="ltx_bibblock">The poison of alignment.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib5.1.1">arXiv preprint arXiv:2308.13449</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib6">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Bommasani et al. (2021)</span>
+<span class="ltx_bibblock">
+Bommasani, R., Hudson, D. A., Adeli, E., Altman, R., Arora, S., von Arx, S., Bernstein, M. S., Bohg, J., Bosselut, A., Brunskill, E., et al.
+
+</span>
+<span class="ltx_bibblock">On the opportunities and risks of foundation models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib6.1.1">arXiv preprint arXiv:2108.07258</em>, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib7">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Bowen et al. (2024a)</span>
+<span class="ltx_bibblock">
+Bowen, D., Murphy, B., Cai, W., Khachaturov, D., Gleave, A., and Pelrine, K.
+
+</span>
+<span class="ltx_bibblock">Data poisoning in llms: Jailbreak-tuning and scaling laws.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib7.1.1">arXiv preprint arXiv:2408.02946</em>, 2024a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib8">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Bowen et al. (2024b)</span>
+<span class="ltx_bibblock">
+Bowen, D., Murphy, B., Cai, W., Khachaturov, D., Gleave, A., and Pelrine, K.
+
+</span>
+<span class="ltx_bibblock">Scaling laws for data poisoning in llms.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib8.1.1">arXiv e-prints</em>, pp.  arXiv–2408, 2024b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib9">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Brown et al. (2020)</span>
+<span class="ltx_bibblock">
+Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., et al.
+
+</span>
+<span class="ltx_bibblock">Language models are few-shot learners.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib9.1.1">Advances in neural information processing systems</em>, 33:1877–1901, 2020.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib10">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Carlini et al. (2024)</span>
+<span class="ltx_bibblock">
+Carlini, N., Jagielski, M., Choquette-Choo, C. A., Paleka, D., Pearce, W., Anderson, H., Terzis, A., Thomas, K., and Tramèr, F.
+
+</span>
+<span class="ltx_bibblock">Poisoning web-scale training datasets is practical.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic" id="bib.bib10.1.1">2024 IEEE Symposium on Security and Privacy (SP)</em>, pp.  407–425. IEEE, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib11">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Chao et al. (2023)</span>
+<span class="ltx_bibblock">
+Chao, P., Robey, A., Dobriban, E., Hassani, H., Pappas, G. J., and Wong, E.
+
+</span>
+<span class="ltx_bibblock">Jailbreaking black box large language models in twenty queries.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib11.1.1">arXiv preprint arXiv:2310.08419</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib12">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Chen &amp; Shu (2023)</span>
+<span class="ltx_bibblock">
+Chen, C. and Shu, K.
+
+</span>
+<span class="ltx_bibblock">Can llm-generated misinformation be detected?
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib12.1.1">arXiv preprint arXiv:2309.13788</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib13">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Chen &amp; Shu (2024)</span>
+<span class="ltx_bibblock">
+Chen, C. and Shu, K.
+
+</span>
+<span class="ltx_bibblock">Combating misinformation in the age of llms: Opportunities and challenges.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib13.1.1">AI Magazine</em>, 45(3):354–368, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib14">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Chen et al. (2024a)</span>
+<span class="ltx_bibblock">
+Chen, Y., Li, H., Zheng, Z., and Song, Y.
+
+</span>
+<span class="ltx_bibblock">Bathe: Defense against the jailbreak attack in multimodal large language models by treating harmful instruction as backdoor trigger.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib14.1.1">arXiv preprint arXiv:2408.09093</em>, 2024a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib15">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Chen et al. (2024b)</span>
+<span class="ltx_bibblock">
+Chen, Z., Liu, J., Liu, H., Cheng, Q., Zhang, F., Lu, W., and Liu, X.
+
+</span>
+<span class="ltx_bibblock">Black-box opinion manipulation attacks to retrieval-augmented generation of large language models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib15.1.1">arXiv preprint arXiv:2407.13757</em>, 2024b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib16">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Chen et al. (2024c)</span>
+<span class="ltx_bibblock">
+Chen, Z., Xiang, Z., Xiao, C., Song, D., and Li, B.
+
+</span>
+<span class="ltx_bibblock">Agentpoison: Red-teaming llm agents via poisoning memory or knowledge bases.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib16.1.1">arXiv preprint arXiv:2407.12784</em>, 2024c.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib17">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">China Daily (2024)</span>
+<span class="ltx_bibblock">
+China Daily.
+
+</span>
+<span class="ltx_bibblock">Stanford ai team accused of copying china model, June 5 2024.
+
+</span>
+<span class="ltx_bibblock">URL <a class="ltx_ref ltx_url ltx_font_typewriter" href="https://www.chinadaily.com.cn/a/202406/05/WS665fd3e0a31082fc043cb040.html" title="">https://www.chinadaily.com.cn/a/202406/05/WS665fd3e0a31082fc043cb040.html</a>.
+
+</span>
+<span class="ltx_bibblock">Accessed: January 24, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib18">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Cui et al. (2024)</span>
+<span class="ltx_bibblock">
+Cui, Y., He, P., Tang, X., He, Q., Luo, C., Tang, J., and Xing, Y.
+
+</span>
+<span class="ltx_bibblock">A theoretical understanding of chain-of-thought: Coherent reasoning and error-aware demonstration.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib18.1.1">arXiv preprint arXiv:2410.16540</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib19">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Das et al. (2024)</span>
+<span class="ltx_bibblock">
+Das, A., Tariq, A., Batalini, F., Dhara, B., and Banerjee, I.
+
+</span>
+<span class="ltx_bibblock">Exposing vulnerabilities in clinical llms through data poisoning attacks: Case study in breast cancer.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib19.1.1">medRxiv</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib20">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Delobelle et al. (2022)</span>
+<span class="ltx_bibblock">
+Delobelle, P., Tokpo, E. K., Calders, T., and Berendt, B.
+
+</span>
+<span class="ltx_bibblock">Measuring fairness with biased rulers: A comparative study on bias metrics for pre-trained language models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic" id="bib.bib20.1.1">Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics</em>, pp.  1693–1706. Association for Computational Linguistics, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib21">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Dong et al. (2024)</span>
+<span class="ltx_bibblock">
+Dong, Z., Zhou, Z., Yang, C., Shao, J., and Qiao, Y.
+
+</span>
+<span class="ltx_bibblock">Attacks, defenses and evaluations for llm conversation safety: A survey.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib21.1.1">arXiv preprint arXiv:2402.09283</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib22">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Dubey et al. (2024)</span>
+<span class="ltx_bibblock">
+Dubey, A., Jauhri, A., Pandey, A., Kadian, A., Al-Dahle, A., Letman, A., Mathur, A., Schelten, A., Yang, A., Fan, A., et al.
+
+</span>
+<span class="ltx_bibblock">The llama 3 herd of models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib22.1.1">arXiv preprint arXiv:2407.21783</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib23">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Fan et al. (2024)</span>
+<span class="ltx_bibblock">
+Fan, S., Jiang, X., Li, X., Meng, X., Han, P., Shang, S., Sun, A., Wang, Y., and Wang, Z.
+
+</span>
+<span class="ltx_bibblock">Not all layers of llms are necessary during inference.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib23.1.1">arXiv preprint arXiv:2403.02181</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib24">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Fang et al. (2024)</span>
+<span class="ltx_bibblock">
+Fang, X., Che, S., Mao, M., Zhang, H., Zhao, M., and Zhao, X.
+
+</span>
+<span class="ltx_bibblock">Bias of ai-generated content: an examination of news produced by large language models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib24.1.1">Scientific Reports</em>, 14(1):5224, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib25">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Fowl et al. (2021)</span>
+<span class="ltx_bibblock">
+Fowl, L., Goldblum, M., Chiang, P.-y., Geiping, J., Czaja, W., and Goldstein, T.
+
+</span>
+<span class="ltx_bibblock">Adversarial examples make strong poisons.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib25.1.1">Advances in Neural Information Processing Systems</em>, 34:30339–30351, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib26">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Gao et al. (2024)</span>
+<span class="ltx_bibblock">
+Gao, D., Li, Z., Pan, X., Kuang, W., Ma, Z., Qian, B., Wei, F., Zhang, W., Xie, Y., Chen, D., et al.
+
+</span>
+<span class="ltx_bibblock">Agentscope: A flexible yet robust multi-agent platform.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib26.1.1">arXiv preprint arXiv:2402.14034</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib27">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Geiping et al. (2020)</span>
+<span class="ltx_bibblock">
+Geiping, J., Fowl, L., Huang, W. R., Czaja, W., Taylor, G., Moeller, M., and Goldstein, T.
+
+</span>
+<span class="ltx_bibblock">Witches’ brew: Industrial scale data poisoning via gradient matching.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib27.1.1">arXiv preprint arXiv:2009.02276</em>, 2020.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib28">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Gu et al. (2019)</span>
+<span class="ltx_bibblock">
+Gu, T., Liu, K., Dolan-Gavitt, B., and Garg, S.
+
+</span>
+<span class="ltx_bibblock">Badnets: Evaluating backdooring attacks on deep neural networks.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib28.1.1">IEEE Access</em>, 7:47230–47244, 2019.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib29">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Halawi et al. (2024)</span>
+<span class="ltx_bibblock">
+Halawi, D., Wei, A., Wallace, E., Wang, T. T., Haghtalab, N., and Steinhardt, J.
+
+</span>
+<span class="ltx_bibblock">Covert malicious finetuning: Challenges in safeguarding llm adaptation.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib29.1.1">arXiv preprint arXiv:2406.20053</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib30">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">He et al. (2023)</span>
+<span class="ltx_bibblock">
+He, P., Xu, H., Ren, J., Cui, Y., Liu, H., Aggarwal, C. C., and Tang, J.
+
+</span>
+<span class="ltx_bibblock">Sharpness-aware data poisoning attack.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib30.1.1">arXiv preprint arXiv:2305.14851</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib31">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">He et al. (2024a)</span>
+<span class="ltx_bibblock">
+He, P., Cui, Y., Xu, H., Liu, H., Yamada, M., Tang, J., and Xing, Y.
+
+</span>
+<span class="ltx_bibblock">Towards the effect of examples on in-context learning: A theoretical case study.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib31.1.1">arXiv preprint arXiv:2410.09411</em>, 2024a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib32">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">He et al. (2024b)</span>
+<span class="ltx_bibblock">
+He, P., Xing, Y., Xu, H., Ren, J., Cui, Y., Zeng, S., Tang, J., Yamada, M., and Sabokrou, M.
+
+</span>
+<span class="ltx_bibblock">Stealthy backdoor attack via confidence-driven sampling.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib32.1.1">Transactions on Machine Learning Research</em>, 2024b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib33">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">He et al. (2024c)</span>
+<span class="ltx_bibblock">
+He, P., Xu, H., Xing, Y., Liu, H., Yamada, M., and Tang, J.
+
+</span>
+<span class="ltx_bibblock">Data poisoning for in-context learning.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib33.1.1">arXiv preprint arXiv:2402.02160</em>, 2024c.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib34">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">He et al. (2024d)</span>
+<span class="ltx_bibblock">
+He, P., Xu, H., Xing, Y., Liu, H., Yamada, M., and Tang, J.
+
+</span>
+<span class="ltx_bibblock">Data poisoning for in-context learning, 2024d.
+
+</span>
+<span class="ltx_bibblock">URL <a class="ltx_ref ltx_url ltx_font_typewriter" href="https://arxiv.org/abs/2402.02160" title="">https://arxiv.org/abs/2402.02160</a>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib35">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Hu et al. (2021)</span>
+<span class="ltx_bibblock">
+Hu, E. J., Shen, Y., Wallis, P., Allen-Zhu, Z., Li, Y., Wang, S., Wang, L., and Chen, W.
+
+</span>
+<span class="ltx_bibblock">Lora: Low-rank adaptation of large language models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib35.1.1">arXiv preprint arXiv:2106.09685</em>, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib36">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Huang et al. (2024a)</span>
+<span class="ltx_bibblock">
+Huang, L., Yu, W., Ma, W., Zhong, W., Feng, Z., Wang, H., Chen, Q., Peng, W., Feng, X., Qin, B., et al.
+
+</span>
+<span class="ltx_bibblock">A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib36.1.1">ACM Transactions on Information Systems</em>, 2024a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib37">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Huang et al. (2024b)</span>
+<span class="ltx_bibblock">
+Huang, T., Hu, S., Ilhan, F., Tekin, S. F., and Liu, L.
+
+</span>
+<span class="ltx_bibblock">Harmful fine-tuning attacks and defenses for large language models: A survey.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib37.1.1">arXiv preprint arXiv:2409.18169</em>, 2024b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib38">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Huang et al. (2020)</span>
+<span class="ltx_bibblock">
+Huang, W. R., Geiping, J., Fowl, L., Taylor, G., and Goldstein, T.
+
+</span>
+<span class="ltx_bibblock">Metapoison: Practical general-purpose clean-label data poisoning.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib38.1.1">Advances in Neural Information Processing Systems</em>, 33:12080–12091, 2020.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib39">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Hubinger et al. (2024)</span>
+<span class="ltx_bibblock">
+Hubinger, E., Denison, C., Mu, J., Lambert, M., Tong, M., MacDiarmid, M., Lanham, T., Ziegler, D. M., Maxwell, T., Cheng, N., et al.
+
+</span>
+<span class="ltx_bibblock">Sleeper agents: Training deceptive llms that persist through safety training.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib39.1.1">arXiv preprint arXiv:2401.05566</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib40">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ji et al. (2023)</span>
+<span class="ltx_bibblock">
+Ji, Z., Yu, T., Xu, Y., Lee, N., Ishii, E., and Fung, P.
+
+</span>
+<span class="ltx_bibblock">Towards mitigating llm hallucination via self reflection.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic" id="bib.bib40.1.1">Findings of the Association for Computational Linguistics: EMNLP 2023</em>, pp.  1827–1843, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib41">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Kandpal et al. (2023)</span>
+<span class="ltx_bibblock">
+Kandpal, N., Jagielski, M., Tramèr, F., and Carlini, N.
+
+</span>
+<span class="ltx_bibblock">Backdoor attacks for in-context learning with language models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib41.1.1">arXiv preprint arXiv:2307.14692</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib42">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Kirchenbauer et al. (2023)</span>
+<span class="ltx_bibblock">
+Kirchenbauer, J., Geiping, J., Wen, Y., Katz, J., Miers, I., and Goldstein, T.
+
+</span>
+<span class="ltx_bibblock">A watermark for large language models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic" id="bib.bib42.1.1">International Conference on Machine Learning</em>, pp.  17061–17084. PMLR, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib43">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Kojima et al. (2022)</span>
+<span class="ltx_bibblock">
+Kojima, T., Gu, S. S., Reid, M., Matsuo, Y., and Iwasawa, Y.
+
+</span>
+<span class="ltx_bibblock">Large language models are zero-shot reasoners.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib43.1.1">Advances in neural information processing systems</em>, 35:22199–22213, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib44">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Lewis et al. (2020)</span>
+<span class="ltx_bibblock">
+Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H., Lewis, M., Yih, W.-t., Rocktäschel, T., et al.
+
+</span>
+<span class="ltx_bibblock">Retrieval-augmented generation for knowledge-intensive nlp tasks.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib44.1.1">Advances in Neural Information Processing Systems</em>, 33:9459–9474, 2020.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib45">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Li et al. (2024a)</span>
+<span class="ltx_bibblock">
+Li, J., Yuan, Y., and Zhang, Z.
+
+</span>
+<span class="ltx_bibblock">Enhancing llm factual accuracy with rag to counter hallucinations: A case study on domain-specific queries in private knowledge-bases.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib45.1.1">arXiv preprint arXiv:2403.10446</em>, 2024a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib46">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Li et al. (2024b)</span>
+<span class="ltx_bibblock">
+Li, T., Zhang, G., Do, Q. D., Yue, X., and Chen, W.
+
+</span>
+<span class="ltx_bibblock">Long-context llms struggle with long in-context learning.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib46.1.1">arXiv preprint arXiv:2404.02060</em>, 2024b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib47">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Li et al. (2023)</span>
+<span class="ltx_bibblock">
+Li, Y., Du, M., Song, R., Wang, X., and Wang, Y.
+
+</span>
+<span class="ltx_bibblock">A survey on fairness in large language models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib47.1.1">arXiv preprint arXiv:2308.10149</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib48">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Li et al. (2024c)</span>
+<span class="ltx_bibblock">
+Li, Y., Huang, H., Zhao, Y., Ma, X., and Sun, J.
+
+</span>
+<span class="ltx_bibblock">Backdoorllm: A comprehensive benchmark for backdoor attacks on large language models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib48.1.1">arXiv preprint arXiv:2408.12798</em>, 2024c.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib49">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Liang et al. (2021)</span>
+<span class="ltx_bibblock">
+Liang, P. P., Wu, C., Morency, L.-P., and Salakhutdinov, R.
+
+</span>
+<span class="ltx_bibblock">Towards understanding and mitigating social biases in language models.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic" id="bib.bib49.1.1">International Conference on Machine Learning</em>, pp.  6565–6576. PMLR, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib50">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Lin et al. (2024)</span>
+<span class="ltx_bibblock">
+Lin, Y., He, P., Xu, H., Xing, Y., Yamada, M., Liu, H., and Tang, J.
+
+</span>
+<span class="ltx_bibblock">Towards understanding jailbreak attacks in llms: A representation space analysis.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib50.1.1">arXiv preprint arXiv:2406.10794</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib51">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Liu et al. (2022)</span>
+<span class="ltx_bibblock">
+Liu, H., Tam, D., Muqeeth, M., Mohta, J., Huang, T., Bansal, M., and Raffel, C. A.
+
+</span>
+<span class="ltx_bibblock">Few-shot parameter-efficient fine-tuning is better and cheaper than in-context learning.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib51.1.1">Advances in Neural Information Processing Systems</em>, 35:1950–1965, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib52">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Liu et al. (2024a)</span>
+<span class="ltx_bibblock">
+Liu, H., Liu, Z., Tang, R., Yuan, J., Zhong, S., Chuang, Y.-N., Li, L., Chen, R., and Hu, X.
+
+</span>
+<span class="ltx_bibblock">Lora-as-an-attack! piercing llm safety under the share-and-play scenario, 2024a.
+
+</span>
+<span class="ltx_bibblock">URL <a class="ltx_ref ltx_url ltx_font_typewriter" href="https://arxiv.org/abs/2403.00108" title="">https://arxiv.org/abs/2403.00108</a>.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib53">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Liu et al. (2024b)</span>
+<span class="ltx_bibblock">
+Liu, X., Sun, T., Xu, T., Wu, F., Wang, C., Wang, X., and Gao, J.
+
+</span>
+<span class="ltx_bibblock">Shield: Evaluation and defense strategies for copyright compliance in llm text generation.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib53.1.1">arXiv preprint arXiv:2406.12975</em>, 2024b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib54">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Min et al. (2022)</span>
+<span class="ltx_bibblock">
+Min, S., Lyu, X., Holtzman, A., Artetxe, M., Lewis, M., Hajishirzi, H., and Zettlemoyer, L.
+
+</span>
+<span class="ltx_bibblock">Rethinking the role of demonstrations: What makes in-context learning work?
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib54.1.1">arXiv preprint arXiv:2202.12837</em>, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib55">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Olsson et al. (2022)</span>
+<span class="ltx_bibblock">
+Olsson, C., Elhage, N., Nanda, N., Joseph, N., DasSarma, N., Henighan, T., Mann, B., Askell, A., Bai, Y., Chen, A., et al.
+
+</span>
+<span class="ltx_bibblock">In-context learning and induction heads.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib55.1.1">arXiv preprint arXiv:2209.11895</em>, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib56">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ouyang et al. (2022)</span>
+<span class="ltx_bibblock">
+Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., Ray, A., et al.
+
+</span>
+<span class="ltx_bibblock">Training language models to follow instructions with human feedback.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib56.1.1">Advances in neural information processing systems</em>, 35:27730–27744, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib57">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Prystawski et al. (2024)</span>
+<span class="ltx_bibblock">
+Prystawski, B., Li, M., and Goodman, N.
+
+</span>
+<span class="ltx_bibblock">Why think step by step? reasoning emerges from the locality of experience.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib57.1.1">Advances in Neural Information Processing Systems</em>, 36, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib58">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Qiang et al. (2024)</span>
+<span class="ltx_bibblock">
+Qiang, Y., Zhou, X., Zade, S. Z., Roshani, M. A., Khanduri, P., Zytko, D., and Zhu, D.
+
+</span>
+<span class="ltx_bibblock">Learning to poison large language models during instruction tuning.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib58.1.1">arXiv preprint arXiv:2402.13459</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib59">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Rafailov et al. (2024)</span>
+<span class="ltx_bibblock">
+Rafailov, R., Sharma, A., Mitchell, E., Manning, C. D., Ermon, S., and Finn, C.
+
+</span>
+<span class="ltx_bibblock">Direct preference optimization: Your language model is secretly a reward model.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib59.1.1">Advances in Neural Information Processing Systems</em>, 36, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib60">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ramachandra et al. (2022)</span>
+<span class="ltx_bibblock">
+Ramachandra, M. N., Srinivasa Rao, M., Lai, W. C., Parameshachari, B. D., Ananda Babu, J., and Hemalatha, K. L.
+
+</span>
+<span class="ltx_bibblock">An efficient and secure big data storage in cloud environment by using triple data encryption standard.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib60.1.1">Big Data and Cognitive Computing</em>, 6(4):101, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib61">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Rando &amp; Tramèr (2023)</span>
+<span class="ltx_bibblock">
+Rando, J. and Tramèr, F.
+
+</span>
+<span class="ltx_bibblock">Universal jailbreak backdoors from poisoned human feedback.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib61.1.1">arXiv preprint arXiv:2311.14455</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib62">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ren et al. (2024)</span>
+<span class="ltx_bibblock">
+Ren, J., Xu, H., He, P., Cui, Y., Zeng, S., Zhang, J., Wen, H., Ding, J., Huang, P., Lyu, L., et al.
+
+</span>
+<span class="ltx_bibblock">Copyright protection in generative ai: A technical perspective.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib62.1.1">arXiv preprint arXiv:2402.02333</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib63">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Samuelson (2023)</span>
+<span class="ltx_bibblock">
+Samuelson, P.
+
+</span>
+<span class="ltx_bibblock">Generative ai meets copyright.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib63.1.1">Science</em>, 381(6654):158–161, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib64">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Sandhu (1998)</span>
+<span class="ltx_bibblock">
+Sandhu, R. S.
+
+</span>
+<span class="ltx_bibblock">Role-based access control.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic" id="bib.bib64.1.1">Advances in computers</em>, volume 46, pp.  237–286. Elsevier, 1998.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib65">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Schwarzschild et al. (2021)</span>
+<span class="ltx_bibblock">
+Schwarzschild, A., Goldblum, M., Gupta, A., Dickerson, J. P., and Goldstein, T.
+
+</span>
+<span class="ltx_bibblock">Just how toxic is data poisoning? a unified benchmark for backdoor and data poisoning attacks.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic" id="bib.bib65.1.1">International Conference on Machine Learning</em>, pp.  9389–9398. PMLR, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib66">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Shafahi et al. (2018)</span>
+<span class="ltx_bibblock">
+Shafahi, A., Huang, W. R., Najibi, M., Suciu, O., Studer, C., Dumitras, T., and Goldstein, T.
+
+</span>
+<span class="ltx_bibblock">Poison frogs! targeted clean-label poisoning attacks on neural networks.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib66.1.1">Advances in neural information processing systems</em>, 31, 2018.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib67">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Shi et al. (2023)</span>
+<span class="ltx_bibblock">
+Shi, J., Liu, Y., Zhou, P., and Sun, L.
+
+</span>
+<span class="ltx_bibblock">Badgpt: Exploring security vulnerabilities of chatgpt via backdoor attacks to instructgpt.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib67.1.1">arXiv preprint arXiv:2304.12298</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib68">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Shu et al. (2023)</span>
+<span class="ltx_bibblock">
+Shu, M., Wang, J., Zhu, C., Geiping, J., Xiao, C., and Goldstein, T.
+
+</span>
+<span class="ltx_bibblock">On the exploitability of instruction tuning.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib68.1.1">Advances in Neural Information Processing Systems</em>, 36:61836–61856, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib69">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Steinhardt et al. (2017)</span>
+<span class="ltx_bibblock">
+Steinhardt, J., Koh, P. W. W., and Liang, P. S.
+
+</span>
+<span class="ltx_bibblock">Certified defenses for data poisoning attacks.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib69.1.1">Advances in neural information processing systems</em>, 30, 2017.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib70">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Touvron et al. (2023)</span>
+<span class="ltx_bibblock">
+Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y., Bashlykov, N., Batra, S., Bhargava, P., Bhosale, S., et al.
+
+</span>
+<span class="ltx_bibblock">Llama 2: Open foundation and fine-tuned chat models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib70.1.1">arXiv preprint arXiv:2307.09288</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib71">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Turk (2012)</span>
+<span class="ltx_bibblock">
+Turk, A. M.
+
+</span>
+<span class="ltx_bibblock">Amazon mechanical turk.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib71.1.1">Retrieved August</em>, 17:2012, 2012.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib72">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wan et al. (2023)</span>
+<span class="ltx_bibblock">
+Wan, A., Wallace, E., Shen, S., and Klein, D.
+
+</span>
+<span class="ltx_bibblock">Poisoning language models during instruction tuning.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic" id="bib.bib72.1.1">International Conference on Machine Learning</em>, pp.  35413–35425. PMLR, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib73">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang &amp; Shu (2024)</span>
+<span class="ltx_bibblock">
+Wang, H. and Shu, K.
+
+</span>
+<span class="ltx_bibblock">Trojan activation attack: Red-teaming large language models using steering vectors for safety-alignment.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic" id="bib.bib73.1.1">Proceedings of the 33rd ACM International Conference on Information and Knowledge Management</em>, pp.  2347–2357, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib74">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wang et al. (2024)</span>
+<span class="ltx_bibblock">
+Wang, Y., Xue, D., Zhang, S., and Qian, S.
+
+</span>
+<span class="ltx_bibblock">Badagent: Inserting and activating backdoor attacks in llm agents.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib74.1.1">arXiv preprint arXiv:2406.03007</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib75">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wei et al. (2024)</span>
+<span class="ltx_bibblock">
+Wei, A., Haghtalab, N., and Steinhardt, J.
+
+</span>
+<span class="ltx_bibblock">Jailbroken: How does llm safety training fail?
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib75.1.1">Advances in Neural Information Processing Systems</em>, 36, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib76">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wei et al. (2022)</span>
+<span class="ltx_bibblock">
+Wei, J., Wang, X., Schuurmans, D., Bosma, M., Xia, F., Chi, E., Le, Q. V., Zhou, D., et al.
+
+</span>
+<span class="ltx_bibblock">Chain-of-thought prompting elicits reasoning in large language models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib76.1.1">Advances in neural information processing systems</em>, 35:24824–24837, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib77">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wu et al. (2024)</span>
+<span class="ltx_bibblock">
+Wu, J., Wang, J., Xiao, C., Wang, C., Zhang, N., and Vorobeychik, Y.
+
+</span>
+<span class="ltx_bibblock">Preference poisoning attacks on reward model learning.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib77.1.1">arXiv preprint arXiv:2402.01920</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib78">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Wu et al. (2023)</span>
+<span class="ltx_bibblock">
+Wu, Q., Bansal, G., Zhang, J., Wu, Y., Zhang, S., Zhu, E., Li, B., Jiang, L., Zhang, X., and Wang, C.
+
+</span>
+<span class="ltx_bibblock">Autogen: Enabling next-gen llm applications via multi-agent conversation framework.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib78.1.1">arXiv preprint arXiv:2308.08155</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib79">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Xia et al. (2022)</span>
+<span class="ltx_bibblock">
+Xia, P., Li, Z., Zhang, W., and Li, B.
+
+</span>
+<span class="ltx_bibblock">Data-efficient backdoor attacks.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib79.1.1">arXiv preprint arXiv:2204.12281</em>, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib80">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Xiang et al. (2024)</span>
+<span class="ltx_bibblock">
+Xiang, Z., Jiang, F., Xiong, Z., Ramasubramanian, B., Poovendran, R., and Li, B.
+
+</span>
+<span class="ltx_bibblock">Badchain: Backdoor chain-of-thought prompting for large language models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib80.1.1">arXiv preprint arXiv:2401.12242</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib81">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Xie et al. (2021)</span>
+<span class="ltx_bibblock">
+Xie, S. M., Raghunathan, A., Liang, P., and Ma, T.
+
+</span>
+<span class="ltx_bibblock">An explanation of in-context learning as implicit bayesian inference.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib81.1.1">arXiv preprint arXiv:2111.02080</em>, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib82">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Xu et al. (2023)</span>
+<span class="ltx_bibblock">
+Xu, J., Ma, M. D., Wang, F., Xiao, C., and Chen, M.
+
+</span>
+<span class="ltx_bibblock">Instructions as backdoors: Backdoor vulnerabilities of instruction tuning for large language models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib82.1.1">arXiv preprint arXiv:2305.14710</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib83">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Xue et al. (2024)</span>
+<span class="ltx_bibblock">
+Xue, J., Zheng, M., Hu, Y., Liu, F., Chen, X., and Lou, Q.
+
+</span>
+<span class="ltx_bibblock">Badrag: Identifying vulnerabilities in retrieval augmented generation of large language models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib83.1.1">arXiv preprint arXiv:2406.00083</em>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib84">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Yan et al. (2024)</span>
+<span class="ltx_bibblock">
+Yan, J., Yadav, V., Li, S., Chen, L., Tang, Z., Wang, H., Srinivasan, V., Ren, X., and Jin, H.
+
+</span>
+<span class="ltx_bibblock">Backdooring instruction-tuned large language models with virtual prompt injection.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic" id="bib.bib84.1.1">Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)</em>, pp.  6065–6086, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib85">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(85)</span>
+<span class="ltx_bibblock">
+Yang, W., Bi, X., Lin, Y., Chen, S., Zhou, J., and Sun, X.
+
+</span>
+<span class="ltx_bibblock">Watch out for your agents! investigating backdoor threats to llm-based agents (2024).
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib85.1.1">arXiv preprint arXiv:2402.11208</em>, 248.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib86">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Yao et al. (2023)</span>
+<span class="ltx_bibblock">
+Yao, J.-Y., Ning, K.-P., Liu, Z.-H., Ning, M.-N., Liu, Y.-Y., and Yuan, L.
+
+</span>
+<span class="ltx_bibblock">Llm lies: Hallucinations are not bugs, but features as adversarial examples.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib86.1.1">arXiv preprint arXiv:2310.01469</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib87">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Youssef et al. (2024)</span>
+<span class="ltx_bibblock">
+Youssef, P., Seifert, C., Schlötterer, J., et al.
+
+</span>
+<span class="ltx_bibblock">Llms for generating and evaluating counterfactuals: A comprehensive study.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic" id="bib.bib87.1.1">Findings of the Association for Computational Linguistics: EMNLP 2024</em>, pp.  14809–14824, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib88">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Yu et al. (2022)</span>
+<span class="ltx_bibblock">
+Yu, D., Zhang, H., Chen, W., Yin, J., and Liu, T.-Y.
+
+</span>
+<span class="ltx_bibblock">Availability attacks create shortcuts.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic" id="bib.bib88.1.1">Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</em>, pp.  2367–2376, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib89">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhang et al. (2023)</span>
+<span class="ltx_bibblock">
+Zhang, S., Dong, L., Li, X., Zhang, S., Sun, X., Wang, S., Li, J., Hu, R., Zhang, T., Wu, F., et al.
+
+</span>
+<span class="ltx_bibblock">Instruction tuning for large language models: A survey.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib89.1.1">arXiv preprint arXiv:2308.10792</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib90">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhang et al. (2024a)</span>
+<span class="ltx_bibblock">
+Zhang, Y., Rando, J., Evtimov, I., Chi, J., Smith, E. M., Carlini, N., Tramèr, F., and Ippolito, D.
+
+</span>
+<span class="ltx_bibblock">Persistent pre-training poisoning of llms.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib90.1.1">arXiv preprint arXiv:2410.13722</em>, 2024a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib91">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhang et al. (2024b)</span>
+<span class="ltx_bibblock">
+Zhang, Y., Wang, Z., Hu, R., Duan, X., Zheng, Y., Huai, B., Han, J., and Sang, J.
+
+</span>
+<span class="ltx_bibblock">Poisoning for debiasing: Fair recognition via eliminating bias uncovered in data poisoning.
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic" id="bib.bib91.1.1">Proceedings of the 32nd ACM International Conference on Multimedia</em>, pp.  1866–1874, 2024b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib92">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhao et al. (2023a)</span>
+<span class="ltx_bibblock">
+Zhao, S., Wen, J., Tuan, L. A., Zhao, J., and Fu, J.
+
+</span>
+<span class="ltx_bibblock">Prompt as triggers for backdoor attack: Examining the vulnerability in language models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib92.1.1">arXiv preprint arXiv:2305.01219</em>, 2023a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib93">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhao et al. (2024a)</span>
+<span class="ltx_bibblock">
+Zhao, S., Gan, L., Guo, Z., Wu, X., Xiao, L., Xu, X., Nguyen, C.-D., and Tuan, L. A.
+
+</span>
+<span class="ltx_bibblock">Weak-to-strong backdoor attack for large language models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib93.1.1">arXiv preprint arXiv:2409.17946</em>, 2024a.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib94">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhao et al. (2024b)</span>
+<span class="ltx_bibblock">
+Zhao, S., Jia, M., Guo, Z., Gan, L., Xu, X., Wu, X., Fu, J., Feng, Y., Pan, F., and Tuan, L. A.
+
+</span>
+<span class="ltx_bibblock">A survey of backdoor attacks and defenses on large language models: Implications for security measures.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib94.1.1">arXiv preprint arXiv:2406.06852</em>, 2024b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib95">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhao et al. (2023b)</span>
+<span class="ltx_bibblock">
+Zhao, W. X., Zhou, K., Li, J., Tang, T., Wang, X., Hou, Y., Min, Y., Zhang, B., Zhang, J., Dong, Z., et al.
+
+</span>
+<span class="ltx_bibblock">A survey of large language models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib95.1.1">arXiv preprint arXiv:2303.18223</em>, 2023b.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib96">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhao et al. (2023c)</span>
+<span class="ltx_bibblock">
+Zhao, X., Ananth, P., Li, L., and Wang, Y.-X.
+
+</span>
+<span class="ltx_bibblock">Provable robust watermarking for ai-generated text.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib96.1.1">arXiv preprint arXiv:2306.17439</em>, 2023c.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib97">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhou et al. (2022)</span>
+<span class="ltx_bibblock">
+Zhou, Y., Booth, S., Ribeiro, M. T., and Shah, J.
+
+</span>
+<span class="ltx_bibblock">Do feature attribution methods correctly attribute features?
+
+</span>
+<span class="ltx_bibblock">In <em class="ltx_emph ltx_font_italic" id="bib.bib97.1.1">Proceedings of the AAAI Conference on Artificial Intelligence</em>, volume 36, pp.  9623–9633, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib98">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zhu et al. (2023)</span>
+<span class="ltx_bibblock">
+Zhu, Z., Zhang, M., Wei, S., Shen, L., Fan, Y., and Wu, B.
+
+</span>
+<span class="ltx_bibblock">Boosting backdoor attack with a learnable poisoning sample selection strategy.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib98.1.1">arXiv preprint arXiv:2307.07328</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib99">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Ziegler et al. (2019)</span>
+<span class="ltx_bibblock">
+Ziegler, D. M., Stiennon, N., Wu, J., Brown, T. B., Radford, A., Amodei, D., Christiano, P., and Irving, G.
+
+</span>
+<span class="ltx_bibblock">Fine-tuning language models from human preferences.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib99.1.1">arXiv preprint arXiv:1909.08593</em>, 2019.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib100">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zou et al. (2023)</span>
+<span class="ltx_bibblock">
+Zou, A., Wang, Z., Carlini, N., Nasr, M., Kolter, J. Z., and Fredrikson, M.
+
+</span>
+<span class="ltx_bibblock">Universal and transferable adversarial attacks on aligned language models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib100.1.1">arXiv preprint arXiv:2307.15043</em>, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib101">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">Zou et al. (2024)</span>
+<span class="ltx_bibblock">
+Zou, W., Geng, R., Wang, B., and Jia, J.
+
+</span>
+<span class="ltx_bibblock">Poisonedrag: Knowledge poisoning attacks to retrieval-augmented generation of large language models.
+
+</span>
+<span class="ltx_bibblock"><em class="ltx_emph ltx_font_italic" id="bib.bib101.1.1">arXiv preprint arXiv:2402.07867</em>, 2024.
+
+</span>
+</li>
+</ul>
+</section>
+<div class="ltx_pagination ltx_role_newpage"></div>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Thu Feb 20 01:17:47 2025 by <a class="ltx_LaTeXML_logo" href="http://dlmf.nist.gov/LaTeXML/"><span style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_font_smallcaps" style="position:relative; bottom:2.2pt;">a</span>T<span class="ltx_font_smallcaps" style="font-size:120%;position:relative; bottom:-0.2ex;">e</span></span><span style="font-size:90%; position:relative; bottom:-0.2ex;">XML</span><img alt="Mascot Sammy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg=="/></a>
+</div></footer>
+</div>
+</body>
+</html>
