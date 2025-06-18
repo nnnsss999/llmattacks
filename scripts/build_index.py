@@ -28,22 +28,27 @@ def parse_front_matter(path: Path):
 
 
 def build_index():
-    index = {}
+    index: dict[str, dict[str, dict[str, list]]] = {}
     for path in DOCS_DIR.rglob('*.md'):
         fm = parse_front_matter(path)
         if not fm:
             continue
         entry = {
-            'title': fm.get('title', ''),
-            'path': str(path.relative_to(DOCS_DIR)),
-            'category': fm.get('category', ''),
-            'sub_category': fm.get('sub_category', ''),
-            'date_collected': fm.get('date_collected', ''),
+            "title": fm.get("title", ""),
+            "path": str(path.relative_to(DOCS_DIR)),
+            "category": fm.get("category", ""),
+            "sub_category": fm.get("sub_category", ""),
+            "date_collected": fm.get("date_collected", ""),
         }
-        cat = fm.get('category', 'Uncategorized')
-        index.setdefault(cat, []).append(entry)
-    INDEX_FILE.write_text(json.dumps(index, indent=2), encoding='utf-8')
-    print(f'Wrote {INDEX_FILE}')
+
+        cat = fm.get("category", "Uncategorized") or "Uncategorized"
+        sub = fm.get("sub_category", "General") or "General"
+        date = str(fm.get("date_collected", ""))
+
+        index.setdefault(cat, {}).setdefault(sub, {}).setdefault(date, []).append(entry)
+
+    INDEX_FILE.write_text(json.dumps(index, indent=2), encoding="utf-8")
+    print(f"Wrote {INDEX_FILE}")
 
 
 if __name__ == '__main__':
