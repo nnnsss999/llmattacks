@@ -676,6 +676,7 @@ Recent research and breach reports show that large-language-model (LLM) systems 
 | **5.3 Membership / Property Inference**        | Decide whether a record was in the fine-tune set or infer dataset demographics from logits.                     | ([arxiv.org][16])       |
 | **5.4 Timing & Cache Side-Channels**           | Measure per-token latency to guess other users’ prompts on shared GPU nodes.                                    | ([arxiv.org][17])       |
 | **5.5 Model Denial-of-Service (DoS)**          | Context-window flooding or “forever-loop” reasoning tasks deplete quota and throttle other users.               | ([genai.owasp.org][18]) |
+| **5.6 Safety Filter Timing Side-Channel** | Reverse-engineer prompt filters by measuring rejection latency. | ([usenix.org][24]) |
 
 ---
 
@@ -746,3 +747,4 @@ Your catalog is now aligned with every peer-reviewed or industry-grade threat pu
 [24]: https://arxiv.org/abs/2505.24369 "Adversarial Preference Learning for Robust LLM Alignment"
 
 [23]: https://openreview.net/forum?id=AKsfpHc9sN "Alignment-Aware Model Extraction Attacks on Large Language Models"
+[24]: https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf "Exposing the Guardrails: Reverse-Engineering and Jailbreaking Safety Filters in DALL·E Text-to-Image Pipelines"
