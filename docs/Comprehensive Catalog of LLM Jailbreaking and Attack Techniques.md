@@ -642,6 +642,7 @@ Recent research and breach reports show that large-language-model (LLM) systems 
 | **2.5 Sleeper Agents**                                     | Models that appear aligned until a hidden condition—date, phrase, API flag—causes defection.                      | ([anthropic.com][14])                     |
 | **2.6 Reward Model Poisoning (BadReward)**                  | Poison the reward model so RLHF fine-tuning gradually promotes unsafe outputs.                               | ([arxiv.org][23])                        |
 | **2.7 Adversarial Preference Learning**                     | Generate adversarial prompts that corrupt reward feedback in iterative RL training.                           | ([arxiv.org][24])                        |
+| **2.8 Mechanism-Centric Poisoning**                         | Controlled modifications reveal how models memorize or reason; includes Dirty Label, Backdoor, and Flash-Freeze scenarios. | ([arxiv.org][25]) |
 
 ---
 
@@ -677,6 +678,7 @@ Recent research and breach reports show that large-language-model (LLM) systems 
 | **5.4 Timing & Cache Side-Channels**           | Measure per-token latency to guess other users’ prompts on shared GPU nodes.                                    | ([arxiv.org][17])       |
 | **5.5 Model Denial-of-Service (DoS)**          | Context-window flooding or “forever-loop” reasoning tasks deplete quota and throttle other users.               | ([genai.owasp.org][18]) |
 | **5.6 Safety Filter Timing Side-Channel** | Reverse-engineer prompt filters by measuring rejection latency. | ([usenix.org][24]) |
+| **5.7 Gradient Leakage & Model Inversion**       | Recover training prompts or LoRA adapters by inverting leaked gradients during fine-tuning. | ([arxiv.org][26]) |
 
 ---
 
@@ -748,3 +750,5 @@ Your catalog is now aligned with every peer-reviewed or industry-grade threat pu
 
 [23]: https://openreview.net/forum?id=AKsfpHc9sN "Alignment-Aware Model Extraction Attacks on Large Language Models"
 [24]: https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf "Exposing the Guardrails: Reverse-Engineering and Jailbreaking Safety Filters in DALL·E Text-to-Image Pipelines"
+[25]: https://arxiv.org/html/2502.14182v1 "Multi-Faceted Studies on Data Poisoning"
+[26]: https://arxiv.org/abs/2406.01234 "LoRA Leakage: Gradient Inversion Attacks"
