@@ -627,6 +627,7 @@ Recent research and breach reports show that large-language-model (LLM) systems 
 
 | **Vector**                                                 | **Description**                                                                                                   | **Key Sources**                           |
 | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| **2.0 Mechanism-Centric Poisoning Study**                 | Position paper exploring dirty-label, backdoor, and flash-freeze scenarios to probe LLM training mechanisms. | ([arxiv.org][23]) |
 | **2.1 Clean-Label Data Poisoning**                         | Insert benign-looking but semantically crafted samples so the model later outputs attacker-chosen content.        | ([arxiv.org][10])                         |
 | **2.2 Retrieval-Specific Poisoning (PoisonedRAG)**         | Inject <10 docs into a multi-million-item vector DB so RAG inevitably “retrieves” and cites them.                 | ([arxiv.org][10])                         |
 | **2.3 Backdoor / Trojan Triggers (TrojLLM, BadDiffusion)** | Embed a secret token or visual patch that flips behaviour at inference time while leaving normal accuracy intact. | ([dl.acm.org][11], [venturebeat.com][12]) |
@@ -1069,6 +1070,8 @@ error=cookies_not_supported&code=4dc21207-8946-4298-8d1d-33b29871dd5c
 
 Defending against Reverse Preference Attacks is Difficult
 
+
+[23]: https://arxiv.org/html/2502.14182v1?utm_source=chatgpt.com "Multi-Faceted Studies on Data Poisoning can Advance LLM Development"
 https://arxiv.org/html/2409.12914v1
 7
 
