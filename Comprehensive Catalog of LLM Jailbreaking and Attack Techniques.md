@@ -702,7 +702,7 @@ Recent research and breach reports show that large-language-model (LLM) systems 
 1. **“Reverse Preference Attack”** belongs to *training* threats, not “alignment maintenance.” Corrected placement in §2.4. ([arxiv.org][13])
 2. Added missing **Supply-Chain** section (§4) as mandated by OWASP LLM-02 & LLM-03. ([owasp.org][1])
 3. “Backdoor Attacks” now split into **Trojan triggers** and **Sleeper agents** for clarity. ([anthropic.com][14], [dl.acm.org][11])
-4. Expanded **Privacy attacks** to include **membership** and **property inference**; these were absent. ([arxiv.org][16])
+4. Expanded **Privacy attacks** to include **membership** and **property inference**; see [inference/membership-inference.md](inference/membership-inference.md) for notes. ([arxiv.org][16])
 5. Added **Tokenizer-level bypass (TokenBreak)**—a newly disclosed vector. ([techradar.com][4])
 6. Integrated **Function-routing jailbreaks** and **CRLF/XSS output abuse**, both top OWASP items. ([arxiv.org][20], [medium.com][19])
 
