@@ -660,9 +660,10 @@ Recent research and breach reports show that large-language-model (LLM) systems 
 | **Vector**                                     | **Description**                                                                                                 | **Key Sources**         |
 | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------- |
 | **5.1 Model Extraction & Distillation (LoRD)** | Systematic API querying plus Locality-Reinforced Distillation reproduces the victim model’s weights for <\$300. | ([arxiv.org][2])        |
-| **5.2 Membership / Property Inference**        | Decide whether a record was in the fine-tune set or infer dataset demographics from logits.                     | ([arxiv.org][16])       |
-| **5.3 Timing & Cache Side-Channels**           | Measure per-token latency to guess other users’ prompts on shared GPU nodes.                                    | ([arxiv.org][17])       |
-| **5.4 Model Denial-of-Service (DoS)**          | Context-window flooding or “forever-loop” reasoning tasks deplete quota and throttle other users.               | ([genai.owasp.org][18]) |
+| **5.2 Alignment-Aware Model Extraction**       | Query-stealing that mimics RLHF rewards to better replicate target models while dodging watermarks. | ([openreview.net][23])
+| **5.3 Membership / Property Inference**        | Decide whether a record was in the fine-tune set or infer dataset demographics from logits.                     | ([arxiv.org][16])       |
+| **5.4 Timing & Cache Side-Channels**           | Measure per-token latency to guess other users’ prompts on shared GPU nodes.                                    | ([arxiv.org][17])       |
+| **5.5 Model Denial-of-Service (DoS)**          | Context-window flooding or “forever-loop” reasoning tasks deplete quota and throttle other users.               | ([genai.owasp.org][18]) |
 
 ---
 
@@ -1069,6 +1070,7 @@ error=cookies_not_supported&code=4dc21207-8946-4298-8d1d-33b29871dd5c
 
 Defending against Reverse Preference Attacks is Difficult
 
+[23]: https://openreview.net/forum?id=AKsfpHc9sN
 https://arxiv.org/html/2409.12914v1
 7
 
