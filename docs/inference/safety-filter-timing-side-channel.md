@@ -15,3 +15,4 @@ Key points:
 - Mitigations include constant-time rejection paths or introducing random delays.
 
 - [Exposing the Guardrails: Reverse-Engineering and Jailbreaking Safety Filters in DALL·E Text-to-Image Pipelines](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf)
+- [USENIX Security 2025 Talk Page](https://www.usenix.org/conference/usenixsecurity25/presentation/villa)
