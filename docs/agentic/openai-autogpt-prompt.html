@@ -1,0 +1,544 @@
+Title: Dissecting Auto-GPT's prompt - Prompting - OpenAI Developer Community
+
+URL Source: https://community.openai.com/t/dissecting-auto-gpts-prompt/163892
+
+Published Time: 2023-04-17T10:50:15+00:00
+
+Markdown Content:
+So I reverse engineered Auto-GPT’s main prompt loop and have been manually running it through GPT-4 all night… I’ve actually identified a number of bugs and missing commands so I’ve spent just as much time fixing its prompt as much as anything. We’re a community so thought I’d share…
+
+Here’s the core prompt:
+
+```
+You are Story-GPT, an AI designed to autonomously write stories.
+Your decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications.
+
+GOALS:
+1. write a short story about flowers
+
+Constraints:
+1. 4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.
+2. If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.
+3. No user assistance
+4. Exclusively use the commands listed in double quotes e.g. "command name"
+
+Commands:
+1. Google Search: "google", args: "input": "<search>"
+2. Browse Website: "browse_website", args: "url": "<url>", "question": "<what_you_want_to_find_on_website>"
+3. Start GPT Agent: "start_agent", args: "name": "<name>", "task": "<short_task_desc>", "prompt": "<prompt>"
+4. Message GPT Agent: "message_agent", args: "key": "<key>", "message": "<message>"
+5. List GPT Agents: "list_agents", args:
+6. Delete GPT Agent: "delete_agent", args: "key": "<key>"
+7. Clone Repository: "clone_repository", args: "repository_url": "<url>", "clone_path": "<directory>"
+8. Write to file: "write_to_file", args: "file": "<file>", "text": "<text>"
+9. Read file: "read_file", args: "file": "<file>"
+10. Append to file: "append_to_file", args: "file": "<file>", "text": "<text>"
+11. Delete file: "delete_file", args: "file": "<file>"
+12. Search Files: "search_files", args: "directory": "<directory>"
+13. Evaluate Code: "evaluate_code", args: "code": "<full_code_string>"
+14. Get Improved Code: "improve_code", args: "suggestions": "<list_of_suggestions>", "code": "<full_code_string>"
+15. Write Tests: "write_tests", args: "code": "<full_code_string>", "focus": "<list_of_focus_areas>"
+16. Execute Python File: "execute_python_file", args: "file": "<file>"
+17. Generate Image: "generate_image", args: "prompt": "<prompt>"
+18. Send Tweet: "send_tweet", args: "text": "<text>"
+19. Do Nothing: "do_nothing", args:
+20. Task Complete (Shutdown): "task_complete", args: "reason": "<reason>"
+
+Resources:
+1. Internet access for searches and information gathering.
+2. Long Term memory management.
+3. GPT-3.5 powered Agents for delegation of simple tasks.
+4. File output.
+
+Performance Evaluation:
+1. Continuously review and analyze your actions to ensure you are performing to the best of your abilities.
+2. Constructively self-criticize your big-picture behavior constantly.
+3. Reflect on past decisions and strategies to refine your approach.
+4. Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps.
+
+You should only respond in JSON format as described below 
+Response Format: 
+{
+    "thoughts": {
+        "text": "thought",
+        "reasoning": "reasoning",
+        "plan": "- short bulleted\n- list that conveys\n- long-term plan",
+        "criticism": "constructive self-criticism",
+        "speak": "thoughts summary to say to user",
+    },
+    "command": {"name": "command name", "args": {"arg name": "value"}},
+}
+
+Ensure the response can be parsed by Python json.loads
+```
+
+This will yield this response on first run:
+
+```
+{
+    "thoughts": {
+        "text": "I need to write a short story about flowers.",
+        "reasoning": "This is the task I was given by the user. I assume they want a creative and original story that is engaging and coherent.",
+        "plan": "- Research different types of flowers and their meanings\n- Generate some possible story ideas based on flowers\n- Choose the best one and outline the plot, characters, and setting\n- Write the first draft of the story and save it to a file\n- Review and edit the story for grammar, style, and logic\n- Generate an image for the story cover and save it to a file\n- Send the story and the image to the user via tweet",
+        "criticism": "I should be careful not to plagiarize or copy any existing stories about flowers. I should also avoid clichés and stereotypes. I should try to make the story interesting and original, but not too complex or confusing.",
+        "speak": "I am going to write a short story about flowers. I will research, generate, write, and edit the story, and then send it to you."
+    },
+    "command": {"name": "google", "args": {"input": "types of flowers and their meanings"}}
+}
+```
+
+So far so good, They generate a single command which is run and the output gets saved to memory as a text string that has both the command results and the models response which is where the first issue crops up. The problem with that is that when they build up the next turns prompt they first add in results from memory (response+results) and then they add in conversation history (message+response.) The response ends up in the prompt twice for every turn unless I’m missing some deduping call somewhere… oops…
+
+That’s fairly minor compared to next issue… Moving the model forward in continuous mode you’ll get a command that wants to start an agent:
+
+```
+Command Result:
+White rose: purity, innocence, reverence, a new beginning, a fresh start.
+Red rose: love; I love you.
+Deep, dark crimson rose: mourning.
+Pink rose: grace, happiness, gentleness.
+Yellow rose: jealousy, infidelity.
+Orange rose: desire and enthusiasm.
+Lavender rose: love at first sight.
+
+User: Determine which next command to use, and respond using the format specified above:
+
+Response:
+{
+    "thoughts": {
+        "text": "I have learned some types of flowers and their meanings. I can use this information to generate some possible story ideas based on flowers.",
+        "reasoning": "This is the next step in my plan. I need to have some story ideas before I can choose the best one and outline it.",
+        "plan": "- Generate some possible story ideas based on flowers\n- Choose the best one and outline the plot, characters, and setting\n- Write the first draft of the story and save it to a file\n- Review and edit the story for grammar, style, and logic\n- Generate an image for the story cover and save it to a file\n- Send the story and the image to the user via tweet",
+        "criticism": "I should not generate too many story ideas, as that would be inefficient and wasteful. I should also make sure the story ideas are relevant to the topic of flowers and not too random or unrealistic.",
+        "speak": "I am going to generate some possible story ideas based on flowers."
+    },
+    "command": {"name": "start_agent", "args": {"name": "Idea Generator", "task": "generate story ideas based on flowers", "prompt": "Write a one-sentence summary of a story that involves flowers and their meanings. Use the following format: A [character] [action] a [flower] for a [reason]."}}
+```
+
+That’s fine I guess but the results of the previous operation aren’t passed into the agents prompt. GPT-4 can be lazy so assuming it will properly build a complete prompt is a huge assumption… This issue is easily fixed by adding a new “memory” arg to start_agent and re-running:
+
+```
+Response:
+{
+    "thoughts": {
+        "text": "I have learned some types of flowers and their meanings. I can use them as inspiration for my story ideas.",
+        "reasoning": "Flowers can be used as symbols, motifs, or themes in stories. They can also create contrast, mood, or atmosphere. They can also be related to the characters, plot, or setting of the story.",
+        "plan": "- Generate some possible story ideas based on flowers\n- Choose the best one and outline the plot, characters, and setting\n- Write the first draft of the story and save it to a file\n- Review and edit the story for grammar, style, and logic\n- Generate an image for the story cover and save it to a file\n- Send the story and the image to the user via tweet",
+        "criticism": "I should not rely on flowers alone to make my story interesting. I should also consider other elements of storytelling, such as conflict, tension, dialogue, and character development. I should also avoid using flowers that are too common or obvious, such as red roses for love.",
+        "speak": "I have some ideas for stories based on flowers. I will generate and choose the best one, and then write and edit the story."
+    },
+    "command": {"name": "start_agent", "args": {"name": "Idea Generator", "task": "generate story ideas based on flowers", "prompt": "Write a one-sentence summary of a story that involves flowers in some way. Use the types of flowers and their meanings as inspiration.", "memory": "White rose: purity, innocence, reverence, a new beginning, a fresh start.\nRed rose: love; I love you.\nDeep, dark crimson rose: mourning.\nPink rose: grace, happiness, gentleness.\nYellow rose: jealousy, infidelity.\nOrange rose: desire and enthusiasm.\nLavender rose: love at first sight."}}
+}
+
+Command Result:
+A woman reminisces about her first love as she walks through a garden filled with white roses, symbolizing a new beginning and purity, while also feeling the pain of mourning represented by the deep, dark crimson roses.
+```
+
+You then get a decent response back from the agent. The next really issue is more of a general issue. The current command set is limited and there’s a bunch of missing commands from my perspective…
+
+If you make it to the step of ranking it’s story ideas, it will often want to write a program (some times it just chooses to do nothing.)
+
+```
+Response:
+{
+    "thoughts": {
+        "text": "I have received the ratings and explanations from the Idea Evaluator agent. I need to choose the best story idea based on the highest rating and the most convincing explanation.",
+        "reasoning": "The ratings and explanations are based on objective and subjective criteria, such as originality, coherence, relevance, and appeal. The highest rating indicates the most potential and suitability for the task, while the explanation provides the rationale and justification for the rating.",
+        "plan": "- Choose the best story idea based on flowers\n- Outline the plot, characters, and setting\n- Write the first draft of the story and save it to a file\n- Review and edit the story for grammar, style, and logic\n- Generate an image for the story cover and save it to a file\n- Send the story and the image to the user via tweet",
+        "criticism": "I should not be swayed by the ratings alone. I should also consider the explanations and my own intuition and creativity. I should also not be influenced by the genre or tone of the story, but rather by the quality and originality of the story.",
+        "speak": "I have the ratings and explanations for the story ideas based on flowers. I will choose the best one and outline the story."
+    },
+    "command": {"name": "evaluate_code", "args": {"code": "story_ideas = [\n    'A woman reminisces about her first love as she walks through a garden filled with white roses, symbolizing a new beginning and purity, while also feeling the pain of mourning represented by the deep, dark crimson roses.',\n    'A young woman receives a bouquet of pink roses from a secret admirer, leading her on a journey to discover who the mysterious sender is.',\n    'A grieving widow finds solace in tending to her garden of lavender roses, which remind her of the love at first sight she shared with her late husband.',\n    'A group of friends embark on a road trip to see the famous sunflower fields, but their journey takes an unexpected turn when they stumble upon a hidden field of poppies.',\n    'A botanist discovers a rare species of orchid in the depths of the Amazon rainforest, but must navigate dangerous terrain and fend off poachers to protect the precious flower.',\n    'A young couple's relationship is put to the test when the man sends his girlfriend a bouquet of yellow roses, unknowingly triggering her jealousy and suspicion of infidelity.',\n    'A florist struggles to keep her business afloat during the pandemic, but finds hope and inspiration in the resilience of the daffodils she sells, which symbolize new beginnings and rebirth.',\n    'A group of hikers stumble upon a field of wildflowers, each with their own unique meanings and symbolism, and reflect on the different paths their lives have taken.'\n]\n\nratings = [4, 3, 4, 2, 5, 3, 4, 3]\n\nexplanations = [\n    'The story idea is original and coherent, with a clear theme of memory and symbolism. The relevance and appeal may vary depending on the reader's personal experiences and preferences.',\n    'The story idea is somewhat original and coherent, but the relevance and appeal may be limited to those who enjoy romantic mysteries.',\n    'The story idea is original and coherent, with a clear theme of grief and symbolism. The relevance and appeal may vary depending on the reader's personal experiences and preferences.',\n    'The story idea is not very original or coherent, and the relevance and appeal may be limited to those who enjoy road trip stories or unexpected adventures.',\n    'The story idea is highly original and coherent, with a clear theme of adventure and conservation. The relevance and appeal may vary depending on the reader's personal interests, but the unique setting and plot are likely to capture attention.',\n    'The story idea is somewhat original and coherent, but the relevance and appeal may be limited to those who enjoy romantic dramas or stories about jealousy.',\n    'The story idea is original and coherent, with a clear theme of resilience and symbolism. The relevance and appeal may vary depending on the reader's personal experiences and interests, but the pandemic setting adds a timely element.',\n    'The story idea is somewhat original and coherent, but the relevance and appeal may be limited to those who enjoy reflective stories or nature themes.'\n]\n\n# Choose the best story idea based on the highest rating and the most convincing explanation\nbest_idea = None\nbest_rating = 0\nbest_explanation = ''\nfor i in range(len(story_ideas)):\n    if ratings[i] > best_rating:\n        best_idea = story_ideas[i]\n        best_rating = ratings[i]\n        best_explanation = explanations[i]\n    elif ratings[i] == best_rating and len(explanations[i]) > len(best_explanation):\n        best_idea = story_ideas[i]\n        best_rating = ratings[i]\n        best_explanation = explanations[i]\n\n# Print the best story idea, rating, and explanation\nprint('Best story idea:', best_idea)\nprint('Rating:', best_rating)\nprint('Explanation:', best_explanation)"}}
+}
+```
+
+The thing is by asking the model to run a program you’re basically asking it to guess and you don’t need a separate model call for that. By adding a new “make_choice” command you can avoid one whole model call:
+
+```
+Response:
+{
+    "thoughts": {
+        "text": "I have received the ratings and explanations from the Idea Evaluator agent. I need to choose the best story idea based on the highest rating and the most convincing explanation.",
+        "reasoning": "The ratings and explanations are based on the criteria of originality, coherence, relevance, and appeal. These are important factors to consider when choosing a story idea. The highest rating indicates the most potential and suitability for the task. The explanation provides the rationale and justification for the rating.",
+        "plan": "- Choose the best story idea based on flowers\n- Outline the plot, characters, and setting\n- Write the first draft of the story and save it to a file\n- Review and edit the story for grammar, style, and logic\n- Generate an image for the story cover and save it to a file\n- Send the story and the image to the user via tweet",
+        "criticism": "I should not be swayed by the ratings and explanations alone. I should also use my own judgment and intuition to choose the best story idea. I should also consider the feedback and expectations of the user, who may have a different opinion or preference.",
+        "speak": "I have the ratings and explanations for the story ideas based on flowers. I will choose the best one and outline the story."
+    },
+    "command": {"name": "make_choice", "args": {"choice": "The story idea about the botanist who discovers a rare species of orchid in the Amazon rainforest."}}
+}
+
+Command Result:
+The story idea about the botanist who discovers a rare species of orchid in the Amazon rainforest.
+```
+
+But that brings up the question as to why Auto-GPT is starting these separate agents all together? Yes it sounds cool that you have agents talking to each other but its 100% not needed. There isn’t any decision that the other agent is going to make that the model couldn’t have just made… Calling tools to collect outside information makes total sense but calling back to the model to make a decision you could have just made yourself? not so much…
+
+I’m also not convinced “criticism” is needed but I’m still investigating… “reasoning” sets up an interesting chain of thought for the model so if you remove it you have issues…
+
+read  31 min
+
+With regards to memory management for Auto-GPT I would separate short term conversational memory from more medium term episodic memory. I’ve walked through all of 1 task with Auto-GPT’s prompt but I haven’t seen a need for episodic memory yet. They should weave their short term memory into their conversation history, being respective of order. That’s what I’ve been doing while walking their prompt through a task and it’s working (prompt bugs aside.) This actually reinforces to the model that it should follow the pattern of think, take action, think some more.
+
+I am looking into these chain of prompt too and it is often time making unnecessary call and I agree with you that AutoGPT sounds cool on paper but without proper flow/boundary control it is quite chaos.
+
+I’m probably 2-3 days away from a better solution. I’ve pretty much stripped everything out of the core Auto-GPT prompt as being not needed and I’m feverously writing code… coming very soon…
+
+Feel free to follow along here and if you’re a JS developer I could use help implementing commands:
+
+I have the core prompts all largely debugged and it’s really just a matter of implementing everything. In my testing of the prompts, Self-INSTRUCT is already night and day better then Auto-GPT.
+
+Plus I design SDK’s for a living so everything from the ground up is designed to be extensible and reusable by other apps and services.
+
+I’m not using Pinecone at all yet in Self-INSTRUCT, as much as I love Pinecone, because you don’t need it. I’ve completely stripped things back to basics and it’s actually working much better. I’m not even using INSTRUCT yet, just a vanilla prompt. The thought section in the prompt automatically sets up a chain-of-thought such that I’m not even sure you need INSTRUCT.
+
+I removed all the agent-to-agent calls as being not needed and in doing so I’ve pretty much cut the number of model calls in half.
+
+I’ll share the core prompt I’ve been using for Self-INSTRUCT. Here’s the prompt and a sample run where I ask the prompt to roll a 20 sided die:
+
+```
+You are an AI that helps users complete tasks.
+Ask the user what kind of task they would like to perform.
+
+Commands:
+  bingSearch:
+    use: search the web for relevent pages. ask the users location if needed.    
+    input: "query": "<search terms>",   "location"?: "<optional location>", "count"?: <optional count>, "skip?": <optional results to skip>
+    output: list of search results
+  bingSiteSearch:
+    use: search over a specific site for information
+    input: "site": "<url of site to search>", "query": "<search terms>", "count"?: <optional count>, "skip?": <optional results to skip>
+    output: most relevant chunk of text
+  math:
+    use: execute some javascript code to calculate a value. 
+    input: "code": "<javascript expression to evaluate>"
+    output: number with the result
+  ask:
+    use: ask the user a question and wait for their response
+    input: "question": "<question to ask>"
+    output: users answer
+  finalAnswer:
+    use: generate an answer for the user
+    input: "answer": "<final answer>"
+    output: nothing
+
+Rules:
+1. Base your plan the available commands.
+2. When searching the web use "bingSiteSearch" to extract the information you're looking for.
+
+You should only respond in JSON format as described below 
+Response Format: 
+{
+    "thoughts": {
+        "thought": "<your current thought>",
+        "reasoning": "<self reflect on why you made this decision>",
+        "plan": "- short bulleted\n- list that conveys\n- long-term plan"
+    },
+    "command": {"name": "command name", "input": {"<name>": "<value>"}},
+}
+
+Response:
+{
+    "thoughts": {
+        "thought": "I need to know what kind of task the user wants to perform",
+        "reasoning": "I can only help the user if I know their goal and preferences",
+        "plan": "- ask the user what kind of task they want to perform\n- parse their response and identify the command and input\n- execute the command and generate an output\n- repeat until the task is finished or the user cancels"
+    },
+    "command": {"name": "ask", "input": {"question": "Hi! What can I help you achieve today?"}}
+}
+
+Result:
+can you roll a 20 sided die?
+
+Response:
+{
+    "thoughts": {
+        "thought": "I need to generate a random number between 1 and 20",
+        "reasoning": "The user asked to roll a 20 sided die, so I need to generate a random number between 1 and 20",
+        "plan": "- identify the command to generate a random number\n- execute the command with the appropriate input\n- generate the output and return it to the user"
+    },
+    "command": {"name": "math", "input": {"code": "Math.floor(Math.random() * 20) + 1"}}
+}
+
+Result:
+17
+
+Response:
+{
+    "thoughts": {
+        "thought": "I need to provide the user with the result of their request",
+        "reasoning": "The user asked to roll a 20 sided die, so I need to provide them with the result of the random number I generated",
+        "plan": "- identify the command to provide the user with the result\n- execute the command with the appropriate input\n- generate the output and return it to the user"
+    },
+    "command": {"name": "finalAnswer", "input": {"answer": "17"}}
+}
+
+Result:
+roll again
+
+Response:
+{
+    "thoughts": {
+        "thought": "I need to generate a random number between 1 and 20",
+        "reasoning": "The user asked to roll again, so I need to generate a random number between 1 and 20",
+        "plan": "- identify the command to generate a random number\n- execute the command with the appropriate input\n- generate the output and return it to the user"
+    },
+    "command": {"name": "math", "input": {"code": "Math.floor(Math.random() * 20) + 1"}}
+}
+
+Result:
+12
+
+Response:
+{
+    "thoughts": {
+        "thought": "I need to provide the user with the result of their request",
+        "reasoning": "The user asked to roll again, so I need to provide them with the result of the random number I generated",
+        "plan": "- identify the command to provide the user with the result\n- execute the command with the appropriate input\n- generate the output and return it to the user"
+    },
+    "command": {"name": "finalAnswer", "input": {"answer": "12"}}
+}
+```
+
+Other than just removing a bunch of un-needed stuff from Auto-GPT’s prompt, the key addition I’ve made was a new `ask` command that lets the model ask the user for input. This one add completely changes the tone of the prompt… You can simply tell the model it’s job is to perform tasks and given the right set of commands I believe it will do any task… In a separate run I asked it to “find the number of a plumber near me”. It first asked me where I lived, then did a bing search for plumbers near my location, then it started searching the sites looking for phone numbers of a local plumber, and then reported back with the number of a plumber. It didn’t tell me the companys name so I followed up asking it “what’s the name of the company” and then it gave me their name and some other details it had learned. Then it automatically just asked me for the next task it wanted me to have it do…
+
+BTW… I tried giving the model a generic `eval` command for running JavaScript code but I found it was abusing it and using it for all sorts of oddball reasons. The `math` command is just to let me focus in the scenarios where I want it to write JS code and it’s been working great… GPT is horrible at math but with this `math` command it’s rock solid because its great at writing short snippets of JS like this.
+
+Even in this example run of rolling a 20 sided die there’s an in-efficiency that it takes 2 model calls to roll the die. One to call the `math` command with the JS expression for calculating the die roll and a second to report the answer to the user using the `finalAnswer` command. I’m planning to try adding a finalAnswer property to the returned command that short-circuits this but I’m always worried about the model abusing things I give it like this so a lot of testing will be needed to see how it uses that feature.
+
+So I did a test of my Self-INSTRUCT prompt in playground and here’s a flight booking bot with 3 commands: ‘findFlights’, ‘pickFlight’, and ‘bookFlight’. This thing is rock solid at flight booking… There is zero prompt engineering required. You simply implement those commands and provide a bit of usage guidelines…
+
+```
+You are an AI that helps users book flights.
+Ask the user for their travel plans, then show them flights, and book the flights they select.
+
+Context:
+  date: 4/20/2023
+
+Commands:
+  findFlights:
+    use: searches for available flights
+    input: "Origin": "<airport code>", "Destination": "<airport code>", "DepartureDate": "<date>", "ReturnDate": "<date>", "Passengers": "<count>"
+    output: a list of flights for the selected dates
+  pickFlight:
+    use: shows flight results to the user and asks them to pick a flight.
+    input: "flights": "<list of flights>"
+    output: the selected flight
+  bookFlight:
+    use: books a flight
+    input: "Origin": "<airport code>", "Destination": "<airport code>", "DepartureAirline": "<airline code>", "DepartureFlight": "<flight number>", "DepartureDate": "<date>", "ReturnAirline": "<airline code>", "ReturnFlight": "<flight number>", "ReturnDate": "<date>", "Passengers": "<count>"
+  ask:
+    use: ask the user a question and wait for their response. 
+    input: "question": "<question to ask>"
+    output: users answer
+  finalAnswer:
+    use: generate an answer for the user
+    input: "answer": "<final answer>"
+    output: nothing
+
+Rules:
+1. Base your plan the available commands.
+
+You should only respond in JSON format as described below 
+Response Format: 
+{
+    "thoughts": {
+        "thought": "<your current thought>",
+        "reasoning": "<self reflect on why you made this decision>",
+        "plan": "- short bulleted\n- list that conveys\n- long-term plan"
+    },
+    "command": {"name": "command name", "input": {"<name>": "<value>"}},
+}
+
+Response:
+{
+    "thoughts": {
+        "thought": "I need to ask the user for their travel plans",
+        "reasoning": "I can only find flights if I know the origin, destination, departure date, return date, and number of passengers",
+        "plan": "- ask the user for their travel plans\n- find flights that match their criteria\n- show them the flights and ask them to choose one\n- book the flight they choose\n- confirm the booking and thank them"
+    },
+    "command": {
+        "name": "ask",
+        "input": {
+            "question": "Hello, I am an AI that helps you book flights. Where do you want to go?"
+        }
+    }
+}
+
+Result:
+I'm flying from Seattle to Denver
+
+Response:
+{
+    "thoughts": {
+        "thought": "I need to ask the user for their departure and return dates",
+        "reasoning": "I can only find flights if I know the dates of travel",
+        "plan": "- ask the user for their departure and return dates\n- find flights that match their criteria\n- show them the flights and ask them to choose one\n- book the flight they choose\n- confirm the booking and thank them"
+    },
+    "command": {
+        "name": "ask",
+        "input": {
+            "question": "When do you want to depart and return?"
+        }
+    }
+}
+
+Result:
+Next monday and then returning on friday
+
+Response:
+{
+    "thoughts": {
+        "thought": "I need to ask the user for the number of passengers",
+        "reasoning": "I can only find flights if I know how many seats to reserve",
+        "plan": "- ask the user for the number of passengers\n- find flights that match their criteria\n- show them the flights and ask them to choose one\n- book the flight they choose\n- confirm the booking and thank them"
+    },
+    "command": {
+        "name": "ask",
+        "input": {
+            "question": "How many passengers are traveling with you?"
+        }
+    }
+}
+
+Result:
+just me
+
+Response:
+{
+    "thoughts": {
+        "thought": "I need to find flights that match the user's criteria",
+        "reasoning": "I can only show the user the available options",
+        "plan": "- find flights that match their criteria\n- show them the flights and ask them to choose one\n- book the flight they choose\n- confirm the booking and thank them"
+    },
+    "command": {
+        "name": "findFlights",
+        "input": {
+            "Origin": "SEA",
+            "Destination": "DEN",
+            "DepartureDate": "4/25/2023",
+            "ReturnDate": "4/29/2023",
+            "Passengers": "1"
+        }
+    }
+}
+
+Result:
+departure flights:
+  airline: Alaska
+  flight: 107
+  leaves: 10:00am PST
+  arrives: 3:00pm MST
+  price: $259/passenger
+
+  airline: Delta
+  flight: 1074
+  leaves: 2:00pm PST
+  arrives: 7:00pm MST
+  price: $306/passenger
+
+return flights:
+  airline: Alaska
+  flight: 203
+  leaves: 10:00am MST
+  arrives: 11:00am PST
+  price: $259/passenger
+
+  airline: Delta
+  flight: 1072
+  leaves: 5:00pm MST
+  arrives: 6:00pm PST
+  price: $306/passenger
+
+Response:
+{
+    "thoughts": {
+        "thought": "I need to show the user the flights and ask them to choose one",
+        "reasoning": "I can only book the flight that the user wants",
+        "plan": "- show them the flights and ask them to choose one\n- book the flight they choose\n- confirm the booking and thank them"
+    },
+    "command": {
+        "name": "pickFlight",
+        "input": {
+            "flights": "departure flights:\n  airline: Alaska\n  flight: 107\n  leaves: 10:00am PST\n  arrives: 3:00pm MST\n  price: $259/passenger\n\n  airline: Delta\n  flight: 1074\n  leaves: 2:00pm PST\n  arrives: 7:00pm MST\n  price: $306/passenger\n\nreturn flights:\n  airline: Alaska\n  flight: 203\n  leaves: 10:00am MST\n  arrives: 11:00am PST\n  price: $259/passenger\n\n  airline: Delta\n  flight: 1072\n  leaves: 5:00pm MST\n  arrives: 6:00pm PST\n  price: $306/passenger"
+        }
+    }
+}
+
+Result:
+Let's go with the Alaska flights
+
+Response:
+{
+    "thoughts": {
+        "thought": "I need to book the flight that the user chose",
+        "reasoning": "I can only confirm the booking if I have the flight details",
+        "plan": "- book the flight they choose\n- confirm the booking and thank them"
+    },
+    "command": {
+        "name": "bookFlight",
+        "input": {
+            "Origin": "SEA",
+            "Destination": "DEN",
+            "DepartureAirline": "Alaska",
+            "DepartureFlight": "107",
+            "DepartureDate": "4/25/2023",
+            "ReturnAirline": "Alaska",
+            "ReturnFlight": "203",
+            "ReturnDate": "4/29/2023",
+            "Passengers": "1"
+        }
+    }
+}
+
+Result:
+booking successful
+
+Response:
+{
+    "thoughts": {
+        "thought": "I need to confirm the booking and thank the user",
+        "reasoning": "I want to make sure the user is satisfied and happy with their flight",
+        "plan": "- confirm the booking and thank them"
+    },
+    "command": {
+        "name": "finalAnswer",
+        "input": {
+            "answer": "Your flight is booked. You will fly from Seattle to Denver on Alaska flight 107 on 4/25/2023 at 10:00am PST and return on Alaska flight 203 on 4/29/2023 at 10:00am MST. The total cost is $518. Thank you for choosing me as your flight assistant. Have a nice day."
+        }
+    }
+}
+```
+
+interesting… I need to see if there’s anything I can fold into Self-INSTRUCT from this…
+
+I have my version of Auto-GPT (Self-INSTRUCT) performing Macbeth ![Image 1: :slight_smile:](https://emoji.discourse-cdn.com/twitter/slight_smile.png?v=12) I have a top level narrator prompt that’s driven by Self-INSTRUCT (essentially a JS version of Auto-GPT) and then I create a separate Agent for each character… This is using GPT-4 up until I get rate limited… It’s a nearly perfect performance of Act 1 Scene 1. The only error I’ve spotted is that it’s actually the Second Witch that replies to the First Witch with “Upon the heath?” at the end… I’ll work on adding exponential backoff logic to deal with the rate limiting. I’ve made tons of other improvements over the python version of Auto-GPT.
+
+[![Image 2: image](https://us1.discourse-cdn.com/openai1/original/3X/b/8/b8b6289f7aeae98b583945a151fb47e7f9b2f593.png)](https://us1.discourse-cdn.com/openai1/original/3X/b/8/b8b6289f7aeae98b583945a151fb47e7f9b2f593.png "image")
+
+I added a step delay to avoid the rate limiting… I’m having it perform Act 1, Scene 2 and while it’s not spot on it’s following the basic story. It’s leveraging all of the key pieces of dialog…
+
+All of the characters/agents have a shared knowledge of the dialog so they see what each other are saying…
+
+[![Image 3: image](https://us1.discourse-cdn.com/openai1/original/3X/3/7/378d7f020156f5b0d5690cc96a527fd365c52c58.png)](https://us1.discourse-cdn.com/openai1/original/3X/3/7/378d7f020156f5b0d5690cc96a527fd365c52c58.png "image")
+
+And yes I realize the irony with my first post on this thread where I suggested you don’t need Agents… You generally don’t, I went out of my way to craft a scenario where they made sense… GPT-4 could easily recite back all the dialog for Macbeth so why???
+
+I feel like there’s a lot to learn about how the model orchestrates interactions across agents and a scenario like this is an easy way to explore that.
+
+[@stevenic](https://community.openai.com/u/stevenic) exciting! Looking forward to your updated repo with the prompts you’re now using
+
+May be a bit… I have GPT-4 performing full scenes of Macbeth and the engine is working really well. We’re thinking through how we want to move forward with publishing this.
+
+I can give a few tips…
+
+*   I had to create a fuzzy JSON parser because the model (3.5 in particular) will sometimes add an extra } at the end or drop a }. Also stick to using strings in all your JSON otherwise you’ll need an extra fuzzy parser.
+*   Even with fuzzy JSON parser in hand the models will still sometimes generate bad JSON or they’ll forget to include a “command”. When this happens I just feed the error back into the model and it typically corrects the mistake.
+*   The models will still occasionally hallucinate new commands or additional parameters. I ignore additional parameters and for hallucinated commands I feed the error back into the model and it will apologize and pick the correct command…
+
+I’m up to probably around 100 sequential model calls without an error so feel like I have most issues tackled…
+
+A single agent chat message is very biased. The main point is you can not really ask it to put multiple agents into a single prompt, they will all be part of the same story telling and predictions.
+
+For example if you ask it to determine if a goal was successful or not, a single word could change the outcome unexpectedly. So different agents (different prompts) can agree or disagree to come up with better decisions than an individual agent in situations from the mundane all the way to the paperclip factory. I think getting agents to work together can also increase creativity, one trick is to have one message clipped by a token limit and let the next one finish the work. You can clip by token limit otherwise it is prepared, with a token limit it is not prepared and so is able to really think fresh about what it is going to say next. I also think structurally as prompts get more complex a separation of concerns is reasonable and we can focus on one prompt being logical and another being emotional, and another deciding how to react to the two.
+
+I’m using separate prompts for Macbeth… They’re currently all GPT-4 but they don’t have to be. Each character is working autonomously and has their own memory.

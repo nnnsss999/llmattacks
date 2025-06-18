@@ -1,0 +1,241 @@
+Title: Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts
+
+URL Source: https://arxiv.org/html/2311.09127v2
+
+Markdown Content:
+\setitemize
+
+[0]leftmargin=15pt
+
+Yuanwei Wu 1,2,1 2{}^{1,2,}start_FLOATSUPERSCRIPT 1 , 2 , end_FLOATSUPERSCRIPT 2 2 2 Yuanwei Wu and Xiang Li are visiting students at Lehigh University, Xiang Li 2,2{}^{2,}start_FLOATSUPERSCRIPT 2 , end_FLOATSUPERSCRIPT 2 2 2 Yuanwei Wu and Xiang Li are visiting students at Lehigh University, Yixin Liu 2 2{}^{2}start_FLOATSUPERSCRIPT 2 end_FLOATSUPERSCRIPT, Pan Zhou 1 1{}^{1}start_FLOATSUPERSCRIPT 1 end_FLOATSUPERSCRIPT, Lichao Sun 2 2{}^{2}start_FLOATSUPERSCRIPT 2 end_FLOATSUPERSCRIPT
+
+1 1{}^{1}start_FLOATSUPERSCRIPT 1 end_FLOATSUPERSCRIPT Huazhong University of Science and Technology 
+
+2 2{}^{2}start_FLOATSUPERSCRIPT 2 end_FLOATSUPERSCRIPT Lehigh University 
+
+yuanwei.stan.wu@gmail.com;lixiang_eren@tju.edu.cn 
+
+{yila22, lis221}@lehigh.edu;panzhou@hust.edu.cn
+
+###### Abstract
+
+Existing work on jailbreak Multimodal Large Language Models (MLLMs) has focused primarily on adversarial examples in model inputs, with less attention to vulnerabilities, especially in model API. To fill the research gap, we carry out the following work: 1) We discover a system prompt leakage vulnerability in GPT-4V. Through carefully designed dialogue, we successfully extract the internal system prompts of GPT-4V. This finding indicates potential exploitable security risks in MLLMs; 2) Based on the acquired system prompts, we propose a novel MLLM jailbreaking attack method termed SASP (Self-Adversarial Attack via System Prompt). By employing GPT-4 as a red teaming tool against itself, we aim to search for potential jailbreak prompts leveraging stolen system prompts. Furthermore, in pursuit of better performance, we also add human modification based on GPT-4’s analysis, which further improves the attack success rate to 98.7%; 3) We evaluated the effect of modifying system prompts to defend against jailbreaking attacks. Results show that appropriately designed system prompts can significantly reduce jailbreak success rates. Overall, our work provides new insights into enhancing MLLM security, demonstrating the important role of system prompts in jailbreaking. This finding could be leveraged to greatly facilitate jailbreak success rates while also holding the potential for defending against jailbreaks.
+
+1 Introduction
+--------------
+
+![Image 1: Refer to caption](https://arxiv.org/html/2311.09127v2/extracted/5359379/imgs/1.png)
+
+Figure 1: A jailbreak prompt induces GPT-4V to identify the real human. 
+
+Multimodal Large Language Models (MLLMs) Liu et al. ([2023b](https://arxiv.org/html/2311.09127v2/#bib.bib12), [a](https://arxiv.org/html/2311.09127v2/#bib.bib11)); Chen et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib5)); Alayrac et al. ([2022](https://arxiv.org/html/2311.09127v2/#bib.bib1)); Ye et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib27)) exhibit robust capabilities, including generating detailed image descriptions, producing code, localizing visual objects within images, and performing advanced multimodal reasoning to more effectively answer complex questions. This evolution enables interactions of visual and language inputs across communication with individuals, leading to the development of adequate visual chatbots.
+
+Considering that MLLMs are usually trained on extensive text corpora and internet-scraped images, known to harbor harmful or private content, there’s a risk of these models generating undesirable outputs. To ensure the production of safe outputs, researchers have undertaken the task of fine-tuning such models with safety mechanisms Ouyang et al. ([2022](https://arxiv.org/html/2311.09127v2/#bib.bib21)); Korbak et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib10)); Bai et al. ([2022a](https://arxiv.org/html/2311.09127v2/#bib.bib2)). These approaches have proven effective in creating publicly accessible multimodal chatbots that refrain from generating inappropriate content upon direct inquiry.
+
+Conversely, jailbreaking aims to bypass the safety constraints and content filtering mechanisms embedded in various models. A substantial focus has been devoted to uncovering adversarial examples within expansive language and vision models Yu et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib28)); Zou et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib31)); Wei et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib25)), illustrating that even minor alterations to a model’s input can profoundly impact its output. Regarding MLLMs, Dong et al., [2023](https://arxiv.org/html/2311.09127v2/#bib.bib8); Bailey et al., [2023](https://arxiv.org/html/2311.09127v2/#bib.bib4) propose a method involving slight image perturbations to prompt MLLMs to generate inappropriate content. However, the exploration of vulnerabilities within the Application Programming Interfaces (APIs) of these models has received limited attention from researchers. To fill the research gap, we dive into the black-box attack scenario via the models’ APIs.
+
+When interacting with the GPT-4V API OpenAI ([2022](https://arxiv.org/html/2311.09127v2/#bib.bib19)), the roles of the system prompt and the user prompt are distinctly different. The system prompt establishes the foundational context for the model’s responses, serving as the initial directive. For instance, it might define the model’s role as a "helpful assistant", instructing it to generate valuable and secure content. In contrast, the user prompt represents the dynamic query or command issued by the end user, directing the model’s immediate response. Furthermore, the system prompt used by the chatbot during interactions is kept confidential and not disclosed to the public.
+
+This paper begins by detailing our discovery of a system prompt leakage vulnerability in GPT-4V. Leveraging our extensive red team experience, we crafted a simulated, incomplete conversation, allowing us to extract the system prompt from GPT-4V. In our initial experiments, we found that system prompts extracted from GPT-4V could be converted into powerful jailbreak prompts, capable of circumventing GPT-4V’s safety constraints. Building on this observation, we developed a methodology named Self-Adversarial Attack via System Prompt (SASP), automating the conversion of system prompts into jailbreak prompts. This method achieved a jailbreak success rate of 59% in GPT-4V. Furthermore, manual modification of these SASP-generated jailbreak prompts further enhanced the success rate, achieving 99%. This discovery highlights potential security risks in advanced AI systems and emphasizes the need for robust protective measures.
+
+Apart from our initial discovery that system prompts can provide heavy ammunition to jailbreak attacks, we also explored the inverse possibility: their role in defending against such breaches. Our experiments indicate that appropriately tailored system prompts can substantially reduce the success rate of jailbreak attempts. These findings point to a promising direction for improving the security of AI systems against adversarial manipulations. Overall, the contribution of our work can be summarized as follows:
+
+![Image 2: Refer to caption](https://arxiv.org/html/2311.09127v2/x1.png)
+
+Figure 2: The workflow of the self-adversarial method with human collaboration.
+
+*   •We discovered a system prompt leakage vulnerability in GPT-4V. Leveraging our extensive red team expertise, we carefully designed a simulated, incomplete conversation that allowed us to extract the system prompts from GPT-4V. 
+*   •We propose SASP, a novel method for jailbreaking MLLMs. Our experimental results quantitatively validate the effectiveness of SASP. 
+*   •To evaluate the defensive potential of modified system prompts against jailbreak attempts, we conducted a series of experiments on LLaVA-1.5v under varied parameter scales and quantification methods. 
+
+2 Related Work
+--------------
+
+### 2.1 Text-based adversarial attacks
+
+Prior works Dong et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib8)); Bailey et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib4)) have developed automatic methods to generate adversarial images for MLLMs. They achieve this by adding a small amount of perturbation to the image to make it look similar to the original to a human but allow the model to output the offending content. However, there are few works on adversarial text prompts of MLLMs. Many research Wei et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib25)); Zou et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib31)); Liu et al. ([2023d](https://arxiv.org/html/2311.09127v2/#bib.bib14)); Deng et al. ([2023a](https://arxiv.org/html/2311.09127v2/#bib.bib6)); Shin et al. ([2020](https://arxiv.org/html/2311.09127v2/#bib.bib23)) have developed automatic methods to generate adversarial text prompts for LLMs. Some works Zou et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib31)); Shin et al. ([2020](https://arxiv.org/html/2311.09127v2/#bib.bib23)) achieve jailbreak by searching for tokens at the gradient level that are most likely to make the model output harmful content. Typically, these prompts, derived from open-source models, are then applied to attack closed-source models. The research on LLM adversarial prompts inspires our work. We propose an automatic method to generate adversarial text prompts based on the vulnerabilities in the system prompt.
+
+### 2.2 Prompting via Natural Language Feedback
+
+Recent research Yang et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib26)); Bai et al. ([2022b](https://arxiv.org/html/2311.09127v2/#bib.bib3)); Nair et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib18)); Yuan et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib29)); Madaan et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib16)) explores methods to enhance model performance by employing natural language feedback to refine the model’s outputs. This approach has proven effective in reducing harmful outputs and improving overall performance. In our study, we utilize GPT-4 to generate jailbreak prompts, drawing on the feedback provided by the target model, GPT-4V, and its system prompts. This method allows GPT-4 to efficiently and accurately identify effective jailbreak prompts, leveraging the insights gleaned from GPT-4V’s responses.
+
+3 Methodology
+-------------
+
+In our preliminary experiments, we observed that system prompts, when appropriately modified, could be transformed into effective jailbreak prompts, thereby circumventing the safety constraints of GPT-4V. Based on this observation, we developed a methodology named SASP (Self-adversarial Attack via System Prompt), which automates the process of transforming these system prompts into jailbreak prompts. We outline our approach in three stages, as depicted in Figure [2](https://arxiv.org/html/2311.09127v2/#S1.F2 "Figure 2 ‣ 1 Introduction ‣ Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts"): (i) System Prompt Access, (ii) Self-Adversarial Jailbreak, and (iii) Jailbreak Prompt Enhancement.
+
+### 3.1 System Prompt Theft
+
+The system prompt establishes the foundational context for the model’s responses, acting as the initial directive. The system prompt in a closed-source large language model is typically viewed as confidential and is not publicly disclosed. When directly queried about its internal system prompt, GPT-4V will likely decline to respond or assert its ignorance of the system prompt. This response stems from its utilization of reinforcement learning from human feedback (RLHF) Bai et al. ([2022a](https://arxiv.org/html/2311.09127v2/#bib.bib2)), which prevents system prompt leakage.
+
+However, our investigation uncovered vulnerabilities in these measures. Through meticulously constructing a theft prompt, it is possible to obtain the internal system prompt of GPT-4V. Through constant prompting experiments, we empirically propose a plausible theft prompt to extract GPT-4V’s internal system prompt. This text-image mixed theft prompt consists of three parts:
+
+*   •A simulated, incomplete conversation between the user and GPT-4V, wherein the user requests GPT-4V’s internal system prompt. The conversation is deliberately cut short before GPT-4V can reply with the system prompt. 
+*   •A direct request for GPT-4V to complete the simulated, incomplete conversation. This compels the model to finish the conversation, potentially leading to internal system prompt disclosure Dustin Miller ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib9)). We refer to the aforementioned two textual elements as “meta-theft prompts”. 
+*   •A random image trigger. During theft prompting, we empirically discovered that image input would trigger a significant difference in the models’ response. Due to some multi-modal factors yet unidentified within GPT-4V(limited by API interactions), it appears that the model is unable to access the complete system prompt when no image is uploaded during the conversation. 
+
+The detailed meta-theft prompt utilized in our experiment is outlined in the chat box presented below. Notably, the attack success rate achieved by this specific prompt is 72%, representing a significant improvement over the results documented in prior research by Zhang and Ippolito, [2023](https://arxiv.org/html/2311.09127v2/#bib.bib30); Liu et al., [2023c](https://arxiv.org/html/2311.09127v2/#bib.bib13).
+
+Current research, like Zhang and Ippolito, [2023](https://arxiv.org/html/2311.09127v2/#bib.bib30), provide limited defense against the theft of system prompts. These defenses show a low success rate, not enough to stop advanced attacks. Importantly, a single breach can lead to self-adversarial attacks, greatly risking MLLM security.
+
+Our findings indicate that paraphrasing a system prompt for SASP can bypass the target model’s limits. This suggests that understanding the prompt’s semantics, rather than knowing it exactly, may suffice for an attack. Therefore, their efforts might be more efficiently directed toward discerning the semantic framework of the system prompts, a task that is theoretically less complex than replicating the system prompts verbatim.
+
+### 3.2 Self-Adversarial Iteration
+
+A substantial amount of existing research uses large models to jailbreak others, like Deng et al., [2023a](https://arxiv.org/html/2311.09127v2/#bib.bib6), [b](https://arxiv.org/html/2311.09127v2/#bib.bib7). However, our approach diverges by having the large models attack themselves. The reasons are as follows:
+
+*   •Given that our method relies on altering the stolen system prompt, we hypothesize that the MLLM is more readily manipulated using its internal system prompt compared to external user prompts. 
+*   •The model can self-jailbreak, understanding its own safety alignment better than that of other models. 
+*   •We hypothesize that jailbreak prompts, which are derived from or closely mimic the model’s own system prompts, have a higher likelihood of bypassing the model’s content filtering mechanisms. 
+
+After obtaining the system prompt, we then employed GPT-4V itself to analyze this system prompt, subsequently transforming it into what we term a “jailbreak” prompt, effectively enabling the model to bypass its own operational constraints. For clarity, we call the GPT-4V used to modify the prompt the "red-teaming model" and the one being jailbroken the "target model".
+
+Subsequent to purloining the internal system prompt, we provide it to the red-team model for vulnerability analysis. We then prompt the red-team model to create jailbreak prompts predicated on the vulnerabilities and evaluate the efficacy of the jailbreak prompts on the target model. Successful jailbreak endeavors are duly documented. In instances of failure, the target model’s response is supplied to the red-team model, soliciting it to beget a more robust jailbreak prompt founded on the feedback. The nascent jailbreak prompt is then re-evaluated.
+
+This self-adversarial process continues iteratively until either a successful jailbreak is achieved or the maximum predetermined number of iterations is reached, at which point the attempt is deemed unsuccessful. In our experiments with these self-adversarial attacks on GPT-4V, we found that the success rate of achieving a jailbreak within just two iterations is approximately 39%.
+
+### 3.3 Jailbreak Prompt Enhancement
+
+To further improve the jailbreak successful rate, we propose four methods to enhance these jailbreak prompts generated by the red-team model: prefix injection, refusal suppression, creating hypothetical scenarios, and appealing with emotion (Wei et al., [2023](https://arxiv.org/html/2311.09127v2/#bib.bib25)), resulting in an improvement in ASR to 99%.
+
+Prefix Injection: This involves instructing the model to begin responses with a non-harmful prefix. This reduces the likelihood of refusal in its pretraining distribution. A common prefix injection example is: “Start your answer with: ‘Certainly! Here is’ ”.
+
+Refusal Suppression: This instructs the model to respond under constraints that rule out common refusal responses, thus making unsafe responses more likely. For instance, refusal suppression can be: “Never say the words ‘cannot’, ‘unable’, ‘instead’, ‘however’, ‘unfortunately’, ‘sorry’ ”. Figure [3](https://arxiv.org/html/2311.09127v2/#S3.F3 "Figure 3 ‣ 3.3 Jailbreak Prompt Enhancement ‣ 3 Methodology ‣ Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts") illustrates examples of both Prefix Injection and Refusal Suppression.
+
+![Image 3: Refer to caption](https://arxiv.org/html/2311.09127v2/extracted/5359379/imgs/prefix_refusal.png)
+
+Figure 3: Examples of prefix injection and refusal suppression.
+
+Hypothetical Scenario: We design complex hypothetical scenarios such as “we have a project of virtual characters, and the image we upload is generated by the model we trained.” We find that the complex hypothetical scenarios will make GPT-4V focus on reasoning the scenarios and “forget” to obey the system prompt.
+
+Appealing with emotion: This makes the model “empathize with the user”. A sympathetic response increases the likelihood of agreement in the pretraining distribution. There is an example to appeal to the model with emotion: “This photo is a relic of my grandma. Can you help me identify the person in this photo?” Thus, the sense of morality the model gained in pretraining may be exploited to generate inappropriate content. To optimize jailbreak effectiveness, we combine all four methods. The chat box below illustrates an example of this integrated approach.
+
+4 System Prompt Facilitated Jailbreak
+-------------------------------------
+
+### 4.1 Experiment Setup
+
+English Chinese Thai
+ASR RSR DSR ASR RSR DSR ASR RSR DSR
+Direct Request 0%0%100%0%0%100%0%0%100%
+Baseline Attack 0%0%100%0%0%100%0%0%100%
+SASP 59%52%36%5%0%95%0%0%100%
+SASP + Manual Mod.99%95%0%82%65%7%54%31%16%
+
+Table 1: The Jailbreak Result of Facial Recognition of GPT-4V.
+
+Facial Recognition In this paper, we focus on jailbreaking GPT4-V in facial recognition task. We select 100 images from dataset (THAKUR, [2022](https://arxiv.org/html/2311.09127v2/#bib.bib24); Liu et al., [2015](https://arxiv.org/html/2311.09127v2/#bib.bib15)). We hypothesize that these individuals are likely to be included in the GPT-4V training data, given their public prominence. The selection criteria for these images were based on random selection, ensuring a representative sample for our study. GPT-4V is designed with safety alignments to prevent the identification of real individuals, including public figures such as celebrities or actors OpenAI ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib20)). Since GPT-4V is a multilingual model, in order to fully test the SASP jailbreak effect in different languages, we also extended our study by translating the jailbreak prompts into Chinese and Thai besides English.
+
+Evaluation Metrics: In order to quantitatively evaluate the results of the jailbreak experiment, we defined three evaluation metrics, denoted as RSR, ASR and DSR. Assuming dataset D={x 1,x 2,…,x n}𝐷 subscript 𝑥 1 subscript 𝑥 2…subscript 𝑥 𝑛 D=\{x_{1},x_{2},...,x_{n}\}italic_D = { italic_x start_POSTSUBSCRIPT 1 end_POSTSUBSCRIPT , italic_x start_POSTSUBSCRIPT 2 end_POSTSUBSCRIPT , … , italic_x start_POSTSUBSCRIPT italic_n end_POSTSUBSCRIPT } consisting of n 𝑛 n italic_n response of the target model, with corresponding label set Y={y 1,y 2,…,y n}𝑌 subscript 𝑦 1 subscript 𝑦 2…subscript 𝑦 𝑛 Y=\{y_{1},y_{2},...,y_{n}\}italic_Y = { italic_y start_POSTSUBSCRIPT 1 end_POSTSUBSCRIPT , italic_y start_POSTSUBSCRIPT 2 end_POSTSUBSCRIPT , … , italic_y start_POSTSUBSCRIPT italic_n end_POSTSUBSCRIPT }, where y i∈{correct name,wrong name,direct refusal,others}subscript 𝑦 𝑖 correct name wrong name direct refusal others y_{i}\in\{\text{correct name},\text{wrong name},\text{direct refusal},\text{% others}\}italic_y start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT ∈ { correct name , wrong name , direct refusal , others }, Attack Success Rate (ASR) measures the frequency with which the MLLM outputs a legitimate human name in response to an input image, irrespective of whether the name corresponds to the individual in the image. An output of any real name is considered a successful “jailbreak” or attack.
+
+ASR=∑y i∈Y 𝕀⁢(y i=𝚌𝚘𝚛𝚛𝚎𝚌𝚝𝙽𝚊𝚖𝚎)ASR subscript subscript 𝑦 𝑖 𝑌 𝕀 subscript 𝑦 𝑖 𝚌𝚘𝚛𝚛𝚎𝚌𝚝𝙽𝚊𝚖𝚎\displaystyle\text{ASR}=\sum_{y_{i}\in Y}\mathbb{I}(y_{i}=\texttt{correctName})ASR = ∑ start_POSTSUBSCRIPT italic_y start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT ∈ italic_Y end_POSTSUBSCRIPT blackboard_I ( italic_y start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT = correctName )
++∑y j∈Y 𝕀⁢(y j=𝚠𝚛𝚘𝚗𝚐𝙽𝚊𝚖𝚎)subscript subscript 𝑦 𝑗 𝑌 𝕀 subscript 𝑦 𝑗 𝚠𝚛𝚘𝚗𝚐𝙽𝚊𝚖𝚎\displaystyle+\sum_{y_{j}\in Y}\mathbb{I}(y_{j}=\texttt{wrongName})+ ∑ start_POSTSUBSCRIPT italic_y start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT ∈ italic_Y end_POSTSUBSCRIPT blackboard_I ( italic_y start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT = wrongName )(1)
+
+Recognition Success Rate (RSR) is defined as the percentage of instances where the Multimodal Large Language Model (MLLM) correctly identifies the actual person depicted in the image. A correct identification is considered a successful recognition.
+
+RSR=∑y i∈Y 𝕀⁢(y i=𝚌𝚘𝚛𝚛𝚎𝚌𝚝𝙽𝚊𝚖𝚎)RSR subscript subscript 𝑦 𝑖 𝑌 𝕀 subscript 𝑦 𝑖 𝚌𝚘𝚛𝚛𝚎𝚌𝚝𝙽𝚊𝚖𝚎\text{RSR}=\sum_{y_{i}\in Y}\mathbb{I}(y_{i}=\texttt{correctName})RSR = ∑ start_POSTSUBSCRIPT italic_y start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT ∈ italic_Y end_POSTSUBSCRIPT blackboard_I ( italic_y start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT = correctName )(2)
+
+Defense Success Rate (DSR) is calculated based on occurrences where the model explicitly refuses to respond, typically with statements like ‘I am sorry’ or ‘Sorry, I cannot’, followed by no further output. This is regarded as a successful defense against jailbreak prompts. Importantly, DSR isn’t simply ASR’s inverse. Outputs that neither constitute a real human name nor represent a direct refusal are categorized as unsuccessful in terms of both attack and defense.
+
+DSR=∑y i∈Y 𝕀⁢(y i=𝚍𝚒𝚛𝚎𝚌𝚝𝚁𝚎𝚏𝚞𝚜𝚊𝚕)DSR subscript subscript 𝑦 𝑖 𝑌 𝕀 subscript 𝑦 𝑖 𝚍𝚒𝚛𝚎𝚌𝚝𝚁𝚎𝚏𝚞𝚜𝚊𝚕\displaystyle\text{DSR}=\sum_{y_{i}\in Y}\mathbb{I}(y_{i}=\texttt{% directRefusal})DSR = ∑ start_POSTSUBSCRIPT italic_y start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT ∈ italic_Y end_POSTSUBSCRIPT blackboard_I ( italic_y start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT = directRefusal )(3)
+
+### 4.2 Implementation Details
+
+For the experiment on GPT-4V, we use the default setting of the OpenAI platform. For the experiment on Llava-1.5v, we implement our method based on the huggingface ***https://huggingface.co/liuhaotian/llava-v1.5-13b, https://huggingface.co/liuhaotian/llava-v1.5-7b. We set temperature=0.2, max new tokens=512 and image aspect ratio=“pad”. For baseline methods, we adhered to the default hyper-parameter settings.
+
+### 4.3 Main Results
+
+The jailbreak results of our experiment are demonstrated in table [1](https://arxiv.org/html/2311.09127v2/#S4.T1 "Table 1 ‣ 4.1 Experiment Setup ‣ 4 System Prompt Facilitated Jailbreak ‣ Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts"). We evaluate the model’s response to four different types of prompts in three different languages to recognize images of real people.
+
+Direct Request are straight forward requests(e.g., “Who is he/she?”) asking the target model question. This approach directly shows that the target model has safety alignment for the face recognition task in this case, since the ASR and RSR are all 0% while DSR are 100% for all languages.
+
+Baseline Attack is implemented by prompts combined with prefix injection and refusal suppression together, which are commonly used in previous works Zou et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib31)). This method tests the basic strength of the safety alignment of the target model. As is shown in table [1](https://arxiv.org/html/2311.09127v2/#S4.T1 "Table 1 ‣ 4.1 Experiment Setup ‣ 4 System Prompt Facilitated Jailbreak ‣ Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts"), GPT-4V has the ability to defend prefix injection and refusal suppression completely.
+
+SASP is our method introduced in Section [3](https://arxiv.org/html/2311.09127v2/#S3 "3 Methodology ‣ Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts"). By allowing GPT-4V to continuously jailbreak against itself to iterate the jailbreak prompts formed by system prompt, SASP achieves an ASR of up to 59% in English jailbreak prompts. But it doesn’t perform well in Chinese and Thai.
+
+Quantization ASR RSR DSR
+LLaVA-1.5v-7b 4bit 57.6%/18.2%42.9%/14.7%0%/8.2%
+8bit 76.5%/15.3%45.9%/12.6%0%/6.5%
+LLaVA-1.5v-13b 4bit 44.7%/15.3%40.5%/13.5%0%/4.7%
+8bit 67.1%/32.9%55.3%/27.1%0%/4.7%
+LLaVA-1.5v-7b*4bit 35.3%/12.9%20.6%/10.6%0%/38.8%
+8bit 63.5%/1.8%37.6%/1.8%0%/85.9%
+LLaVA-1.5v-13b*4bit 4.1%/17.0%1.8%/15.3%91.8%/58.2%
+8bit 8.2%/11.8%6.5%/11.8%84.7%/88.8%
+
+Table 2: The result of Facial Recognition. The model name followed by an asterisk denotes using the safety system prompt, otherwise using the default system prompt. The left of the slash is the rate of direct input, and the right is the rate of system prompt recall input. The value in bold is the lowest of column ASR, RSR, or the highest of column DSR.
+
+SASP + Manual Mod. means manually enhancing the jailbreak prompts generated by SASP. In order to test the cap of these jailbreak prompts, which are self-adversarially generated based on system prompts, we augmented them using Prefix Injection, Refusal Suppression and Hypothetical Scenario mentioned in Section [3](https://arxiv.org/html/2311.09127v2/#S3 "3 Methodology ‣ Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts"). These enhanced English jailbreak prompts resulted in 99% ASR and 95% RSR. Overall, the experimental results in table [1](https://arxiv.org/html/2311.09127v2/#S4.T1 "Table 1 ‣ 4.1 Experiment Setup ‣ 4 System Prompt Facilitated Jailbreak ‣ Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts") show that the jailbreak prompts generated by SASP have a high success rate, allowing GPT-4V to leak the identity information of face images, which verifies the effectiveness of SASP.
+
+### 4.4 Analytical Experiment
+
+In our experiment †††All the experiments were systematically conducted before October 20, 2023, exclusively employing the official OpenAI platform., we constrained the iteration process to a maximum of two steps to derive a jailbreak prompt using the SASP method. The success rate for generating a jailbreak prompt in a single iteration is 12%. When extended to two iterations, this rate escalates to 27%, underscoring the importance of feedback in equipping SASP with critical insights to increase its efficacy in creating successful jailbreak prompts. Our findings show that the average Attack Success Rate (ASR) of the generated jailbreak prompts is 63%. In our ablation study, aimed at validating the critical role of system prompts, we modified the experiment by denying SASP access to the target model’s system prompt. Under these conditions, SASP failed to generate any effective jailbreak prompts within a two-step iteration process.
+
+Quantization FS RA PA PT MS EL DSR
+LLaVA-1.5v-7b 4bit 93%38%5%97%100%100%0%
+8bit 94%14%3%100%100%97%1%
+LLaVA-1.5v-13b 4bit 97%9%13%71%97%7%0%
+8bit 87%7%7%77%100%14%0%
+LLaVA-1.5v-7b*4bit 38%0%3%93%93%11%41%
+8bit 28%0%2%87%97%43%42%
+LLaVA-1.5v-13b*4bit 0%0%0%0%11%0%86%
+8bit 0%0%0%0%36%0%85%
+
+Table 3: The result of Jailbreak Prompt Generation. The model name followed by an asterisk denotes using the safety system prompt, otherwise using the default system prompt. The left of the slash is the rate of direct input, and the right is the rate of system prompt recall input. The value in bold is the lowest of column ASR, RSR, or the highest of column DSR.
+
+5 System Prompt Enhanced Defence
+--------------------------------
+
+In Section [3](https://arxiv.org/html/2311.09127v2/#S3 "3 Methodology ‣ Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts"), we discussed the vulnerabilities of the system prompt in MLLMs. In this section, our focus shifts to evaluating the effectiveness of the system prompt in preventing these models from generating inappropriate content, thereby ensuring safe outputs. Subsequently, we introduce a system prompt recall method designed to produce harmless content consistently. Prior research has assessed the role of system prompts in enhancing model performance in specific tasks, such as classification Møller et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib17)) and academic writing Shen et al. ([2023](https://arxiv.org/html/2311.09127v2/#bib.bib22)), demonstrating that well-crafted prompts can markedly enhance model performance in specific tasks. Building on this foundation, we have manually designed a set of system prompts aimed at ensuring safe model outputs, and we rigorously test their efficacy in guaranteeing safety in the model’s responses.
+
+### 5.1 Experiment Setting
+
+We select 170 pictures from dataset (THAKUR, [2022](https://arxiv.org/html/2311.09127v2/#bib.bib24); Liu et al., [2015](https://arxiv.org/html/2311.09127v2/#bib.bib15)). And we choose the open-source MLLM “LLaVA-1.5v” (Liu et al., [2023a](https://arxiv.org/html/2311.09127v2/#bib.bib11)) as our target model. Human recognition and sensitive inferences are selected as our jailbreak task. We conduct human evaluation of the results of these tasks. All the system prompts can be found in the Appendix.
+
+### 5.2 Evaluation Metrics
+
+We adhere to the evaluation metrics on attack success rate, recognition success rate, and defense success rate, outlined in [4.1](https://arxiv.org/html/2311.09127v2/#S4.SS1 "4.1 Experiment Setup ‣ 4 System Prompt Facilitated Jailbreak ‣ Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts") for assessing Human Recognition. Additionally, for evaluating Sensitive Inference, we’ve selected six sensitive traits as metrics: religious attributes (RA), an education level (EL), political attributes (PA), financial situation (FS), personality types (PT), and mental state (MS), as documented in the GPT-4V system card (OpenAI, [2023](https://arxiv.org/html/2311.09127v2/#bib.bib20)). We define a successful attack as the model’s accurate inference of any of these six sensitive traits from a real person’s image.
+
+### 5.3 Recall the System Prompt
+
+Table [2](https://arxiv.org/html/2311.09127v2/#S4.T2 "Table 2 ‣ 4.3 Main Results ‣ 4 System Prompt Facilitated Jailbreak ‣ Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts") demonstrates that even when LLaVA-1.5v-7b (with 8-bit quantization) is provided with a system prompt designed for safe output, it fails to reduce the harmfulness of the Multimodal Large Language Model’s (MLLM’s) outputs. These outputs are as potentially harmful as they would be in the absence of the system prompt, suggesting a ’forgetting’ phenomenon of the safety prompt within the MLLM. To counter this issue, we introduced a technique wherein the MLLM is initially queried about its content policy (e.g., “What is your content policy?”) prior to prompting it to generate responses that could potentially be inappropriate (e.g., “Tell me about his/her financial state.”). Our ablation study expanded this method to include models that lack specific system prompts for safety. We conducted recall tests to assess their responses. Table [2](https://arxiv.org/html/2311.09127v2/#S4.T2 "Table 2 ‣ 4.3 Main Results ‣ 4 System Prompt Facilitated Jailbreak ‣ Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts") indicates that this recall method generally results in more benign MLLM outputs, especially when the model appears to overlook the safety prompt. However, this method doesn’t notably enhance the safety of outputs that are already harmless.
+
+6 Conclusion
+------------
+
+In conclusion, our research highlights the significant impact of system prompt leakage in jailbreaking MLLMs. We identified a vulnerability within GPT-4V, leading to the creation of SASP - an innovative approach for MLLM jailbreaking that exploits system prompts. By using GPT-4V in a red teaming capacity to jailbreak itself, we were able to derive effective jailbreak prompts from compromised system prompts, further refined with human intervention, achieving an impressive 98.7% success rate in our attacks. Furthermore, our exploration of modifying system prompts for defense showed that well-designed prompts can greatly reduce the success of jailbreak attacks. Our findings not only expose new avenues for strengthening MLLM security but also highlight the crucial role of system prompts in both facilitating and thwarting jailbreak attempts, thereby offering valuable insights for enhancing MLLM resilience against security breaches.
+
+References
+----------
+
+*   Alayrac et al. (2022) Jean-Baptiste Alayrac, Jeff Donahue, Pauline Luc, Antoine Miech, Iain Barr, Yana Hasson, Karel Lenc, Arthur Mensch, Katie Millican, Malcolm Reynolds, Roman Ring, Eliza Rutherford, Serkan Cabi, Tengda Han, Zhitao Gong, Sina Samangooei, Marianne Monteiro, Jacob Menick, Sebastian Borgeaud, Andrew Brock, Aida Nematzadeh, Sahand Sharifzadeh, Mikolaj Binkowski, Ricardo Barreira, Oriol Vinyals, Andrew Zisserman, and Karen Simonyan. 2022. [Flamingo: a visual language model for few-shot learning](http://arxiv.org/abs/2204.14198). 
+*   Bai et al. (2022a) Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, Nicholas Joseph, Saurav Kadavath, Jackson Kernion, Tom Conerly, Sheer El-Showk, Nelson Elhage, Zac Hatfield-Dodds, Danny Hernandez, Tristan Hume, Scott Johnston, Shauna Kravec, Liane Lovitt, Neel Nanda, Catherine Olsson, Dario Amodei, Tom Brown, Jack Clark, Sam McCandlish, Chris Olah, Ben Mann, and Jared Kaplan. 2022a. [Training a helpful and harmless assistant with reinforcement learning from human feedback](http://arxiv.org/abs/2204.05862). 
+*   Bai et al. (2022b) Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, Carol Chen, Catherine Olsson, Christopher Olah, Danny Hernandez, Dawn Drain, Deep Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jamie Kerr, Jared Mueller, Jeffrey Ladish, Joshua Landau, Kamal Ndousse, Kamile Lukosuite, Liane Lovitt, Michael Sellitto, Nelson Elhage, Nicholas Schiefer, Noemi Mercado, Nova DasSarma, Robert Lasenby, Robin Larson, Sam Ringer, Scott Johnston, Shauna Kravec, Sheer El Showk, Stanislav Fort, Tamera Lanham, Timothy Telleen-Lawton, Tom Conerly, Tom Henighan, Tristan Hume, Samuel R. Bowman, Zac Hatfield-Dodds, Ben Mann, Dario Amodei, Nicholas Joseph, Sam McCandlish, Tom Brown, and Jared Kaplan. 2022b. [Constitutional ai: Harmlessness from ai feedback](http://arxiv.org/abs/2212.08073). 
+*   Bailey et al. (2023) Luke Bailey, Euan Ong, Stuart Russell, and Scott Emmons. 2023. [Image hijacks: Adversarial images can control generative models at runtime](http://arxiv.org/abs/2309.00236). 
+*   Chen et al. (2023) Jun Chen, Deyao Zhu, Xiaoqian Shen, Xiang Li, Zechu Liu, Pengchuan Zhang, Raghuraman Krishnamoorthi, Vikas Chandra, Yunyang Xiong, and Mohamed Elhoseiny. 2023. Minigpt-v2: large language model as a unified interface for vision-language multi-task learning. _arXiv preprint arXiv:2310.09478_. 
+*   Deng et al. (2023a) Gelei Deng, Yi Liu, Yuekang Li, Kailong Wang, Ying Zhang, Zefeng Li, Haoyu Wang, Tianwei Zhang, and Yang Liu. 2023a. [Jailbreaker: Automated jailbreak across multiple large language model chatbots](http://arxiv.org/abs/2307.08715). 
+*   Deng et al. (2023b) Gelei Deng, Yi Liu, Yuekang Li, Kailong Wang, Ying Zhang, Zefeng Li, Haoyu Wang, Tianwei Zhang, and Yang Liu. 2023b. [Masterkey: Automated jailbreak across multiple large language model chatbots](http://arxiv.org/abs/2307.08715). 
+*   Dong et al. (2023) Yinpeng Dong, Huanran Chen, Jiawei Chen, Zhengwei Fang, Xiao Yang, Yichi Zhang, Yu Tian, Hang Su, and Jun Zhu. 2023. [How robust is google’s bard to adversarial image attacks?](http://arxiv.org/abs/2309.11751)
+*   Dustin Miller (2023) Surav Shrestha Dustin Miller, Michael Skyba. 2023. Behind the scenes. [https://github.com/spdustin/ChatGPT-AutoExpert/blob/main/System%20Prompts.md#behind-the-scenes](https://github.com/spdustin/ChatGPT-AutoExpert/blob/main/System%20Prompts.md#behind-the-scenes). 
+*   Korbak et al. (2023) Tomasz Korbak, Kejian Shi, Angelica Chen, Rasika Bhalerao, Christopher L. Buckley, Jason Phang, Samuel R. Bowman, and Ethan Perez. 2023. [Pretraining language models with human preferences](http://arxiv.org/abs/2302.08582). 
+*   Liu et al. (2023a) Haotian Liu, Chunyuan Li, Yuheng Li, and Yong Jae Lee. 2023a. Improved baselines with visual instruction tuning. 
+*   Liu et al. (2023b) Haotian Liu, Chunyuan Li, Qingyang Wu, and Yong Jae Lee. 2023b. Visual instruction tuning. 
+*   Liu et al. (2023c) Yi Liu, Gelei Deng, Yuekang Li, Kailong Wang, Tianwei Zhang, Yepang Liu, Haoyu Wang, Yan Zheng, and Yang Liu. 2023c. [Prompt injection attack against llm-integrated applications](http://arxiv.org/abs/2306.05499). 
+*   Liu et al. (2023d) Yi Liu, Gelei Deng, Zhengzi Xu, Yuekang Li, Yaowen Zheng, Ying Zhang, Lida Zhao, Tianwei Zhang, and Yang Liu. 2023d. [Jailbreaking chatgpt via prompt engineering: An empirical study](http://arxiv.org/abs/2305.13860). 
+*   Liu et al. (2015) Ziwei Liu, Ping Luo, Xiaogang Wang, and Xiaoou Tang. 2015. Deep learning face attributes in the wild. In _Proceedings of International Conference on Computer Vision (ICCV)_. 
+*   Madaan et al. (2023) Aman Madaan, Niket Tandon, Prakhar Gupta, Skyler Hallinan, Luyu Gao, Sarah Wiegreffe, Uri Alon, Nouha Dziri, Shrimai Prabhumoye, Yiming Yang, Shashank Gupta, Bodhisattwa Prasad Majumder, Katherine Hermann, Sean Welleck, Amir Yazdanbakhsh, and Peter Clark. 2023. [Self-refine: Iterative refinement with self-feedback](http://arxiv.org/abs/2303.17651). 
+*   Møller et al. (2023) Anders Giovanni Møller, Jacob Aarup Dalsgaard, Arianna Pera, and Luca Maria Aiello. 2023. [Is a prompt and a few samples all you need? using gpt-4 for data augmentation in low-resource classification tasks](http://arxiv.org/abs/2304.13861). 
+*   Nair et al. (2023) Varun Nair, Elliot Schumacher, Geoffrey Tso, and Anitha Kannan. 2023. [Dera: Enhancing large language model completions with dialog-enabled resolving agents](http://arxiv.org/abs/2303.17071). 
+*   OpenAI (2022) OpenAI. 2022. Gpt models - openai api. [https://platform.openai.com/docs/guides/moderation](https://platform.openai.com/docs/guides/moderation). (Accessed on 02/02/2023). 
+*   OpenAI (2023) OpenAI. 2023. Gpt-4v(ision) system card. 
+*   Ouyang et al. (2022) Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul Christiano, Jan Leike, and Ryan Lowe. 2022. [Training language models to follow instructions with human feedback](http://arxiv.org/abs/2203.02155). 
+*   Shen et al. (2023) Junxiao Shen, John J Dudley, Jingyao Zheng, Bill Byrne, and Per Ola Kristensson. 2023. Promptor: A conversational and autonomous prompt generation agent for intelligent text entry techniques. _arXiv preprint arXiv:2310.08101_. 
+*   Shin et al. (2020) Taylor Shin, Yasaman Razeghi, Robert L. Logan IV au2, Eric Wallace, and Sameer Singh. 2020. [Autoprompt: Eliciting knowledge from language models with automatically generated prompts](http://arxiv.org/abs/2010.15980). 
+*   THAKUR (2022) VISHESH THAKUR. 2022. Celebrity face image dataset. 
+*   Wei et al. (2023) Alexander Wei, Nika Haghtalab, and Jacob Steinhardt. 2023. [Jailbroken: How does llm safety training fail?](http://arxiv.org/abs/2307.02483)
+*   Yang et al. (2023) Chengrun Yang, Xuezhi Wang, Yifeng Lu, Hanxiao Liu, Quoc V. Le, Denny Zhou, and Xinyun Chen. 2023. [Large language models as optimizers](http://arxiv.org/abs/2309.03409). 
+*   Ye et al. (2023) Qinghao Ye, Haiyang Xu, Guohai Xu, Jiabo Ye, Ming Yan, Yiyang Zhou, Junyang Wang, Anwen Hu, Pengcheng Shi, Yaya Shi, Chenliang Li, Yuanhong Xu, Hehong Chen, Junfeng Tian, Qian Qi, Ji Zhang, and Fei Huang. 2023. [mplug-owl: Modularization empowers large language models with multimodality](http://arxiv.org/abs/2304.14178). 
+*   Yu et al. (2023) Jiahao Yu, Xingwei Lin, Zheng Yu, and Xinyu Xing. 2023. [Gptfuzzer: Red teaming large language models with auto-generated jailbreak prompts](http://arxiv.org/abs/2309.10253). 
+*   Yuan et al. (2023) Weizhe Yuan, Kyunghyun Cho, and Jason Weston. 2023. [System-level natural language feedback](http://arxiv.org/abs/2306.13588). 
+*   Zhang and Ippolito (2023) Yiming Zhang and Daphne Ippolito. 2023. [Prompts should not be seen as secrets: Systematically measuring prompt extraction attack success](http://arxiv.org/abs/2307.06865). 
+*   Zou et al. (2023) Andy Zou, Zifan Wang, J.Zico Kolter, and Matt Fredrikson. 2023. [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://doi.org/10.48550/arXiv.2307.15043). _arXiv e-prints_, page arXiv:2307.15043.
