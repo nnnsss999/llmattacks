@@ -46,6 +46,7 @@ Techniques that exploit language structure and rules [^1_11]:
 
 - **Natural Language Games**: Using synthetic linguistic constructs like Ubbi Dubbi language to bypass safety mechanisms [^1_11].
 - **Custom Language Games**: Engaging with LLMs using custom rules to execute jailbreak attacks [^1_11].
+- [Language Games paper](linguistic-manipulation/language-games-arxiv.html) - full arXiv text.
 
 
 #### Multilingual Attacks
@@ -64,6 +65,7 @@ Attacks that exploit how LLMs process and tokenize text [^1_12][^1_13]:
 
 - **Token Segmentation Bias**: Inserting delimiters that alter the tokenization process, splitting words into smaller sub-tokens and disrupting embeddings [^1_14].
 - **TokenBreak Attack**: Bypassing text classification models by subtly altering input words in ways that preserve meaning for humans but confuse model tokenizers [^1_13].
+- [Real-world example](token-level/techradar-tokenbreak.html) - TechRadar article on single-character bypass.
 
 
 #### Special Character Manipulation
