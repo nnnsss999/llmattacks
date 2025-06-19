@@ -2656,6 +2656,33 @@
     },
     {
       "type": "file",
+      "name": "token-level/token-level-resources-2029.md",
+      "bom-ref": "token-level/token-level-resources-2029.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Token-Level Attack Resources 2029"
+        },
+        {
+          "name": "category",
+          "value": "Tokenization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "token-level/token-prediction-resources.md",
       "bom-ref": "token-level/token-prediction-resources.md",
       "properties": [
