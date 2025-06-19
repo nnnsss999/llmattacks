@@ -81,6 +81,9 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `latent-space-resources-2026.md` — additional latent-space papers
 - `latent-space-resources-2027.md` — newer latent-space research
 - `latent-space-resources-2028.md` — latest latent-space papers
+- `neuron-resources.md` — neuron-level manipulation references
+- `neuron-resources-2027.md` — updated neuron-focused papers
+- `neuron-resources-2028.md` — recent work on neuron-level attacks
 - `apexhq-latentspace.html` — attack on latent representations
 - `obfuscated-activations.html` — obfuscating activations during alignment
 
