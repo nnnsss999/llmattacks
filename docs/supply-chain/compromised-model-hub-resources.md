@@ -26,3 +26,10 @@ Below is an expanded set of reports and repositories documenting how attackers l
 - [“Free Hugs” – What to be Wary of in Hugging Face – Part 4](checkmarx-free-hugs-part4.html) – Checkmarx Blog
 - [Malicious ML Models Discovered on Hugging Face Platform](reversinglabs-nullif-ai.html) – ReversingLabs
 - [Exploiting ML Models with Pickle File Attacks (Sleepy Pickle Part 1)](trailofbits-sleepy-pickle-part1.html) – Trail of Bits
+
+- [Never a Dill Moment: Exploiting Machine Learning Pickle Files](https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/) – Trail of Bits
+- [Fickling: Auditing Pickled ML Models](https://github.com/trailofbits/fickling) – Trail of Bits
+- [Weaponizing ML Models with Ransomware](https://hiddenlayer.com/research/weaponizing-machine-learning-models-with-ransomware/) – HiddenLayer
+- [Pretraining-Poisoning Code Repository](https://github.com/facebookresearch/pretraining-poisoning) – Facebook AI Research
+- [LLM Supply Chain Attack Prevention Strategies](https://www.cobalt.io/blog/llm-supply-chain-attack-prevention-strategies) – Cobalt Blog
+- [The Growing Dangers of LLMjacking: Evolving Tactics](https://sysdig.com/blog/growing-dangers-of-llmjacking/) – Sysdig Blog
