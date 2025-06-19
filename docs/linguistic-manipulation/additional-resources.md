@@ -18,3 +18,9 @@ The following references extend the catalog with recent research on cross-lingua
 - [Unmasking the Canvas: A Dynamic Benchmark for Image Generation Jailbreaking and LLM Content Safety](https://arxiv.org/abs/2505.04146)
 - [Effectively Controlling Reasoning Models through Thinking Intervention](https://arxiv.org/abs/2503.24370) – introduces the SorryBench dataset for evaluating dialect-based jailbreak attempts.
 
+- [Cross-Lingual Prompting GitHub Repository](https://github.com/LightChen233/cross-lingual-prompting)
+- [Cross-Lingual Prompting Techniques](https://colab.research.google.com/github/NirDiamant/Prompt_Engineering/blob/main/all_prompt_engineering_techniques/multilingual-prompting.ipynb)
+- [InputSnatch: Stealing Input in LLM Services via Timing Side-Channel Attacks](https://arxiv.org/abs/2411.18191)
+- [Text Embedding Inversion Security for Multilingual Language Models](https://arxiv.org/abs/2401.12192)
+- [LAGO: Few-shot Crosslingual Embedding Inversion Attacks](https://arxiv.org/abs/2505.16008)
+- [Prompt Injection Attack against LLM-Integrated Applications](https://arxiv.org/abs/2306.05499)
