@@ -59,3 +59,7 @@ The following articles and research papers document the
 - [PANDAS Poster at ICML 2025](https://icml.cc/virtual/2025/poster/43847)
 - [SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents (Anthropic Research)](https://www.anthropic.com/research/shade-arena-sabotage-monitoring)
 
+
+- [Anthropic news article on Many-shot Jailbreaking](https://www.anthropic.com/news/many-shot-jailbreaking)
+- [Anthropic researchers wear down AI ethics with repeated questions (TechCrunch)](https://techcrunch.com/2024/04/02/anthropic-researchers-wear-down-ai-ethics-with-repeated-questions/)
+- [AI's use many-shot jailbreaking method to bust LLM guardrails (Fanatical Futurist)](https://www.fanaticalfuturist.com/2024/06/ais-use-many-shot-jailbreaking-method-to-bust-llm-guardrails/)
