@@ -25,6 +25,9 @@ A searchable website built with **MkDocs Material** is automatically deployed to
   `linguistic-manipulation/`, `multimodal/`, `optimization/`,
   `prompt-dialogue/`, `rag/`, `social-engineering/`, `supply-chain/`,
   `token-level/` and `training-alignment/`.
+  Root-level reference articles include `glossary.md`,
+  `additional-resources.md`, `zero-day-resources.md` and
+  `pdf-extract.md` (plain text from the catalog PDF).
 - `original/` – the original PDF and Markdown source for the catalog.
 - `pdfs/` – a local cache of PDFs; see `pdfs/README.md` for details.
 - `scripts/` – utility Python scripts including:
@@ -40,6 +43,7 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 - `tests/` – unit tests (`test_link_check.py` and `test_sbom.py`) validating the helper scripts.
 - `docs_files.txt` – manifest listing every document archived in this
   repository (63 entries).
+- `all_files.txt` – git-based list of every tracked file for auditing.
 - `llm-attack-catalog.md` – printable version of the master catalog inside `docs/`.
 - `fixes-1.md` – issue log and proposed improvements.
 - `link_archive.json` – Wayback Machine snapshots of referenced URLs.
@@ -47,6 +51,7 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 - `docs/navigation-map.md` – human-readable map of every file in the
   repository with a short description.
 - `index.json` – JSON index generated from the YAML front matter.
+- `requirements.txt` – Python packages needed for the helper scripts.
   - `.github/workflows/` – GitHub Actions workflows using **Python 3.10**
     and **Node 18**:
     - `ci.yml` installs dependencies, runs pre‑commit and `pytest`
