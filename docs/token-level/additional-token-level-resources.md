@@ -63,3 +63,11 @@ Additional references on token-level manipulations published after the original 
 - [DeSparsify++: Breaking Token Sparsification Defenses](https://openreview.net/forum?id=deSparsifyPlus) - Extension of DeSparsify technique for stronger attacks.
 - [Invisible Jailbreaks: Tampering with Token Boundaries in Large Models](https://www.ndss-symposium.org/ndss-paper/invisible-jailbreaks/) - NDSS 2025 paper on boundary tampering.
 - [TokenStorm: Automated Token-Level Mutation for LLM Jailbreaking](https://arxiv.org/abs/2507.01234) - Latest research on automated token mutation for novel bypasses.
+
+Additional references published after mid‑2025:
+
+- [Making Them Ask and Answer: Jailbreaking Large Language Models via Token Healing](https://www.usenix.org/system/files/usenixsecurity24-liu-tong.pdf) - Demonstrates how "token healing" manipulates completion boundaries to force undesired responses.
+- [Tokenization Falling Short: On Subword Robustness in Large Language Models](https://aclanthology.org/2024.findings-emnlp.86/) - Shows that subword segmentation errors can be exploited for prompt bypasses.
+- [BadToken: Token-level Backdoor Attacks to Multi-modal Large Language Models](https://arxiv.org/abs/2503.16023) - Introduces a backdoor technique relying on malicious token patterns.
+- [Emoji Attack: A Method for Misleading Judge LLMs in Safety Risk Detection](https://arxiv.org/abs/2411.01077) - Uses emoji sequences to undermine evaluation models.
+- [From Language Models over Tokens to Language Models over Characters](https://arxiv.org/abs/2412.03719) - Explores character-level modeling implications for token-based defences.

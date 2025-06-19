@@ -81,3 +81,7 @@ These resources detail how manipulating a model's working context can produce ha
 - [Large Context Window LLMs - Developer's Perspective (NVIDIA Blog)](https://developer.nvidia.com/blog/large-context-window-llms)
 - [Gemini 1.5 Pro's Million Token Context Window (Google Cloud Blog)](https://cloud.google.com/blog/products/ai-machine-learning/gemini-1-5-pro-context-window)
 - [Securing Long Context Windows in LLM Applications (Microsoft Tech Community)](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/long-context-windows-in-llms-security/ba-p/4040000)
+- [Token Smuggling Attack Explained (Prompt Security Blog)](https://www.promptsecurity.com/blog/token-smuggling-explained)
+- [Token Smuggling for Prompt Injection (Lakera AI)](https://www.lakera.ai/blog/token-smuggling)
+- [Token-Smuggling: The Hidden Threat to A.I. and GPT Models (Hashdork)](https://hashdork.com/token-smuggling/)
+- [AI Guardrail Vulnerability Exposed: How Emoji Smuggling Bypasses LLM Safety Filters (WindowsForum)](https://windowsforum.com/threads/ai-guardrail-vulnerability-exposed-how-emoji-smuggling-bypasses-llm-safety-filters.365061/)
