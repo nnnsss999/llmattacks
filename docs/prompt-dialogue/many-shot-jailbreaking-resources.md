@@ -79,3 +79,6 @@ The following articles and research papers document the
 - [PANDAS entry on Papers with Code](https://paperswithcode.com/paper/pandas-improving-many-shot-jailbreaking-via)
 - [Many-Shot Jailbreaking Dataset Listing (SelectDataset)](https://www.selectdataset.com/dataset/7e6c8d30302dc7756e8dc3e42047aeb9)
 - [Many-shot jailbreaking is easier than you think (LiveScience)](https://www.livescience.com/technology/artificial-intelligence/many-shot-jailbreaking-ai-services-like-chatgpt-and-claude-3-opus-much-easier-than-you-think)
+- [Rapid Response: Mitigating LLM Jailbreaks With a Few Examples (arXiv:2411.07494)](http://arxiv.org/abs/2411.07494)
+- [From LLMs to MLLMs: Exploring the Landscape of Multimodal Jailbreaking (arXiv:2406.14859)](http://arxiv.org/abs/2406.14859)
+- [Obfuscated Activations Bypass LLM Latent-Space Defenses (arXiv:2412.09565)](http://arxiv.org/abs/2412.09565)
