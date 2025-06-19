@@ -203,6 +203,20 @@ Additional references covering reinforcement learning for cyber-attack discovery
   [Multi-Objective Reinforcement Learning for Automated Resilient Cyber Defence](https://arxiv.org/abs/2411.17585).
 - **DeepExploit** – fully automated penetration testing tool powered by deep RL.
   [DeepExploit README](https://github.com/13o-bbr-bbq/machine_learning_security/blob/master/DeepExploit/README.md).
+- **Knowledge-Informed Auto-Penetration Testing** – RL reward-machine approach for automated pentests.
+  [Knowledge-Informed Auto-Penetration Testing Based on Reinforcement Learning with Reward Machine](https://arxiv.org/abs/2405.15908).
+- **Automated Vulnerability Exploitation** – deep RL method to craft exploits.
+  [Automated Vulnerability Exploitation Using Deep Reinforcement Learning](https://www.mdpi.com/2076-3417/14/20/9331).
+- **Autonomous Discovery of Attack Paths** – RL identifies complex attack sequences.
+  [Autonomous Discovery of Cyber Attack Paths With Complex Causal Relationships Among Optional Actions](https://www.scilit.com/publications/7c2f99a50295356fd4bb9e7c1a158f39).
+- **FRAUD-RLA** – adversarial RL attack against credit card fraud detection systems.
+  [FRAUD-RLA: A New Reinforcement Learning Adversarial Attack Against Credit Card Fraud Detection](https://arxiv.org/abs/2502.02290).
+- **PathSeeker** – RL-based jailbreak approach exploring LLM vulnerabilities.
+  [PathSeeker: Exploring LLM Security Vulnerabilities with a Reinforcement Learning-Based Jailbreak Approach](https://arxiv.org/abs/2409.14177).
+- **Evaluation of RL for Autonomous Penetration Testing** – assesses A3C, Q-learning and DQN for pentesting tasks.
+  [Evaluation of Reinforcement Learning for Autonomous Penetration Testing using A3C, Q-learning and DQN](https://arxiv.org/abs/2407.15656).
+- **Uncovering the Limits of ML** – USENIX talk on RL-driven vulnerability discovery.
+  [Uncovering the Limits of Machine Learning for Automatic Vulnerability Detection](https://www.usenix.org/conference/usenixsecurity24/presentation/risse).
 
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine
