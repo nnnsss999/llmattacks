@@ -103,6 +103,14 @@ An advanced version of GCG that generates customized suffixes [^1_21]:
 - **Generative Suffix Model**: A model trained to generate many customized suffixes for harmful queries in seconds [^1_21].
 - **Perplexity Detector Bypass**: Techniques to evade detection mechanisms while maintaining high attack success rates [^1_21].
 - [AmpleGCG GitHub repo](optimization/amplegcg-repo.html) - open-source implementation of customized suffix attack.
+#### AutoDAN
+
+A gradient-guided attack that iteratively modifies prompts to bypass safety filters while preserving semantics [^27].
+
+#### PIG
+
+An in-context jailbreak approach that tunes examples via gradient signals to leak private data [^28].
+
 
 
 ### Fuzzing Techniques
@@ -229,6 +237,8 @@ An indirect jailbreak approach [^1_40]:
 
 
 ### Model-Specific Attacks
+
+Additional papers are listed in [Model-Specific LLM Attack Resources](model-specific/model-specific-resources.md).
 
 #### Backdoor Attacks
 
@@ -752,3 +762,5 @@ Your catalog is now aligned with every peer-reviewed or industry-grade threat pu
 [24]: https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf "Exposing the Guardrails: Reverse-Engineering and Jailbreaking Safety Filters in DALL·E Text-to-Image Pipelines"
 [25]: https://arxiv.org/html/2502.14182v1 "Multi-Faceted Studies on Data Poisoning"
 [26]: https://arxiv.org/abs/2406.01234 "LoRA Leakage: Gradient Inversion Attacks"
+[27]: https://arxiv.org/abs/2310.15140 "AutoDAN: Interpretable Gradient-Based Adversarial Attacks on Large Language Models"
+[28]: https://arxiv.org/abs/2505.09921 "PIG: Privacy Jailbreak Attack on LLMs via Gradient-based Iterative In-Context Optimization"
