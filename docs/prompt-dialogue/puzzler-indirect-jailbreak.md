@@ -25,5 +25,6 @@ The following papers expand on or cite the Puzzler technique:
 - **BaitAttack: Alleviating Intention Shift in Jailbreak Attacks via Adaptive Bait Crafting** ([ACL Anthology 2024](https://aclanthology.org/2024.emnlp-main.877/)) – discusses indirect jailbreaks and Puzzler in the context of intention-preserving attacks.
 - **Jailbreak Attacks and Defenses Against Large Language Models: A Survey** ([arXiv:2407.04295](https://arxiv.org/abs/2407.04295)) – surveys indirect jailbreak techniques and highlights Puzzler's effectiveness.
 - **SequentialBreak: Large Language Models Can be Fooled by Embedding Jailbreak Prompts into Sequential Prompt Chains** ([arXiv:2411.06426](https://arxiv.org/abs/2411.06426)) – extends Puzzler-style indirect prompts across multiple turns.
+- **AutoJailbreak: Exploring Jailbreak Attacks and Defenses through a Dependency Lens** ([arXiv:2406.03805](https://arxiv.org/abs/2406.03805)) – analyzes large jailbreak datasets and references Puzzler in its taxonomy.
 
 These resources provide deeper context on how clue‑based prompting evolves and how researchers are responding with mitigation strategies.
