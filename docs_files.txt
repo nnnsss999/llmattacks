@@ -107,3 +107,4 @@ docs/supply-chain/trailofbits-sleepy-pickle-part1.html
 docs/prompt-dialogue/prompt-engineering-resources-2029.md
 docs/prompt-dialogue/prompt-engineering-resources-2030.md
 docs/multimodal/visual-jailbreaking-resources-2031.md
+docs/multimodal/visual-jailbreaking-resources-2032.md
