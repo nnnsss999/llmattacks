@@ -26,12 +26,20 @@ catalog. Key folders include:
   generate the CycloneDX `sbom.json`.
 - `tests/` – unit tests for the link checker and SBOM generator.
 - `docs_files.txt` – manifest listing every document archived in this
-  repository.
+  repository (54 entries).
 - `catalog_content.md` – printable version of the master catalog.
 - `fixes-1.md` – issue log and proposed improvements.
 - `link_archive.json` – Wayback Machine snapshots of referenced URLs.
-- `sbom.json` – machine-readable bill of materials linking each document with
-  its metadata.
+- `sbom.json` – machine-readable bill of materials (CycloneDX 1.5) linking each
+  document with its metadata.
+- `docs/navigation-map.md` – human-readable map of every file in the
+  repository with a short description.
+- `index.json` – JSON index generated from the YAML front matter.
+- `.github/workflows/` – CI pipelines for linting, tests, MkDocs deployment and
+  refreshing archived links.
+- `.pre-commit-config.yaml` – pre‑commit hooks (markdownlint v0.38.0,
+  codespell v2.4.1 and custom validators).
+- `mkdocs.yml` – configuration for building the documentation website.
 
 ## Using This Repository
 
