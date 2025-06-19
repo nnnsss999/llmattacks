@@ -27,6 +27,8 @@ A searchable website built with **MkDocs Material** is automatically deployed to
   `token-level/` and `training-alignment/`.
 - `original/` – the original PDF and Markdown source for the catalog.
 - `pdfs/` – a local cache of PDFs; see `pdfs/README.md` for details.
+  Cached filenames use a SHA‑256 hash of the source URL.
+- `extractions1/` – outputs from `extract_urls.py` for future catalog entries.
 - `scripts/` – utility Python scripts including:
   - `build_index.py` to generate `index.json`
   - `cache_pdfs.py` to download PDF sources
@@ -39,7 +41,9 @@ A searchable website built with **MkDocs Material** is automatically deployed to
   - `rename.py` to enforce kebab-case filenames
 - `tests/` – unit tests (`test_link_check.py` and `test_sbom.py`) validating the helper scripts.
 - `docs_files.txt` – manifest listing every document archived in this
-  repository (63 entries).
+  repository (64 entries).
+- `all_files.txt` – complete inventory of every file tracked in the repository.
+- `requirements.txt` – Python dependencies used by the helper scripts.
 - `llm-attack-catalog.md` – printable version of the master catalog inside `docs/`.
 - `fixes-1.md` – issue log and proposed improvements.
 - `link_archive.json` – Wayback Machine snapshots of referenced URLs.
