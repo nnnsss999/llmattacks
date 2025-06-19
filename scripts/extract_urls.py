@@ -8,7 +8,8 @@ import hashlib
 import io
 import json
 from pathlib import Path
-from typing import Dict
+from typing import Dict, Optional
+import argparse
 
 import requests
 import yaml
@@ -48,11 +49,15 @@ def parse_front_matter(path: Path) -> dict | None:
 
 
 def build_existing_map() -> Dict[str, str]:
+    """Return a map of source_url -> relative markdown path."""
     mapping: Dict[str, str] = {}
-    for path in DOCS_DIR.rglob("*.md"):
-        fm = parse_front_matter(path)
-        if fm and (url := fm.get("source_url")):
-            mapping[url] = str(path.relative_to(DOCS_DIR))
+    for base, prefix in [(DOCS_DIR, "docs"), (OUTPUT_DIR, "extractions1")]:
+        if not base.exists():
+            continue
+        for path in base.rglob("*.md"):
+            fm = parse_front_matter(path)
+            if fm and (url := fm.get("source_url")):
+                mapping[url] = f"{prefix}/{path.relative_to(base)}"
     return mapping
 
 
@@ -91,22 +96,29 @@ def process_url(url: str) -> str:
     return save_markdown(content, url)
 
 
-def main() -> None:
+def main(limit: Optional[int] = None) -> None:
     OUTPUT_DIR.mkdir(exist_ok=True)
     existing = build_existing_map()
     urls = load_urls()
     log: Dict[str, dict] = {}
+    processed = 0
     for url in urls:
         if url in existing:
             log[url] = {"existing": existing[url]}
             continue
+        if limit is not None and processed >= limit:
+            break
         try:
             md_path = process_url(url)
             log[url] = {"saved_as": md_path}
+            processed += 1
         except Exception as exc:
             log[url] = {"error": str(exc)}
     LOG_FILE.write_text(json.dumps(log, indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Fetch and convert URLs")
+    parser.add_argument("--limit", type=int, help="Maximum number of new URLs to process")
+    args = parser.parse_args()
+    main(limit=args.limit)
