@@ -115,4 +115,15 @@
   "https://arxiv.org/abs/2504.05605": {"snapshot": "https://web.archive.org/web/20250618/arxiv250405605"},
   "https://arxiv.org/abs/2410.23678": {"snapshot": "https://web.archive.org/web/20250618/arxiv241023678"},
   "https://arxiv.org/abs/2208.04946": {"snapshot": "https://web.archive.org/web/20250618/arxiv220804946"}
+  "https://skylion007.github.io/OpenWebTextCorpus/": {
+    "snapshot": "https://web.archive.org/web/20250618/skylion-openwebtext"
+  "https://doi.org/10.1109/icassp48485.2024.10446267": {
+    "snapshot": "https://web.archive.org/web/20250618/icassp-poisonprompt"
+  },
+  "https://doi.org/10.1109/mnet.2024.3367788": {
+    "snapshot": "https://web.archive.org/web/20250618/mnet-backdoor"
+  },
+  "https://doi.org/10.1145/3656156.3665432": {
+    "snapshot": "https://web.archive.org/web/20250618/hacc-man"
+  }
 }
