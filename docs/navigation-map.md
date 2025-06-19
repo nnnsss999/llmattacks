@@ -166,6 +166,11 @@ Temporary holding area for URL extractions.
 - `extraction_log.json` — mapping of archived URLs to hashed files
 - `*.md` — hashed Markdown snapshots of the linked pages
 
+## @extractions1/
+Legacy output folder produced by an earlier version of `extract_urls.py`.
+- `extraction_log.json` — log mapping a single demo URL to `e36fd18630.md`
+- `e36fd18630.md` — example Markdown snapshot of the OpenWebText Corpus page
+
 ## scripts/
 Utility scripts for building and checking the catalog.
 - `build_index.py` — regenerate `index.json`
