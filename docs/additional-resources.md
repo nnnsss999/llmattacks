@@ -195,6 +195,7 @@ These references track emerging threats and defence research through 2026 and ar
 - [From LLMs to MLLMs: Exploring the Landscape of Multimodal Jailbreaking](https://arxiv.org/abs/2406.14859)
 - [Virtual Context: Enhancing Jailbreak Attacks with Special Token Injection](https://arxiv.org/abs/2406.19845)
 - [Gradient Attack Resources 2026](optimization/gradient-resources-2026.md)
+- [Gradient Attack Resources 2032](optimization/gradient-resources-2032.md)
 - [Play Guessing Game with LLM: Indirect Jailbreak Attack with Implicit Clues](https://arxiv.org/abs/2402.09091)
 - [SelfDefend: LLMs can Defend Themselves Against Jailbreaking in a Practical Manner](https://arxiv.org/abs/2406.05498)
 - [Jigsaw Puzzles: Splitting Harmful Questions to Jailbreak Large Language Models](https://arxiv.org/abs/2410.11459)
