@@ -48,6 +48,15 @@ This document aggregates references on fuzzing techniques for large language mod
 - [Leveling Up Fuzzing: Finding more vulnerabilities with AI](https://security.googleblog.com/2024/11/leveling-up-fuzzing-finding-more.html)
 - [2025-01-8091: LLM-Powered Fuzz Testing of Automotive Diagnostic Protocols](https://saemobilus.sae.org/papers/llm-powered-fuzz-testing-automotive-diagnostic-protocols-2025-01-8091)
 - [FuzzyAI: Open-source Tool for Automated LLM Fuzzing](https://www.helpnetsecurity.com/2024/12/13/fuzzyai-automated-llm-fuzzing/)
+- [G2Fuzz: Low-Cost and Comprehensive Non-textual Input Fuzzing with LLM-Synthesized Input Generators](https://arxiv.org/abs/2501.19282)
+- [The Power of Fuzzing and Large Language Models](https://www.carolemieux.com/20240414_fuzzllms_sbftkeynote.pdf)
+- [Fuzzlang: LLVM Dev Meeting 2025 Slides](https://llvm.org/devmtg/2025-03/slides/fuzzlang.pdf)
+- [LLMUZZ: LLM-based Seed Optimization for Black-Box Device Fuzzing](https://ieeexplore.ieee.org/document/10945143)
+- [Performance Comparison of the LLM Models on LLM-Based Seed Generation](https://ieeexplore.ieee.org/document/10929957)
+- [Initial Seeds Generation Using LLM for IoT Device Fuzzing](https://ieeexplore.ieee.org/document/10710191)
+- [FuzzCode: Code Large Language Model-Based Fuzz Testing for Industrial Systems](https://ieeexplore.ieee.org/document/11028927)
+- [Enhancing Black-box Compiler Option Fuzzing with LLM Through Command Sequence Generation](https://ieeexplore.ieee.org/document/10771447)
+- [ECG: Augmenting Embedded Operating System Fuzzing via LLM-Based Corpus Generation](https://ieeexplore.ieee.org/document/10745813)
 
 ## Tools and Repositories
 - [FuzzAI Project](https://github.com/cyberark/FuzzyAI)
