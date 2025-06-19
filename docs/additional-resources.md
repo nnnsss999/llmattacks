@@ -141,6 +141,11 @@ Additional references collected after the original snapshot:
 - [New AI Jailbreak Method 'Bad Likert Judge' Boosts Attack Success Rates by Over 60% (The Hacker News)](https://thehackernews.com/2025/01/new-ai-jailbreak-method-bad-likert.html)
 - [PANDAS Poster at ICML 2025](https://icml.cc/virtual/2025/poster/43847)
 - [SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents (Anthropic Research)](https://www.anthropic.com/research/shade-arena-sabotage-monitoring)
+- [Self-Instruct Few-Shot Jailbreaking: Decompose the Attack into Pattern and Behavior Learning (arXiv:2501.07959)](https://arxiv.org/abs/2501.07959)
+- [Short-length Adversarial Training Helps LLMs Defend Long-length Jailbreak Attacks: Theoretical and Empirical Evidence (arXiv:2502.04204)](https://arxiv.org/abs/2502.04204)
+- [PiCo: Jailbreaking Multimodal Large Language Models via Pictorial Code Contextualization (arXiv:2504.01444)](https://arxiv.org/abs/2504.01444)
+- [StructuralSleight: Automated Jailbreak Attacks on Large Language Models Utilizing Uncommon Text-Organization Structures (arXiv:2406.08754)](https://arxiv.org/abs/2406.08754)
+- [Breaking Quadratic Barriers: A Non-Attention LLM for Ultra-Long Context Horizons (arXiv:2506.01963)](https://arxiv.org/abs/2506.01963)
 These references track emerging threats and defence research through 2026 and are regularly reviewed for new developments.
 - [Vulnhuntr: Autonomous AI Finds First 0-Day Vulnerabilities in Wild](https://protectai.com/threat-research/vulnhuntr-first-0-day-vulnerabilities)
 - [Using Generative AI LLM agents to exploit zero-day vulnerabilities](https://www.cybercareers.blog/2024/07/using-generative-ai-llm-agents-to-exploit-zero-day-vulnerabilities/)
