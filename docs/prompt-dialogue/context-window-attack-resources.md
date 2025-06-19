@@ -21,3 +21,7 @@ The following sources examine how adversaries exploit an LLM's context window. T
 - [Many-shot jailbreaking (Anthropic)](https://www.anthropic.com/research/many-shot-jailbreaking)
 - [Exploiting Long Context Windows in Large Language Models (Maginative)](https://www.maginative.com/article/many-shot-jailbreaking-exploiting-long-context-windows-in-large-language-models/)
 - [Virtual Context: Enhancing Jailbreak Attacks with Special Token Injection (arXiv:2406.19845)](https://arxiv.org/abs/2406.19845)
+- [New AI hacking technique: Many-shot jailbreaking (Barracuda Networks Blog)](https://blog.barracuda.com/2024/05/30/new-AI-hacking-technique-many-shot-jailbreaking)
+- [Many-shot jailbreaking (HuggingFace Blog)](https://huggingface.co/blog/vladbogo/many-shot-jailbreaking)
+- [What Is Anthropic’s Many-shot Jailbreaking (Dataconomy)](https://dataconomy.com/2024/04/03/anthropic-many-shot-jailbreaking/)
+- [Lost in the Middle: How Language Models Use Long Contexts (arXiv:2307.03172)](https://arxiv.org/abs/2307.03172)
