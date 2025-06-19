@@ -165,6 +165,13 @@
       "date_collected": "2025-06-18"
     },
     {
+      "title": "Puzzler Attack Resources 2029",
+      "path": "prompt-dialogue/puzzler-attack-resources-2029.md",
+      "category": "Prompt Dialogue",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
+    },
+    {
       "title": "Context Window Attack Resources",
       "path": "prompt-dialogue/context-window-attack-resources.md",
       "category": "Prompt Dialogue",
@@ -721,6 +728,20 @@
       "category": "Optimization",
       "sub_category": "",
       "date_collected": "2025-06-20"
+    },
+    {
+      "title": "Evolutionary Algorithm Resources 2030",
+      "path": "optimization/evolutionary-resources-2030.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-21"
+    },
+    {
+      "title": "Evolutionary Algorithm Resources 2031",
+      "path": "optimization/evolutionary-resources-2031.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-22"
     }
   ]
 }

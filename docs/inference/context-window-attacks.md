@@ -76,3 +76,7 @@ These resources detail how manipulating a model's working context can produce ha
 - [LongPO: Long Context Self-Evolution of Large Language Models through Short-to-Long Preference Optimization (OpenReview)](https://openreview.net/forum?id=qTrEq31Shm)
 - [Retrieval meets Long Context Large Language Models (OpenReview)](https://openreview.net/forum?id=xw5nxFWMlo)
 - [InfLLM: Training-Free Long-Context Extrapolation for LLMs with an Efficient Context Memory (OpenReview)](https://openreview.net/forum?id=bTHFrqhASY)
+- [Token Smuggling Attack Explained (Prompt Security Blog)](https://www.promptsecurity.com/blog/token-smuggling-explained)
+- [Token Smuggling for Prompt Injection (Lakera AI)](https://www.lakera.ai/blog/token-smuggling)
+- [Token-Smuggling: The Hidden Threat to A.I. and GPT Models (Hashdork)](https://hashdork.com/token-smuggling/)
+- [AI Guardrail Vulnerability Exposed: How Emoji Smuggling Bypasses LLM Safety Filters (WindowsForum)](https://windowsforum.com/threads/ai-guardrail-vulnerability-exposed-how-emoji-smuggling-bypasses-llm-safety-filters.365061/)
