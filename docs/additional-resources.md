@@ -102,3 +102,4 @@ These references track emerging threats and defence research through 2026 and ar
 - [Evaluating Large Language Models for Enhanced Fuzzing](https://ieeexplore.ieee.org/document/10731701)
 - [Prompt Injection Resources 2026](prompt-dialogue/prompt-injection-resources-2026.md)
 
+- [Fuzzing Resources 2026](fuzzing/fuzzing-resources-2026.md)
