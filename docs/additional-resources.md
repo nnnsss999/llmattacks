@@ -92,3 +92,7 @@ These references track emerging threats and defence research through 2026 and ar
 - [GitHub Repository: llm-attacks/llm-attacks](https://github.com/llm-attacks/llm-attacks)
 - [Meta's Llama Framework Flaw Exposes AI Systems to Remote Code Execution](https://thehackernews.com/2025/01/metas-llama-framework-flaw-exposes-ai.html)
 - [Top 10 Most Common LLM Attack Techniques | Elastic](https://www.elastic.co/security/llm-safety-report)
+- [ASETF: A Novel Method for Jailbreak Attack on LLMs through Translate Suffix Embeddings](https://arxiv.org/abs/2402.16006)
+- [Play Guessing Game with LLM: Indirect Jailbreak Attack with Implicit Clues](https://aclanthology.org/2024.findings-acl.304/)
+- [Learn to Disguise: Avoid Refusal Responses in LLM’s Defense via a Multi-Agent Attacker-Disguiser Game](https://arxiv.org/abs/2404.02532)
+- [Open Sesame! Universal Black-Box Jailbreaking of Large Language Models](https://arxiv.org/abs/2309.01446)
