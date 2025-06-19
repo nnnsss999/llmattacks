@@ -21,6 +21,8 @@ Directories are shown as headings with bullet points for each file.
 - `mkdocs.yml` — configuration for the documentation site
 - `sbom.json` — CycloneDX software bill of materials
 - `docs_files.txt` — list of document paths used by build scripts
+- `all_files.txt` — complete inventory of repository files
+- `requirements.txt` — Python dependencies for the helper scripts
 
 ## .github/workflows/
 - `ci.yml` — runs linting and tests on push
@@ -156,10 +158,15 @@ Original sources of the catalog in PDF and Markdown.
 Local cache for PDFs.
 - `README.md` — explains the hashing scheme for cached PDFs
 
+## extractions1/
+Temporary holding area for URL extractions.
+- `.gitkeep` — placeholder so the directory remains tracked
+
 ## scripts/
 Utility scripts for building and checking the catalog.
 - `build_index.py` — regenerate `index.json`
 - `cache_pdfs.py` — download and store external PDFs
+- `extract_urls.py` — convert external links into Markdown under `extractions1/`
 - `check_duplicates.py` — detect duplicate content in docs
 - `check_front_matter.py` — validate YAML headers
 - `generate_sbom.py` — produce `sbom.json`
