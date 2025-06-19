@@ -66,6 +66,27 @@
       "category": "Zero-Day",
       "sub_category": "",
       "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Additional Zero-Day Resources 2028",
+      "path": "zero-day-resources-2028.md",
+      "category": "Zero-Day",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Additional Zero-Day Resources 2032",
+      "path": "zero-day-resources-2032.md",
+      "category": "Zero-Day",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
+    },
+    {
+      "title": "Additional Zero-Day Resources 2033",
+      "path": "zero-day-resources-2033.md",
+      "category": "Zero-Day",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
     }
   ],
   "Latent Space": [
