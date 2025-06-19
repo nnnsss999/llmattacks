@@ -18,5 +18,11 @@ Fuzzing approaches repeatedly generate slightly mutated inputs to probe a model 
 - **Large Language Models Based Fuzzing Techniques: A Survey** – overview of LLM-driven fuzzing methodologies. [arXiv](https://arxiv.org/abs/2402.00350)
 - **AI-Powered Fuzzing: Breaking the Bug Hunting Barrier** – Google blog discussing fuzz target generation with generative models. [Security Blog](https://security.googleblog.com/2023/08/ai-powered-fuzzing-breaking-bug-hunting.html)
 - **Evaluating Large Language Models for Enhanced Fuzzing** – IEEE paper presenting an analysis framework for LLM-driven seed generation. [IEEE Xplore](https://ieeexplore.ieee.org/document/10731701)
+- **PROMPTFUZZ** – research paper using fuzzing to stress-test prompt injection defenses. [arXiv](https://arxiv.org/abs/2409.14729)
+- **GPTFUZZER** – method for red teaming with auto-generated jailbreak prompts. [arXiv](https://arxiv.org/abs/2309.10253)
+- **GPTFuzz** – open-source implementation of the GPTFUZZER approach. [GitHub](https://github.com/sherdencooper/GPTFuzz)
+- **PromptFuzz** – tool that builds fuzz drivers by mutating LLM prompts. [GitHub](https://github.com/FuzzAnything/PromptFuzz)
+- **LLMFuzzAgent** – agent framework that automatically solved the Gandalf AI challenge. [GitHub](https://github.com/corca-ai/LLMFuzzAgent)
+- **SimpleLLMFuzzer** – small-scale fuzzer showcasing automated prompt generation. [GitHub](https://github.com/MartinYu0510/SimpleLLMFuzzer)
 
 These references illustrate how fuzzing techniques are evolving to test LLM safety and security. Incorporating LLM-driven mutation and evaluation loops enables broader exploration of model behavior and potential jailbreaks.
