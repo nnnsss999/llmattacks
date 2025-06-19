@@ -131,6 +131,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 ### supply-chain/
 - `hackernews-pypi.html` — story on PyPI supply-chain risks
 - `thehackernews-dependency-hijack.html` — dependency hijacking example
+- `llm-supply-chain-attacks.md` — overview of supply chain risks
 
 ### token-level/
 - `techradar-tokenbreak.html` — token level manipulation article
