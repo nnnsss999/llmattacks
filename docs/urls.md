@@ -8372,3 +8372,13 @@ https://arxiv.org/abs/2502.06390
 - https://yoast.com/wordpress/plugins/seo
 - https://yoast.com/wordpress/plugins/seo/
 - https://zendata.security/2025/06/11/zero-click-echoleak-exploit-in-microsoft-365-copilot-highlights-ai-data-exfiltration-risks/
+- https://www.securityweek.com/microsoft-finds-zero-day-flaw-in-copilot-plugin/
+- https://thehackernews.com/2025/12/ai-tool-uncover-zero-day-vulnerabilities.html
+- https://www.bleepingcomputer.com/news/security/ai-zero-day-tool-autonomous-vulnerability-discovery/
+- https://www.fortinet.com/blog/threat-research/zero-day-llm-attack
+- https://www.blackhat.com/us-24/briefings/schedule/index.html#ai-driven-zero-day-exploitation-0
+- https://www.blackhat.com/asia-25/briefings/schedule/index.html#llm-zero-day-fuzzing-102
+- https://therecord.media/gpt-4o-discovers-zero-day-in-python
+- https://industrialcyber.co/security-tools/ai-zero-day-finder/
+- https://snyk.io/blog/ai-accelerated-zero-day-detection/
+- https://www.techrepublic.com/article/llm-zero-day-icomm/
