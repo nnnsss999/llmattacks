@@ -81,5 +81,14 @@ This document aggregates references on fuzzing techniques for large language mod
 - [FuzzLLM Repository](https://github.com/iangarnerh/FuzzLLM)
 - [llm-fuzz-driver Repository](https://github.com/xing-junyang/llm-fuzz-driver)
 - [Papillon Repository](https://github.com/aaFrostnova/Papillon)
+- [ToolFuzz Repository](https://github.com/eth-sri/ToolFuzz)
+- [AiLibFuzzer Repository](https://github.com/mowenroot/AiLibFuzzer)
+- [llm-harness Repository](https://github.com/kchousos/llm-harness)
+- [S2AFL Repository](https://github.com/huoyuxi/S2AFL)
+- [LLMQTTFuzzer Repository](https://github.com/Netsec-SJTU/LLMQTTFuzzer)
+- [Gagana Repository](https://github.com/lac-dcc/Gagana)
+- [light-fuzz-gen Repository](https://github.com/pushinl/light-fuzz-gen)
+- [LLM4RtFuzz Repository](https://github.com/doslahtm/LLM4RtFuzz)
+- [lockpick Repository](https://github.com/FaintStep/lockpick)
 
 These references consolidate the fuzzing resources spread across multiple documents in this repository, giving researchers a centralized starting point for further exploration.
