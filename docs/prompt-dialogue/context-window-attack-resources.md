@@ -45,3 +45,5 @@ The following sources examine how adversaries exploit an LLM's context window. T
 - [Cognitive Overload Attack GitHub Repository (UNHSAILLab)](https://github.com/UNHSAILLab/cognitive-overload-attack)
 - [Many-Shot Jailbreaking (PDF)](https://www-cdn.anthropic.com/af5633c94ed2beb282f6a53c595eb437e8e7b630/Many_Shot_Jailbreaking__2024_04_02_0936.pdf)
 - [Illusions of Relevance: Using Content Injection Attacks to Deceive Retrievers, Rerankers, and LLM Judges (arXiv:2501.18536)](https://arxiv.org/abs/2501.18536)
+- [Guide to Context in LLMs (Symbl.ai)](https://symbl.ai/developers/blog/guide-to-context-in-llms/)
+- [Artifacts and Long Context Windows (Weights & Biases)](https://wandb.ai/wandb_ai/artifacts-and-long-context-windows)
