@@ -1,7 +1,7 @@
-- http://Skylion007.github.io/OpenWebTextCorpus
-- http://ai.meta.com/blog/meta-llama-3-1
-- http://ai.meta.com/llama
-- http://ai.meta.com/llama/use-policy
+- http://Skylion007.github.io/OpenWebTextCorpus -> extractions1/e36fd18630.md
+- http://ai.meta.com/blog/meta-llama-3-1 -> extractions1/a15fda3325.md
+- http://ai.meta.com/llama -> extractions1/5ce86332d8.md
+- http://ai.meta.com/llama/use-policy -> extractions1/d2d06d7de6.md
 - http://anthropic.com/rsp
 - http://anthropic.com/rsp-updates
 - http://arxiv.org/abs/2010.15980
@@ -45,18 +45,18 @@
 - http://claude.ai/login
 - http://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets
 - http://creativecommons.org/licenses/by-nc-nd/4.0
-- http://creativecommons.org/licenses/by-nc-nd/4.0/
-- http://creativecommons.org/licenses/by-nc-sa/4.0/
-- http://creativecommons.org/licenses/by-nd/2.0/
-- http://creativecommons.org/licenses/by-sa/4.0/
-- http://creativecommons.org/licenses/by/4.0
-- http://creativecommons.org/licenses/by/4.0/
-- http://creativecommons.org/publicdomain/zero/1.0/
-- http://dlmf.nist.gov/LaTeXML
-- http://dlmf.nist.gov/LaTeXML/
-- http://dlmf.nist.gov/LaTeXML/.--
-- http://dublincore.org/specifications/dublin-core/dces/1999-07-02/
-- http://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/
+- http://creativecommons.org/licenses/by-nc-nd/4.0/ -> extractions1/f8a92d30c5.md
+- http://creativecommons.org/licenses/by-nc-sa/4.0/ -> extractions1/93bcf3b687.md
+- http://creativecommons.org/licenses/by-nd/2.0/ -> extractions1/3c46525f40.md
+- http://creativecommons.org/licenses/by-sa/4.0/ -> extractions1/15d8eebfa9.md
+- http://creativecommons.org/licenses/by/4.0 -> extractions1/1e66d409f6.md
+- http://creativecommons.org/licenses/by/4.0/ -> extractions1/f9ba32750c.md
+- http://creativecommons.org/publicdomain/zero/1.0/ -> extractions1/261eaede48.md
+- http://dlmf.nist.gov/LaTeXML -> extractions1/a99a711fb0.md
+- http://dlmf.nist.gov/LaTeXML/ -> extractions1/ae3ec4c5bd.md
+- http://dlmf.nist.gov/LaTeXML/.-- -> extractions1/dfe95ebb1b.md
+- http://dublincore.org/specifications/dublin-core/dces/1999-07-02/ -> extractions1/b42d8d9a7d.md
+- http://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/ -> extractions1/d19bb1a7d7.md
 - http://filters.To
 - http://github.com/llm-attacks/llm-attacks
 - http://gmpg.org/xfn/11

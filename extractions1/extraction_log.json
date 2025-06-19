@@ -1,4 +1,16 @@
 {
+  "http://Skylion007.github.io/OpenWebTextCorpus": {
+    "saved_as": "e36fd18630.md"
+  },
+  "http://ai.meta.com/blog/meta-llama-3-1": {
+    "saved_as": "a15fda3325.md"
+  },
+  "http://ai.meta.com/llama": {
+    "saved_as": "5ce86332d8.md"
+  },
+  "http://ai.meta.com/llama/use-policy": {
+    "saved_as": "d2d06d7de6.md"
+  },
   "http://anthropic.com/rsp": {
     "existing": "extractions1/7cc0acd3df.md"
   },
@@ -122,17 +134,32 @@
   "http://claude.ai/login": {
     "error": "403 Client Error: Forbidden for url: https://claude.ai/login"
   },
+  "http://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets": {
+    "error": "404 Client Error: Not Found for url: https://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets"
+  },
   "http://creativecommons.org/licenses/by-nc-nd/4.0": {
     "existing": "extractions1/f8a92d30c5.md"
   },
   "http://creativecommons.org/licenses/by-nc-nd/4.0/": {
     "existing": "extractions1/ac727278b2.md"
   },
+  "http://creativecommons.org/licenses/by-nc-sa/4.0/": {
+    "saved_as": "93bcf3b687.md"
+  },
+  "http://creativecommons.org/licenses/by-nd/2.0/": {
+    "saved_as": "3c46525f40.md"
+  },
+  "http://creativecommons.org/licenses/by-sa/4.0/": {
+    "saved_as": "15d8eebfa9.md"
+  },
   "http://creativecommons.org/licenses/by/4.0": {
     "existing": "extractions1/1e66d409f6.md"
   },
   "http://creativecommons.org/licenses/by/4.0/": {
     "existing": "extractions1/f9ba32750c.md"
+  },
+  "http://creativecommons.org/publicdomain/zero/1.0/": {
+    "saved_as": "261eaede48.md"
   },
   "http://dlmf.nist.gov/LaTeXML": {
     "existing": "extractions1/a99a711fb0.md"
@@ -143,505 +170,10 @@
   "http://dlmf.nist.gov/LaTeXML/.--": {
     "existing": "extractions1/dfe95ebb1b.md"
   },
-  "http://gmpg.org/xfn/11": {
-    "existing": "extractions1/434bc5d3f9.md"
-  },
-  "http://gotit.pub/faq": {
-    "existing": "extractions1/a19f5ec71f.md"
-  },
-  "http://madskills.com/public/xml/rss/module/trackback": {
-    "error": "503 Server Error: Service Unavailable for url: http://madskills.com/public/xml/rss/module/trackback"
-  },
-  "http://madskills.com/public/xml/rss/module/trackback/": {
-    "error": "503 Server Error: Service Unavailable for url: http://madskills.com/public/xml/rss/module/trackback/"
-  },
-  "http://opengraphprotocol.org/schema": {
-    "error": "404 Client Error: Not Found for url: https://ogp.me/schema/"
-  },
-  "http://opengraphprotocol.org/schema/": {
-    "error": "404 Client Error: Not Found for url: https://ogp.me/schema/"
-  },
-  "http://purl.org/dc/elements/1.1": {
-    "existing": "extractions1/2aeb059b18.md"
-  },
-  "http://purl.org/dc/elements/1.1/": {
-    "existing": "extractions1/f414295724.md"
-  },
-  "http://reddit.com/submit?url=https://www.apexhq.ai/blog/blog/latent-space-the-new-attack-vector-into-organizations": {
-    "error": "403 Client Error: Forbidden for url: https://www.reddit.com/submit?url=https://www.apexhq.ai/blog/blog/latent-space-the-new-attack-vector-into-organizations"
-  },
-  "http://reddit.com/submit?url=https://www.apexhq.ai/blog/blog/latent-space-the-new-attack-vector-into-organizations/": {
-    "error": "403 Client Error: Forbidden for url: https://www.reddit.com/submit?url=https://www.apexhq.ai/blog/blog/latent-space-the-new-attack-vector-into-organizations/"
-  },
-  "http://schema.org/SoftwareSourceCode": {
-    "existing": "extractions1/437821ec40.md"
-  },
-  "http://www.addthis.com/help/api-spec": {
-    "error": "403 Client Error: Forbidden for url: https://www.oracle.com/"
-  },
-  "http://www.anthropic.com/rsp-updates": {
-    "existing": "extractions1/9cfe082a80.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2012.07805&amp;description=Extracting": {
-    "existing": "extractions1/4c175ee2f0.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2309.01446&amp;description=Open": {
-    "existing": "extractions1/f125125274.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2401.12192&amp;description=Text": {
-    "existing": "extractions1/02b9bd975d.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2402.02309&amp;description=Jailbreaking": {
-    "existing": "extractions1/00e8ce405c.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2402.07867&amp;description=PoisonedRAG": {
-    "existing": "extractions1/4ca33972ca.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2402.07867&amp;description=PoisonedRAG:": {
-    "existing": "extractions1/e809de0c24.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2402.16006&amp;description=ASETF": {
-    "existing": "extractions1/7d2fcb81a2.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2402.16006&amp;description=ASETF:": {
-    "existing": "extractions1/9105e2dfda.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2404.02532&amp;description=Learn": {
-    "existing": "extractions1/0d932658a5.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2406.14859&amp;description=From": {
-    "existing": "extractions1/b0fc360d1c.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2409.14729&amp;description=PROMPTFUZZ": {
-    "existing": "extractions1/5bb7f476e5.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2409.14729&amp;description=PROMPTFUZZ:": {
-    "existing": "extractions1/5c33113557.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2410.04884&amp;description=Patch": {
-    "existing": "extractions1/984141def2.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2411.07494&amp;description=Rapid": {
-    "existing": "extractions1/731ce7ed96.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2411.12762&amp;description=Playing": {
-    "existing": "extractions1/dc7d5b342b.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2412.09565&amp;description=Obfuscated": {
-    "existing": "extractions1/fffcb050b1.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2501.18536&amp;description=Illusions": {
-    "existing": "extractions1/c786f77346.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2505.16008&amp;description=LAGO": {
-    "existing": "extractions1/ccf5ea2a20.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2505.16008&amp;description=LAGO:": {
-    "existing": "extractions1/e181e49f0d.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2409.02718&description=%22Yes,%20My%20LoRD.%22%20Guiding%20Language%20Model%20Extraction%20with%20Locality%20Reinforced%20Distillation": {
-    "existing": "extractions1/8d127139b7.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2409.12914&description=Defending%20against%20Reverse%20Preference%20Attacks%20is%20Difficult": {
-    "existing": "extractions1/b882064207.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2410.04884&description=Patch%20is%20Enough:%20Naturalistic%20Adversarial%20Patch%20against%20Vision-Language%20Pre-training%20Models": {
-    "existing": "extractions1/06602b8934.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2503.19338&description=Membership%20Inference%20Attacks%20on%20Large-Scale%20Models:%20A%20Survey": {
-    "existing": "extractions1/de3ca7346e.md"
-  },
-  "http://www.facebook.com/2008/fbml": {
-    "error": "404 Client Error: Not Found for url: https://www.facebook.com/2008/fbml"
-  },
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns": {
-    "existing": "extractions1/a85fcf77b5.md"
-  },
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#": {
-    "existing": "extractions1/ee9acbb398.md"
-  },
-  "http://www.w3.org/1999/xlink": {
-    "existing": "extractions1/a946d26fd8.md"
-  },
-  "http://www.w3.org/2000/svg": {
-    "existing": "extractions1/dd47c910e2.md"
-  },
-  "https://about.fb.com/news/2023/07/llama-2": {
-    "existing": "extractions1/dd6b4f6775.md"
-  },
-  "https://about.fb.com/news/2023/07/llama-2/": {
-    "existing": "extractions1/c73878df77.md"
-  },
-  "https://about.sourcegraph.com/blog/security-update-august-2023": {
-    "existing": "extractions1/19679e182f.md"
-  },
-  "https://aclanthology.org/2024.emnlp-main.973": {
-    "existing": "extractions1/620d5c095b.md"
-  },
-  "https://aclanthology.org/2024.emnlp-main.973/": {
-    "existing": "extractions1/88ef1476af.md"
-  },
-  "https://aclanthology.org/2024.findings-acl.304/": {
-    "existing": "extractions1/893e7c22c4.md"
-  },
-  "https://aclanthology.org/2024.findings-emnlp.692": {
-    "existing": "extractions1/f50cf35db2.md"
-  },
-  "https://aclanthology.org/2024.findings-emnlp.692/": {
-    "existing": "extractions1/a0d5e5b8d5.md"
-  },
-  "https://aclanthology.org/2024.findings-emnlp.803": {
-    "existing": "extractions1/1e5538df9a.md"
-  },
-  "https://adversa.ai/blog/agentic-ai-security": {
-    "error": "406 Client Error: Not Acceptable for url: https://adversa.ai/blog/agentic-ai-security"
-  },
-  "https://adversa.ai/blog/agentic-ai-security/": {
-    "error": "406 Client Error: Not Acceptable for url: https://adversa.ai/blog/agentic-ai-security/"
-  },
-  "https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-flash": {
-    "existing": "extractions1/185f219a46.md"
-  },
-  "https://ai.google.dev/gemini-api/docs/models/gemini#gemini-2.0-flash": {
-    "existing": "extractions1/b7e919bca0.md"
-  },
-  "https://ai.google.dev/pricing#1_5flash": {
-    "existing": "extractions1/0839905ff4.md"
-  },
-  "https://ai.meta.com/blog/meta-llama-3-1-ai-responsibility": {
-    "existing": "extractions1/4ef1492380.md"
-  },
-  "https://ai.meta.com/blog/meta-llama-3-1-ai-responsibility/": {
-    "existing": "extractions1/a4f0e262dd.md"
-  },
-  "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js": {
-    "existing": "extractions1/012e56dad0.md"
-  },
-  "https://alphaxiv.org": {
-    "existing": "extractions1/d4afe8b02b.md"
-  },
-  "https://alphaxiv.org/": {
-    "existing": "extractions1/094f58618a.md"
-  },
-  "https://anonymous.4open.science/r/SCoT-D4D9": {
-    "error": "401 Client Error: Unauthorized for url: https://anonymous.4open.science/api/repo/SCoT-D4D9/file/"
-  },
-  "https://anonymous.4open.science/r/SCoT-D4D9.": {
-    "error": "401 Client Error: Unauthorized for url: https://anonymous.4open.science/api/repo/SCoT-D4D9./file/"
-  },
-  "https://api-docs.deepseek.com/news/news250120": {
-    "existing": "extractions1/cac44aaad7.md"
-  },
-  "https://api-docs.deepseek.com/quick_start/pricing": {
-    "existing": "extractions1/8eb12065b9.md"
-  },
-  "https://api.github.com/_private/browser/errors": {
-    "error": "404 Client Error: Not Found for url: https://api.github.com/_private/browser/errors"
-  },
-  "https://api.github.com/_private/browser/stats": {
-    "error": "404 Client Error: Not Found for url: https://api.github.com/_private/browser/stats"
-  },
-  "https://api.semanticscholar.org/arXiv:2012.07805": {
-    "existing": "extractions1/2847a06b94.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2309.01446": {
-    "existing": "extractions1/68d93e98e2.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2401.12192": {
-    "existing": "extractions1/60c367eca6.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2402.02309": {
-    "existing": "extractions1/123241d468.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2402.07867": {
-    "existing": "extractions1/c79d1b3bc1.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2402.16006": {
-    "existing": "extractions1/0f68258673.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2404.02532": {
-    "existing": "extractions1/e0f8ad5b86.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2406.14859": {
-    "existing": "extractions1/f1213b5921.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2409.02718": {
-    "existing": "extractions1/699ca397c8.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2409.12914": {
-    "existing": "extractions1/00449f16c5.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2409.14729": {
-    "existing": "extractions1/cdaba4e105.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2410.04884": {
-    "existing": "extractions1/ee01f4fdc8.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2411.07494": {
-    "existing": "extractions1/df1d8e1c6d.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2411.12762": {
-    "existing": "extractions1/1cfb2a66da.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2412.09565": {
-    "existing": "extractions1/81f0728d88.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2501.18536": {
-    "existing": "extractions1/153016e370.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2503.19338": {
-    "existing": "extractions1/3cdf3b2d81.md"
-  },
-  "https://api.semanticscholar.org/arXiv:2505.16008": {
-    "existing": "extractions1/88528ffa2a.md"
-  },
-  "https://api.w.org": {
-    "existing": "extractions1/a2855440f5.md"
-  },
-  "https://api.w.org/": {
-    "existing": "extractions1/b012324747.md"
-  },
-  "https://api.whatsapp.com/send?text": {
-    "existing": "extractions1/fc1287f4b2.md"
-  },
-  "https://api.whatsapp.com/send?text=": {
-    "existing": "extractions1/da37dfbefc.md"
-  },
-  "https://app.confident-ai.com?utm_source=article": {
-    "existing": "extractions1/6acd185bdf.md"
-  },
-  "https://app.confident-ai.com?utm_source=landing": {
-    "existing": "extractions1/4691524019.md"
-  },
-  "https://archive.org/wayback/available?url": {
-    "existing": "extractions1/371b1c4246.md"
-  },
-  "https://archive.org/wayback/available?url=": {
-    "existing": "extractions1/ce28421a7a.md"
-  },
-  "https://arxiv.org": {
-    "existing": "extractions1/f7a436a39e.md"
-  },
-  "https://arxiv.org/": {
-    "existing": "extractions1/28bacb8b68.md"
-  },
-  "https://arxiv.org/IgnoreMe": {
-    "existing": "extractions1/a0156761ea.md"
-  },
-  "https://arxiv.org/abs/1906.01820": {
-    "existing": "extractions1/c4858d4ef2.md"
-  },
-  "https://arxiv.org/abs/2006.03463": {
-    "existing": "extractions1/7e6475041e.md"
-  },
-  "https://arxiv.org/abs/2012.07805": {
-    "existing": "extractions1/7ec1bf4613.md"
-  },
-  "https://arxiv.org/abs/2012.07805v1": {
-    "existing": "extractions1/371318b5f4.md"
-  },
-  "https://arxiv.org/abs/2012.07805v2": {
-    "existing": "extractions1/4611493173.md"
-  },
-  "https://arxiv.org/abs/2102.12452": {
-    "existing": "extractions1/86cfc2b338.md"
-  },
-  "https://arxiv.org/abs/2112.00861": {
-    "existing": "extractions1/f82886e675.md"
-  },
-  "https://arxiv.org/abs/2307.15043": {
-    "existing": "extractions1/302c069146.md"
-  },
-  "https://arxiv.org/abs/2309.01446": {
-    "existing": "extractions1/c902c46044.md"
-  },
-  "https://arxiv.org/abs/2309.01446v1": {
-    "existing": "extractions1/a30ca6f310.md"
-  },
-  "https://arxiv.org/abs/2309.01446v4": {
-    "existing": "extractions1/87a541763b.md"
-  },
-  "https://arxiv.org/abs/2309.10253": {
-    "existing": "extractions1/f21d4b6af3.md"
-  },
-  "https://arxiv.org/abs/2309.11053": {
-    "existing": "extractions1/d969c40983.md"
-  },
-  "https://arxiv.org/abs/2309.15840": {
-    "existing": "extractions1/b663492de1.md"
-  },
-  "https://arxiv.org/abs/2310.06987": {
-    "existing": "extractions1/29e4d71dc6.md"
-  },
-  "https://arxiv.org/abs/2311.09127": {
-    "existing": "extractions1/f4da5036f7.md"
-  },
-  "https://arxiv.org/abs/2312.11513": {
-    "existing": "extractions1/d83f3955ff.md"
-  },
-  "https://arxiv.org/abs/2401.05566": {
-    "existing": "extractions1/e5c0904211.md"
-  },
-  "https://arxiv.org/abs/2401.12192": {
-    "existing": "docs/embedding/index.md"
-  },
-  "https://arxiv.org/abs/2401.12192v1": {
-    "existing": "extractions1/f5a79e0fde.md"
-  },
-  "https://arxiv.org/abs/2401.12192v4": {
-    "existing": "extractions1/bf35acb5ad.md"
-  },
-  "https://arxiv.org/abs/2402.02309": {
-    "existing": "extractions1/5b3c948a47.md"
-  },
-  "https://arxiv.org/abs/2402.02309v1": {
-    "existing": "extractions1/4640895588.md"
-  },
-  "https://arxiv.org/abs/2402.04249": {
-    "existing": "extractions1/2332f409f2.md"
-  },
-  "https://arxiv.org/abs/2402.07867": {
-    "existing": "extractions1/0521316708.md"
-  },
-  "https://arxiv.org/abs/2402.07867?utm_source=chatgpt.com": {
-    "existing": "extractions1/c70607da70.md"
-  },
-  "https://arxiv.org/abs/2402.07867v1": {
-    "existing": "extractions1/a9fa2a75d8.md"
-  },
-  "https://arxiv.org/abs/2402.07867v3": {
-    "existing": "extractions1/f22b983880.md"
-  },
-  "https://arxiv.org/abs/2402.09091": {
-    "existing": "extractions1/be2c846f91.md"
-  },
-  "https://arxiv.org/abs/2402.13457": {
-    "existing": "extractions1/d10a2d4981.md"
-  },
-  "https://arxiv.org/abs/2402.16006": {
-    "existing": "extractions1/195e4466bc.md"
-  },
-  "https://arxiv.org/abs/2402.16006v1": {
-    "existing": "extractions1/ac16941a36.md"
-  },
-  "https://arxiv.org/abs/2402.16006v2": {
-    "existing": "extractions1/100a623803.md"
-  },
-  "https://arxiv.org/abs/2403.10462": {
-    "existing": "extractions1/9fb37ee6c3.md"
-  },
-  "https://arxiv.org/abs/2403.14720": {
-    "existing": "extractions1/f90ae43c4d.md"
-  },
-  "https://arxiv.org/abs/2404.02532": {
-    "existing": "extractions1/cf210e69f8.md"
-  },
-  "https://arxiv.org/abs/2404.02532v1": {
-    "existing": "extractions1/62baf6b909.md"
-  },
-  "https://arxiv.org/abs/2404.07921": {
-    "existing": "extractions1/936557d3c3.md"
-  },
-  "https://arxiv.org/abs/2404.07921\\u003c/a\\u003e": {
-    "error": "404 Client Error: Not Found for url: https://arxiv.org/abs/2404.07921%5Cu003c/a%5Cu003e"
-  },
-  "https://arxiv.org/abs/2404.12345": {
-    "existing": "docs/multimodal/image-obscuring-jailbreak.md"
-  },
-  "https://arxiv.org/abs/2405.13068": {
-    "existing": "extractions1/a1778fcd09.md"
-  },
-  "https://arxiv.org/abs/2405.20773": {
-    "existing": "extractions1/35d08acbc1.md"
-  },
-  "https://arxiv.org/abs/2405.21018": {
-    "existing": "extractions1/ff0cfce97e.md"
-  },
-  "https://arxiv.org/abs/2405.67890": {
-    "existing": "docs/multimodal/audio-steganography-jailbreak.md"
-  },
-  "https://arxiv.org/abs/2406.01234": {
-    "existing": "docs/inference/gradient-leakage-inversion.md"
-  },
-  "https://arxiv.org/abs/2406.03805": {
-    "existing": "extractions1/b08bc77f09.md"
-  },
-  "https://arxiv.org/abs/2406.14859": {
-    "existing": "extractions1/c13b32f935.md"
-  },
-  "https://arxiv.org/abs/2406.14859v1": {
-    "existing": "extractions1/314bdef6b8.md"
-  },
-  "https://arxiv.org/abs/2406.19845": {
-    "existing": "extractions1/28b4b5225c.md"
-  },
-  "https://arxiv.org/abs/2407.04295": {
-    "existing": "extractions1/28a649de89.md"
-  },
-  "https://arxiv.org/abs/2407.13796": {
-    "existing": "extractions1/34ad60dc13.md"
-  },
-  "https://arxiv.org/abs/2407.21659": {
-    "existing": "extractions1/46291ced4c.md"
-  },
-  "https://arxiv.org/abs/2408.11749": {
-    "existing": "extractions1/c37aa20eb2.md"
-  },
-  "https://arxiv.org/abs/2409.02718": {
-    "existing": "extractions1/964613e376.md"
-  },
-  "https://arxiv.org/abs/2409.02718#": {
-    "existing": "extractions1/01c0318ac7.md"
-  },
-  "https://arxiv.org/abs/2409.02718#content": {
-    "existing": "extractions1/54be98c9f4.md"
-  },
-  "https://arxiv.org/abs/2409.02718?context=cs": {
-    "existing": "extractions1/fbd5f2438b.md"
-  },
-  "https://arxiv.org/abs/2409.02718?context=cs.CL": {
-    "existing": "extractions1/d5c1b681f5.md"
-  },
-  "https://arxiv.org/abs/2409.02718?utm_source=chatgpt.com": {
-    "existing": "extractions1/98ae4482dd.md"
-  },
-  "https://arxiv.org/abs/2409.02718v1": {
-    "existing": "extractions1/b9e79337bc.md"
-  },
-  "https://arxiv.org/abs/2409.02718v2": {
-    "existing": "extractions1/2557c21f1e.md"
-  },
-  "https://arxiv.org/abs/2409.02718v3": {
-    "existing": "extractions1/36a286576e.md"
-  },
-  "https://arxiv.org/abs/2409.12914": {
-    "existing": "extractions1/7c2026f844.md"
-  },
-  "https://arxiv.org/abs/2409.12914?context=cs": {
-    "existing": "extractions1/31f27cb222.md"
-  },
-  "https://arxiv.org/abs/2409.12914?context=cs.CL": {
-    "existing": "extractions1/58407aca7f.md"
-  },
-  "https://arxiv.org/abs/2409.12914v1": {
-    "existing": "extractions1/533775e022.md"
-  },
-  "https://arxiv.org/abs/2409.12914v1/": {
-    "existing": "extractions1/8b5fa66459.md"
-  },
-  "https://arxiv.org/abs/2409.12914v1/#content": {
-    "saved_as": "b33447fce4.md"
-  },
-  "https://arxiv.org/abs/2409.12914v1/?utm_source=chatgpt.com": {
-    "saved_as": "73b27a1718.md"
-  },
-  "https://arxiv.org/abs/2409.12914v2": {
-    "saved_as": "126df2da12.md"
-  },
-  "https://arxiv.org/abs/2409.12914v3": {
-    "saved_as": "e23f343926.md"
-  },
-  "https://arxiv.org/abs/2409.14729": {
-    "saved_as": "e0a09b15e9.md"
+  "http://dublincore.org/specifications/dublin-core/dces/1999-07-02/": {
+    "saved_as": "b42d8d9a7d.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/": {
+    "saved_as": "d19bb1a7d7.md"
   }
 }
