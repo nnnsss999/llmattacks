@@ -133,6 +133,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `pdf-extract.md` — plain text extracted from the PDF catalog
 - `glossary.md` — definitions of common terms across the catalog
 - `navigation-map.md` — this file describing all repository contents
+- `urls.md` — list of referenced URLs used for analysis
 
 ## original/
 Original sources of the catalog in PDF and Markdown.

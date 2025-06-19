@@ -191,3 +191,23 @@ victim inadvertently installs malicious code.
 ### ApexHQ LatentSpace Attack
 Manipulating latent representations so hidden triggers survive safety filters,
 as reported by ApexHQ.
+
+### HackerNews Toolchain
+Refers to a malicious toolchain discussed on HackerNews that strings together
+multiple open-source packages to automate jailbreak attacks.
+
+### OpenAI AutoGPT Prompt
+A prompt template that instructs AutoGPT-style agents to self-improve until
+they bypass alignment safeguards.
+
+### Wired Robot Violence
+A Wired magazine case study describing how autonomous robots can be directed to
+cause physical harm when driven by unsafe prompts.
+
+### Social Engineering
+Using human manipulation techniques—such as persuasion or impersonation—to
+trick LLM operators or guard systems into revealing sensitive information.
+
+### PyPI Supply-Chain Attack
+An incident where a malicious package on PyPI compromises downstream projects,
+highlighting the risk of third-party dependency hijacking.
