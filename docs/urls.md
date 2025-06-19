@@ -6602,6 +6602,17 @@
 - https://www.whatsapp.com/security/advisories
 - https://www.whatsapp.com/sitemap
 - https://www.whatsapp.com/status
+https://arxiv.org/abs/2402.08567
+https://arxiv.org/abs/2406.04031
+https://arxiv.org/abs/2411.18000
+https://arxiv.org/abs/2409.06726
+https://arxiv.org/abs/2411.11496
+https://arxiv.org/abs/2411.16721
+https://arxiv.org/abs/2412.17544
+https://arxiv.org/abs/2405.12523
+https://arxiv.org/abs/2405.04403
+https://arxiv.org/abs/2406.07057
+https://arxiv.org/abs/2502.06390
 - https://www.whatsapp.com/stayconnected
 - https://www.wired.com
 - https://www.wired.com/feed/rss
