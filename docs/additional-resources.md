@@ -272,3 +272,4 @@ These references track emerging threats and defence research through 2026 and ar
 - [Neuron-Level Manipulation Resources 2034](neuron-resources-2034.md)
 - [Neuron-Level Manipulation Resources 2035](neuron-resources-2035.md)
 - [Neuron-Level Manipulation Resources 2036](neuron-resources-2036.md)
+- [Neuron-Level Manipulation Resources 2037](neuron-resources-2037.md)
