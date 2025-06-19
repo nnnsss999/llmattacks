@@ -165,6 +165,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `token-prediction-resources.md` — references on token prediction and side channels
 - `additional-token-level-resources.md` — broader tokenization attack bibliography
 - `token-level-resources-2027.md` — newer token-level manipulation papers
+- `token-level-resources-2028.md` — latest open source tools on hidden tokens
 
 ### training-alignment/
 - `index.md` — overview of training-phase attacks
