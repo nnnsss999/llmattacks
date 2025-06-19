@@ -96,10 +96,17 @@ def process_url(url: str) -> str:
     resp = requests.get(url, timeout=20)
     resp.raise_for_status()
     ctype = resp.headers.get("content-type", "").lower()
+
+    if ctype.startswith("image/"):
+        raise ValueError(f"Unsupported content-type: {ctype}")
+
     if "pdf" in ctype or url.lower().endswith(".pdf"):
         content = pdf_to_markdown(resp.content)
-    else:
+    elif "html" in ctype or ctype.startswith("text/") or ctype == "":
         content = html_to_markdown(resp.text)
+    else:
+        raise ValueError(f"Unsupported content-type: {ctype}")
+
     return save_markdown(content, url)
 
 

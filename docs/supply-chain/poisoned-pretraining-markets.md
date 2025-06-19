@@ -20,5 +20,10 @@ Adversaries increasingly target public and commercial dataset exchanges. By offe
 - [OWASP Top 10 for LLM Applications 2025: Data and Model Poisoning](https://www.checkpoint.com/cyber-hub/what-is-llm-security/data-and-model-poisoning/) covers common supply chain pitfalls.
 - [Why Google’s Researchers are Intentionally Poisoning Datasets](https://lightning.ai/pages/community/why-googles-researchers-are-intentionally-poisoning-datasets-and-more/) explains deliberate poisoning for evaluation.
 - [NDSS 2023 Poster: Foundation Model Poisoning](https://www.ndss-symposium.org/wp-content/uploads/2023/02/NDSS2023Poster_paper_4383.pdf) presents early insights into pre-training attacks.
+- [Winter Soldier: Backdooring Language Models at Pre-Training with Indirect Data Poisoning](https://arxiv.org/abs/2506.14913) details stealthy dataset attacks that survive downstream fine-tuning.
+- [PoisonGPT: How to Modify an Open-Source Model to Spread Misinformation](https://blog.mithrilsecurity.io/poisongpt/) demonstrates a poisoned GPT-J hosted on Hugging Face.
+- [Detect-CLIP-Backdoor-Samples](https://github.com/HanxunH/Detect-CLIP-Backdoor-Samples) shares tooling for finding backdoor images in pre-training corpora.
+- [NIST AI Supply Chain Guidance](nist-ai-supply-chain-guidance.pdf) outlines controls for verifying dataset provenance.
+- [LLM10:2023 - Training Data Poisoning](https://owasp.org/www-project-top-10-for-large-language-model-applications/Archive/0_1_vulns/Training_Data_Poisoning.html) covers common poisoning tactics and mitigations.
 
 Use these references to strengthen vetting processes for any third-party corpus or weights incorporated into your models.

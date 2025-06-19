@@ -147,6 +147,7 @@
   },
   "https://www.securityweek.com/llm-supply-chain-security-risks-research/": {
     "snapshot": "https://web.archive.org/web/20250618/securityweek-supplychain"
+  },
   "https://arxiv.org/abs/2506.15606": {
     "snapshot": "https://web.archive.org/web/20250618/arxiv2506.15606"
   },
@@ -204,4 +205,16 @@
   "https://thehackernews.com/2025/01/new-ai-jailbreak-method-bad-likert.html": {
     "snapshot": "https://web.archive.org/web/20250618/thn-bad-likert"
   }
+  ,
+  "https://arxiv.org/abs/2402.08567": {"snapshot": "https://web.archive.org/web/20250618/arxiv240208567"},
+  "https://arxiv.org/abs/2406.04031": {"snapshot": "https://web.archive.org/web/20250618/arxiv240604031"},
+  "https://arxiv.org/abs/2411.18000": {"snapshot": "https://web.archive.org/web/20250618/arxiv241118000"},
+  "https://arxiv.org/abs/2409.06726": {"snapshot": "https://web.archive.org/web/20250618/arxiv240906726"},
+  "https://arxiv.org/abs/2411.11496": {"snapshot": "https://web.archive.org/web/20250618/arxiv241111496"},
+  "https://arxiv.org/abs/2411.16721": {"snapshot": "https://web.archive.org/web/20250618/arxiv241116721"},
+  "https://arxiv.org/abs/2412.17544": {"snapshot": "https://web.archive.org/web/20250618/arxiv241217544"},
+  "https://arxiv.org/abs/2405.12523": {"snapshot": "https://web.archive.org/web/20250618/arxiv240512523"},
+  "https://arxiv.org/abs/2405.04403": {"snapshot": "https://web.archive.org/web/20250618/arxiv240504403"},
+  "https://arxiv.org/abs/2406.07057": {"snapshot": "https://web.archive.org/web/20250618/arxiv240607057"},
+  "https://arxiv.org/abs/2502.06390": {"snapshot": "https://web.archive.org/web/20250618/arxiv250206390"}
 }
