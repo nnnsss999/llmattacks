@@ -140,4 +140,5 @@ These references track emerging threats and defence research through 2026 and ar
 - [Membership Inference Attacks on Large-Scale Models: A Survey](https://arxiv.org/abs/2503.19338)
 - [LAGO: Few-shot Crosslingual Embedding Inversion Attacks via Language Similarity-Aware Graph Optimization](https://arxiv.org/abs/2505.16008)
 - [Prompt Injection Resources 2026](prompt-dialogue/prompt-injection-resources-2026.md)
+- [Prompt Engineering Attack Resources 2026](prompt-dialogue/prompt-engineering-resources-2026.md)
 - [Fuzzing Resources 2026](fuzzing/fuzzing-resources-2026.md)
