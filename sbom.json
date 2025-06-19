@@ -11,8 +11,30 @@
   "components": [
     {
       "type": "file",
-      "name": "Comprehensive Catalog of LLM Jailbreaking and Attack Techniques.md",
-      "bom-ref": "Comprehensive Catalog of LLM Jailbreaking and Attack Techniques.md"
+      "name": "additional-resources.md",
+      "bom-ref": "additional-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Resources on LLM Attacks"
+        },
+        {
+          "name": "category",
+          "value": "Overview"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
     },
     {
       "type": "file",
@@ -70,6 +92,33 @@
     },
     {
       "type": "file",
+      "name": "agentic/necromancer-attack.md",
+      "bom-ref": "agentic/necromancer-attack.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Necromancer Self-Replication Attack"
+        },
+        {
+          "name": "category",
+          "value": "Agentic"
+        },
+        {
+          "name": "source_url",
+          "value": "https://www.techradar.com/pro/security/microsoft-copilot-targeted-in-first-zero-click-attack-on-an-ai-agent-what-you-need-to-know"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "attack-defense-matrix.md",
       "bom-ref": "attack-defense-matrix.md",
       "properties": [
@@ -94,6 +143,11 @@
           "value": "CC BY 4.0"
         }
       ]
+    },
+    {
+      "type": "file",
+      "name": "comprehensive-catalog-of-llm-jailbreaking-and-attack-techniques.md",
+      "bom-ref": "comprehensive-catalog-of-llm-jailbreaking-and-attack-techniques.md"
     },
     {
       "type": "file",
@@ -309,6 +363,33 @@
     },
     {
       "type": "file",
+      "name": "inference/malware-generation-llm.md",
+      "bom-ref": "inference/malware-generation-llm.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Malware Generation Using Jailbroken LLMs"
+        },
+        {
+          "name": "category",
+          "value": "Inference"
+        },
+        {
+          "name": "source_url",
+          "value": "https://thehackernews.com/2023/07/wormgpt-hackers-gpt.html"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "inference/membership-inference.md",
       "bom-ref": "inference/membership-inference.md",
       "properties": [
@@ -387,6 +468,11 @@
           "value": "Fair Use"
         }
       ]
+    },
+    {
+      "type": "file",
+      "name": "llm-attack-catalog.md",
+      "bom-ref": "llm-attack-catalog.md"
     },
     {
       "type": "file",
@@ -490,6 +576,33 @@
         {
           "name": "source_url",
           "value": "https://www.techradar.com/pro/security/this-cyberattack-lets-hackers-crack-ai-models-just-by-changing-a-single-character"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "prompt-dialogue/unicode-homograph-jailbreak.md",
+      "bom-ref": "prompt-dialogue/unicode-homograph-jailbreak.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Unicode Homograph Jailbreak"
+        },
+        {
+          "name": "category",
+          "value": "Prompt Dialogue"
+        },
+        {
+          "name": "source_url",
+          "value": "https://www.veracode.com/blog/down-the-rabbit-hole-of-unicode-obfuscation/"
         },
         {
           "name": "date_collected",
