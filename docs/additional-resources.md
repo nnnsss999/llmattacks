@@ -202,6 +202,7 @@ These references track emerging threats and defence research through 2026 and ar
 - [Fuzzing Resources 2027](fuzzing/fuzzing-resources-2027.md)
 - [Fuzzing Resources 2028](fuzzing/fuzzing-resources-2028.md)
 - [Linguistic Manipulation Resources 2027](linguistic-manipulation/linguistic-manipulation-resources-2027.md)
+- [Neuron-Level Manipulation Resources 2028](neuron-resources-2028.md)
 - [Fuzzing Resources 2029](fuzzing/fuzzing-resources-2029.md)
 - [Fuzzing Resources 2030](fuzzing/fuzzing-resources-2030.md)
 - [Authority Simulation Attack Resources 2026](social-engineering/authority-simulation-resources-2026.md)
