@@ -77,6 +77,8 @@ docs/zero-day-resources-2026.md
 docs/zero-day-resources-2027.md
 docs/training-alignment/reinforcement-learning-attack-discovery.md
 docs/optimization/gradient-resources-2026.md
+docs/optimization/gradient-resources-2027.md
+docs/optimization/gradient-resources-2028.md
 docs/social-engineering/emotional-manipulation-resources.md
 docs/api-level/api-level-attack-resources.md
 docs/token-level/token-prediction-resources.md

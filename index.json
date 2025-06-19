@@ -609,6 +609,20 @@
       "date_collected": "2025-06-18"
     },
     {
+      "title": "Gradient Attack Resources 2027",
+      "path": "optimization/gradient-resources-2027.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Gradient Attack Resources 2028",
+      "path": "optimization/gradient-resources-2028.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
+    },
+    {
       "title": "PIG: Privacy Jailbreak via Gradient-based In-Context Optimization",
       "path": "optimization/pig-jailbreak.md",
       "category": "Optimization",

@@ -1394,6 +1394,60 @@
     },
     {
       "type": "file",
+      "name": "optimization/gradient-resources-2027.md",
+      "bom-ref": "optimization/gradient-resources-2027.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Gradient Attack Resources 2027"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/gradient-resources-2028.md",
+      "bom-ref": "optimization/gradient-resources-2028.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Gradient Attack Resources 2028"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "optimization/open-sesame-ga.md",
       "bom-ref": "optimization/open-sesame-ga.md",
       "properties": [
