@@ -153,6 +153,7 @@
     "existing": "extractions1/353d96e4f6.md"
   },
   "http://cassisproject.com": {
+    "existing": "@extractions1/85d11d705c.md"
     "saved_as": "85d11d705c.md"
   },
   "http://claude.ai/login": {
@@ -234,11 +235,17 @@
     "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/1998-09-01/%5D(/specifications/dublin-core/dces/1998-09-01/"
     "existing": "@extractions1/e458f00b8f.md"
   },
+  "http://dublincore.org/resources/translations/](/resources/translations/#dces1-1": {
+    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/resources/translations/%5D(/resources/translations/#dces1-1"
+  },
   "http://dublincore.org/specifications/dublin-core/dces/": {
     "existing": "@extractions1/f8d6276f37.md"
   },
   "http://dublincore.org/specifications/dublin-core/dces/1998-09-01/": {
     "existing": "@extractions1/b2c8d16138.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/dces/1998-09-01/](/specifications/dublin-core/dces/1998-09-01/": {
+    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/1998-09-01/%5D(/specifications/dublin-core/dces/1998-09-01/"
   },
   "http://dublincore.org/specifications/dublin-core/dces/1999-07-02/": {
     "existing": "extractions1/b42d8d9a7d.md"
@@ -253,16 +260,34 @@
     "saved_as": "aced4e5037.md"
     "existing": "@extractions1/aced4e5037.md"
   },
+  "http://dublincore.org/specifications/dublin-core/dces/2003-02-04/](/specifications/dublin-core/dces/2003-02-04/": {
+    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/2003-02-04/%5D(/specifications/dublin-core/dces/2003-02-04/"
+  },
+  "http://dublincore.org/specifications/dublin-core/dces/](/specifications/dublin-core/dces/": {
+    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/%5D(/specifications/dublin-core/dces/"
+  },
   "http://dublincore.org/specifications/dublin-core/dcmi-namespace/": {
     "existing": "@extractions1/95b23b2495.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/dcmi-namespace/](/specifications/dublin-core/dcmi-namespace/": {
+    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dcmi-namespace/%5D(/specifications/dublin-core/dcmi-namespace/"
   },
   "http://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/": {
     "existing": "extractions1/d19bb1a7d7.md"
   },
   "http://dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/": {
-    "saved_as": "978e37cc2e.md"
+    "existing": "@extractions1/978e37cc2e.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/](/specifications/dublin-core/dcmi-type-vocabulary/": {
+    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/%5D(/specifications/dublin-core/dcmi-type-vocabulary/"
+  },
+  "http://dublincore.org](/": {
+    "error": "Failed to parse: http://dublincore.org](/"
   },
   "http://filters.To": {
+    "error": "503 Server Error: Service Unavailable for url: http://filters.to/"
+  },
+  "http://filters.to/": {
     "error": "503 Server Error: Service Unavailable for url: http://filters.to/"
   },
   "http://github.com/llm-attacks/llm-attacks": {
@@ -275,9 +300,72 @@
     "existing": "extractions1/a19f5ec71f.md"
   },
   "http://lcweb.loc.gov/catdir/cpso/lcco/lcco.html": {
-    "saved_as": "9069ca3281.md"
+    "existing": "@extractions1/9069ca3281.md"
   },
   "http://lcweb.loc.gov/standards/iso639-2/langhome.html": {
-    "saved_as": "1581829fc6.md"
+    "existing": "@extractions1/1581829fc6.md"
+  },
+  "http://library.isical.ac.in:8080/jspui/handle/10263/6765.AleksandarMakelov": {
+    "error": "503 Server Error: Service Unavailable for url: http://library.isical.ac.in:8080/jspui/handle/10263/6765.AleksandarMakelov"
+  },
+  "http://llm-attacks.org/": {
+    "existing": "extractions1/6ea37d80f9.md"
+  },
+  "http://madskills.com/public/xml/rss/module/trackback": {
+    "error": "503 Server Error: Service Unavailable for url: http://madskills.com/public/xml/rss/module/trackback"
+  },
+  "http://madskills.com/public/xml/rss/module/trackback/": {
+    "error": "503 Server Error: Service Unavailable for url: http://madskills.com/public/xml/rss/module/trackback/"
+  },
+  "http://meyerweb.com/": {
+    "existing": "extractions1/f401a61178.md"
+  },
+  "http://microformats.org/": {
+    "existing": "@extractions1/7f4528c4b5.md"
+  },
+  "http://microformats.org/about/people": {
+    "existing": "@extractions1/2a141f0bf1.md"
+  },
+  "http://microformats.org/wiki": {
+    "existing": "@extractions1/6db31a3845.md"
+  },
+  "http://microformats.org/wiki/h-card": {
+    "existing": "@extractions1/85de7cc253.md"
+  },
+  "http://microformats.org/wiki/h-cite": {
+    "existing": "@extractions1/719b4074c3.md"
+  },
+  "http://microformats.org/wiki/h-entry": {
+    "existing": "@extractions1/01bf55cdf8.md"
+  },
+  "http://microformats.org/wiki/h-event": {
+    "existing": "@extractions1/075a2e127b.md"
+  },
+  "http://microformats.org/wiki/microformats2": {
+    "saved_as": "112efeb474.md"
+  },
+  "http://opengraphprotocol.org/schema": {
+    "error": "404 Client Error: Not Found for url: https://ogp.me/schema/"
+  },
+  "http://opengraphprotocol.org/schema/": {
+    "error": "404 Client Error: Not Found for url: https://ogp.me/schema/"
+  },
+  "http://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html": {
+    "existing": "extractions1/6ae68c32c7.md"
+  },
+  "http://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html[30]S.Yao": {
+    "error": "404 Client Error: Not Found for url: https://proceedings.neurips.cc//paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html%5b30%5dS.Yao"
+  },
+  "http://photomatt.net/": {
+    "existing": "extractions1/9265bed4df.md"
+  },
+  "http://purl.org/dc/dcam/": {
+    "existing": "extractions1/64970bc2d4.md"
+  },
+  "http://purl.org/dc/dcam/VocabularyEncodingScheme": {
+    "saved_as": "ea70b46f30.md"
+  },
+  "http://purl.org/dc/dcam/`**": {
+    "existing": "extractions1/b274658c19.md"
   }
 }
