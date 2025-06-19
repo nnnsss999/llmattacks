@@ -90,3 +90,7 @@ The references below document newly disclosed or proof-of-concept zero-day vulne
 - [Google Researchers Claim First Vulnerability Found Using AI](https://www.infosecurity-magazine.com/news/google-first-vulnerability-found/)
 - [Announcing OpenAI's Bug Bounty Program](https://openai.com/index/bug-bounty-program/)
 - [Hello 0-Days, My Old Friend: A 2024 Zero-Day Exploitation Analysis](https://cloud.google.com/blog/topics/threat-intelligence/2024-zero-day-trends)
+- [EchoLeak Exploit Enables Silent Data Theft from Microsoft 365 Copilot](https://cyberinsider.com/echoleak-exploit-enables-silent-data-theft-from-microsoft-365-copilot/)
+- [AI Catches Zero-Day Vulnerabilities in Real-World Code for the First Time](https://www.eenewseurope.com/en/ai-catches-zero-day-vulnerabilities-in-real-world-code-for-the-first-time/)
+- [Google's AI Tool "Big Sleep" Finds Zero-Day Vulnerability in SQLite](https://thehackernews.com/2024/11/googles-ai-tool-big-sleep-finds-zero.html)
+- [Google Warns of Surge in Generative AI Attacks, Zero-Day Exploit Use in 2024](https://www.cshub.com/attacks/news/google-warns-of-surge-in-generative-ai-enhanced-attacks-zero-day-exploit-use-in-2024)
