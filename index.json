@@ -219,6 +219,13 @@
       "date_collected": "2025-06-18"
     },
     {
+      "title": "Latent Space Attack Resources 2027",
+      "path": "latent-space/latent-space-resources-2027.md",
+      "category": "Latent Space",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
       "title": "Embedding Inversion Attacks",
       "path": "embedding/index.md",
       "category": "Latent Space",
