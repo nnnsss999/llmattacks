@@ -2177,6 +2177,33 @@
     },
     {
       "type": "file",
+      "name": "neuron-resources-2036.md",
+      "bom-ref": "neuron-resources-2036.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Neuron-Level Manipulation Resources 2036"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-21"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "neuron-resources.md",
       "bom-ref": "neuron-resources.md",
       "properties": [
