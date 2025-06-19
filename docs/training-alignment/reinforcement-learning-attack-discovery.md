@@ -34,6 +34,43 @@ Key references include:
 - **LLM-based Dynamic Differential Testing** – RL-guided prompt selection
   to detect flaws in database connectors.
   [LLM-based Dynamic Differential Testing for Database Connectors with Reinforcement Learning-Guided Prompt Selection](https://arxiv.org/abs/2506.11870).
+- **Adversarial Agents** – RL-driven black-box evasion attacks that learn
+  how to generate adversarial examples.
+  [Adversarial Agents: Black-Box Evasion Attacks with Reinforcement Learning](https://arxiv.org/abs/2503.01734).
+- **Leveraging Deep RL for Cyber-Attack Paths** – charts likely attack
+  sequences in enterprise systems.
+  [Leveraging Deep Reinforcement Learning for Cyber-Attack Paths](https://dl.acm.org/doi/10.1145/3678890.3678902).
+- **GRAIN** – combines graph neural networks with RL to reconstruct
+  multi-step attack scenarios.
+  [GRAIN: Graph Neural Network and Reinforcement Learning Aided Causality Discovery for Attack Reconstruction](https://www.sciencedirect.com/science/article/pii/S0167404824004851).
+- **Dual-RL Attack Path Prediction** – predicts 5G ICPS attack paths using
+  a dual-network RL model.
+  [Dual-Reinforcement-Learning-Based Attack Path Prediction for 5G Industrial Cyber-Physical Systems](https://ieeexplore.ieee.org/document/10149069).
+- **SAC-based Penetration Testing** – uses the Soft Actor-Critic algorithm
+  to autonomously explore infiltration routes.
+  [A Path Discovery Method of Penetration Testing Based on SAC](https://ceur-ws.org/Vol-3916/paper_06.pdf).
+
+- **RLTA (Reinforcement Learning Targeted Attack)** – trains an RL agent to craft
+  jailbreak prompts optimized for a target policy.
+  [Reinforcement Learning-Driven LLM Agent for Automated Attacks on LLMs](https://aclanthology.org/2024.privatenlp-1.17).
+- **Learning Diverse Attacks** – RL-based red teaming that discovers novel exploit
+  sequences.
+  [Learning Diverse Attacks on Large Language Models for Robust Red-Teaming and Safety Tuning](https://openreview.net/forum?id=1mXufFuv95).
+- **BertRLFuzzer** – a BERT and reinforcement learning fuzzer that mutates prompts
+  to trigger vulnerabilities.
+  [BertRLFuzzer: A BERT and Reinforcement Learning Based Fuzzer](https://openreview.net/forum?id=2nB9XgrtrV).
+- **Autonomous Resilient Cyber Defence** – RL agents probe networks to find weaknesses.
+  [Reinforcement Learning for Autonomous Resilient Cyber Defence](https://www.fnc.co.uk/media/mwcnckij/us-24-milesfarmer-reinforcementlearningforautonomousresilientcyberdefence-wp.pdf).
+- **Zero-Day Identification with RL** – uses reinforcement learning to surface new vulnerabilities.
+  [Cyber security Enhancements with reinforcement learning: A zero-day vulnerability identification perspective](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0324595).
+- **RL-Driven Attack Simulation** – deep RL generates realistic intrusion sequences for defence evaluation.
+  [Employing Deep Reinforcement Learning to Cyber-Attack Simulation for Enhancing Cybersecurity](https://www.mdpi.com/2079-9292/13/3/555).
+- **Automated Attack Path Prediction** – deep RL predicts multi-stage attack sequences.
+  [Deep Reinforcement Learning for Automated Cyber-Attack Path Prediction in Communication Networks](https://hal.science/hal-04462876v1/document).
+- **Exfiltration Path Discovery** – RL paired with attack graphs to chart possible data exfiltration routes.
+  [Discovering Exfiltration Paths Using Reinforcement Learning with Attack Graphs](https://arxiv.org/abs/2201.12416).
+- **Awesome RL for Cybersecurity** – curated list of RL tools and papers for offensive security.
+  [GitHub Repository](https://github.com/Limmen/awesome-rl-for-cybersecurity).
 
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine

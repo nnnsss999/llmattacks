@@ -54,3 +54,5 @@ The following sources examine how adversaries exploit an LLM's context window. T
 - [Context Window: The Essential Guide (Nightfall AI)](https://www.nightfall.ai/ai-security-101/context-window)
 - [Prompt Injection: What It Is and How to Prevent It (Coralogix)](https://coralogix.com/ai-blog/prompt-injection-attacks-in-llms-what-are-they-and-how-to-prevent-them/)
 - [Indirect Prompt Injection: Generative AI’s Greatest Security Flaw (Alan Turing Institute)](https://cetas.turing.ac.uk/publications/indirect-prompt-injection-generative-ais-greatest-security-flaw)
+- [Guide to Context in LLMs (Symbl.ai)](https://symbl.ai/developers/blog/guide-to-context-in-llms/)
+- [Artifacts and Long Context Windows (Weights & Biases)](https://wandb.ai/wandb_ai/artifacts-and-long-context-windows)
