@@ -108,3 +108,4 @@ docs/prompt-dialogue/prompt-engineering-resources-2029.md
 docs/prompt-dialogue/prompt-engineering-resources-2030.md
 docs/token-level/token-level-resources-2029.md
 docs/multimodal/visual-jailbreaking-resources-2031.md
+docs/prompt-dialogue/prompt-engineering-resources-2033.md
