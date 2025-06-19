@@ -432,3 +432,27 @@ Configuration file for building the documentation site.
 
 ### fixes-1.md
 Example issue log demonstrating planned fixes.
+
+### .gitignore
+File listing patterns to exclude from version control.
+
+### .pre-commit-config.yaml
+Configuration for automated linting hooks executed before each commit.
+
+### GitHub Actions workflows
+YAML files under `.github/workflows/` that run continuous integration, link checking and documentation deployment.
+
+### navigation-map.md
+Document describing every file in the repository and its location.
+
+### urls.md
+List of external links referenced across the catalog for analysis.
+
+### pdfs/README.md
+Explains the hashing scheme and storage location for cached PDFs.
+
+### test_link_check.py
+Unit test ensuring the link checker script functions correctly.
+
+### test_sbom.py
+Unit test verifying generation of the CycloneDX SBOM.
