@@ -1,7 +1,7 @@
 {
   "Overview": [
     {
-      "title": "Attack\u2013Defence Matrix",
+      "title": "Attack–Defence Matrix",
       "path": "attack-defense-matrix.md",
       "category": "Overview",
       "sub_category": "",
@@ -131,6 +131,13 @@
       "path": "data-poisoning/adversarial-preference-learning.md",
       "category": "Training Alignment",
       "sub_category": "Data Poisoning",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Reinforcement Learning for Attack Discovery",
+      "path": "training-alignment/reinforcement-learning-attack-discovery.md",
+      "category": "Training Alignment",
+      "sub_category": "",
       "date_collected": "2025-06-18"
     }
   ],

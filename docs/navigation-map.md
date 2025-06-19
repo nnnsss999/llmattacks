@@ -138,6 +138,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `mechanism-centric-poisoning.md` — mechanism-centric poisoning methods
 - `pico.md` — description of PICO data poisoning
 - `reinforcement-learning-alignment-attacks.md` — RL alignment attack taxonomy
+- `reinforcement-learning-attack-discovery.md` — RL-driven frameworks that search for new jailbreaks
 - `reverse-preference-attack.html` — deep dive on reverse preference attacks
 - `gradient-hacking.md` — discussion of gradient manipulation threats
 
