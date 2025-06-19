@@ -127,6 +127,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `gradient-resources-2029.md` — recent gradient-based jailbreak updates
 - `gradient-resources-2030.md` — newest gradient-based jailbreak materials
 - `gradient-resources-2031.md` — latest gradient-based attack and defense papers
+- `gradient-resources-2032.md` — additional gradient-based jailbreak research
 - `evolutionary-algorithm-attacks.md` — overview of GA-based jailbreak techniques
 - `evolutionary-resources-2028.md` — additional GA-based jailbreak research
 - `evolutionary-resources-2029.md` — expanded GA-based references
