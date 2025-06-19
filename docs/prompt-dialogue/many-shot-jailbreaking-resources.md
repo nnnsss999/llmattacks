@@ -44,3 +44,12 @@ The following articles and research papers document the
 - [Many-Shot In-Context Learning (arXiv:2404.11018)](https://arxiv.org/abs/2404.11018)
 - [Guardians of the Agentic System: Preventing Many Shots Jailbreak with Agentic System (arXiv:2502.16750)](https://arxiv.org/abs/2502.16750)
 - [Jailbreaking Leading Safety-Aligned LLMs with Simple Adaptive Attacks (arXiv:2404.02151)](https://arxiv.org/abs/2404.02151)
+- [Anthropic: Large Context LLMs Vulnerable to Many-Shot Jailbreak (DailyAI)](https://dailyai.com/2024/04/anthropic-large-context-llms-vulnerable-to-many-shot-jailbreak/)
+- [Anthropic Exposes Many-Shot Jailbreaking Vulnerability in LLMs (Analytics Vidhya)](https://www.analyticsvidhya.com/blog/2024/04/anthropic-exposes-many-shot-jailbreaking-vulnerability-in-llms/)
+- [Anthropic Research Questions Many-shot Jailbreaking (Ascentspark Blog)](https://www.ascentspark.com/blog/article/anthropic-research-questions-many-shot-jailbreaking)
+- [Anthropic Claims New AI Security Method Blocks 95% of Jailbreaks (Capalearning)](https://capalearning.com/2025/02/04/anthropic-claims-new-ai-security-method-blocks-95-of-jailbreaks-invites-red-teamers-to-try/)
+- [Anthropic Expands Their Model Safety Bug Bounty Program (HackerOne Blog)](https://www.hackerone.com/blog/anthropic-expands-their-model-safety-bug-bounty-program)
+- [Many-shot Jailbreaking - LinkedIn Blog Post](https://www.linkedin.com/pulse/anthropic-exposes-many-shot-jailbreaking-potential-all-bill-wong-mx4mc/)
+- [Anthropic investigated a jailbreaking technique (The AI Notebook)](https://theainotebook.substack.com/p/anthropic-investigated-a-jailbreaking)
+- [Many-shot Jailbreaking | Proceedings of the 38th International Conference on Machine Learning](https://dl.acm.org/doi/10.5555/3737916.3742037)
+
