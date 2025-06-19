@@ -2,12 +2,6 @@
   "http://Skylion007.github.io/OpenWebTextCorpus": {
     "existing": "extractions1/e36fd18630.md"
   },
-  "http://Skylion007.github.io/OpenWebTextCorpus,2019.[24]Sha\ufb01Goldwasser,SilvioMicali,andCharlesRackoff.Theknowledgecomplexityofinteractiveproofsystems.SICOMP,1989.[25]Google.Tensor\ufb02owPrivacy.https://github.com/tensorflow/privacy.[26]AlexGraves.Generatingsequenceswithrecurrentneu-ralnetworks.arXivpreprintarXiv:1308.0850,2013.[27]PeterHenderson,KoustuvSinha,NicolasAngelard-Gontier,NanRosemaryKe,GenevieveFried,RyanLowe,andJoellePineau.Ethicalchallengesindata-drivendialoguesystems.InProceedingsofthe2018AAAI/ACMConferenceonAI,Ethics,andSociety,pages123\u2013129,2018.[28]SoramiHisamoto,MattPost,andKevinDuh.Member-shipinferenceattacksonsequence-to-sequencemodels:Ismydatainyourmachinetranslationsystem?InTACL,2020.[29]AndrewHoang,AntoineBosselut,AsliCelikyilmaz,andYejinChoi.Ef\ufb01cientadaptationofpretrainedtrans-formersforabstractivesummarization.arXivpreprintarXiv:1906.00138,2019.[30]AriHoltzman,JanBuys,MaxwellForbes,andYejinChoi.Thecuriouscaseofneuraltextdegeneration.InICLR,2020.[31]JeremyHowardandSebastianRuder.Universallan-guagemodel\ufb01ne-tuningfortextclassi\ufb01cation.InACL,2018.[32]DaphneIppolito,DanielDuckworth,ChrisCallison-Burch,andDouglasEck.Automaticdetectionofgener-atedtextiseasiestwhenhumansarefooled.InACL.[33]MatthewJagielski,JonathanUllman,andAlinaOprea.Auditingdifferentiallyprivatemachinelearning:HowprivateisprivateSGD?InNeurIPS,2020.[34]BargavJayaramanandDavidEvans.Evaluatingdiffer-entiallyprivatemachinelearninginpractice.InUSENIXSecuritySymposium,2019.[35]JaredKaplan,SamMcCandlish,TomHenighan,TomBBrown,BenjaminChess,RewonChild,ScottGray,AlecRadford,JeffreyWu,andDarioAmodei.Scal-inglawsforneurallanguagemodels.arXivpreprintarXiv:2001.08361,2020.[36]MikeLewis,YinhanLiu,NamanGoyal,MarjanGhazvininejad,AbdelrahmanMohamed,OmerLevy,VesStoyanov,andLukeZettlemoyer.Bart:Denois-ingsequence-to-sequencepre-trainingfornaturallan-guagegeneration,translation,andcomprehension.arXivpreprintarXiv:1910.13461,2019.[37]JiweiLi,MichelGalley,ChrisBrockett,JianfengGao,andBillDolan.Adiversity-promotingobjectivefunc-tionforneuralconversationmodels.InNAACL,2016.[38]ZhuohanLi,EricWallace,ShengShen,KevinLin,KurtKeutzer,DanKlein,andJosephEGonzalez.Trainlarge,thencompress:Rethinkingmodelsizeforef\ufb01cienttrain-ingandinferenceoftransformers.InICML,2020.[39]YinhanLiu,MyleOtt,NamanGoyal,JingfeiDu,Man-darJoshi,DanqiChen,OmerLevy,MikeLewis,LukeZettlemoyer,andVeselinStoyanov.RoBERTa:Aro-bustlyoptimizedBERTpretrainingapproach.arXivpreprintarXiv:1907.11692,2019.[40]YunhuiLong,VincentBindschaedler,LeiWang,DiyueBu,XiaofengWang,HaixuTang,CarlAGunter,andKaiChen.Understandingmembershipinferencesonwell-generalizedlearningmodels.arXivpreprintarXiv:1802.04889,2018.[41]JeanloupGaillyandMarkAdler.zlibcompressionlibrary.[42]MichaelMcCloskeyandNealJCohen.Catastrophicinterferenceinconnectionistnetworks:Thesequentiallearningproblem.InPsychologyoflearningandmoti-vation.1989.[43]HBrendanMcMahan,DanielRamage,KunalTalwar,andLiZhang.Learningdifferentiallyprivaterecurrentlanguagemodels.InICLR,2018.[44]TomasMikolov,MartinKara\ufb01\u00e1t,LukasBurget,JanCer-nock`y,andSanjeevKhudanpur.Recurrentneuralnet-workbasedlanguagemodel.InInterspeech,2010.[45]RandallMunroe.Predictivemodels.https://xkcd.com/2169/,2019.15": {
-    "error": "404 Client Error: Not Found for url: https://skylion007.github.io/OpenWebTextCorpus,2019.%5B24%5DSha%EF%AC%81Goldwasser,SilvioMicali,andCharlesRackoff.Theknowledgecomplexityofinteractiveproofsystems.SICOMP,1989.%5B25%5DGoogle.Tensor%EF%AC%82owPrivacy.https://github.com/tensorflow/privacy.%5B26%5DAlexGraves.Generatingsequenceswithrecurrentneu-ralnetworks.arXivpreprintarXiv:1308.0850,2013.%5B27%5DPeterHenderson,KoustuvSinha,NicolasAngelard-Gontier,NanRosemaryKe,GenevieveFried,RyanLowe,andJoellePineau.Ethicalchallengesindata-drivendialoguesystems.InProceedingsofthe2018AAAI/ACMConferenceonAI,Ethics,andSociety,pages123%E2%80%93129,2018.%5B28%5DSoramiHisamoto,MattPost,andKevinDuh.Member-shipinferenceattacksonsequence-to-sequencemodels:Ismydatainyourmachinetranslationsystem?InTACL,2020.%5B29%5DAndrewHoang,AntoineBosselut,AsliCelikyilmaz,andYejinChoi.Ef%EF%AC%81cientadaptationofpretrainedtrans-formersforabstractivesummarization.arXivpreprintarXiv:1906.00138,2019.%5B30%5DAriHoltzman,JanBuys,MaxwellForbes,andYejinChoi.Thecuriouscaseofneuraltextdegeneration.InICLR,2020.%5B31%5DJeremyHowardandSebastianRuder.Universallan-guagemodel%EF%AC%81ne-tuningfortextclassi%EF%AC%81cation.InACL,2018.%5B32%5DDaphneIppolito,DanielDuckworth,ChrisCallison-Burch,andDouglasEck.Automaticdetectionofgener-atedtextiseasiestwhenhumansarefooled.InACL.%5B33%5DMatthewJagielski,JonathanUllman,andAlinaOprea.Auditingdifferentiallyprivatemachinelearning:HowprivateisprivateSGD?InNeurIPS,2020.%5B34%5DBargavJayaramanandDavidEvans.Evaluatingdiffer-entiallyprivatemachinelearninginpractice.InUSENIXSecuritySymposium,2019.%5B35%5DJaredKaplan,SamMcCandlish,TomHenighan,TomBBrown,BenjaminChess,RewonChild,ScottGray,AlecRadford,JeffreyWu,andDarioAmodei.Scal-inglawsforneurallanguagemodels.arXivpreprintarXiv:2001.08361,2020.%5B36%5DMikeLewis,YinhanLiu,NamanGoyal,MarjanGhazvininejad,AbdelrahmanMohamed,OmerLevy,VesStoyanov,andLukeZettlemoyer.Bart:Denois-ingsequence-to-sequencepre-trainingfornaturallan-guagegeneration,translation,andcomprehension.arXivpreprintarXiv:1910.13461,2019.%5B37%5DJiweiLi,MichelGalley,ChrisBrockett,JianfengGao,andBillDolan.Adiversity-promotingobjectivefunc-tionforneuralconversationmodels.InNAACL,2016.%5B38%5DZhuohanLi,EricWallace,ShengShen,KevinLin,KurtKeutzer,DanKlein,andJosephEGonzalez.Trainlarge,thencompress:Rethinkingmodelsizeforef%EF%AC%81cienttrain-ingandinferenceoftransformers.InICML,2020.%5B39%5DYinhanLiu,MyleOtt,NamanGoyal,JingfeiDu,Man-darJoshi,DanqiChen,OmerLevy,MikeLewis,LukeZettlemoyer,andVeselinStoyanov.RoBERTa:Aro-bustlyoptimizedBERTpretrainingapproach.arXivpreprintarXiv:1907.11692,2019.%5B40%5DYunhuiLong,VincentBindschaedler,LeiWang,DiyueBu,XiaofengWang,HaixuTang,CarlAGunter,andKaiChen.Understandingmembershipinferencesonwell-generalizedlearningmodels.arXivpreprintarXiv:1802.04889,2018.%5B41%5DJeanloupGaillyandMarkAdler.zlibcompressionlibrary.%5B42%5DMichaelMcCloskeyandNealJCohen.Catastrophicinterferenceinconnectionistnetworks:Thesequentiallearningproblem.InPsychologyoflearningandmoti-vation.1989.%5B43%5DHBrendanMcMahan,DanielRamage,KunalTalwar,andLiZhang.Learningdifferentiallyprivaterecurrentlanguagemodels.InICLR,2018.%5B44%5DTomasMikolov,MartinKara%EF%AC%81%C3%A1t,LukasBurget,JanCer-nock%60y,andSanjeevKhudanpur.Recurrentneuralnet-workbasedlanguagemodel.InInterspeech,2010.%5B45%5DRandallMunroe.Predictivemodels.https://xkcd.com/2169/,2019.15"
-  },
-  "http://Skylion007.github.io/OpenWebTextCorpus}},": {
-    "error": "404 Client Error: Not Found for url: https://skylion007.github.io/OpenWebTextCorpus%7D%7D,"
-  },
   "http://ai.meta.com/blog/meta-llama-3-1": {
     "existing": "extractions1/a15fda3325.md"
   },
@@ -25,12 +19,6 @@
   },
   "http://anthropic.com/rsp-updates": {
     "existing": "extractions1/24eb81b819.md"
-  },
-  "http://anthropic.com/rsp-updates\\": {
-    "error": "404 Client Error: Not Found for url: https://www.anthropic.com/rsp-updates%5C"
-  },
-  "http://anthropic.com/rsp\\": {
-    "error": "404 Client Error: Not Found for url: https://www.anthropic.com/rsp%5C"
   },
   "http://arxiv.org/abs/2010.15980": {
     "existing": "extractions1/260d9e5f4c.md"
@@ -154,25 +142,12 @@
   },
   "http://cassisproject.com": {
     "existing": "@extractions1/85d11d705c.md"
-    "saved_as": "85d11d705c.md"
   },
   "http://claude.ai/login": {
     "error": "403 Client Error: Forbidden for url: https://claude.ai/login"
   },
-  "http://claude.ai/login\\": {
-    "error": "403 Client Error: Forbidden for url: https://claude.ai/login%5C"
-  },
   "http://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets": {
     "error": "404 Client Error: Not Found for url: https://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets"
-  },
-  "http://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto": {
-    "error": "404 Client Error: Not Found for url: https://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto"
-  },
-  "http://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto\\u201ccheat\\u201d.Webelievethisdoesnotconsiderablyaffectresults.First,anyoverlapbetweenthetwodatasetsisrareonaverage.Second,becauseweonlyusebetweenthe\\ufb01rst5to10tokensofeachsample,anypossibleoverlapwillbesmallinabsoluteterms.6": {
-    "error": "404 Client Error: Not Found for url: https://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto%5Cu201ccheat%5Cu201d.Webelievethisdoesnotconsiderablyaffectresults.First,anyoverlapbetweenthetwodatasetsisrareonaverage.Second,becauseweonlyusebetweenthe%5Cufb01rst5to10tokensofeachsample,anypossibleoverlapwillbesmallinabsoluteterms.6"
-  },
-  "http://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto\u201ccheat\u201d.Webelievethisdoesnotconsiderablyaffectresults.First,anyoverlapbetweenthetwodatasetsisrareonaverage.Second,becauseweonlyusebetweenthe\ufb01rst5to10tokensofeachsample,anypossibleoverlapwillbesmallinabsoluteterms.6": {
-    "error": "404 Client Error: Not Found for url: https://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto%E2%80%9Ccheat%E2%80%9D.Webelievethisdoesnotconsiderablyaffectresults.First,anyoverlapbetweenthetwodatasetsisrareonaverage.Second,becauseweonlyusebetweenthe%EF%AC%81rst5to10tokensofeachsample,anypossibleoverlapwillbesmallinabsoluteterms.6"
   },
   "http://creativecommons.org/licenses/by-nc-nd/4.0": {
     "existing": "extractions1/f8a92d30c5.md"
@@ -220,23 +195,7 @@
     "existing": "@extractions1/f2a58726e5.md"
   },
   "http://dublincore.org/resources/translations/": {
-    "saved_as": "e458f00b8f.md"
-  },
-  "http://dublincore.org/resources/translations/](/resources/translations/#dces1-1": {
-    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/resources/translations/%5D(/resources/translations/#dces1-1"
-  },
-  "http://dublincore.org/specifications/dublin-core/dces/": {
-    "saved_as": "f8d6276f37.md"
-  },
-  "http://dublincore.org/specifications/dublin-core/dces/1998-09-01/": {
-    "saved_as": "b2c8d16138.md"
-  },
-  "http://dublincore.org/specifications/dublin-core/dces/1998-09-01/](/specifications/dublin-core/dces/1998-09-01/": {
-    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/1998-09-01/%5D(/specifications/dublin-core/dces/1998-09-01/"
     "existing": "@extractions1/e458f00b8f.md"
-  },
-  "http://dublincore.org/resources/translations/](/resources/translations/#dces1-1": {
-    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/resources/translations/%5D(/resources/translations/#dces1-1"
   },
   "http://dublincore.org/specifications/dublin-core/dces/": {
     "existing": "@extractions1/f8d6276f37.md"
@@ -244,45 +203,23 @@
   "http://dublincore.org/specifications/dublin-core/dces/1998-09-01/": {
     "existing": "@extractions1/b2c8d16138.md"
   },
-  "http://dublincore.org/specifications/dublin-core/dces/1998-09-01/](/specifications/dublin-core/dces/1998-09-01/": {
-    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/1998-09-01/%5D(/specifications/dublin-core/dces/1998-09-01/"
-  },
   "http://dublincore.org/specifications/dublin-core/dces/1999-07-02/": {
     "existing": "extractions1/b42d8d9a7d.md"
-  },
-  "http://dublincore.org/specifications/dublin-core/dces/1999-07-02/](/specifications/dublin-core/dces/1999-07-02/": {
-    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/1999-07-02/%5D(/specifications/dublin-core/dces/1999-07-02/"
   },
   "http://dublincore.org/specifications/dublin-core/dces/1999-07-02/`": {
     "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/1999-07-02/%60"
   },
   "http://dublincore.org/specifications/dublin-core/dces/2003-02-04/": {
-    "saved_as": "aced4e5037.md"
     "existing": "@extractions1/aced4e5037.md"
-  },
-  "http://dublincore.org/specifications/dublin-core/dces/2003-02-04/](/specifications/dublin-core/dces/2003-02-04/": {
-    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/2003-02-04/%5D(/specifications/dublin-core/dces/2003-02-04/"
-  },
-  "http://dublincore.org/specifications/dublin-core/dces/](/specifications/dublin-core/dces/": {
-    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/%5D(/specifications/dublin-core/dces/"
   },
   "http://dublincore.org/specifications/dublin-core/dcmi-namespace/": {
     "existing": "@extractions1/95b23b2495.md"
-  },
-  "http://dublincore.org/specifications/dublin-core/dcmi-namespace/](/specifications/dublin-core/dcmi-namespace/": {
-    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dcmi-namespace/%5D(/specifications/dublin-core/dcmi-namespace/"
   },
   "http://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/": {
     "existing": "extractions1/d19bb1a7d7.md"
   },
   "http://dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/": {
     "existing": "@extractions1/978e37cc2e.md"
-  },
-  "http://dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/](/specifications/dublin-core/dcmi-type-vocabulary/": {
-    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/%5D(/specifications/dublin-core/dcmi-type-vocabulary/"
-  },
-  "http://dublincore.org](/": {
-    "error": "Failed to parse: http://dublincore.org](/"
   },
   "http://filters.To": {
     "error": "503 Server Error: Service Unavailable for url: http://filters.to/"
@@ -342,7 +279,7 @@
     "existing": "@extractions1/075a2e127b.md"
   },
   "http://microformats.org/wiki/microformats2": {
-    "saved_as": "112efeb474.md"
+    "existing": "@extractions1/112efeb474.md"
   },
   "http://opengraphprotocol.org/schema": {
     "error": "404 Client Error: Not Found for url: https://ogp.me/schema/"
@@ -353,8 +290,8 @@
   "http://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html": {
     "existing": "extractions1/6ae68c32c7.md"
   },
-  "http://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html[30]S.Yao": {
-    "error": "404 Client Error: Not Found for url: https://proceedings.neurips.cc//paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html%5b30%5dS.Yao"
+  "http://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html[30": {
+    "error": "404 Client Error: Not Found for url: https://proceedings.neurips.cc//paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html%5b30"
   },
   "http://photomatt.net/": {
     "existing": "extractions1/9265bed4df.md"
@@ -363,9 +300,27 @@
     "existing": "extractions1/64970bc2d4.md"
   },
   "http://purl.org/dc/dcam/VocabularyEncodingScheme": {
-    "saved_as": "ea70b46f30.md"
+    "existing": "@extractions1/ea70b46f30.md"
   },
   "http://purl.org/dc/dcam/`**": {
     "existing": "extractions1/b274658c19.md"
+  },
+  "http://purl.org/dc/dcam/domainIncludes": {
+    "saved_as": "8de6b83d7d.md"
+  },
+  "http://purl.org/dc/dcam/memberOf": {
+    "saved_as": "62973babd8.md"
+  },
+  "http://purl.org/dc/dcam/rangeIncludes": {
+    "saved_as": "46b152b5a8.md"
+  },
+  "http://purl.org/dc/dcmitype/": {
+    "existing": "extractions1/2730184a15.md"
+  },
+  "http://purl.org/dc/dcmitype/Collection": {
+    "saved_as": "cff3647119.md"
+  },
+  "http://purl.org/dc/dcmitype/Dataset": {
+    "saved_as": "17bd65c0aa.md"
   }
 }
