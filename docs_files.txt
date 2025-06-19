@@ -52,3 +52,8 @@ docs/defenses/feta.html
 docs/multimodal/naturalistic-patch-arxiv.html
 docs/multimodal/imgJP.html
 docs/multimodal/visual-jailbreaking.html
+docs/embedding/index.md
+docs/embedding/arxiv-embedding-inversion.html
+docs/embedding/text-embedding-inversion-2401.12192.html
+docs/embedding/crosslingual-inversion-2505.16008.html
+docs/embedding/extracting-training-data-2012.07805.html

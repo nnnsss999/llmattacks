@@ -190,6 +190,33 @@
     },
     {
       "type": "file",
+      "name": "embedding/index.md",
+      "bom-ref": "embedding/index.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Embedding Inversion Attacks"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/abs/2401.12192"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "glossary.md",
       "bom-ref": "glossary.md",
       "properties": [
@@ -559,6 +586,11 @@
           "value": "Fair Use"
         }
       ]
+    },
+    {
+      "type": "file",
+      "name": "urls.md",
+      "bom-ref": "urls.md"
     }
   ]
 }
