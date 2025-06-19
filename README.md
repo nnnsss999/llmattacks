@@ -26,9 +26,17 @@ A searchable website built with **MkDocs Material** is automatically deployed to
   `token-level/` and `training-alignment/`.
 - `original/` – the original PDF and Markdown source for the catalog.
 - `pdfs/` – a local cache of PDFs; see `pdfs/README.md` for details.
-- `scripts/` – helper scripts to validate front matter, build `index.json`, and
-  generate the CycloneDX `sbom.json`.
-- `tests/` – unit tests for the link checker and SBOM generator.
+- `scripts/` – utility Python scripts including:
+  - `build_index.py` to generate `index.json`
+  - `cache_pdfs.py` to download PDF sources
+  - `scrub_js.py` to remove third-party JS
+  - `generate_sbom.py` to create `sbom.json`
+  - `check_front_matter.py` to enforce YAML headers
+  - `check_duplicates.py` to find duplicate docs
+  - `link_check.py` to test URLs
+  - `refresh_links.py` to update `link_archive.json`
+  - `rename.py` to enforce kebab-case filenames
+- `tests/` – unit tests (`test_link_check.py` and `test_sbom.py`) validating the helper scripts.
 - `docs_files.txt` – manifest listing every document archived in this
   repository (59 entries).
 - `llm-attack-catalog.md` – printable version of the master catalog inside `docs/`.
@@ -39,8 +47,11 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 - `docs/navigation-map.md` – human-readable map of every file in the
   repository with a short description.
 - `index.json` – JSON index generated from the YAML front matter.
-- `.github/workflows/` – CI pipelines for linting, tests, MkDocs deployment and
-  refreshing archived links.
+- `.github/workflows/` – GitHub Actions workflows:
+  - `ci.yml` runs linting and unit tests
+  - `gh-pages.yml` deploys the MkDocs site
+  - `link-check.yml` scans for broken links
+  - `refresh-links.yml` archives URLs weekly
 - `.pre-commit-config.yaml` – pre‑commit hooks (markdownlint v0.38.0,
   codespell v2.4.1 and custom validators).
 - `mkdocs.yml` – configuration for building the documentation website.
