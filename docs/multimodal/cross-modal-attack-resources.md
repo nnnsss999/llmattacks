@@ -31,3 +31,8 @@ Below is a curated list of papers, tutorials, and repositories that document how
 - [Do as I say not as I do: A Semi-Automated Approach for Jailbreak Prompt Attack against Multimodal LLMs](https://arxiv.org/abs/2502.00735)
 - ["I am bad": Interpreting Stealthy, Universal and Robust Audio Jailbreaks in Audio-Language Models](https://arxiv.org/abs/2502.00718)
 - [VisCRA: A Visual Chain Reasoning Attack for Jailbreaking Multimodal Large Language Models](https://arxiv.org/abs/2505.19684)
+
+- [Efficient Indirect LLM Jailbreak via Multimodal-LLM Jailbreak](https://arxiv.org/abs/2405.20015)
+- [Red Teaming GPT-4V: Are GPT-4V Safe Against Uni/Multi-Modal Jailbreak Attacks?](https://arxiv.org/abs/2404.03411)
+- [SASP: Self-Adversarial Attack via System Prompt](../prompt-dialogue/sasp-jailbreak.html)
+- [From LLMs to MLLMs: Exploring the Landscape of Multimodal Jailbreaking](https://arxiv.org/abs/2406.14859)
