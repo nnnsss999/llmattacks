@@ -658,6 +658,13 @@
       "category": "Optimization",
       "sub_category": "",
       "date_collected": "2025-06-19"
+    },
+    {
+      "title": "Evolutionary Algorithm Resources 2029",
+      "path": "optimization/evolutionary-resources-2029.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-20"
     }
   ]
 }
