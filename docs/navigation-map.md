@@ -103,6 +103,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `image-based-attack-resources.md` — additional references on using images for jailbreaks
 - `image-based-attack-resources-2028.md` — newer papers on multimodal jailbreaks
 - `visual-jailbreaking-resources-2028.md` — updated references on multimodal jailbreaks
+- `visual-jailbreaking-resources-2031.md` — extended references on later visual jailbreak research
 - `visual-jailbreaking-resources-2029.md` — latest references on multimodal jailbreaks
 - `steganography-resources-2026.md` — latest papers on covert LLM attacks
 

@@ -145,3 +145,4 @@
 ./docs/supply-chain/darkreading-malicious-models.html
 ./docs/supply-chain/hidden-backdoor-models-hf.html
 ./docs/supply-chain/beear-backdoored-model3.html
+./docs/multimodal/visual-jailbreaking-resources-2031.md
