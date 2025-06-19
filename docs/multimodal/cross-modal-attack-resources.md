@@ -2,7 +2,7 @@
 title: "Cross-Modal LLM Attack Resources"
 category: "Multimodal"
 source_url: ""
-date_collected: 2025-06-18
+date_collected: 2025-06-19
 license: "CC-BY-4.0"
 ---
 
@@ -60,3 +60,10 @@ Below is a curated list of papers, tutorials, and repositories that document how
 - [Reason2Attack: Jailbreaking Text-to-Image Models via LLM Reasoning](https://arxiv.org/abs/2503.17987)
 - [Automatic Jailbreaking of the Text-to-Image Generative AI Systems](https://arxiv.org/abs/2405.16567)
 - [Test-Time Immunization: A Universal Defense Framework Against Jailbreaks for (Multimodal) Large Language Models](https://arxiv.org/abs/2505.22271)
+- [Agent Smith: A Single Image can Jailbreak One Million Multimodal LLM Agents Exponentially Fast](https://arxiv.org/abs/2402.08567)
+- [AudioJailbreak: Jailbreak Attacks against End-to-End Large Audio-Language Models](https://arxiv.org/abs/2505.14103)
+- [Audio Jailbreak: An Open Comprehensive Benchmark for Jailbreaking Large Audio-Language Models](https://arxiv.org/abs/2505.15406)
+- [JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models](https://arxiv.org/abs/2505.17568)
+- [Jailbreak Attacks and Defenses against Multimodal Generative Models: A Survey](https://arxiv.org/abs/2411.09259)
+- [Align is not Enough: Multimodal Universal Jailbreak Attack against Multimodal Large Language Models (arXiv version)](https://arxiv.org/abs/2506.01307)
+- [Images are Achilles' Heel of Alignment: Exploiting Visual Vulnerabilities for Jailbreaking Multimodal Large Language Models](https://arxiv.org/abs/2403.09792)
