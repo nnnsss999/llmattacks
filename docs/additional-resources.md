@@ -233,6 +233,8 @@ These references track emerging threats and defence research through 2026 and ar
 - [Fuzzing Resources 2030](fuzzing/fuzzing-resources-2030.md)
 - [Fuzzing Resources 2031](fuzzing/fuzzing-resources-2031.md)
 - [Fuzzing Resources 2032](fuzzing/fuzzing-resources-2032.md)
+- [Fuzzing Resources 2033](fuzzing/fuzzing-resources-2033.md)
+- [Fuzzing Resources 2034](fuzzing/fuzzing-resources-2034.md)
 - [Additional Resources on LLM Attacks 2031](additional-resources-2031.md)
 - [Additional Resources on LLM Attacks 2032](additional-resources-2032.md)
 - [Authority Simulation Attack Resources 2026](social-engineering/authority-simulation-resources-2026.md)
@@ -247,3 +249,4 @@ These references track emerging threats and defence research through 2026 and ar
 - [Emotional Manipulation Attack Resources 2030](social-engineering/emotional-manipulation-resources-2030.md)
 - [Prompt Engineering Attack Resources 2031](prompt-dialogue/prompt-engineering-resources-2031.md)
 - [Neuron-Level Manipulation Resources 2033](neuron-resources-2033.md)
+- [Neuron-Level Manipulation Resources 2034](neuron-resources-2034.md)
