@@ -1192,6 +1192,7 @@
 - https://en.wikipedia.org/wiki/Biosafety_level\
 - https://en.wikipedia.org/wiki/Domain_generation_algorithm
 - https://engineering.grab.com/chimera-sandbox
+- https://example.com/paper
 - https://example.github.io/llmattacks/
 - https://feeds.feedburner.com/TheHackersNews
 - https://flipboard.com/@TechRadar
