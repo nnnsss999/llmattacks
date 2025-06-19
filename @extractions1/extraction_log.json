@@ -519,5 +519,14 @@
   },
   "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2312.11513&description=Maatphor": {
     "saved_as": "2322d4200e.md"
+  },
+  "http://dublincore.org": {
+    "saved_as": "03bfb89141.md"
+  },
+  "http://ai.meta.com/blog/meta-llama-3-1-ai-responsibility": {
+    "saved_as": "21d1cef9a8.md"
+  },
+  "http://dublincore.org/documents/dcmi-type-vocabulary/": {
+    "saved_as": "f2a58726e5.md"
   }
 }
