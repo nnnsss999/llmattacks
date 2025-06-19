@@ -92,6 +92,12 @@ These references track emerging threats and defence research through 2026 and ar
 - [GitHub Repository: llm-attacks/llm-attacks](https://github.com/llm-attacks/llm-attacks)
 - [Meta's Llama Framework Flaw Exposes AI Systems to Remote Code Execution](https://thehackernews.com/2025/01/metas-llama-framework-flaw-exposes-ai.html)
 - [Top 10 Most Common LLM Attack Techniques | Elastic](https://www.elastic.co/security/llm-safety-report)
+
+- [ASETF: A Novel Method for Jailbreak Attack on LLMs through Translate Suffix Embeddings](https://arxiv.org/abs/2402.16006)
+- [Play Guessing Game with LLM: Indirect Jailbreak Attack with Implicit Clues](https://aclanthology.org/2024.findings-acl.304/)
+- [Learn to Disguise: Avoid Refusal Responses in LLM’s Defense via a Multi-Agent Attacker-Disguiser Game](https://arxiv.org/abs/2404.02532)
+- [Open Sesame! Universal Black-Box Jailbreaking of Large Language Models](https://arxiv.org/abs/2309.01446)
+
 - [Large Language Models Based Fuzzing Techniques: A Survey](https://arxiv.org/abs/2402.00350)
 - [Fuzz4All: Universal Fuzzing with LLMs](https://arxiv.org/abs/2308.04748)
 - [LLMFuzzer: Fuzzing Framework for Large Language Models](https://github.com/mnns/LLMFuzzer)
@@ -101,4 +107,5 @@ These references track emerging threats and defence research through 2026 and ar
 - [AI-Powered Fuzzing: Breaking the Bug Hunting Barrier](https://security.googleblog.com/2023/08/ai-powered-fuzzing-breaking-bug-hunting.html)
 - [Evaluating Large Language Models for Enhanced Fuzzing](https://ieeexplore.ieee.org/document/10731701)
 - [Prompt Injection Resources 2026](prompt-dialogue/prompt-injection-resources-2026.md)
+
 
