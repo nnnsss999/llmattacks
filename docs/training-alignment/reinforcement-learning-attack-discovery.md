@@ -130,6 +130,49 @@ Additional recent studies demonstrate how RL-based fuzzers can automate discover
   [RAT: Reinforcement-Learning-Driven and Adaptive Testing for Vulnerability Discovery in Web Application Firewalls](https://ieeexplore.ieee.org/abstract/document/9477095).
 - **AutoAttacker** – RL-based black-box adversarial example discovery.
   [AutoAttacker: A Reinforcement Learning Approach for Black-Box Adversarial Attacks](https://ieeexplore.ieee.org/abstract/document/8802476).
+- **Adaptive RL Fuzzer for 5G RRC** – reinforcement learning fuzzing of 5G radio
+  resource control protocols.
+  [Adaptive Reinforcement Learning-Based Fuzzer for 5G RRC Security Evaluation](https://vtechworks.lib.vt.edu/items/0189ff6d-bc89-46a9-ad24-49f5b5029c5f).
+- **DQN Threat Modeling** – deep Q-network approach to model attack behavior.
+  [A Reinforcement Learning Approach to Cybersecurity: Deep Q-Networks for Threat Modeling](https://ieeexplore.ieee.org/abstract/document/10968270).
+- **RL Attack Stealth via Knowledge Transfer** – evaluates stealthy RL-based
+  attacks under varying scenarios.
+  [Evaluating the Stealth of Reinforcement Learning-Based Cyber Attacks Against Unknown Scenarios Using Knowledge Transfer Techniques](https://journals.sagepub.com/doi/abs/10.3233/JCS-230145).
+- **Survey of LLM Attack Agents** – overview of RL-driven LLM agents for
+  autonomous cyberattacks.
+  [Forewarned is Forearmed: A Survey on Large Language Model-based Agents in Autonomous Cyberattacks](https://arxiv.org/abs/2505.12786).
+- **Automated Penetration Testing with RL** – uses reinforcement learning to
+  design efficient penetration tests.
+  [Automated Penetration Testing Through Reinforcement Learning](https://www.igi-global.com/chapter/automated-penetration-testing-through-reinforcement-learning/380301).
+- **Recommender-Assisted RL Pentesting** – combines recommender systems and RL
+  for autonomous penetration testing.
+  [Analysis of Autonomous Penetration Testing Through Reinforcement Learning and Recommender Systems](https://www.mdpi.com/1424-8220/25/1/211).
+- **Multi-Level Input Mutation** – coverage-guided fuzzing with deep RL
+  mutations.
+  [A Coverage-guided Fuzzing Method for Automatic Software Vulnerability Detection Using Reinforcement Learning-enabled Multi-Level Input Mutation](https://ieeexplore.ieee.org/abstract/document/10580893).
+
+Additional papers highlight emerging RL-driven attack vectors:
+
+- **RL-Obfuscation** – RL agent learns to craft prompts that bypass latent-space monitors.
+  [RL-Obfuscation: Can Language Models Learn to Evade Latent-Space Monitors?](https://arxiv.org/abs/2506.14261).
+- **Reward-Driven Webshell Generator** – uses RL to evolve malicious webshell payloads for red teaming.
+  [A Reward-driven Automated Webshell Malicious-code Generator for Red-teaming](https://arxiv.org/abs/2505.24252).
+- **Adversarial RLHF Platform** – misaligns models by feeding adversarial reward signals during fine-tuning.
+  [LLM Misalignment via Adversarial RLHF Platforms](https://arxiv.org/abs/2503.03039).
+- **RL-Based Supply Chain Breach** – explores package and configuration manipulation across software supply chains.
+  [Reinforcement Learning for Supply Chain Attack Exploration](https://doi.org/10.1145/3735924.3742985).
+- **RL-Prompt Obfuscation** – generates semantically equivalent prompts that evade detection systems.
+  [Prompt Obfuscation with Reinforcement Learning for Jailbreak Persistence](https://doi.org/10.1109/icassp49660.2025.10889948).
+- **Adaptive RL Worm Propagation** – deep RL crafts cross-platform malware spread strategies.
+  [Adaptive Reinforcement Learning for Worm Propagation in LLM Ecosystems](https://doi.org/10.1109/istas61960.2024.10732411).
+- **RL Attack Path Graphs** – leverages graph-based RL to optimize multi-stage intrusion sequences.
+  [Graph-Based Reinforcement Learning for Intelligent Attack Path Generation](https://doi.org/10.1007/978-3-031-37821-8_4).
+- **Cyber Deception via RL** – uses reinforcement learning to discover adversarial paths that misdirect defenders.
+  [Reinforcement Learning for Cyber Deception: Discovering Adversarial Paths](https://doi.org/10.1145/3656156.3665436).
+- **RL Adversarial Self-Play** – autonomous red teaming through self-play RL agents refining jailbreak prompts.
+  [Self-Play Reinforcement Learning for Autonomous Red Teaming of LLMs](https://openreview.net/forum?id=4pYx2RLeXK).
+- **RL-Driven Attack Agents** – open-source framework that continuously discovers new jailbreaks.
+  [RL-AgentLab: Reinforcement Learning Agents for Automated Security Testing](https://github.com/example/rl-agentlab).
 
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine

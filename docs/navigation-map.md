@@ -86,6 +86,9 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `neuron-resources-2028.md` — recent work on neuron-level attacks
 - `latent-space-resources-2029.md` — new latent-space references
 - `latent-space-resources-2030.md` — additional latent-space papers
+- `latent-space-resources-2031.md` — latest latent-space references
+- `latent-space-resources-2032.md` — expanded latent-space research
+- `latent-space-resources-2035.md` — new latent-space papers
 - `apexhq-latentspace.html` — attack on latent representations
 - `obfuscated-activations.html` — obfuscating activations during alignment
 
@@ -134,6 +137,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `evolutionary-resources-2030.md` — newly documented GA-based attacks
 - `evolutionary-resources-2031.md` — latest GA-based attack strategies
 - `evolutionary-resources-2031.md` — further references on evolutionary prompt search
+- `evolutionary-resources-2032.md` — newest evolutionary and RL-based jailbreak work
 - `boosting-jailbreak-with-momentum.md` — momentum-based gradient attack
 - `dager-gradient-inversion.md` — exact gradient inversion method
 - `improved-techniques-for-jailbreaking.md` — refined optimization approach
@@ -172,6 +176,8 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `poisoned-pretraining-markets.md` — resources on poisoned dataset marketplaces
 - `extended-llm-supply-chain-resources.md` — additional references on supply chain threats
 - `more-llm-supply-chain-resources.md` — further resources gathered after the initial publication
+- `additional-supply-chain-resources-2026.md` — curated 2026 reference list
+- `additional-supply-chain-resources-2027.md` — updated references
 
 ### token-level/
 - `techradar-tokenbreak.html` — token level manipulation article

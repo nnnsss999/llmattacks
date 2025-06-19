@@ -524,6 +524,13 @@
       "category": "Fuzzing",
       "sub_category": "",
       "date_collected": "2025-06-21"
+    },
+    {
+      "title": "Fuzzing Resources 2037",
+      "path": "fuzzing/fuzzing-resources-2037.md",
+      "category": "Fuzzing",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
     }
   ],
   "Insecure Output": [
@@ -1011,6 +1018,25 @@
       "date_collected": "2025-06-20"
     },
     {
+      "title": "Evolutionary Algorithm Resources 2030",
+      "path": "optimization/evolutionary-resources-2030.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-21"
+    },
+    {
+      "title": "Evolutionary Algorithm Resources 2031",
+      "path": "optimization/evolutionary-resources-2031.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-22"
+    },
+    {
+      "title": "Evolutionary Algorithm Resources 2032",
+      "path": "optimization/evolutionary-resources-2032.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-23"
       "title": "Gradient-based Adversarial Attacks Against Text Transformers",
       "path": "optimization/gradient-based-adversarial-transformers.md",
       "category": "Optimization",
