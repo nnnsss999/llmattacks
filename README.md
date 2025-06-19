@@ -14,12 +14,16 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 
 ## Repository Structure and Timeline
 
-All documentation files under `docs/` include YAML front matter with a
-`date_collected` of **2025-06-18**, marking the snapshot used to build the
-catalog. Key folders include:
+- All documentation files under `docs/` include YAML front matter with a
+  `date_collected` of **2025-06-18**, marking the snapshot used to build the
+  catalog. Key folders include:
 
-- `docs/` – canonical Markdown and HTML articles grouped by category such as
-  `agentic/`, `inference/`, `training-alignment/`, and `multimodal/`.
+- `docs/` – canonical Markdown and HTML articles grouped into subfolders:
+  `agentic/`, `data-poisoning/`, `defenses/`, `emerging/`, `evaluation/`,
+  `inference/`, `insecure-output/`, `latent-space/`,
+  `linguistic-manipulation/`, `multimodal/`, `optimization/`,
+  `prompt-dialogue/`, `rag/`, `social-engineering/`, `supply-chain/`,
+  `token-level/` and `training-alignment/`.
 - `original/` – the original PDF and Markdown source for the catalog.
 - `pdfs/` – a local cache of PDFs; see `pdfs/README.md` for details.
 - `scripts/` – helper scripts to validate front matter, build `index.json`, and
