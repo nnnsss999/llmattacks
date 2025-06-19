@@ -206,5 +206,6 @@ These references track emerging threats and defence research through 2026 and ar
 - [Fuzzing Resources 2030](fuzzing/fuzzing-resources-2030.md)
 - [Authority Simulation Attack Resources 2026](social-engineering/authority-simulation-resources-2026.md)
 - [Authority Simulation Attack Resources 2027](social-engineering/authority-simulation-resources-2027.md)
+- [Authority Simulation Attack Resources 2028](social-engineering/authority-simulation-resources-2028.md)
 - [Social Engineering and Emotional Manipulation Resources](social-engineering/emotional-manipulation-resources.md)
 - [Emotional Manipulation Attack Resources 2027](social-engineering/emotional-manipulation-resources-2027.md)
