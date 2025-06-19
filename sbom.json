@@ -38,6 +38,33 @@
     },
     {
       "type": "file",
+      "name": "additional-resources-2028.md",
+      "bom-ref": "additional-resources-2028.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Resources on LLM Attacks 2028"
+        },
+        {
+          "name": "category",
+          "value": "Overview"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "additional-resources.md",
       "bom-ref": "additional-resources.md",
       "properties": [
@@ -487,6 +514,60 @@
     },
     {
       "type": "file",
+      "name": "fuzzing/fuzzing-resources-2031.md",
+      "bom-ref": "fuzzing/fuzzing-resources-2031.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Fuzzing Resources 2031"
+        },
+        {
+          "name": "category",
+          "value": "Fuzzing"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "fuzzing/fuzzing-resources-compendium.md",
+      "bom-ref": "fuzzing/fuzzing-resources-compendium.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Fuzzing Resources Compendium"
+        },
+        {
+          "name": "category",
+          "value": "Fuzzing"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "fuzzing/fuzzing-techniques.md",
       "bom-ref": "fuzzing/fuzzing-techniques.md",
       "properties": [
@@ -876,6 +957,33 @@
     },
     {
       "type": "file",
+      "name": "latent-space/latent-space-resources-2028.md",
+      "bom-ref": "latent-space/latent-space-resources-2028.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Latent Space Attack Resources 2028"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "linguistic-manipulation/additional-resources.md",
       "bom-ref": "linguistic-manipulation/additional-resources.md",
       "properties": [
@@ -936,6 +1044,33 @@
         {
           "name": "title",
           "value": "Linguistic Manipulation Resources 2027"
+        },
+        {
+          "name": "category",
+          "value": "Linguistic Manipulation"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "linguistic-manipulation/linguistic-manipulation-resources-2028.md",
+      "bom-ref": "linguistic-manipulation/linguistic-manipulation-resources-2028.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Linguistic Manipulation Resources 2028"
         },
         {
           "name": "category",
@@ -1033,7 +1168,7 @@
         },
         {
           "name": "date_collected",
-          "value": "2025-06-18"
+          "value": "2025-06-19"
         },
         {
           "name": "license",
@@ -1130,6 +1265,33 @@
         {
           "name": "title",
           "value": "Steganography Approaches for LLM Attacks (2026 Resources)"
+        },
+        {
+          "name": "category",
+          "value": "Multimodal"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "multimodal/visual-jailbreaking-resources-2028.md",
+      "bom-ref": "multimodal/visual-jailbreaking-resources-2028.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Visual Jailbreaking Resources 2028"
         },
         {
           "name": "category",
@@ -1313,6 +1475,114 @@
     },
     {
       "type": "file",
+      "name": "optimization/boosting-jailbreak-with-momentum.md",
+      "bom-ref": "optimization/boosting-jailbreak-with-momentum.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Boosting Jailbreak Attack with Momentum"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": "https://doi.org/10.1109/icassp49660.2025.10888812"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/dager-gradient-inversion.md",
+      "bom-ref": "optimization/dager-gradient-inversion.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "DAGER: Exact Gradient Inversion"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/abs/2405.15586"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/evolutionary-algorithm-attacks.md",
+      "bom-ref": "optimization/evolutionary-algorithm-attacks.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Evolutionary Algorithm Attacks on LLMs"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/gradient-attack-resources.md",
+      "bom-ref": "optimization/gradient-attack-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Gradient-Based Attack Resources"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "optimization/gradient-based-adversarial-transformers.md",
       "bom-ref": "optimization/gradient-based-adversarial-transformers.md",
       "properties": [
@@ -1381,6 +1651,87 @@
         {
           "name": "source_url",
           "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/gradient-resources-2027.md",
+      "bom-ref": "optimization/gradient-resources-2027.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Gradient Attack Resources 2027"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/improved-techniques-for-jailbreaking.md",
+      "bom-ref": "optimization/improved-techniques-for-jailbreaking.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Improved Techniques for Optimization-Based Jailbreaking"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/abs/2405.21018"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/llm-abuse-prevention-gcg.md",
+      "bom-ref": "optimization/llm-abuse-prevention-gcg.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "LLM Abuse Prevention via GCG Jailbreak Detection"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": "https://doi.org/10.3390/info16030204"
         },
         {
           "name": "date_collected",
@@ -1669,6 +2020,33 @@
     },
     {
       "type": "file",
+      "name": "prompt-dialogue/prompt-engineering-resources-2029.md",
+      "bom-ref": "prompt-dialogue/prompt-engineering-resources-2029.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Prompt Engineering Attack Resources 2029"
+        },
+        {
+          "name": "category",
+          "value": "Prompt Dialogue"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "prompt-dialogue/prompt-engineering-resources-extra.md",
       "bom-ref": "prompt-dialogue/prompt-engineering-resources-extra.md",
       "properties": [
@@ -1885,12 +2263,120 @@
     },
     {
       "type": "file",
+      "name": "social-engineering/authority-simulation-resources-2028.md",
+      "bom-ref": "social-engineering/authority-simulation-resources-2028.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Authority Simulation Attack Resources 2028"
+        },
+        {
+          "name": "category",
+          "value": "Social Engineering"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-20"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "social-engineering/authority-simulation-resources-2029.md",
+      "bom-ref": "social-engineering/authority-simulation-resources-2029.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Authority Simulation Attack Resources 2029"
+        },
+        {
+          "name": "category",
+          "value": "Social Engineering"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-21"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "social-engineering/authority-simulation-resources-2030.md",
+      "bom-ref": "social-engineering/authority-simulation-resources-2030.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Authority Simulation Attack Resources 2030"
+        },
+        {
+          "name": "category",
+          "value": "Social Engineering"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-22"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "social-engineering/emotional-manipulation-resources-2027.md",
       "bom-ref": "social-engineering/emotional-manipulation-resources-2027.md",
       "properties": [
         {
           "name": "title",
           "value": "Emotional Manipulation Attack Resources 2027"
+        },
+        {
+          "name": "category",
+          "value": "Social Engineering"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "social-engineering/emotional-manipulation-resources-2028.md",
+      "bom-ref": "social-engineering/emotional-manipulation-resources-2028.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Emotional Manipulation Attack Resources 2028"
         },
         {
           "name": "category",
@@ -1993,6 +2479,56 @@
     },
     {
       "type": "file",
+      "name": "supply-chain/compromised-model-hub-resources.md",
+      "bom-ref": "supply-chain/compromised-model-hub-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Compromised Model Hub Resources"
+        },
+        {
+          "name": "category",
+          "value": "Supply Chain"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "supply-chain/extended-llm-supply-chain-resources.md",
+      "bom-ref": "supply-chain/extended-llm-supply-chain-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Extended LLM Supply Chain Resources"
+        },
+        {
+          "name": "category",
+          "value": "Supply Chain"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "supply-chain/llm-supply-chain-attacks.md",
       "bom-ref": "supply-chain/llm-supply-chain-attacks.md",
       "properties": [
@@ -2016,12 +2552,62 @@
     },
     {
       "type": "file",
+      "name": "supply-chain/poisoned-pretraining-markets.md",
+      "bom-ref": "supply-chain/poisoned-pretraining-markets.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Poisoned Pre-Training Data Markets"
+        },
+        {
+          "name": "category",
+          "value": "Supply Chain"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "token-level/additional-token-level-resources.md",
       "bom-ref": "token-level/additional-token-level-resources.md",
       "properties": [
         {
           "name": "title",
           "value": "Token-Level Attack Resources"
+        },
+        {
+          "name": "category",
+          "value": "Tokenization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "token-level/token-level-resources-2027.md",
+      "bom-ref": "token-level/token-level-resources-2027.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Token-Level Attack Resources 2027"
         },
         {
           "name": "category",
