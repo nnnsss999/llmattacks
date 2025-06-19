@@ -23,3 +23,9 @@ These works reveal how minor linguistic tweaks can compromise safety protections
 - [Obfuscated Activations Bypass LLM Latent-Space Defenses](https://arxiv.org/abs/2412.09565) shows embedding-level paraphrases that slip past detection.
 - [Unicode Homograph Jailbreak](../prompt-dialogue/unicode-homograph-jailbreak.md) uses look-alike characters to hide malicious instructions.
 - [TokenBreak Attack: Single-Character Text Changes Defeat Moderation](https://thehackernews.com/2025/06/new-tokenbreak-attack-bypasses-ai.html) highlights how tiny edits bypass filters.
+- [DiffusionAttacker: Diffusion-Driven Prompt Manipulation for LLM Jailbreak](https://arxiv.org/abs/2412.17522) uses diffusion-based search to craft jailbreak prompts.
+- [A Cross-Language Investigation into Jailbreak Attacks in Large Language Models](https://arxiv.org/abs/2401.16765) analyzes multilingual strategies for evading safeguards.
+- [Low-Resource Languages Jailbreak GPT-4](https://arxiv.org/abs/2310.02446) demonstrates how obscure languages can defeat protections.
+- [Multilingual Jailbreak Challenges in Large Language Models](https://arxiv.org/abs/2310.06474) highlights failures across language boundaries.
+- [Dialogue Injection Attack: Jailbreaking LLMs through Context Manipulation](https://arxiv.org/abs/2503.08195) slips malicious instructions into conversation history.
+- [Amplified Vulnerabilities: Structured Jailbreak Attacks on LLM-based Multi-Agent Debate](https://arxiv.org/abs/2504.16489) tests coordinated attackers in multi-agent settings.

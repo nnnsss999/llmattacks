@@ -2,7 +2,7 @@
 title: "Cross-Modal LLM Attack Resources"
 category: "Multimodal"
 source_url: ""
-date_collected: 2025-06-18
+date_collected: 2025-06-19
 license: "CC-BY-4.0"
 ---
 
@@ -21,6 +21,16 @@ Below is a curated list of papers, tutorials, and repositories that document how
 - [Awesome-LVLM-Attack Repository](https://github.com/liudaizong/Awesome-LVLM-Attack)
 - [Awesome-Multimodal-Jailbreak Repository](https://github.com/liuxuannan/Awesome-Multimodal-Jailbreak)
 
+- [JailBound: Jailbreaking Internal Safety Boundaries of Vision-Language Models](https://arxiv.org/abs/2505.19610)
+- [Implicit Jailbreak Attacks via Cross-Modal Information Concealment on Vision-Language Models](https://arxiv.org/abs/2505.16446)
+- [SafeMLRM: Demystifying Safety in Multi-modal Large Reasoning Models](https://arxiv.org/abs/2504.08813)
+- [Multilingual and Multi-Accent Jailbreaking of Audio LLMs](https://arxiv.org/abs/2504.01094)
+- [MIRAGE: Multimodal Immersive Reasoning and Guided Exploration for Red-Team Jailbreak Attacks](https://arxiv.org/abs/2503.19134)
+- [Audio Jailbreak Attacks: Exposing Vulnerabilities in SpeechGPT in a White-Box Framework](https://arxiv.org/abs/2505.18864)
+- [Investigating Vulnerabilities and Defenses Against Audio-Visual Attacks: A Comprehensive Survey Emphasizing Multimodal Models](https://arxiv.org/abs/2506.11521)
+- [Do as I say not as I do: A Semi-Automated Approach for Jailbreak Prompt Attack against Multimodal LLMs](https://arxiv.org/abs/2502.00735)
+- ["I am bad": Interpreting Stealthy, Universal and Robust Audio Jailbreaks in Audio-Language Models](https://arxiv.org/abs/2502.00718)
+- [VisCRA: A Visual Chain Reasoning Attack for Jailbreaking Multimodal Large Language Models](https://arxiv.org/abs/2505.19684)
 
 - [Efficient Indirect LLM Jailbreak via Multimodal-LLM Jailbreak](https://arxiv.org/abs/2405.20015)
 - [Red Teaming GPT-4V: Are GPT-4V Safe Against Uni/Multi-Modal Jailbreak Attacks?](https://arxiv.org/abs/2404.03411)
@@ -35,3 +45,34 @@ Below is a curated list of papers, tutorials, and repositories that document how
 - [Pushing the Limits of Safety: A Technical Report on the ATLAS Challenge 2025](https://arxiv.org/abs/2506.12430)
 - [Beyond Jailbreaks: Revealing Stealthier and Broader LLM Security Risks Stemming from Alignment Failures](https://arxiv.org/abs/2506.07402)
 - [Test-Time Immunization: A Universal Defense Framework Against Jailbreaks for (Multimodal) Large Language Models](https://arxiv.org/abs/2505.22271)
+- [Vision-fused Jailbreak: A Multi-modal Collaborative Jailbreak Attack](https://practical-dl.github.io/2024/short_paper/13/CameraReady/13.pdf)
+- [Visual Role-Play Jailbreak – LLM Security Database](https://www.promptfoo.dev/lm-security-db/vuln/undefined-55c7b700)
+- [FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts](https://arxiv.org/abs/2311.05608)
+- [Image Hijacks: Adversarial Images Can Control Generative Models at Runtime](https://arxiv.org/abs/2309.00236)
+- [Visual adversarial examples jailbreak aligned large language models](https://openreview.net/forum?id=Hy3ibGttS3)
+- [Image Prompt Injection Demo](https://github.com/TrustAI-laboratory/Image-Prompt-Injection-Demo)
+- [FC-Attack: Auto-Generated Flowcharts for Jailbreaking MLLMs](https://www.semanticscholar.org/paper/53e3cd36df0ef035a7503783b55d005d1e7c0a67)
+- [PiCo: Poisoning Code Instructions for Visual Jailbreaks](https://arxiv.org/abs/2504.01444)
+- [Playing the Fool: Jailbreaking LLMs and Multimodal LLMs with Out-of-Distribution Strategy](https://arxiv.org/abs/2503.20823)
+- [Jailbreaking Multimodal Large Language Models via Shuffle Inconsistency](https://arxiv.org/abs/2501.04931)
+- [Towards Robust Multimodal Large Language Models Against Jailbreak Attacks](https://arxiv.org/abs/2502.00653)
+- [Adversarial Training for Multimodal Large Language Models against Jailbreak Attacks](https://arxiv.org/abs/2503.04833)
+- [Multimodal-Fusion-Jailbreaks Repository](https://github.com/facebookresearch/multimodal-fusion-jailbreaks)
+- [Visual Adversarial Examples Jailbreak Repository](https://github.com/unispac/visual-adversarial-examples-jailbreak-large-language-models)
+- [JailbreakEval: Toolkit for Evaluating Jailbreak Attempts](https://www.ndss-symposium.org/wp-content/uploads/2025-poster-19.pdf)
+- [Peking University VLM Attack Slide Deck](https://pku-ml-group.github.io/ppt/20240105-VLM%20attack-yuwang.pdf)
+- [Patch is Enough: Naturalistic Adversarial Patch against Vision-Language Pre-training Models](https://arxiv.org/abs/2410.04884)
+- [How Robust Is Google's Bard to Adversarial Image Attacks?](https://arxiv.org/abs/2309.11751)
+- [Divide and Conquer: A Hybrid Strategy Defeats Multimodal Large Language Models](https://arxiv.org/abs/2412.16555)
+- [Adversarial Attacks in Multimodal Systems: A Practitioner's Survey](https://arxiv.org/abs/2505.03084)
+- [Misusing Tools in Large Language Models With Visual Adversarial Examples](https://arxiv.org/abs/2310.03185)
+- [Reason2Attack: Jailbreaking Text-to-Image Models via LLM Reasoning](https://arxiv.org/abs/2503.17987)
+- [Automatic Jailbreaking of the Text-to-Image Generative AI Systems](https://arxiv.org/abs/2405.16567)
+- [Test-Time Immunization: A Universal Defense Framework Against Jailbreaks for (Multimodal) Large Language Models](https://arxiv.org/abs/2505.22271)
+- [Agent Smith: A Single Image can Jailbreak One Million Multimodal LLM Agents Exponentially Fast](https://arxiv.org/abs/2402.08567)
+- [AudioJailbreak: Jailbreak Attacks against End-to-End Large Audio-Language Models](https://arxiv.org/abs/2505.14103)
+- [Audio Jailbreak: An Open Comprehensive Benchmark for Jailbreaking Large Audio-Language Models](https://arxiv.org/abs/2505.15406)
+- [JALMBench: Benchmarking Jailbreak Vulnerabilities in Audio Language Models](https://arxiv.org/abs/2505.17568)
+- [Jailbreak Attacks and Defenses against Multimodal Generative Models: A Survey](https://arxiv.org/abs/2411.09259)
+- [Align is not Enough: Multimodal Universal Jailbreak Attack against Multimodal Large Language Models (arXiv version)](https://arxiv.org/abs/2506.01307)
+- [Images are Achilles' Heel of Alignment: Exploiting Visual Vulnerabilities for Jailbreaking Multimodal Large Language Models](https://arxiv.org/abs/2403.09792)

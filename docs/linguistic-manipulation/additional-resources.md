@@ -55,3 +55,27 @@ The following references extend the catalog with recent research on cross-lingua
 - [Text Embedding Inversion Security for Multilingual Language Models](https://arxiv.org/abs/2401.12192)
 - [LAGO: Few-shot Crosslingual Embedding Inversion Attacks](https://arxiv.org/abs/2505.16008)
 - [Prompt Injection Attack against LLM-Integrated Applications](https://arxiv.org/abs/2306.05499)
+- [Code-Switching LLM Jailbreak](https://www.promptfoo.dev/lm-security-db/vuln/undefined-30473367) - technique using bilingual prompts to smuggle disallowed content.
+- [Don't Listen To Me: Understanding and Exploring Jailbreak Prompts](https://zhiyuanyu.org/publication/14-2024-08-14-usenix-jailbreak/) - USENIX Security study analyzing effective phrasing.
+- [Image-to-Text Logic Jailbreak: Your Imagination can Help You Do Anything](https://arxiv.org/abs/2407.02534) - cross-modal attack generating textual jailbreaks via images.
+- [Enhancing Jailbreak Attack Against Large Language Models through Silent Translation](https://arxiv.org/abs/2405.20653) - demonstrates phonetic mapping to slip past filters.
+- [What Features Jailbreak LLMs (GitHub)](https://github.com/NLie2/what_features_jailbreak_LLMs) - dataset exploring linguistic and formatting features that enable jailbreaks.
+- [How One Prompt Can Jailbreak Any LLM: The Policy Puppetry Attack](https://easyaibeginner.com/how-one-prompt-can-jailbreak-any-llm-chatgpt-claude-gemini-others-the-policy-puppetry-attack/)
+- [The Jailbreak Cookbook](https://www.generalanalysis.com/blog/jailbreak_cookbook) - repository of paraphrasing and slang examples.
+- [The Subtle Art of Jailbreaking LLMs](https://andpalmier.com/posts/jailbreaking-llms/) - explains rhetorical tricks to coax models.
+- [A Deep Dive into LLM Jailbreaking Techniques and Their Implications](https://www.pillar.security/blog/a-deep-dive-into-llm-jailbreaking-techniques-and-their-implications)
+- [Interpreting the effects of Jailbreak Prompts in LLMs](https://www.lesswrong.com/posts/FNuBEJnbtEEdCEAnT/interpreting-the-effects-of-jailbreak-prompts-in-llms)
+- [Breaking the Rules: Jailbreak Attacks on Large Language Models](https://www.fuzzylabs.ai/blog-post/jailbreak-attacks-on-large-language-models)
+- [Safety Alignment and Jailbreak Attacks Challenge Modern LLMs](https://hackernoon.com/safety-alignment-and-jailbreak-attacks-challenge-modern-llms)
+- [DiffusionAttacker: Diffusion-Driven Prompt Manipulation for LLM Jailbreak](https://arxiv.org/abs/2412.17522)
+- [A Cross-Language Investigation into Jailbreak Attacks in Large Language Models](https://arxiv.org/abs/2401.16765)
+- [Low-Resource Languages Jailbreak GPT-4](https://arxiv.org/abs/2310.02446)
+- [Multilingual Jailbreak Challenges in Large Language Models](https://arxiv.org/abs/2310.06474)
+- [Jailbreaking to Jailbreak](https://arxiv.org/abs/2502.09638)
+- [Dialogue Injection Attack: Jailbreaking LLMs through Context Manipulation](https://arxiv.org/abs/2503.08195)
+- [A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models](https://arxiv.org/abs/2402.13457)
+- [Amplified Vulnerabilities: Structured Jailbreak Attacks on LLM-based Multi-Agent Debate](https://arxiv.org/abs/2504.16489)
+- [LingoLoop Attack: Trapping MLLMs via Linguistic Context and State Entrapment into Endless Loops](https://arxiv.org/abs/2506.14493)
+- [Revisiting Jailbreaking for Large Language Models: A Representation Engineering Perspective](https://aclanthology.org/2025.coling-main.212/)
+- [Jigsaw Puzzles: Splitting Harmful Questions to Jailbreak Large Language Models](https://arxiv.org/abs/2410.11459)
+- [Against All Odds: Overcoming Typology, Script, and Language Confusion in Multilingual Embedding Inversion Attacks](https://arxiv.org/abs/2408.11749)
