@@ -83,3 +83,6 @@ The references below document newly disclosed or proof-of-concept zero-day vulne
 - [Zero-Day Quest 2025: $1.6 Million Awarded for Vulnerability Research](https://msrc.microsoft.com/blog/2025/04/zero-day-quest-2025-1.6-million-awarded-for-vulnerability-research/)
 - [Day Zero: Building a Superhuman AI Red Teamer From Scratch](https://www.lakera.ai/blog/day-zero-building-a-superhuman-llm-red-teamer-from-scratch)
 - [4 Ways to Address Zero-Days in AI/ML Security](https://protectai.com/blog/address-zero-days-in-ai-ml-security)
+- [Google Researchers Claim First Vulnerability Found Using AI](https://www.infosecurity-magazine.com/news/google-first-vulnerability-found/)
+- [Announcing OpenAI's Bug Bounty Program](https://openai.com/index/bug-bounty-program/)
+- [Hello 0-Days, My Old Friend: A 2024 Zero-Day Exploitation Analysis](https://cloud.google.com/blog/topics/threat-intelligence/2024-zero-day-trends)
