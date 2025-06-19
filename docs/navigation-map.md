@@ -171,15 +171,13 @@ Local cache for PDFs.
 - `README.md` — explains the hashing scheme for cached PDFs
 
 ## extractions1/
-Temporary holding area for URL extractions.
+Legacy extraction directory from earlier runs.
 - `.gitkeep` — placeholder so the directory remains tracked
-- `extraction_log.json` — mapping of archived URLs to hashed files
-- `*.md` — hashed Markdown snapshots of the linked pages
 
 ## @extractions1/
-Legacy output folder produced by an earlier version of `extract_urls.py`.
-- `extraction_log.json` — log mapping a single demo URL to `e36fd18630.md`
-- `e36fd18630.md` — example Markdown snapshot of the OpenWebText Corpus page
+Current output folder for URL extractions.
+- `extraction_log.json` — mapping of archived URLs to hashed files
+- `*.md` — hashed Markdown snapshots of the linked pages
 
 ## scripts/
 Utility scripts for building and checking the catalog.
