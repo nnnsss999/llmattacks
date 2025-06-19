@@ -19,3 +19,5 @@ The references below document newly disclosed or proof-of-concept zero-day vulne
 - [Aim Labs Echoleak Blogpost](https://www.aim.security/lp/aim-labs-echoleak-blogpost)
 - [Teams of AI Agents Can Exploit Zero-Day Vulnerabilities](https://www.threatdown.com/blog/teams-of-ai-agents-can-exploit-zero-day-vulnerabilities/)
 
+- [Microsoft Copilot targeted in first "zero-click" attack on an AI agent](https://www.techradar.com/pro/security/microsoft-copilot-targeted-in-first-zero-click-attack-on-an-ai-agent-what-you-need-to-know)
+- [Evaluating Security Risk in DeepSeek and Other Frontier Models](https://blogs.cisco.com/security/evaluating-security-risk-in-deepseek-and-other-frontier-reasoning-models)
