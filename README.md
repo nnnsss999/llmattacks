@@ -29,7 +29,8 @@ A searchable website built with **MkDocs Material** is automatically deployed to
   and the matching `.pdf`.
 - `pdfs/` – a local cache of PDFs; see `pdfs/README.md` for details.
   Cached filenames use a SHA‑256 hash of the source URL.
-- `extractions1/` – outputs from `extract_urls.py` for future catalog entries. Hashed filenames use the first 10 characters of a SHA-256 digest.
+- `extractions1/` – outputs from `extract_urls.py` for future catalog entries. Hashed filenames use the first 10 characters of a SHA‑256 digest.
+  - `.gitkeep` – placeholder to keep the folder under version control.
 - `scripts/` – utility Python scripts including:
   - `build_index.py` to generate `index.json`
   - `cache_pdfs.py` to download PDF sources
@@ -44,7 +45,7 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 - `docs_files.txt` – manifest listing every document archived in this
   repository (64 entries).
 - `all_files.txt` – complete inventory of every file tracked in the repository.
-- `requirements.txt` – Python dependencies used by the helper scripts.
+- `requirements.txt` – Python dependencies (`requests`, `markdownify`, `pdfminer.six`, `PyYAML`) used by the helper scripts.
 - `llm-attack-catalog.md` – printable version of the master catalog inside `docs/`.
 - `docs/comprehensive-catalog-of-llm-jailbreaking-and-attack-techniques.md` –
   main Markdown catalog used to generate the website.
