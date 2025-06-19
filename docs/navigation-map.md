@@ -111,6 +111,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `projected-gradient-descent-attack.md` — PGD-based jailbreaks
 - `tag-gradient-attack.md` — early gradient attack on transformers
 - `gradient-based-adversarial-transformers.md` — adversarial distribution search
+- `gradient-attack-resources.md` — additional readings on gradient-based jailbreaks
 - `gradient-based-attack-resources.md` — curated references on gradient-guided attacks
 - `gradient-resources-2026.md` — additional gradient-based jailbreak research
 - `evolutionary-algorithm-attacks.md` — overview of GA-based jailbreak techniques
