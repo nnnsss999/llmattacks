@@ -353,6 +353,13 @@
       "category": "Linguistic Manipulation",
       "sub_category": "",
       "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Linguistic Manipulation Resources 2030",
+      "path": "linguistic-manipulation/linguistic-manipulation-resources-2030.md",
+      "category": "Linguistic Manipulation",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
     }
   ],
   "Fuzzing": [
