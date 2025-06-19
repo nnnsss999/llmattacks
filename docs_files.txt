@@ -61,3 +61,4 @@ docs/inference/malware-generation-llm.md
 docs/prompt-dialogue/unicode-homograph-jailbreak.md
 docs/agentic/necromancer-attack.md
 docs/additional-resources.md
+docs/zero-day-resources.md
