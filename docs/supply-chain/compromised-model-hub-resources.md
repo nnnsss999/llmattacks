@@ -26,3 +26,6 @@ Below is an expanded set of reports and repositories documenting how attackers l
 - [“Free Hugs” – What to be Wary of in Hugging Face – Part 4](checkmarx-free-hugs-part4.html) – Checkmarx Blog
 - [Malicious ML Models Discovered on Hugging Face Platform](reversinglabs-nullif-ai.html) – ReversingLabs
 - [Exploiting ML Models with Pickle File Attacks (Sleepy Pickle Part 1)](trailofbits-sleepy-pickle-part1.html) – Trail of Bits
+
+- [Unveiling AI/ML Supply Chain Attacks: Name Squatting Organizations on HuggingFace](https://protectai.com/blog/unveiling-ai-supply-chain-attacks-on-hugging-face) – Protect AI Blog
+- [New Hugging Face Vulnerability Exposes AI Models to Supply Chain Attacks](https://cybersocialhub.com/csh/new-hugging-face-vulnerability-exposes-ai-models-to-supply-chain-attacks/) – Cyber Social Hub
