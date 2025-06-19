@@ -19,3 +19,11 @@ These papers and articles explore how adversaries abuse next-token prediction or
 - [ChatGPT Side-Channel Attack Has Easy Fix: Token Obfuscation](https://www.theregister.com/2024/03/18/chatgpt_sidechannel_attack_has_easy/) - The Register coverage proposing defences.
 - [AI Conversations Exposed: The Token Length Vulnerability](https://medium.com/@firefalc0n/ai-conversations-exposed-the-token-length-vulnerability-in-chatgpt-copilot-and-more-0d182973c1ee) - Medium article exploring token-length leakage.
 - [Awesome Side Channels](https://github.com/dpaleka/awesome-side-channels) - Curated list of research on side-channel attacks including token-based exploits.
+- [Lockpicking LLMs: A Logit-Based Jailbreak Using Token-level Manipulation](https://arxiv.org/abs/2405.13068)
+- [A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners](https://arxiv.org/abs/2406.11050)
+- [TokenBreak: Bypassing Text Classification Models Through Token Manipulation](https://arxiv.org/abs/2506.07948)
+- [Emoji-based Adversarial Attacks on LLMs](https://www.semanticscholar.org/paper/5b539b4e1b9f677301ac815d41677fb4ec040f4b)
+- [Emoji Attack: Enhancing Jailbreak Attacks Against Judge LLM Detection](https://openreview.net/forum?id=Q0rKYiVEZq)
+- [Understanding Token Splitting Attacks in LLMs](https://www.proventra-ai.com/blog/understanding-token-splitting-attacks-llms)
+- [Byte-Level Universal Triggers](https://www.techradar.com/pro/security/this-cyberattack-lets-hackers-crack-ai-models-just-by-changing-a-single-character)
+- [Enhancing Jailbreak Attack Against Large Language Models through Silent Prompts](https://arxiv.org/abs/2405.20653)

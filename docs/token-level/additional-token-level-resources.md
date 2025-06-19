@@ -46,3 +46,7 @@ The following references provide further background on tokenization-based attack
 - [Understanding Emoji AI Hacking: How Unicode Threatens AI](https://www.geeky-gadgets.com/emoji-exploits-in-ai-security/) - Technical overview of emoji exploits.
 - [The Emoji Attack: A New Threat Vector in AI Safety Evaluation](https://medium.com/@bhargavaganti/the-emoji-attack-a-new-threat-vector-in-ai-safety-evaluation-6ab07ff4f107) - Analysis of emoji sequences in jailbreaks.
 - [The Hidden Dangers of Adversarial Tokenization](https://medium.com/data-science-collective/the-hidden-dangers-of-adversarial-tokenization-how-token-splitting-bypasses-ai-safeguards-4e3b651f6a22) - In-depth look at token-splitting risks.
+- [Adversarial Attacks on LLMs | Lil'Log](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)
+- [A Deep Dive into LLM Attacks and Countermeasures](https://medium.com/@nirvana.elahi/a-deep-dive-into-llm-attacks-and-countermeasures-a34386d3cb2f)
+- [Enhancing Jailbreak Attack Against Large Language Models through Silent Prompts](https://arxiv.org/abs/2405.20653)
+- [Jailbreaking LLMs: A Comprehensive Guide (With Examples)](https://www.promptfoo.dev/blog/how-to-jailbreak-llms/)
