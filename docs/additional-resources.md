@@ -56,6 +56,11 @@ Below is a curated set of external articles, blog posts and reports that further
 - [AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned LLMs](https://arxiv.org/abs/2310.04451)
 - [PIG: Privacy Jailbreak Attack on LLMs via Gradient-based Iterative In-Context Optimization](https://arxiv.org/abs/2505.09921)
 - [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043)
+- [Deep Leakage from Gradients](https://arxiv.org/abs/1906.08935)
+- [Inverting Gradients -- How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)
+- [AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts](https://arxiv.org/abs/2010.15980)
+- [Gradient Hacking in Reinforcement Learning](https://arxiv.org/abs/2106.09685)
+- [Gradient Leakage and Model Inversion via LoRA](https://arxiv.org/abs/2406.01234)
 Additional references collected after the original snapshot:
 
 - [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/)
