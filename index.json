@@ -111,6 +111,13 @@
       "category": "Latent Space",
       "sub_category": "",
       "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Neuron-Level Manipulation Resources 2036",
+      "path": "neuron-resources-2036.md",
+      "category": "Latent Space",
+      "sub_category": "",
+      "date_collected": "2025-06-21"
     }
   ],
   "Overview": [
@@ -122,7 +129,7 @@
       "date_collected": "2025-06-18"
     },
     {
-      "title": "Attack\u2013Defence Matrix",
+      "title": "Attack–Defence Matrix",
       "path": "attack-defense-matrix.md",
       "category": "Overview",
       "sub_category": "",
@@ -517,6 +524,13 @@
       "category": "Fuzzing",
       "sub_category": "",
       "date_collected": "2025-06-21"
+    },
+    {
+      "title": "Fuzzing Resources 2037",
+      "path": "fuzzing/fuzzing-resources-2037.md",
+      "category": "Fuzzing",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
     }
   ],
   "Insecure Output": [
