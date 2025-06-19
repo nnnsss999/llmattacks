@@ -1,7 +1,7 @@
 {
   "Overview": [
     {
-      "title": "Attack\u2013Defence Matrix",
+      "title": "Attack–Defence Matrix",
       "path": "attack-defense-matrix.md",
       "category": "Overview",
       "sub_category": "",
@@ -306,8 +306,6 @@
       "date_collected": "2025-06-18"
     },
     {
-      "title": "Linguistic Manipulation Resources 2027",
-      "path": "linguistic-manipulation/linguistic-manipulation-resources-2027.md",
       "title": "Linguistic Manipulation Resources 2028",
       "path": "linguistic-manipulation/linguistic-manipulation-resources-2028.md",
       "category": "Linguistic Manipulation",
@@ -396,6 +394,13 @@
       "category": "Supply Chain",
       "sub_category": "",
       "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Extended LLM Supply Chain Resources",
+      "path": "supply-chain/extended-llm-supply-chain-resources.md",
+      "category": "Supply Chain",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
     }
   ],
   "Multimodal": [
@@ -479,10 +484,6 @@
       "date_collected": "2025-06-18"
     },
     {
-      "title": "BadReward Clean-Label Poisoning",
-      "path": "data-poisoning/badreward-clean-label.md",
-      "category": "Training Alignment",
-      "sub_category": "Data Poisoning",
       "title": "Fuzzing Resources 2030",
       "path": "fuzzing/fuzzing-resources-2030.md",
       "category": "Fuzzing",
@@ -490,9 +491,6 @@
       "date_collected": "2025-06-19"
     },
     {
-      "title": "Fuzzing Resources 2028",
-      "path": "fuzzing/fuzzing-resources-2028.md",
-      "category": "Fuzzing",
       "title": "Alignment-Aware Model Extraction Attacks",
       "path": "inference/alignment-aware-mea.md",
       "category": "Inference",
@@ -516,9 +514,6 @@
   ],
   "Training & Alignment": [
     {
-      "title": "Mechanism-Centric Data Poisoning",
-      "path": "training-alignment/mechanism-centric-poisoning.md",
-      "category": "Training & Alignment",
       "title": "Token-Level Attack Resources 2027",
       "path": "token-level/token-level-resources-2027.md",
       "category": "Tokenization",
