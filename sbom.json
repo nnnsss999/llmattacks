@@ -70,6 +70,33 @@
     },
     {
       "type": "file",
+      "name": "attack-defense-matrix.md",
+      "bom-ref": "attack-defense-matrix.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Attack\u2013Defence Matrix"
+        },
+        {
+          "name": "category",
+          "value": "Overview"
+        },
+        {
+          "name": "source_url",
+          "value": "https://github.com/example/llmattacks"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "index.md",
       "bom-ref": "index.md",
       "properties": [
