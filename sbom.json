@@ -1112,6 +1112,33 @@
     },
     {
       "type": "file",
+      "name": "zero-day-resources-2026.md",
+      "bom-ref": "zero-day-resources-2026.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Zero-Day Resources 2026"
+        },
+        {
+          "name": "category",
+          "value": "Zero-Day"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "zero-day-resources.md",
       "bom-ref": "zero-day-resources.md",
       "properties": [
