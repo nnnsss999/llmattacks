@@ -113,3 +113,4 @@ docs/multimodal/visual-jailbreaking-resources-2032.md
 docs/zero-day-resources-2028.md
 docs/zero-day-resources-2032.md
 docs/zero-day-resources-2033.md
+docs/prompt-dialogue/prompt-engineering-resources-2033.md
