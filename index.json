@@ -721,6 +721,20 @@
       "category": "Optimization",
       "sub_category": "",
       "date_collected": "2025-06-20"
+    },
+    {
+      "title": "Evolutionary Algorithm Resources 2030",
+      "path": "optimization/evolutionary-resources-2030.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-21"
+    },
+    {
+      "title": "Evolutionary Algorithm Resources 2031",
+      "path": "optimization/evolutionary-resources-2031.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-22"
     }
   ]
 }
