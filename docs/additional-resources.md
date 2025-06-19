@@ -190,6 +190,7 @@ These references track emerging threats and defence research through 2026 and ar
 - [Prompt Engineering Attack Resources Extra](prompt-dialogue/prompt-engineering-resources-extra.md)
 - [Puzzler Attack Resources](prompt-dialogue/puzzler-attack-resources.md)
 - [Prompt Engineering Attack Resources 2027](prompt-dialogue/prompt-engineering-resources-2027.md)
+- [Prompt Engineering Attack Resources 2028](prompt-dialogue/prompt-engineering-resources-2028.md)
 - [Additional Resources on LLM Attacks 2027](additional-resources-2027.md)
 - [Fuzzing Resources 2027](fuzzing/fuzzing-resources-2027.md)
 - [Fuzzing Resources 2028](fuzzing/fuzzing-resources-2028.md)
