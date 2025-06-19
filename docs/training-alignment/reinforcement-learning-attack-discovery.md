@@ -174,6 +174,25 @@ Additional papers highlight emerging RL-driven attack vectors:
 - **RL-Driven Attack Agents** – open-source framework that continuously discovers new jailbreaks.
   [RL-AgentLab: Reinforcement Learning Agents for Automated Security Testing](https://github.com/example/rl-agentlab).
 
+Additional references covering reinforcement learning for cyber-attack discovery:
+
+- **CyberBattleSim** – open-source simulation environment for training RL agents to compromise networks.
+  [GitHub Repository](https://github.com/microsoft/CyberBattleSim).
+- **Autonomous Penetration Testing** – RL agent automatically plans and exploits attack paths.
+  [Autonomous Penetration Testing using Reinforcement Learning](https://arxiv.org/abs/1905.05965).
+- **Deep Reinforcement Learning for Cyber Security** – explores RL techniques that surface zero-day vulnerabilities.
+  [Deep Reinforcement Learning for Cyber Security](https://arxiv.org/abs/1906.05799).
+- **Cost-Effective Phishing Detection** – applies transferable RL to identify phishing attacks.
+  [A Transferable and Automatic Tuning of Deep Reinforcement Learning for Cost Effective Phishing Detection](https://arxiv.org/abs/2209.09033).
+- **CyberForce** – federated RL framework mitigating malware across distributed networks.
+  [CyberForce: A Federated Reinforcement Learning Framework for Malware Mitigation](https://arxiv.org/abs/2308.05978).
+- **Ransomware Red Team RL** – uses RL to simulate advanced ransomware campaigns for red teaming.
+  [Leveraging Reinforcement Learning in Red Teaming for Advanced Ransomware Attack Simulations](https://arxiv.org/abs/2406.17576).
+- **Resilient Cyber Defence** – multi-objective RL that discovers robust defence and attack strategies.
+  [Multi-Objective Reinforcement Learning for Automated Resilient Cyber Defence](https://arxiv.org/abs/2411.17585).
+- **DeepExploit** – fully automated penetration testing tool powered by deep RL.
+  [DeepExploit README](https://github.com/13o-bbr-bbq/machine_learning_security/blob/master/DeepExploit/README.md).
+
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine
 attacks over time. Defenders should audit reward models and monitor for
