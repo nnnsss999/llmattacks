@@ -78,5 +78,8 @@ This document aggregates references on fuzzing techniques for large language mod
 - [light-fuzz-gen Repository](https://github.com/pushinl/light-fuzz-gen)
 - [LLM4RtFuzz Repository](https://github.com/doslahtm/LLM4RtFuzz)
 - [lockpick Repository](https://github.com/FaintStep/lockpick)
+- [AutoPatch-LLM Repository](https://github.com/sysec-uic/AutoPatch-LLM)
+- [pallms Repository](https://github.com/mik0w/pallms)
+- [OWASP Machine Learning Security Top 10](https://github.com/OWASP/www-project-machine-learning-security-top-10)
 
 These references consolidate the fuzzing resources spread across multiple documents in this repository, giving researchers a centralized starting point for further exploration.
