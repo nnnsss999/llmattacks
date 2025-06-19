@@ -73,3 +73,6 @@ Additional references collected after the original snapshot:
 - [ChatGPT AutoExpert System Prompts](https://github.com/spdustin/ChatGPT-AutoExpert/blob/main/System%20Prompts.md#behind-the-scenes)
 
 These references track emerging threats and defence research through 2025 and are regularly reviewed for new developments.
+- [Vulnhuntr: Autonomous AI Finds First 0-Day Vulnerabilities in Wild](https://protectai.com/threat-research/vulnhuntr-first-0-day-vulnerabilities)
+- [Using Generative AI LLM agents to exploit zero-day vulnerabilities](https://www.cybercareers.blog/2024/07/using-generative-ai-llm-agents-to-exploit-zero-day-vulnerabilities/)
+

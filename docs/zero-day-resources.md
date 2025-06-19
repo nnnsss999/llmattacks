@@ -42,3 +42,9 @@ The references below document newly disclosed or proof-of-concept zero-day vulne
 - [CISA Known Exploited Vulnerabilities Catalog Entry for EchoLeak (CVE-2025-32711)](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 - [CVE-2025-32711 - EchoLeak Microsoft 365 Copilot Zero-Day](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32711)
 - [CVE-2025-37899 - Linux Kernel SMB Zero-Day](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-37899)
+- [Using Generative AI LLM agents to exploit zero-day vulnerabilities](https://www.cybercareers.blog/2024/07/using-generative-ai-llm-agents-to-exploit-zero-day-vulnerabilities/)
+- [Vulnhuntr: Autonomous AI Finds First 0-Day Vulnerabilities in Wild](https://protectai.com/threat-research/vulnhuntr-first-0-day-vulnerabilities)
+- [Benchmarking LLM for Zero-day Vulnerabilities](https://ieeexplore.ieee.org/document/10677338)
+- [ChatGPT's o3 Model Found Remote Zeroday in Linux Kernel Code](https://linuxiac.com/chatgpt-o3-model-found-remote-zeroday-in-linux-kernel-code/)
+- [How OpenAI’s o3 found CVE-2025-37899: A Linux kernel zeroday hidden in plain sight](https://business-news-today.com/how-openais-o3-found-cve-2025-37899-a-linux-kernel-zeroday-hidden-in-plain-sight/)
+
