@@ -92,6 +92,7 @@
 - https://about.sourcegraph.com/blog/security-update-august-2023
 - https://aclanthology.org/2024.emnlp-main.973
 - https://aclanthology.org/2024.emnlp-main.973/
+- https://aclanthology.org/2024.findings-acl.304/
 - https://aclanthology.org/2024.findings-emnlp.692
 - https://aclanthology.org/2024.findings-emnlp.692/
 - https://aclanthology.org/2024.findings-emnlp.803
@@ -178,7 +179,6 @@
 - https://arxiv.org/abs/2404.02532
 - https://arxiv.org/abs/2404.02532v1
 - https://arxiv.org/abs/2404.07921
-- https://arxiv.org/abs/2404.07921\u003c/a\u003e
 - https://arxiv.org/abs/2404.12345
 - https://arxiv.org/abs/2405.13068
 - https://arxiv.org/abs/2405.20773
@@ -222,10 +222,10 @@
 - https://arxiv.org/abs/2410.04884v1
 - https://arxiv.org/abs/2410.05047
 - https://arxiv.org/abs/2410.09097
+- https://arxiv.org/abs/2410.10700
 - https://arxiv.org/abs/2410.13640
 - https://arxiv.org/abs/2410.15236
 - https://arxiv.org/abs/2410.22143
-- https://arxiv.org/abs/2410.22143\u003c/a\u003e
 - https://arxiv.org/abs/2410.22284
 - https://arxiv.org/abs/2410.23308
 - https://arxiv.org/abs/2411.00459
@@ -366,6 +366,7 @@
 - https://arxiv.org/html/2404.03411v2#bib.bib8
 - https://arxiv.org/html/2404.03411v2#bib.bib9
 - https://arxiv.org/html/2404.03411v2?utm_source=chatgpt.com
+- https://arxiv.org/html/2406.01637v1
 - https://arxiv.org/html/2406.14859v1
 - https://arxiv.org/html/2407.17915v1
 - https://arxiv.org/html/2407.17915v1#S1.F1
@@ -601,9 +602,7 @@
 - https://arxiv.org/html/2503.19338v1
 - https://arxiv.org/html/2505.16008v1
 - https://arxiv.org/icons/licenses/by-4.0.png
-- https://arxiv.org/icons/licenses/by-4.0.png)view
 - https://arxiv.org/icons/licenses/by-nc-nd-4.0.png
-- https://arxiv.org/icons/licenses/by-nc-nd-4.0.png)view
 - https://arxiv.org/list/cs.CR/2024-09
 - https://arxiv.org/list/cs.CR/new
 - https://arxiv.org/list/cs.CR/recent
@@ -622,13 +621,9 @@
 - https://arxiv.org/pdf/2312.01037
 - https://arxiv.org/pdf/2312.06942.pdf
 - https://arxiv.org/pdf/2409.02718
-- https://arxiv.org/pdf/2409.02718)[HTML
 - https://arxiv.org/pdf/2409.12914v1
-- https://arxiv.org/pdf/2409.12914v1)[HTML
 - https://arxiv.org/pdf/2410.04884
-- https://arxiv.org/pdf/2410.04884)[HTML
 - https://arxiv.org/pdf/2503.19338
-- https://arxiv.org/pdf/2503.19338)[HTML
 - https://arxiv.org/prevnext?id=2409.02718&function=next&context=cs.CR
 - https://arxiv.org/prevnext?id=2409.02718&function=prev&context=cs.CR
 - https://arxiv.org/prevnext?id=2409.12914&function=next&context=cs.LG
@@ -746,26 +741,13 @@
 - https://arxiv.org/src/2410.04884
 - https://arxiv.org/src/2503.19338
 - https://arxiv.org/static/browse/0.3.4/css/cite.css
-- https://arxiv.org/static/browse/0.3.4/css/cite.css)export
 - https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg
-- https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg)](https://arxiv.org
 - https://arxiv.org/static/browse/0.3.4/images/arxiv-logomark-small-white.svg
-- https://arxiv.org/static/browse/0.3.4/images/arxiv-logomark-small-white.svg)](https://arxiv.org
 - https://arxiv.org/static/browse/0.3.4/images/icons/close-slider.png
-- https://arxiv.org/static/browse/0.3.4/images/icons/close-slider.png)](https://arxiv.org/abs/2409.02718
 - https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg
-- https://arxiv.org/static/browse/0.3.4/images/icons/cu/cornell-reduced-white-SMALL.svg)](https://www.cornell.edu
 - https://arxiv.org/static/browse/0.3.4/images/icons/smileybones-pixel.png
 - https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png
-- https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png)](http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2409.02718&description=%22Yes,%20My%20LoRD.%22%20Guiding%20Language%20Model%20Extraction%20with%20Locality%20Reinforced%20Distillation
-- https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png)](http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2409.12914&description=Defending%20against%20Reverse%20Preference%20Attacks%20is%20Difficult
-- https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png)](http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2410.04884&description=Patch%20is%20Enough:%20Naturalistic%20Adversarial%20Patch%20against%20Vision-Language%20Pre-training%20Models
-- https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png)](http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2503.19338&description=Membership%20Inference%20Attacks%20on%20Large-Scale%20Models:%20A%20Survey
 - https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png
-- https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png)](https://reddit.com/submit?url=https://arxiv.org/abs/2409.02718&title=%22Yes,%20My%20LoRD.%22%20Guiding%20Language%20Model%20Extraction%20with%20Locality%20Reinforced%20Distillation
-- https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png)](https://reddit.com/submit?url=https://arxiv.org/abs/2409.12914&title=Defending%20against%20Reverse%20Preference%20Attacks%20is%20Difficult
-- https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png)](https://reddit.com/submit?url=https://arxiv.org/abs/2410.04884&title=Patch%20is%20Enough:%20Naturalistic%20Adversarial%20Patch%20against%20Vision-Language%20Pre-training%20Models
-- https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png)](https://reddit.com/submit?url=https://arxiv.org/abs/2503.19338&title=Membership%20Inference%20Attacks%20on%20Large-Scale%20Models:%20A%20Survey
 - https://assets.anthropic.com/m/4fb35becb0cd87e1/original/SHADE-Arena-Paper.pdf
 - https://assets.anthropic.com/m/785e231869ea8b3b/original/claude-3-7-sonnet-system-card.pdf
 - https://assets.anthropic.com/m/c52125297b85a42/original/Confidential_Inference_Paper.pdf
@@ -1086,12 +1068,9 @@
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/65b07a606efa3bbc1281409f_DeepEval..svg
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/6610f87e6d1d616ef38034d5_logoagain.svg
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/6610ff7081317a42094c31f4_check%20(1
-- https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/6610ff7081317a42094c31f4_check%20(1).png
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/661106881e9d2d02f5060281_maximize.png
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/663f691918bd941c31328f05_star%20(1
-- https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/663f691918bd941c31328f05_star%20(1).svg
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/6781b3513abb57e6eefca4cb_github%20(1
-- https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/6781b3513abb57e6eefca4cb_github%20(1).svg
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/6783064c7be1a6e439628774_twitter.png
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/67830678db64cb3e074acebb_github.png
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/678306939e0c0b6adb2ca4fd_discord.png
@@ -1142,7 +1121,6 @@
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245aec/683fd0c9b8dcc2a6f1acaff2_mission-retrieval-p-800.jpg
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245aec/683fd0c9b8dcc2a6f1acaff2_mission-retrieval.jpg
 - https://cdn.prod.website-files.com/6690a78074d86ca0ad978007/679bc2e71b48e423c0ff7e60_1%20RedTeaming_DeepSeek_Jan29_2025%20(1
-- https://cdn.prod.website-files.com/6690a78074d86ca0ad978007/679bc2e71b48e423c0ff7e60_1%20RedTeaming_DeepSeek_Jan29_2025%20(1).pdf
 - https://cdn.sanity.io/images/4zrzovbb/website/057a57864dc1d2f7e6639a02f65ea77f08a19095-206x205.svg
 - https://cdn.sanity.io/images/4zrzovbb/website/06b5d1318cab69a2b8a3a6f815ba2e6107020be2-2200x1201.png
 - https://cdn.sanity.io/images/4zrzovbb/website/0d13b9aa75d71e3e3d61fd125f7e40131e9dda64-2200x1200.png
@@ -1219,6 +1197,7 @@
 - https://dl.acm.org/doi/10.1145/3698387.3699998
 - https://dl.acm.org/doi/10.1145/3708319.3733675
 - https://dl.acm.org/doi/10.1145/3737295
+- https://dl.acm.org/doi/abs/10.1145/3658644.3690291
 - https://dl.acm.org/doi/abs/10.5555/3666122.3668988?utm_source=chatgpt.com
 - https://docs.anthropic.com
 - https://docs.anthropic.com/
@@ -1322,6 +1301,7 @@
 - https://github.com/SchwinnL/LLM_Embedding_Attack
 - https://github.com/TrustAI-laboratory/Image-Prompt-Injection-Demo
 - https://github.com/YihanWang617/llm-jailbreaking-defense
+- https://github.com/Yu-Fangxu/COLD-Attack
 - https://github.com/abc03570128/Jailbreaking-Attack-against-Multimodal-Large-Language-Model
 - https://github.com/chenxshuo/RedTeamingGPT4V](https://github.com/chenxshuo/RedTeamingGPT4V
 - https://github.com/codespell-project/codespell
@@ -1356,6 +1336,7 @@
 - https://github.com/nnnsss999/llmattacks.git
 - https://github.com/pre-commit/mirrors-markdownlint
 - https://github.com/pricing
+- https://github.com/protectai/vulnhuntr
 - https://github.com/readme
 - https://github.com/resources/whitepapers
 - https://github.com/security
@@ -1660,7 +1641,6 @@
 - https://imajinn.ai
 - https://img.shields.io/badge/AmpleGCG-black?style=flat
 - https://img.shields.io/badge/AmpleGCG-black?style=flat&amp;logo=python&amp;logoColor=rgb
-- https://img.shields.io/badge/AmpleGCG-black?style=flat\u0026amp;logo=python\u0026amp;logoColor=rgb
 - https://infiniteuploads.com
 - https://influencemap.cmlab.dev
 - https://influencemap.cmlab.dev/
@@ -1730,6 +1710,7 @@
 - https://medium.com/%40SpoofIMEI/crlf-injection-ae26521c5e4c?utm_source=chatgpt.com
 - https://medium.com/@SpoofIMEI
 - https://medium.com/@SpoofIMEI/crlf-injection-ae26521c5e4c
+- https://medium.com/@danieldkang/llm-agents-can-autonomously-exploit-zero-day-vulnerabilities-e4664d7c598e
 - https://medium.com/nfactor-technologies/rag-poisoning-an-emerging-threat-in-ai-systems-660f9ff279f9
 - https://miro.medium.com/v2/5d8de952517e8160e40ef9841c781cdc14a5db313057fa3c3de41c6f5b494b19
 - https://miro.medium.com/v2/resize:fill:1000:1000/7*GAOKVe--MXbEJmV9230oOQ.png
@@ -1738,6 +1719,7 @@
 - https://miro.medium.com/v2/resize:fill:240:240/10fd5c419ac61637245384e7099e131627900034828f4f386bdaa47a74eae156
 - https://miro.medium.com/v2/resize:fill:304:304/10fd5c419ac61637245384e7099e131627900034828f4f386bdaa47a74eae156
 - https://miro.medium.com/v2/resize:fit:1200/1*dGbIt8jpAck_zx75CoE9jw.png
+- https://newatlas.com/technology/gpt4-autonomously-hack-zero-day-security-flaws/
 - https://news.vt.edu/articles/2024/02/AI-generated-fake-news-experts.html
 - https://news.ycombinator.com/submitlink?u
 - https://news.ycombinator.com/submitlink?u=
@@ -1757,8 +1739,6 @@
 - https://openreview.net/forum?id=AKsfpHc9sN&utm_source=chatgpt.com
 - https://openreview.net/forum?id=UfqzXg95I5
 - https://openreview.net/forum?id=UfqzXg95I5}
-- https://openreview.net/forum?id=UfqzXg95I5}\\n
-- https://openreview.net/forum?id=UfqzXg95I5}\\n}
 - https://openreview.net/forum?id=jTiJPDv82w](https://openreview.net/forum?id=jTiJPDv82w
 - https://openreview.net/forum?id=wI5uHZLeCZ
 - https://openreview.net/pdf?id=CLxcLPfARc
@@ -1880,6 +1860,8 @@
 - https://thehacker.news/defeating-digital-deception?source=below
 - https://thehackernews.com
 - https://thehackernews.com/
+- https://thehackernews.com/2023/07/fraudgpt-weaponizing.html
+- https://thehackernews.com/2023/07/wormgpt-hackers-gpt.html
 - https://thehackernews.com/2024/08/multi-stage-valleyrat-targets-chinese.html
 - https://thehackernews.com/2024/10/from-misuse-to-abuse-ai-risks-and.html
 - https://thehackernews.com/2025/04/malicious-pypi-package-targets-mexc.html
@@ -1900,6 +1882,7 @@
 - https://thehackernews.com/2025/06/redefining-cyber-value-why-business.html
 - https://thehackernews.com/2025/06/scattered-spider-understanding-help.html
 - https://thehackernews.com/2025/06/the-secret-defense-strategy-of-four.html
+- https://thehackernews.com/2025/06/zero-click-ai-vulnerability-exposes.html
 - https://thehackernews.com/downloads/favicon.ico
 - https://thehackernews.com/expert-insights
 - https://thehackernews.com/expert-insights/
@@ -2000,9 +1983,7 @@
 - https://unit42.paloaltonetworks.com/using-llms-obfuscate-malicious-javascript
 - https://unit42.paloaltonetworks.com/using-llms-obfuscate-malicious-javascript/
 - https://us1.discourse-cdn.com/openai1/original/3X/3/7/378d7f020156f5b0d5690cc96a527fd365c52c58.png
-- https://us1.discourse-cdn.com/openai1/original/3X/3/7/378d7f020156f5b0d5690cc96a527fd365c52c58.png)](https://us1.discourse-cdn.com/openai1/original/3X/3/7/378d7f020156f5b0d5690cc96a527fd365c52c58.png
 - https://us1.discourse-cdn.com/openai1/original/3X/b/8/b8b6289f7aeae98b583945a151fb47e7f9b2f593.png
-- https://us1.discourse-cdn.com/openai1/original/3X/b/8/b8b6289f7aeae98b583945a151fb47e7f9b2f593.png)](https://us1.discourse-cdn.com/openai1/original/3X/b/8/b8b6289f7aeae98b583945a151fb47e7f9b2f593.png
 - https://user-images.githubusercontent.com
 - https://user-images.githubusercontent.com/
 - https://v3ded.github.io/redteam/utilizing-programmatic-identifiers-progids-for-uac-bypasses
@@ -2071,10 +2052,12 @@
 - https://web.archive.org/web/20250618/venturebeat
 - https://web.archive.org/web/20250618/weforum
 - https://widgets.hawk-assets.co.uk
+- https://winbuzzer.com/2025/06/16/microsoft-365-copilot-critical-echoleak-flaw-turned-microsofts-own-ai-into-data-thief-xcxwbn/
 - https://windows.github.com
 - https://wired.jp/article/researchers-llm-ai-robot-violence
 - https://wired.jp/article/researchers-llm-ai-robot-violence/
 - https://wp-rocket.me
+- https://www.aim.security/lp/aim-labs-echoleak-blogpost
 - https://www.alignmentforum.org/posts/ChDH335ckdvpxXaXX/model-organisms-of-misalignment-the-case-for-a-new-pillar-of-1
 - https://www.alignmentforum.org/posts/WCj7WgFSLmyKaMwPR/coup-probes-catching-catastrophes-with-probes-trained-off
 - https://www.alignmentforum.org/posts/nbq2bWLcYmSGup9aF/a-transparency-and-interpretability-tech-tree
@@ -2087,8 +2070,6 @@
 - https://www.anthropic.com/news/probes-catch-sleeper-agents
 - https://www.anthropic.com/news/probes-catch-sleeper-agents}
 - https://www.anthropic.com/news/probes-catch-sleeper-agents},
-- https://www.anthropic.com/news/probes-catch-sleeper-agents},\\n
-- https://www.anthropic.com/news/probes-catch-sleeper-agents},\\n}
 - https://www.anthropic.com/news/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training
 - https://www.anthropic.com/news/visible-extended-thinking
 - https://www.anthropic.com/partners/mcp
@@ -2153,11 +2134,9 @@
 - https://www.apexhq.ai/wp-content/themes/airfleet-lightyear/dist/assets/frontend/scripts/index.entry.js?ver=1.3.0-1749561098
 - https://www.apexhq.ai/wp-content/themes/airfleet-lightyear/dist/block-cta-layout-blog-inner-footer-form-single-field.ef28c7bc.png
 - https://www.apexhq.ai/wp-content/themes/airfleet-lightyear/dist/block-cta-side-by-side-desktop.6cb32498.svg
-- https://www.apexhq.ai/wp-content/themes/airfleet-lightyear/dist/block-cta-side-by-side-desktop.6cb32498.svg)}}.afb-cta--layout-blog-inner-form
 - https://www.apexhq.ai/wp-content/themes/airfleet-lightyear/dist/block-cta-side-by-side-mobile.f9e35af6.svg
 - https://www.apexhq.ai/wp-content/themes/airfleet-lightyear/dist/boxed-cta-mobile.7af95b6d.png
 - https://www.apexhq.ai/wp-content/themes/airfleet-lightyear/dist/boxed-cta.f419268d.png
-- https://www.apexhq.ai/wp-content/themes/airfleet-lightyear/dist/boxed-cta.f419268d.png);min-height:378px;padding:29px
 - https://www.apexhq.ai/wp-content/themes/airfleet-lightyear/dist/icon-checkbox-checked.ad504291.svg
 - https://www.apexhq.ai/wp-content/themes/airfleet-lightyear/dist/views/blocks/footer/footer.entry.js?ver=1.3.0-1749561098
 - https://www.apexhq.ai/wp-content/themes/airfleet-lightyear/dist/views/blocks/header/header.entry.js?ver=1.3.0-1749561098
@@ -2223,6 +2202,7 @@
 - https://www.connectedpapers.com/about
 - https://www.cornell.edu
 - https://www.cornell.edu/
+- https://www.csoonline.com/article/4005965/first-ever-zero-click-attack-targets-microsoft-365-copilot.html
 - https://www.cyberark.com/resources/threat-research-blog/jailbreaking-every-llm-with-one-simple-click
 - https://www.europarl.europa.eu/news/en/press-room/20231206IPR15699/artificial-intelligence-act-deal-on-comprehensive-rules-for-trustworthy-ai
 - https://www.facebook.com/TechRadar
@@ -2233,6 +2213,7 @@
 - https://www.facebook.com/thehackernews
 - https://www.facebook.com/venturebeat
 - https://www.facebook.com/venturebeat/
+- https://www.forbes.com/sites/daveywinder/2024/11/05/google-claims-world-first-as-ai-finds-0-day-security-vulnerability/
 - https://www.githubstatus.com
 - https://www.githubstatus.com/
 - https://www.google.com/cse
@@ -2278,12 +2259,12 @@
 - https://www.litmaps.co/
 - https://www.mdpi.com/2079-9292/14/10/1907
 - https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/10/09/5-key-features-and-benefits-of-large-language-models/#:~:text=Large%20language%20models%20(LLMs
-- https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/10/09/5-key-features-and-benefits-of-large-language-models/#:~:text=Large%20language%20models%20(LLMs)%20offer,provide%20intelligent%20responses%20to%20queries
 - https://www.nature.com/articles/s41586-024-07566-y
 - https://www.nature.com/articles/s41586-024-07566-y?
 - https://www.ndss-symposium.org/wp-content/uploads/2024-188-paper.pdf
 - https://www.paloaltonetworks.com/cyberpedia/what-is-a-prompt-injection-attack
 - https://www.pillar.security/blog/a-deep-dive-into-llm-jailbreaking-techniques-and-their-implications
+- https://www.pillar.security/blog/strengthening-llm-security-insights-from-owasps-2025-top-10-list
 - https://www.promptfoo.dev/blog/how-to-jailbreak-llms
 - https://www.promptfoo.dev/blog/how-to-jailbreak-llms/
 - https://www.promptfoo.dev/docs/red-team/strategies/gcg
@@ -2297,8 +2278,10 @@
 - https://www.reddit.com/submit?url=https://www.techradar.com/pro/security/this-cyberattack-lets-hackers-crack-ai-models-just-by-changing-a-single-character&amp;title=This%20cyberattack%20lets%20hackers%20crack%20AI%20models%20just%20by%20changing%20a%20single%20character
 - https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01
 - https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/
+- https://www.schneier.com/blog/archives/2024/06/using-llms-to-exploit-vulnerabilities.html
 - https://www.scite.ai
 - https://www.scite.ai/
+- https://www.securityweek.com/echoleak-ai-attack-enabled-theft-of-sensitive-data-via-microsoft-365-copilot/
 - https://www.semanticscholar.org/paper/3de19f0fbc5add0f74bde83dfb5798294d589c33
 - https://www.semanticscholar.org/paper/53caa0c341ba43cbec7f0c92a4e73f6ea8db7128
 - https://www.semanticscholar.org/paper/53e3cd36df0ef035a7503783b55d005d1e7c0a67
@@ -2376,6 +2359,7 @@
 - https://www.theregister.com/2024/07/29/meta_ai_safety/
 - https://www.theregister.com/2024/09/17/ai_models_guardrail_feature
 - https://www.theregister.com/2024/09/17/ai_models_guardrail_feature/
+- https://www.theregister.com/2024/12/29/llm_supply_chain_attacks/
 - https://www.theregister.com/2025/01/17/microsoft_ai_redteam_infosec_warning
 - https://www.theregister.com/2025/01/17/microsoft_ai_redteam_infosec_warning/
 - https://www.theregister.com/2025/01/17/nvidia_cisco_ai_guardrails_security
@@ -2396,9 +2380,11 @@
 - https://www.theregister.com/2025/02/25/fine_sought_ai_filing_mistakes
 - https://www.theregister.com/2025/02/25/fine_sought_ai_filing_mistakes/
 - https://www.threads.net/intent/post?url=https%3A%2F%2Fwww.techradar.com%2Fpro%2Fsecurity%2Fthis-cyberattack-lets-hackers-crack-ai-models-just-by-changing-a-single-character&amp;text=This%20cyberattack%20lets%20hackers%20crack%20AI%20models%20just%20by%20changing%20a%20single%20character
+- https://www.threatdown.com/blog/teams-of-ai-agents-can-exploit-zero-day-vulnerabilities/
 - https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/slopsquatting-when-ai-agents-hallucinate-malicious-packages
 - https://www.trydeepteam.com/docs/getting-started
 - https://www.turing.ac.uk/blog/llms-are-ever-more-convincing-important-consequences-election-disinformation
+- https://www.upwind.io/glossary/llmjacking-what-is-it-and-why-is-it-a-concern
 - https://www.usenix.org/conference/usenixsecurity25/presentation/villa
 - https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf
 - https://www.veracode.com/blog/down-the-rabbit-hole-of-unicode-obfuscation
