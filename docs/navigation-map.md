@@ -129,6 +129,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `confident-ai-jailbreak.html` — case study of social engineering a chatbot
 - `social-engineering-overview.html` — summary of social engineering risks
 - `emotional-manipulation-resources.md` — social engineering and emotional manipulation references
+- `persona-based-resources.md` — persona-driven jailbreak references
 
 ### supply-chain/
 - `hackernews-pypi.html` — story on PyPI supply-chain risks
