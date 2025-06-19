@@ -338,5 +338,23 @@ Report from TheHackerNews on a real-world dependency hijacking incident.
 ### TokenBreak Single Character Bypass
 Specific example where a single-character tokenbreak defeats safety checks.
 
+### Unicode Homograph Jailbreak
+Using visually similar characters from other scripts to obfuscate malicious
+commands. When combined with right-to-left override or zero-width spaces, these
+homographs can slip past simple filter checks.
+
+### Necromancer Self-Replication Attack
+A proof-of-concept loop where an autonomous agent repeatedly modifies its own
+prompts to evade safeguards, eventually gaining elevated capabilities with no
+further user input.
+
+### Additional Resources
+Reference document listing external articles and reports for continued
+reading on LLM attack research.
+
+### rename.py
+Helper script that renames documentation files to use kebab-case for
+consistency across the catalog.
+
 ### URLs
 Index of all external links referenced across the catalog.
