@@ -27,3 +27,10 @@ The following references provide further background on tokenization-based attack
 - [DeSparsify: Adversarial Attack Against Token Sparsification Mechanisms](https://openreview.net/forum?id=D4yRz3s7UL) - Attack targeting tokenizer sparsification defences.
 - [BOOST: Enhanced Jailbreak of Large Language Model via Slient eos Tokens](https://openreview.net/forum?id=JqKh7FLUw1) - Describes injecting hidden end-of-sequence tokens for jailbreaking.
 - [Universal Adversarial Triggers Are Not Universal](https://openreview.net/forum?id=sKlMMzp4QI) - Discusses limits of universal token triggers and how they relate to LLM attacks.
+
+- [Defining The Token-level AI Jailbreaking Techniques](https://briandcolwell.com/defining-the-token-level-ai-jailbreaking-techniques/) - Blog post summarizing token-level jailbreak methods and optimizations.
+- [The Silent Threat: When Tokens Become Weapons](https://blog.ailab.sh/2024/11/the-silent-threat-when-tokens-become.html) - Detailed look at tokenization vulnerabilities in LLMs.
+- [Understanding Token Splitting Attacks in LLMs](https://www.proventra-ai.com/blog/understanding-token-splitting-attacks-llms) - Walkthrough of token-splitting to insert malicious content.
+- [Some Notes on Adversarial Attacks on LLMs](https://cybernetist.com/2024/09/23/some-notes-on-adversarial-attacks-on-llms/) - Practitioner notes covering token-level manipulations.
+- [Beware of Special Token Injections in LLMs](https://medium.com/@_jeremy_/beware-of-special-token-injections-in-llms-a-new-form-of-sql-injection-like-attack-d0bceb8bda94) - Medium article describing reserved-token injection risks.
+- [The Subtle Art of Jailbreaking LLMs](https://andpalmier.com/posts/jailbreaking-llms/) - High-level guide to jailbreak strategies including token-focused tricks.

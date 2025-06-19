@@ -6,7 +6,8 @@ date_collected: 2025-06-18
 license: "CC-BY-4.0"
 ---
 
-The following articles and research papers document the **Many-Shot Jailbreaking** technique and proposed mitigations.
+The following articles and research papers document the
+**Many-Shot Jailbreaking** technique and proposed mitigations.
 
 - [Many-shot jailbreaking (Anthropic Research)](https://www.anthropic.com/research/many-shot-jailbreaking)
 - [Large-Scale Jailbreaking via Many-Shot Prompting (NeurIPS 2024)](https://openreview.net/forum?id=cw5mgd71jW)
@@ -21,3 +22,7 @@ The following articles and research papers document the **Many-Shot Jailbreaking
 - [PANDAS: Improving Many-shot Jailbreaking via Positive Affirmation, Negative Demonstration, and Adaptive Sampling (arXiv:2502.01925)](https://arxiv.org/abs/2502.01925)
 - [Compromesso! Italian Many-Shot Jailbreaks Undermine the Safety of Large Language Models (arXiv:2408.04522)](https://arxiv.org/abs/2408.04522)
 - [Improved Few-Shot Jailbreaking Can Circumvent Aligned Language Models and Their Defenses (arXiv:2406.01288)](https://arxiv.org/abs/2406.01288)
+- [LLM Guardrails Fall to a Simple "Many-Shot Jailbreaking" Attack, Anthropic Warns (Hackster.io)](https://www.hackster.io/news/llm-guardrails-fall-to-a-simple-many-shot-jailbreaking-attack-anthropic-warns-f6eb7b37f4cc)
+- [Cognitive Overload Attack: Prompt Injection for Long Context (SAIL Lab)](https://sail-lab.org/cognitive-overload-attack-prompt-injection-for-long-context/)
+- [LongSafety: Evaluating Long-Context Safety of Large Language Models (arXiv:2502.16971)](https://arxiv.org/abs/2502.16971)
+- [Many-Shot Jailbreaking (PDF)](https://www-cdn.anthropic.com/af5633c94ed2beb282f6a53c595eb437e8e7b630/Many_Shot_Jailbreaking__2024_04_02_0936.pdf)
