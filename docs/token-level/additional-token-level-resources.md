@@ -34,3 +34,7 @@ The following references provide further background on tokenization-based attack
 - [Some Notes on Adversarial Attacks on LLMs](https://cybernetist.com/2024/09/23/some-notes-on-adversarial-attacks-on-llms/) - Practitioner notes covering token-level manipulations.
 - [Beware of Special Token Injections in LLMs](https://medium.com/@_jeremy_/beware-of-special-token-injections-in-llms-a-new-form-of-sql-injection-like-attack-d0bceb8bda94) - Medium article describing reserved-token injection risks.
 - [The Subtle Art of Jailbreaking LLMs](https://andpalmier.com/posts/jailbreaking-llms/) - High-level guide to jailbreak strategies including token-focused tricks.
+- [Adversarial Attacks on LLMs | Lil'Log](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)
+- [A Deep Dive into LLM Attacks and Countermeasures](https://medium.com/@nirvana.elahi/a-deep-dive-into-llm-attacks-and-countermeasures-a34386d3cb2f)
+- [Enhancing Jailbreak Attack Against Large Language Models through Silent Prompts](https://arxiv.org/abs/2405.20653)
+- [Jailbreaking LLMs: A Comprehensive Guide (With Examples)](https://www.promptfoo.dev/blog/how-to-jailbreak-llms/)
