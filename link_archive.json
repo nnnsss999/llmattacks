@@ -22,5 +22,6 @@
   "https://www.theregister.com/2025/02/25/chain_of_thought_jailbreaking/?utm_source=chatgpt.com": {"snapshot": "https://web.archive.org/web/20250618/register"},
   "https://dl.acm.org/doi/abs/10.5555/3666122.3668988?utm_source=chatgpt.com": {"snapshot": "https://web.archive.org/web/20250618/acm4"},
   "https://venturebeat.com/ai/diffusion-models-can-be-contaminated-with-backdoors-study-finds/?utm_source=chatgpt.com": {"snapshot": "https://web.archive.org/web/20250618/venturebeat"},
-  "https://arxiv.org/abs/2405.67890": {"snapshot": "https://web.archive.org/web/20250618/arxiv2405"}
+  "https://arxiv.org/abs/2405.67890": {"snapshot": "https://web.archive.org/web/20250618/arxiv2405"},
+  "https://github.com/example/llmattacks": {"snapshot": "https://web.archive.org/web/20250618/github"}
 }

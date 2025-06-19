@@ -8,6 +8,8 @@ nav:
   - Home: index.md
   - Catalog: 'Comprehensive Catalog of LLM Jailbreaking and Attack Techniques.md'
   - Attack–Defence Matrix: attack-defense-matrix.md
+  - Glossary: glossary.md
+  - Repository Map: navigation-map.md
   - Categories:
       - Agentic: agentic/index.md
       - Training Alignment: training-alignment/reinforcement-learning-alignment-attacks.md
