@@ -61,5 +61,15 @@ Additional references collected after the original snapshot:
 - [Responsible Prompt Engineering: An Embedding-Based Approach to Secure LLM Interactions](https://www.ijraset.com/best-journal/responsible-prompt-engineering-an-embedding-based-approach-to-secure-llm-interactions)
 - [OWASP LLM Top 10: Vector and Embedding Weaknesses](https://scrumgit.com/owasp-llm-top-10-vector-and-embedding-weaknesses-285754bef598)
 - [Dissecting Auto-GPT's Prompt](https://community.openai.com/t/dissecting-auto-gpts-prompt/163892)
+- [Red Teaming and Safer AI](https://www.weforum.org/stories/2025/06/red-teaming-and-safer-ai/)
+- [Microsoft AI Red Team Warning](https://www.theregister.com/2025/01/17/microsoft_ai_redteam_infosec_warning/)
+- [Nvidia & Cisco AI Guardrails Security](https://www.theregister.com/2025/01/17/nvidia_cisco_ai_guardrails_security/)
+- [JailbreakFunction Repository](https://github.com/wooozihui/jailbreakfunction)
+- [PoisonedRAG Dataset](https://github.com/sleeepeer/PoisonedRAG)
+- [GPTFuzz Project](https://github.com/sherdencooper/GPTFuzz)
+- [CL4R1T4S Attack Toolkit](https://github.com/elder-plinius/CL4R1T4S)
+- [L1B3RT4S Jailbreak Suite](https://github.com/elder-plinius/L1B3RT4S)
+- [STEGOSAURUS-WRECKS Prompt Obfuscation](https://github.com/elder-plinius/STEGOSAURUS-WRECKS)
+- [ChatGPT AutoExpert System Prompts](https://github.com/spdustin/ChatGPT-AutoExpert/blob/main/System%20Prompts.md#behind-the-scenes)
 
 These references track emerging threats and defence research through 2025 and are regularly reviewed for new developments.
