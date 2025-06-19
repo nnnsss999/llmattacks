@@ -100,6 +100,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `amplegcg-repo.html` — source repository page for the above
 - `brokenhill.html` — BrokenHill dataset introduction
 - `jbfuzz.html` — fuzzing prompts with jbfuzz
+- `open-sesame-ga.md` — genetic algorithm for universal jailbreaks
 - `obscureprompt.html` — optimization technique for hidden prompts
 - `promptfuzz.html` — automated prompt fuzzing
 - `projected-gradient-descent-attack.md` — PGD-based jailbreaks

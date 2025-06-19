@@ -119,6 +119,7 @@ These references track emerging threats and defence research through 2026 and ar
 - [Learn to Disguise: Avoid Refusal Responses in LLM’s Defense via a Multi-Agent Attacker-Disguiser Game](https://arxiv.org/abs/2404.02532)
 - [Open Sesame! Universal Black-Box Jailbreaking of Large Language Models](https://arxiv.org/abs/2309.01446)
 
+- [JBFuzz: Jailbreaking LLMs Efficiently and Effectively Using Fuzzing](https://arxiv.org/abs/2403.11315)
 - [Large Language Models Based Fuzzing Techniques: A Survey](https://arxiv.org/abs/2402.00350)
 - [Fuzz4All: Universal Fuzzing with LLMs](https://arxiv.org/abs/2308.04748)
 - [LLMFuzzer: Fuzzing Framework for Large Language Models](https://github.com/mnns/LLMFuzzer)
