@@ -21,6 +21,18 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 - Broken links are checked via `lychee` in CI.
 - A scheduled workflow refreshes external links weekly and stores Wayback Machine snapshots in `link_archive.json`.
 
+## API Access
+
+An experimental REST and GraphQL API exposes the compiled catalog for automated
+tooling. Launch it with:
+
+```bash
+python scripts/api_server.py
+```
+
+This starts a local FastAPI server with `GET /entries` and `/entries/{category}`
+endpoints and a GraphQL endpoint at `/graphql`.
+
 ## Contributing
 
 Contributions are welcome! Please review [CONTRIBUTING.md](CONTRIBUTING.md) for coding style and front‑matter guidelines. All content must respect the project license and third‑party terms.
