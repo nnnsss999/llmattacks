@@ -145,6 +145,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `authority-simulation-resources-2027.md` — continued research
 - `authority-simulation-resources-2028.md` — additional citations
 - `authority-simulation-resources-2029.md` — latest references
+- `authority-simulation-resources-2030.md` — ongoing citations
 
 ### supply-chain/
 - `hackernews-pypi.html` — story on PyPI supply-chain risks
