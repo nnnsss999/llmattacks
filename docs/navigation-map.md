@@ -79,6 +79,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 ### latent-space/
 - `latent-space-attack-resources.md` — curated latent space references
 - `latent-space-resources-2026.md` — additional latent-space papers
+- `latent-space-resources-2027.md` — newer latent-space research
 - `apexhq-latentspace.html` — attack on latent representations
 - `obfuscated-activations.html` — obfuscating activations during alignment
 
@@ -129,6 +130,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `confident-ai-jailbreak.html` — case study of social engineering a chatbot
 - `social-engineering-overview.html` — summary of social engineering risks
 - `emotional-manipulation-resources.md` — social engineering and emotional manipulation references
+- `persona-based-resources.md` — persona-driven jailbreak references
 
 ### supply-chain/
 - `hackernews-pypi.html` — story on PyPI supply-chain risks
