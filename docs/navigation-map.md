@@ -113,6 +113,11 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `reinforcement-learning-alignment-attacks.md` — RL alignment attack taxonomy
 - `reverse-preference-attack.html` — deep dive on reverse preference attacks
 
+### data-poisoning/
+- `index.md` — overview of data poisoning attacks
+- `badreward-clean-label.md` — clean-label poisoning of reward models
+- `adversarial-preference-learning.md` — adversarial preference corruption
+
 ### Other docs
 - `Comprehensive Catalog of LLM Jailbreaking and Attack Techniques.md` — master catalog document
 - `attack-defense-matrix.md` — mapping of attacks to defences
