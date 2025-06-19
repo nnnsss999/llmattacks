@@ -12,5 +12,6 @@ The following articles and reports provide additional insight into supply-chain 
 - [AI supply chain security risks](https://securityboulevard.com/2023/10/ai-supply-chain-security-risks/) explores how attackers target dependencies pulled into AI projects.
 - [Supply chain attacks and LLMs](https://www.fortinet.com/blog/security/supply-chain-attacks-and-llms) reviews recent incidents where malicious packages compromised AI tooling.
 - [LLM supply chain security risks research](https://www.securityweek.com/llm-supply-chain-security-risks-research/) summarizes findings from the infosec community on securing model artefacts.
+- [NIST AI Supply Chain Guidance](nist-ai-supply-chain-guidance.pdf) covers government recommendations for securing AI model pipelines.
 
 These references expand on the threats described in [LLM Supply Chain Attacks](llm-supply-chain-attacks.md) and highlight mitigation steps ranging from rigorous dependency scanning to verifying pre-trained model signatures.
