@@ -2057,6 +2057,7 @@
 - https://bsky.app/profile/dublincore.org
 - https://bsky.app/profile/wordpress.org
 - https://buddypress.org/
+- https://business-news-today.com/how-openais-o3-found-cve-2025-37899-a-linux-kernel-zeroday-hidden-in-plain-sight/
 - https://business.whatsapp.com/
 - https://camo.githubusercontent.com/76ea0c15453736272c6e44d603c6c2283475adfd8f118263b71521f1f28e1d1a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f416d706c654743472d626c61636b3f7374796c653d666c6174266c6f676f3d707974686f6e266c6f676f436f6c6f723d726762
 - https://carnegieendowment.org/research/2024/08/china-artificial-intelligence-ai-safety-regulation?lang=en
@@ -3208,6 +3209,7 @@
 - https://ieeexplore.ieee.org/document/10487667/
 - https://ieeexplore.ieee.org/document/10646612
 - https://ieeexplore.ieee.org/document/10646612/
+- https://ieeexplore.ieee.org/document/10677338
 - https://ieeexplore.ieee.org/document/10835584
 - https://ieeexplore.ieee.org/document/10835584/
 - https://ieeexplore.ieee.org/document/11011372
@@ -3276,6 +3278,7 @@
 - https://linkedin.com/shareArticle?mini=true&#038;title=The%20TokenBreak%20Attack&#038;url=https://hiddenlayer.com/innovation-hub/the-tokenbreak-attack
 - https://linkedin.com/shareArticle?mini=true&#038;title=The%20TokenBreak%20Attack&#038;url=https://hiddenlayer.com/innovation-hub/the-tokenbreak-attack/
 - https://linkinghub.elsevier.com/retrieve/pii/S0020025523000208
+- https://linuxiac.com/chatgpt-o3-model-found-remote-zeroday-in-linux-kernel-code/
 - https://llvm.org/docs/LibFuzzer.html
 - https://lmsys.org/blog/2023-03-30-vicuna
 - https://lmsys.org/blog/2023-03-30-vicuna/
@@ -3436,6 +3439,7 @@
 - https://proceedings.neurips.cc/paper_files/paper/2021/file/9d99197e2ebf03fc388d09f1e94af89b-Paper.pdf.ReubenFeinman,RyanR.Curtin,SaurabhShintre,andAndrewB.Gardner.DetectingAdversarialSamplesfromArtifacts.arXiv,March2017.doi:10.48550/arXiv.1703.00410.URLhttps://arxiv.org/abs/1703.00410v3.StanislavFortandBalajiLakshminarayanan.Ensembleeverythingeverywhere:Multi-scaleaggregationforadversarialrobustness.arXiv,August2024.doi:10.48550/arXiv.2408.05446.URLhttps://arxiv.org/abs/2408.05446v1.DanFriedman,AndrewLampinen,LucasDixon,DanqiChen,andAsmaGhandeharioun.In-terpretabilityIllusionsintheGeneralizationofSimplifiedModels.arXiv,December2023.doi:10.48550/arXiv.2312.03656.URLhttps://arxiv.org/abs/2312.03656.RohitGandikota,SheridanFeucht,SamuelMarks,andDavidBau.ErasingConceptualKnowledgefromLanguageModels.arXiv,October2024.doi:10.48550/arXiv.2410.02760.URLhttps://arxiv.org/abs/2410.02760v1.LeoGao,TomDupr
 - https://proceedings.neurips.cc/paper_files/paper/2024/file/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Paper-Conference.pdf
 - https://proceedings.neurips.cc/paper_files/paper/2024/file/ea456e232efb72d261715e33ce25f208-Paper-Conference.pdf
+- https://protectai.com/threat-research/vulnhuntr-first-0-day-vulnerabilities
 - https://purch1.atlassian.net/wiki/spaces/SUPPORT/pages/10863312897/Feature+Flags
 - https://px.ads.linkedin.com/collect/?pid=5765668&fmt=gif
 - https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png
@@ -4174,6 +4178,7 @@
 - https://www.cornell.edu/
 - https://www.csoonline.com/article/4005965/first-ever-zero-click-attack-targets-microsoft-365-copilot.html
 - https://www.cyberark.com/resources/threat-research-blog/jailbreaking-every-llm-with-one-simple-click
+- https://www.cybercareers.blog/2024/07/using-generative-ai-llm-agents-to-exploit-zero-day-vulnerabilities/
 - https://www.cybersecuritydive.com/news/flaw-microsoft-copilot-zero-click-attack/750456/
 - https://www.dublincore.org/conferences/2025/
 - https://www.dublincore.org/index.xml
