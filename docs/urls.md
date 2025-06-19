@@ -179,6 +179,7 @@
 - https://arxiv.org/abs/2404.02532
 - https://arxiv.org/abs/2404.02532v1
 - https://arxiv.org/abs/2404.07921
+- https://arxiv.org/abs/2404.07921\u003c/a\u003e
 - https://arxiv.org/abs/2404.12345
 - https://arxiv.org/abs/2405.13068
 - https://arxiv.org/abs/2405.20773
@@ -226,6 +227,7 @@
 - https://arxiv.org/abs/2410.13640
 - https://arxiv.org/abs/2410.15236
 - https://arxiv.org/abs/2410.22143
+- https://arxiv.org/abs/2410.22143\u003c/a\u003e
 - https://arxiv.org/abs/2410.22284
 - https://arxiv.org/abs/2410.23308
 - https://arxiv.org/abs/2411.00459
@@ -1067,9 +1069,12 @@
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/654f2ee57db9aa282c7a1700_logo2.png
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/65b07a606efa3bbc1281409f_DeepEval..svg
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/6610f87e6d1d616ef38034d5_logoagain.svg
+- https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/6610ff7081317a42094c31f4_check%20
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/6610ff7081317a42094c31f4_check%20(1
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/661106881e9d2d02f5060281_maximize.png
+- https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/663f691918bd941c31328f05_star%20
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/663f691918bd941c31328f05_star%20(1
+- https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/6781b3513abb57e6eefca4cb_github%20
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/6781b3513abb57e6eefca4cb_github%20(1
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/6783064c7be1a6e439628774_twitter.png
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245a8a/67830678db64cb3e074acebb_github.png
@@ -1120,6 +1125,7 @@
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245aec/683fd0c9b8dcc2a6f1acaff2_mission-retrieval-p-500.jpg
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245aec/683fd0c9b8dcc2a6f1acaff2_mission-retrieval-p-800.jpg
 - https://cdn.prod.website-files.com/64bd90bdba579d6cce245aec/683fd0c9b8dcc2a6f1acaff2_mission-retrieval.jpg
+- https://cdn.prod.website-files.com/6690a78074d86ca0ad978007/679bc2e71b48e423c0ff7e60_1%20RedTeaming_DeepSeek_Jan29_2025%20
 - https://cdn.prod.website-files.com/6690a78074d86ca0ad978007/679bc2e71b48e423c0ff7e60_1%20RedTeaming_DeepSeek_Jan29_2025%20(1
 - https://cdn.sanity.io/images/4zrzovbb/website/057a57864dc1d2f7e6639a02f65ea77f08a19095-206x205.svg
 - https://cdn.sanity.io/images/4zrzovbb/website/06b5d1318cab69a2b8a3a6f815ba2e6107020be2-2200x1201.png
@@ -1230,7 +1236,9 @@
 - https://doi.org/10.48550/arXiv.2402.16006
 - https://doi.org/10.48550/arXiv.2404.02532
 - https://doi.org/10.48550/arXiv.2406.14859
+- https://doi.org/10.48550/arXiv.2409.02718
 - https://doi.org/10.48550/arXiv.2409.02718](https://doi.org/10.48550/arXiv.2409.02718
+- https://doi.org/10.48550/arXiv.2409.12914
 - https://doi.org/10.48550/arXiv.2409.12914](https://doi.org/10.48550/arXiv.2409.12914
 - https://doi.org/10.48550/arXiv.2409.14729
 - https://doi.org/10.48550/arXiv.2410.04884
@@ -1239,6 +1247,7 @@
 - https://doi.org/10.48550/arXiv.2411.12762
 - https://doi.org/10.48550/arXiv.2412.09565
 - https://doi.org/10.48550/arXiv.2501.18536
+- https://doi.org/10.48550/arXiv.2503.19338
 - https://doi.org/10.48550/arXiv.2503.19338](https://doi.org/10.48550/arXiv.2503.19338
 - https://doi.org/10.48550/arXiv.2505.16008
 - https://emoji.discourse-cdn.com/twitter/slight_smile.png?v=12
@@ -1303,6 +1312,7 @@
 - https://github.com/YihanWang617/llm-jailbreaking-defense
 - https://github.com/Yu-Fangxu/COLD-Attack
 - https://github.com/abc03570128/Jailbreaking-Attack-against-Multimodal-Large-Language-Model
+- https://github.com/chenxshuo/RedTeamingGPT4V
 - https://github.com/chenxshuo/RedTeamingGPT4V](https://github.com/chenxshuo/RedTeamingGPT4V
 - https://github.com/codespell-project/codespell
 - https://github.com/collections
@@ -1344,6 +1354,7 @@
 - https://github.com/sherdencooper/GPTFuzz
 - https://github.com/sleeepeer/PoisonedRAG
 - https://github.com/solutions/executive-insights
+- https://github.com/spdustin/ChatGPT-AutoExpert/blob/main/System%20Prompts.md#behind-the-scenes
 - https://github.com/spdustin/ChatGPT-AutoExpert/blob/main/System%20Prompts.md#behind-the-scenes](https://github.com/spdustin/ChatGPT-AutoExpert/blob/main/System%20Prompts.md#behind-the-scenes
 - https://github.com/team
 - https://github.com/theshi-1128/llm-defense
@@ -1352,6 +1363,7 @@
 - https://github.com/uglyrobot
 - https://github.com/uglyrobot/
 - https://github.com/why-github
+- https://github.com/wooozihui/jailbreakfunction
 - https://github.com/wooozihui/jailbreakfunction](https://github.com/wooozihui/jailbreakfunction
 - https://github.githubassets.com
 - https://github.githubassets.com/
@@ -1603,8 +1615,10 @@
 - https://hiddenlayer2.extimahosting.com/wp-content/uploads/Group-61698.png
 - https://hiddenlayer2.extimahosting.com/wp-content/uploads/Group-61712.png
 - https://honggfuzz.dev
+- https://huggingface.co/JosephusCheung/Guanaco
 - https://huggingface.co/JosephusCheung/Guanaco](https://huggingface.co/JosephusCheung/Guanaco
 - https://huggingface.co/PKU-Alignment/beaver-7b-v1.0-cost
+- https://huggingface.co/adept/fuyu-8b
 - https://huggingface.co/adept/fuyu-8b](https://huggingface.co/adept/fuyu-8b
 - https://huggingface.co/blog/open_rail
 - https://huggingface.co/cais/HarmBench-Llama-2-13b-cls
@@ -1641,6 +1655,7 @@
 - https://imajinn.ai
 - https://img.shields.io/badge/AmpleGCG-black?style=flat
 - https://img.shields.io/badge/AmpleGCG-black?style=flat&amp;logo=python&amp;logoColor=rgb
+- https://img.shields.io/badge/AmpleGCG-black?style=flat\u0026amp;logo=python\u0026amp;logoColor=rgb
 - https://infiniteuploads.com
 - https://influencemap.cmlab.dev
 - https://influencemap.cmlab.dev/
@@ -1681,12 +1696,15 @@
 - https://linkedin.com/shareArticle?mini=true&#038;title=The%20TokenBreak%20Attack&#038;url=https://hiddenlayer.com/innovation-hub/the-tokenbreak-attack/
 - https://linkinghub.elsevier.com/retrieve/pii/S0020025523000208
 - https://llvm.org/docs/LibFuzzer.html
+- https://lmsys.org/blog/2023-03-30-vicuna
+- https://lmsys.org/blog/2023-03-30-vicuna/
 - https://lmsys.org/blog/2023-03-30-vicuna/](https://lmsys.org/blog/2023-03-30-vicuna
 - https://lmsys.org/blog/2023-03-30-vicuna/](https://lmsys.org/blog/2023-03-30-vicuna/
 - https://lukebechtel.com/blog/lfm-know-thy-context
 - https://maliciouseducator.org
 - https://maliciouseducator.org/
 - https://media.wired.com/photos/673fa13b993a49d5f2f8015f/16:9/w_1000,c_limit/Misbehaving-AI-LLM-Business-2154525210.jpg&quot;,&quot;image-1-1&quot;:&quot;https://media.wired.com/photos/673fa13b993a49d5f2f8015f/1:1/w_1000,c_limit/Misbehaving-AI-LLM-Business-2154525210.jpg&quot
+- https://media.wired.com/photos/673fa13b993a49d5f2f8015f/16:9/w_1000,c_limit/Misbehaving-AI-LLM-Business-2154525210.jpg&quot;,&quot;image-1-1&quot;:&quot;https://media.wired.com/photos/673fa13b993a49d5f2f8015f/1:1/w_1000,c_limit/Misbehaving-AI-LLM-Business-2154525210.jpg&quot;
 - https://media.wired.com/photos/673fa13b993a49d5f2f8015f/16:9/w_1000,c_limit/Misbehaving-AI-LLM-Business-2154525210.jpg&quot;,&quot;image-1-1&quot;:&quot;https://media.wired.com/photos/673fa13b993a49d5f2f8015f/1:1/w_1000,c_limit/Misbehaving-AI-LLM-Business-2154525210.jpg&quot;}
 - https://media.wired.com/photos/673fa13b993a49d5f2f8015f/191:100/w_1280,c_limit/Misbehaving-AI-LLM-Business-2154525210.jpg
 - https://media.wired.com/photos/673fa13b993a49d5f2f8015f/191:100/w_1280,c_limit/Misbehaving-AI-LLM-Business-2154525210.jpg?mbid=social_retweet
@@ -1739,6 +1757,8 @@
 - https://openreview.net/forum?id=AKsfpHc9sN&utm_source=chatgpt.com
 - https://openreview.net/forum?id=UfqzXg95I5
 - https://openreview.net/forum?id=UfqzXg95I5}
+- https://openreview.net/forum?id=UfqzXg95I5}\\n
+- https://openreview.net/forum?id=jTiJPDv82w
 - https://openreview.net/forum?id=jTiJPDv82w](https://openreview.net/forum?id=jTiJPDv82w
 - https://openreview.net/forum?id=wI5uHZLeCZ
 - https://openreview.net/pdf?id=CLxcLPfARc
@@ -1754,12 +1774,14 @@
 - https://partner.github.com
 - https://perception-point.io/guides/ai-security/ai-malware-types-real-life-examples-defensive-measures
 - https://pinterest.com/pin/create/button/?url=https://www.techradar.com/pro/security/this-cyberattack-lets-hackers-crack-ai-models-just-by-changing-a-single-character&amp;media=https://cdn.mos.cms.futurecdn.net/2UMvPDp3snEwaGbRuCivjE.jpg
+- https://platform.openai.com/docs/guides/moderation
 - https://platform.openai.com/docs/guides/moderation](https://platform.openai.com/docs/guides/moderation
 - https://platform.openai.com/docs/guides/rate-limits
 - https://platform.openai.com/docs/models
 - https://platform.openai.com/docs/models/gpt-3.5-turbo
 - https://platform.openai.com/docs/models/gpt-4o
 - https://platform.openai.com/docs/models/gpt-4o-mini
+- https://platform.openai.com/docs/models/overview
 - https://platform.openai.com/docs/models/overview](https://platform.openai.com/docs/models/overview
 - https://plausible.io/js/script.tagged-events.js
 - https://proceedings.neurips.cc/paper_files/paper/2024/file/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Paper-Conference.pdf
@@ -2070,6 +2092,7 @@
 - https://www.anthropic.com/news/probes-catch-sleeper-agents
 - https://www.anthropic.com/news/probes-catch-sleeper-agents}
 - https://www.anthropic.com/news/probes-catch-sleeper-agents},
+- https://www.anthropic.com/news/probes-catch-sleeper-agents},\\n
 - https://www.anthropic.com/news/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training
 - https://www.anthropic.com/news/visible-extended-thinking
 - https://www.anthropic.com/partners/mcp
@@ -2258,6 +2281,7 @@
 - https://www.litmaps.co
 - https://www.litmaps.co/
 - https://www.mdpi.com/2079-9292/14/10/1907
+- https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/10/09/5-key-features-and-benefits-of-large-language-models/#:~:text=Large%20language%20models%20
 - https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/10/09/5-key-features-and-benefits-of-large-language-models/#:~:text=Large%20language%20models%20(LLMs
 - https://www.nature.com/articles/s41586-024-07566-y
 - https://www.nature.com/articles/s41586-024-07566-y?
