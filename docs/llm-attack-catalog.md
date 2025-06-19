@@ -230,6 +230,8 @@ An indirect jailbreak approach [^1_40]:
 
 ### Model-Specific Attacks
 
+Additional papers are listed in [Model-Specific LLM Attack Resources](model-specific/model-specific-resources.md).
+
 #### Backdoor Attacks
 
 Inserting vulnerabilities into models [^1_41][^1_42]:
