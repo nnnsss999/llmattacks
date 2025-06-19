@@ -86,6 +86,28 @@ Key references include:
 - **Awesome RL for Cybersecurity** – curated list of RL tools and papers for offensive security.
   [GitHub Repository](https://github.com/Limmen/awesome-rl-for-cybersecurity).
 
+Additional recent studies demonstrate how RL-based fuzzers can automate discovery of novel vulnerabilities:
+- **Rainfuzz** – RL-driven heat maps increase coverage during fuzzing.
+  [Rainfuzz: Reinforcement-Learning Driven Heat-Maps for Boosting Coverage-Guided Fuzzing](https://doi.org/10.5220/0011625300003411).
+- **Coverage-Guided Fuzzing for Deep RL Systems** – explores fuzzing of RL agents themselves.
+  [Coverage-Guided Fuzzing for Deep Reinforcement Learning Systems](https://doi.org/10.2139/ssrn.4397226).
+- **RLF** – directed fuzzing using deep reinforcement learning.
+  [RLF: Directed Fuzzing based on Deep Reinforcement Learning](https://doi.org/10.1109/mlcr57210.2022.00032).
+- **RLGFuzz** – maps state coverage to guide RL-based fuzzing campaigns.
+  [RLGFuzz: Reinforcement Learning Guided Fuzzing with State-Coverage Mapping Environment](https://doi.org/10.1109/icnp61940.2024.10858502).
+- **APIRL** – applies deep RL to fuzz REST APIs.
+  [APIRL: Deep Reinforcement Learning for REST API Fuzzing](https://doi.org/10.1609/aaai.v39i1.31995).
+- **Multi-Argument Fuzzing** – selects argument combinations via RL to trigger bugs.
+  [Multi-Argument Fuzzing by Reinforcement Learning](https://doi.org/10.1109/ics64339.2024.00026).
+- **Grey-Box RL Fuzzing** – leverages RL to discover XSS vulnerabilities.
+  [Grey-Box Fuzzing Based on Reinforcement Learning for XSS Vulnerabilities](https://doi.org/10.3390/app13042482).
+- **Squashing Resource Exhaustion Bugs** – uses black-box fuzzing with RL to induce resource exhaustion.
+  [Squashing Resource Exhaustion Bugs with Black-Box Fuzzing and Reinforcement Learning](https://doi.org/10.1109/icsrs59833.2023.10381445).
+- **Deep RL Honeypots** – builds adaptive honeypots that learn to trap DoS attacks.
+  [Deep Reinforcement Learning for Building Honeypots against Runtime DOS Attack](https://doi.org/10.21203/rs.3.rs-207770/v1).
+- **Attack Path Planning with PPO-BACO** – combines RL and ant colony optimization to plan aviation attack paths.
+  [Attack Path Planning Using Proximal Policy Optimization Bi-Directional Ant Colony Optimization Algorithm](https://doi.org/10.2139/ssrn.4946940).
+
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine
 attacks over time. Defenders should audit reward models and monitor for

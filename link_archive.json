@@ -116,11 +116,21 @@
   "https://arxiv.org/abs/2309.01446": {
     "snapshot": "https://web.archive.org/web/20250618/arxiv230901446"
   },
-  "https://arxiv.org/abs/2506.12880": {"snapshot": "https://web.archive.org/web/20250618/arxiv250612880"},
-  "https://arxiv.org/abs/2503.08216": {"snapshot": "https://web.archive.org/web/20250618/arxiv250308216"},
-  "https://arxiv.org/abs/2504.05605": {"snapshot": "https://web.archive.org/web/20250618/arxiv250405605"},
-  "https://arxiv.org/abs/2410.23678": {"snapshot": "https://web.archive.org/web/20250618/arxiv241023678"},
-  "https://arxiv.org/abs/2208.04946": {"snapshot": "https://web.archive.org/web/20250618/arxiv220804946"},
+  "https://arxiv.org/abs/2506.12880": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv250612880"
+  },
+  "https://arxiv.org/abs/2503.08216": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv250308216"
+  },
+  "https://arxiv.org/abs/2504.05605": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv250405605"
+  },
+  "https://arxiv.org/abs/2410.23678": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv241023678"
+  },
+  "https://arxiv.org/abs/2208.04946": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv220804946"
+  },
   "https://skylion007.github.io/OpenWebTextCorpus/": {
     "snapshot": "https://web.archive.org/web/20250618/skylion-openwebtext"
   },
@@ -204,17 +214,44 @@
   },
   "https://thehackernews.com/2025/01/new-ai-jailbreak-method-bad-likert.html": {
     "snapshot": "https://web.archive.org/web/20250618/thn-bad-likert"
+  },
+  "https://arxiv.org/abs/2402.08567": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv240208567"
+  },
+  "https://arxiv.org/abs/2406.04031": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv240604031"
+  },
+  "https://arxiv.org/abs/2411.18000": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv241118000"
+  },
+  "https://arxiv.org/abs/2409.06726": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv240906726"
+  },
+  "https://arxiv.org/abs/2411.11496": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv241111496"
+  },
+  "https://arxiv.org/abs/2411.16721": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv241116721"
+  },
+  "https://arxiv.org/abs/2412.17544": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv241217544"
+  },
+  "https://arxiv.org/abs/2405.12523": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv240512523"
+  },
+  "https://arxiv.org/abs/2405.04403": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv240504403"
+  },
+  "https://arxiv.org/abs/2406.07057": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv240607057"
+  },
+  "https://arxiv.org/abs/2502.06390": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv250206390"
+  },
+  "https://web.archive.org/web/20240707193620/https://aicyberchallenge.com/storage/2024/03/AIxCC-Rules-v5.pdf": {
+    "snapshot": "https://web.archive.org/web/20240707193620/https://aicyberchallenge.com/storage/2024/03/AIxCC-Rules-v5.pdf"
+  },
+  "https://web.archive.org/web/20240506043214/https://dl.acm.org/doi/10.1145/3663529.3663784": {
+    "snapshot": "https://web.archive.org/web/20240506043214/https://dl.acm.org/doi/10.1145/3663529.3663784"
   }
-  ,
-  "https://arxiv.org/abs/2402.08567": {"snapshot": "https://web.archive.org/web/20250618/arxiv240208567"},
-  "https://arxiv.org/abs/2406.04031": {"snapshot": "https://web.archive.org/web/20250618/arxiv240604031"},
-  "https://arxiv.org/abs/2411.18000": {"snapshot": "https://web.archive.org/web/20250618/arxiv241118000"},
-  "https://arxiv.org/abs/2409.06726": {"snapshot": "https://web.archive.org/web/20250618/arxiv240906726"},
-  "https://arxiv.org/abs/2411.11496": {"snapshot": "https://web.archive.org/web/20250618/arxiv241111496"},
-  "https://arxiv.org/abs/2411.16721": {"snapshot": "https://web.archive.org/web/20250618/arxiv241116721"},
-  "https://arxiv.org/abs/2412.17544": {"snapshot": "https://web.archive.org/web/20250618/arxiv241217544"},
-  "https://arxiv.org/abs/2405.12523": {"snapshot": "https://web.archive.org/web/20250618/arxiv240512523"},
-  "https://arxiv.org/abs/2405.04403": {"snapshot": "https://web.archive.org/web/20250618/arxiv240504403"},
-  "https://arxiv.org/abs/2406.07057": {"snapshot": "https://web.archive.org/web/20250618/arxiv240607057"},
-  "https://arxiv.org/abs/2502.06390": {"snapshot": "https://web.archive.org/web/20250618/arxiv250206390"}
 }
