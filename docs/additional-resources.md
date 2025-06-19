@@ -16,5 +16,17 @@ Below is a curated set of external articles, blog posts and reports that further
 - [Sleeper Agents: Training Deceptive LLMs](https://arxiv.org/abs/2401.05566)
 - [Evaluating Security Risk in DeepSeek and Other Frontier Models](https://blogs.cisco.com/security/evaluating-security-risk-in-deepseek-and-other-frontier-reasoning-models)
 - [Prompt Injection Attack Overview](https://www.wiz.io/academy/prompt-injection-attack)
+- [Microsoft 365 Copilot: Critical 'EchoLeak' Flaw Turned Microsoft's Own AI Into Data Thief](https://winbuzzer.com/2025/06/16/microsoft-365-copilot-critical-echoleak-flaw-turned-microsofts-own-ai-into-data-thief-xcxwbn/)
+- [First-ever zero-click attack targets Microsoft 365 Copilot](https://www.csoonline.com/article/4005965/first-ever-zero-click-attack-targets-microsoft-365-copilot.html)
+- [Strengthening LLM Security: Insights from OWASP's 2025 Top 10 List](https://www.pillar.security/blog/strengthening-llm-security-insights-from-owasps-2025-top-10-list)
+- [Zero-Click AI Vulnerability Exposes Microsoft 365 Copilot Data Without User Interaction](https://thehackernews.com/2025/06/zero-click-ai-vulnerability-exposes.html)
+- [OWASP Gen AI LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)
+- [LLMjacking: What is it? And Why is it a Concern?](https://www.upwind.io/glossary/llmjacking-what-is-it-and-why-is-it-a-concern)
+- [LLMs could soon supercharge supply-chain attacks](https://www.theregister.com/2024/12/29/llm_supply_chain_attacks/)
+- [A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models](https://arxiv.org/abs/2402.13457)
+- [COLD-Attack: Jailbreaking LLMs with Stealthiness and Controllability](https://github.com/Yu-Fangxu/COLD-Attack)
+- [Play Guessing Game with LLM: Indirect Jailbreak Attack with Implicit Clues](https://aclanthology.org/2024.findings-acl.304/)
+- [Optimization-based Prompt Injection Attack to LLM-as-a-Judge](https://dl.acm.org/doi/abs/10.1145/3658644.3690291)
+- [LLMs know their vulnerabilities: Uncover Safety Gaps through Natural Distribution Shifts](https://arxiv.org/abs/2410.10700)
 
 These references track emerging threats and defence research through 2025 and are regularly reviewed for new developments.
