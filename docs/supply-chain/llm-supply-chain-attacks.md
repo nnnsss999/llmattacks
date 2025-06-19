@@ -23,6 +23,15 @@ Public model repositories such as Hugging Face Hub or private registries may hos
 - *PyPI, npm, and AI Tools Exploited in Malware Surge Targeting DevOps and Cloud Environments* ([The Hacker News](hackernews-pypi.html)) documents malware hiding in AI tool packages.
 - *Crypto Malware in the Open-Source Supply Chain* ([The Hacker News](thehackernews-dependency-hijack.html)) explains dependency hijacks that fetch malicious payloads.
 - The [Attack–Defence Matrix](../attack-defense-matrix.md) lists mitigations for supply chain threats, including model signature verification.
+ - *Hugging Face Vulnerability Exposes Model Hub to RCE* ([The Hacker News](thehackernews-hugging-face-vulnerability.html)) details an issue that allowed remote code execution via malicious repositories.
+ - *Data Scientists Targeted by Malicious Hugging Face Models with Silent Backdoor* ([JFrog](jfrog-silent-backdoor.html)) reports on backdoored models uploaded to the Hub.
+ - *Hugging Face Hosted Code That Backdoored User Devices* ([Ars Technica](arstechnica-hf-backdoor.html)) explains how attackers leveraged model repositories for malware distribution.
+ - *Malicious AI Models on Hugging Face Backdoor Users' Machines* ([BleepingComputer](bleepingcomputer-huggingface-backdoor.html)) tracks more than 100 rogue models discovered in early 2024.
+ - *100+ Malicious Models Found on Hugging Face* ([The Hacker News](thehackernews-100-malicious-models.html)) summarizes large-scale scanning results.
+ - *Malicious ML Models Detected on Hugging Face* ([Cybersecurity News](cybersecuritynews-huggingface.html)) describes detection efforts by security researchers.
+ - *Hugging Face AI Platform: 100 Malicious Code Execution Models* ([Dark Reading](darkreading-malicious-models.html)) covers threat actors abusing the model hub ecosystem.
+ - *Hidden Backdoor Models on HuggingFace* ([GitHub](hidden-backdoor-models-hf.html)) archives open-source research into stealthy weight manipulation.
+ - *BEEAR Backdoored Model Example* ([Hugging Face](beear-backdoored-model3.html)) showcases an intentionally compromised model for testing defenses.
 
 ## Malicious LoRA Adapters
 
