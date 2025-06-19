@@ -37,6 +37,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `hackernews-toolchain.html` — news article on malicious toolchains
 - `openai-autogpt-prompt.html` — example AutoGPT jailbreak prompt
 - `wired-robot-violence.html` — Wired coverage of real-world robot misuse
+- `necromancer-attack.md` — self-replicating agent attack
 
 ### defenses/
 - `attacker-disguiser.html` — paper on disguising attacker prompts
@@ -103,6 +104,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `techradar-tokenbreak.html` — TechRadar article on tokenbreak
 - `the-register-cot.html` — chain-of-thought coverage from The Register
 - `tokenbreak-single-character-bypass.md` — single-character TokenBreak bypass
+- `unicode-homograph-jailbreak.md` — homograph-based jailbreak technique
 
 ### rag/
 - `poisonedrag-arxiv.html` — academic work on RAG poisoning
@@ -139,6 +141,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `pdf-extract.md` — plain text extracted from the PDF catalog
 - `glossary.md` — definitions of common terms across the catalog
 - `navigation-map.md` — this file describing all repository contents
+- `additional-resources.md` — curated external readings
 - `urls.md` — list of referenced URLs used for analysis
 - `llm-attack-catalog.md` — printable markdown version of the master catalog
 
@@ -163,6 +166,7 @@ Utility scripts for building and checking the catalog.
 - `link_check.py` — scan for broken links
 - `refresh_links.py` — archive and update remote URLs
 - `scrub_js.py` — remove third-party JavaScript
+- `rename.py` — enforce kebab-case filenames
 
 ## tests/
 - `test_link_check.py` — unit test for the link checker
