@@ -79,3 +79,4 @@ docs/token-level/token-prediction-resources.md
 docs/streaming/streaming-response-hijacking-resources.md
 docs/function-calling/function-calling-exploit-resources.md
 docs/latent-space/attention-hijacking-resources.md
+docs/supply-chain/compromised-model-hub-resources.md
