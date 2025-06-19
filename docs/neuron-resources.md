@@ -16,10 +16,27 @@ This list gathers credible references focused on neuron-level attacks and manipu
 - [Obfuscated Activations Bypass LLM Latent-Space Defenses](https://arxiv.org/abs/2412.09565) – shows how adversaries can hide malicious behaviour by altering neuron activations.
 - [Autodan: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models](https://arxiv.org/abs/2310.04451) – demonstrates methods for evading safety filters through neuron-level adjustments.
 - [Piccolo: Exposing Complex Backdoors in NLP Transformer Models](https://arxiv.org/abs/2202.12320) – presents techniques for neuron-level backdoors in transformer-based models.
+- [Neuron-Level Sequential Editing for Large Language Models](https://arxiv.org/abs/2410.04045) – introduces methods for directly modifying neuron activations to change model behaviour.
+- [Precision Knowledge Editing: Enhancing Safety in Large Language Models](https://arxiv.org/abs/2410.03772) – proposes targeted neuron edits to patch unsafe responses.
+- [Can Editing LLMs Inject Harm?](https://arxiv.org/abs/2407.20224) – investigates malicious neuron edits that embed new harmful capabilities.
+- [Safety Misalignment Against Large Language Models](https://www.ndss-symposium.org/wp-content/uploads/2025-1089-paper.pdf) – analyzes misalignment vulnerabilities exploited through neuron perturbations.
+- [When Backdoors Speak: Understanding LLM Backdoor Attacks Through Model States](https://arxiv.org/abs/2411.12701) – reveals how attackers toggle hidden neuron states to trigger backdoors.
+- [Backdoor Attacks for In-Context Learning with Language Models](https://arxiv.org/pdf/2307.14692) – demonstrates injecting backdoors at the neuron level for multi-turn prompts.
+- [Magnitude-based Neuron Pruning for Backdoor Defense](https://arxiv.org/abs/2405.17750) – defends models by removing suspect neurons.
+- [Contrastive Neuron Pruning for Backdoor Defense](https://ieeexplore.ieee.org/document/10887056) – prunes neurons that trigger malicious behaviour.
 
 ## Tools and Code
 
 - [THU-KEG/SafetyNeuron](https://github.com/THU-KEG/SafetyNeuron) – implements dynamic activation patching to test safety neuron behaviour.
+- [llm-editing/editing-attack](https://github.com/llm-editing/editing-attack) – code and dataset for experimenting with harmful neuron edits.
+- [zjunlp/KnowledgeEditingPapers](https://github.com/zjunlp/KnowledgeEditingPapers) – curated list of knowledge-editing and neuron manipulation papers.
+- [zihao-ai/Awesome-Backdoor-in-Deep-Learning](https://github.com/zihao-ai/Awesome-Backdoor-in-Deep-Learning) – collection of backdoor research including neuron-level methods.
+- [mtuann/backdoor-ai-resources](https://github.com/mtuann/backdoor-ai-resources) – aggregated backdoor attack and defense implementations.
+
+## Articles and Links
+
+- [Language models can explain neurons in language models](https://openai.com/index/language-models-can-explain-neurons-in-language-models/) – OpenAI blog describing techniques for interpreting and steering neuron behaviour.
+- [Editing LLMs](https://llm-editing.github.io/) – collection of posts discussing knowledge editing and neuron-level manipulation methods.
 
 ## Concepts
 
