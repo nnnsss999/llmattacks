@@ -23,6 +23,12 @@ Directories are shown as headings with bullet points for each file.
 - `catalog_content.md` — full text of the catalog with citations
 - `docs_files.txt` — list of document paths used by build scripts
 
+## .github/workflows/
+- `ci.yml` — runs linting and tests on push
+- `gh-pages.yml` — deploys documentation to GitHub Pages
+- `link-check.yml` — checks external links
+- `refresh-links.yml` — updates archived links weekly
+
 ## docs/
 Primary source articles grouped by theme. Markdown files include YAML front matter; HTML files mirror external sources.
 
