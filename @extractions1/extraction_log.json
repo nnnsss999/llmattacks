@@ -1,5 +1,53 @@
 {
   "http://Skylion007.github.io/OpenWebTextCorpus": {
-    "saved_as": "e36fd18630.md"
+    "existing": "@extractions1/e36fd18630.md"
+  },
+  "http://ai.meta.com/blog/meta-llama-3-1": {
+    "existing": "@extractions1/a15fda3325.md"
+  },
+  "http://ai.meta.com/llama": {
+    "existing": "@extractions1/5ce86332d8.md"
+  },
+  "http://ai.meta.com/llama/use-policy": {
+    "existing": "@extractions1/d2d06d7de6.md"
+  },
+  "http://anthropic.com/rsp": {
+    "existing": "@extractions1/7cc0acd3df.md"
+  },
+  "http://anthropic.com/rsp-updates": {
+    "existing": "@extractions1/24eb81b819.md"
+  },
+  "http://arxiv.org/abs/2010.15980": {
+    "existing": "@extractions1/260d9e5f4c.md"
+  },
+  "http://arxiv.org/abs/2203.02155": {
+    "saved_as": "4ee5f414b2.md"
+  },
+  "http://arxiv.org/abs/2204.05862": {
+    "saved_as": "a3f1c87ee7.md"
+  },
+  "http://arxiv.org/abs/2204.14198": {
+    "saved_as": "42be97bd77.md"
+  },
+  "http://arxiv.org/abs/2212.08073": {
+    "saved_as": "9eb454962c.md"
+  },
+  "http://arxiv.org/abs/2302.08582": {
+    "saved_as": "fa018e1031.md"
+  },
+  "http://arxiv.org/abs/2303.17071": {
+    "saved_as": "ada32fb89c.md"
+  },
+  "http://arxiv.org/abs/2303.17651": {
+    "saved_as": "9697aa07d3.md"
+  },
+  "http://arxiv.org/abs/2304.13861": {
+    "saved_as": "3aa83eaa70.md"
+  },
+  "http://arxiv.org/abs/2304.14178": {
+    "saved_as": "4e64eb4233.md"
+  },
+  "http://arxiv.org/abs/2305.13860": {
+    "saved_as": "f9a0c55f11.md"
   }
 }
