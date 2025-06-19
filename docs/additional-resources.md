@@ -12,6 +12,7 @@ Below is a curated set of external articles, blog posts and reports that further
 - [FraudGPT: Weaponizing Generative AI for Crime](https://thehackernews.com/2023/07/fraudgpt-weaponizing.html)
 - [Unicode Encoding Attacks](https://owasp.org/www-community/attacks/Unicode_Encoding)
 - [Down the Rabbit Hole of Unicode Obfuscation](https://www.veracode.com/blog/down-the-rabbit-hole-of-unicode-obfuscation/)
+- [Cross-Modal LLM Attack Resources](multimodal/cross-modal-attack-resources.md)
 - [H-CoT: Hijacking Chain-of-Thought Safety Reasoning](https://arxiv.org/abs/2502.12893)
 - [Sleeper Agents: Training Deceptive LLMs](https://arxiv.org/abs/2401.05566)
 - [Evaluating Security Risk in DeepSeek and Other Frontier Models](https://blogs.cisco.com/security/evaluating-security-risk-in-deepseek-and-other-frontier-reasoning-models)
@@ -51,6 +52,10 @@ Below is a curated set of external articles, blog posts and reports that further
 - [Gradient-based Adversarial Attacks against Text Transformers](https://blogs.night-wolf.io/gradient-based-adversarial-attacks-against-text-transformers)
 - [Uncovering Gradient Inversion Risks in Practical Language Model Training](https://dl.acm.org/doi/abs/10.1145/3658644.3690292)
 
+- [AutoDAN: Interpretable Gradient-Based Adversarial Attacks on Large Language Models](https://arxiv.org/abs/2310.15140)
+- [AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned LLMs](https://arxiv.org/abs/2310.04451)
+- [PIG: Privacy Jailbreak Attack on LLMs via Gradient-based Iterative In-Context Optimization](https://arxiv.org/abs/2505.09921)
+- [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043)
 Additional references collected after the original snapshot:
 
 - [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/)
@@ -148,4 +153,6 @@ These references track emerging threats and defence research through 2026 and ar
 - [Prompt Injection Resources 2026](prompt-dialogue/prompt-injection-resources-2026.md)
 - [Prompt Engineering Attack Resources 2026](prompt-dialogue/prompt-engineering-resources-2026.md)
 - [Fuzzing Resources 2026](fuzzing/fuzzing-resources-2026.md)
+- [Prompt Engineering Attack Resources Extra](prompt-dialogue/prompt-engineering-resources-extra.md)
+- [Additional Resources on LLM Attacks 2027](additional-resources-2027.md)
 - [Fuzzing Resources 2027](fuzzing/fuzzing-resources-2027.md)

@@ -19,3 +19,11 @@ The following references provide further background on tokenization-based attack
 - [JailMine: Automated Token-Level Manipulation for Jailbreaking](https://arxiv.org/abs/2505.02101) - Efficient approach to discovering token-level jailbreak prompts.
 - [Byte-Level Universal Triggers](https://www.techradar.com/pro/security/this-cyberattack-lets-hackers-crack-ai-models-just-by-changing-a-single-character) - Typo trojans using rare Unicode bytes to flip model behaviour.
 - [OpenAI tiktoken Repository](https://github.com/openai/tiktoken) - Source code for common tokenizers used in many LLM systems.
+- [TokenBreak: Bypassing Text Classification Models Through Token Manipulation](https://arxiv.org/abs/2506.07948) - ArXiv paper providing an in-depth analysis of the TokenBreak technique.
+- [Lockpicking LLMs: A Logit-Based Jailbreak Using Token-level Manipulation](https://arxiv.org/abs/2405.13068) - Gradient-guided jailbreak that directly modifies token logits.
+- [A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners](https://arxiv.org/abs/2406.11050) - Study exposing bias effects that enable token-level exploits.
+- [Emoji Attack: Enhancing Jailbreak Attacks Against Judge LLM Detection](https://openreview.net/forum?id=Q0rKYiVEZq) - Explores how emoji sequences bypass safety detectors.
+- [Tokenization Matters! Degrading Large Language Models through Challenging Their Tokenization](https://openreview.net/forum?id=grO9s3lESV) - Shows that unexpected tokenization can degrade and subvert models.
+- [DeSparsify: Adversarial Attack Against Token Sparsification Mechanisms](https://openreview.net/forum?id=D4yRz3s7UL) - Attack targeting tokenizer sparsification defences.
+- [BOOST: Enhanced Jailbreak of Large Language Model via Slient eos Tokens](https://openreview.net/forum?id=JqKh7FLUw1) - Describes injecting hidden end-of-sequence tokens for jailbreaking.
+- [Universal Adversarial Triggers Are Not Universal](https://openreview.net/forum?id=sKlMMzp4QI) - Discusses limits of universal token triggers and how they relate to LLM attacks.
