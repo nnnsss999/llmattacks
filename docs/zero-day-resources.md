@@ -21,3 +21,8 @@ The references below document newly disclosed or proof-of-concept zero-day vulne
 
 - [Microsoft Copilot targeted in first "zero-click" attack on an AI agent](https://www.techradar.com/pro/security/microsoft-copilot-targeted-in-first-zero-click-attack-on-an-ai-agent-what-you-need-to-know)
 - [Evaluating Security Risk in DeepSeek and Other Frontier Models](https://blogs.cisco.com/security/evaluating-security-risk-in-deepseek-and-other-frontier-reasoning-models)
+- [Microsoft Copilot zero-click attack raises alarms about AI agent security](https://fortune.com/2025/06/11/microsoft-copilot-vulnerability-ai-agents-echoleak-hacking/)
+- [Zero-click AI data leak flaw uncovered in Microsoft 365 Copilot](https://www.bleepingcomputer.com/news/security/zero-click-ai-data-leak-flaw-uncovered-in-microsoft-365-copilot/)
+- [Critical flaw in Microsoft Copilot could have allowed zero-click attack](https://www.cybersecuritydive.com/news/flaw-microsoft-copilot-zero-click-attack/750456/)
+- [Breaking down 'EchoLeak', the First Zero-Click AI Vulnerability](https://simonwillison.net/2025/Jun/11/echoleak/)
+- [CVE-2025-32711 Vulnerability: "EchoLeak" Flaw in Microsoft 365 Copilot](https://socprime.com/blog/cve-2025-32711-zero-click-ai-vulnerability/)
