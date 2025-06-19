@@ -232,6 +232,13 @@
   },
   "http://dublincore.org/specifications/dublin-core/dces/1998-09-01/](/specifications/dublin-core/dces/1998-09-01/": {
     "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/1998-09-01/%5D(/specifications/dublin-core/dces/1998-09-01/"
+    "existing": "@extractions1/e458f00b8f.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/dces/": {
+    "existing": "@extractions1/f8d6276f37.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/dces/1998-09-01/": {
+    "existing": "@extractions1/b2c8d16138.md"
   },
   "http://dublincore.org/specifications/dublin-core/dces/1999-07-02/": {
     "existing": "extractions1/b42d8d9a7d.md"
@@ -244,5 +251,33 @@
   },
   "http://dublincore.org/specifications/dublin-core/dces/2003-02-04/": {
     "saved_as": "aced4e5037.md"
+    "existing": "@extractions1/aced4e5037.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/dcmi-namespace/": {
+    "existing": "@extractions1/95b23b2495.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/": {
+    "existing": "extractions1/d19bb1a7d7.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/": {
+    "saved_as": "978e37cc2e.md"
+  },
+  "http://filters.To": {
+    "error": "503 Server Error: Service Unavailable for url: http://filters.to/"
+  },
+  "http://github.com/llm-attacks/llm-attacks": {
+    "existing": "extractions1/e7faca322a.md"
+  },
+  "http://gmpg.org/xfn/11": {
+    "existing": "extractions1/434bc5d3f9.md"
+  },
+  "http://gotit.pub/faq": {
+    "existing": "extractions1/a19f5ec71f.md"
+  },
+  "http://lcweb.loc.gov/catdir/cpso/lcco/lcco.html": {
+    "saved_as": "9069ca3281.md"
+  },
+  "http://lcweb.loc.gov/standards/iso639-2/langhome.html": {
+    "saved_as": "1581829fc6.md"
   }
 }
