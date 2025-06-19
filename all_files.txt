@@ -132,6 +132,9 @@
 ./LICENSE
 ./.pre-commit-config.yaml
 ./docs_files.txt
+./docs/neuron-resources-2028.md
+./docs/neuron-resources.md
+./docs/neuron-resources-2027.md
 ./docs/supply-chain/compromised-model-hub-resources.md
 ./docs/supply-chain/thehackernews-hugging-face-vulnerability.html
 ./docs/supply-chain/jfrog-silent-backdoor.html

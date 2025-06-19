@@ -81,6 +81,11 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `latent-space-resources-2026.md` — additional latent-space papers
 - `latent-space-resources-2027.md` — newer latent-space research
 - `latent-space-resources-2028.md` — latest latent-space papers
+- `neuron-resources.md` — neuron-level manipulation references
+- `neuron-resources-2027.md` — updated neuron-focused papers
+- `neuron-resources-2028.md` — recent work on neuron-level attacks
+- `latent-space-resources-2029.md` — new latent-space references
+- `latent-space-resources-2030.md` — additional latent-space papers
 - `apexhq-latentspace.html` — attack on latent representations
 - `obfuscated-activations.html` — obfuscating activations during alignment
 
@@ -98,6 +103,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `image-based-attack-resources.md` — additional references on using images for jailbreaks
 - `image-based-attack-resources-2028.md` — newer papers on multimodal jailbreaks
 - `visual-jailbreaking-resources-2028.md` — updated references on multimodal jailbreaks
+- `visual-jailbreaking-resources-2029.md` — latest references on multimodal jailbreaks
 - `steganography-resources-2026.md` — latest papers on covert LLM attacks
 
 ### optimization/
@@ -115,6 +121,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `gradient-based-attack-resources.md` — curated references on gradient-guided attacks
 - `gradient-resources-2026.md` — additional gradient-based jailbreak research
 - `gradient-resources-2027.md` — further gradient-based jailbreak references
+- `gradient-resources-2028.md` — latest gradient-based jailbreak studies
 - `evolutionary-algorithm-attacks.md` — overview of GA-based jailbreak techniques
 - `boosting-jailbreak-with-momentum.md` — momentum-based gradient attack
 - `dager-gradient-inversion.md` — exact gradient inversion method
@@ -145,6 +152,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `authority-simulation-resources-2027.md` — continued research
 - `authority-simulation-resources-2028.md` — additional citations
 - `authority-simulation-resources-2029.md` — latest references
+- `authority-simulation-resources-2030.md` — ongoing citations
 
 ### supply-chain/
 - `hackernews-pypi.html` — story on PyPI supply-chain risks
@@ -158,6 +166,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `token-prediction-resources.md` — references on token prediction and side channels
 - `additional-token-level-resources.md` — broader tokenization attack bibliography
 - `token-level-resources-2027.md` — newer token-level manipulation papers
+- `token-level-resources-2028.md` — latest open source tools on hidden tokens
 
 ### training-alignment/
 - `index.md` — overview of training-phase attacks
@@ -183,6 +192,9 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `navigation-map.md` — this file describing all repository contents
 - `additional-resources.md` — curated external readings
 - `zero-day-resources.md` — references on newly disclosed LLM vulnerabilities
+- `zero-day-resources-2026.md` — supplemental links published in 2026
+- `zero-day-resources-2027.md` — additional fuzzing and competition resources
+- `zero-day-resources-2028.md` — recent advisories and CVE references
 - `urls.md` — list of referenced URLs used for analysis
 - `llm-attack-catalog.md` — printable markdown version of the master catalog
 

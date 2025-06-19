@@ -50,3 +50,9 @@ The following papers and repositories provide additional detail on multimodal an
 - [Adversarial Attacks in Multimodal Systems: A Practitioner's Survey](https://arxiv.org/abs/2505.03084)
 - [How Robust Is Google's Bard to Adversarial Image Attacks?](https://arxiv.org/abs/2309.11751)
 - [Alphabet Index Mapping: Jailbreaking LLMs through Semantic Dissimilarity](https://arxiv.org/abs/2506.16722)
+- [ArtPrompt: ASCII Art-based Jailbreak Attacks against Aligned LLMs](https://aclanthology.org/2024.acl-long.809/) – hides instructions in ASCII art to evade text filters.
+- [Efficient LLM-Jailbreaking by Introducing Visual Modality](https://openreview.net/forum?id=6FuTRXhgJM) – exploits cross-modal synergy to strengthen jailbreak prompts.
+- [IMMUNE: Improving Safety Against Jailbreaks in Multi-modal LLMs](https://cvpr.thecvf.com/virtual/2025/poster/34085) – proposes a defence trained on adversarial visuals.
+- [MMJ-Bench: A Comprehensive Study on Jailbreak Attacks and Defenses for Multimodal LLMs](https://ojs.aaai.org/index.php/AAAI/article/view/34983/37138) – benchmarks attack and defence techniques.
+- [Jailbreaking Multimodal LLMs: New Exploits Targeting State-of-the-Art Models](https://splx.ai/blog/jailbreaking-multimodal-llms-new-exploits-targeting-state-of-the-art-models) – overview of emerging threat vectors.
+- [How Does a Multimodal LLM Work? The Vision Story](https://www.analyticsvidhya.com/blog/2025/06/multimodal-llm/) – article explaining the architecture behind visual jailbreaking.

@@ -1,6 +1,36 @@
 {
+  "http://1.gravatar.com/avatar/4a57cddee3c50aefa893005dcdd33b64?s=16&d=mm&r=pg": {
+    "error": "Unsupported content-type: image/jpeg"
+  },
+  "http://1.gravatar.com/avatar/702c2c3657b87396c41f14251af663c4?s=16&d=mm&r=pg": {
+    "error": "Unsupported content-type: image/jpeg"
+  },
+  "http://1.gravatar.com/avatar/a46720c1ca0c1a871682adbbdfe48567?s=16&d=mm&r=pg": {
+    "error": "Unsupported content-type: image/jpeg"
+  },
+  "http://1.gravatar.com/avatar/aca81ab5bf69a4626c91edc811cea208?s=16&d=mm&r=pg": {
+    "error": "Unsupported content-type: image/jpeg"
+  },
+  "http://360.yahoo.com/alidiabali": {
+    "error": "429 Client Error: Too Many Requests for url: https://www.yahoo.com/alidiabali"
+  },
+  "http://68middle.st/events": {
+    "error": "503 Server Error: Service Unavailable for url: http://68middle.st/events"
+  },
   "http://Skylion007.github.io/OpenWebTextCorpus": {
     "existing": "extractions1/e36fd18630.md"
+  },
+  "http://Skylion007.github.io/OpenWebTextCorpus,2019.[24": {
+    "error": "404 Client Error: Not Found for url: https://skylion007.github.io/OpenWebTextCorpus,2019.%5B24"
+  },
+  "http://Skylion007.github.io/OpenWebTextCorpus}},": {
+    "error": "404 Client Error: Not Found for url: https://skylion007.github.io/OpenWebTextCorpus%7D%7D,"
+  },
+  "http://aaronparecki.com/2012/230/reply/1": {
+    "existing": "@extractions1/7cc43c83fd.md"
+  },
+  "http://acegiak.net/": {
+    "error": "503 Server Error: Service Unavailable for url: http://acegiak.net/"
   },
   "http://ai.meta.com/blog/meta-llama-3-1": {
     "existing": "extractions1/a15fda3325.md"
@@ -14,11 +44,38 @@
   "http://ai.meta.com/llama/use-policy": {
     "existing": "extractions1/d2d06d7de6.md"
   },
+  "http://andysylvester.com/2014/03/01/howto-setting-up-the-selfoss-feed-reader-with-microformats-support/": {
+    "error": "406 Client Error: Not Acceptable for url: http://andysylvester.com/2014/03/01/howto-setting-up-the-selfoss-feed-reader-with-microformats-support/"
+  },
   "http://anthropic.com/rsp": {
     "existing": "extractions1/7cc0acd3df.md"
   },
   "http://anthropic.com/rsp-updates": {
     "existing": "extractions1/24eb81b819.md"
+  },
+  "http://anthropic.com/rsp-updates\\": {
+    "error": "404 Client Error: Not Found for url: https://www.anthropic.com/rsp-updates%5C"
+  },
+  "http://anthropic.com/rsp-updates\\\\": {
+    "error": "404 Client Error: Not Found for url: https://www.anthropic.com/rsp-updates%5C%5C"
+  },
+  "http://anthropic.com/rsp\\": {
+    "error": "404 Client Error: Not Found for url: https://www.anthropic.com/rsp%5C"
+  },
+  "http://anthropic.com/rsp\\\\": {
+    "error": "404 Client Error: Not Found for url: https://www.anthropic.com/rsp%5C%5C"
+  },
+  "http://any23-vm.apache.org/": {
+    "error": "503 Server Error: Service Unavailable for url: http://any23-vm.apache.org/"
+  },
+  "http://any23.apache.org": {
+    "existing": "@extractions1/7211db48e7.md"
+  },
+  "http://any23.apache.org/build-src.html": {
+    "existing": "@extractions1/9b5c4afeb0.md"
+  },
+  "http://any23.apache.org/download.html": {
+    "existing": "@extractions1/80bb95c910.md"
   },
   "http://arxiv.org/abs/2010.15980": {
     "existing": "extractions1/260d9e5f4c.md"
@@ -80,6 +137,30 @@
   "http://arxiv.org/abs/2309.11751": {
     "existing": "extractions1/0b1b084fdc.md"
   },
+  "http://arxiv.org/abs/2402.08679": {
+    "existing": "@extractions1/52297273fd.md"
+  },
+  "http://arxiv.org/abs/2403.03897": {
+    "existing": "@extractions1/f9f7ff0eab.md"
+  },
+  "http://arxiv.org/abs/2406.10280": {
+    "existing": "@extractions1/8bb1268fb2.md"
+  },
+  "http://arxiv.org/abs/2408.01420": {
+    "existing": "@extractions1/38c4a5f8db.md"
+  },
+  "http://arxiv.org/abs/2408.11749": {
+    "existing": "@extractions1/906de8a703.md"
+  },
+  "http://arxiv.org/abs/2409.14866": {
+    "existing": "@extractions1/e8d1050db1.md"
+  },
+  "http://arxiv.org/abs/2410.13691": {
+    "existing": "@extractions1/b97644a89b.md"
+  },
+  "http://arxiv.org/abs/2501.05542": {
+    "existing": "@extractions1/400eb9c8c3.md"
+  },
   "http://arxiv.org/licenses/nonexclusive-distrib/1.0": {
     "existing": "extractions1/4d67b68694.md"
   },
@@ -140,14 +221,80 @@
   "http://arxiv.org/pdf/2505.16008": {
     "existing": "extractions1/353d96e4f6.md"
   },
+  "http://barryfrost.com/": {
+    "existing": "@extractions1/a0c45a9dcb.md"
+  },
+  "http://benward.me": {
+    "existing": "@extractions1/2876e0616f.md"
+  },
+  "http://benward.me/": {
+    "existing": "@extractions1/faf6f3b5e4.md"
+  },
+  "http://blackwoolholiday.com/": {
+    "error": "503 Server Error: Service Unavailable for url: http://blackwoolholiday.com/"
+  },
+  "http://blog.lizardwrangler.com": {
+    "existing": "@extractions1/ef7180bf61.md"
+  },
+  "http://blog.lizardwrangler.com/": {
+    "existing": "@extractions1/12d10b6c92.md"
+  },
+  "http://blogs.loc.gov/": {
+    "existing": "@extractions1/a5998ab1bc.md"
+  },
+  "http://bret.io/2013/06/29/getting-started-with-bower/": {
+    "error": "404 Client Error: Not Found for url: https://bret.io/2013/06/29/getting-started-with-bower/"
+  },
+  "http://brid.gy/": {
+    "existing": "@extractions1/41eaec7070.md"
+  },
+  "http://caseorganic.com/": {
+    "existing": "@extractions1/744351e568.md"
+  },
+  "http://cassisjs.org": {
+    "existing": "@extractions1/1716cc3ab8.md"
+  },
   "http://cassisproject.com": {
     "existing": "@extractions1/85d11d705c.md"
+  },
+  "http://catalog.loc.gov/": {
+    "existing": "@extractions1/23c77af31e.md"
+  },
+  "http://chloeweil.com/blog": {
+    "existing": "@extractions1/1707578a57.md"
+  },
+  "http://christopheducamp.com/": {
+    "existing": "@extractions1/ad2d94ea3e.md"
+  },
+  "http://christopheducamp.com/blog/test-indieweb-parvenir-a-posser-un-article-vers-twitter/": {
+    "error": "404 Client Error: Not Found for url: https://www.christopheducamp.com/blog/test-indieweb-parvenir-a-posser-un-article-vers-twitter/"
   },
   "http://claude.ai/login": {
     "error": "403 Client Error: Forbidden for url: https://claude.ai/login"
   },
+  "http://claude.ai/login\\": {
+    "error": "403 Client Error: Forbidden for url: https://claude.ai/login%5C"
+  },
+  "http://claude.ai/login\\\\": {
+    "error": "403 Client Error: Forbidden for url: https://claude.ai/login%5C%5C"
+  },
+  "http://cold32.com/about-the-author-and-contact.htm": {
+    "existing": "@extractions1/5e7f55560e.md"
+  },
   "http://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets": {
     "error": "404 Client Error: Not Found for url: https://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets"
+  },
+  "http://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto": {
+    "error": "404 Client Error: Not Found for url: https://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto"
+  },
+  "http://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto\\\\u201ccheat\\\\u201d.Webelievethisdoesnotconsiderablyaffectresults.First,anyoverlapbetweenthetwodatasetsisrareonaverage.Second,becauseweonlyusebetweenthe\\\\ufb01rst5to10tokensofeachsample,anypossibleoverlapwillbesmallinabsoluteterms.6": {
+    "error": "404 Client Error: Not Found for url: https://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto%5C%5Cu201ccheat%5C%5Cu201d.Webelievethisdoesnotconsiderablyaffectresults.First,anyoverlapbetweenthetwodatasetsisrareonaverage.Second,becauseweonlyusebetweenthe%5C%5Cufb01rst5to10tokensofeachsample,anypossibleoverlapwillbesmallinabsoluteterms.6"
+  },
+  "http://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto\\u201ccheat\\u201d.Webelievethisdoesnotconsiderablyaffectresults.First,anyoverlapbetweenthetwodatasetsisrareonaverage.Second,becauseweonlyusebetweenthe\\ufb01rst5to10tokensofeachsample,anypossibleoverlapwillbesmallinabsoluteterms.6": {
+    "error": "404 Client Error: Not Found for url: https://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto%5Cu201ccheat%5Cu201d.Webelievethisdoesnotconsiderablyaffectresults.First,anyoverlapbetweenthetwodatasetsisrareonaverage.Second,becauseweonlyusebetweenthe%5Cufb01rst5to10tokensofeachsample,anypossibleoverlapwillbesmallinabsoluteterms.6"
+  },
+  "http://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto\u201ccheat\u201d.Webelievethisdoesnotconsiderablyaffectresults.First,anyoverlapbetweenthetwodatasetsisrareonaverage.Second,becauseweonlyusebetweenthe\ufb01rst5to10tokensofeachsample,anypossibleoverlapwillbesmallinabsoluteterms.6": {
+    "error": "404 Client Error: Not Found for url: https://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto%E2%80%9Ccheat%E2%80%9D.Webelievethisdoesnotconsiderablyaffectresults.First,anyoverlapbetweenthetwodatasetsisrareonaverage.Second,becauseweonlyusebetweenthe%EF%AC%81rst5to10tokensofeachsample,anypossibleoverlapwillbesmallinabsoluteterms.6"
   },
   "http://creativecommons.org/licenses/by-nc-nd/4.0": {
     "existing": "extractions1/f8a92d30c5.md"
@@ -160,6 +307,9 @@
   },
   "http://creativecommons.org/licenses/by-nd/2.0/": {
     "existing": "extractions1/3c46525f40.md"
+  },
+  "http://creativecommons.org/licenses/by-sa/3.0/": {
+    "existing": "@extractions1/92f858a0d8.md"
   },
   "http://creativecommons.org/licenses/by-sa/4.0/": {
     "existing": "extractions1/15d8eebfa9.md"
@@ -179,6 +329,36 @@
   "http://datasets.while/": {
     "error": "503 Server Error: Service Unavailable for url: http://datasets.while/"
   },
+  "http://davidjohnmead.com": {
+    "existing": "@extractions1/d2b342f2bc.md"
+  },
+  "http://dc.library.sh.cn/1-1.htm": {
+    "error": "503 Server Error: Service Unavailable for url: http://dc.library.sh.cn/1-1.htm"
+  },
+  "http://dc.library.sh.cn/collectionMeta.htm": {
+    "error": "503 Server Error: Service Unavailable for url: http://dc.library.sh.cn/collectionMeta.htm"
+  },
+  "http://dc.library.sh.cn/dc_lib.htm": {
+    "error": "503 Server Error: Service Unavailable for url: http://dc.library.sh.cn/dc_lib.htm"
+  },
+  "http://dc.library.sh.cn/dcmi-terms.htm": {
+    "error": "503 Server Error: Service Unavailable for url: http://dc.library.sh.cn/dcmi-terms.htm"
+  },
+  "http://dc.library.sh.cn/dcmi-type-vocabulary.htm": {
+    "error": "503 Server Error: Service Unavailable for url: http://dc.library.sh.cn/dcmi-type-vocabulary.htm"
+  },
+  "http://dc.library.sh.cn/documents_overview.htm": {
+    "error": "503 Server Error: Service Unavailable for url: http://dc.library.sh.cn/documents_overview.htm"
+  },
+  "http://dimes.lins.fju.edu.tw/dublin/": {
+    "error": "503 Server Error: Service Unavailable for url: http://dimes.lins.fju.edu.tw/dublin/"
+  },
+  "http://diveintomark.org/": {
+    "error": "403 Client Error: Forbidden for url: https://diveintomark.org/"
+  },
+  "http://dlib.ionio.gr/standards/dces.doc": {
+    "error": "404 Client Error: Not Found for url: http://dlib.ionio.gr/standards/dces.doc"
+  },
   "http://dlmf.nist.gov/LaTeXML": {
     "existing": "extractions1/a99a711fb0.md"
   },
@@ -191,11 +371,20 @@
   "http://dublincore.org": {
     "existing": "@extractions1/03bfb89141.md"
   },
+  "http://dublincore.org/about/feedback/": {
+    "saved_as": "f729d6b132.md"
+  },
   "http://dublincore.org/documents/dcmi-type-vocabulary/": {
     "existing": "@extractions1/f2a58726e5.md"
   },
   "http://dublincore.org/resources/translations/": {
     "existing": "@extractions1/e458f00b8f.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/": {
+    "saved_as": "c23a966b26.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/abstract-model/2007-02-05/": {
+    "saved_as": "defab114a2.md"
   },
   "http://dublincore.org/specifications/dublin-core/dces/": {
     "existing": "@extractions1/f8d6276f37.md"
@@ -212,193 +401,10 @@
   "http://dublincore.org/specifications/dublin-core/dces/2003-02-04/": {
     "existing": "@extractions1/aced4e5037.md"
   },
+  "http://dublincore.org/specifications/dublin-core/dces/2003-06-02/": {
+    "saved_as": "391e2d3837.md"
+  },
   "http://dublincore.org/specifications/dublin-core/dcmi-namespace/": {
     "existing": "@extractions1/95b23b2495.md"
-  },
-  "http://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/": {
-    "existing": "extractions1/d19bb1a7d7.md"
-  },
-  "http://dublincore.org/specifications/dublin-core/dcmi-type-vocabulary/": {
-    "existing": "@extractions1/978e37cc2e.md"
-  },
-  "http://filters.To": {
-    "error": "503 Server Error: Service Unavailable for url: http://filters.to/"
-  },
-  "http://filters.to/": {
-    "error": "503 Server Error: Service Unavailable for url: http://filters.to/"
-  },
-  "http://github.com/llm-attacks/llm-attacks": {
-    "existing": "extractions1/e7faca322a.md"
-  },
-  "http://gmpg.org/xfn/11": {
-    "existing": "extractions1/434bc5d3f9.md"
-  },
-  "http://gotit.pub/faq": {
-    "existing": "extractions1/a19f5ec71f.md"
-  },
-  "http://lcweb.loc.gov/catdir/cpso/lcco/lcco.html": {
-    "existing": "@extractions1/9069ca3281.md"
-  },
-  "http://lcweb.loc.gov/standards/iso639-2/langhome.html": {
-    "existing": "@extractions1/1581829fc6.md"
-  },
-  "http://library.isical.ac.in:8080/jspui/handle/10263/6765.AleksandarMakelov": {
-    "error": "503 Server Error: Service Unavailable for url: http://library.isical.ac.in:8080/jspui/handle/10263/6765.AleksandarMakelov"
-  },
-  "http://llm-attacks.org/": {
-    "existing": "extractions1/6ea37d80f9.md"
-  },
-  "http://madskills.com/public/xml/rss/module/trackback": {
-    "error": "503 Server Error: Service Unavailable for url: http://madskills.com/public/xml/rss/module/trackback"
-  },
-  "http://madskills.com/public/xml/rss/module/trackback/": {
-    "error": "503 Server Error: Service Unavailable for url: http://madskills.com/public/xml/rss/module/trackback/"
-  },
-  "http://meyerweb.com/": {
-    "existing": "extractions1/f401a61178.md"
-  },
-  "http://microformats.org/": {
-    "existing": "@extractions1/7f4528c4b5.md"
-  },
-  "http://microformats.org/about/people": {
-    "existing": "@extractions1/2a141f0bf1.md"
-  },
-  "http://microformats.org/wiki": {
-    "existing": "@extractions1/6db31a3845.md"
-  },
-  "http://microformats.org/wiki/h-card": {
-    "existing": "@extractions1/85de7cc253.md"
-  },
-  "http://microformats.org/wiki/h-cite": {
-    "existing": "@extractions1/719b4074c3.md"
-  },
-  "http://microformats.org/wiki/h-entry": {
-    "existing": "@extractions1/01bf55cdf8.md"
-  },
-  "http://microformats.org/wiki/h-event": {
-    "existing": "@extractions1/075a2e127b.md"
-  },
-  "http://microformats.org/wiki/microformats2": {
-    "existing": "@extractions1/112efeb474.md"
-  },
-  "http://opengraphprotocol.org/schema": {
-    "error": "404 Client Error: Not Found for url: https://ogp.me/schema/"
-  },
-  "http://opengraphprotocol.org/schema/": {
-    "error": "404 Client Error: Not Found for url: https://ogp.me/schema/"
-  },
-  "http://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html": {
-    "existing": "extractions1/6ae68c32c7.md"
-  },
-  "http://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html[30": {
-    "error": "404 Client Error: Not Found for url: https://proceedings.neurips.cc//paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html%5b30"
-  },
-  "http://photomatt.net/": {
-    "existing": "extractions1/9265bed4df.md"
-  },
-  "http://purl.org/dc/dcam/": {
-    "existing": "extractions1/64970bc2d4.md"
-  },
-  "http://purl.org/dc/dcam/VocabularyEncodingScheme": {
-    "existing": "@extractions1/ea70b46f30.md"
-  },
-  "http://purl.org/dc/dcam/`**": {
-    "existing": "extractions1/b274658c19.md"
-  },
-  "http://purl.org/dc/dcam/domainIncludes": {
-    "existing": "@extractions1/8de6b83d7d.md"
-  },
-  "http://purl.org/dc/dcam/memberOf": {
-    "existing": "@extractions1/62973babd8.md"
-  },
-  "http://purl.org/dc/dcam/rangeIncludes": {
-    "existing": "@extractions1/46b152b5a8.md"
-  },
-  "http://purl.org/dc/dcmitype/": {
-    "existing": "extractions1/2730184a15.md"
-  },
-  "http://purl.org/dc/dcmitype/Collection": {
-    "existing": "@extractions1/cff3647119.md"
-  },
-  "http://purl.org/dc/dcmitype/Dataset": {
-    "existing": "@extractions1/17bd65c0aa.md"
-  },
-  "http://purl.org/dc/dcmitype/Event": {
-    "saved_as": "edda2377b5.md"
-  },
-  "http://purl.org/dc/dcmitype/Image": {
-    "saved_as": "4c56e9d132.md"
-  },
-  "http://purl.org/dc/dcmitype/InteractiveResource": {
-    "saved_as": "03e982baaa.md"
-  },
-  "http://purl.org/dc/dcmitype/MovingImage": {
-    "saved_as": "1a65f61a92.md"
-  },
-  "http://purl.org/dc/dcmitype/PhysicalObject": {
-    "saved_as": "16a7e9cf70.md"
-  },
-  "http://purl.org/dc/dcmitype/Service": {
-    "saved_as": "4f6f6919bd.md"
-  },
-  "http://purl.org/dc/dcmitype/Software": {
-    "saved_as": "830c1cb094.md"
-  },
-  "http://purl.org/dc/dcmitype/Sound": {
-    "saved_as": "68b62d3682.md"
-  },
-  "http://purl.org/dc/dcmitype/StillImage": {
-    "saved_as": "1e075c9f54.md"
-  },
-  "http://purl.org/dc/dcmitype/Text": {
-    "saved_as": "985c2f5c68.md"
-  },
-  "http://purl.org/dc/dcmitype/`**": {
-    "existing": "extractions1/2d0bd07be6.md"
-  },
-  "http://purl.org/dc/elements/1.1": {
-    "existing": "extractions1/2aeb059b18.md"
-  },
-  "http://purl.org/dc/elements/1.1/": {
-    "existing": "extractions1/f414295724.md"
-  },
-  "http://purl.org/dc/elements/1.1/`**": {
-    "existing": "extractions1/bc3771f434.md"
-  },
-  "http://purl.org/dc/elements/1.1/contributor": {
-    "saved_as": "5964b42bb0.md"
-  },
-  "http://purl.org/dc/elements/1.1/coverage": {
-    "saved_as": "10a8af6d36.md"
-  },
-  "http://purl.org/dc/elements/1.1/creator": {
-    "saved_as": "d98f283f4b.md"
-  },
-  "http://purl.org/dc/elements/1.1/date": {
-    "existing": "extractions1/4fa51e6f20.md"
-  },
-  "http://purl.org/dc/elements/1.1/date`": {
-    "existing": "extractions1/d115fb2f77.md"
-  },
-  "http://purl.org/dc/elements/1.1/description": {
-    "saved_as": "2afba585fe.md"
-  },
-  "http://purl.org/dc/elements/1.1/format": {
-    "saved_as": "3b8785de67.md"
-  },
-  "http://purl.org/dc/elements/1.1/identifier": {
-    "saved_as": "bfa2e34279.md"
-  },
-  "http://purl.org/dc/elements/1.1/language": {
-    "saved_as": "25933321b8.md"
-  },
-  "http://purl.org/dc/elements/1.1/publisher": {
-    "saved_as": "3a68973a1f.md"
-  },
-  "http://purl.org/dc/elements/1.1/relation": {
-    "saved_as": "4a6e0ce603.md"
-  },
-  "http://purl.org/dc/elements/1.1/rights": {
-    "saved_as": "ccca4a7114.md"
   }
 }
