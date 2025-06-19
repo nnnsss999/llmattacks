@@ -98,6 +98,8 @@
 ./docs/embedding/extracting-training-data-2012.07805.html
 ./docs/navigation-map.md
 ./docs/latent-space/apexhq-latentspace.html
+./docs/latent-space/latent-space-attack-resources.md
+./docs/latent-space/latent-space-resources-2026.md
 ./docs/latent-space/obfuscated-activations.html
 ./docs/pdf-extract.md
 ./docs/data-poisoning/index.md
