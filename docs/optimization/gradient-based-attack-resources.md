@@ -50,3 +50,4 @@ This list collects notable research papers, blog posts and repositories that dev
 - [WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models](https://arxiv.org/abs/2406.18510) – large-scale analysis of real jailbreak data with gradient-focused mitigations.
 - [AdvWave: Stealthy Adversarial Jailbreak Attack against Large Audio-Language Models](https://arxiv.org/abs/2412.08608) – introduces audio-focused gradient attacks that evade detection.
 - [What is in Your Safe Data? Identifying Benign Data that Breaks Safety](https://arxiv.org/abs/2404.01099) – shows how seemingly harmless data can fuel gradient-based jailbreaks.
+- [Gradient Attack Resources 2033](gradient-resources-2033.md) – continued catalog of gradient-based jailbreak research.
