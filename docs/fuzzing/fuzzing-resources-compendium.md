@@ -35,6 +35,8 @@ This document aggregates references on fuzzing techniques for large language mod
 - [FuzzLGen: Logical Seed Generation for Smart Contract Fuzzing](https://www.ndss-symposium.org/wp-content/uploads/2025-poster-23.pdf)
 - [LLM-guided Wi-Fi Fuzzing](https://www.esat.kuleuven.be/cosic/thesis/2026/LLM-guided_Wi-Fi_Fuzzing.pdf)
 - [Fuzzing LLMs Sometimes Makes Them Reveal Their Secrets](https://www.lesswrong.com/posts/GE6pcmmLc3kdpNJja/fuzzing-llms-sometimes-makes-them-reveal-their-secrets)
+- [Fuzzylabs Blog: Jailbreak Attacks on Large Language Models](https://www.fuzzylabs.ai/blog-post/jailbreak-attacks-on-large-language-models)
+- [AI-based Vulnerability Fuzzer Discovers Critical Zero-Day](https://www.securityweek.com/ai-based-vulnerability-fuzzer-discovers-critical-zero-day/)
 
 ## Tools and Repositories
 - [FuzzAI Project](https://github.com/cyberark/FuzzyAI)
@@ -49,6 +51,10 @@ This document aggregates references on fuzzing techniques for large language mod
 - [KernelGPT Repository](https://github.com/ise-uiuc/KernelGPT)
 - [CovRL-Fuzz Repository](https://github.com/seclab-yonsei/CovRL-Fuzz)
 - [SyzLLM Repository](https://github.com/SpencerL-Y/SyzLLM)
+- [PromptFuzz2 Repository](https://github.com/sherdencooper/PromptFuzz2)
+- [Google ClusterFuzz Documentation](https://google.github.io/clusterfuzz/)
+- [Honggfuzz Project](https://honggfuzz.dev)
+- [LLVM LibFuzzer Guide](https://llvm.org/docs/LibFuzzer.html)
 - [LLM-FuzzX Repository](https://github.com/Windy3f3f3f3f/LLM-FuzzX)
 
 These references consolidate the fuzzing resources spread across multiple documents in this repository, giving researchers a centralized starting point for further exploration.
