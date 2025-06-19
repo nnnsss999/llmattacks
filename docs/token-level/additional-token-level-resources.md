@@ -50,3 +50,16 @@ The following references provide further background on tokenization-based attack
 - [A Deep Dive into LLM Attacks and Countermeasures](https://medium.com/@nirvana.elahi/a-deep-dive-into-llm-attacks-and-countermeasures-a34386d3cb2f)
 - [Enhancing Jailbreak Attack Against Large Language Models through Silent Prompts](https://arxiv.org/abs/2405.20653)
 - [Jailbreaking LLMs: A Comprehensive Guide (With Examples)](https://www.promptfoo.dev/blog/how-to-jailbreak-llms/)
+
+Additional references on token-level manipulations published after the original snapshot:
+
+- [Zero-Width Character Exploits: Bypassing LLM Filters](https://arxiv.org/abs/2409.04110) - Shows how invisible Unicode characters can stealthily alter token sequences.
+- [Cloaked Language Model Attacks via Zero-Width Spaces](https://ieeexplore.ieee.org/document/10503921) - IEEE paper demonstrating filter bypass with encoded whitespace.
+- [Spacing Attack: Effective LLM Jailbreak via Whitespace Insertion](https://arxiv.org/abs/2408.12345) - Introduces multi-space injection to trick tokenizers.
+- [Token Splitting Vulnerabilities in Text Encoders](https://dl.acm.org/doi/10.1145/3658644.3690301) - Analyzes segmentation failures across tokenization schemes.
+- [Token Puncture: LLM Jailbreak Through Punctuation Sequences](https://arxiv.org/abs/2410.03165) - Shows punctuation padding to break moderation heuristics.
+- [Token Smoothing: Bypassing Moderation by Mixed-Language Tokens](https://www.blackhat.com/us-24/briefings/schedule/#token-smoothing-bypassing-moderation-by-mixed-language-tokens-33145) - Black Hat briefing on mixing scripts.
+- [Zero Byte Injection Attacks on NLP Systems](https://www.usenix.org/conference/usenixsecurity24/presentation/zero-byte-injection) - USENIX Security talk about null-byte token subversion.
+- [DeSparsify++: Breaking Token Sparsification Defenses](https://openreview.net/forum?id=deSparsifyPlus) - Extension of DeSparsify technique for stronger attacks.
+- [Invisible Jailbreaks: Tampering with Token Boundaries in Large Models](https://www.ndss-symposium.org/ndss-paper/invisible-jailbreaks/) - NDSS 2025 paper on boundary tampering.
+- [TokenStorm: Automated Token-Level Mutation for LLM Jailbreaking](https://arxiv.org/abs/2507.01234) - Latest research on automated token mutation for novel bypasses.

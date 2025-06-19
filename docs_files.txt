@@ -85,5 +85,11 @@ docs/token-level/token-level-resources-2027.md
 docs/streaming/streaming-response-hijacking-resources.md
 docs/function-calling/function-calling-exploit-resources.md
 docs/latent-space/attention-hijacking-resources.md
+docs/fuzzing/fuzzing-resources-2030.md
+docs/fuzzing/fuzzing-resources-2031.md
+docs/fuzzing/fuzzing-resources-2032.md
+docs/supply-chain/compromised-model-hub-resources.md
 docs/optimization/evolutionary-algorithm-attacks.md
 docs/prompt-dialogue/prompt-engineering-resources-2028.md
+docs/prompt-dialogue/prompt-engineering-resources-2029.md
+docs/prompt-dialogue/prompt-engineering-resources-2030.md
