@@ -174,6 +174,9 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `navigation-map.md` — this file describing all repository contents
 - `additional-resources.md` — curated external readings
 - `zero-day-resources.md` — references on newly disclosed LLM vulnerabilities
+- `zero-day-resources-2026.md` — supplemental links published in 2026
+- `zero-day-resources-2027.md` — additional fuzzing and competition resources
+- `zero-day-resources-2028.md` — recent advisories and CVE references
 - `urls.md` — list of referenced URLs used for analysis
 - `llm-attack-catalog.md` — printable markdown version of the master catalog
 
