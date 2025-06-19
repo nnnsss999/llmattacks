@@ -32,5 +32,8 @@ This file compiles research articles and papers that expand upon or cite the **P
 - [Defending ChatGPT against Jailbreak Attack via Self-Reminder](https://doi.org/10.21203/rs.3.rs-2873090/v1) – tests self-reminder strategies on Puzzler jailbreaks.
 - [PBI-Attack: Prior-Guided Bimodal Interactive Black-Box Jailbreak Attack for Toxicity Maximization](https://doi.org/10.18653/v1/2025.trustnlp-main.3) – compares its effectiveness with Puzzler prompts.
 - [Boosting Jailbreak Attack with Momentum](https://doi.org/10.1109/icassp49660.2025.10888812) – explores momentum-based optimization for jailbreaks, referencing Puzzler results.
+- [Analysis of Jailbreak Attacks and Defenses for Large Language Models](https://doi.org/10.47297/wspciwsp2516-252718.20250902) – surveys the landscape of jailbreak techniques and mitigation approaches, covering Puzzler as a case study.
+- [Jailbreak Attacks on Large Language Models and Possible Defenses: Present Status and Future Possibilities](https://doi.org/10.1109/istas61960.2024.10732418) – overview of emerging jailbreak strategies, with discussion of Puzzler-style indirect prompts.
+- [MMJ-Bench: A Comprehensive Study on Jailbreak Attacks and Defenses for Vision Language Models](https://doi.org/10.1609/aaai.v39i26.34983) – includes multimodal evaluations that cite Puzzler when comparing text-based jailbreak benchmarks.
 
 These references offer deeper context on how clue-based prompting evolves and how researchers study or defend against Puzzler-style jailbreaks.
