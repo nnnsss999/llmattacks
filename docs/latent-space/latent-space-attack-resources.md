@@ -15,3 +15,8 @@ The references below explore how adversaries manipulate a model's hidden represe
 - [Text Embedding Inversion Security for Multilingual Language Models](https://arxiv.org/abs/2401.12192) – recovers prompts from multilingual embeddings.
 - [LAGO: Few-shot Crosslingual Embedding Inversion Attacks](https://arxiv.org/abs/2505.16008) – cross-lingual embedding inversion using graph optimization.
 - [Extracting Training Data from Large Language Models](https://arxiv.org/abs/2012.07805) – early work on leaking training text via latent representations.
+- [Mitigating Privacy Risks in LLM Embeddings from Embedding Inversion](https://arxiv.org/abs/2411.05034) – introduces **Eguard**, a defense that projects embeddings through a transformer network.
+- [Information Leakage from Embedding in Large Language Models](https://arxiv.org/abs/2405.11916) – shows how stored embeddings can reveal private text.
+- [Latent-Space Jailbreak Optimization](https://www.promptfoo.dev/lm-security-db/vuln/latent-space-jailbreak-optimization-db61455d) – gradient-based search for hidden jailbreak vectors.
+- [Can Generalized Adversarial Testing Enable More Rigorous LLM Safety Evaluations?](https://www.alignmentforum.org/posts/m6poxWegJkp8LPpjw/can-generalized-adversarial-testing-enable-more-rigorous-llm) – explores latent-space attacks and few-shot tuning.
+- [aengusl/latent-adversarial-training](https://github.com/aengusl/latent-adversarial-training) – implementation of latent adversarial attacks and training.
