@@ -11,6 +11,33 @@
   "components": [
     {
       "type": "file",
+      "name": "additional-resources-2027.md",
+      "bom-ref": "additional-resources-2027.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Resources on LLM Attacks 2027"
+        },
+        {
+          "name": "category",
+          "value": "Overview"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "additional-resources.md",
       "bom-ref": "additional-resources.md",
       "properties": [
@@ -1325,6 +1352,33 @@
       "type": "file",
       "name": "urls.md",
       "bom-ref": "urls.md"
+    },
+    {
+      "type": "file",
+      "name": "zero-day-resources-2026.md",
+      "bom-ref": "zero-day-resources-2026.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Zero-Day Resources 2026"
+        },
+        {
+          "name": "category",
+          "value": "Zero-Day"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
     },
     {
       "type": "file",
