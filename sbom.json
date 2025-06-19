@@ -430,6 +430,33 @@
     },
     {
       "type": "file",
+      "name": "fuzzing/fuzzing-resources-2028.md",
+      "bom-ref": "fuzzing/fuzzing-resources-2028.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Fuzzing Resources 2028"
+        },
+        {
+          "name": "category",
+          "value": "Fuzzing"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "fuzzing/fuzzing-techniques.md",
       "bom-ref": "fuzzing/fuzzing-techniques.md",
       "properties": [
@@ -684,6 +711,33 @@
     },
     {
       "type": "file",
+      "name": "latent-space/attention-hijacking-resources.md",
+      "bom-ref": "latent-space/attention-hijacking-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Attention Hijacking Resources"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "latent-space/latent-space-attack-resources.md",
       "bom-ref": "latent-space/latent-space-attack-resources.md",
       "properties": [
@@ -824,6 +878,33 @@
     },
     {
       "type": "file",
+      "name": "multimodal/cross-modal-attack-resources.md",
+      "bom-ref": "multimodal/cross-modal-attack-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Cross-Modal LLM Attack Resources"
+        },
+        {
+          "name": "category",
+          "value": "Multimodal"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "multimodal/image-based-attack-resources.md",
       "bom-ref": "multimodal/image-based-attack-resources.md",
       "properties": [
@@ -841,7 +922,7 @@
         },
         {
           "name": "date_collected",
-          "value": "2025-06-18"
+          "value": "2026-06-19"
         },
         {
           "name": "license",
@@ -1431,6 +1512,87 @@
     },
     {
       "type": "file",
+      "name": "neuron-resources.md",
+      "bom-ref": "neuron-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Neuron-Level Manipulation Resources"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/autodan-interpretable.md",
+      "bom-ref": "optimization/autodan-interpretable.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "AutoDAN: Interpretable Gradient-Based Adversarial Attacks"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/abs/2310.15140"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/autodan-stealthy.md",
+      "bom-ref": "optimization/autodan-stealthy.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned LLMs"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/abs/2310.04451"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "optimization/gradient-based-adversarial-transformers.md",
       "bom-ref": "optimization/gradient-based-adversarial-transformers.md",
       "properties": [
@@ -1445,6 +1607,33 @@
         {
           "name": "source_url",
           "value": "https://blogs.night-wolf.io/gradient-based-adversarial-attacks-against-text-transformers"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/pig-jailbreak.md",
+      "bom-ref": "optimization/pig-jailbreak.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "PIG: Privacy Jailbreak via Gradient-based In-Context Optimization"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/abs/2505.09921"
         },
         {
           "name": "date_collected",
@@ -1598,6 +1787,33 @@
     },
     {
       "type": "file",
+      "name": "prompt-dialogue/prompt-engineering-resources-extra.md",
+      "bom-ref": "prompt-dialogue/prompt-engineering-resources-extra.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Prompt Engineering Attack Resources Extra"
+        },
+        {
+          "name": "category",
+          "value": "Prompt Dialogue"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "prompt-dialogue/prompt-injection-resources-2026.md",
       "bom-ref": "prompt-dialogue/prompt-injection-resources-2026.md",
       "properties": [
@@ -1612,6 +1828,60 @@
         {
           "name": "source_url",
           "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "prompt-dialogue/puzzler-attack-resources.md",
+      "bom-ref": "prompt-dialogue/puzzler-attack-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Puzzler Attack Resources"
+        },
+        {
+          "name": "category",
+          "value": "Prompt Dialogue"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "prompt-dialogue/puzzler-indirect-jailbreak.md",
+      "bom-ref": "prompt-dialogue/puzzler-indirect-jailbreak.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Puzzler Indirect Jailbreak"
+        },
+        {
+          "name": "category",
+          "value": "Prompt Dialogue"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/abs/2402.09091"
         },
         {
           "name": "date_collected",
