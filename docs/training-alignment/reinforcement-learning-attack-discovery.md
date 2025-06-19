@@ -173,6 +173,17 @@ Additional papers highlight emerging RL-driven attack vectors:
   [Self-Play Reinforcement Learning for Autonomous Red Teaming of LLMs](https://openreview.net/forum?id=4pYx2RLeXK).
 - **RL-Driven Attack Agents** – open-source framework that continuously discovers new jailbreaks.
   [RL-AgentLab: Reinforcement Learning Agents for Automated Security Testing](https://github.com/example/rl-agentlab).
+- **PGN Attack** – uses a perturbation generation network to craft adversarial examples against DRL.
+  [PGN: A Perturbation Generation Network Against Deep Reinforcement Learning](https://arxiv.org/abs/2312.12904).
+- **Automating XSS Discovery** – RL-driven exploration of cross-site scripting vulnerabilities.
+  [Automating XSS Vulnerability Testing Using Reinforcement Learning](https://doi.org/10.5220/0011653600003405).
+- **RL-Based DoS Simulation** – deep RL agent learns denial-of-service strategies in cyber-physical systems.
+  [Deep Reinforcement Learning-based DoS Attack and Its Countermeasures in Cyber-Physical Systems](https://doi.org/10.14711/thesis-991013114547303412).
+- **Deceptive User Simulation** – reinforcement of cyber deception strategies using simulated user behavior.
+  [Reinforcement of Cyber Deception Strategies through Simulated User Behavior](https://doi.org/10.36227/techrxiv.174283192.29077680/v1).
+- **Web App Deception RL** – reinforcement learning simulation for web application deception tactics.
+  [Reinforcement Learning Simulation for Web Application Deception Strategies](https://doi.org/10.14711/thesis-991013222945503412).
+
 
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine
