@@ -21,6 +21,10 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 - Run `python scripts/cache_pdfs.py` to locally cache PDF sources when allowed.
 - Run `python scripts/scrub_js.py` to remove third-party `<script>` tags and cookie banners from HTML or Markdown files.
 - Run `python scripts/generate_sbom.py` to regenerate `sbom.json`, a CycloneDX SBOM of all source files for traceability.
+- Run `python scripts/check_front_matter.py` to validate YAML front matter across the catalog.
+- Run `python scripts/check_duplicates.py` to detect duplicate markdown entries.
+- Run `python scripts/link_check.py` to spot broken links locally.
+- Run `python scripts/refresh_links.py` to update `link_archive.json` with fresh Wayback snapshots.
 - Broken links are checked via `lychee` in CI.
 - A scheduled workflow refreshes external links weekly and stores Wayback Machine snapshots in `link_archive.json`.
 
@@ -30,7 +34,7 @@ Contributions are welcome! Please review [CONTRIBUTING.md](CONTRIBUTING.md) for 
 
 ## Development Workflow
 
-This project uses **pre-commit** hooks for basic linting and a GitHub Actions pipeline that runs the hooks and a link checker. Run `pre-commit run --all-files` before committing, and the CI will enforce these checks on every pull request.
+This project uses **pre-commit** hooks for basic linting and a GitHub Actions pipeline that runs the hooks and unit tests. Run `pre-commit run --all-files` and `pytest` before committing; the CI will enforce these checks on every pull request.
 
 ## License
 
