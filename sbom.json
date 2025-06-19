@@ -200,6 +200,33 @@
     },
     {
       "type": "file",
+      "name": "additional-resources-2036.md",
+      "bom-ref": "additional-resources-2036.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Resources on LLM Attacks 2036"
+        },
+        {
+          "name": "category",
+          "value": "Overview"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-24"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "additional-resources.md",
       "bom-ref": "additional-resources.md",
       "properties": [
@@ -802,6 +829,33 @@
         {
           "name": "date_collected",
           "value": "2025-06-21"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "fuzzing/fuzzing-resources-2037.md",
+      "bom-ref": "fuzzing/fuzzing-resources-2037.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Fuzzing Resources 2037"
+        },
+        {
+          "name": "category",
+          "value": "Fuzzing"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
         },
         {
           "name": "license",
@@ -2474,6 +2528,33 @@
     },
     {
       "type": "file",
+      "name": "optimization/evolutionary-resources-2032.md",
+      "bom-ref": "optimization/evolutionary-resources-2032.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Evolutionary Algorithm Resources 2032"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-23"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "optimization/gradient-attack-resources.md",
       "bom-ref": "optimization/gradient-attack-resources.md",
       "properties": [
@@ -3667,6 +3748,33 @@
     },
     {
       "type": "file",
+      "name": "social-engineering/emotional-manipulation-resources-2033.md",
+      "bom-ref": "social-engineering/emotional-manipulation-resources-2033.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Emotional Manipulation Attack Resources 2033"
+        },
+        {
+          "name": "category",
+          "value": "Social Engineering"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-25"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "social-engineering/emotional-manipulation-resources.md",
       "bom-ref": "social-engineering/emotional-manipulation-resources.md",
       "properties": [
@@ -3777,6 +3885,29 @@
         {
           "name": "title",
           "value": "Additional LLM Supply Chain Resources 2026"
+        },
+        {
+          "name": "category",
+          "value": "Supply Chain"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "supply-chain/additional-supply-chain-resources-2027.md",
+      "bom-ref": "supply-chain/additional-supply-chain-resources-2027.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional LLM Supply Chain Resources 2027"
         },
         {
           "name": "category",
