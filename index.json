@@ -63,6 +63,22 @@
       "date_collected": "2025-06-18"
     }
   ],
+  "Linguistic Manipulation": [
+    {
+      "title": "Linguistic Manipulation Attacks",
+      "path": "linguistic-manipulation/index.md",
+      "category": "Linguistic Manipulation",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Linguistic Manipulation Resources 2026",
+      "path": "linguistic-manipulation/additional-resources.md",
+      "category": "Linguistic Manipulation",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    }
+  ],
   "Tokenization": [
     {
       "title": "TokenBreak Single-Character Bypass",
