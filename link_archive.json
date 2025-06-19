@@ -112,5 +112,13 @@
   },
   "https://skylion007.github.io/OpenWebTextCorpus/": {
     "snapshot": "https://web.archive.org/web/20250618/skylion-openwebtext"
+  "https://doi.org/10.1109/icassp48485.2024.10446267": {
+    "snapshot": "https://web.archive.org/web/20250618/icassp-poisonprompt"
+  },
+  "https://doi.org/10.1109/mnet.2024.3367788": {
+    "snapshot": "https://web.archive.org/web/20250618/mnet-backdoor"
+  },
+  "https://doi.org/10.1145/3656156.3665432": {
+    "snapshot": "https://web.archive.org/web/20250618/hacc-man"
   }
 }

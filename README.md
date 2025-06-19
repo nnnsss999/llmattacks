@@ -15,7 +15,7 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 ## Documentation Timeline
 
 - All documentation files under `docs/` include YAML front matter with a `date_collected` of **2025-06-18**, marking the snapshot used to build the catalog. Later commits refine tooling and link archives, but the documentation content reflects that 2025-06-18 snapshot.
-- The `@extractions1/` directory holds **37** markdown drafts automatically converted on **2025-06-19**. These drafts are queued for future integration into the main catalog.
+ - The `@extractions1/` directory holds **55** markdown drafts automatically converted on **2025-06-19**. These drafts are queued for future integration into the main catalog.
 - The repository was initially committed on **2025-06-18**, establishing the baseline snapshot.
 
 ## Repository Structure
