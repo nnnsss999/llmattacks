@@ -124,6 +124,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `gradient-resources-2027.md` — further gradient-based jailbreak references
 - `gradient-resources-2028.md` — latest gradient-based jailbreak studies
 - `gradient-resources-2029.md` — recent gradient-based jailbreak updates
+- `gradient-resources-2030.md` — newest gradient-based jailbreak materials
 - `evolutionary-algorithm-attacks.md` — overview of GA-based jailbreak techniques
 - `boosting-jailbreak-with-momentum.md` — momentum-based gradient attack
 - `dager-gradient-inversion.md` — exact gradient inversion method

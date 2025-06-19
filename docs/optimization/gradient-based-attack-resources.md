@@ -43,3 +43,10 @@ This list collects notable research papers, blog posts and repositories that dev
 - [AdvPrompter GitHub Repository](https://github.com/facebookresearch/advprompter)
 - [Awesome-Jailbreak-on-LLMs Repository](https://github.com/yueliu1999/Awesome-Jailbreak-on-LLMs)
 - [Adversarial Prompt Detection in Large Language Models: A Classification-Driven Approach](https://www.sciencedirect.com/science/article/pii/S1546221825004898)
+- [AttnGCG: Enhancing Jailbreaking Attacks on LLMs with Attention Manipulation](https://arxiv.org/abs/2410.09040) – manipulates attention weights to boost gradient-based jailbreak efficacy.
+- [Guiding not Forcing: Enhancing the Transferability of Jailbreaking Attacks on LLMs via Removing Superfluous Constraints](https://arxiv.org/abs/2503.01865) – improves cross-model transfer by relaxing unnecessary constraints during optimization.
+- [Securing Vision-Language Models with a Robust Encoder Against Jailbreak and Adversarial Attacks](https://arxiv.org/abs/2409.07353) – defense that trains a robust encoder to resist gradient-driven multimodal attacks.
+- [Failures to Find Transferable Image Jailbreaks Between Vision-Language Models](https://arxiv.org/abs/2407.15211) – empirical study on the limits of transferring gradient-based image jailbreaks.
+- [WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models](https://arxiv.org/abs/2406.18510) – large-scale analysis of real jailbreak data with gradient-focused mitigations.
+- [AdvWave: Stealthy Adversarial Jailbreak Attack against Large Audio-Language Models](https://arxiv.org/abs/2412.08608) – introduces audio-focused gradient attacks that evade detection.
+- [What is in Your Safe Data? Identifying Benign Data that Breaks Safety](https://arxiv.org/abs/2404.01099) – shows how seemingly harmless data can fuel gradient-based jailbreaks.
