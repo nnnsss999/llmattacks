@@ -12,6 +12,27 @@ An [**Attack–Defence Matrix**](docs/attack-defense-matrix.md) cross-links each
 
 A searchable website built with **MkDocs Material** is automatically deployed to GitHub Pages. Visit <https://example.github.io/llmattacks/> to explore the catalog with Mermaid diagrams enabled.
 
+## Repository Structure and Timeline
+
+All documentation files under `docs/` include YAML front matter with a
+`date_collected` of **2025-06-18**, marking the snapshot used to build the
+catalog. Key folders include:
+
+- `docs/` – canonical Markdown and HTML articles grouped by category such as
+  `agentic/`, `inference/`, `training-alignment/`, and `multimodal/`.
+- `original/` – the original PDF and Markdown source for the catalog.
+- `pdfs/` – a local cache of PDFs; see `pdfs/README.md` for details.
+- `scripts/` – helper scripts to validate front matter, build `index.json`, and
+  generate the CycloneDX `sbom.json`.
+- `tests/` – unit tests for the link checker and SBOM generator.
+- `docs_files.txt` – manifest listing every document archived in this
+  repository.
+- `catalog_content.md` – printable version of the master catalog.
+- `fixes-1.md` – issue log and proposed improvements.
+- `link_archive.json` – Wayback Machine snapshots of referenced URLs.
+- `sbom.json` – machine-readable bill of materials linking each document with
+  its metadata.
+
 ## Using This Repository
 
 - The **canonical files** reside under `docs/` and use kebab‑case names.
