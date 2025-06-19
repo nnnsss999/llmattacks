@@ -1,7 +1,7 @@
 {
   "Overview": [
     {
-      "title": "Attack\u2013Defence Matrix",
+      "title": "Attack–Defence Matrix",
       "path": "attack-defense-matrix.md",
       "category": "Overview",
       "sub_category": "",
@@ -138,6 +138,13 @@
     {
       "title": "Image Obscuring Jailbreak",
       "path": "multimodal/image-obscuring-jailbreak.md",
+      "category": "Multimodal",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Cross-Modal LLM Attack Resources",
+      "path": "multimodal/cross-modal-attack-resources.md",
       "category": "Multimodal",
       "sub_category": "",
       "date_collected": "2025-06-18"
