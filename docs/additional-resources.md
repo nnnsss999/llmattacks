@@ -36,6 +36,7 @@ Below is a curated set of external articles, blog posts and reports that further
 - [BEEAR Backdoored Model Example](supply-chain/beear-backdoored-model3.html)
 - [Poisoned Pre-Training Data Markets](supply-chain/poisoned-pretraining-markets.md)
 - [Extended LLM Supply Chain Resources](supply-chain/extended-llm-supply-chain-resources.md)
+- [Supply Chain Best Practices for LLMs](supply-chain/supply-chain-best-practices.md)
 - [A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models](https://arxiv.org/abs/2402.13457)
 - [COLD-Attack: Jailbreaking LLMs with Stealthiness and Controllability](https://github.com/Yu-Fangxu/COLD-Attack)
 - [Play Guessing Game with LLM: Indirect Jailbreak Attack with Implicit Clues](https://aclanthology.org/2024.findings-acl.304/)
