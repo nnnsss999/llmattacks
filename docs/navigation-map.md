@@ -141,6 +141,10 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `social-engineering-overview.html` — summary of social engineering risks
 - `emotional-manipulation-resources.md` — social engineering and emotional manipulation references
 - `persona-based-resources.md` — persona-driven jailbreak references
+- `authority-simulation-resources-2026.md` — impersonation resources
+- `authority-simulation-resources-2027.md` — continued research
+- `authority-simulation-resources-2028.md` — additional citations
+- `authority-simulation-resources-2029.md` — latest references
 
 ### supply-chain/
 - `hackernews-pypi.html` — story on PyPI supply-chain risks
