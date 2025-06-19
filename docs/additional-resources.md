@@ -76,3 +76,5 @@ These references track emerging threats and defence research through 2025 and ar
 - [Vulnhuntr: Autonomous AI Finds First 0-Day Vulnerabilities in Wild](https://protectai.com/threat-research/vulnhuntr-first-0-day-vulnerabilities)
 - [Using Generative AI LLM agents to exploit zero-day vulnerabilities](https://www.cybercareers.blog/2024/07/using-generative-ai-llm-agents-to-exploit-zero-day-vulnerabilities/)
 
+
+- [Teams of LLM Agents can Exploit Zero-Day Vulnerabilities](https://arxiv.org/abs/2406.01637)
