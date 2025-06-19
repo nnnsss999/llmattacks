@@ -356,5 +356,50 @@ reading on LLM attack research.
 Helper script that renames documentation files to use kebab-case for
 consistency across the catalog.
 
+### build_index.py
+Script that parses document metadata and generates the `index.json` search file.
+
+### cache_pdfs.py
+Downloads external PDFs referenced in docs and stores them in the `pdfs/` cache.
+
+### check_duplicates.py
+Finds duplicate Markdown files so the catalog doesn't contain repeated entries.
+
+### check_front_matter.py
+Validates that documentation pages include YAML front matter.
+
+### extract_urls.py
+Converts a list of URLs into Markdown files under `extractions1/`.
+
+### generate_sbom.py
+Produces the CycloneDX `sbom.json` describing repository components.
+
+### link_check.py
+Checks each document for broken hyperlinks.
+
+### refresh_links.py
+Retrieves fresh Wayback Machine snapshots and updates `link_archive.json`.
+
+### scrub_js.py
+Removes third-party `<script>` tags from downloaded HTML.
+
+### all_files.txt
+Master list of every path tracked in the repository.
+
+### docs_files.txt
+Manifest of all documentation files referenced by build scripts.
+
+### index.json
+Machine-readable index built from document metadata.
+
+### link_archive.json
+Snapshots of external URLs for offline reference.
+
+### requirements.txt
+Python packages required to run the helper scripts.
+
+### sbom.json
+CycloneDX software bill of materials for provenance auditing.
+
 ### URLs
 Index of all external links referenced across the catalog.
