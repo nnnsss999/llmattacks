@@ -12,6 +12,7 @@ Below is a curated set of external articles, blog posts and reports that further
 - [FraudGPT: Weaponizing Generative AI for Crime](https://thehackernews.com/2023/07/fraudgpt-weaponizing.html)
 - [Unicode Encoding Attacks](https://owasp.org/www-community/attacks/Unicode_Encoding)
 - [Down the Rabbit Hole of Unicode Obfuscation](https://www.veracode.com/blog/down-the-rabbit-hole-of-unicode-obfuscation/)
+- [Cross-Modal LLM Attack Resources](multimodal/cross-modal-attack-resources.md)
 - [H-CoT: Hijacking Chain-of-Thought Safety Reasoning](https://arxiv.org/abs/2502.12893)
 - [Sleeper Agents: Training Deceptive LLMs](https://arxiv.org/abs/2401.05566)
 - [Evaluating Security Risk in DeepSeek and Other Frontier Models](https://blogs.cisco.com/security/evaluating-security-risk-in-deepseek-and-other-frontier-reasoning-models)
