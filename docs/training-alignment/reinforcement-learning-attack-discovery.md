@@ -34,6 +34,21 @@ Key references include:
 - **LLM-based Dynamic Differential Testing** – RL-guided prompt selection
   to detect flaws in database connectors.
   [LLM-based Dynamic Differential Testing for Database Connectors with Reinforcement Learning-Guided Prompt Selection](https://arxiv.org/abs/2506.11870).
+- **Adversarial Agents** – RL-driven black-box evasion attacks that learn
+  how to generate adversarial examples.
+  [Adversarial Agents: Black-Box Evasion Attacks with Reinforcement Learning](https://arxiv.org/abs/2503.01734).
+- **Leveraging Deep RL for Cyber-Attack Paths** – charts likely attack
+  sequences in enterprise systems.
+  [Leveraging Deep Reinforcement Learning for Cyber-Attack Paths](https://dl.acm.org/doi/10.1145/3678890.3678902).
+- **GRAIN** – combines graph neural networks with RL to reconstruct
+  multi-step attack scenarios.
+  [GRAIN: Graph Neural Network and Reinforcement Learning Aided Causality Discovery for Attack Reconstruction](https://www.sciencedirect.com/science/article/pii/S0167404824004851).
+- **Dual-RL Attack Path Prediction** – predicts 5G ICPS attack paths using
+  a dual-network RL model.
+  [Dual-Reinforcement-Learning-Based Attack Path Prediction for 5G Industrial Cyber-Physical Systems](https://ieeexplore.ieee.org/document/10149069).
+- **SAC-based Penetration Testing** – uses the Soft Actor-Critic algorithm
+  to autonomously explore infiltration routes.
+  [A Path Discovery Method of Penetration Testing Based on SAC](https://ceur-ws.org/Vol-3916/paper_06.pdf).
 
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine

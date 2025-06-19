@@ -110,15 +110,20 @@
   "https://arxiv.org/abs/2310.12505": {
     "snapshot": "https://web.archive.org/web/20250618/arxiv231012505"
   },
+  "https://winbuzzer.com/2025/06/16/microsoft-365-copilot-critical-echoleak-flaw-turned-microsofts-own-ai-into-data-thief-xcxwbn/": {
+    "snapshot": "https://r.jina.ai/https://winbuzzer.com/2025/06/16/microsoft-365-copilot-critical-echoleak-flaw-turned-microsofts-own-ai-into-data-thief-xcxwbn/"
+  },
   "https://arxiv.org/abs/2309.01446": {
     "snapshot": "https://web.archive.org/web/20250618/arxiv230901446"
+  },
   "https://arxiv.org/abs/2506.12880": {"snapshot": "https://web.archive.org/web/20250618/arxiv250612880"},
   "https://arxiv.org/abs/2503.08216": {"snapshot": "https://web.archive.org/web/20250618/arxiv250308216"},
   "https://arxiv.org/abs/2504.05605": {"snapshot": "https://web.archive.org/web/20250618/arxiv250405605"},
   "https://arxiv.org/abs/2410.23678": {"snapshot": "https://web.archive.org/web/20250618/arxiv241023678"},
-  "https://arxiv.org/abs/2208.04946": {"snapshot": "https://web.archive.org/web/20250618/arxiv220804946"}
+  "https://arxiv.org/abs/2208.04946": {"snapshot": "https://web.archive.org/web/20250618/arxiv220804946"},
   "https://skylion007.github.io/OpenWebTextCorpus/": {
     "snapshot": "https://web.archive.org/web/20250618/skylion-openwebtext"
+  },
   "https://doi.org/10.1109/icassp48485.2024.10446267": {
     "snapshot": "https://web.archive.org/web/20250618/icassp-poisonprompt"
   },
@@ -142,5 +147,61 @@
   },
   "https://www.securityweek.com/llm-supply-chain-security-risks-research/": {
     "snapshot": "https://web.archive.org/web/20250618/securityweek-supplychain"
+  "https://arxiv.org/abs/2506.15606": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv2506.15606"
+  },
+  "https://arxiv.org/abs/2506.15253": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv2506.15253"
+  },
+  "https://arxiv.org/abs/2506.15170": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv2506.15170"
+  },
+  "https://arxiv.org/abs/2506.14913": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv2506.14913"
+  },
+  "https://arxiv.org/abs/2506.14682": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv2506.14682"
+  },
+  "https://arxiv.org/abs/2506.14539": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv2506.14539"
+  },
+  "https://arxiv.org/abs/2506.14493": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv2506.14493"
+  },
+  "https://arxiv.org/abs/2506.14374": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv2506.14374"
+  },
+  "https://arxiv.org/abs/2506.14337": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv2506.14337"
+  },
+  "https://arxiv.org/abs/2506.14261": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv2506.14261"
+  },
+  "https://doi.org/10.1186/s42400-024-00338-1": {
+    "snapshot": "https://web.archive.org/web/20250618/ctta"
+  },
+  "https://doi.org/10.1117/12.3053265": {
+    "snapshot": "https://web.archive.org/web/20250618/lora-mia"
+  },
+  "https://doi.org/10.54097/586gg060": {
+    "snapshot": "https://web.archive.org/web/20250618/ddos-lm"
+  },
+  "https://doi.org/10.1145/3701716.3715469": {
+    "snapshot": "https://web.archive.org/web/20250618/ctir-llm"
+  },
+  "https://doi.org/10.3390/electronics14101907": {
+    "snapshot": "https://web.archive.org/web/20250618/mind-mapping-pi"
+  },
+  "https://thehackernews.com/2025/02/microsoft-exposes-llmjacking.html": {
+    "snapshot": "https://web.archive.org/web/20250618/thn-llmjacking-azure"
+  },
+  "https://thehackernews.com/2024/05/researchers-uncover-llmjacking-scheme.html": {
+    "snapshot": "https://web.archive.org/web/20250618/thn-llmjacking-scheme"
+  },
+  "https://thehackernews.com/2024/03/third-party-chatgpt-plugins-could-lead.html": {
+    "snapshot": "https://web.archive.org/web/20250618/thn-chatgpt-plugins"
+  },
+  "https://thehackernews.com/2025/01/new-ai-jailbreak-method-bad-likert.html": {
+    "snapshot": "https://web.archive.org/web/20250618/thn-bad-likert"
   }
 }
