@@ -25,7 +25,9 @@ A searchable website built with **MkDocs Material** is automatically deployed to
   `linguistic-manipulation/`, `multimodal/`, `optimization/`,
   `prompt-dialogue/`, `rag/`, `social-engineering/`, `supply-chain/`,
   `token-level/` and `training-alignment/`.
-- `original/` – the original PDF and Markdown source for the catalog.
+- `original/` – the original PDF and Markdown source for the catalog,
+  including `Comprehensive Catalog of LLM Jailbreaking and Attack Techniques.md`
+  and the matching `.pdf`.
 - `pdfs/` – a local cache of PDFs; see `pdfs/README.md` for details.
   Cached filenames use a SHA‑256 hash of the source URL.
 - `extractions1/` – outputs from `extract_urls.py` for future catalog entries.
@@ -45,6 +47,8 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 - `all_files.txt` – complete inventory of every file tracked in the repository.
 - `requirements.txt` – Python dependencies used by the helper scripts.
 - `llm-attack-catalog.md` – printable version of the master catalog inside `docs/`.
+- `docs/comprehensive-catalog-of-llm-jailbreaking-and-attack-techniques.md` –
+  main Markdown catalog used to generate the website.
 - `fixes-1.md` – issue log and proposed improvements.
 - `link_archive.json` – Wayback Machine snapshots of referenced URLs.
 - `sbom.json` – machine-readable bill of materials using the **CycloneDX 1.5** specification linking each document with its metadata.
@@ -62,6 +66,10 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 - `mkdocs.yml` – configuration for building the documentation website with **MkDocs Material** and the Mermaid2 plugin enabled.
 - `docs/urls.md` – list of resources not yet converted.
 - `docs/pdf-extract.md` – text extracted from the catalog PDF.
+- `docs/index.md` – landing page used by the MkDocs site.
+- `docs/glossary.md` – glossary of common terms.
+- `docs/additional-resources.md` – curated links to further reading.
+- `docs/zero-day-resources.md` – references on newly disclosed vulnerabilities.
 - `CONTRIBUTING.md` – workflow and style guide.
 - `LICENSE` – Creative Commons Attribution 4.0 license text.
 - `.gitignore` – patterns for untracked files.
