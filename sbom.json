@@ -65,6 +65,141 @@
     },
     {
       "type": "file",
+      "name": "additional-resources-2031.md",
+      "bom-ref": "additional-resources-2031.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Resources on LLM Attacks 2031"
+        },
+        {
+          "name": "category",
+          "value": "Overview"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "additional-resources-2032.md",
+      "bom-ref": "additional-resources-2032.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Resources on LLM Attacks 2032"
+        },
+        {
+          "name": "category",
+          "value": "Overview"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-20"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "additional-resources-2033.md",
+      "bom-ref": "additional-resources-2033.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Resources on LLM Attacks 2033"
+        },
+        {
+          "name": "category",
+          "value": "Overview"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-21"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "additional-resources-2034.md",
+      "bom-ref": "additional-resources-2034.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Resources on LLM Attacks 2034"
+        },
+        {
+          "name": "category",
+          "value": "Overview"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-22"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "additional-resources-2035.md",
+      "bom-ref": "additional-resources-2035.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Resources on LLM Attacks 2035"
+        },
+        {
+          "name": "category",
+          "value": "Overview"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-23"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "additional-resources.md",
       "bom-ref": "additional-resources.md",
       "properties": [
@@ -541,6 +676,141 @@
     },
     {
       "type": "file",
+      "name": "fuzzing/fuzzing-resources-2032.md",
+      "bom-ref": "fuzzing/fuzzing-resources-2032.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Fuzzing Resources 2032"
+        },
+        {
+          "name": "category",
+          "value": "Fuzzing"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "fuzzing/fuzzing-resources-2033.md",
+      "bom-ref": "fuzzing/fuzzing-resources-2033.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Fuzzing Resources 2033"
+        },
+        {
+          "name": "category",
+          "value": "Fuzzing"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "fuzzing/fuzzing-resources-2034.md",
+      "bom-ref": "fuzzing/fuzzing-resources-2034.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Fuzzing Resources 2034"
+        },
+        {
+          "name": "category",
+          "value": "Fuzzing"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-21"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "fuzzing/fuzzing-resources-2035.md",
+      "bom-ref": "fuzzing/fuzzing-resources-2035.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Fuzzing Resources 2035"
+        },
+        {
+          "name": "category",
+          "value": "Fuzzing"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-21"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "fuzzing/fuzzing-resources-2036.md",
+      "bom-ref": "fuzzing/fuzzing-resources-2036.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Fuzzing Resources 2036"
+        },
+        {
+          "name": "category",
+          "value": "Fuzzing"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-21"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "fuzzing/fuzzing-resources-compendium.md",
       "bom-ref": "fuzzing/fuzzing-resources-compendium.md",
       "properties": [
@@ -984,6 +1254,114 @@
     },
     {
       "type": "file",
+      "name": "latent-space/latent-space-resources-2029.md",
+      "bom-ref": "latent-space/latent-space-resources-2029.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Latent Space Attack Resources 2029"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "latent-space/latent-space-resources-2030.md",
+      "bom-ref": "latent-space/latent-space-resources-2030.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Latent Space Attack Resources 2030"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "latent-space/latent-space-resources-2031.md",
+      "bom-ref": "latent-space/latent-space-resources-2031.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Latent Space Attack Resources 2031"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "latent-space/latent-space-resources-2032.md",
+      "bom-ref": "latent-space/latent-space-resources-2032.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Latent Space Attack Resources 2032"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-20"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "linguistic-manipulation/additional-resources.md",
       "bom-ref": "linguistic-manipulation/additional-resources.md",
       "properties": [
@@ -1083,6 +1461,141 @@
         {
           "name": "date_collected",
           "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "linguistic-manipulation/linguistic-manipulation-resources-2029.md",
+      "bom-ref": "linguistic-manipulation/linguistic-manipulation-resources-2029.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Linguistic Manipulation Resources 2029"
+        },
+        {
+          "name": "category",
+          "value": "Linguistic Manipulation"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "linguistic-manipulation/linguistic-manipulation-resources-2030.md",
+      "bom-ref": "linguistic-manipulation/linguistic-manipulation-resources-2030.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Linguistic Manipulation Resources 2030"
+        },
+        {
+          "name": "category",
+          "value": "Linguistic Manipulation"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "linguistic-manipulation/linguistic-manipulation-resources-2031.md",
+      "bom-ref": "linguistic-manipulation/linguistic-manipulation-resources-2031.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Linguistic Manipulation Resources 2031"
+        },
+        {
+          "name": "category",
+          "value": "Linguistic Manipulation"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "linguistic-manipulation/linguistic-manipulation-resources-2032.md",
+      "bom-ref": "linguistic-manipulation/linguistic-manipulation-resources-2032.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Linguistic Manipulation Resources 2032"
+        },
+        {
+          "name": "category",
+          "value": "Linguistic Manipulation"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "linguistic-manipulation/linguistic-manipulation-resources-2033.md",
+      "bom-ref": "linguistic-manipulation/linguistic-manipulation-resources-2033.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Linguistic Manipulation Resources 2033"
+        },
+        {
+          "name": "category",
+          "value": "Linguistic Manipulation"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-21"
         },
         {
           "name": "license",
@@ -1313,12 +1826,12 @@
     },
     {
       "type": "file",
-      "name": "multimodal/visual-jailbreaking-resources.md",
-      "bom-ref": "multimodal/visual-jailbreaking-resources.md",
+      "name": "multimodal/visual-jailbreaking-resources-2029.md",
+      "bom-ref": "multimodal/visual-jailbreaking-resources-2029.md",
       "properties": [
         {
           "name": "title",
-          "value": "Visual Jailbreaking Resources"
+          "value": "Visual Jailbreaking Resources 2029"
         },
         {
           "name": "category",
@@ -1394,6 +1907,60 @@
     },
     {
       "type": "file",
+      "name": "multimodal/visual-jailbreaking-resources-2033.md",
+      "bom-ref": "multimodal/visual-jailbreaking-resources-2033.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Visual Jailbreaking Resources 2033"
+        },
+        {
+          "name": "category",
+          "value": "Multimodal"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "multimodal/visual-jailbreaking-resources.md",
+      "bom-ref": "multimodal/visual-jailbreaking-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Visual Jailbreaking Resources"
+        },
+        {
+          "name": "category",
+          "value": "Multimodal"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "navigation-map.md",
       "bom-ref": "navigation-map.md",
       "properties": [
@@ -1439,6 +2006,168 @@
         {
           "name": "date_collected",
           "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "neuron-resources-2028.md",
+      "bom-ref": "neuron-resources-2028.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Neuron-Level Manipulation Resources 2028"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "neuron-resources-2029.md",
+      "bom-ref": "neuron-resources-2029.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Neuron-Level Manipulation Resources 2029"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "neuron-resources-2032.md",
+      "bom-ref": "neuron-resources-2032.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Neuron-Level Manipulation Resources 2032"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "neuron-resources-2033.md",
+      "bom-ref": "neuron-resources-2033.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Neuron-Level Manipulation Resources 2033"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "neuron-resources-2034.md",
+      "bom-ref": "neuron-resources-2034.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Neuron-Level Manipulation Resources 2034"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-20"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "neuron-resources-2035.md",
+      "bom-ref": "neuron-resources-2035.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Neuron-Level Manipulation Resources 2035"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-20"
         },
         {
           "name": "license",
@@ -1610,6 +2339,141 @@
     },
     {
       "type": "file",
+      "name": "optimization/evolutionary-algorithm-jailbreaks.md",
+      "bom-ref": "optimization/evolutionary-algorithm-jailbreaks.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Evolutionary Algorithm Jailbreak Resources"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/evolutionary-resources-2028.md",
+      "bom-ref": "optimization/evolutionary-resources-2028.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Evolutionary Algorithm Resources 2028"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/evolutionary-resources-2029.md",
+      "bom-ref": "optimization/evolutionary-resources-2029.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Evolutionary Algorithm Resources 2029"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-20"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/evolutionary-resources-2030.md",
+      "bom-ref": "optimization/evolutionary-resources-2030.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Evolutionary Algorithm Resources 2030"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-21"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/evolutionary-resources-2031.md",
+      "bom-ref": "optimization/evolutionary-resources-2031.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Evolutionary Algorithm Resources 2031"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-22"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "optimization/gradient-attack-resources.md",
       "bom-ref": "optimization/gradient-attack-resources.md",
       "properties": [
@@ -1736,6 +2600,141 @@
         {
           "name": "date_collected",
           "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/gradient-resources-2028.md",
+      "bom-ref": "optimization/gradient-resources-2028.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Gradient Attack Resources 2028"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/gradient-resources-2029.md",
+      "bom-ref": "optimization/gradient-resources-2029.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Gradient Attack Resources 2029"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-20"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/gradient-resources-2030.md",
+      "bom-ref": "optimization/gradient-resources-2030.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Gradient Attack Resources 2030"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-20"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/gradient-resources-2031.md",
+      "bom-ref": "optimization/gradient-resources-2031.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Gradient Attack Resources 2031"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-21"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/gradient-resources-2032.md",
+      "bom-ref": "optimization/gradient-resources-2032.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Gradient Attack Resources 2032"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-22"
         },
         {
           "name": "license",
@@ -2101,6 +3100,87 @@
     },
     {
       "type": "file",
+      "name": "prompt-dialogue/prompt-engineering-resources-2030.md",
+      "bom-ref": "prompt-dialogue/prompt-engineering-resources-2030.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Prompt Engineering Attack Resources 2030"
+        },
+        {
+          "name": "category",
+          "value": "Prompt Dialogue"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "prompt-dialogue/prompt-engineering-resources-2031.md",
+      "bom-ref": "prompt-dialogue/prompt-engineering-resources-2031.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Prompt Engineering Attack Resources 2031"
+        },
+        {
+          "name": "category",
+          "value": "Prompt Dialogue"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "prompt-dialogue/prompt-engineering-resources-2032.md",
+      "bom-ref": "prompt-dialogue/prompt-engineering-resources-2032.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Prompt Engineering Attack Resources 2032"
+        },
+        {
+          "name": "category",
+          "value": "Prompt Dialogue"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "prompt-dialogue/prompt-engineering-resources-extra.md",
       "bom-ref": "prompt-dialogue/prompt-engineering-resources-extra.md",
       "properties": [
@@ -2146,6 +3226,33 @@
         {
           "name": "date_collected",
           "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "prompt-dialogue/puzzler-attack-resources-2029.md",
+      "bom-ref": "prompt-dialogue/puzzler-attack-resources-2029.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Puzzler Attack Resources 2029"
+        },
+        {
+          "name": "category",
+          "value": "Prompt Dialogue"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
         },
         {
           "name": "license",
@@ -2452,6 +3559,114 @@
     },
     {
       "type": "file",
+      "name": "social-engineering/emotional-manipulation-resources-2029.md",
+      "bom-ref": "social-engineering/emotional-manipulation-resources-2029.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Emotional Manipulation Attack Resources 2029"
+        },
+        {
+          "name": "category",
+          "value": "Social Engineering"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-21"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "social-engineering/emotional-manipulation-resources-2030.md",
+      "bom-ref": "social-engineering/emotional-manipulation-resources-2030.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Emotional Manipulation Attack Resources 2030"
+        },
+        {
+          "name": "category",
+          "value": "Social Engineering"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-22"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "social-engineering/emotional-manipulation-resources-2031.md",
+      "bom-ref": "social-engineering/emotional-manipulation-resources-2031.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Emotional Manipulation Attack Resources 2031"
+        },
+        {
+          "name": "category",
+          "value": "Social Engineering"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-23"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "social-engineering/emotional-manipulation-resources-2032.md",
+      "bom-ref": "social-engineering/emotional-manipulation-resources-2032.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Emotional Manipulation Attack Resources 2032"
+        },
+        {
+          "name": "category",
+          "value": "Social Engineering"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-24"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "social-engineering/emotional-manipulation-resources.md",
       "bom-ref": "social-engineering/emotional-manipulation-resources.md",
       "properties": [
@@ -2533,6 +3748,79 @@
     },
     {
       "type": "file",
+      "name": "supply-chain/additional-model-hub-resources.md",
+      "bom-ref": "supply-chain/additional-model-hub-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Compromised Model Hub Resources"
+        },
+        {
+          "name": "category",
+          "value": "Supply Chain"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "supply-chain/additional-supply-chain-resources-2026.md",
+      "bom-ref": "supply-chain/additional-supply-chain-resources-2026.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional LLM Supply Chain Resources 2026"
+        },
+        {
+          "name": "category",
+          "value": "Supply Chain"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "supply-chain/anthropic-rsp-supply-chain-controls.md",
+      "bom-ref": "supply-chain/anthropic-rsp-supply-chain-controls.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Anthropic RSP Supply Chain Controls"
+        },
+        {
+          "name": "category",
+          "value": "Supply Chain"
+        },
+        {
+          "name": "source_url",
+          "value": "https://www.anthropic.com/rsp-updates"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "supply-chain/compromised-model-hub-resources.md",
       "bom-ref": "supply-chain/compromised-model-hub-resources.md",
       "properties": [
@@ -2606,6 +3894,29 @@
     },
     {
       "type": "file",
+      "name": "supply-chain/more-llm-supply-chain-resources.md",
+      "bom-ref": "supply-chain/more-llm-supply-chain-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "More LLM Supply Chain Resources"
+        },
+        {
+          "name": "category",
+          "value": "Supply Chain"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "supply-chain/poisoned-pretraining-markets.md",
       "bom-ref": "supply-chain/poisoned-pretraining-markets.md",
       "properties": [
@@ -2662,6 +3973,33 @@
         {
           "name": "title",
           "value": "Token-Level Attack Resources 2027"
+        },
+        {
+          "name": "category",
+          "value": "Tokenization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "token-level/token-level-resources-2028.md",
+      "bom-ref": "token-level/token-level-resources-2028.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Token-Level Attack Resources 2028"
         },
         {
           "name": "category",
@@ -2927,6 +4265,114 @@
         {
           "name": "date_collected",
           "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "zero-day-resources-2028.md",
+      "bom-ref": "zero-day-resources-2028.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Zero-Day Resources 2028"
+        },
+        {
+          "name": "category",
+          "value": "Zero-Day"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "zero-day-resources-2032.md",
+      "bom-ref": "zero-day-resources-2032.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Zero-Day Resources 2032"
+        },
+        {
+          "name": "category",
+          "value": "Zero-Day"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "zero-day-resources-2033.md",
+      "bom-ref": "zero-day-resources-2033.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Zero-Day Resources 2033"
+        },
+        {
+          "name": "category",
+          "value": "Zero-Day"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "zero-day-resources-2034.md",
+      "bom-ref": "zero-day-resources-2034.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Zero-Day Resources 2034"
+        },
+        {
+          "name": "category",
+          "value": "Zero-Day"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
         },
         {
           "name": "license",
