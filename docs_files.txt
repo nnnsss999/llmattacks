@@ -53,6 +53,7 @@ docs/defenses/feta.html
 docs/multimodal/naturalistic-patch-arxiv.html
 docs/multimodal/imgJP.html
 docs/multimodal/visual-jailbreaking.html
+docs/multimodal/visual-jailbreaking-resources.md
 docs/embedding/index.md
 docs/embedding/arxiv-embedding-inversion.html
 docs/embedding/text-embedding-inversion-2401.12192.html
