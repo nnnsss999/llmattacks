@@ -704,6 +704,33 @@
       "type": "file",
       "name": "urls.md",
       "bom-ref": "urls.md"
+    },
+    {
+      "type": "file",
+      "name": "zero-day-resources.md",
+      "bom-ref": "zero-day-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Zero-Day Vulnerabilities in LLMs"
+        },
+        {
+          "name": "category",
+          "value": "Zero-Day"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
     }
   ]
 }
