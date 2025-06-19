@@ -643,6 +643,33 @@
     },
     {
       "type": "file",
+      "name": "token-level/additional-token-level-resources.md",
+      "bom-ref": "token-level/additional-token-level-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Token-Level Attack Resources"
+        },
+        {
+          "name": "category",
+          "value": "Tokenization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "training-alignment/index.md",
       "bom-ref": "training-alignment/index.md",
       "properties": [
