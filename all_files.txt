@@ -132,3 +132,13 @@
 ./LICENSE
 ./.pre-commit-config.yaml
 ./docs_files.txt
+./docs/supply-chain/compromised-model-hub-resources.md
+./docs/supply-chain/thehackernews-hugging-face-vulnerability.html
+./docs/supply-chain/jfrog-silent-backdoor.html
+./docs/supply-chain/arstechnica-hf-backdoor.html
+./docs/supply-chain/bleepingcomputer-huggingface-backdoor.html
+./docs/supply-chain/thehackernews-100-malicious-models.html
+./docs/supply-chain/cybersecuritynews-huggingface.html
+./docs/supply-chain/darkreading-malicious-models.html
+./docs/supply-chain/hidden-backdoor-models-hf.html
+./docs/supply-chain/beear-backdoored-model3.html

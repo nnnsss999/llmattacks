@@ -29,6 +29,11 @@ This list gathers credible references focused on neuron-level attacks and manipu
 - [BDefects4NN: A Backdoor Defect Database for Controlled Localization Studies in Neural Networks](https://arxiv.org/abs/2412.00746) – curates neuron-level backdoor examples to support systematic evaluation.
 - [Neuron-level LLM Patching for Code Generation](https://www.semanticscholar.org/paper/Neuron-level-LLM-Patching-for-Code-Generation-Gu-Chen/d500c6d85d8de0a17761bc26d863c72f7106402e) – demonstrates how editing specific neurons can change code-generation behaviour.
 - [Fight Perturbations With Perturbations: Defending Adversarial Attacks Using Neuron-level Inverse Perturbation](https://ieeexplore.ieee.org/abstract/document/10640242) – introduces a defense that adjusts neuron activations based on influence scores.
+- [Red Alarm for Pre-trained Models: Universal Vulnerability to Neuron-Level Backdoor Attacks](https://openreview.net/forum?id=Xx0bxhXpWKJ) – early work showing how manipulating individual neurons implants persistent backdoors.
+- [Neuron-Level Sequential Editing for Large Language Models](https://openreview.net/forum?id=k1mMxqalb0) – proposes stepwise neuron modifications to steer model outputs.
+- [Intrinsic Model Weaknesses: How Priming Attacks Unveil Vulnerabilities in Large Language Models](https://aclanthology.org/2025.findings-naacl.77) – exploits neuron priming to bypass defenses.
+- [Mitigating Privacy Seesaw in Large Language Models: Augmented Privacy Neuron Editing via Activation Patching](https://aclanthology.org/2024.findings-acl.315) – uses activation patching to suppress privacy-leaking neurons.
+- [Patchscopes: A Unifying Framework for Inspecting Hidden Representations of Language Models](https://arxiv.org/abs/2401.06102) – introduces interactive patching tools for exploring and editing neurons.
 
 ## Tools and Code
 
@@ -43,6 +48,8 @@ This list gathers credible references focused on neuron-level attacks and manipu
 - [Language models can explain neurons in language models](https://openai.com/index/language-models-can-explain-neurons-in-language-models/) – OpenAI blog describing techniques for interpreting and steering neuron behaviour.
 - [Editing LLMs](https://llm-editing.github.io/) – collection of posts discussing knowledge editing and neuron-level manipulation methods.
 - [Neuronpedia](https://www.neuronpedia.org/) – provides an interactive interface for exploring and editing neuron activations across multiple models.
+- [Patchscopes Demo](https://pair.withgoogle.com/explorables/patchscopes/) – interactive site from Google for neuron patching experiments.
+- [NNPatch](https://github.com/jkminder/nnpatch) – open-source library for inspecting and modifying neuron activations.
 
 ## Concepts
 
