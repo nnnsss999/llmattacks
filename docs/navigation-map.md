@@ -92,6 +92,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `visual-jailbreaking.html` — blog post on visual jailbreaks
 - `visual-jailbreaking-resources.md` — curated references on multimodal jailbreaks
 - `image-based-attack-resources.md` — additional references on using images for jailbreaks
+- `steganography-resources-2026.md` — latest papers on covert LLM attacks
 
 ### optimization/
 - `amplegcg.html` — prompt search with Monte Carlo
