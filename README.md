@@ -15,7 +15,7 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 ## Documentation Timeline
 
 - All documentation files under `docs/` include YAML front matter with a `date_collected` of **2025-06-18**, marking the snapshot used to build the catalog. Later commits refine tooling and link archives, but the documentation content reflects that 2025-06-18 snapshot.
-- The `extractions1/` directory contains automatically converted sources gathered on **2025-06-19**. These drafts are queued for future integration into the main catalog.
+- The `@extractions1/` directory contains automatically converted sources gathered on **2025-06-19**. These drafts are queued for future integration into the main catalog.
 
 ## Repository Structure
 - `docs/` – canonical Markdown and HTML articles grouped into subfolders:
@@ -29,7 +29,7 @@ A searchable website built with **MkDocs Material** is automatically deployed to
   and the matching `.pdf`.
 - `pdfs/` – a local cache of PDFs; see `pdfs/README.md` for details.
   Cached filenames use a SHA‑256 hash of the source URL.
-- `extractions1/` – outputs from `extract_urls.py` for future catalog entries. Hashed filenames use the first 10 characters of a SHA‑256 digest.
+- `@extractions1/` – outputs from `extract_urls.py` for future catalog entries. Hashed filenames use the first 10 characters of a SHA‑256 digest.
   - `.gitkeep` – placeholder to keep the folder under version control.
 - `scripts/` – utility Python scripts including:
   - `build_index.py` to generate `index.json`
@@ -84,6 +84,8 @@ A searchable website built with **MkDocs Material** is automatically deployed to
   pin markdownlint **v0.38.0** and codespell **v2.4.1**.
 - `sbom.json` follows the **CycloneDX&nbsp;1.5** specification for reproducible
   metadata.
+- `extractions1/` contains **205** markdown drafts plus `extraction_log.json`,
+  representing sources automatically gathered on **2025-06-19**.
 
 ## Using This Repository
 
@@ -105,9 +107,9 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 
 `docs/urls.md` enumerates articles and papers for future inclusion in the catalog.
 Run `python scripts/extract_urls.py` to download each resource and convert it to
-Markdown in the `extractions1/` directory. URLs already represented in `docs/`
+Markdown in the `@extractions1/` directory. URLs already represented in `docs/`
 are skipped automatically. A summary of processed links is written to
-`extractions1/extraction_log.json`.
+`@extractions1/extraction_log.json`.
 
 ## Contributing
 

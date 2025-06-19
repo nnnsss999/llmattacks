@@ -100,3 +100,5 @@ These references track emerging threats and defence research through 2026 and ar
 - [OSS-Fuzz-Gen: LLM-Based Fuzz Target Generation](https://github.com/google/oss-fuzz-gen)
 - [AI-Powered Fuzzing: Breaking the Bug Hunting Barrier](https://security.googleblog.com/2023/08/ai-powered-fuzzing-breaking-bug-hunting.html)
 - [Evaluating Large Language Models for Enhanced Fuzzing](https://ieeexplore.ieee.org/document/10731701)
+- [Prompt Injection Resources 2026](prompt-dialogue/prompt-injection-resources-2026.md)
+
