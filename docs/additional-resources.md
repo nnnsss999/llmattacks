@@ -72,4 +72,21 @@ Additional references collected after the original snapshot:
 - [STEGOSAURUS-WRECKS Prompt Obfuscation](https://github.com/elder-plinius/STEGOSAURUS-WRECKS)
 - [ChatGPT AutoExpert System Prompts](https://github.com/spdustin/ChatGPT-AutoExpert/blob/main/System%20Prompts.md#behind-the-scenes)
 
+- [PoisonGPT – How We Hid a Lobotomized LLM on Hugging Face](https://blog.mithrilsecurity.io/poisongpt-how-we-hid-a-lobotomized-llm-on-hugging-face-to-spread-fake-news/)
+- [WormGPT and PoisonGPT](https://www.packetlabs.net/posts/wormgpt-and-poisongpt/)
+- [PoisonGPT GitHub Repository](https://github.com/vatsalparikh07/poisongpt)
+- [LLM Prompt Injection Worm](https://www.schneier.com/blog/archives/2024/03/llm-prompt-injection-worm.html)
+- [Malicious AI Worm Targeting Generative AI](https://www.ibm.com/think/insights/malicious-ai-worm-targeting-generative-ai)
+- [WormGPT – Malicious LLM Dangerous](https://www.pentasecurity.com/blog/wormgpt-malicious-llm-dangerous/)
+- [Backdoor Insertion Attack on LLMs](https://arxiv.org/abs/2503.00596)
+- [LLM Backdoor Detection on Zhihu](https://zhuanlan.zhihu.com/p/1917354410952103367)
+- [BackdoorLLM GitHub Repository](https://github.com/bboylyg/BackdoorLLM)
+- [OWASP LLM Risk 2025 – Supply Chain Attack](https://genai.owasp.org/llmrisk/llm032025-supply-chain/)
+- [LLM Supply Chain Attack Prevention Strategies](https://www.cobalt.io/blog/llm-supply-chain-attack-prevention-strategies)
+- [OWASP Bulletin on Supply Chain Attack](https://community.f5.com/kb/security-insights/ai-security--owasp-llm-top-10-2025-and-llm0602-supply-chain-attack/340056)
+- [OWASP LLM Risk – Vector and Embedding Weaknesses](https://genai.owasp.org/llmrisk/llm082025-vector-and-embedding-weaknesses/)
+- [Guide to Mitigating LLM Vector and Embedding Weaknesses](https://www.securityium.com/a-guide-to-mitigating-llm082025-vector-and-embedding-weaknesses/)
+- [Vigil-LLM Prompt Injection Detection](https://github.com/deadbits/vigil-llm)
+- [Prompt Injection Detection via Vector Deviation](https://arxiv.org/abs/2410.21146)
+
 These references track emerging threats and defence research through 2025 and are regularly reviewed for new developments.
