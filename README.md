@@ -19,8 +19,8 @@ A searchable website built with **MkDocs Material** is automatically deployed to
   catalog. Key folders include:
 
 - `docs/` – canonical Markdown and HTML articles grouped into subfolders:
-  `agentic/`, `data-poisoning/`, `defenses/`, `emerging/`, `evaluation/`,
-  `inference/`, `insecure-output/`, `latent-space/`,
+`agentic/`, `data-poisoning/`, `defenses/`, `emerging/`, `evaluation/`,
+  `embedding/`, `inference/`, `insecure-output/`, `latent-space/`,
   `linguistic-manipulation/`, `multimodal/`, `optimization/`,
   `prompt-dialogue/`, `rag/`, `social-engineering/`, `supply-chain/`,
   `token-level/` and `training-alignment/`.
@@ -30,8 +30,8 @@ A searchable website built with **MkDocs Material** is automatically deployed to
   generate the CycloneDX `sbom.json`.
 - `tests/` – unit tests for the link checker and SBOM generator.
 - `docs_files.txt` – manifest listing every document archived in this
-  repository (54 entries).
-- `catalog_content.md` – printable version of the master catalog.
+  repository (59 entries).
+- `llm-attack-catalog.md` – printable version of the master catalog inside `docs/`.
 - `fixes-1.md` – issue log and proposed improvements.
 - `link_archive.json` – Wayback Machine snapshots of referenced URLs.
 - `sbom.json` – machine-readable bill of materials (CycloneDX 1.5) linking each
