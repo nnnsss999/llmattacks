@@ -83,6 +83,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 
 ### linguistic-manipulation/
 - `language-games-arxiv.html` — paper on language games for red-teaming
+- `additional-resources.md` — recent cross-lingual attack papers
 
 ### multimodal/
 - `audio-steganography-jailbreak.md` — audio-based hidden prompts
