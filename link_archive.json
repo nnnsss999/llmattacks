@@ -127,5 +127,20 @@
   },
   "https://doi.org/10.1145/3656156.3665432": {
     "snapshot": "https://web.archive.org/web/20250618/hacc-man"
+  },
+  "https://www.theregister.com/2024/12/29/llm_supply_chain_attacks/": {
+    "snapshot": "https://web.archive.org/web/20250618/register-supplychain"
+  },
+  "https://www.csoonline.com/article/592243/llm-supply-chain-security.html": {
+    "snapshot": "https://web.archive.org/web/20250618/cso-llm-supplychain"
+  },
+  "https://securityboulevard.com/2023/10/ai-supply-chain-security-risks/": {
+    "snapshot": "https://web.archive.org/web/20250618/securityboulevard-supplychain"
+  },
+  "https://www.fortinet.com/blog/security/supply-chain-attacks-and-llms": {
+    "snapshot": "https://web.archive.org/web/20250618/fortinet-llm-supplychain"
+  },
+  "https://www.securityweek.com/llm-supply-chain-security-risks-research/": {
+    "snapshot": "https://web.archive.org/web/20250618/securityweek-supplychain"
   }
 }

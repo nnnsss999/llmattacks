@@ -25,6 +25,7 @@ Below is a curated set of external articles, blog posts and reports that further
 - [LLMjacking: What is it? And Why is it a Concern?](https://www.upwind.io/glossary/llmjacking-what-is-it-and-why-is-it-a-concern)
 - [LLMs could soon supercharge supply-chain attacks](https://www.theregister.com/2024/12/29/llm_supply_chain_attacks/)
 - [LLM Supply Chain Attacks Overview](supply-chain/llm-supply-chain-attacks.md)
+- [Extended LLM Supply Chain Resources](supply-chain/extended-llm-supply-chain-resources.md)
 - [A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models](https://arxiv.org/abs/2402.13457)
 - [COLD-Attack: Jailbreaking LLMs with Stealthiness and Controllability](https://github.com/Yu-Fangxu/COLD-Attack)
 - [Play Guessing Game with LLM: Indirect Jailbreak Attack with Implicit Clues](https://aclanthology.org/2024.findings-acl.304/)
