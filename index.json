@@ -212,6 +212,13 @@
       "category": "Prompt Dialogue",
       "sub_category": "",
       "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Prompt Engineering Attack Resources 2031",
+      "path": "prompt-dialogue/prompt-engineering-resources-2031.md",
+      "category": "Prompt Dialogue",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
     }
   ],
   "Tokenization": [
