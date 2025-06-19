@@ -114,3 +114,4 @@ docs/zero-day-resources-2028.md
 docs/zero-day-resources-2032.md
 docs/zero-day-resources-2033.md
 docs/supply-chain/anthropic-rsp-supply-chain-controls.md
+docs/zero-day-resources-2035.md
