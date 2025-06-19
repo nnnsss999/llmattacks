@@ -157,3 +157,4 @@ These references track emerging threats and defence research through 2026 and ar
 - [Prompt Engineering Attack Resources Extra](prompt-dialogue/prompt-engineering-resources-extra.md)
 - [Additional Resources on LLM Attacks 2027](additional-resources-2027.md)
 - [Fuzzing Resources 2027](fuzzing/fuzzing-resources-2027.md)
+- [Social Engineering and Emotional Manipulation Resources](social-engineering/emotional-manipulation-resources.md)
