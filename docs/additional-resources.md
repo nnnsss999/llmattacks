@@ -267,6 +267,8 @@ These references track emerging threats and defence research through 2026 and ar
 - [Emotional Manipulation Attack Resources 2031](social-engineering/emotional-manipulation-resources-2031.md)
 - [Emotional Manipulation Attack Resources 2032](social-engineering/emotional-manipulation-resources-2032.md)
 - [Emotional Manipulation Attack Resources 2033](social-engineering/emotional-manipulation-resources-2033.md)
+- [Emotional Manipulation Attack Resources 2034](social-engineering/emotional-manipulation-resources-2034.md)
+- [Emotional Manipulation Attack Resources 2035](social-engineering/emotional-manipulation-resources-2035.md)
 - [Prompt Engineering Attack Resources 2031](prompt-dialogue/prompt-engineering-resources-2031.md)
 - [Neuron-Level Manipulation Resources 2033](neuron-resources-2033.md)
 - [Neuron-Level Manipulation Resources 2034](neuron-resources-2034.md)
