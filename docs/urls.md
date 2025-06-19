@@ -9996,3 +9996,72 @@
 - https://zerodayquest.net/
 - https://zhiyuanyu.org/publication/14-2024-08-14-usenix-jailbreak/
 - https://zicokolter.com/
+- https://portswigger.net/web-security/llm-attacks
+- https://www.whatsapp.com/groups
+- https://www.whatsapp.com/join
+- https://www.whatsapp.com/legal/
+- https://www.whatsapp.com/privacy
+- https://www.whatsapp.com/security
+- https://www.whatsapp.com/security/advisories
+- https://www.whatsapp.com/sitemap
+- https://www.whatsapp.com/status
+https://arxiv.org/abs/2402.08567
+https://arxiv.org/abs/2406.04031
+https://arxiv.org/abs/2411.18000
+https://arxiv.org/abs/2409.06726
+https://arxiv.org/abs/2411.11496
+https://arxiv.org/abs/2411.16721
+https://arxiv.org/abs/2412.17544
+https://arxiv.org/abs/2405.12523
+https://arxiv.org/abs/2405.04403
+https://arxiv.org/abs/2406.07057
+https://arxiv.org/abs/2502.06390
+- https://www.whatsapp.com/stayconnected
+- https://www.pku-exploit.com/seminar/2025/03/18/seminar-67
+- https://ieeexplore.ieee.org/document/11023298
+- https://fuzzing.io/Presentations/The%20DL%20on%20LLM%20Code%20Analysis%20-%20CanSecWest24%20-%20rjohnson.pdf
+- https://rainjamesy.github.io/slides/FuzzLLM.pdf
+- https://github.com/Invicti-Security/brainstorm
+- https://github.com/asmitaj08/FuzzingBusyBox_LLM
+- https://github.com/livingbio/fuzzy-json
+- https://github.com/user1342/AutoCorpus
+- https://github.com/tact-lang/llm-fuzz
+- https://github.com/SoftSec-KAIST/LLM1dFuzz
+- https://github.com/Neroxeles/fuzzing-web-api-with-llm
+- https://github.com/RainJamesY/FuzzLLM
+- https://www.wired.com
+- https://www.wired.com/feed/rss
+- https://www.wired.com/story/researchers-llm-ai-robot-violence
+- https://www.wired.com/story/researchers-llm-ai-robot-violence/
+- https://www.wired.com/story/researchers-llm-ai-robot-violence?utm_source=chatgpt.com
+- https://www.wired.it/article/robot-intelligenza-artificiale-comportamenti-pericolosi-ricerca
+- https://www.wired.it/article/robot-intelligenza-artificiale-comportamenti-pericolosi-ricerca/
+- https://www.wiz.io/academy/prompt-injection-attack
+- https://www.x.com/WordPress
+- https://www.youtube.com/@aiatmeta
+- https://www.youtube.com/@anthropic-ai
+- https://www.youtube.com/c/DublinCore
+- https://www.youtube.com/c/thehackernews?sub_confirmation=1
+- https://www.youtube.com/user/techradar?sub_confirmation=1
+- https://www.youtube.com/watch?v=umfeF0Dx-r4.PatrickChao
+- https://www.youtube.com/wordpress
+- https://x.com/AnthropicAI
+- https://x.com/LiaoZeyi/status/1828613837756490112
+- https://x.com/confident_ai
+- https://x.com/dublincore
+- https://x.com/hiddenlayersec
+- https://x.com/metanewsroom
+- https://xkcd.com/2169/
+- https://yoast.com/wordpress/plugins/seo
+- https://yoast.com/wordpress/plugins/seo/
+- https://zendata.security/2025/06/11/zero-click-echoleak-exploit-in-microsoft-365-copilot-highlights-ai-data-exfiltration-risks/
+- https://www.securityweek.com/microsoft-finds-zero-day-flaw-in-copilot-plugin/
+- https://thehackernews.com/2025/12/ai-tool-uncover-zero-day-vulnerabilities.html
+- https://www.bleepingcomputer.com/news/security/ai-zero-day-tool-autonomous-vulnerability-discovery/
+- https://www.fortinet.com/blog/threat-research/zero-day-llm-attack
+- https://www.blackhat.com/us-24/briefings/schedule/index.html#ai-driven-zero-day-exploitation-0
+- https://www.blackhat.com/asia-25/briefings/schedule/index.html#llm-zero-day-fuzzing-102
+- https://therecord.media/gpt-4o-discovers-zero-day-in-python
+- https://industrialcyber.co/security-tools/ai-zero-day-finder/
+- https://snyk.io/blog/ai-accelerated-zero-day-detection/
+- https://www.techrepublic.com/article/llm-zero-day-icomm/
