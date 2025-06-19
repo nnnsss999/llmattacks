@@ -316,5 +316,11 @@
   },
   "http://purl.org/dc/dcmitype/": {
     "existing": "extractions1/2730184a15.md"
+  },
+  "http://purl.org/dc/dcmitype/Collection": {
+    "saved_as": "cff3647119.md"
+  },
+  "http://purl.org/dc/dcmitype/Dataset": {
+    "saved_as": "17bd65c0aa.md"
   }
 }
