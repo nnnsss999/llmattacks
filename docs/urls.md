@@ -108,8 +108,11 @@
 - http://purl.org/dc/dcam/VocabularyEncodingScheme
 - http://purl.org/dc/dcam/`**
 - http://purl.org/dc/dcam/domainIncludes
+# @extractions1/8de6b83d7d.md
 - http://purl.org/dc/dcam/memberOf
+# @extractions1/62973babd8.md
 - http://purl.org/dc/dcam/rangeIncludes
+# @extractions1/46b152b5a8.md
 - http://purl.org/dc/dcmitype/
 - http://purl.org/dc/dcmitype/Collection
 - http://purl.org/dc/dcmitype/Dataset
