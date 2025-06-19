@@ -1,7 +1,7 @@
 {
   "Overview": [
     {
-      "title": "Attack\u2013Defence Matrix",
+      "title": "Attack–Defence Matrix",
       "path": "attack-defense-matrix.md",
       "category": "Overview",
       "sub_category": "",
@@ -61,6 +61,13 @@
       "category": "Latent Space",
       "sub_category": "",
       "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Attention Hijacking Resources",
+      "path": "latent-space/attention-hijacking-resources.md",
+      "category": "Latent Space",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
     }
   ],
   "Tokenization": [
