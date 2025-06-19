@@ -34,3 +34,19 @@ The following references provide further background on tokenization-based attack
 - [Some Notes on Adversarial Attacks on LLMs](https://cybernetist.com/2024/09/23/some-notes-on-adversarial-attacks-on-llms/) - Practitioner notes covering token-level manipulations.
 - [Beware of Special Token Injections in LLMs](https://medium.com/@_jeremy_/beware-of-special-token-injections-in-llms-a-new-form-of-sql-injection-like-attack-d0bceb8bda94) - Medium article describing reserved-token injection risks.
 - [The Subtle Art of Jailbreaking LLMs](https://andpalmier.com/posts/jailbreaking-llms/) - High-level guide to jailbreak strategies including token-focused tricks.
+- [Novel TokenBreak Attack Method Can Bypass LLM Security Features](https://securityboulevard.com/2025/06/novel-tokenbreak-attack-method-can-bypass-llm-security-features/) - Security Boulevard's analysis of a TokenBreak variant.
+- [TokenBreak Attack - Single Character Bypass Defeats LLM Safety](https://www.cyberkendra.com/2025/06/tokenbreak-attack-single-character.html) - Explanation of the single-character trick.
+- [Simple Typo Breaks AI Safety Via TokenBreak](https://cybermaterial.com/simple-typo-breaks-ai-safety-via-tokenbreak/) - Demonstration of the bypass in practice.
+- [TokenBreak Exploit Tricks AI Models Using Minimal Input Changes](https://gbhackers.com/tokenbreak-exploit-tricks-ai-models/) - Step-by-step demonstration of the exploit.
+- [TokenBreak Attack Bypasses AI Models with a Single Character](https://cyberpress.org/tokenbreak-attack-bypasses-ai-models/) - Security blog summary of the weakness.
+- [TokenBreak Attack Bypasses LLM Protective Guardrails](https://www.spartechsoftware.com/cybersecurity-news/new-tokenbreak-attack-bypasses-llm-protective-guardrails/) - Coverage of defensive shortcomings.
+- [Emoji Jailbreaks: Are Your AI Models Vulnerable?](https://medium.com/google-cloud/emoji-jailbreaks-b3b5b295f38b) - Google Cloud article on emoji-based bypasses.
+- [Hackers Can Bypass Microsoft, Nvidia, & Meta AI Filters With a Simple Emoji](https://cybersecuritynews.com/hackers-can-bypass-microsoft-nvidia-meta-ai-filters/) - News report on real-world emoji attacks.
+- [AI Guardrail Vulnerability Exposed: How Emoji Smuggling Bypasses LLM Safety Filters](https://windowsforum.com/threads/ai-guardrail-vulnerability-exposed-how-emoji-smuggling-bypasses-llm-safety-filters.365061/) - Discussion of smuggling vulnerabilities.
+- [Understanding Emoji AI Hacking: How Unicode Threatens AI](https://www.geeky-gadgets.com/emoji-exploits-in-ai-security/) - Technical overview of emoji exploits.
+- [The Emoji Attack: A New Threat Vector in AI Safety Evaluation](https://medium.com/@bhargavaganti/the-emoji-attack-a-new-threat-vector-in-ai-safety-evaluation-6ab07ff4f107) - Analysis of emoji sequences in jailbreaks.
+- [The Hidden Dangers of Adversarial Tokenization](https://medium.com/data-science-collective/the-hidden-dangers-of-adversarial-tokenization-how-token-splitting-bypasses-ai-safeguards-4e3b651f6a22) - In-depth look at token-splitting risks.
+- [Adversarial Attacks on LLMs | Lil'Log](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/)
+- [A Deep Dive into LLM Attacks and Countermeasures](https://medium.com/@nirvana.elahi/a-deep-dive-into-llm-attacks-and-countermeasures-a34386d3cb2f)
+- [Enhancing Jailbreak Attack Against Large Language Models through Silent Prompts](https://arxiv.org/abs/2405.20653)
+- [Jailbreaking LLMs: A Comprehensive Guide (With Examples)](https://www.promptfoo.dev/blog/how-to-jailbreak-llms/)
