@@ -57,3 +57,8 @@ The references below document newly disclosed or proof-of-concept zero-day vulne
 - [When AI Becomes the Hacker: How OpenAI's o3 Found Its First Zero-Day](https://www.linkedin.com/pulse/when-ai-becomes-hacker-how-openais-o3-found-its-first-david-borish-znqtc)
 - [OpenAI Finds Zero-Day Vulnerability](https://cybermaterial.com/openai-finds-zero-day-vulnerability/)
 - [AI Discovers Linux Zero-Day: OpenAI o3 Model Uncovers Critical SMB Protocol Flaw](https://twit.tv/posts/tech/ai-discovers-linux-zero-day-openai-o3-model-uncovers-critical-smb-protocol-flaw)
+
+- [NVD - CVE-2025-32711 Zero Click Vulnerability in Microsoft 365 Copilot](https://nvd.nist.gov/vuln/detail/CVE-2025-32711)
+- [NVD - CVE-2025-37899 Remote Zeroday in Linux SMB Kernel](https://nvd.nist.gov/vuln/detail/CVE-2025-37899)
+- [Nvidia Patches Vulnerabilities That Could Let Hackers Exploit AI Services](https://www.securityweek.com/nvidia-riva-vulnerabilities-allow-unauthorized-use-of-ai-services/)
+- [Microsoft Offers $10,000 Bounty for Prompt Injection Bugs in LLM Email Client](https://www.securityweek.com/microsoft-bets-10000-on-prompt-injection-protections-of-llm-email-client/)
