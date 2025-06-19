@@ -122,3 +122,68 @@ malicious behaviour.
 ### Rapid Response
 A mitigation approach providing a short list of safe examples that guide the
 model away from harmful completions.
+
+### Agent Toolchain Privilege Escalation
+Using autonomous agents to chain external tools together and gain elevated
+system privileges or execute prohibited actions.
+
+### Attacker Disguiser
+A defensive strategy where one agent rewrites malicious prompts so that the
+target model does not recognise them as attacks, circumventing refusal
+mechanisms.
+
+### ASETF (Translate Suffix Embedding Attack)
+A jailbreak that appends adversarial suffix embeddings, often in translated
+form, to override the model's safety alignment.
+
+### CRLF Injection
+Exploiting carriage-return and line-feed characters in insecure outputs to
+inject unexpected headers or markup.
+
+### OWASP LLM04 DoS
+Denial-of-service vulnerabilities for language models as categorised in the
+OWASP "LLM04" guidance.
+
+### Language Games
+Interactive prompting techniques that gradually coax a model into unsafe
+behaviour through back-and-forth conversation.
+
+### Naturalistic Patch
+Seemingly innocuous images or audio that hide adversarial triggers for
+multimodal models.
+
+### AmpleGCG
+An approach that trains a generative model of adversarial suffixes to automate
+greedy coordinate gradient attacks.
+
+### BrokenHill
+Open-source tooling that scales Greedy Coordinate Gradient (GCG) prompt search
+across many target models.
+
+### JBFuzz
+Fuzzing framework that iteratively mutates prompts to discover jailbreaks with a
+high success rate.
+
+### ObscurePrompt
+Jailbreaking technique that relies on unusual encodings or Unicode tricks to
+hide malicious instructions.
+
+### PromptFuzz
+Systematic prompt fuzzing aimed at exposing unsafe completions and injection
+vectors.
+
+### GPT-4V Safety
+Research evaluating whether multimodal GPT‑4V models resist combined text and
+image-based jailbreaks.
+
+### Confident AI Jailbreak
+Case study demonstrating how social engineering convinced a commercial chatbot
+to disclose restricted information.
+
+### Dependency Hijacking
+Supply-chain attack where an adversary takes over a package name so that the
+victim inadvertently installs malicious code.
+
+### ApexHQ LatentSpace Attack
+Manipulating latent representations so hidden triggers survive safety filters,
+as reported by ApexHQ.
