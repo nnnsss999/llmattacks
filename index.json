@@ -308,6 +308,15 @@
     {
       "title": "Linguistic Manipulation Resources 2027",
       "path": "linguistic-manipulation/linguistic-manipulation-resources-2027.md",
+      "title": "Linguistic Manipulation Resources 2028",
+      "path": "linguistic-manipulation/linguistic-manipulation-resources-2028.md",
+      "category": "Linguistic Manipulation",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
+    },
+    {
+      "title": "Linguistic Manipulation Attacks",
+      "path": "linguistic-manipulation/index.md",
       "category": "Linguistic Manipulation",
       "sub_category": "",
       "date_collected": "2025-06-19"
@@ -474,6 +483,20 @@
       "path": "data-poisoning/badreward-clean-label.md",
       "category": "Training Alignment",
       "sub_category": "Data Poisoning",
+      "title": "Fuzzing Resources 2030",
+      "path": "fuzzing/fuzzing-resources-2030.md",
+      "category": "Fuzzing",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
+    },
+    {
+      "title": "Fuzzing Resources 2028",
+      "path": "fuzzing/fuzzing-resources-2028.md",
+      "category": "Fuzzing",
+      "title": "Alignment-Aware Model Extraction Attacks",
+      "path": "inference/alignment-aware-mea.md",
+      "category": "Inference",
+      "sub_category": "",
       "date_collected": "2025-06-18"
     },
     {
@@ -496,6 +519,16 @@
       "title": "Mechanism-Centric Data Poisoning",
       "path": "training-alignment/mechanism-centric-poisoning.md",
       "category": "Training & Alignment",
+      "title": "Token-Level Attack Resources 2027",
+      "path": "token-level/token-level-resources-2027.md",
+      "category": "Tokenization",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
+    },
+    {
+      "title": "TokenBreak Single-Character Bypass",
+      "path": "prompt-dialogue/tokenbreak-single-character-bypass.md",
+      "category": "Tokenization",
       "sub_category": "",
       "date_collected": "2025-06-18"
     }
