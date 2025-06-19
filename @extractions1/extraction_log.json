@@ -154,6 +154,7 @@
   },
   "http://cassisproject.com": {
     "existing": "@extractions1/85d11d705c.md"
+    "saved_as": "85d11d705c.md"
   },
   "http://claude.ai/login": {
     "error": "403 Client Error: Forbidden for url: https://claude.ai/login"
@@ -219,6 +220,19 @@
     "existing": "@extractions1/f2a58726e5.md"
   },
   "http://dublincore.org/resources/translations/": {
+    "saved_as": "e458f00b8f.md"
+  },
+  "http://dublincore.org/resources/translations/](/resources/translations/#dces1-1": {
+    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/resources/translations/%5D(/resources/translations/#dces1-1"
+  },
+  "http://dublincore.org/specifications/dublin-core/dces/": {
+    "saved_as": "f8d6276f37.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/dces/1998-09-01/": {
+    "saved_as": "b2c8d16138.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/dces/1998-09-01/](/specifications/dublin-core/dces/1998-09-01/": {
+    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/1998-09-01/%5D(/specifications/dublin-core/dces/1998-09-01/"
     "existing": "@extractions1/e458f00b8f.md"
   },
   "http://dublincore.org/resources/translations/](/resources/translations/#dces1-1": {
@@ -243,6 +257,7 @@
     "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/1999-07-02/%60"
   },
   "http://dublincore.org/specifications/dublin-core/dces/2003-02-04/": {
+    "saved_as": "aced4e5037.md"
     "existing": "@extractions1/aced4e5037.md"
   },
   "http://dublincore.org/specifications/dublin-core/dces/2003-02-04/](/specifications/dublin-core/dces/2003-02-04/": {
