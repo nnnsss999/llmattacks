@@ -73,3 +73,11 @@ docs/prompt-dialogue/puzzler-indirect-jailbreak.md
 docs/prompt-dialogue/many-shot-jailbreaking-resources.md
 docs/zero-day-resources-2026.md
 docs/zero-day-resources-2027.md
+docs/training-alignment/reinforcement-learning-attack-discovery.md
+docs/optimization/gradient-resources-2026.md
+docs/social-engineering/emotional-manipulation-resources.md
+docs/api-level/api-level-attack-resources.md
+docs/token-level/token-prediction-resources.md
+docs/streaming/streaming-response-hijacking-resources.md
+docs/function-calling/function-calling-exploit-resources.md
+docs/latent-space/attention-hijacking-resources.md
