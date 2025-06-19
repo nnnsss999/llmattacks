@@ -92,3 +92,4 @@ These references track emerging threats and defence research through 2026 and ar
 - [GitHub Repository: llm-attacks/llm-attacks](https://github.com/llm-attacks/llm-attacks)
 - [Meta's Llama Framework Flaw Exposes AI Systems to Remote Code Execution](https://thehackernews.com/2025/01/metas-llama-framework-flaw-exposes-ai.html)
 - [Top 10 Most Common LLM Attack Techniques | Elastic](https://www.elastic.co/security/llm-safety-report)
+- [Prompt Injection Resources 2026](prompt-dialogue/prompt-injection-resources-2026.md)
