@@ -69,3 +69,12 @@ The references below document newly disclosed or proof-of-concept zero-day vulne
 - [AI Fuzzers Discover Critical Zero-Day Vulnerability](https://arstechnica.com/information-technology/2025/02/ai-fuzzers-discover-critical-zero-day-vulnerability/)
 - [AI Discovers Zero-Day in Web-Based LLM](https://www.scmagazine.com/news/ai-discovers-zero-day-in-web-llm)
 
+- [AI Zero Days Are Here: What CISOs Need to Know](https://www.f5.com/company/blog/nginx/ai-zero-days-are-here-what-cisos-need-to-know)
+- [Remote Zero-day Linux Kernel Flaw Discovered Using AI](https://linuxsecurity.com/news/security-vulnerabilities/remote-zero-day-linux-kernel-flaw-discovered-using-ai)
+- [Can AI Detect and Mitigate Zero Day Vulnerabilities?](https://www.zscaler.com/blogs/product-insights/can-ai-detect-and-mitigate-zero-day-vulnerabilities)
+- [The Zero-Day Vulnerabilities of Generative AI](https://www.leanix.net/en/blog/ai-zero-day)
+- [AI Hackers can Find, Exploit Zero-Day Vulnerabilities](https://heysoteria.com/ai-hackers-zero-day/)
+- [Zero-Day Quest 2025: $1.6 Million Awarded for Vulnerability Research](https://msrc.microsoft.com/blog/2025/04/zero-day-quest-2025-1.6-million-awarded-for-vulnerability-research/)
+- [Day Zero: Building a Superhuman AI Red Teamer From Scratch](https://www.lakera.ai/blog/day-zero-building-a-superhuman-llm-red-teamer-from-scratch)
+- [4 Ways to Address Zero-Days in AI/ML Security](https://protectai.com/blog/address-zero-days-in-ai-ml-security)
+
