@@ -49,3 +49,8 @@ The following sources examine how adversaries exploit an LLM's context window. T
 - [Cognitive Overload Attack GitHub Repository (UNHSAILLab)](https://github.com/UNHSAILLab/cognitive-overload-attack)
 - [Many-Shot Jailbreaking (PDF)](https://www-cdn.anthropic.com/af5633c94ed2beb282f6a53c595eb437e8e7b630/Many_Shot_Jailbreaking__2024_04_02_0936.pdf)
 - [Illusions of Relevance: Using Content Injection Attacks to Deceive Retrievers, Rerankers, and LLM Judges (arXiv:2501.18536)](https://arxiv.org/abs/2501.18536)
+- [Understanding the Impact of Increasing LLM Context Windows (Meibel)](https://www.meibel.ai/post/understanding-the-impact-of-increasing-llm-context-windows)
+- [Analysis of Llama 4's 10 Million Token Context Window Claim (Medium)](https://sandar-ali.medium.com/analysis-of-llama-4s-10-million-token-context-window-claim-9e68ee5abcde)
+- [Context Window: The Essential Guide (Nightfall AI)](https://www.nightfall.ai/ai-security-101/context-window)
+- [Prompt Injection: What It Is and How to Prevent It (Coralogix)](https://coralogix.com/ai-blog/prompt-injection-attacks-in-llms-what-are-they-and-how-to-prevent-them/)
+- [Indirect Prompt Injection: Generative AI’s Greatest Security Flaw (Alan Turing Institute)](https://cetas.turing.ac.uk/publications/indirect-prompt-injection-generative-ais-greatest-security-flaw)
