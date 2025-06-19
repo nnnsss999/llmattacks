@@ -85,3 +85,4 @@ docs/token-level/token-level-resources-2027.md
 docs/streaming/streaming-response-hijacking-resources.md
 docs/function-calling/function-calling-exploit-resources.md
 docs/latent-space/attention-hijacking-resources.md
+docs/prompt-dialogue/prompt-engineering-resources-2028.md
