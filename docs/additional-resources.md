@@ -135,6 +135,7 @@ These references track emerging threats and defence research through 2026 and ar
 - [Jigsaw Puzzles: Splitting Harmful Questions to Jailbreak Large Language Models](https://arxiv.org/abs/2410.11459)
 - [Jailbreak Attacks and Defenses Against Large Language Models: A Survey](https://arxiv.org/abs/2407.04295)
 - [WordGame: Efficient & Effective LLM Jailbreak via Simultaneous Obfuscation in Query and Response](https://arxiv.org/abs/2405.14023)
+- [BaitAttack: Alleviating Intention Shift in Jailbreak Attacks via Adaptive Bait Crafting](https://aclanthology.org/2024.emnlp-main.877/)
 - [Jailbreaking to Jailbreak](https://arxiv.org/abs/2502.09638)
 - [SequentialBreak: Large Language Models Can be Fooled by Embedding Jailbreak Prompts into Sequential Prompt Chains](https://arxiv.org/abs/2411.06426)
 - [Continuous Embedding Attacks via Clipped Inputs in Jailbreaking Large Language Models](https://arxiv.org/abs/2407.13796)

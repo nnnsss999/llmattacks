@@ -79,6 +79,13 @@
       "category": "Prompt Dialogue",
       "sub_category": "",
       "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Puzzler Indirect Jailbreak",
+      "path": "prompt-dialogue/puzzler-indirect-jailbreak.md",
+      "category": "Prompt Dialogue",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
     }
   ],
   "Training Alignment": [
