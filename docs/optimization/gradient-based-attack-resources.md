@@ -32,3 +32,7 @@ This list collects notable research papers, blog posts and repositories that dev
 - [DAGER: Exact Gradient Inversion for Large Language Models](https://arxiv.org/abs/2405.15586)
 - [LLM Abuse Prevention Tool Using GCG Jailbreak Attack Detection and DistilBERT-Based Ethics Judgment](https://doi.org/10.3390/info16030204)
 - [Gradient-Based Privacy Jailbreak | LLM Security Database](https://www.promptfoo.dev/lm-security-db/vuln/undefined-0282d4f5)
+- [GradientCuff and Detecting Jailbreak Attacks on Large Language Models](https://jailbreakai.substack.com/p/gradientcuff-and-detecting-jailbreak)
+- [Exponentiated Gradient Jailbreak | LLM Security Database](https://www.promptfoo.dev/lm-security-db/vuln/exponentiated-gradient-jailbreak-c4fb2fa8)
+- [Gradient Hacking](https://www.alignmentforum.org/posts/uXH4r6MmKPedk8rMA/gradient-hacking)
+- [Gradient Inversion Learning Resources](https://github.com/SuperX612/Gradient-Inversion-Learning-Resources)
