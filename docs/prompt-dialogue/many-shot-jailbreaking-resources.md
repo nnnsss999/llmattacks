@@ -17,3 +17,7 @@ The following articles and research papers document the **Many-Shot Jailbreaking
 - [What Is Anthropic's Many-shot Jailbreaking? (Dataconomy)](https://dataconomy.com/2024/04/03/anthropic-many-shot-jailbreaking/)
 - [Exploiting Long Context Windows in Large Language Models (Maginative)](https://www.maginative.com/article/many-shot-jailbreaking-exploiting-long-context-windows-in-large-language-models/)
 - [Many-Shot-Generator Toolkit (GitHub)](https://github.com/BronyaCat/Many-Shot-Generator)
+- [What Really Matters in Many-Shot Attacks? An Empirical Study of Long-Context Vulnerabilities in LLMs (arXiv:2505.19773)](https://arxiv.org/abs/2505.19773)
+- [PANDAS: Improving Many-shot Jailbreaking via Positive Affirmation, Negative Demonstration, and Adaptive Sampling (arXiv:2502.01925)](https://arxiv.org/abs/2502.01925)
+- [Compromesso! Italian Many-Shot Jailbreaks Undermine the Safety of Large Language Models (arXiv:2408.04522)](https://arxiv.org/abs/2408.04522)
+- [Improved Few-Shot Jailbreaking Can Circumvent Aligned Language Models and Their Defenses (arXiv:2406.01288)](https://arxiv.org/abs/2406.01288)
