@@ -72,7 +72,23 @@ Additional references collected after the original snapshot:
 - [STEGOSAURUS-WRECKS Prompt Obfuscation](https://github.com/elder-plinius/STEGOSAURUS-WRECKS)
 - [ChatGPT AutoExpert System Prompts](https://github.com/spdustin/ChatGPT-AutoExpert/blob/main/System%20Prompts.md#behind-the-scenes)
 
-These references track emerging threats and defence research through 2025 and are regularly reviewed for new developments.
+These references track emerging threats and defence research through 2026 and are regularly reviewed for new developments.
 - [Vulnhuntr: Autonomous AI Finds First 0-Day Vulnerabilities in Wild](https://protectai.com/threat-research/vulnhuntr-first-0-day-vulnerabilities)
 - [Using Generative AI LLM agents to exploit zero-day vulnerabilities](https://www.cybercareers.blog/2024/07/using-generative-ai-llm-agents-to-exploit-zero-day-vulnerabilities/)
 
+- [LLM Security Playbook for AI Injection Attacks, Data Leaks, and Model Theft](https://konghq.com/blog/enterprise/llm-security-playbook-for-injection-attacks-data-leaks-model-theft)
+- [LLM Security: Protect Models from Attacks & Vulnerabilities](https://blog.qualys.com/product-tech/2025/02/07/llm-security-101-protecting-large-language-models-from-cyber-threats)
+- [Commercial LLM Agents Are Already Vulnerable to Simple Yet Dangerous Attacks](https://arxiv.org/abs/2502.08586)
+- [LLM Security](https://llmsecurity.net/)
+- [Practical Attacks on LLMs: Full Guide](https://iterasec.com/blog/practical-attacks-on-llms/)
+- [OWASP's LLM and Gen AI Data Security Best Practices](https://genai.owasp.org/resource/llm-and-gen-ai-data-security-best-practices/)
+- [Addressing LLM02:2025 Sensitive Information Disclosure Risks](https://www.securityium.com/addressing-llm022025-sensitive-information-disclosure-risks/)
+- [LLM Prompt Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html)
+- [How to Protect Your Organization from LLM Attacks](https://op-c.net/blog/how-to-protect-your-organization-from-llm-attacks/)
+- [Universal and Transferable Attacks on Aligned Language Models](https://llm-attacks.org/)
+- [MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots](https://www.ndss-symposium.org/ndss-paper/masterkey-automated-jailbreaking-of-large-language-model-chatbots/)
+- [Prompt Injection Attacks on LLMs - HiddenLayer](https://hiddenlayer.com/innovation-hub/prompt-injection-attacks-on-llms/)
+- [Recent Advances in Attack and Defense Approaches of Large Language Models](https://arxiv.org/abs/2409.03274)
+- [GitHub Repository: llm-attacks/llm-attacks](https://github.com/llm-attacks/llm-attacks)
+- [Meta's Llama Framework Flaw Exposes AI Systems to Remote Code Execution](https://thehackernews.com/2025/01/metas-llama-framework-flaw-exposes-ai.html)
+- [Top 10 Most Common LLM Attack Techniques | Elastic](https://www.elastic.co/security/llm-safety-report)
