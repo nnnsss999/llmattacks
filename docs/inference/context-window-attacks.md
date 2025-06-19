@@ -62,3 +62,8 @@ These resources detail how manipulating a model's working context can produce ha
 - [Illusions of Relevance: Using Content Injection Attacks to Deceive Retrievers, Rerankers, and LLM Judges (arXiv:2501.18536)](https://arxiv.org/abs/2501.18536)
 - [Artifacts and Long Context Windows (Weights & Biases)](https://wandb.ai/wandb_ai/artifacts-and-long-context-windows)
 - [Long-Context LLMs and RAG (deepset Blog)](https://www.deepset.ai/blog/long-context-llms-rag)
+
+- [Membership Inference Attack against Long-Context Large Language Models (arXiv:2411.11424)](https://arxiv.org/abs/2411.11424)
+- [Context is the Key: Backdoor Attacks for In-Context Learning with Vision Transformers (arXiv:2409.04142)](https://arxiv.org/abs/2409.04142)
+- [Exploiting Long Context Windows for Harmful Outputs (Prompt Engineering Institute)](https://promptengineering.org/exploiting-long-context-windows-for-harmful-outputs/)
+- [Anthropic: Large context LLMs vulnerable to many-shot jailbreak (DailyAI)](https://dailyai.com/2024/04/anthropic-large-context-llms-vulnerable-to-many-shot-jailbreak/)

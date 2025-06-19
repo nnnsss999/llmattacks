@@ -56,3 +56,8 @@ The following sources examine how adversaries exploit an LLM's context window. T
 - [Indirect Prompt Injection: Generative AI’s Greatest Security Flaw (Alan Turing Institute)](https://cetas.turing.ac.uk/publications/indirect-prompt-injection-generative-ais-greatest-security-flaw)
 - [Guide to Context in LLMs (Symbl.ai)](https://symbl.ai/developers/blog/guide-to-context-in-llms/)
 - [Artifacts and Long Context Windows (Weights & Biases)](https://wandb.ai/wandb_ai/artifacts-and-long-context-windows)
+
+- [Membership Inference Attack against Long-Context Large Language Models (arXiv:2411.11424)](https://arxiv.org/abs/2411.11424)
+- [Context is the Key: Backdoor Attacks for In-Context Learning with Vision Transformers (arXiv:2409.04142)](https://arxiv.org/abs/2409.04142)
+- [Exploiting Long Context Windows for Harmful Outputs (Prompt Engineering Institute)](https://promptengineering.org/exploiting-long-context-windows-for-harmful-outputs/)
+- [Anthropic: Large context LLMs vulnerable to many-shot jailbreak (DailyAI)](https://dailyai.com/2024/04/anthropic-large-context-llms-vulnerable-to-many-shot-jailbreak/)
