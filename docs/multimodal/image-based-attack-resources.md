@@ -2,7 +2,7 @@
 title: "Image-Based LLM Attack Resources"
 category: "Multimodal"
 source_url: ""
-date_collected: 2025-06-18
+date_collected: 2026-06-19
 license: "CC-BY-4.0"
 ---
 
@@ -26,3 +26,8 @@ Below is a curated list of papers and articles that detail how images can be use
 - [VisCRA: A Visual Chain Reasoning Attack for Jailbreaking Multimodal Large Language Models](https://arxiv.org/abs/2505.19684) – Combines targeted visual masking with reasoning prompts to elicit harmful content.
 - [FC-Attack: Jailbreaking Large Vision-Language Models via Auto-Generated Flowcharts](https://arxiv.org/abs/2505.19682) – Uses flowchart diagrams containing partial instructions to bypass safety systems.
 - [SI-Attack: Shuffle Inconsistency Attacks on Multimodal LLMs](https://arxiv.org/abs/2504.06537) – Exploits mismatches between vision and language inputs to jailbreak models.
+- [Revisiting the Adversarial Robustness of Vision Language Models: a Multimodal Perspective](https://arxiv.org/abs/2404.19287) – Systematically evaluates how image manipulations impact vision-language systems.
+- [Iterative Adversarial Attack on Image-guided Story Ending Generation](https://arxiv.org/abs/2305.13208) – Early exploration of multimodal adversarial examples for narrative tasks.
+- [Divide and Conquer: A Hybrid Strategy Defeats Multimodal Large Language Models](https://arxiv.org/abs/2412.16555) – Demonstrates a two-stage approach for bypassing image-based defenses.
+- [Adversarial Attacks in Multimodal Systems: A Practitioner's Survey](https://arxiv.org/abs/2505.03084) – Comprehensive survey covering image-based jailbreaking techniques.
+- [Utilizing Jailbreak Probability to Attack and Safeguard Multimodal LLMs](https://arxiv.org/abs/2503.06989) – Introduces probabilistic methods to refine visual jailbreaks.
