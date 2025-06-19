@@ -1,18 +1,15 @@
 {
   "http://Skylion007.github.io/OpenWebTextCorpus": {
-    "saved_as": "e36fd18630.md"
-  },
-  "http://Skylion007.github.io/OpenWebTextCorpus,2019": {
-    "error": "404 Client Error: Not Found for url: https://skylion007.github.io/OpenWebTextCorpus,2019"
+    "existing": "extractions1/e36fd18630.md"
   },
   "http://ai.meta.com/blog/meta-llama-3-1": {
-    "saved_as": "a15fda3325.md"
+    "existing": "extractions1/a15fda3325.md"
   },
   "http://ai.meta.com/llama": {
-    "saved_as": "5ce86332d8.md"
+    "existing": "extractions1/5ce86332d8.md"
   },
   "http://ai.meta.com/llama/use-policy": {
-    "saved_as": "d2d06d7de6.md"
+    "existing": "extractions1/d2d06d7de6.md"
   },
   "http://anthropic.com/rsp": {
     "existing": "extractions1/7cc0acd3df.md"
@@ -86,6 +83,9 @@
   "http://arxiv.org/licenses/nonexclusive-distrib/1.0/": {
     "existing": "extractions1/94bca121d0.md"
   },
+  "http://arxiv.org/licenses/nonexclusive-distrib/1.0/`": {
+    "error": "404 Client Error: Not Found for url: http://arxiv.org/licenses/nonexclusive-distrib/1.0/%60"
+  },
   "http://arxiv.org/pdf/2012.07805": {
     "existing": "extractions1/04bd7d4f73.md"
   },
@@ -143,6 +143,9 @@
   "http://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto": {
     "error": "404 Client Error: Not Found for url: https://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto"
   },
+  "http://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto\u201ccheat\u201d.Webelievethisdoesnotconsiderablyaffectresults.First,anyoverlapbetweenthetwodatasetsisrareonaverage.Second,becauseweonlyusebetweenthe\ufb01rst5to10tokensofeachsample,anypossibleoverlapwillbesmallinabsoluteterms.6": {
+    "error": "404 Client Error: Not Found for url: https://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets,effec-tivelyallowingthisstrategyto%E2%80%9Ccheat%E2%80%9D.Webelievethisdoesnotconsiderablyaffectresults.First,anyoverlapbetweenthetwodatasetsisrareonaverage.Second,becauseweonlyusebetweenthe%EF%AC%81rst5to10tokensofeachsample,anypossibleoverlapwillbesmallinabsoluteterms.6"
+  },
   "http://creativecommons.org/licenses/by-nc-nd/4.0": {
     "existing": "extractions1/f8a92d30c5.md"
   },
@@ -150,6 +153,42 @@
     "existing": "extractions1/ac727278b2.md"
   },
   "http://creativecommons.org/licenses/by-nc-sa/4.0/": {
-    "saved_as": "93bcf3b687.md"
+    "existing": "extractions1/93bcf3b687.md"
+  },
+  "http://creativecommons.org/licenses/by-nd/2.0/": {
+    "saved_as": "3c46525f40.md"
+  },
+  "http://creativecommons.org/licenses/by-sa/4.0/": {
+    "saved_as": "15d8eebfa9.md"
+  },
+  "http://creativecommons.org/licenses/by/4.0": {
+    "existing": "extractions1/1e66d409f6.md"
+  },
+  "http://creativecommons.org/licenses/by/4.0/": {
+    "existing": "extractions1/f9ba32750c.md"
+  },
+  "http://creativecommons.org/publicdomain/zero/1.0/": {
+    "saved_as": "261eaede48.md"
+  },
+  "http://datasets.While": {
+    "error": "503 Server Error: Service Unavailable for url: http://datasets.while/"
+  },
+  "http://dlmf.nist.gov/LaTeXML": {
+    "existing": "extractions1/a99a711fb0.md"
+  },
+  "http://dlmf.nist.gov/LaTeXML/": {
+    "existing": "extractions1/ae3ec4c5bd.md"
+  },
+  "http://dlmf.nist.gov/LaTeXML/.--": {
+    "existing": "extractions1/dfe95ebb1b.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/dces/1999-07-02/": {
+    "saved_as": "b42d8d9a7d.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/dces/1999-07-02/`": {
+    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/1999-07-02/%60"
+  },
+  "http://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/": {
+    "saved_as": "d19bb1a7d7.md"
   }
 }
