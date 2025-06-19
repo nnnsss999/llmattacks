@@ -61,6 +61,13 @@ Below is a curated set of external articles, blog posts and reports that further
 - [AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts](https://arxiv.org/abs/2010.15980)
 - [Gradient Hacking in Reinforcement Learning](https://arxiv.org/abs/2106.09685)
 - [Gradient Leakage and Model Inversion via LoRA](https://arxiv.org/abs/2406.01234)
+- [BrokenHill: Attacking LLM Safeguards via Gradient Exploits](https://bishopfox.com/blog/brokenhill-attack-tool-largelanguagemodels-llm)
+- [AmpleGCG: Learning a Universal and Transferable Generative Model of Adversarial Suffixes for Jailbreaking Both Open and Closed LLMs](https://arxiv.org/abs/2404.07921)
+- [AmpleGCG GitHub Repository](https://github.com/OSU-NLP-Group/AmpleGCG)
+- [nanoGCG Project](https://github.com/GraySwanAI/nanoGCG/tree/main)
+- [I-GCG Implementation](https://github.com/jiaxiaojunQAQ/I-GCG)
+- [GCG Strategies for Prompt Red-Teaming](https://www.promptfoo.dev/docs/red-team/strategies/gcg/)
+- [Gradient Masking All-at-Once: Ensemble Everything Everywhere Is Not Robust](https://arxiv.org/abs/2411.14834)
 Additional references collected after the original snapshot:
 
 - [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/)
