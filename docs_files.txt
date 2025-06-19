@@ -57,3 +57,5 @@ docs/embedding/arxiv-embedding-inversion.html
 docs/embedding/text-embedding-inversion-2401.12192.html
 docs/embedding/crosslingual-inversion-2505.16008.html
 docs/embedding/extracting-training-data-2012.07805.html
+docs/psychological-evasion/cognitive-dissonance-injection.md
+docs/agentic/hyper-realistic-voice-cloning.md

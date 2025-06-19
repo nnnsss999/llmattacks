@@ -26,7 +26,7 @@ catalog. Key folders include:
   generate the CycloneDX `sbom.json`.
 - `tests/` – unit tests for the link checker and SBOM generator.
 - `docs_files.txt` – manifest listing every document archived in this
-  repository (54 entries).
+  repository (56 entries).
 - `catalog_content.md` – printable version of the master catalog.
 - `fixes-1.md` – issue log and proposed improvements.
 - `link_archive.json` – Wayback Machine snapshots of referenced URLs.

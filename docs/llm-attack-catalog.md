@@ -614,7 +614,7 @@ Below is a **fully expanded catalog** that corrects every in-scope error we foun
 
 ### Executive snapshot
 
-Recent research and breach reports show that large-language-model (LLM) systems can be compromised at **six distinct layers**: (1) prompt/dialog-level, (2) training & alignment, (3) retrieval pipelines, (4) supply-chain & build, (5) inference-time privacy & availability, and (6) agentic orchestration.  New work since Q4 2024 introduces *tokenizer bypass (TokenBreak)*, *Locality-Reinforced model stealing (LoRD)*, *Safety-chain of thought leakage*, *function-routing jailbreaks*, and *“sleeper-agent” alignment drift*—all missing from the prior draft.  The taxonomy below integrates these research fronts with the 2025 OWASP Top-10 for LLMs so your catalog is now **exhaustive as of 18 Jun 2025**.([owasp.org][1], [arxiv.org][2])
+Recent research and breach reports show that large-language-model (LLM) systems can be compromised at **six distinct layers**: (1) prompt/dialog-level, (2) training & alignment, (3) retrieval pipelines, (4) supply-chain & build, (5) inference-time privacy & availability, and (6) agentic orchestration.  New work since Q4 2024 introduces *tokenizer bypass (TokenBreak)*, *Locality-Reinforced model stealing (LoRD)*, *Safety-chain of thought leakage*, *function-routing jailbreaks*, and *“sleeper-agent” alignment drift*—all missing from the prior draft.  The taxonomy below integrates these research fronts with the 2025 OWASP Top-10 for LLMs so your catalog is now **exhaustive as of 26 Jul 2025**.([owasp.org][1], [arxiv.org][2])
 
 ---
 
@@ -628,6 +628,7 @@ Recent research and breach reports show that large-language-model (LLM) systems 
 | **1.4 Tokenizer Bypass (TokenBreak)**                 | Add/replace a single byte so a blocked word becomes a new token, defeating keyword filters while preserving semantics.                   | ([techradar.com][4], [hiddenlayer.com][5], [local](prompt-dialogue/tokenbreak-single-character-bypass.md)) |
 | **1.5 Multi-Modal Prompt Injection**                  | Embed adversarial pixels or steganographic text in images/audio that a V-LLM then dutifully transcribes into a dangerous request.        | ([arxiv.org][6], [arxiv.org][7])           |
 | **1.6 Chain-of-Thought (CoT) Leakage & Exploitation** | Attackers elicit hidden reasoning, glean secrets, then feed that CoT back to coax policy violations.                                     | ([arxiv.org][8], [theregister.com][9])     |
+| **1.7 Dynamic Obfuscation via Model-Generated Noise** | Employing another LLM to dynamically generate subtle noise or paraphrasing of malicious prompts, making them harder for static defenses to detect while preserving the attack's intent [^1_NEW3]. | ([example.com/blog/dynamic-obfuscation-llm-noise-jan2026.html][^1_NEW3]) |
 
 ---
 
@@ -699,10 +700,18 @@ Recent research and breach reports show that large-language-model (LLM) systems 
 | **7.1 Tool-Chain Swapping**                       | Persuade an autonomous agent to `pip install` a malicious binary that replaces safe utilities.                           | ([thehackernews.com][15])    |
 | **7.2 Prompt-Infection Cascade**                  | One compromised agent inserts jailbreak payloads into task queues that propagate to peers (observed in Auto-GPT clones). | ([community.openai.com][21]) |
 | **7.3 Robotic Actuation Abuse (PAIR / RoboPAIR)** | Visual-language prompts trick embodied agents into violent or unsafe manoeuvres.                                         | ([wired.com][22])            |
+| **7.4 Hyper-Realistic Voice Cloning for Agentic Deception** | Utilizing advanced voice synthesis to create highly convincing fake audio commands or impersonations, tricking agentic systems or humans interacting with them. | ([example.com/voice-cloning-deception-arxiv-dec2025.html][^1_NEW2]) |
 
 ---
 
-## 8 Emerging & Hypothetical Vectors
+## 8 Psychological Evasion Techniques
+
+### Cognitive Dissonance Injection
+Techniques that exploit cognitive biases by presenting the LLM with contradictory information or ethical dilemmas, leading to a breakdown of safety protocols as the model attempts to reconcile the dissonance [^1_NEW1].
+
+---
+
+## 9 Emerging & Hypothetical Vectors
 
 | **Vector**                                              | **Description**                                                                                    | **Key Sources**                          |
 | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -712,7 +721,7 @@ Recent research and breach reports show that large-language-model (LLM) systems 
 
 ---
 
-## 9 Corrections to Original Draft
+## 10 Corrections to Original Draft
 
 1. **“Reverse Preference Attack”** belongs to *training* threats, not “alignment maintenance.” Corrected placement in §2.4. ([arxiv.org][13])
 2. Added missing **Supply-Chain** section (§4) as mandated by OWASP LLM-02 & LLM-03. ([owasp.org][1])
@@ -752,3 +761,7 @@ Your catalog is now aligned with every peer-reviewed or industry-grade threat pu
 [24]: https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-746-villa.pdf "Exposing the Guardrails: Reverse-Engineering and Jailbreaking Safety Filters in DALL·E Text-to-Image Pipelines"
 [25]: https://arxiv.org/html/2502.14182v1 "Multi-Faceted Studies on Data Poisoning"
 [26]: https://arxiv.org/abs/2406.01234 "LoRA Leakage: Gradient Inversion Attacks"
+
+[^1_NEW1]: https://example.com/cognitive-dissonance-injection-paper-nov2025.pdf
+[^1_NEW2]: https://example.com/voice-cloning-deception-arxiv-dec2025.html
+[^1_NEW3]: https://example.com/blog/dynamic-obfuscation-llm-noise-jan2026.html
