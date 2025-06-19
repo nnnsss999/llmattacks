@@ -282,7 +282,7 @@
     "existing": "extractions1/88ef1476af.md"
   },
   "https://aclanthology.org/2024.findings-acl.304/": {
-    "saved_as": "893e7c22c4.md"
+    "existing": "extractions1/893e7c22c4.md"
   },
   "https://aclanthology.org/2024.findings-emnlp.692": {
     "existing": "extractions1/f50cf35db2.md"
@@ -542,6 +542,9 @@
   "https://arxiv.org/abs/2404.07921": {
     "existing": "extractions1/936557d3c3.md"
   },
+  "https://arxiv.org/abs/2404.07921\\u003c/a\\u003e": {
+    "error": "404 Client Error: Not Found for url: https://arxiv.org/abs/2404.07921%5Cu003c/a%5Cu003e"
+  },
   "https://arxiv.org/abs/2404.12345": {
     "existing": "docs/multimodal/image-obscuring-jailbreak.md"
   },
@@ -621,9 +624,24 @@
     "existing": "extractions1/58407aca7f.md"
   },
   "https://arxiv.org/abs/2409.12914v1": {
-    "saved_as": "533775e022.md"
+    "existing": "extractions1/533775e022.md"
   },
   "https://arxiv.org/abs/2409.12914v1/": {
-    "saved_as": "8b5fa66459.md"
+    "existing": "extractions1/8b5fa66459.md"
+  },
+  "https://arxiv.org/abs/2409.12914v1/#content": {
+    "saved_as": "b33447fce4.md"
+  },
+  "https://arxiv.org/abs/2409.12914v1/?utm_source=chatgpt.com": {
+    "saved_as": "73b27a1718.md"
+  },
+  "https://arxiv.org/abs/2409.12914v2": {
+    "saved_as": "126df2da12.md"
+  },
+  "https://arxiv.org/abs/2409.12914v3": {
+    "saved_as": "e23f343926.md"
+  },
+  "https://arxiv.org/abs/2409.14729": {
+    "saved_as": "e0a09b15e9.md"
   }
 }
