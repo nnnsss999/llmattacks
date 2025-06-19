@@ -127,6 +127,7 @@ Additional references collected after the original snapshot:
 - [Context window overflow: Breaking the barrier (AWS Security Blog)](https://aws.amazon.com/blogs/security/context-window-overflow-breaking-the-barrier/)
 - [RAG in the era of LLMs with 10 million token context windows (F5 Blog)](https://www.f5.com/company/blog/rag-in-the-era-of-llms-with-10-million-token-context-windows)
 - [Understanding LLM context windows: tokens, attention, and challenges (IBM Think Blog)](https://www.ibm.com/think/topics/context-window)
+- [Guide to Context in LLMs (Symbl.ai)](https://symbl.ai/developers/blog/guide-to-context-in-llms/)
 - [Image Hijacks: Adversarial Images can Control Generative Models](http://arxiv.org/abs/2309.00236)
 - [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)
 - [Mitigating Many-Shot Jailbreaking (arXiv:2504.09604)](https://arxiv.org/abs/2504.09604)
