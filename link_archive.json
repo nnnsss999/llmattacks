@@ -112,15 +112,18 @@
   },
   "https://winbuzzer.com/2025/06/16/microsoft-365-copilot-critical-echoleak-flaw-turned-microsofts-own-ai-into-data-thief-xcxwbn/": {
     "snapshot": "https://r.jina.ai/https://winbuzzer.com/2025/06/16/microsoft-365-copilot-critical-echoleak-flaw-turned-microsofts-own-ai-into-data-thief-xcxwbn/"
+  },
   "https://arxiv.org/abs/2309.01446": {
     "snapshot": "https://web.archive.org/web/20250618/arxiv230901446"
+  },
   "https://arxiv.org/abs/2506.12880": {"snapshot": "https://web.archive.org/web/20250618/arxiv250612880"},
   "https://arxiv.org/abs/2503.08216": {"snapshot": "https://web.archive.org/web/20250618/arxiv250308216"},
   "https://arxiv.org/abs/2504.05605": {"snapshot": "https://web.archive.org/web/20250618/arxiv250405605"},
   "https://arxiv.org/abs/2410.23678": {"snapshot": "https://web.archive.org/web/20250618/arxiv241023678"},
-  "https://arxiv.org/abs/2208.04946": {"snapshot": "https://web.archive.org/web/20250618/arxiv220804946"}
+  "https://arxiv.org/abs/2208.04946": {"snapshot": "https://web.archive.org/web/20250618/arxiv220804946"},
   "https://skylion007.github.io/OpenWebTextCorpus/": {
     "snapshot": "https://web.archive.org/web/20250618/skylion-openwebtext"
+  },
   "https://doi.org/10.1109/icassp48485.2024.10446267": {
     "snapshot": "https://web.archive.org/web/20250618/icassp-poisonprompt"
   },
