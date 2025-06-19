@@ -84,6 +84,8 @@ A searchable website built with **MkDocs Material** is automatically deployed to
   pin markdownlint **v0.38.0** and codespell **v2.4.1**.
 - `sbom.json` follows the **CycloneDX&nbsp;1.5** specification for reproducible
   metadata.
+- `extractions1/` contains **205** markdown drafts plus `extraction_log.json`,
+  representing sources automatically gathered on **2025-06-19**.
 
 ## Using This Repository
 
