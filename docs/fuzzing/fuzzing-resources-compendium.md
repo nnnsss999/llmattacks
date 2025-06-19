@@ -38,6 +38,17 @@ This document aggregates references on fuzzing techniques for large language mod
 - [Fuzzylabs Blog: Jailbreak Attacks on Large Language Models](https://www.fuzzylabs.ai/blog-post/jailbreak-attacks-on-large-language-models)
 - [AI-based Vulnerability Fuzzer Discovers Critical Zero-Day](https://www.securityweek.com/ai-based-vulnerability-fuzzer-discovers-critical-zero-day/)
 
+### Additional Papers and Industry Articles
+- [Minimal LLM-based Fuzz Harness Generator](https://adalogics.com/blog/minimal-llm-based-fuzz-harness-generator)
+- [Documentation-Driven Compiler Fuzzing with Large Language Models](https://gusarich.com/blog/fuzzing-with-llms/)
+- [Brainstorm Tool Release: Optimizing Web Fuzzing With Local LLMs](https://www.invicti.com/blog/security-labs/brainstorm-tool-release-optimizing-web-fuzzing-with-local-llms/)
+- [AI-based fuzzing targets open-source LLM vulnerabilities](https://www.reversinglabs.com/blog/automated-ai-fuzzing-targets-open-source-llm-vulnerabilities)
+- [Fuzzing Workshop 2025](https://fuzzingworkshop.github.io/)
+- [ISSTA 2025 Fuzzing Track](https://conf.researchr.org/home/issta-2025/fuzzing-2025)
+- [Leveling Up Fuzzing: Finding more vulnerabilities with AI](https://security.googleblog.com/2024/11/leveling-up-fuzzing-finding-more.html)
+- [2025-01-8091: LLM-Powered Fuzz Testing of Automotive Diagnostic Protocols](https://saemobilus.sae.org/papers/llm-powered-fuzz-testing-automotive-diagnostic-protocols-2025-01-8091)
+- [FuzzyAI: Open-source Tool for Automated LLM Fuzzing](https://www.helpnetsecurity.com/2024/12/13/fuzzyai-automated-llm-fuzzing/)
+
 ## Tools and Repositories
 - [FuzzAI Project](https://github.com/cyberark/FuzzyAI)
 - [Prompt Fuzzer](https://www.prompt.security/fuzzer)
@@ -56,5 +67,7 @@ This document aggregates references on fuzzing techniques for large language mod
 - [Honggfuzz Project](https://honggfuzz.dev)
 - [LLVM LibFuzzer Guide](https://llvm.org/docs/LibFuzzer.html)
 - [LLM-FuzzX Repository](https://github.com/Windy3f3f3f3f/LLM-FuzzX)
+- [Fuzz Introspector Project](https://github.com/ossf/fuzz-introspector)
+- [Fuzz4All Project Website](https://fuzz4all.github.io/)
 
 These references consolidate the fuzzing resources spread across multiple documents in this repository, giving researchers a centralized starting point for further exploration.
