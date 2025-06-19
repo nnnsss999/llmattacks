@@ -46,6 +46,11 @@ Below is a curated set of external articles, blog posts and reports that further
 - [VulnHuntr: Zero Shot Vulnerability Discovery Using LLMs](https://github.com/protectai/vulnhuntr)
 - [LLM Embedding Attack Repository](https://github.com/SchwinnL/LLM_Embedding_Attack)
 
+- [Attacking Large Language Models with Projected Gradient Descent](https://arxiv.org/abs/2402.09154)
+- [TAG: Gradient Attack on Transformer-based Language Models](https://aclanthology.org/2021.findings-emnlp.305/)
+- [Gradient-based Adversarial Attacks against Text Transformers](https://blogs.night-wolf.io/gradient-based-adversarial-attacks-against-text-transformers)
+- [Uncovering Gradient Inversion Risks in Practical Language Model Training](https://dl.acm.org/doi/abs/10.1145/3658644.3690292)
+
 Additional references collected after the original snapshot:
 
 - [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/)
@@ -92,3 +97,32 @@ These references track emerging threats and defence research through 2026 and ar
 - [GitHub Repository: llm-attacks/llm-attacks](https://github.com/llm-attacks/llm-attacks)
 - [Meta's Llama Framework Flaw Exposes AI Systems to Remote Code Execution](https://thehackernews.com/2025/01/metas-llama-framework-flaw-exposes-ai.html)
 - [Top 10 Most Common LLM Attack Techniques | Elastic](https://www.elastic.co/security/llm-safety-report)
+
+- [OWASP Top 10 LLM, Updated 2025: Examples & Mitigation Strategies](https://www.oligo.security/academy/owasp-top-10-llm-updated-2025-examples-and-mitigation-strategies)
+- [Is Your Prompt Safe? Investigating Prompt Injection Attacks Against Open-Source LLMs](https://arxiv.org/abs/2505.14368)
+- [Goal-Oriented Prompt Attack and Safety Evaluation for LLMs](https://arxiv.org/abs/2309.11830)
+- [Large Language Models Merging for Enhancing the Link Stealing Attack on Graph Neural Networks](https://arxiv.org/abs/2412.05830)
+- [System Prompt Extraction Attacks and Defenses in Large Language Models](https://arxiv.org/abs/2505.23817)
+- [Bag of Tricks: Benchmarking of Jailbreak Attacks on LLMs](https://arxiv.org/abs/2406.09324)
+- [A Survey of Attacks on Large Language Models](https://arxiv.org/abs/2505.12567)
+- [Leveraging the Context through Multi-Round Interactions for Jailbreaking Attacks](https://arxiv.org/abs/2402.09177)
+- [Is LLM-as-a-Judge Robust? Investigating Universal Adversarial Attacks on Zero-shot LLM Assessment](https://arxiv.org/abs/2402.14016)
+- [CheatAgent: Attacking LLM-Empowered Recommender Systems via LLM Agent](https://arxiv.org/abs/2504.13192)
+- [Attack Prompt Generation for Red Teaming and Defending Large Language Models](https://arxiv.org/abs/2310.12505)
+
+- [ASETF: A Novel Method for Jailbreak Attack on LLMs through Translate Suffix Embeddings](https://arxiv.org/abs/2402.16006)
+- [Play Guessing Game with LLM: Indirect Jailbreak Attack with Implicit Clues](https://aclanthology.org/2024.findings-acl.304/)
+- [Learn to Disguise: Avoid Refusal Responses in LLM’s Defense via a Multi-Agent Attacker-Disguiser Game](https://arxiv.org/abs/2404.02532)
+- [Open Sesame! Universal Black-Box Jailbreaking of Large Language Models](https://arxiv.org/abs/2309.01446)
+
+- [Large Language Models Based Fuzzing Techniques: A Survey](https://arxiv.org/abs/2402.00350)
+- [Fuzz4All: Universal Fuzzing with LLMs](https://arxiv.org/abs/2308.04748)
+- [LLMFuzzer: Fuzzing Framework for Large Language Models](https://github.com/mnns/LLMFuzzer)
+- [FuzzyAI Fuzzer – Automated LLM Fuzzing](https://github.com/cyberark/FuzzyAI)
+- [ChatAFL: Protocol Fuzzing Guided by LLMs](https://github.com/ChatAFLndss/ChatAFL)
+- [OSS-Fuzz-Gen: LLM-Based Fuzz Target Generation](https://github.com/google/oss-fuzz-gen)
+- [AI-Powered Fuzzing: Breaking the Bug Hunting Barrier](https://security.googleblog.com/2023/08/ai-powered-fuzzing-breaking-bug-hunting.html)
+- [Evaluating Large Language Models for Enhanced Fuzzing](https://ieeexplore.ieee.org/document/10731701)
+- [Prompt Injection Resources 2026](prompt-dialogue/prompt-injection-resources-2026.md)
+
+

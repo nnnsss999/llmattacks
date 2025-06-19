@@ -77,6 +77,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `function-routing-jailbreak.html` — abuse of function-calling routing
 
 ### latent-space/
+- `latent-space-attack-resources.md` — curated latent space references
 - `apexhq-latentspace.html` — attack on latent representations
 - `obfuscated-activations.html` — obfuscating activations during alignment
 
@@ -97,6 +98,9 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `jbfuzz.html` — fuzzing prompts with jbfuzz
 - `obscureprompt.html` — optimization technique for hidden prompts
 - `promptfuzz.html` — automated prompt fuzzing
+- `projected-gradient-descent-attack.md` — PGD-based jailbreaks
+- `tag-gradient-attack.md` — early gradient attack on transformers
+- `gradient-based-adversarial-transformers.md` — adversarial distribution search
 
 ### prompt-dialogue/
 - `gpt4v-safe.html` — safe multimodal prompt
@@ -131,6 +135,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `pico.md` — description of PICO data poisoning
 - `reinforcement-learning-alignment-attacks.md` — RL alignment attack taxonomy
 - `reverse-preference-attack.html` — deep dive on reverse preference attacks
+- `gradient-hacking.md` — discussion of gradient manipulation threats
 
 ### data-poisoning/
 - `index.md` — overview of data poisoning attacks

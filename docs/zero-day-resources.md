@@ -62,3 +62,10 @@ The references below document newly disclosed or proof-of-concept zero-day vulne
 - [NVD - CVE-2025-37899 Remote Zeroday in Linux SMB Kernel](https://nvd.nist.gov/vuln/detail/CVE-2025-37899)
 - [Nvidia Patches Vulnerabilities That Could Let Hackers Exploit AI Services](https://www.securityweek.com/nvidia-riva-vulnerabilities-allow-unauthorized-use-of-ai-services/)
 - [Microsoft Offers $10,000 Bounty for Prompt Injection Bugs in LLM Email Client](https://www.securityweek.com/microsoft-bets-10000-on-prompt-injection-protections-of-llm-email-client/)
+- [Hackers Use Generative AI to Find Zero-Day Vulnerabilities](https://www.darkreading.com/cybersecurity-operations/artificial-intelligence/hackers-use-generative-ai-to-find-zero-day-vulnerabilities)
+- [AI-based Vulnerability Fuzzer Discovers Critical Zero-Day](https://www.securityweek.com/ai-based-vulnerability-fuzzer-discovers-critical-zero-day/)
+- [Zero-Day AI Exploit Hits Popular LLM Framework](https://www.theregister.com/2025/03/10/llm_framework_zero_day/)
+- [How AI Discovered a Zero-Day Exploit](https://www.wired.com/story/ai-zero-day-exploit-discovery/)
+- [AI Fuzzers Discover Critical Zero-Day Vulnerability](https://arstechnica.com/information-technology/2025/02/ai-fuzzers-discover-critical-zero-day-vulnerability/)
+- [AI Discovers Zero-Day in Web-Based LLM](https://www.scmagazine.com/news/ai-discovers-zero-day-in-web-llm)
+
