@@ -18,7 +18,10 @@ from pdfminer.high_level import extract_text_to_fp
 
 DOCS_DIR = Path(__file__).resolve().parents[1] / "docs"
 URLS_FILE = DOCS_DIR / "urls.md"
-OUTPUT_DIR = Path(__file__).resolve().parents[1] / "extractions1"
+OUTPUT_DIR = Path(__file__).resolve().parents[1] / "@extractions1"
+# Folder from previous extraction runs. Used to avoid re-downloading content
+# that was already processed before starting from scratch.
+LEGACY_DIR = Path(__file__).resolve().parents[1] / "extractions1"
 LOG_FILE = OUTPUT_DIR / "extraction_log.json"
 
 
@@ -51,7 +54,11 @@ def parse_front_matter(path: Path) -> dict | None:
 def build_existing_map() -> Dict[str, str]:
     """Return a map of source_url -> relative markdown path."""
     mapping: Dict[str, str] = {}
-    for base, prefix in [(DOCS_DIR, "docs"), (OUTPUT_DIR, "extractions1")]:
+    for base, prefix in [
+        (DOCS_DIR, "docs"),
+        (OUTPUT_DIR, "@extractions1"),
+        (LEGACY_DIR, "extractions1"),
+    ]:
         if not base.exists():
             continue
         for path in base.rglob("*.md"):

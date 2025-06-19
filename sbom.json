@@ -471,6 +471,33 @@
     },
     {
       "type": "file",
+      "name": "latent-space/latent-space-attack-resources.md",
+      "bom-ref": "latent-space/latent-space-attack-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Latent Space Attack Resources"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "llm-attack-catalog.md",
       "bom-ref": "llm-attack-catalog.md"
     },
@@ -616,6 +643,33 @@
     },
     {
       "type": "file",
+      "name": "token-level/additional-token-level-resources.md",
+      "bom-ref": "token-level/additional-token-level-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Token-Level Attack Resources"
+        },
+        {
+          "name": "category",
+          "value": "Tokenization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "training-alignment/index.md",
       "bom-ref": "training-alignment/index.md",
       "properties": [
@@ -704,6 +758,33 @@
       "type": "file",
       "name": "urls.md",
       "bom-ref": "urls.md"
+    },
+    {
+      "type": "file",
+      "name": "zero-day-resources.md",
+      "bom-ref": "zero-day-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Zero-Day Vulnerabilities in LLMs"
+        },
+        {
+          "name": "category",
+          "value": "Zero-Day"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
     }
   ]
 }

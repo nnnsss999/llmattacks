@@ -77,6 +77,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `function-routing-jailbreak.html` — abuse of function-calling routing
 
 ### latent-space/
+- `latent-space-attack-resources.md` — curated latent space references
 - `apexhq-latentspace.html` — attack on latent representations
 - `obfuscated-activations.html` — obfuscating activations during alignment
 
@@ -97,6 +98,9 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `jbfuzz.html` — fuzzing prompts with jbfuzz
 - `obscureprompt.html` — optimization technique for hidden prompts
 - `promptfuzz.html` — automated prompt fuzzing
+- `projected-gradient-descent-attack.md` — PGD-based jailbreaks
+- `tag-gradient-attack.md` — early gradient attack on transformers
+- `gradient-based-adversarial-transformers.md` — adversarial distribution search
 
 ### prompt-dialogue/
 - `gpt4v-safe.html` — safe multimodal prompt
@@ -131,6 +135,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `pico.md` — description of PICO data poisoning
 - `reinforcement-learning-alignment-attacks.md` — RL alignment attack taxonomy
 - `reverse-preference-attack.html` — deep dive on reverse preference attacks
+- `gradient-hacking.md` — discussion of gradient manipulation threats
 
 ### data-poisoning/
 - `index.md` — overview of data poisoning attacks
@@ -165,6 +170,11 @@ Temporary holding area for URL extractions.
 - `.gitkeep` — placeholder so the directory remains tracked
 - `extraction_log.json` — mapping of archived URLs to hashed files
 - `*.md` — hashed Markdown snapshots of the linked pages
+
+## @extractions1/
+Legacy output folder produced by an earlier version of `extract_urls.py`.
+- `extraction_log.json` — log mapping a single demo URL to `e36fd18630.md`
+- `e36fd18630.md` — example Markdown snapshot of the OpenWebText Corpus page
 
 ## scripts/
 Utility scripts for building and checking the catalog.

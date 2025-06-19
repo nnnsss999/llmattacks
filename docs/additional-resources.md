@@ -46,6 +46,11 @@ Below is a curated set of external articles, blog posts and reports that further
 - [VulnHuntr: Zero Shot Vulnerability Discovery Using LLMs](https://github.com/protectai/vulnhuntr)
 - [LLM Embedding Attack Repository](https://github.com/SchwinnL/LLM_Embedding_Attack)
 
+- [Attacking Large Language Models with Projected Gradient Descent](https://arxiv.org/abs/2402.09154)
+- [TAG: Gradient Attack on Transformer-based Language Models](https://aclanthology.org/2021.findings-emnlp.305/)
+- [Gradient-based Adversarial Attacks against Text Transformers](https://blogs.night-wolf.io/gradient-based-adversarial-attacks-against-text-transformers)
+- [Uncovering Gradient Inversion Risks in Practical Language Model Training](https://dl.acm.org/doi/abs/10.1145/3658644.3690292)
+
 Additional references collected after the original snapshot:
 
 - [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/)
@@ -72,7 +77,51 @@ Additional references collected after the original snapshot:
 - [STEGOSAURUS-WRECKS Prompt Obfuscation](https://github.com/elder-plinius/STEGOSAURUS-WRECKS)
 - [ChatGPT AutoExpert System Prompts](https://github.com/spdustin/ChatGPT-AutoExpert/blob/main/System%20Prompts.md#behind-the-scenes)
 
-These references track emerging threats and defence research through 2025 and are regularly reviewed for new developments.
+These references track emerging threats and defence research through 2026 and are regularly reviewed for new developments.
 - [Vulnhuntr: Autonomous AI Finds First 0-Day Vulnerabilities in Wild](https://protectai.com/threat-research/vulnhuntr-first-0-day-vulnerabilities)
 - [Using Generative AI LLM agents to exploit zero-day vulnerabilities](https://www.cybercareers.blog/2024/07/using-generative-ai-llm-agents-to-exploit-zero-day-vulnerabilities/)
+
+- [LLM Security Playbook for AI Injection Attacks, Data Leaks, and Model Theft](https://konghq.com/blog/enterprise/llm-security-playbook-for-injection-attacks-data-leaks-model-theft)
+- [LLM Security: Protect Models from Attacks & Vulnerabilities](https://blog.qualys.com/product-tech/2025/02/07/llm-security-101-protecting-large-language-models-from-cyber-threats)
+- [Commercial LLM Agents Are Already Vulnerable to Simple Yet Dangerous Attacks](https://arxiv.org/abs/2502.08586)
+- [LLM Security](https://llmsecurity.net/)
+- [Practical Attacks on LLMs: Full Guide](https://iterasec.com/blog/practical-attacks-on-llms/)
+- [OWASP's LLM and Gen AI Data Security Best Practices](https://genai.owasp.org/resource/llm-and-gen-ai-data-security-best-practices/)
+- [Addressing LLM02:2025 Sensitive Information Disclosure Risks](https://www.securityium.com/addressing-llm022025-sensitive-information-disclosure-risks/)
+- [LLM Prompt Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html)
+- [How to Protect Your Organization from LLM Attacks](https://op-c.net/blog/how-to-protect-your-organization-from-llm-attacks/)
+- [Universal and Transferable Attacks on Aligned Language Models](https://llm-attacks.org/)
+- [MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots](https://www.ndss-symposium.org/ndss-paper/masterkey-automated-jailbreaking-of-large-language-model-chatbots/)
+- [Prompt Injection Attacks on LLMs - HiddenLayer](https://hiddenlayer.com/innovation-hub/prompt-injection-attacks-on-llms/)
+- [Recent Advances in Attack and Defense Approaches of Large Language Models](https://arxiv.org/abs/2409.03274)
+- [GitHub Repository: llm-attacks/llm-attacks](https://github.com/llm-attacks/llm-attacks)
+- [Meta's Llama Framework Flaw Exposes AI Systems to Remote Code Execution](https://thehackernews.com/2025/01/metas-llama-framework-flaw-exposes-ai.html)
+- [Top 10 Most Common LLM Attack Techniques | Elastic](https://www.elastic.co/security/llm-safety-report)
+- [OWASP Top 10 LLM, Updated 2025: Examples & Mitigation Strategies](https://www.oligo.security/academy/owasp-top-10-llm-updated-2025-examples-and-mitigation-strategies)
+- [Is Your Prompt Safe? Investigating Prompt Injection Attacks Against Open-Source LLMs](https://arxiv.org/abs/2505.14368)
+- [Goal-Oriented Prompt Attack and Safety Evaluation for LLMs](https://arxiv.org/abs/2309.11830)
+- [Large Language Models Merging for Enhancing the Link Stealing Attack on Graph Neural Networks](https://arxiv.org/abs/2412.05830)
+- [System Prompt Extraction Attacks and Defenses in Large Language Models](https://arxiv.org/abs/2505.23817)
+- [Bag of Tricks: Benchmarking of Jailbreak Attacks on LLMs](https://arxiv.org/abs/2406.09324)
+- [A Survey of Attacks on Large Language Models](https://arxiv.org/abs/2505.12567)
+- [Leveraging the Context through Multi-Round Interactions for Jailbreaking Attacks](https://arxiv.org/abs/2402.09177)
+- [Is LLM-as-a-Judge Robust? Investigating Universal Adversarial Attacks on Zero-shot LLM Assessment](https://arxiv.org/abs/2402.14016)
+- [CheatAgent: Attacking LLM-Empowered Recommender Systems via LLM Agent](https://arxiv.org/abs/2504.13192)
+- [Attack Prompt Generation for Red Teaming and Defending Large Language Models](https://arxiv.org/abs/2310.12505)
+
+- [ASETF: A Novel Method for Jailbreak Attack on LLMs through Translate Suffix Embeddings](https://arxiv.org/abs/2402.16006)
+- [Play Guessing Game with LLM: Indirect Jailbreak Attack with Implicit Clues](https://aclanthology.org/2024.findings-acl.304/)
+- [Learn to Disguise: Avoid Refusal Responses in LLM’s Defense via a Multi-Agent Attacker-Disguiser Game](https://arxiv.org/abs/2404.02532)
+- [Open Sesame! Universal Black-Box Jailbreaking of Large Language Models](https://arxiv.org/abs/2309.01446)
+
+- [Large Language Models Based Fuzzing Techniques: A Survey](https://arxiv.org/abs/2402.00350)
+- [Fuzz4All: Universal Fuzzing with LLMs](https://arxiv.org/abs/2308.04748)
+- [LLMFuzzer: Fuzzing Framework for Large Language Models](https://github.com/mnns/LLMFuzzer)
+- [FuzzyAI Fuzzer – Automated LLM Fuzzing](https://github.com/cyberark/FuzzyAI)
+- [ChatAFL: Protocol Fuzzing Guided by LLMs](https://github.com/ChatAFLndss/ChatAFL)
+- [OSS-Fuzz-Gen: LLM-Based Fuzz Target Generation](https://github.com/google/oss-fuzz-gen)
+- [AI-Powered Fuzzing: Breaking the Bug Hunting Barrier](https://security.googleblog.com/2023/08/ai-powered-fuzzing-breaking-bug-hunting.html)
+- [Evaluating Large Language Models for Enhanced Fuzzing](https://ieeexplore.ieee.org/document/10731701)
+- [Prompt Injection Resources 2026](prompt-dialogue/prompt-injection-resources-2026.md)
+
 
