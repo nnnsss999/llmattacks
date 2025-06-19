@@ -87,3 +87,5 @@ docs/function-calling/function-calling-exploit-resources.md
 docs/latent-space/attention-hijacking-resources.md
 docs/optimization/evolutionary-algorithm-attacks.md
 docs/prompt-dialogue/prompt-engineering-resources-2028.md
+docs/prompt-dialogue/prompt-engineering-resources-2029.md
+docs/prompt-dialogue/prompt-engineering-resources-2030.md
