@@ -107,6 +107,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `tag-gradient-attack.md` — early gradient attack on transformers
 - `gradient-based-adversarial-transformers.md` — adversarial distribution search
 - `gradient-resources-2026.md` — additional gradient-based jailbreak research
+- `gradient-resources-2027.md` — further gradient-based jailbreak references
 
 ### prompt-dialogue/
 - `gpt4v-safe.html` — safe multimodal prompt
