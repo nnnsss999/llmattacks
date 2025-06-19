@@ -38,6 +38,10 @@ can misuse this to guide the model toward unsafe content.
 An attack that abuses function-calling interfaces to break out of restricted
 execution paths and obtain unintended model responses.
 
+### FETA
+A defence strategy that leverages translated suffix embeddings to mask or
+rewrite prompts, making it harder for attackers to trigger a jailbreak.
+
 ### Gradient Leakage
 The unintended exposure of gradient information during model fine-tuning or
 inference, which can reveal training data or enable model extraction.
