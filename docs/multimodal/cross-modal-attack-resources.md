@@ -21,3 +21,8 @@ Below is a curated list of papers, tutorials, and repositories that document how
 - [Awesome-LVLM-Attack Repository](https://github.com/liudaizong/Awesome-LVLM-Attack)
 - [Awesome-Multimodal-Jailbreak Repository](https://github.com/liuxuannan/Awesome-Multimodal-Jailbreak)
 
+
+- [Efficient Indirect LLM Jailbreak via Multimodal-LLM Jailbreak](https://arxiv.org/abs/2405.20015)
+- [Red Teaming GPT-4V: Are GPT-4V Safe Against Uni/Multi-Modal Jailbreak Attacks?](https://arxiv.org/abs/2404.03411)
+- [SASP: Self-Adversarial Attack via System Prompt](../prompt-dialogue/sasp-jailbreak.html)
+- [From LLMs to MLLMs: Exploring the Landscape of Multimodal Jailbreaking](https://arxiv.org/abs/2406.14859)
