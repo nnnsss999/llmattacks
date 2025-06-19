@@ -16,6 +16,16 @@ The following articles and blog posts provide deeper insight into prompt enginee
 - [Microsoft Security Blog: Prompt Injection Vulnerabilities in AI](https://www.microsoft.com/en-us/security/blog/2024/05/10/prompt-injection-vulnerabilities-ai/)
 - [Snyk Blog: Prompt Injection in AI Security](https://snyk.io/blog/prompt-injection-ai-security/)
 - [Cloudflare Learning: Prompt Injection](https://www.cloudflare.com/learning/security/prompt-injection/)
+- [Adversarial Prompting in LLMs | Prompt Engineering Guide](https://www.promptingguide.ai/risks/adversarial)
+- [IBM: What Is a Prompt Injection Attack?](https://www.ibm.com/think/topics/prompt-injection)
+- [Common Prompt Injection Attacks - AWS Prescriptive Guidance](https://docs.aws.amazon.com/prescriptive-guidance/latest/llm-prompt-engineering-best-practices/common-attacks.html)
+- [Prompt Injection Attacks (NCC Group)](https://www.nccgroup.com/uk/about-us/newsroom-and-events/blogs/2024/april/prompt-injection-attacks/)
+- [CWE-1389: AI Prompt Injection Bypass](https://cwe.mitre.org/data/definitions/1389.html)
+- [New Prompt Injection Technique Hijacks ChatGPT Conversations](https://www.bleepingcomputer.com/news/security/new-prompt-injection-technique-lets-attackers-hijack-chatgpt-conversations/)
+- [Prompt Injection Attacks on ChatGPT (Praetorian)](https://www.praetorian.com/blog/prompt-injection-attacks-on-chatgpt/)
+- [Prompt Injection Exposed (The Hacker News)](https://thehackernews.com/2023/12/prompt-injection-exposed.html)
+- [What is Prompt Injection? (Check Point)](https://blog.checkpoint.com/2024/05/14/what-is-prompt-injection/)
+- [Introducing a Taxonomy of Adversarial Prompt Engineering](https://hiddenlayer.com/innovation-hub/introducing-a-taxonomy-of-adversarial-prompt-engineering/)
 - [Jailbreaking Generative AI](https://unit42.paloaltonetworks.com/jailbreaking-generative-ai/)
 
 These sources present a mix of defensive guidelines, case studies, and historical context, helping defenders stay current with rapidly evolving prompt engineering threats.
