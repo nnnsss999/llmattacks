@@ -34,6 +34,11 @@ models when appended to inputs.
 A prompting approach that requests the model to reason step by step. Attackers
 can misuse this to guide the model toward unsafe content.
 
+### Embedding Inversion
+Techniques that reconstruct input text from embedding vectors or APIs,
+potentially leaking private training data. Variants include
+**Cross-Lingual Embedding Inversion** and **Text Embedding Inversion**.
+
 ### Function Routing Jailbreak
 An attack that abuses function-calling interfaces to break out of restricted
 execution paths and obtain unintended model responses.
@@ -58,6 +63,10 @@ training by analysing outputs or gradients.
 Targeted poisoning of the training process that manipulates the internal
 mechanisms of a model rather than just its outputs.
 
+### MkDocs
+Static site generator used to build the searchable documentation
+website from the Markdown files in this repository.
+
 ### PoisonedRAG
 Retrieval-Augmented Generation systems can be subverted when their external
 knowledge source is poisoned with crafted documents that alter generation
@@ -70,6 +79,10 @@ away from its safety alignment.
 ### Sleeper Agent
 A model trained to behave normally until triggered by a specific cue, at which
 point it performs malicious actions.
+
+### SBOM
+A Software Bill of Materials, such as the CycloneDX file in this repository,
+enumerates all source files and their metadata for supply‑chain auditing.
 
 ### Timing Side-Channel
 Extracting information about hidden prompts or model states by measuring
@@ -176,6 +189,10 @@ hide malicious instructions.
 Systematic prompt fuzzing aimed at exposing unsafe completions and injection
 vectors.
 
+### Pre-commit
+Framework that runs linting and validation hooks before each commit to
+ensure consistent formatting and metadata.
+
 ### GPT-4V Safety
 Research evaluating whether multimodal GPT‑4V models resist combined text and
 image-based jailbreaks.
@@ -203,6 +220,10 @@ they bypass alignment safeguards.
 ### Wired Robot Violence
 A Wired magazine case study describing how autonomous robots can be directed to
 cause physical harm when driven by unsafe prompts.
+
+### Wayback Machine
+An internet archive used by `refresh_links.py` to store snapshots of
+external URLs referenced in the catalog.
 
 ### Social Engineering
 Using human manipulation techniques—such as persuasion or impersonation—to

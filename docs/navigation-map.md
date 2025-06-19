@@ -44,6 +44,13 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `feta.html` — FETA defence strategy
 - `rapid-response.html` — rapid defence response overview
 
+### embedding/
+- `index.md` — overview of embedding inversion threats
+- `arxiv-embedding-inversion.html` — research on embedding inversion
+- `crosslingual-inversion-2505.16008.html` — cross-lingual inversion case study
+- `extracting-training-data-2012.07805.html` — extracting training data from embedding models
+- `text-embedding-inversion-2401.12192.html` — text embedding inversion methods
+
 ### emerging/
 - `byte-level-universal-triggers-arxiv.html` — research on universal byte triggers
 - `venturebeat-diffusion-backdoor.html` — diffusion model backdoor story
@@ -134,6 +141,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `glossary.md` — definitions of common terms across the catalog
 - `navigation-map.md` — this file describing all repository contents
 - `urls.md` — list of referenced URLs used for analysis
+- `llm-attack-catalog.md` — printable markdown version of the master catalog
 
 ## original/
 Original sources of the catalog in PDF and Markdown.
