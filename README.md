@@ -60,6 +60,12 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 - `.pre-commit-config.yaml` – pre‑commit hooks (markdownlint v0.38.0,
   codespell v2.4.1 and custom validators).
 - `mkdocs.yml` – configuration for building the documentation website with **MkDocs Material** and the Mermaid2 plugin enabled.
+- `docs/urls.md` – list of resources not yet converted.
+- `docs/pdf-extract.md` – text extracted from the catalog PDF.
+- `CONTRIBUTING.md` – workflow and style guide.
+- `LICENSE` – Creative Commons Attribution 4.0 license text.
+- `.gitignore` – patterns for untracked files.
+- `README.md` – repository overview.
 
 ## Using This Repository
 
