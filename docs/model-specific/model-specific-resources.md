@@ -58,3 +58,8 @@ This page lists additional academic papers and reports focusing on attacks or de
 - [Doppelgänger Method: Breaking Role Consistency in LLM Agent via Prompt-based Transferable Adversarial Attack](https://arxiv.org/abs/2506.14539)
 - [LingoLoop Attack: Trapping MLLMs via Linguistic Context and State Entrapment into Endless Loops](https://arxiv.org/abs/2506.14493)
 - [Excessive Reasoning Attack on Reasoning LLMs](https://arxiv.org/abs/2506.14374)
+- [Finetuning-Activated Backdoors in LLMs](https://www.sri.inf.ethz.ch/publications/gloaguen2025finetuning)
+- [ALGEN: Few-shot Inversion Attacks on Textual Embeddings using Alignment](https://vbn.aau.dk/en/publications/algen-few-shot-inversion-attacks-on-textual-embeddings-using-alig)
+- [Mitigating Privacy Risks in LLM Embeddings from Embedding Inversion](https://arxiv.org/abs/2411.05034)
+- [Gradient Inversion Transcript: Leveraging Robust Generative Priors to Reconstruct Training Data from Gradient Leakage](https://arxiv.org/abs/2505.20026)
+- [An Inversion Attack Against Obfuscated Embedding Matrix in Language Models](https://aclanthology.org/2024.emnlp-main.126/)
