@@ -76,5 +76,38 @@
   },
   "https://www.securityweek.com/echoleak-ai-attack-enabled-theft-of-sensitive-data-via-microsoft-365-copilot/": {
     "snapshot": "https://web.archive.org/web/20250618/securityweek-echoleak"
+  },
+  "https://www.oligo.security/academy/owasp-top-10-llm-updated-2025-examples-and-mitigation-strategies": {
+    "snapshot": "https://web.archive.org/web/20250618/oligo-owasp"
+  },
+  "https://arxiv.org/abs/2505.14368": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv250514368"
+  },
+  "https://arxiv.org/abs/2309.11830": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv230911830"
+  },
+  "https://arxiv.org/abs/2412.05830": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv241205830"
+  },
+  "https://arxiv.org/abs/2505.23817": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv250523817"
+  },
+  "https://arxiv.org/abs/2406.09324": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv240609324"
+  },
+  "https://arxiv.org/abs/2505.12567": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv250512567"
+  },
+  "https://arxiv.org/abs/2402.09177": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv240209177"
+  },
+  "https://arxiv.org/abs/2402.14016": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv240214016"
+  },
+  "https://arxiv.org/abs/2504.13192": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv250413192"
+  },
+  "https://arxiv.org/abs/2310.12505": {
+    "snapshot": "https://web.archive.org/web/20250618/arxiv231012505"
   }
 }

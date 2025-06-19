@@ -15,11 +15,12 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 ## Documentation Timeline
 
 - All documentation files under `docs/` include YAML front matter with a `date_collected` of **2025-06-18**, marking the snapshot used to build the catalog. Later commits refine tooling and link archives, but the documentation content reflects that 2025-06-18 snapshot.
-- The `@extractions1/` directory contains automatically converted sources gathered on **2025-06-19**. These drafts are queued for future integration into the main catalog.
+ - The `@extractions1/` directory holds **55** markdown drafts automatically converted on **2025-06-19**. These drafts are queued for future integration into the main catalog.
+- The repository was initially committed on **2025-06-18**, establishing the baseline snapshot.
 
 ## Repository Structure
 - `docs/` – canonical Markdown and HTML articles grouped into subfolders:
-`agentic/`, `data-poisoning/`, `defenses/`, `emerging/`, `evaluation/`,
+`agentic/`, `data-poisoning/`, `defenses/`, `emerging/`, `evaluation/`, `fuzzing/`,
   `embedding/`, `inference/`, `insecure-output/`, `latent-space/`,
   `linguistic-manipulation/`, `multimodal/`, `optimization/`,
   `prompt-dialogue/`, `rag/`, `social-engineering/`, `supply-chain/`,
@@ -27,9 +28,8 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 - `original/` – the original PDF and Markdown source for the catalog,
   including `Comprehensive Catalog of LLM Jailbreaking and Attack Techniques.md`
   and the matching `.pdf`.
-- `pdfs/` – a local cache of PDFs; see `pdfs/README.md` for details.
-  Cached filenames use a SHA‑256 hash of the source URL.
-- `@extractions1/` – outputs from `extract_urls.py` for future catalog entries. Hashed filenames use the first 10 characters of a SHA‑256 digest.
+- `pdfs/` – a local cache of PDFs; see `pdfs/README.md` for details. Cached filenames use a SHA-256 hash of the source URL and `metadata.json` tracks PDFs that cannot be redistributed.
+- `@extractions1/` – outputs from `extract_urls.py` for future catalog entries (hashed filenames use the first 10 characters of a SHA‑256 digest). A legacy copy lives in `extractions1/`.
   - `.gitkeep` – placeholder to keep the folder under version control.
 - `scripts/` – utility Python scripts including:
   - `build_index.py` to generate `index.json`
@@ -43,7 +43,7 @@ A searchable website built with **MkDocs Material** is automatically deployed to
   - `rename.py` to enforce kebab-case filenames
 - `tests/` – unit tests (`test_link_check.py` and `test_sbom.py`) validating the helper scripts.
 - `docs_files.txt` – manifest listing every document archived in this
-  repository (64 entries).
+  repository (70 entries).
 - `all_files.txt` – complete inventory of every file tracked in the repository.
 - `requirements.txt` – Python dependencies (`requests`, `markdownify`, `pdfminer.six`, `PyYAML`) used by the helper scripts.
 - `llm-attack-catalog.md` – printable version of the master catalog inside `docs/`.
@@ -77,15 +77,14 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 
 ## Repository Statistics
 
-- The `docs/` folder contains **18** themed subdirectories with a total of **78** documents (31 Markdown and 47 HTML).
-- `docs_files.txt` lists **64** canonical entries used to build the site.
+- The `docs/` folder contains **19** themed subdirectories with a total of **89** documents (42 Markdown and 47 HTML).
+- `docs_files.txt` lists **70** canonical entries used to build the site.
 - `all_files.txt` inventories **131** tracked files across the repository.
 - GitHub Actions run on **Python 3.10** and **Node 18**, while pre‑commit hooks
   pin markdownlint **v0.38.0** and codespell **v2.4.1**.
 - `sbom.json` follows the **CycloneDX&nbsp;1.5** specification for reproducible
   metadata.
-- `extractions1/` contains **205** markdown drafts plus `extraction_log.json`,
-  representing sources automatically gathered on **2025-06-19**.
+- `extractions1/` contains **255** markdown drafts plus `extraction_log.json`, representing sources automatically gathered on **2025-06-19**. This folder mirrors `@extractions1/` but preserves earlier naming conventions.
 
 ## Using This Repository
 
