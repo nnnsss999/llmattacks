@@ -130,6 +130,26 @@ Additional recent studies demonstrate how RL-based fuzzers can automate discover
   [RAT: Reinforcement-Learning-Driven and Adaptive Testing for Vulnerability Discovery in Web Application Firewalls](https://ieeexplore.ieee.org/abstract/document/9477095).
 - **AutoAttacker** – RL-based black-box adversarial example discovery.
   [AutoAttacker: A Reinforcement Learning Approach for Black-Box Adversarial Attacks](https://ieeexplore.ieee.org/abstract/document/8802476).
+- **Adaptive RL Fuzzer for 5G RRC** – reinforcement learning fuzzing of 5G radio
+  resource control protocols.
+  [Adaptive Reinforcement Learning-Based Fuzzer for 5G RRC Security Evaluation](https://vtechworks.lib.vt.edu/items/0189ff6d-bc89-46a9-ad24-49f5b5029c5f).
+- **DQN Threat Modeling** – deep Q-network approach to model attack behavior.
+  [A Reinforcement Learning Approach to Cybersecurity: Deep Q-Networks for Threat Modeling](https://ieeexplore.ieee.org/abstract/document/10968270).
+- **RL Attack Stealth via Knowledge Transfer** – evaluates stealthy RL-based
+  attacks under varying scenarios.
+  [Evaluating the Stealth of Reinforcement Learning-Based Cyber Attacks Against Unknown Scenarios Using Knowledge Transfer Techniques](https://journals.sagepub.com/doi/abs/10.3233/JCS-230145).
+- **Survey of LLM Attack Agents** – overview of RL-driven LLM agents for
+  autonomous cyberattacks.
+  [Forewarned is Forearmed: A Survey on Large Language Model-based Agents in Autonomous Cyberattacks](https://arxiv.org/abs/2505.12786).
+- **Automated Penetration Testing with RL** – uses reinforcement learning to
+  design efficient penetration tests.
+  [Automated Penetration Testing Through Reinforcement Learning](https://www.igi-global.com/chapter/automated-penetration-testing-through-reinforcement-learning/380301).
+- **Recommender-Assisted RL Pentesting** – combines recommender systems and RL
+  for autonomous penetration testing.
+  [Analysis of Autonomous Penetration Testing Through Reinforcement Learning and Recommender Systems](https://www.mdpi.com/1424-8220/25/1/211).
+- **Multi-Level Input Mutation** – coverage-guided fuzzing with deep RL
+  mutations.
+  [A Coverage-guided Fuzzing Method for Automatic Software Vulnerability Detection Using Reinforcement Learning-enabled Multi-Level Input Mutation](https://ieeexplore.ieee.org/abstract/document/10580893).
 
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine
