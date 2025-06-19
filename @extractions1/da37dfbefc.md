@@ -1,0 +1,101 @@
+---
+title: https://api.whatsapp.com/send?text=
+source_url: https://api.whatsapp.com/send?text=
+date_collected: '2025-06-19'
+license: Fair Use
+---
+
+Share on WhatsApp
+
+[Skip to content](#content-wrapper)
+
+* [Home](https://www.whatsapp.com/)
+* + ### Features
+
+    [Message privately](https://www.whatsapp.com/privacy)[Stay connected](https://www.whatsapp.com/stayconnected)[Connect in groups](https://www.whatsapp.com/groups)[Express yourself](https://www.whatsapp.com/expressyourself)[Secure by design](https://www.whatsapp.com/security)[Share your everyday](https://www.whatsapp.com/status)[Follow channels](https://www.whatsapp.com/channels)
+* [Privacy](https://www.whatsapp.com/privacy)
+* [Help Center](https://faq.whatsapp.com/)
+* [Blog](https://blog.whatsapp.com/)
+* [For Business](https://business.whatsapp.com/)
+* [Download](https://whatsapp.com/download)
+
+[Download](https://www.whatsapp.com/dl)
+
+[Terms & Privacy Policy](https://www.whatsapp.com/legal/)2025 © WhatsApp LLC
+
+AzərbaycanAfrikaansBahasa IndonesiaMelayuCatalàčeštinaDanskDeutschEestiEnglishEspañolFrançaisGaeilgeHrvatskiItalianoKiswahiliLatviešuLietuviųMagyarNederlandsNorsk bokmålO‘zbekFilipinoPolskiPortuguês (Brasil)Português (Portugal)RomânăShqipSlovenčinaSlovenščinaSuomiSvenskaTiếng ViệtTürkçeΕλληνικάбългарскиқазақ тілімакедонскирусскийсрпскиукраїнськаעבריתالعربيةفارسیاردوবাংলাहिन्दीગુજરાતીಕನ್ನಡमराठीਪੰਜਾਬੀதமிழ்తెలుగుമലയാളംไทย简体中文繁體中文（台灣）繁體中文（香港）日本語한국어azərbaycanAfrikaansBahasa IndonesiaMelayucatalàčeštinadanskDeutscheestiEnglishespañolfrançaisGaeilgehrvatskiitalianoKiswahililatviešulietuviųmagyarNederlandsnorsk bokmålo‘zbekFilipinopolskiPortuguês (Brasil)Português (Portugal)românăshqipslovenčinaslovenščinasuomisvenskaTiếng ViệtTürkçeΕλληνικάбългарскиқазақ тілімакедонскирусскийсрпскиукраїнськаעבריתالعربيةفارسیاردوবাংলাहिन्दीગુજરાતીಕನ್ನಡमराठीਪੰਜਾਬੀதமிழ்తెలుగుമലയാളംไทย简体中文繁體中文（台灣）繁體中文（香港）日本語한국어
+
+[![WhatsApp Main Page](https://static.whatsapp.net/rsrc.php/v4/yq/r/mdQNdcFMi0p.png)](https://www.whatsapp.com/)[![WhatsApp Main Page](https://static.whatsapp.net/rsrc.php/yZ/r/JvsnINJ2CZv.svg)](https://www.whatsapp.com/)
+
+* Features
+
+  + [##### Message privately
+
+    End-to-end encryption and privacy controls.](https://www.whatsapp.com/privacy)
+  + [##### Stay connected
+
+    Message and call for free\* around the world.](https://www.whatsapp.com/stayconnected)
+  + [##### Connect in groups
+
+    Group messaging made easy.](https://www.whatsapp.com/groups)
+  + [##### Express yourself
+
+    Say it with stickers, voice, GIFs and more.](https://www.whatsapp.com/expressyourself)
+  + [##### Secure by design
+
+    Layers of protection to help you stay safe.](https://www.whatsapp.com/security)
+  + [##### Share your everyday
+
+    Share photos, videos, voice notes on Status.](https://www.whatsapp.com/status)
+  + [##### Follow channels
+
+    Stay updated on topics you care about.](https://www.whatsapp.com/channels)
+* [Privacy](https://www.whatsapp.com/privacy)
+* [Help Center](https://faq.whatsapp.com/)
+* [Blog](https://blog.whatsapp.com/)
+* [For Business](https://business.whatsapp.com/)
+* [Apps](https://www.whatsapp.com/download)
+
+[Download](https://www.whatsapp.com/dl)
+
+## This link is incorrect. Close this window and try a different link.
+
+---
+
+#### Don't have WhatsApp yet?
+
+#### [Download](https://www.whatsapp.com/dl?wame_funnel=1)
+
+### Looks like you don't have WhatsApp installed!
+
+[Download](https://www.whatsapp.com/dl?wame_funnel=1)
+
+[Download](https://www.whatsapp.com/dl)
+
+[![WhatsApp Main Logo](https://static.whatsapp.net/rsrc.php/ya/r/GjxmhIpug9B.svg)](https://www.whatsapp.com/)
+
+[![WhatsApp Main Logo](https://static.whatsapp.net/rsrc.php/yA/r/hbGnlm1gXME.svg)](https://www.whatsapp.com/)[Download](https://www.whatsapp.com/dl)
+
+#### What we do
+
+[Features](https://www.whatsapp.com/stayconnected)[Blog](https://blog.whatsapp.com/)[Security](https://www.whatsapp.com/security)[For Business](https://business.whatsapp.com/)
+
+#### Who we are
+
+[About us](https://www.whatsapp.com/about)[Careers](https://www.whatsapp.com/join)[Brand Center](https://www.facebook.com/brand/resources/whatsapp/whatsapp-brand)[Privacy](https://www.whatsapp.com/privacy)
+
+#### Use WhatsApp
+
+[Android](https://www.whatsapp.com/android)[iPhone](https://www.whatsapp.com/download)[Mac/PC](https://www.whatsapp.com/download)[WhatsApp Web](https://web.whatsapp.com/)
+
+#### Need help?
+
+[Contact Us](https://www.whatsapp.com/contact)[Help Center](https://faq.whatsapp.com/)[Apps](https://www.whatsapp.com/download)[Security Advisories](https://www.whatsapp.com/security/advisories)
+
+[Download](https://www.whatsapp.com/dl)
+
+2025 © WhatsApp LLC
+
+[Terms & Privacy Policy](https://www.whatsapp.com/legal/)[###### Sitemap](https://www.whatsapp.com/sitemap)
+
+AzərbaycanAfrikaansBahasa IndonesiaMelayuCatalàčeštinaDanskDeutschEestiEnglishEspañolFrançaisGaeilgeHrvatskiItalianoKiswahiliLatviešuLietuviųMagyarNederlandsNorsk bokmålO‘zbekFilipinoPolskiPortuguês (Brasil)Português (Portugal)RomânăShqipSlovenčinaSlovenščinaSuomiSvenskaTiếng ViệtTürkçeΕλληνικάбългарскиқазақ тілімакедонскирусскийсрпскиукраїнськаעבריתالعربيةفارسیاردوবাংলাहिन्दीગુજરાતીಕನ್ನಡमराठीਪੰਜਾਬੀதமிழ்తెలుగుമലയാളംไทย简体中文繁體中文（台灣）繁體中文（香港）日本語한국어azərbaycanAfrikaansBahasa IndonesiaMelayucatalàčeštinadanskDeutscheestiEnglishespañolfrançaisGaeilgehrvatskiitalianoKiswahililatviešulietuviųmagyarNederlandsnorsk bokmålo‘zbekFilipinopolskiPortuguês (Brasil)Português (Portugal)românăshqipslovenčinaslovenščinasuomisvenskaTiếng ViệtTürkçeΕλληνικάбългарскиқазақ тілімакедонскирусскийсрпскиукраїнськаעבריתالعربيةفارسیاردوবাংলাहिन्दीગુજરાતીಕನ್ನಡमराठीਪੰਜਾਬੀதமிழ்తెలుగుമലയാളംไทย简体中文繁體中文（台灣）繁體中文（香港）日本語한국어
