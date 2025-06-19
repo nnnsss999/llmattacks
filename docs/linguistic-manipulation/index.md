@@ -17,3 +17,9 @@ Representative research:
 - [Open Sesame! Universal Black-Box Jailbreaking of Large Language Models](https://arxiv.org/abs/2309.01446) details a generic cross-lingual attack strategy.
 
 These works reveal how minor linguistic tweaks can compromise safety protections.
+- [Virtual Context: Enhancing Jailbreak Attacks with Special Token Injection](https://aclanthology.org/2024.findings-emnlp.692/) inserts unseen tokens that change how prompts are interpreted.
+- [LLMs know their vulnerabilities: Uncover Safety Gaps through Natural Distribution Shifts](https://arxiv.org/abs/2410.10700) reveals how dialect or informal phrasing can degrade safeguards.
+- [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043) demonstrates cross-lingual prompts that generalize across model families.
+- [Obfuscated Activations Bypass LLM Latent-Space Defenses](https://arxiv.org/abs/2412.09565) shows embedding-level paraphrases that slip past detection.
+- [Unicode Homograph Jailbreak](../prompt-dialogue/unicode-homograph-jailbreak.md) uses look-alike characters to hide malicious instructions.
+- [TokenBreak Attack: Single-Character Text Changes Defeat Moderation](https://thehackernews.com/2025/06/new-tokenbreak-attack-bypasses-ai.html) highlights how tiny edits bypass filters.
