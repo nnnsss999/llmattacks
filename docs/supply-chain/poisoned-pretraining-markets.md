@@ -13,5 +13,12 @@ Adversaries increasingly target public and commercial dataset exchanges. By offe
 - [Training Data Poisoning](https://www.lakera.ai/blog/training-data-poisoning) provides an overview of modern data manipulation techniques.
 - [Data Poisoning 101 for LLM Evaluation](https://www.promptfoo.dev/blog/data-poisoning/) surveys methods to corrupt datasets used for benchmarking.
 - [OWASP GenAI Supply Chain Risk](https://genai.owasp.org/llmrisk/llm032025-supply-chain/) offers classification guidance for poisoned dataset marketplaces.
+- [Poisoning Web-Scale Training Datasets is Practical](https://arxiv.org/abs/2302.10149) demonstrates the feasibility of corrupting large public corpora.
+- [Persistent Pre-Training Poisoning of LLMs | SPY Lab](https://spylab.ai/blog/poisoning-pretraining/) summarizes research findings and mitigations.
+- [Pretraining-Poisoning](https://github.com/facebookresearch/pretraining-poisoning) provides code for replicating poisoning experiments.
+- [Data Poisoning attacks on Enterprise LLM applications](https://www.giskard.ai/knowledge/data-poisoning-attacks-on-enterprise-llm-applications-ai-risks-detection-and-prevention) offers detection advice for commercial teams.
+- [OWASP Top 10 for LLM Applications 2025: Data and Model Poisoning](https://www.checkpoint.com/cyber-hub/what-is-llm-security/data-and-model-poisoning/) covers common supply chain pitfalls.
+- [Why Google’s Researchers are Intentionally Poisoning Datasets](https://lightning.ai/pages/community/why-googles-researchers-are-intentionally-poisoning-datasets-and-more/) explains deliberate poisoning for evaluation.
+- [NDSS 2023 Poster: Foundation Model Poisoning](https://www.ndss-symposium.org/wp-content/uploads/2023/02/NDSS2023Poster_paper_4383.pdf) presents early insights into pre-training attacks.
 
 Use these references to strengthen vetting processes for any third-party corpus or weights incorporated into your models.
