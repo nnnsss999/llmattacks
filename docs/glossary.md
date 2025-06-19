@@ -67,6 +67,11 @@ mechanisms of a model rather than just its outputs.
 Static site generator used to build the searchable documentation
 website from the Markdown files in this repository.
 
+### Malware Generation Using Jailbroken LLMs
+Underground models like **WormGPT** produce malicious code and phishing
+content once safety guardrails are removed. Articles describe how
+attackers iterate prompts to create polymorphic malware.
+
 ### PoisonedRAG
 Retrieval-Augmented Generation systems can be subverted when their external
 knowledge source is poisoned with crafted documents that alter generation
@@ -351,6 +356,10 @@ further user input.
 ### Additional Resources
 Reference document listing external articles and reports for continued
 reading on LLM attack research.
+
+### Zero-Day Resources
+Collection of links documenting newly discovered LLM vulnerabilities
+and proof-of-concept exploits.
 
 ### rename.py
 Helper script that renames documentation files to use kebab-case for
