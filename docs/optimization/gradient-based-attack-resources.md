@@ -27,3 +27,8 @@ This list collects notable research papers, blog posts and repositories that dev
 - [AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts](https://arxiv.org/abs/2010.15980)
 - [Gradient Hacking in Reinforcement Learning](https://arxiv.org/abs/2106.09685)
 - [Gradient Leakage and Model Inversion via LoRA](https://arxiv.org/abs/2406.01234)
+- [Boosting Jailbreak Attack with Momentum](https://doi.org/10.1109/icassp49660.2025.10888812)
+- [Improved Techniques for Optimization-Based Jailbreaking on Large Language Models](https://arxiv.org/abs/2405.21018)
+- [DAGER: Exact Gradient Inversion for Large Language Models](https://arxiv.org/abs/2405.15586)
+- [LLM Abuse Prevention Tool Using GCG Jailbreak Attack Detection and DistilBERT-Based Ethics Judgment](https://doi.org/10.3390/info16030204)
+- [Gradient-Based Privacy Jailbreak | LLM Security Database](https://www.promptfoo.dev/lm-security-db/vuln/undefined-0282d4f5)
