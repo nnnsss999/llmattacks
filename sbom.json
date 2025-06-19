@@ -146,6 +146,33 @@
     },
     {
       "type": "file",
+      "name": "api-level/api-level-attack-resources.md",
+      "bom-ref": "api-level/api-level-attack-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "API-Level Attack Resources"
+        },
+        {
+          "name": "category",
+          "value": "API"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "attack-defense-matrix.md",
       "bom-ref": "attack-defense-matrix.md",
       "properties": [
@@ -298,6 +325,33 @@
     },
     {
       "type": "file",
+      "name": "function-calling/function-calling-exploit-resources.md",
+      "bom-ref": "function-calling/function-calling-exploit-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Function Calling Exploit Resources"
+        },
+        {
+          "name": "category",
+          "value": "Insecure Output"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "fuzzing/fuzzing-resources-2026.md",
       "bom-ref": "fuzzing/fuzzing-resources-2026.md",
       "properties": [
@@ -316,6 +370,33 @@
         {
           "name": "date_collected",
           "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "fuzzing/fuzzing-resources-2027.md",
+      "bom-ref": "fuzzing/fuzzing-resources-2027.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Fuzzing Resources 2027"
+        },
+        {
+          "name": "category",
+          "value": "Fuzzing"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
         },
         {
           "name": "license",
@@ -638,6 +719,33 @@
     },
     {
       "type": "file",
+      "name": "model-specific/model-specific-resources.md",
+      "bom-ref": "model-specific/model-specific-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Model-Specific LLM Attack Resources"
+        },
+        {
+          "name": "category",
+          "value": "Model-Specific"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "multimodal/audio-steganography-jailbreak.md",
       "bom-ref": "multimodal/audio-steganography-jailbreak.md",
       "properties": [
@@ -714,6 +822,33 @@
         {
           "name": "license",
           "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "multimodal/steganography-resources-2026.md",
+      "bom-ref": "multimodal/steganography-resources-2026.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Steganography Approaches for LLM Attacks (2026 Resources)"
+        },
+        {
+          "name": "category",
+          "value": "Multimodal"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
         }
       ]
     },
@@ -859,12 +994,66 @@
     },
     {
       "type": "file",
+      "name": "prompt-dialogue/many-shot-jailbreaking-resources.md",
+      "bom-ref": "prompt-dialogue/many-shot-jailbreaking-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Many-Shot Jailbreaking Resources"
+        },
+        {
+          "name": "category",
+          "value": "Prompt Dialogue"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "prompt-dialogue/prompt-engineering-attack-resources.md",
       "bom-ref": "prompt-dialogue/prompt-engineering-attack-resources.md",
       "properties": [
         {
           "name": "title",
           "value": "Prompt Engineering Attack Resources"
+        },
+        {
+          "name": "category",
+          "value": "Prompt Dialogue"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "prompt-dialogue/prompt-engineering-resources-2026.md",
+      "bom-ref": "prompt-dialogue/prompt-engineering-resources-2026.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Prompt Engineering Attack Resources 2026"
         },
         {
           "name": "category",
@@ -967,12 +1156,66 @@
     },
     {
       "type": "file",
+      "name": "streaming/streaming-response-hijacking-resources.md",
+      "bom-ref": "streaming/streaming-response-hijacking-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Streaming Response Hijacking Resources"
+        },
+        {
+          "name": "category",
+          "value": "Inference"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "token-level/additional-token-level-resources.md",
       "bom-ref": "token-level/additional-token-level-resources.md",
       "properties": [
         {
           "name": "title",
           "value": "Token-Level Attack Resources"
+        },
+        {
+          "name": "category",
+          "value": "Tokenization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "token-level/token-prediction-resources.md",
+      "bom-ref": "token-level/token-prediction-resources.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Token Prediction & Manipulation Resources"
         },
         {
           "name": "category",
