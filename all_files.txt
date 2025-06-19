@@ -148,3 +148,4 @@
 ./docs/multimodal/visual-jailbreaking-resources-2031.md
 ./docs/multimodal/visual-jailbreaking-resources-2032.md
 ./docs/supply-chain/anthropic-rsp-supply-chain-controls.md
+./docs/multimodal/visual-jailbreaking-resources-2034.md
