@@ -72,3 +72,10 @@ The following articles and research papers document the
 - [PANDAS Implementation (GitHub)](https://github.com/averyma/pandas)
 - [ManyShotGenerator Jailbreak Toolkit (GitHub)](https://github.com/dakotalock/ManyShotGenerator)
 - [LLM Vectorized Malicious Prompt Detector (GitHub)](https://github.com/vader-valencia/llm-vectorized-malicious-prompt-detector)
+
+- [Large-Scale Jailbreaking via Many-Shot Prompting (PDF)](https://openreview.net/pdf?id=cw5mgd71jW)
+- [PANDAS: Improving Many-shot Jailbreaking via Positive Affirmation, Negative Demonstration and Adaptive Sampling (ResearchGate)](https://www.researchgate.net/publication/388685733_PANDAS_Improving_Many-shot_Jailbreaking_via_Positive_Affirmation_Negative_Demonstration_and_Adaptive_Sampling)
+- [PANDAS overview podcast (AGI Breakdown)](https://agibreakdown.podbean.com/e/arxiv-paper-pandas-improving-many-shot-jailbreaking-via-positive-affirmation-negative-demonstration-and-adaptive-sampling/)
+- [PANDAS entry on Papers with Code](https://paperswithcode.com/paper/pandas-improving-many-shot-jailbreaking-via)
+- [Many-Shot Jailbreaking Dataset Listing (SelectDataset)](https://www.selectdataset.com/dataset/7e6c8d30302dc7756e8dc3e42047aeb9)
+- [Many-shot jailbreaking is easier than you think (LiveScience)](https://www.livescience.com/technology/artificial-intelligence/many-shot-jailbreaking-ai-services-like-chatgpt-and-claude-3-opus-much-easier-than-you-think)
