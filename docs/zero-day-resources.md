@@ -87,3 +87,6 @@ The references below document newly disclosed or proof-of-concept zero-day vulne
 - [O3 Finds Linux Vulnerability (Gigazine)](https://gigazine.net/gsc_news/en/20250527/o3-find-linux-vulnerability)
 - [Linux Kernel Zero-Day SMB Vulnerability Discovered via ChatGPT](https://gbhackers.com/linux-kernel-zero-day-smb-vulnerability/)
 - [O3 Zero-Day Vulnerability (Simbian AI)](https://www.simbian.ai/blog/o3-zero-day-vulnerability)
+- [Google Researchers Claim First Vulnerability Found Using AI](https://www.infosecurity-magazine.com/news/google-first-vulnerability-found/)
+- [Announcing OpenAI's Bug Bounty Program](https://openai.com/index/bug-bounty-program/)
+- [Hello 0-Days, My Old Friend: A 2024 Zero-Day Exploitation Analysis](https://cloud.google.com/blog/topics/threat-intelligence/2024-zero-day-trends)
