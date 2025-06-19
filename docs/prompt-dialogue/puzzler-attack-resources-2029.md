@@ -26,3 +26,7 @@ Additional references covering follow‑on research and community resources:
 - [Here Comes The AI Worm: Unleashing Zero-click Worms that Target GenAI-Powered Applications](https://www.semanticscholar.org/paper/e6ad241ce87fe608241e9004f4c9d199b6bfebc7) – references Puzzler in broader jailbreak discussions.
 - [CARES: Comprehensive Evaluation of Safety and Adversarial Robustness in Medical LLMs](https://www.semanticscholar.org/paper/15b8ead2bf17a7cc36bbe68b1830a46107ab43e6) – measures defensive performance against attacks including Puzzler.
 - [Leveraging the Context through Multi-Round Interactions for Jailbreaking Attacks](https://www.semanticscholar.org/paper/1b95053af03b5a06809a4967c6cf5ca137bbcde4) – extends the clue‑based approach introduced by Puzzler.
+- [A Hitchhiker’s Guide to Jailbreaking ChatGPT via Prompt Engineering](https://doi.org/10.1145/3663530.3665021) – examines advanced prompt design and references Puzzler's methodology.
+- [Glitch Tokens in Large Language Models: Categorization Taxonomy and Effective Detection](https://doi.org/10.1145/3660799) – analyzes token-based vulnerabilities while citing Puzzler as a related attack.
+- [Analysis of Artificial Intelligence Solutions in Offensive Cybersecurity Domains](https://doi.org/10.1007/978-981-96-6008-7_23) – surveys offensive security tools and includes Puzzler in the threat landscape.
+- [Efficient Detection of Toxic Prompts in Large Language Models](https://doi.org/10.1145/3691620.3695018) – proposes detection techniques evaluated on Puzzler examples.
