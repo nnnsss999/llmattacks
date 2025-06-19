@@ -13,3 +13,7 @@ The links below expand on strategies for compromising or defending model hubs be
 - [LLM03:2025 Supply Chain](https://genai.owasp.org/llmrisk/llm032025-supply-chain/) – OWASP Gen AI Security Project
 - [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) – NIST
 - [Supply chain security for AI models](https://cloud.google.com/blog/products/ai-machine-learning/supply-chain-security-for-ai-models) – Google Cloud Blog
+
+- [ModelScan: Open-source Security Scanner for AI Models](https://github.com/protectai/modelscan) – Protect AI
+- [PickleScan Project Detects Malicious Pickle Files](https://github.com/mmaitre314/picklescan) – GitHub
+- [Huntr AI Bug Bounty Program for Model Hubs](https://huntr.com) – Huntr
