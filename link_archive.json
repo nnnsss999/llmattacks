@@ -109,5 +109,8 @@
   },
   "https://arxiv.org/abs/2310.12505": {
     "snapshot": "https://web.archive.org/web/20250618/arxiv231012505"
+  },
+  "https://skylion007.github.io/OpenWebTextCorpus/": {
+    "snapshot": "https://web.archive.org/web/20250618/skylion-openwebtext"
   }
 }
