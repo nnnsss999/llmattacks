@@ -153,4 +153,5 @@ These references track emerging threats and defence research through 2026 and ar
 - [Prompt Injection Resources 2026](prompt-dialogue/prompt-injection-resources-2026.md)
 - [Prompt Engineering Attack Resources 2026](prompt-dialogue/prompt-engineering-resources-2026.md)
 - [Fuzzing Resources 2026](fuzzing/fuzzing-resources-2026.md)
+- [Additional Resources on LLM Attacks 2027](additional-resources-2027.md)
 - [Fuzzing Resources 2027](fuzzing/fuzzing-resources-2027.md)
