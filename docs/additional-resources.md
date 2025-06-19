@@ -97,6 +97,7 @@ These references track emerging threats and defence research through 2026 and ar
 - [GitHub Repository: llm-attacks/llm-attacks](https://github.com/llm-attacks/llm-attacks)
 - [Meta's Llama Framework Flaw Exposes AI Systems to Remote Code Execution](https://thehackernews.com/2025/01/metas-llama-framework-flaw-exposes-ai.html)
 - [Top 10 Most Common LLM Attack Techniques | Elastic](https://www.elastic.co/security/llm-safety-report)
+
 - [OWASP Top 10 LLM, Updated 2025: Examples & Mitigation Strategies](https://www.oligo.security/academy/owasp-top-10-llm-updated-2025-examples-and-mitigation-strategies)
 - [Is Your Prompt Safe? Investigating Prompt Injection Attacks Against Open-Source LLMs](https://arxiv.org/abs/2505.14368)
 - [Goal-Oriented Prompt Attack and Safety Evaluation for LLMs](https://arxiv.org/abs/2309.11830)
