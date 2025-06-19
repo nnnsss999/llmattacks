@@ -68,3 +68,7 @@ The following articles and research papers document the
 - [PiCo: Jailbreaking Multimodal Large Language Models via Pictorial Code Contextualization (arXiv:2504.01444)](https://arxiv.org/abs/2504.01444)
 - [StructuralSleight: Automated Jailbreak Attacks on Large Language Models Utilizing Uncommon Text-Organization Structures (arXiv:2406.08754)](https://arxiv.org/abs/2406.08754)
 - [Breaking Quadratic Barriers: A Non-Attention LLM for Ultra-Long Context Horizons (arXiv:2506.01963)](https://arxiv.org/abs/2506.01963)
+- [Many-shot Jailbreaking via Reinforcement Learning (GitHub)](https://github.com/byerose/MSJRL)
+- [PANDAS Implementation (GitHub)](https://github.com/averyma/pandas)
+- [ManyShotGenerator Jailbreak Toolkit (GitHub)](https://github.com/dakotalock/ManyShotGenerator)
+- [LLM Vectorized Malicious Prompt Detector (GitHub)](https://github.com/vader-valencia/llm-vectorized-malicious-prompt-detector)

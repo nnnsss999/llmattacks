@@ -10004,6 +10004,10 @@
 - https://www.whatsapp.com/security
 - https://www.whatsapp.com/security/advisories
 - https://www.whatsapp.com/sitemap
+- https://github.com/byerose/MSJRL
+- https://github.com/averyma/pandas
+- https://github.com/dakotalock/ManyShotGenerator
+- https://github.com/vader-valencia/llm-vectorized-malicious-prompt-detector
 - https://www.whatsapp.com/status
 https://arxiv.org/abs/2402.08567
 https://arxiv.org/abs/2406.04031
