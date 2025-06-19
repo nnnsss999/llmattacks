@@ -72,4 +72,13 @@ Additional references collected after the original snapshot:
 - [STEGOSAURUS-WRECKS Prompt Obfuscation](https://github.com/elder-plinius/STEGOSAURUS-WRECKS)
 - [ChatGPT AutoExpert System Prompts](https://github.com/spdustin/ChatGPT-AutoExpert/blob/main/System%20Prompts.md#behind-the-scenes)
 
+- [Bag of Tricks: Benchmarking of Jailbreak Attacks on LLMs](https://arxiv.org/abs/2406.09324)
+- [Large Language Models Merging for Enhancing the Link Stealing Attack on Graph Neural Networks](https://arxiv.org/abs/2412.05830)
+- [System Prompt Extraction Attacks and Defenses in Large Language Models](https://arxiv.org/abs/2505.23817)
+- [Is Your Prompt Safe? Investigating Prompt Injection Attacks Against Open-Source LLMs](https://arxiv.org/abs/2505.14368)
+- [GitLab Duo Vulnerability Enabled Attackers to Hijack AI Responses with Hidden Prompts](https://thehackernews.com/2025/05/gitlab-duo-vulnerability-enabled.html)
+- [Prompt Injection Flaw in Vanna AI Exposes Databases to RCE Attacks](https://thehackernews.com/2024/06/prompt-injection-flaw-in-vanna-ai.html)
+- [Researchers Reveal 'Deceptive Delight' Method to Jailbreak AI Models](https://thehackernews.com/2024/10/researchers-reveal-deceptive-delight.html)
+- [New AI Jailbreak Method 'Bad Likert Judge' Boosts Attack Success Rates by Over 60%](https://thehackernews.com/2025/01/new-ai-jailbreak-method-bad-likert.html)
+
 These references track emerging threats and defence research through 2025 and are regularly reviewed for new developments.
