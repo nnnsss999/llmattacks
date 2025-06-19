@@ -12,13 +12,11 @@ An [**Attack–Defence Matrix**](docs/attack-defense-matrix.md) cross-links each
 
 A searchable website built with **MkDocs Material** is automatically deployed to GitHub Pages. Visit <https://example.github.io/llmattacks/> to explore the catalog with Mermaid diagrams enabled.
 
-## Repository Structure and Timeline
+## Documentation Timeline
 
-- All documentation files under `docs/` include YAML front matter with a
-  `date_collected` of **2025-06-18**, marking the snapshot used to build the
-  catalog. Later commits refine tooling and link archives, but the
-  documentation content reflects that 2025-06-18 snapshot. Key folders include:
+- All documentation files under `docs/` include YAML front matter with a `date_collected` of **2025-06-18**, marking the snapshot used to build the catalog. Later commits refine tooling and link archives, but the documentation content reflects that 2025-06-18 snapshot.
 
+## Repository Structure
 - `docs/` – canonical Markdown and HTML articles grouped into subfolders:
 `agentic/`, `data-poisoning/`, `defenses/`, `emerging/`, `evaluation/`,
   `embedding/`, `inference/`, `insecure-output/`, `latent-space/`,
@@ -30,7 +28,7 @@ A searchable website built with **MkDocs Material** is automatically deployed to
   and the matching `.pdf`.
 - `pdfs/` – a local cache of PDFs; see `pdfs/README.md` for details.
   Cached filenames use a SHA‑256 hash of the source URL.
-- `extractions1/` – outputs from `extract_urls.py` for future catalog entries.
+- `extractions1/` – outputs from `extract_urls.py` for future catalog entries. Hashed filenames use the first 10 characters of a SHA-256 digest.
 - `scripts/` – utility Python scripts including:
   - `build_index.py` to generate `index.json`
   - `cache_pdfs.py` to download PDF sources
@@ -77,8 +75,7 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 
 ## Repository Statistics
 
-- The `docs/` folder contains **18** themed subdirectories with a total of **78**
-  documents (31 Markdown and 47 HTML).
+- The `docs/` folder contains **18** themed subdirectories with a total of **78** documents (31 Markdown and 47 HTML).
 - `docs_files.txt` lists **64** canonical entries used to build the site.
 - `all_files.txt` inventories **131** tracked files across the repository.
 - GitHub Actions run on **Python 3.10** and **Node 18**, while pre‑commit hooks
