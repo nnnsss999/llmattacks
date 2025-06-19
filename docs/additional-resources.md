@@ -146,6 +146,10 @@ Additional references collected after the original snapshot:
 - [PiCo: Jailbreaking Multimodal Large Language Models via Pictorial Code Contextualization (arXiv:2504.01444)](https://arxiv.org/abs/2504.01444)
 - [StructuralSleight: Automated Jailbreak Attacks on Large Language Models Utilizing Uncommon Text-Organization Structures (arXiv:2406.08754)](https://arxiv.org/abs/2406.08754)
 - [Breaking Quadratic Barriers: A Non-Attention LLM for Ultra-Long Context Horizons (arXiv:2506.01963)](https://arxiv.org/abs/2506.01963)
+- [Many-shot Jailbreaking via Reinforcement Learning (GitHub)](https://github.com/byerose/MSJRL)
+- [PANDAS Implementation (GitHub)](https://github.com/averyma/pandas)
+- [ManyShotGenerator Jailbreak Toolkit (GitHub)](https://github.com/dakotalock/ManyShotGenerator)
+- [LLM Vectorized Malicious Prompt Detector (GitHub)](https://github.com/vader-valencia/llm-vectorized-malicious-prompt-detector)
 These references track emerging threats and defence research through 2026 and are regularly reviewed for new developments.
 - [Vulnhuntr: Autonomous AI Finds First 0-Day Vulnerabilities in Wild](https://protectai.com/threat-research/vulnhuntr-first-0-day-vulnerabilities)
 - [Using Generative AI LLM agents to exploit zero-day vulnerabilities](https://www.cybercareers.blog/2024/07/using-generative-ai-llm-agents-to-exploit-zero-day-vulnerabilities/)
