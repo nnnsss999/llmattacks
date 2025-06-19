@@ -265,6 +265,9 @@ Original arXiv post describing universal byte sequences that cause harmful behav
 ### Comprehensive Catalog of LLM Jailbreaking and Attack Techniques
 Master document that aggregates every jailbreak method documented in this repository.
 
+### Comprehensive Catalog of LLM Jailbreaking and Attack Techniques.pdf
+PDF version of the catalog for offline reading and archival.
+
 ### CrossLingual Inversion 2505.16008
 Case study showing cross-lingual embedding inversion across different languages.
 
@@ -456,3 +459,6 @@ Unit test ensuring the link checker script functions correctly.
 
 ### test_sbom.py
 Unit test verifying generation of the CycloneDX SBOM.
+
+### .gitkeep
+Placeholder file ensuring the `extractions1/` directory remains tracked even when empty.
