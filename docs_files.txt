@@ -80,6 +80,8 @@ docs/optimization/gradient-resources-2026.md
 docs/social-engineering/emotional-manipulation-resources.md
 docs/api-level/api-level-attack-resources.md
 docs/token-level/token-prediction-resources.md
+docs/token-level/additional-token-level-resources.md
+docs/token-level/token-level-resources-2027.md
 docs/streaming/streaming-response-hijacking-resources.md
 docs/function-calling/function-calling-exploit-resources.md
 docs/latent-space/attention-hijacking-resources.md

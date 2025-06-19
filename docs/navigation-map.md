@@ -139,6 +139,9 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 
 ### token-level/
 - `techradar-tokenbreak.html` — token level manipulation article
+- `token-prediction-resources.md` — references on token prediction and side channels
+- `additional-token-level-resources.md` — broader tokenization attack bibliography
+- `token-level-resources-2027.md` — newer token-level manipulation papers
 
 ### training-alignment/
 - `index.md` — overview of training-phase attacks
