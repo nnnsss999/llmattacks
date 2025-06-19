@@ -49,5 +49,253 @@
   },
   "http://arxiv.org/abs/2305.13860": {
     "saved_as": "f9a0c55f11.md"
+=======
+    "existing": "extractions1/e36fd18630.md"
+  },
+  "http://ai.meta.com/blog/meta-llama-3-1": {
+    "existing": "extractions1/a15fda3325.md"
+  },
+  "http://ai.meta.com/llama": {
+    "existing": "extractions1/5ce86332d8.md"
+  },
+  "http://ai.meta.com/llama/use-policy": {
+    "existing": "extractions1/d2d06d7de6.md"
+  },
+  "http://anthropic.com/rsp": {
+    "existing": "extractions1/7cc0acd3df.md"
+  },
+  "http://anthropic.com/rsp-updates": {
+    "existing": "extractions1/24eb81b819.md"
+  },
+  "http://arxiv.org/abs/2010.15980": {
+    "existing": "extractions1/260d9e5f4c.md"
+  },
+  "http://arxiv.org/abs/2203.02155": {
+    "existing": "extractions1/4ee5f414b2.md"
+  },
+  "http://arxiv.org/abs/2204.05862": {
+    "existing": "extractions1/a3f1c87ee7.md"
+  },
+  "http://arxiv.org/abs/2204.14198": {
+    "existing": "extractions1/42be97bd77.md"
+  },
+  "http://arxiv.org/abs/2212.08073": {
+    "existing": "extractions1/9eb454962c.md"
+  },
+  "http://arxiv.org/abs/2302.08582": {
+    "existing": "extractions1/fa018e1031.md"
+  },
+  "http://arxiv.org/abs/2303.17071": {
+    "existing": "extractions1/ada32fb89c.md"
+  },
+  "http://arxiv.org/abs/2303.17651": {
+    "existing": "extractions1/9697aa07d3.md"
+  },
+  "http://arxiv.org/abs/2304.13861": {
+    "existing": "extractions1/3aa83eaa70.md"
+  },
+  "http://arxiv.org/abs/2304.14178": {
+    "existing": "extractions1/4e64eb4233.md"
+  },
+  "http://arxiv.org/abs/2305.13860": {
+    "existing": "extractions1/f9a0c55f11.md"
+  },
+  "http://arxiv.org/abs/2306.05499": {
+    "existing": "extractions1/2a7c820347.md"
+  },
+  "http://arxiv.org/abs/2306.13588": {
+    "existing": "extractions1/d7e6390692.md"
+  },
+  "http://arxiv.org/abs/2307.02483": {
+    "existing": "extractions1/59943401be.md"
+  },
+  "http://arxiv.org/abs/2307.06865": {
+    "existing": "extractions1/148bf8e7f6.md"
+  },
+  "http://arxiv.org/abs/2307.08715": {
+    "existing": "extractions1/64289c85a9.md"
+  },
+  "http://arxiv.org/abs/2309.00236": {
+    "existing": "extractions1/2bbf5fb5b1.md"
+  },
+  "http://arxiv.org/abs/2309.03409": {
+    "existing": "extractions1/30530fbd7b.md"
+  },
+  "http://arxiv.org/abs/2309.10253": {
+    "existing": "extractions1/6aae1d3d76.md"
+  },
+  "http://arxiv.org/abs/2309.11751": {
+    "existing": "extractions1/0b1b084fdc.md"
+  },
+  "http://arxiv.org/licenses/nonexclusive-distrib/1.0": {
+    "existing": "extractions1/4d67b68694.md"
+  },
+  "http://arxiv.org/licenses/nonexclusive-distrib/1.0/": {
+    "existing": "extractions1/94bca121d0.md"
+  },
+  "http://arxiv.org/licenses/nonexclusive-distrib/1.0/`": {
+    "error": "404 Client Error: Not Found for url: http://arxiv.org/licenses/nonexclusive-distrib/1.0/%60"
+  },
+  "http://arxiv.org/pdf/2012.07805": {
+    "existing": "extractions1/04bd7d4f73.md"
+  },
+  "http://arxiv.org/pdf/2309.01446": {
+    "existing": "extractions1/2c2a1bc1c6.md"
+  },
+  "http://arxiv.org/pdf/2401.12192": {
+    "existing": "extractions1/1d72b6c543.md"
+  },
+  "http://arxiv.org/pdf/2402.02309": {
+    "existing": "extractions1/ff65f2cd50.md"
+  },
+  "http://arxiv.org/pdf/2402.07867": {
+    "existing": "extractions1/c518ce09a6.md"
+  },
+  "http://arxiv.org/pdf/2402.16006": {
+    "existing": "extractions1/171fd8d3b2.md"
+  },
+  "http://arxiv.org/pdf/2404.02532": {
+    "existing": "extractions1/090dea61c8.md"
+  },
+  "http://arxiv.org/pdf/2406.14859": {
+    "existing": "extractions1/fc13ee1716.md"
+  },
+  "http://arxiv.org/pdf/2409.14729": {
+    "existing": "extractions1/4cdf48ec25.md"
+  },
+  "http://arxiv.org/pdf/2410.04884": {
+    "existing": "extractions1/226291b9c1.md"
+  },
+  "http://arxiv.org/pdf/2411.07494": {
+    "existing": "extractions1/40f34109f2.md"
+  },
+  "http://arxiv.org/pdf/2411.12762": {
+    "existing": "extractions1/fdece06e18.md"
+  },
+  "http://arxiv.org/pdf/2411.18191": {
+    "existing": "extractions1/bfe6e20e13.md"
+  },
+  "http://arxiv.org/pdf/2412.09565": {
+    "existing": "extractions1/d9b377e3df.md"
+  },
+  "http://arxiv.org/pdf/2501.18536": {
+    "existing": "extractions1/4088f7c58e.md"
+  },
+  "http://arxiv.org/pdf/2505.16008": {
+    "existing": "extractions1/353d96e4f6.md"
+  },
+  "http://claude.ai/login": {
+    "error": "403 Client Error: Forbidden for url: https://claude.ai/login"
+  },
+  "http://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets": {
+    "error": "404 Client Error: Not Found for url: https://commoncrawl.org/7Itispossiblethereissomeintersectionbetweenthesetwodatasets"
+  },
+  "http://creativecommons.org/licenses/by-nc-nd/4.0": {
+    "existing": "extractions1/f8a92d30c5.md"
+  },
+  "http://creativecommons.org/licenses/by-nc-nd/4.0/": {
+    "existing": "extractions1/ac727278b2.md"
+  },
+  "http://creativecommons.org/licenses/by-nc-sa/4.0/": {
+    "existing": "extractions1/93bcf3b687.md"
+  },
+  "http://creativecommons.org/licenses/by-nd/2.0/": {
+    "existing": "extractions1/3c46525f40.md"
+  },
+  "http://creativecommons.org/licenses/by-sa/4.0/": {
+    "existing": "extractions1/15d8eebfa9.md"
+  },
+  "http://creativecommons.org/licenses/by/4.0": {
+    "existing": "extractions1/1e66d409f6.md"
+  },
+  "http://creativecommons.org/licenses/by/4.0/": {
+    "existing": "extractions1/f9ba32750c.md"
+  },
+  "http://creativecommons.org/publicdomain/zero/1.0/": {
+    "existing": "extractions1/261eaede48.md"
+  },
+  "http://datasets.While": {
+    "error": "503 Server Error: Service Unavailable for url: http://datasets.while/"
+  },
+  "http://dlmf.nist.gov/LaTeXML": {
+    "existing": "extractions1/a99a711fb0.md"
+  },
+  "http://dlmf.nist.gov/LaTeXML/": {
+    "existing": "extractions1/ae3ec4c5bd.md"
+  },
+  "http://dlmf.nist.gov/LaTeXML/.--": {
+    "existing": "extractions1/dfe95ebb1b.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/dces/1999-07-02/": {
+    "existing": "extractions1/b42d8d9a7d.md"
+  },
+  "http://dublincore.org/specifications/dublin-core/dces/1999-07-02/`": {
+    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/1999-07-02/%60"
+  },
+  "http://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/": {
+    "existing": "extractions1/d19bb1a7d7.md"
+  },
+  "http://filters.To": {
+    "error": "503 Server Error: Service Unavailable for url: http://filters.to/"
+  },
+  "http://github.com/llm-attacks/llm-attacks": {
+    "saved_as": "e7faca322a.md"
+  },
+  "http://gmpg.org/xfn/11": {
+    "existing": "extractions1/434bc5d3f9.md"
+  },
+  "http://gotit.pub/faq": {
+    "existing": "extractions1/a19f5ec71f.md"
+  },
+  "http://library.isical.ac.in:8080/jspui/handle/10263/6765.AleksandarMakelov": {
+    "error": "503 Server Error: Service Unavailable for url: http://library.isical.ac.in:8080/jspui/handle/10263/6765.AleksandarMakelov"
+  },
+  "http://llm-attacks.org/": {
+    "saved_as": "6ea37d80f9.md"
+  },
+  "http://madskills.com/public/xml/rss/module/trackback": {
+    "error": "503 Server Error: Service Unavailable for url: http://madskills.com/public/xml/rss/module/trackback"
+  },
+  "http://madskills.com/public/xml/rss/module/trackback/": {
+    "error": "503 Server Error: Service Unavailable for url: http://madskills.com/public/xml/rss/module/trackback/"
+  },
+  "http://meyerweb.com/": {
+    "saved_as": "f401a61178.md"
+  },
+  "http://opengraphprotocol.org/schema": {
+    "error": "404 Client Error: Not Found for url: https://ogp.me/schema/"
+  },
+  "http://opengraphprotocol.org/schema/": {
+    "error": "404 Client Error: Not Found for url: https://ogp.me/schema/"
+  },
+  "http://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html": {
+    "saved_as": "6ae68c32c7.md"
+  },
+  "http://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html[30]S.Yao": {
+    "error": "404 Client Error: Not Found for url: https://proceedings.neurips.cc//paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html%5b30%5dS.Yao"
+  },
+  "http://photomatt.net/": {
+    "saved_as": "9265bed4df.md"
+  },
+  "http://purl.org/dc/dcam/": {
+    "saved_as": "64970bc2d4.md"
+  },
+  "http://purl.org/dc/dcam/`**": {
+    "saved_as": "b274658c19.md"
+  },
+  "http://purl.org/dc/dcmitype/": {
+    "saved_as": "2730184a15.md"
+  },
+  "http://purl.org/dc/dcmitype/`**": {
+    "saved_as": "2d0bd07be6.md"
+  },
+  "http://purl.org/dc/elements/1.1": {
+    "existing": "extractions1/2aeb059b18.md"
+  },
+  "http://purl.org/dc/elements/1.1/": {
+    "existing": "extractions1/f414295724.md"
+  },
+  "http://purl.org/dc/elements/1.1/`**": {
+    "saved_as": "bc3771f434.md"
   }
 }
