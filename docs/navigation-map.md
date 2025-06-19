@@ -90,6 +90,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `imgjp.html` — visual jailbreak demonstration
 - `naturalistic-patch-arxiv.html` — adversarial patch attack paper
 - `visual-jailbreaking.html` — blog post on visual jailbreaks
+- `visual-jailbreaking-resources.md` — curated references on multimodal jailbreaks
 
 ### optimization/
 - `amplegcg.html` — prompt search with Monte Carlo

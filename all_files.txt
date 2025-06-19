@@ -58,6 +58,7 @@
 ./docs/multimodal/image-obscuring-jailbreak.md
 ./docs/multimodal/naturalistic-patch-arxiv.html
 ./docs/multimodal/visual-jailbreaking.html
+./docs/multimodal/visual-jailbreaking-resources.md
 ./docs/llm-attack-catalog.md
 ./docs/index.md
 ./docs/inference/gradient-leakage-inversion.md
