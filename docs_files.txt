@@ -71,3 +71,4 @@ docs/inference/practical-gradient-inversion.md
 docs/training-alignment/gradient-hacking.md
 docs/prompt-dialogue/puzzler-indirect-jailbreak.md
 docs/prompt-dialogue/many-shot-jailbreaking-resources.md
+docs/latent-space/attention-hijacking-resources.md
