@@ -108,6 +108,29 @@ Additional recent studies demonstrate how RL-based fuzzers can automate discover
 - **Attack Path Planning with PPO-BACO** – combines RL and ant colony optimization to plan aviation attack paths.
   [Attack Path Planning Using Proximal Policy Optimization Bi-Directional Ant Colony Optimization Algorithm](https://doi.org/10.2139/ssrn.4946940).
 
+- **Penetration Testing Path Design** – deep RL constructs optimal penetration sequences.
+  [Deep Reinforcement Learning for Intelligent Penetration Testing Path Design](https://www.mdpi.com/2076-3417/13/16/9467).
+- **Attack Path Planning with Knowledge Graphs** – integrates MITRE ATT&CK data into RL planning.
+  [Optimal Attack Path Planning based on Reinforcement Learning and Cyber Threat Knowledge Graph Combining the ATT&CK for Air Traffic Management System](https://ieeexplore.ieee.org/abstract/document/10473161).
+- **Malicious Attacks on DRL Interpretations** – adversarial strategies that mislead RL explanation methods.
+  [Malicious Attacks against Deep Reinforcement Learning Interpretations](https://dl.acm.org/doi/abs/10.1145/3394486.3403089).
+- **RL Attack and Defence Survey** – overview of adversarial strategies against RL agents.
+  [Adversarial Attack and Defense in Reinforcement Learning—From AI Security View](https://link.springer.com/article/10.1186/s42400-019-0027-x).
+
+
+- **RL-based IoT Attack Detection** – reinforcement learning for discovering IoT attack patterns.
+  [Towards Learning-Automation IoT Attack Detection through Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/9217785).
+- **AutoCAT** – RL-based exploration of cache-timing attacks.
+  [Autocat: Reinforcement Learning for Automated Exploration of Cache-Timing Attacks](https://ieeexplore.ieee.org/abstract/document/10070947).
+- **Stealthy RL Evasion** – efficient attack timing against DRL agents.
+  [Stealthy and Efficient Adversarial Attacks against Deep Reinforcement Learning](https://ojs.aaai.org/index.php/AAAI/article/view/6047).
+- **Multi-Agent RL Threats** – survey of adversarial machine learning in multi-agent RL.
+  [Adversarial Machine Learning Attacks and Defences in Multi-Agent Reinforcement Learning](https://dl.acm.org/doi/abs/10.1145/3708320).
+- **RAT** – reinforcement-learning-driven vulnerability discovery for WAFs.
+  [RAT: Reinforcement-Learning-Driven and Adaptive Testing for Vulnerability Discovery in Web Application Firewalls](https://ieeexplore.ieee.org/abstract/document/9477095).
+- **AutoAttacker** – RL-based black-box adversarial example discovery.
+  [AutoAttacker: A Reinforcement Learning Approach for Black-Box Adversarial Attacks](https://ieeexplore.ieee.org/abstract/document/8802476).
+
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine
 attacks over time. Defenders should audit reward models and monitor for
