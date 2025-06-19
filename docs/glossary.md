@@ -403,6 +403,11 @@ Machine-readable index built from document metadata.
 
 ### link_archive.json
 Snapshots of external URLs for offline reference.
+### extraction_log.json
+Records mappings from each URL to its hashed Markdown copy.
+
+### Hashed extraction files
+Markdown pages named with 10-character hashes under `extractions1/`. Each file stores archived content from the corresponding link.
 
 ### requirements.txt
 Python packages required to run the helper scripts.
@@ -412,3 +417,18 @@ CycloneDX software bill of materials for provenance auditing.
 
 ### URLs
 Index of all external links referenced across the catalog.
+
+### README.md
+Project overview and usage instructions.
+
+### CONTRIBUTING.md
+Guide for submitting improvements.
+
+### LICENSE
+MIT license covering repository content.
+
+### mkdocs.yml
+Configuration file for building the documentation site.
+
+### fixes-1.md
+Example issue log demonstrating planned fixes.
