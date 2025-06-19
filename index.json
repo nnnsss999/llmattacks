@@ -227,6 +227,13 @@
       "category": "Zero-Day",
       "sub_category": "",
       "date_collected": "2025-06-19"
+    },
+    {
+      "title": "Additional Zero-Day Resources 2036",
+      "path": "zero-day-resources-2036.md",
+      "category": "Zero-Day",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
     }
   ],
   "Uncategorized": [
