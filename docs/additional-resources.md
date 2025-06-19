@@ -100,6 +100,11 @@ Additional references collected after the original snapshot:
 - [LLM Adversarial Attacks: Malicious Prompting](https://dev.to/gssakash/llm-adversarial-attacks-how-are-attackers-maliciously-prompting-llms-and-steps-to-safeguard-your-applications-4gfj)
 - [Understanding LLM Context Windows, Tokens, Attention and Challenges](https://medium.com/@tahirbalarabe2/understanding-llm-context-windows-tokens-attention-and-challenges-c98e140f174d)
 - [Many-shot Jailbreaking (NeurIPS 2024)](https://openreview.net/forum?id=cw5mgd71jW)
+- [Many-shot jailbreaking: How expanded context windows in AI models led to a new vulnerability (Medium)](https://medium.com/@_jeremy_/many-shot-jailbreaking-how-expanded-context-windows-in-ai-models-led-to-a-new-vulnerability-37055b2f11d4)
+- [Many-shot jailbreaking: A new LLM vulnerability (Prompt Security Blog)](https://www.prompt.security/blog/many-shot-jailbreaking-a-new-llm-vulnerability)
+- [Context window overflow: Breaking the barrier (AWS Security Blog)](https://aws.amazon.com/blogs/security/context-window-overflow-breaking-the-barrier/)
+- [RAG in the era of LLMs with 10 million token context windows (F5 Blog)](https://www.f5.com/company/blog/rag-in-the-era-of-llms-with-10-million-token-context-windows)
+- [Understanding LLM context windows: tokens, attention, and challenges (IBM Think Blog)](https://www.ibm.com/think/topics/context-window)
 - [Image Hijacks: Adversarial Images can Control Generative Models](http://arxiv.org/abs/2309.00236)
 These references track emerging threats and defence research through 2026 and are regularly reviewed for new developments.
 - [Vulnhuntr: Autonomous AI Finds First 0-Day Vulnerabilities in Wild](https://protectai.com/threat-research/vulnhuntr-first-0-day-vulnerabilities)
