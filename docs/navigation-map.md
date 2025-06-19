@@ -64,6 +64,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `alignment-aware-mea.md` — alignment-aware model extraction attacks
 - `gradient-leakage-inversion.md` — gradient leakage and inversion via LoRA
 - `lord-distillation.html` — distillation-based model leakage
+- `malware-generation-llm.md` — abuse of jailbroken models to craft malware
 - `membership-inference.md` — survey of membership inference attacks
 - `membership-inference.html` — news article on membership inference
 - `owasp-llm04-dos.html` — OWASP denial-of-service guidance
@@ -85,7 +86,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 ### multimodal/
 - `audio-steganography-jailbreak.md` — audio-based hidden prompts
 - `image-obscuring-jailbreak.md` — obscured image jailbreak technique
-- `imgJP.html` — visual jailbreak demonstration
+- `imgjp.html` — visual jailbreak demonstration
 - `naturalistic-patch-arxiv.html` — adversarial patch attack paper
 - `visual-jailbreaking.html` — blog post on visual jailbreaks
 
@@ -137,13 +138,14 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `adversarial-preference-learning.md` — adversarial preference corruption
 
 ### Other docs
-- `Comprehensive Catalog of LLM Jailbreaking and Attack Techniques.md` — master catalog document
+- `comprehensive-catalog-of-llm-jailbreaking-and-attack-techniques.md` — master catalog document
 - `attack-defense-matrix.md` — mapping of attacks to defences
 - `index.md` — landing page for the documentation site
 - `pdf-extract.md` — plain text extracted from the PDF catalog
 - `glossary.md` — definitions of common terms across the catalog
 - `navigation-map.md` — this file describing all repository contents
 - `additional-resources.md` — curated external readings
+- `zero-day-resources.md` — references on newly disclosed LLM vulnerabilities
 - `urls.md` — list of referenced URLs used for analysis
 - `llm-attack-catalog.md` — printable markdown version of the master catalog
 
