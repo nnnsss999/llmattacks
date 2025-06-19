@@ -7978,6 +7978,18 @@ https://arxiv.org/abs/2405.04403
 https://arxiv.org/abs/2406.07057
 https://arxiv.org/abs/2502.06390
 - https://www.whatsapp.com/stayconnected
+- https://www.pku-exploit.com/seminar/2025/03/18/seminar-67
+- https://ieeexplore.ieee.org/document/11023298
+- https://fuzzing.io/Presentations/The%20DL%20on%20LLM%20Code%20Analysis%20-%20CanSecWest24%20-%20rjohnson.pdf
+- https://rainjamesy.github.io/slides/FuzzLLM.pdf
+- https://github.com/Invicti-Security/brainstorm
+- https://github.com/asmitaj08/FuzzingBusyBox_LLM
+- https://github.com/livingbio/fuzzy-json
+- https://github.com/user1342/AutoCorpus
+- https://github.com/tact-lang/llm-fuzz
+- https://github.com/SoftSec-KAIST/LLM1dFuzz
+- https://github.com/Neroxeles/fuzzing-web-api-with-llm
+- https://github.com/RainJamesY/FuzzLLM
 - https://www.wired.com
 - https://www.wired.com/feed/rss
 - https://www.wired.com/story/researchers-llm-ai-robot-violence
