@@ -46,6 +46,11 @@ Below is a curated set of external articles, blog posts and reports that further
 - [VulnHuntr: Zero Shot Vulnerability Discovery Using LLMs](https://github.com/protectai/vulnhuntr)
 - [LLM Embedding Attack Repository](https://github.com/SchwinnL/LLM_Embedding_Attack)
 
+- [Attacking Large Language Models with Projected Gradient Descent](https://arxiv.org/abs/2402.09154)
+- [TAG: Gradient Attack on Transformer-based Language Models](https://aclanthology.org/2021.findings-emnlp.305/)
+- [Gradient-based Adversarial Attacks against Text Transformers](https://blogs.night-wolf.io/gradient-based-adversarial-attacks-against-text-transformers)
+- [Uncovering Gradient Inversion Risks in Practical Language Model Training](https://dl.acm.org/doi/abs/10.1145/3658644.3690292)
+
 Additional references collected after the original snapshot:
 
 - [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/)
