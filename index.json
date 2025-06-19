@@ -1,15 +1,15 @@
 {
   "Overview": [
     {
-      "title": "Additional Resources on LLM Attacks",
-      "path": "additional-resources.md",
+      "title": "Attack\u2013Defence Matrix",
+      "path": "attack-defense-matrix.md",
       "category": "Overview",
       "sub_category": "",
       "date_collected": "2025-06-18"
     },
     {
-      "title": "Attack\u2013Defence Matrix",
-      "path": "attack-defense-matrix.md",
+      "title": "Additional Resources on LLM Attacks",
+      "path": "additional-resources.md",
       "category": "Overview",
       "sub_category": "",
       "date_collected": "2025-06-18"
@@ -47,69 +47,18 @@
       "date_collected": "2025-06-18"
     }
   ],
-  "Agentic": [
+  "Latent Space": [
     {
-      "title": "Agent Toolchain Privilege Escalation",
-      "path": "agentic/agent-toolchain-priv-escalation.md",
-      "category": "Agentic",
+      "title": "Latent Space Attack Resources",
+      "path": "latent-space/latent-space-attack-resources.md",
+      "category": "Latent Space",
       "sub_category": "",
       "date_collected": "2025-06-18"
     },
     {
-      "title": "Necromancer Self-Replication Attack",
-      "path": "agentic/necromancer-attack.md",
-      "category": "Agentic",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    },
-    {
-      "title": "Agentic and Physical-World Misuse",
-      "path": "agentic/index.md",
-      "category": "Agentic",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    }
-  ],
-  "Inference": [
-    {
-      "title": "Alignment-Aware Model Extraction Attacks",
-      "path": "inference/alignment-aware-mea.md",
-      "category": "Inference",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    },
-    {
-      "title": "Membership Inference Attacks on Large-Scale Models: A Survey",
-      "path": "inference/membership-inference.md",
-      "category": "Inference",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    },
-    {
-      "title": "Timing Side-Channel Extraction",
-      "path": "inference/timing-side-channel.md",
-      "category": "Inference",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    },
-    {
-      "title": "Safety Filter Timing Side-Channel",
-      "path": "inference/safety-filter-timing-side-channel.md",
-      "category": "Inference",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    },
-    {
-      "title": "Malware Generation Using Jailbroken LLMs",
-      "path": "inference/malware-generation-llm.md",
-      "category": "Inference",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    },
-    {
-      "title": "Gradient Leakage and Model Inversion via LoRA",
-      "path": "inference/gradient-leakage-inversion.md",
-      "category": "Inference",
+      "title": "Embedding Inversion Attacks",
+      "path": "embedding/index.md",
+      "category": "Latent Space",
       "sub_category": "",
       "date_collected": "2025-06-18"
     }
@@ -148,8 +97,8 @@
       "date_collected": "2025-06-18"
     },
     {
-      "title": "Adversarial Preference Learning",
-      "path": "data-poisoning/adversarial-preference-learning.md",
+      "title": "BadReward Clean-Label Poisoning",
+      "path": "data-poisoning/badreward-clean-label.md",
       "category": "Training Alignment",
       "sub_category": "Data Poisoning",
       "date_collected": "2025-06-18"
@@ -162,8 +111,8 @@
       "date_collected": "2025-06-18"
     },
     {
-      "title": "BadReward Clean-Label Poisoning",
-      "path": "data-poisoning/badreward-clean-label.md",
+      "title": "Adversarial Preference Learning",
+      "path": "data-poisoning/adversarial-preference-learning.md",
       "category": "Training Alignment",
       "sub_category": "Data Poisoning",
       "date_collected": "2025-06-18"
@@ -178,27 +127,85 @@
       "date_collected": "2025-06-18"
     }
   ],
-  "Latent Space": [
+  "Multimodal": [
     {
-      "title": "Embedding Inversion Attacks",
-      "path": "embedding/index.md",
-      "category": "Latent Space",
+      "title": "Audio Steganography Jailbreak",
+      "path": "multimodal/audio-steganography-jailbreak.md",
+      "category": "Multimodal",
       "sub_category": "",
       "date_collected": "2025-06-18"
-    }
-  ],
-  "Multimodal": [
+    },
     {
       "title": "Image Obscuring Jailbreak",
       "path": "multimodal/image-obscuring-jailbreak.md",
       "category": "Multimodal",
       "sub_category": "",
       "date_collected": "2025-06-18"
+    }
+  ],
+  "Inference": [
+    {
+      "title": "Safety Filter Timing Side-Channel",
+      "path": "inference/safety-filter-timing-side-channel.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
     },
     {
-      "title": "Audio Steganography Jailbreak",
-      "path": "multimodal/audio-steganography-jailbreak.md",
-      "category": "Multimodal",
+      "title": "Gradient Leakage and Model Inversion via LoRA",
+      "path": "inference/gradient-leakage-inversion.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Membership Inference Attacks on Large-Scale Models: A Survey",
+      "path": "inference/membership-inference.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Malware Generation Using Jailbroken LLMs",
+      "path": "inference/malware-generation-llm.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Alignment-Aware Model Extraction Attacks",
+      "path": "inference/alignment-aware-mea.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Timing Side-Channel Extraction",
+      "path": "inference/timing-side-channel.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    }
+  ],
+  "Agentic": [
+    {
+      "title": "Agentic and Physical-World Misuse",
+      "path": "agentic/index.md",
+      "category": "Agentic",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Necromancer Self-Replication Attack",
+      "path": "agentic/necromancer-attack.md",
+      "category": "Agentic",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Agent Toolchain Privilege Escalation",
+      "path": "agentic/agent-toolchain-priv-escalation.md",
+      "category": "Agentic",
       "sub_category": "",
       "date_collected": "2025-06-18"
     }

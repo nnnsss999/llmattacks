@@ -3,6 +3,7 @@ docs/social-engineering/social-engineering-overview.html
 docs/linguistic-manipulation/language-games-arxiv.html
 docs/latent-space/obfuscated-activations.html
 docs/latent-space/apexhq-latentspace.html
+docs/latent-space/latent-space-attack-resources.md
 docs/pdf-extract.md
 docs/optimization/promptfuzz.html
 docs/optimization/jbfuzz.html

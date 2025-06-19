@@ -77,6 +77,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `function-routing-jailbreak.html` — abuse of function-calling routing
 
 ### latent-space/
+- `latent-space-attack-resources.md` — curated latent space references
 - `apexhq-latentspace.html` — attack on latent representations
 - `obfuscated-activations.html` — obfuscating activations during alignment
 
