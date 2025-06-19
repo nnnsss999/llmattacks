@@ -59,6 +59,20 @@ Key references include:
 - **BertRLFuzzer** – a BERT and reinforcement learning fuzzer that mutates prompts
   to trigger vulnerabilities.
   [BertRLFuzzer: A BERT and Reinforcement Learning Based Fuzzer](https://openreview.net/forum?id=2nB9XgrtrV).
+- **AgentFuzz** – reinforcement learning-based fuzzing framework targeting chatbot models.
+  [AgentFuzz: Reinforcement Learning-Based Fuzzer for Chatbots](https://arxiv.org/abs/2410.12588).
+- **Black-Box Reward Poisoning** – targeted reward poisoning attacks that steer
+  online deep RL agents toward attacker-chosen policies.
+  [Black-Box Targeted Reward Poisoning Attack Against Online Deep Reinforcement Learning](https://arxiv.org/abs/2305.10681).
+- **Deep-Attack over DRL** – reinforcement learning attack methodology that selects
+  strategic perturbation timings using a learned policy.
+  [Deep-Attack over the Deep Reinforcement Learning](https://arxiv.org/abs/2205.00807).
+- **Federated RL with Adversaries** – explores adaptive attack methods against
+  multi-task federated reinforcement learning.
+  [Multi-Task Federated Reinforcement Learning with Adversaries](https://arxiv.org/abs/2103.06473).
+- **Adversarial RL for Recommender Systems** – analyzes attacks and detection
+  techniques on RL-based interactive recommendation engines.
+  [Adversarial Attacks and Detection on Reinforcement Learning-Based Interactive Recommender Systems](https://arxiv.org/abs/2006.07934).
 - **Autonomous Resilient Cyber Defence** – RL agents probe networks to find weaknesses.
   [Reinforcement Learning for Autonomous Resilient Cyber Defence](https://www.fnc.co.uk/media/mwcnckij/us-24-milesfarmer-reinforcementlearningforautonomousresilientcyberdefence-wp.pdf).
 - **Zero-Day Identification with RL** – uses reinforcement learning to surface new vulnerabilities.

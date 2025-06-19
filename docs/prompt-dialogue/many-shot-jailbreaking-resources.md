@@ -53,3 +53,9 @@ The following articles and research papers document the
 - [Anthropic investigated a jailbreaking technique (The AI Notebook)](https://theainotebook.substack.com/p/anthropic-investigated-a-jailbreaking)
 - [Many-shot Jailbreaking | Proceedings of the 38th International Conference on Machine Learning](https://dl.acm.org/doi/10.5555/3737916.3742037)
 
+- [Breaking Safeguards: Unveil "Many-Shot Jailbreaking" a Method to Bypass All LLM Safety Measures (InfoSec Write-ups)](https://infosecwriteups.com/breaking-safeguards-unveil-many-shot-jailbreaking-a-method-to-bypass-all-llm-safety-measures-2d188ebc12fb)
+- [Many-shot Jailbreaking in Artificial Intelligence (LinkedIn)](https://www.linkedin.com/pulse/many-shot-jailbreaking-artificial-intelligence-reem-khattab-zudpc)
+- [New AI Jailbreak Method 'Bad Likert Judge' Boosts Attack Success Rates by Over 60% (The Hacker News)](https://thehackernews.com/2025/01/new-ai-jailbreak-method-bad-likert.html)
+- [PANDAS Poster at ICML 2025](https://icml.cc/virtual/2025/poster/43847)
+- [SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents (Anthropic Research)](https://www.anthropic.com/research/shade-arena-sabotage-monitoring)
+

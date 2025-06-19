@@ -212,6 +212,13 @@
       "category": "Prompt Dialogue",
       "sub_category": "",
       "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Prompt Engineering Attack Resources 2031",
+      "path": "prompt-dialogue/prompt-engineering-resources-2031.md",
+      "category": "Prompt Dialogue",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
     }
   ],
   "Tokenization": [
@@ -346,6 +353,13 @@
       "category": "Linguistic Manipulation",
       "sub_category": "",
       "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Linguistic Manipulation Resources 2030",
+      "path": "linguistic-manipulation/linguistic-manipulation-resources-2030.md",
+      "category": "Linguistic Manipulation",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
     }
   ],
   "Fuzzing": [
@@ -644,6 +658,13 @@
       "category": "Optimization",
       "sub_category": "",
       "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Evolutionary Algorithm Resources 2028",
+      "path": "optimization/evolutionary-resources-2028.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
     }
   ]
 }
