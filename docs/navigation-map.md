@@ -91,6 +91,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `naturalistic-patch-arxiv.html` — adversarial patch attack paper
 - `visual-jailbreaking.html` — blog post on visual jailbreaks
 - `visual-jailbreaking-resources.md` — curated references on multimodal jailbreaks
+- `image-based-attack-resources.md` — additional references on using images for jailbreaks
 
 ### optimization/
 - `amplegcg.html` — prompt search with Monte Carlo
