@@ -83,3 +83,12 @@ The following sources examine how adversaries exploit an LLM's context window. T
 - [Token Smuggling for Prompt Injection (Lakera AI)](https://www.lakera.ai/blog/token-smuggling)
 - [Token-Smuggling: The Hidden Threat to A.I. and GPT Models (Hashdork)](https://hashdork.com/token-smuggling/)
 - [AI Guardrail Vulnerability Exposed: How Emoji Smuggling Bypasses LLM Safety Filters (WindowsForum)](https://windowsforum.com/threads/ai-guardrail-vulnerability-exposed-how-emoji-smuggling-bypasses-llm-safety-filters.365061/)
+
+- [MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning Attention (arXiv:2506.13585)](https://arxiv.org/abs/2506.13585)
+- [LongLLaDA: Unlocking Long Context Capabilities in Diffusion LLMs (alphaXiv 2506.14429)](https://alphaxiv.org/abs/2506.14429)
+- [Gemini Developer API Pricing – 1M token context window (Google AI for Developers)](https://ai.google.dev/pricing#1_5flash)
+- [Gemini 1.5 Flash Models (Google AI for Developers)](https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-flash)
+- [Introducing Llama 3.1: Our Most Capable Models to Date (Meta AI Blog)](http://ai.meta.com/blog/meta-llama-3-1)
+- [Expanding our open source large language models responsibly (Meta AI Blog)](https://ai.meta.com/blog/meta-llama-3-1-ai-responsibility)
+- [LLM Adversarial Attacks: How Attackers Maliciously Prompt LLMs and Steps to Safeguard Your Applications (Dev.to)](https://dev.to/gssakash/llm-adversarial-attacks-how-are-attackers-maliciously-prompting-llms-and-steps-to-safeguard-your-applications-4gfj)
+- [Image Hijacks: Adversarial Images Can Control Generative Models at Runtime (arXiv:2309.00236)](http://arxiv.org/abs/2309.00236)
