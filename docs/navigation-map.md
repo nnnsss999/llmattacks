@@ -20,6 +20,8 @@ Directories are shown as headings with bullet points for each file.
 - `link_archive.json` — cached external links for offline builds
 - `mkdocs.yml` — configuration for the documentation site
 - `sbom.json` — CycloneDX software bill of materials
+- `catalog_content.md` — full text of the catalog with citations
+- `docs_files.txt` — list of document paths used by build scripts
 
 ## docs/
 Primary source articles grouped by theme. Markdown files include YAML front matter; HTML files mirror external sources.
@@ -118,6 +120,8 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `attack-defense-matrix.md` — mapping of attacks to defences
 - `index.md` — landing page for the documentation site
 - `pdf-extract.md` — plain text extracted from the PDF catalog
+- `glossary.md` — definitions of common terms across the catalog
+- `navigation-map.md` — this file describing all repository contents
 
 ## original/
 Original sources of the catalog in PDF and Markdown.
