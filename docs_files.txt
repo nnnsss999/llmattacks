@@ -113,3 +113,5 @@ docs/multimodal/visual-jailbreaking-resources-2032.md
 docs/zero-day-resources-2028.md
 docs/zero-day-resources-2032.md
 docs/zero-day-resources-2033.md
+docs/supply-chain/anthropic-rsp-supply-chain-controls.md
+docs/supply-chain/additional-supply-chain-resources-2026.md
