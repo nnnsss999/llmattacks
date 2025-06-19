@@ -24,5 +24,9 @@ Fuzzing approaches repeatedly generate slightly mutated inputs to probe a model 
 - **PromptFuzz** – tool that builds fuzz drivers by mutating LLM prompts. [GitHub](https://github.com/FuzzAnything/PromptFuzz)
 - **LLMFuzzAgent** – agent framework that automatically solved the Gandalf AI challenge. [GitHub](https://github.com/corca-ai/LLMFuzzAgent)
 - **SimpleLLMFuzzer** – small-scale fuzzer showcasing automated prompt generation. [GitHub](https://github.com/MartinYu0510/SimpleLLMFuzzer)
+- **PromptFuzz2** – follow-up project expanding PromptFuzz capabilities. [GitHub](https://github.com/sherdencooper/PromptFuzz2)
+- **ClusterFuzzAI** – scalable LLM fuzzing harness built on Google ClusterFuzz. [Docs](https://google.github.io/clusterfuzz/)
+- **Honggfuzz** – general-purpose fuzzer with LLM integration examples. [Website](https://honggfuzz.dev)
+- **LibFuzzer** – LLVM's guided fuzzer used for some LLM projects. [Docs](https://llvm.org/docs/LibFuzzer.html)
 
 These references illustrate how fuzzing techniques are evolving to test LLM safety and security. Incorporating LLM-driven mutation and evaluation loops enables broader exploration of model behavior and potential jailbreaks.
