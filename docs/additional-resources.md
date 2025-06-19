@@ -153,3 +153,4 @@ These references track emerging threats and defence research through 2026 and ar
 - [Prompt Engineering Attack Resources 2026](prompt-dialogue/prompt-engineering-resources-2026.md)
 - [Fuzzing Resources 2026](fuzzing/fuzzing-resources-2026.md)
 - [Fuzzing Resources 2027](fuzzing/fuzzing-resources-2027.md)
+- [Fuzzing Resources 2028](fuzzing/fuzzing-resources-2028.md)
