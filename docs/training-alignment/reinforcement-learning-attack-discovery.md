@@ -174,6 +174,23 @@ Additional papers highlight emerging RL-driven attack vectors:
 - **RL-Driven Attack Agents** – open-source framework that continuously discovers new jailbreaks.
   [RL-AgentLab: Reinforcement Learning Agents for Automated Security Testing](https://github.com/example/rl-agentlab).
 
+- **TrojanTO** – action-level backdoor attacks compromise trajectory optimization models.
+  [TrojanTO: Action-Level Backdoor Attacks against Trajectory Optimization Models](https://arxiv.org/abs/2506.12815).
+- **Collapsing Sequence-Level Coverage** – poisoning attack limits exploration in offline RL.
+  [Collapsing Sequence-Level Data-Policy Coverage via Poisoning Attack in Offline Reinforcement Learning](https://arxiv.org/abs/2506.11172).
+- **GenBreak** – RL-guided red teaming uncovers vulnerabilities in text-to-image generators.
+  [GenBreak: Red Teaming Text-to-Image Generators Using Large Language Models](https://arxiv.org/abs/2506.10047).
+- **TooBadRL** – optimized triggers strengthen backdoor attacks on deep RL agents.
+  [TooBadRL: Trigger Optimization to Boost Effectiveness of Backdoor Attacks on Deep Reinforcement Learning](https://arxiv.org/abs/2506.09562).
+- **Efficient RL Cache Fuzzing** – penalizes useless actions to expose cache vulnerabilities.
+  [Efficient RL-based Cache Vulnerability Exploration by Penalizing Useless Agent Actions](https://arxiv.org/abs/2506.07200).
+- **Interpreting RL Cyber Agents** – analyzes behavior in RL-based cyber-battle simulations.
+  [Interpreting Agent Behaviors in Reinforcement-Learning-Based Cyber-Battle Simulation Platforms](https://arxiv.org/abs/2310.06858).
+- **Jailbreak-R1** – automated red teaming trains RL policies to break model guardrails.
+  [Jailbreak-R1: Exploring the Jailbreak Capabilities of LLMs via Reinforcement Learning](https://arxiv.org/abs/2506.00782).
+- **Reward Poisoning in In-Context RL** – evaluates recovery from corrupted rewards.
+  [Can In-Context Reinforcement Learning Recover From Reward Poisoning Attacks?](https://arxiv.org/abs/2208.13663).
+
 Additional references covering reinforcement learning for cyber-attack discovery:
 
 - **CyberBattleSim** – open-source simulation environment for training RL agents to compromise networks.
