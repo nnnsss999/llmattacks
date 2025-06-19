@@ -358,6 +358,7 @@
   },
   "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2010.15980&description=AutoPrompt:": {
     "existing": "@extractions1/9b97304fec.md"
+    "saved_as": "9b97304fec.md"
   },
   "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2012.07805&description=Extracting": {
     "existing": "extractions1/1c5a8c8f11.md"
@@ -403,5 +404,71 @@
   },
   "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2304.14178&description=mPLUG-Owl": {
     "existing": "extractions1/de459badac.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2304.14178&description=mPLUG-Owl:": {
+    "saved_as": "806a079fca.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2305.13860&description=Jailbreaking": {
+    "existing": "extractions1/da9765b354.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2306.05499&description=Prompt": {
+    "existing": "extractions1/8dbb67d9d5.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2306.13588&description=System-Level": {
+    "existing": "extractions1/94f610dc7f.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2307.02483&description=Jailbroken": {
+    "existing": "extractions1/8110db0944.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2307.02483&description=Jailbroken:": {
+    "saved_as": "6eb355f759.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2307.06865&description=Effective": {
+    "existing": "extractions1/b42f141655.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2307.08715&description=MasterKey": {
+    "existing": "extractions1/65f04b46c5.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2307.08715&description=MasterKey:": {
+    "saved_as": "67063bd3f6.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2307.15043&description=Universal": {
+    "existing": "extractions1/e442e944b0.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.00236&description=Image": {
+    "existing": "extractions1/95cf480fd1.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.01446&description=Open": {
+    "existing": "extractions1/7210c0b565.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.03409&description=Large": {
+    "existing": "extractions1/55740ab119.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.10253&description=GPTFUZZER": {
+    "existing": "extractions1/ff584c6590.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.10253&description=GPTFUZZER:": {
+    "saved_as": "857a7a915a.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.11053&description=Fed-LSAE": {
+    "existing": "extractions1/bffd2375e8.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.11053&description=Fed-LSAE:": {
+    "saved_as": "a272d8562d.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.11751&description=How": {
+    "existing": "extractions1/1dac1c1129.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.15840&description=How": {
+    "existing": "extractions1/ff591f0a61.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2310.06987&description=Catastrophic": {
+    "existing": "extractions1/b4fda79c4e.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2311.09127&description=Jailbreaking": {
+    "existing": "extractions1/b73e732d58.md"
+  },
+  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2312.11513&description=Maatphor": {
+    "saved_as": "2322d4200e.md"
   }
 }

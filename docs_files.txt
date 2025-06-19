@@ -3,6 +3,7 @@ docs/social-engineering/social-engineering-overview.html
 docs/linguistic-manipulation/language-games-arxiv.html
 docs/latent-space/obfuscated-activations.html
 docs/latent-space/apexhq-latentspace.html
+docs/latent-space/latent-space-attack-resources.md
 docs/pdf-extract.md
 docs/optimization/promptfuzz.html
 docs/optimization/jbfuzz.html
@@ -62,3 +63,8 @@ docs/prompt-dialogue/unicode-homograph-jailbreak.md
 docs/agentic/necromancer-attack.md
 docs/additional-resources.md
 docs/zero-day-resources.md
+docs/optimization/projected-gradient-descent-attack.md
+docs/optimization/tag-gradient-attack.md
+docs/optimization/gradient-based-adversarial-transformers.md
+docs/inference/practical-gradient-inversion.md
+docs/training-alignment/gradient-hacking.md
