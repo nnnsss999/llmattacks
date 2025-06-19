@@ -72,6 +72,14 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 - Broken links are checked via `lychee` in CI.
 - A scheduled workflow refreshes external links weekly and stores Wayback Machine snapshots in `link_archive.json`.
 
+## URL Extraction
+
+`docs/urls.md` enumerates articles and papers for future inclusion in the catalog.
+Run `python scripts/extract_urls.py` to download each resource and convert it to
+Markdown in the `extractions1/` directory. URLs already represented in `docs/`
+are skipped automatically. A summary of processed links is written to
+`extractions1/extraction_log.json`.
+
 ## Contributing
 
 Contributions are welcome! Please review [CONTRIBUTING.md](CONTRIBUTING.md) for coding style and front‑matter guidelines. All content must respect the project license and third‑party terms.
