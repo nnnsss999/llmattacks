@@ -246,6 +246,8 @@ These references track emerging threats and defence research through 2026 and ar
 - [Fuzzing Resources 2032](fuzzing/fuzzing-resources-2032.md)
 - [Fuzzing Resources 2033](fuzzing/fuzzing-resources-2033.md)
 - [Fuzzing Resources 2034](fuzzing/fuzzing-resources-2034.md)
+- [Fuzzing Resources 2035](fuzzing/fuzzing-resources-2035.md)
+- [Fuzzing Resources 2036](fuzzing/fuzzing-resources-2036.md)
 - [Additional Resources on LLM Attacks 2031](additional-resources-2031.md)
 - [Additional Resources on LLM Attacks 2032](additional-resources-2032.md)
 - [Authority Simulation Attack Resources 2026](social-engineering/authority-simulation-resources-2026.md)
