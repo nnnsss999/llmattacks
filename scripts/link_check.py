@@ -3,6 +3,7 @@
 from pathlib import Path
 import json
 import re
+import os
 import requests
 import sys
 
@@ -37,12 +38,19 @@ def check(url: str) -> bool:
 
 def main():
     failed = False
+    max_links = int(os.getenv('FAST_LINK_CHECK', '0'))
+    count = 0
     for path in Path('docs').rglob('*.md'):
         text = path.read_text(encoding='utf-8')
         for link in LINK_RE.findall(text):
+            if max_links and count >= max_links:
+                break
+            count += 1
             if not check(link):
                 print(f"{path}: broken link {link}")
                 failed = True
+        if max_links and count >= max_links:
+            break
     return 1 if failed else 0
 
 

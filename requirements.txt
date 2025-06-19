@@ -1,0 +1,4 @@
+requests
+markdownify
+pdfminer.six
+PyYAML
