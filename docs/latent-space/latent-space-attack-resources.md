@@ -28,3 +28,13 @@ The references below explore how adversaries manipulate a model's hidden represe
 - [Uncovering Gradient Inversion Risks in Practical Language Model Training](https://dl.acm.org/doi/abs/10.1145/3658644.3690292) – shows how gradient updates can leak private training data.
 - [PoisonedRAG Dataset](https://github.com/sleeepeer/PoisonedRAG) – resources for poisoning retrieval-augmented generation via manipulated embeddings.
 - [LLM Vector and Embedding Risks and How to Defend Against Them](https://www.sonatype.com/blog/llm-vector-and-embedding-risks-and-how-to-defend-against-them) – analysis of embedding threats and mitigation strategies.
+- [Tapping the Mind of LLMs: Latent Space Activation](https://www.richwashburn.com/post/tapping-the-mind-of-llms-latent-space-activation) – overview of manipulating hidden activations.
+- [Dodging Latent Space Detectors](https://www.cognitiverevolution.ai/dodging-latent-space-detectors-obfuscated-activation-attacks-with-luke-bailey-erik-jenner-an/) – blog post summarizing obfuscated activation attacks.
+- [Generating Adversarial Attacks in the Latent Space](https://openaccess.thecvf.com/content/CVPR2023W/GCV/papers/Shukla_Generating_Adversarial_Attacks_in_the_Latent_Space_CVPRW_2023_paper.pdf) – CVPR 2023 workshop paper on latent perturbations.
+- [Latent Space Mysteries in Large Language Models](https://medium.com/@eugenesh4work/latent-space-mysteries-in-large-language-models-2d276c6d0708) – high-level discussion of latent representations.
+- [A Guide to Mitigating LLM08:2025 Vector and Embedding Weaknesses](https://www.securityium.com/a-guide-to-mitigating-llm082025-vector-and-embedding-weaknesses/) – defensive measures for embedding attacks.
+- [There and Back Again: An Embedding Attack Journey](https://ironcorelabs.com/blog/2024/text-embedding-privacy-risks/) – explains embedding inversion threats.
+- [LLM-PBE: Assessing Data Privacy in Large Language Models](https://www.vldb.org/pvldb/vol17/p3201-li.pdf) – framework analyzing privacy leakage via embeddings.
+- [Transferable Embedding Inversion Attack](https://aclanthology.org/2024.acl-long.230/) – cross-model inversion attack demonstration.
+- [Understanding Privacy Risks of Embeddings Induced by LLMs](https://arxiv.org/html/2404.16587v1) – examines extraction risk from open-source embeddings.
+- [Security and Privacy Challenges of Large Language Models: A Survey](https://dl.acm.org/doi/full/10.1145/3712001) – comprehensive overview including latent-space threats.
