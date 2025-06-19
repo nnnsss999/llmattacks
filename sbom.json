@@ -1340,6 +1340,33 @@
     },
     {
       "type": "file",
+      "name": "multimodal/visual-jailbreaking-resources-2031.md",
+      "bom-ref": "multimodal/visual-jailbreaking-resources-2031.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Visual Jailbreaking Resources 2031"
+        },
+        {
+          "name": "category",
+          "value": "Multimodal"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "navigation-map.md",
       "bom-ref": "navigation-map.md",
       "properties": [

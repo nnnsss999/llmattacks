@@ -1,0 +1,1510 @@
+<!doctype html><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" > <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en" >        <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en" >               <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="Karlo Zanki">
+    <meta name="description" content="Developers working on machine learning take note: RL threat researchers have identified nullifAI, a novel attack technique used on Hugging Face. ">
+    <meta name="generator" content="HubSpot">
+    <title>Malicious ML models discovered on Hugging Face platform</title>
+    <link rel="shortcut icon" href="https://www.reversinglabs.com/hubfs/favicons/RL.svg">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:description" content="Developers working on machine learning take note: RL threat researchers have identified nullifAI, a novel attack technique used on Hugging Face. ">
+    <meta property="og:title" content="Malicious ML models discovered on Hugging Face platform">
+    <meta name="twitter:description" content="Developers working on machine learning take note: RL threat researchers have identified nullifAI, a novel attack technique used on Hugging Face. ">
+    <meta name="twitter:title" content="Malicious ML models discovered on Hugging Face platform">
+
+    
+
+    
+
+    <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+<link rel="stylesheet" href="https://www.reversinglabs.com/hs-fs/hubfs/hub_generated/template_assets/1/11708570900/1742041223984/template_tag-list.min.css">
+
+    
+
+
+    
+<!--  Added by GoogleTagManager integration -->
+
+
+<!-- /Added by GoogleTagManager integration -->
+
+
+<meta name="google-site-verification" content="s4v_9FTp-yOMSOIG-AncB-m4uIke9tNd3uRdYtnJlic">
+<meta name="google-site-verification" content="kKomAs_6Qe6aWHn_7A2Q-cdioJZZAlhGUMHYC-BTuqs">
+<link rel="shortcut icon" href="https://www.reversinglabs.com/hubfs/favicons/favicon.ico?v=XBJLaGAQax">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.reversinglabs.com/hubfs/favicons/apple-touch-icon.png?v=XBJLaGAQax">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.reversinglabs.com/hubfs/favicons/favicon-32x32.png?v=XBJLaGAQax">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.reversinglabs.com/hubfs/favicons/favicon-16x16.png?v=XBJLaGAQax">
+<link rel="manifest" href="https://www.reversinglabs.com/hubfs/favicons/site.webmanifest?v=XBJLaGAQax">
+<link rel="mask-icon" href="https://www.reversinglabs.com/hubfs/favicons/safari-pinned-tab.svg?v=XBJLaGAQax" color="#f6143f">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:site_name" content="ReversingLabs">
+<meta property="og:url" content="https://www.reversinglabs.com/blog/rl-identifies-malware-ml-model-hosted-on-hugging-face">
+<meta name="twitter:site" content="@ReversingLabs">
+<meta name="twitter:creator" content="@ReversingLabs">
+<!-- preload -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&amp;display=swap" as="style">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600&amp;display=swap" as="style">
+<link rel="preload" href="//3375217.fs1.hubspotusercontent-na1.net/hubfs/3375217/raw_assets/public/Redesign_2023/icons/fonts/rl-icons.woff" as="font" type="font/woff" crossorigin>
+
+<link rel="preload" href="https://www.reversinglabs.com/hs-fs/hubfs/hub_generated/template_assets/1/137900387987/1749471003673/template_main.min.css" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="https://cdn2.hubspot.net/hub/7052064/hub_generated/template_assets/1727366005552/hubspot/hubspot_default/shared/responsive/layout.min.css" as="style" onload="this.rel='stylesheet'">
+
+<!-- end preload -->
+
+
+
+
+
+<!--PF tracking cocde-->
+
+<!--End PF tracking cocde-->
+<meta property="og:image" content="https://www.reversinglabs.com/hubfs/Blog/hugging-face-blog.webp">
+<meta property="og:image:width" content="1400">
+<meta property="og:image:height" content="732">
+<meta property="og:image:alt" content="RL identifies malware in Hugging Face ML model">
+<meta name="twitter:image" content="https://www.reversinglabs.com/hubfs/Blog/hugging-face-blog.webp">
+<meta name="twitter:image:alt" content="RL identifies malware in Hugging Face ML model">
+
+<meta property="og:url" content="https://www.reversinglabs.com/blog/rl-identifies-malware-ml-model-hosted-on-hugging-face">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="canonical" href="https://www.reversinglabs.com/blog/rl-identifies-malware-ml-model-hosted-on-hugging-face">
+<style id="HideElements" type="text/plain">
+
+body.hs-blog-post, body.hs-site-page {
+    padding-top: 0px !important;
+}
+
+.hs-blog-post .header-container-wrapper, .hs-site-page .header-container-wrapper {
+    display: none;
+}
+
+div#hs-web-interactives-bottom-anchor {
+    display: none;
+}
+
+div#hs-web-interactives-top-anchor {
+    display: none;
+}
+
+div.span3.widget-span.widget-type-cell {
+    display: none;
+}
+
+.row-fluid .span9 {
+    width: 100% !important;
+}
+
+.row-fluid .span3 {
+    width: 0px !important;
+}
+
+.span9.widget-span.widget-type-cell {
+    padding-right: 0px;
+    border-right: 0px;
+}
+
+.blog__post-topic-date, .blog-author__short, ul.blog-post__social-list, ul.tag-list-inline,  {
+    display: none;
+}
+
+div.blog__post-content div, div.blog-post h2 {
+    display: none !important;
+}
+
+.blog__listing-item.blog__listing-item--more {
+    display: none;
+}
+
+.footer-container-wrapper {
+    display: none;
+}
+
+</style>
+
+
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/rss+xml" href="https://www.reversinglabs.com/blog/rss.xml">
+<meta name="twitter:domain" content="www.reversinglabs.com">
+<meta name="twitter:site" content="@ReversingLabs">
+
+
+<meta http-equiv="content-language" content="en">
+<link rel="stylesheet" href="//7052064.fs1.hubspotusercontent-na1.net/hubfs/7052064/hub_generated/template_assets/DEFAULT_ASSET/1750190556014/template_layout.min.css">
+
+<link rel="stylesheet" href="https://www.reversinglabs.com/hs-fs/hubfs/hub_generated/template_assets/1/5951651806/1741775780358/template_RL-custom.min.css">
+<link rel="stylesheet" href="https://www.reversinglabs.com/hs-fs/hubfs/hub_generated/template_assets/1/137900387987/1749471003673/template_main.min.css">
+
+
+    
+
+
+  
+  
+   
+
+    
+
+</head>
+<body class="   hs-content-id-185563677006 hs-blog-post hs-blog-id-5901382633" style="">
+<!--  Added by GoogleTagManager integration -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKL9P8B" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- /Added by GoogleTagManager integration -->
+
+    <div class="header-container-wrapper">
+    <div class="header-container container-fluid">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+<div class="" data-global-widget-path="generated_global_groups/137874121636.html"><div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="stickybar__wrap stickybar__on">
+  
+<div class="span12 widget-span widget-type-cell header" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_169642168632599" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+
+
+
+
+  <div class="stickybar" style="opacity: 0;" data-slider-speed="6000" data-cookie-exp="0" data-init-slider="true">
+    <div class="stickybar__inner-container">
+      
+      <div class="stickybar__item" style="background-color: #BCBAFF">
+        <div class="stickybar__text" style="color: #000000"><span style="font-size: 16px;"><strong><span style="font-size: 16px; color: #000000;">2025 Gartner® Market Guide for Software Supply Chain Security</span></strong></span></div>
+        <a class="cta cta--gradient cta--small" style="background-color: #ffffff; color: #ffffff" href="https://www.reversinglabs.com/gartner-market-guide-to-software-supply-chain-security" target="_blank">
+          Read Now
+        </a>
+      </div>
+      
+      <div class="stickybar__item" style="background-color: #BCBAFF">
+        <div class="stickybar__text" style="color: #000000"><span style="font-size: 16px;"><strong><span style="color: #000000;">Modernize Your Malware Analysis</span></strong></span></div>
+        <a class="cta cta--gradient cta--small" style="background-color: #ffffff; color: #ffffff" href="https://www.reversinglabs.com/modern-malware-analysis" target="_blank">
+          Download White Paper
+        </a>
+      </div>
+      
+      <div class="stickybar__item" style="background-color: #BCBAFF">
+        <div class="stickybar__text" style="color: #000000"><span style="font-size: 16px;"><strong><span style="color: #000000;">Looking for an alternative to VirusTotal? We've got you covered.</span></strong></span></div>
+        <a class="cta cta--gradient cta--small" style="background-color: #ffffff; color: #ffffff" href="https://www.reversinglabs.com/reversinglabs-vs-virustotal" target="_blank">
+          Learn More
+        </a>
+      </div>
+      
+    </div>
+    
+      <div class="stickybar__close-btn"><span class="ico close"></span></div>
+    
+  </div>
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1707391924810159" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="main-menu">
+  <div class="main-menu__container main-menu__container-wide">
+  <div class="main-menu__logo">
+    <a href="https://www.reversinglabs.com">
+      <img src="https://www.reversinglabs.com/hubfs/RL%20Logo/rl-logo-long.svg" alt="rl-logo-long" width="233" height="47">
+    </a>
+  </div>
+  <nav class="main-menu__inner">
+    <div class="main-menu__controls">
+      <span class="ico menu-burger"></span>
+      <span class="ico close"></span>
+    </div>
+    <div class="main-menu__items-container">
+      <div class="main-menu__items main-menu__items--main">
+      
+        
+        <div class="main-menu__item main-menu__item--solutions
+            
+            ">
+            <span class="main-menu__item-inner-container">
+              <span class="main-menu__item-text">Solutions</span>
+              <span class="main-menu__item-chevron"></span>
+            </span>  
+            
+              
+              
+              <div class="main-menu__sub-items-container">
+                <div class="main-menu__sub-items">
+                
+               
+                  <div class="main-menu__sub-items-section"> 
+                     <h4 class="text-color--colored-gradient">Software Supply Chain Security </h4>
+                      
+                        
+                          <a href="https://www.reversinglabs.com/solutions/manage-3rd-party-software-risks" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Assess and Manage Third-Party Software</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/solutions/secure-software-release-processes" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Secure Build and Release</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/solutions/secure-virtual-machine-images" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Protect Virtual Machines</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/solutions/open-source-software-security" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Secure Open-Source Software</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/solutions/software-bill-of-materials-sbom-old25" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Go Beyond the SBOM</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                  </div>
+                
+            
+              
+              
+               
+                  <div class="main-menu__sub-items-section"> 
+                     <h4 class="text-color--colored-gradient">File Security </h4>
+                      
+                        
+                          <a href="https://www.reversinglabs.com/solutions/email-threat-scanning" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Increase Email Threat Resilience</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/solutions/secure-file-collaboration" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Detect Malware in File Shares and Storage</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/solutions/advanced-malware-analysis" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Advanced Malware Analysis Suite</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                  </div>
+                
+            
+              
+              
+               
+                  <div class="main-menu__sub-items-section"> 
+                     <h4 class="text-color--colored-gradient">Security Operations </h4>
+                      
+                        
+                          <a href="https://www.reversinglabs.com/solutions/scalable-file-analysis" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Scalable File Analysis</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/solutions/cyber-threat-intelligence" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">High-Fidelity Threat Intelligence</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/solutions/ransomware-feed" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Curated Ransomware Feed</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/solutions/malware-analysis" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Automate Malware Analysis Workflows</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                  </div>
+                
+                </div>
+              </div>
+              
+            
+        </div>
+        
+      
+        
+        <div class="main-menu__item main-menu__item--product-and-technology
+            
+            ">
+            <span class="main-menu__item-inner-container">
+              <span class="main-menu__item-text">Product &amp; Technology</span>
+              <span class="main-menu__item-chevron"></span>
+            </span>  
+            
+              
+              
+              <div class="main-menu__sub-items-container">
+                <div class="main-menu__sub-items">
+                
+               
+                  <div class="main-menu__sub-items-section"> 
+                     <h4 class="text-color--colored-gradient">Products </h4>
+                      
+                        
+                          <a href="https://www.reversinglabs.com/products/software-supply-chain-security" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Spectra Assure</span>
+                            <span class="main-menu__item-description">Software Supply Chain Security</span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/products/spectra-detect" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Spectra Detect</span>
+                            <span class="main-menu__item-description">High-Speed, High-Volume, Large File Analysis</span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/products/spectra-analyze" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Spectra Analyze</span>
+                            <span class="main-menu__item-description">In-Depth Malware Analysis &amp; Hunting for the SOC</span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/products/spectra-intelligence" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Spectra Intelligence</span>
+                            <span class="main-menu__item-description">Authoritative Reputation Data &amp; Intelligence</span>
+                          </a>
+                       
+                     
+                  </div>
+                
+            
+              
+              
+               
+                  <div class="main-menu__sub-items-section"> 
+                     <h4 class="text-color--colored-gradient">Technology </h4>
+                      
+                        
+                          <a href="https://www.reversinglabs.com/products/spectra-core" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Spectra Core</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/integrations" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Integrations</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                  </div>
+                
+                </div>
+              </div>
+              
+            
+        </div>
+        
+      
+        
+        <div class="main-menu__item main-menu__item--industry
+            
+            ">
+            <span class="main-menu__item-inner-container">
+              <span class="main-menu__item-text">Industry</span>
+              <span class="main-menu__item-chevron"></span>
+            </span>  
+            
+              
+              
+              <div class="main-menu__sub-items-container">
+                <div class="main-menu__sub-items">
+                
+               
+                  <div class="main-menu__sub-items-section"> 
+                     <h4 class="text-color--colored-gradient">Industry </h4>
+                      
+                        
+                          <a href="https://www.reversinglabs.com/energy-utilities-cybersecurity" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Energy and Utilities</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/financial-services-cybersecurity" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Finance</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/healthcare-cybersecurity" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Healthcare</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/high-tech-cybersecurity" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">High Tech</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/public-sector-cybersecurity" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Public Sector</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                  </div>
+                
+                </div>
+              </div>
+              
+            
+        </div>
+        
+      
+        
+        <div class="main-menu__item main-menu__item--partners
+            
+            ">
+            <span class="main-menu__item-inner-container">
+              <span class="main-menu__item-text">Partners</span>
+              <span class="main-menu__item-chevron"></span>
+            </span>  
+            
+              
+              
+              <div class="main-menu__sub-items-container">
+                <div class="main-menu__sub-items">
+                
+               
+                  <div class="main-menu__sub-items-section"> 
+                     <h4 class="text-color--colored-gradient">Partners </h4>
+                      
+                        
+                          <a href="https://www.reversinglabs.com/become-a-partner" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Become A Partner</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/value-added-partners" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Value Added Partners</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/integrations" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Technology Partners</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/marketplaces" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Marketplaces</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                  </div>
+                
+            
+              
+              
+               
+                  <div class="main-menu__sub-items-section"> 
+                     <h4 class="text-color--colored-gradient">Alliances </h4>
+                      
+                        
+                          <a href="https://www.reversinglabs.com/alliances" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Alliances</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                  </div>
+                
+                </div>
+              </div>
+              
+            
+        </div>
+        
+      
+        
+        <div class="main-menu__item main-menu__item--resources
+            
+            ">
+            <span class="main-menu__item-inner-container">
+              <span class="main-menu__item-text">Resources</span>
+              <span class="main-menu__item-chevron"></span>
+            </span>  
+            
+              
+              
+              <div class="main-menu__sub-items-container">
+                <div class="main-menu__sub-items">
+                
+               
+                  <div class="main-menu__sub-items-section"> 
+                     <h4 class="text-color--colored-gradient">Resources </h4>
+                      
+                        
+                          <a href="https://www.reversinglabs.com/blog" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Blog</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/resources" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Content Library</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/conversinglabs" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">ConversingLabs Podcast</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/customers" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Customer Stories</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/demo-videos" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">DEMO Videos</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://support.reversinglabs.com/hc/en-us?_gl=1" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Documentation</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/events" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Events &amp; Webinars</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/learning-with-reversinglabs" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Learning with ReversingLabs</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/open-source-yara-rules" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Open Source YARA Rules</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/software-package-deconstruction-series" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Software Deconstruction Demo Series</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                  </div>
+                
+                </div>
+              </div>
+              
+            
+        </div>
+        
+      
+        
+        <div class="main-menu__item main-menu__item--company
+            
+            ">
+            <span class="main-menu__item-inner-container">
+              <span class="main-menu__item-text">Company</span>
+              <span class="main-menu__item-chevron"></span>
+            </span>  
+            
+              
+              
+              <div class="main-menu__sub-items-container">
+                <div class="main-menu__sub-items">
+                
+               
+                  <div class="main-menu__sub-items-section"> 
+                     <h4 class="text-color--colored-gradient">Company </h4>
+                      
+                        
+                          <a href="https://www.reversinglabs.com/company/about-us" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">About Us</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/company/leadership" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Leadership</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/company/careers" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Careers</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/crosspoint-capital-leads-investment-in-software-security-pioneer-reversinglabs" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Series B Investment</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/blog/tag/company-events" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Company News</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                  </div>
+                
+            
+              
+              
+               
+                  <div class="main-menu__sub-items-section"> 
+                     <h4 class="text-color--colored-gradient">Events </h4>
+                      
+                        
+                          <a href="https://www.reversinglabs.com/events" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Events</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                  </div>
+                
+            
+              
+              
+               
+                  <div class="main-menu__sub-items-section"> 
+                     <h4 class="text-color--colored-gradient">Press </h4>
+                      
+                        
+                          <a href="https://www.reversinglabs.com/newsroom/press-releases" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">Press Releases</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                        
+                          <a href="https://www.reversinglabs.com/newsroom/news" class="main-menu__sub-item">
+                            <span class="main-menu__item-text">In the News</span>
+                            <span class="main-menu__item-description"></span>
+                          </a>
+                       
+                     
+                  </div>
+                
+                </div>
+              </div>
+              
+            
+        </div>
+        
+      
+        
+        <a href="https://register.reversinglabs.com/demo" class="main-menu__item main-menu__item--request-a-demo
+            cta cta--small cta--green
+            ">
+          <span class="main-menu__item-text">Request a Demo</span>
+        </a>
+        
+      
+      </div>
+      <div class="main-menu__items main-menu__items--top">
+        
+        
+        <a href="https://www.reversinglabs.com/contact-us" class="main-menu__item 
+            main-menu__item--highlight
+            ">
+          <span class="main-menu__item-text">Contact Us</span>
+        </a>
+        
+        
+        
+        <a href="https://support.reversinglabs.com/hc/en-us" class="main-menu__item 
+            
+            rd-site-menu__item--search">
+          <span class="main-menu__item-text">Support</span>
+        </a>
+        
+        
+        
+        <a href="https://rli.reversinglabs.com/accounts/login/" class="main-menu__item 
+            
+            rd-site-menu__item--search">
+          <span class="main-menu__item-text">Login</span>
+        </a>
+        
+        
+        
+        <a href="https://www.reversinglabs.com/blog" class="main-menu__item 
+            
+            ">
+          <span class="main-menu__item-text">Blog</span>
+        </a>
+        
+        
+        
+        <a href="https://www.secure.software/" class="main-menu__item 
+            
+            rd-site-menu__item--search">
+          <span class="main-menu__item-text">Developer Portal</span>
+        </a>
+        
+        
+        
+        <span class="main-menu__item 
+            main-menu__item--search ico search">
+          <span class="main-menu__item-text">Search</span>
+        </span>
+        
+        
+      </div>
+    </div>
+  </nav>
+</div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_169770816757927" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+<div class="modal modal--search-only micromodal-slide" id="modal-site-search" aria-hidden="true">
+  <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+    <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+      <span class="modal__close" aria-label="Close modal" data-micromodal-close><span class="ico close"></span></span>    
+      <main class="modal__content" id="modal-1-content">
+        <form action="/hs-search-results" class="modal__form">
+          <input type="text" class="hs-search-field__input hs-search-field__input--modal" name="term" autocomplete="off" aria-label="Search" placeholder="Search reversinglabs.com">
+          
+          
+            <input type="hidden" name="type" value="SITE_PAGE">
+          
+          
+            <input type="hidden" name="type" value="LANDING_PAGE">
+          
+          
+            <input type="hidden" name="type" value="BLOG_POST">
+          
+          
+             <input type="hidden" name="limit" value="500">
+          
+            <button aria-label="Search" class="modal__search-button"><span class="ico search"></span></button>
+          
+        </form>
+      </main>
+    </div>
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+ 
+</div>
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+    </div><!--end header -->
+</div><!--end header wrapper -->
+
+<div class="body-container-wrapper">
+    <div class="body-container container-fluid">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_169971693721085" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="title-banner module background-color--blue" ">
+   <div class="title-banner__container module__container">
+     
+        <strong class="title-banner__title">RL Blog</strong>
+     
+  </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="blog__container">
+<div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span9 widget-span widget-type-cell sidebar--on" style="" data-widget-type="cell" data-x="0" data-w="9">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1523032069834331" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-blog_content" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+    <div class="blog__post">
+<div id="hs_cos_wrapper_module_1729596670845328" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"></div>
+<div class="blog__post-topic-date">  
+<span class="blog__post-topic"><div id="hs_cos_wrapper_module_165901111278147" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<!--Threat Research sorted tags -->
+<a class="topic-link" href="https://www.reversinglabs.com/blog/tag/threat-research">Threat Research</a>
+</div></span> | 
+<time class="blog__post-date" datetime="2025-02-06">February 6, 2025 </time>
+</div>
+<div class="blog__post-headings">
+<h1><span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">Malicious ML models discovered on Hugging Face platform</span></h1>
+<div id="hs_cos_wrapper_module_1577203992502740" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<h2 class="post-header__secondary-head blog__post-secondary-h2">Software development teams working on machine learning take note: RL threat researchers have identified nullifAI, a novel attack technique used on Hugging Face. </h2>
+</div>
+</div>
+<div class="blog-author__short">
+<div class="blog-author__short-info">
+<div class="blog-author__short-info__image-container">
+<img class="blog-author__short-info__image" src="https://www.reversinglabs.com/hubfs/Imported_Blog_Media/authors/karlo_zanki.jpg" alt="Karlo Zanki">
+</div>
+<div class="blog-author__short-info__text-container">
+<span class="blog-author__short-info__text-label">Blog Author</span>
+<p class="blog-author__short-info__name-bio">
+Karlo Zanki, Reverse Engineer at ReversingLabs.&nbsp;<a href="https://www.reversinglabs.com/blog/author/karlo-zanki">Read More...</a>
+</p>
+</div>
+</div>
+</div>
+<ul class="share-post share-post--blog">
+<!-- Begin partial -->
+<li><a class="share_facebook share-post__link" href="javascript:;" title="Facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.reversinglabs.com/blog/rl-identifies-malware-ml-model-hosted-on-hugging-face','Facebook Share','width=600,height=600')"><span class="ico facebook"></span></a></li>
+<li><a class="share_x share-post__link" href="javascript:;" title="X" onclick="window.open('https://twitter.com/intent/tweet?url=https://www.reversinglabs.com/blog/rl-identifies-malware-ml-model-hosted-on-hugging-face&amp;text=Malicious+ML+models+discovered+on+Hugging+Face+platform','Twitter Share','width=600,height=600')"><span class="ico x"></span></a></li>
+<li><a class="share_linkedin share-post__link" href="javascript:;" title="Linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.reversinglabs.com/blog/rl-identifies-malware-ml-model-hosted-on-hugging-face','LinkedIn Share','width=600,height=600')"><span class="ico linkedin"></span></a></li>
+<li><a class="share_bsky share-post__link" href="javascript:;" title="Bluesky" onclick="window.open('https://bsky.app/intent/compose?text=Malicious+ML+models+discovered+on+Hugging+Face+platform%20https%3A%2F%2Fwww.reversinglabs.com%2Fblog%2Frl-identifies-malware-ml-model-hosted-on-hugging-face','Bluesky Share','width=600,height=600')"><span class="ico bluesky"></span></a>
+</li><li><a class="share_email share-post__link" href="mailto:?body=https://www.reversinglabs.com/blog/rl-identifies-malware-ml-model-hosted-on-hugging-face" title="Email"><span class="ico mail"></span></a></li>
+<!-- End partial -->
+</ul>
+<div id="hs_cos_wrapper_module_1705062190107298" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"></div>
+<div class="blog__post-content html-content">
+<span id="hs_cos_wrapper_post_body" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="rich_text"><div id="hs_cos_wrapper_widget_a9608846-88ac-4c9d-a2df-38268f9445c4" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="video-block module background-color--default module--text-align-">
+<div class="video-block__container module__container" style="margin-top: -30px;
+margin-bottom: -30px;
+; max-width:800px;">
+<div class="video-block__vidyard-player">
+<img style="width: 100%; margin: auto; display: block;" class="vidyard-player-embed" src="https://play.vidyard.com/SVVX77DVtxocrgFdqwBfBa.jpg" data-uuid="SVVX77DVtxocrgFdqwBfBa" data-v="4" data-type="inline">
+</div>
+<div class="video-block__links cta__container">
+</div>
+</div>
+</div></div>
+<p>In the last few months, artificial intelligence (AI) is popping up in all kinds of headlines, ranging from technical software developer websites to the Sunday comics. There’s no secret why. Given the recent explosion in the capabilities of large language models (LLMs) and generative AI, organizations are trying to find ways to incorporate AI technologies into their business models — and to make use of its capabilities.&nbsp;<br><br>While most non-technical people think of OpenAI’s ChatGPT when AI is mentioned (or maybe its Chinese competitor DeepSeek), developers and others familiar with machine learning (ML) models and the technology that supports AI will likely think of Hugging Face, a platform dedicated to collaboration and sharing of ML projects. As described in its organization card on the Hugging Face platform, the company is “on a mission to democratize good machine learning.”&nbsp;<br><br>That democratization is happening. But with AI’s growing popularity and use, platforms like Hugging Face are now being targeted by threat actors, who are seeking new, hard-to-detect ways of inserting and distributing malicious software to unsuspecting hosts.&nbsp;<br><br>This was underscored by a discovery the ReversingLabs research team made on the Hugging Face platform: a novel technique of distributing malware by <a href="/blog/spectra-assure-malware-detection-in-ml-and-llm-models" rel="noopener">abusing Pickle file serialization</a> — a not-so-novel exploitation target.&nbsp;&nbsp;</p>
+<!--more--><p style="font-weight: bold;">[ Get White Paper: <strong><a href="/ai-is-the-supply-chain" rel="noopener">How the Rise of AI Will Impact Software Supply Chain Security</a> ]</strong></p>
+<h2 style="font-weight: normal; font-size: 24px;">Understanding Pickle</h2>
+<p>An ML model is a mathematical representation of a process that uses algorithms to learn patterns and make predictions based on provided data. After the models are trained, their mathematical representations are stored in a variety of data serialization formats.&nbsp;<br><br>These stored models can be shared and reused without the need for additional model training. <a href="https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/chapter11.03-Pickle-Files.html" rel="noopener" target="_blank">Pickle</a> is a popular Python module that many teams use for serializing and deserializing ML model data. While easy to use, Pickle is considered an unsafe data format, as it allows Python code to be executed during ML model deserialization.</p>
+<p>In theory, that should restrict the applicability of Pickle files only to data that comes from trusted sources. However, such a restriction collides with the concept of an open ML platform, designed to foster collaboration between different ML projects. The result: Pickle files are used broadly, while attackers have taken to abusing Pickle and other unsafe data serialization formats to hide their malicious payloads.<br><br>There has been a lot of research pointing out the security risks related to the use of Pickle file serialization (dubbed “Pickling” in the Hugging Face community). In fact, even <a href="https://huggingface.co/docs/hub/en/security-pickle" rel="noopener" target="_blank">Hugging Face’s documentation</a> describes the risks of arbitrary code execution in Pickle files in detail. Nevertheless, Pickle is still a wildly popular module and malicious Pickling is a growing problem, as ML developers prefer productivity and simplicity over security.&nbsp;</p>
+<h2 style="font-weight: normal; font-size: 24px;">Discussion</h2>
+<p>During RL research efforts, the team came upon two Hugging Face models containing malicious code that were not flagged as “unsafe” by Hugging Face’s security scanning mechanisms. RL has named this technique “nullif<span style="font-weight: bold;">AI</span>,” because it involves evading existing protections in the AI community for an ML model.<br><br>While Pickling is not using common evasion techniques like typosquatting, or attempting to mimic a popular, legitimate ML model, the packages look more like a proof-of-concept model for testing a novel attack method. But that method is legitimate — and poses a risk to developers, so it is worthwhile to dig deeper into these malicious packages to examine how they work.</p>
+<a href="https://blog.reversinglabs.com/hubfs/Blog/hugging-face-blog-figure-01a.webp" class="lightbox-image"><img src="https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-01a.webp?width=1400&amp;name=hugging-face-blog-figure-01a.webp" alt="Malicious Hugging Face model" width="1400" style="width: 1400px;" srcset="https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-01a.webp?width=700&amp;name=hugging-face-blog-figure-01a.webp 700w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-01a.webp?width=1400&amp;name=hugging-face-blog-figure-01a.webp 1400w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-01a.webp?width=2100&amp;name=hugging-face-blog-figure-01a.webp 2100w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-01a.webp?width=2800&amp;name=hugging-face-blog-figure-01a.webp 2800w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-01a.webp?width=3500&amp;name=hugging-face-blog-figure-01a.webp 3500w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-01a.webp?width=4200&amp;name=hugging-face-blog-figure-01a.webp 4200w" sizes="(max-width: 1400px) 100vw, 1400px"></a>
+<p style="font-weight: bold; font-size: 16px; text-align: center;">Figure 1a: Malicious Hugging Face model discovered by ReversingLabs researchers.<br><br></p>
+<a href="https://blog.reversinglabs.com/hubfs/Blog/hugging-face-blog-figure-01b.webp" class="lightbox-image"><img src="https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-01b.webp?width=1400&amp;name=hugging-face-blog-figure-01b.webp" alt="Malicious Hugging Face model" width="1400" style="width: 1400px;" srcset="https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-01b.webp?width=700&amp;name=hugging-face-blog-figure-01b.webp 700w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-01b.webp?width=1400&amp;name=hugging-face-blog-figure-01b.webp 1400w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-01b.webp?width=2100&amp;name=hugging-face-blog-figure-01b.webp 2100w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-01b.webp?width=2800&amp;name=hugging-face-blog-figure-01b.webp 2800w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-01b.webp?width=3500&amp;name=hugging-face-blog-figure-01b.webp 3500w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-01b.webp?width=4200&amp;name=hugging-face-blog-figure-01b.webp 4200w" sizes="(max-width: 1400px) 100vw, 1400px"></a>
+<p style="font-weight: bold; text-align: center; font-size: 16px;">Figure 1b: Malicious Hugging Face model discovered by ReversingLabs researchers.</p>
+<h2 style="font-weight: normal; font-size: 24px;">Bad Pickle</h2>
+<p>The two models RL detected are stored in PyTorch format, which is basically a compressed Pickle file. By default, PyTorch uses the ZIP format for compression, and these two models are compressed using the 7z format, which prevents them from being loaded using PyTorch’s default function, <em>torch.load()</em>.<br>&nbsp;<br>That is likely the reason why <a href="https://github.com/mmaitre314/picklescan" rel="noopener" target="_blank">Picklescan </a>— the tool used by the Hugging Face to detect suspicious Pickle files — did not flag them as unsafe. Recent <a href="https://checkmarx.com/blog/free-hugs-what-to-be-wary-of-in-hugging-face-part-4/" rel="noopener" target="_blank">research</a> conducted by Checkmarx concluded that it isn’t that hard to find a way to bypass the security measures implemented by Hugging Face. The Picklescan tool is based on a blacklist of “dangerous” functions. If such functions are detected inside a Pickle file, Picklescan marks them as unsafe. Blacklists are basic security features, but not scalable or adaptable as known threats morph — and new threats emerge. It is not a surprise, then, that Checkmarx researchers found other functions that could trigger code execution but were not listed on the Picklescan blacklist.&nbsp;<br><br>The broken and malicious models RL discovered highlight another shortcoming in the Picklescan tool: an inability to properly scan broken Pickle files. For us, disassembling the Pickle files extracted from the mentioned PyTorch archives revealed the malicious Python content at the beginning of the file. In both cases, the malicious payload was a typical platform-aware reverse shell that connects to a hardcoded IP address.</p>
+<a href="https://blog.reversinglabs.com/hubfs/Blog/hugging-face-blog-figure-02.webp" class="lightbox-image"><img src="https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-02.webp?width=1400&amp;name=hugging-face-blog-figure-02.webp" alt="Decompiled Pickle file" width="1400" style="width: 1400px;" srcset="https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-02.webp?width=700&amp;name=hugging-face-blog-figure-02.webp 700w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-02.webp?width=1400&amp;name=hugging-face-blog-figure-02.webp 1400w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-02.webp?width=2100&amp;name=hugging-face-blog-figure-02.webp 2100w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-02.webp?width=2800&amp;name=hugging-face-blog-figure-02.webp 2800w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-02.webp?width=3500&amp;name=hugging-face-blog-figure-02.webp 3500w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-02.webp?width=4200&amp;name=hugging-face-blog-figure-02.webp 4200w" sizes="(max-width: 1400px) 100vw, 1400px"></a>
+<p style="font-weight: bold; font-size: 16px; text-align: center;">Figure 2: Decompiled Pickle file with the malicious Python payload.</p>
+<p>An interesting thing about this Pickle file is that the object serialization — the purpose of the Pickle file — breaks shortly after the malicious payload is executed, resulting in the failure of the object’s decompilation. That raised an interesting question for our research team: What happens if you try to load a “broken” Pickle file? Do security tools recognize the presence of dangerous functions in the broken files and mark them as unsafe?<br><br>Since the malicious payload in the discovered samples is located at the beginning of the serialized object, RL crafted its own Pickle samples that create a file on the filesystem and write a simple text into it. The team first created a valid Pickle file and then inserted one “X” <em>binunicode</em> Pickle opcode just before the “0x2E” (STOP) opcode, which marks the end of Pickle stream.</p>
+<a href="https://blog.reversinglabs.com/hubfs/Blog/hugging-face-blog-figure-03.webp" class="lightbox-image"><img src="https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-03.webp?width=1400&amp;name=hugging-face-blog-figure-03.webp" alt="One-byte difference between the valid and broken Pickle file" width="1400" style="width: 1400px;" srcset="https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-03.webp?width=700&amp;name=hugging-face-blog-figure-03.webp 700w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-03.webp?width=1400&amp;name=hugging-face-blog-figure-03.webp 1400w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-03.webp?width=2100&amp;name=hugging-face-blog-figure-03.webp 2100w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-03.webp?width=2800&amp;name=hugging-face-blog-figure-03.webp 2800w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-03.webp?width=3500&amp;name=hugging-face-blog-figure-03.webp 3500w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-03.webp?width=4200&amp;name=hugging-face-blog-figure-03.webp 4200w" sizes="(max-width: 1400px) 100vw, 1400px"></a>
+<p style="font-weight: bold; font-size: 16px; text-align: center;">Figure 3: One-byte difference between the valid and broken Pickle file</p>
+<p>Scanning the valid Pickle file using the Picklescan tool resulted in the expected security warning. After the valid file was executed, notice (see Figure 4) that a new <em>my_file.txt</em> file appears in the directory. Everything worked as expected in case of the valid Pickle file.</p>
+<a href="https://blog.reversinglabs.com/hubfs/Blog/hugging-face-blog-figure-04.webp" class="lightbox-image"><img src="https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-04.webp?width=1400&amp;name=hugging-face-blog-figure-04.webp" alt="Security scanning and execution of valid Pickle file" width="1400" style="width: 1400px;" srcset="https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-04.webp?width=700&amp;name=hugging-face-blog-figure-04.webp 700w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-04.webp?width=1400&amp;name=hugging-face-blog-figure-04.webp 1400w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-04.webp?width=2100&amp;name=hugging-face-blog-figure-04.webp 2100w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-04.webp?width=2800&amp;name=hugging-face-blog-figure-04.webp 2800w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-04.webp?width=3500&amp;name=hugging-face-blog-figure-04.webp 3500w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-04.webp?width=4200&amp;name=hugging-face-blog-figure-04.webp 4200w" sizes="(max-width: 1400px) 100vw, 1400px"></a>
+<p style="font-weight: bold; text-align: center; font-size: 16px;">Figure 4: Security scanning and execution of valid Pickle file.</p>
+<p>The same actions were performed on the broken Pickle file. In this case, the Picklescan tool showed an error when it encountered the inserted opcode that breaks the serialized stream, but failed to detect the presence of dangerous functions, even though they are invoked before the encountered stream compromise.&nbsp;<br><br>The failure to detect the presence of a malicious function poses a serious problem for AI development organizations. Pickle file deserialization works in a different way from Pickle security scanning tools. Picklescan, for example, first validates Pickle files and, if they are validated, performs security scanning. Pickle deserialization, however, works like an interpreter, &nbsp;interpreting opcodes as they are read — but without first conducting a comprehensive scan to determine if the file is valid, or whether it is corrupted at some later point in the stream.&nbsp;<br><br>This discrepancy is clearly visible (Figure 5), which shows that Pickle deserialization fails just before the end of the stream and shows an error. However, the malicious code has already been executed and a file written to the file system at that point.</p>
+<a href="https://blog.reversinglabs.com/hubfs/Blog/hugging-face-blog-figure-05.webp" class="lightbox-image"><img src="https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-05.webp?width=1400&amp;name=hugging-face-blog-figure-05.webp" alt="Security scanning and execution of broken Pickle file" width="1400" style="width: 1400px;" srcset="https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-05.webp?width=700&amp;name=hugging-face-blog-figure-05.webp 700w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-05.webp?width=1400&amp;name=hugging-face-blog-figure-05.webp 1400w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-05.webp?width=2100&amp;name=hugging-face-blog-figure-05.webp 2100w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-05.webp?width=2800&amp;name=hugging-face-blog-figure-05.webp 2800w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-05.webp?width=3500&amp;name=hugging-face-blog-figure-05.webp 3500w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-05.webp?width=4200&amp;name=hugging-face-blog-figure-05.webp 4200w" sizes="(max-width: 1400px) 100vw, 1400px"></a>
+<p style="font-weight: bold; font-size: 16px; text-align: center;">Figure 5: Security scanning and execution of broken Pickle file.</p>
+<p>The explanation for this behavior is that the object deserialization is performed on Pickle files sequentially. Pickle opcodes are executed as they are encountered, and until all opcodes are executed or a broken instruction is encountered. In the case of the discovered model, since the malicious payload is inserted at the beginning of the Pickle stream, execution of the model wouldn’t be detected as unsafe by Hugging Face’s existing security scanning tools.</p>
+<h2 style="font-weight: normal; font-size: 24px;">Protect your ML models</h2>
+<p>RL is constantly improving its malware detection mechanisms. Recent improvements include better support for ML model file formats. This includes improved identification and unpacking of related formats and implementation of new Threat Hunting Policies (THP) designated to pinpoint and explain risks related to the presence of dangerous functions inside ML model files.&nbsp;<br><br>The modules identified in this latest research were flagged by RL’s Spectra Assure product because the serialized Pickle data includes Python code that can create new processes and execute arbitrary commands on the system that attempts to deserialize the AI model data.&nbsp;<br><br>These actions and the presence of Python code within Pickle serialized data does not always indicate malicious intent. However, such actions in an AI model should be documented and approved. In addition, it is recommended that any custom actions needed to load the AI model be kept separate from the serialized model data.<br><br>RL’s Spectra Assure contains a number of policies designed to detect such suspicious activities, including serialized data in Pickle files that can execute code (<a href="https://docs.secure.software/policies/threat-hunting/TH19101" rel="noopener" target="_blank">TH19101</a>), create new processes (<a href="https://docs.secure.software/policies/threat-hunting/TH19103" rel="noopener" target="_blank">TH19103</a>) and establish networking capabilities (<a href="https://docs.secure.software/policies/threat-hunting/TH19102" rel="noopener" target="_blank">TH19102</a>). These three policies were triggered on the models described in this research blog, attracting the attention of our researchers and leading to the discovery of the malicious code. (See Figure 6).</p>
+<a href="https://blog.reversinglabs.com/hubfs/Blog/hugging-face-blog-figure-06.webp" class="lightbox-image"><img src="https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-06.webp?width=1400&amp;name=hugging-face-blog-figure-06.webp" alt="Triggered Threat Hunting Policies" width="1400" style="width: 1400px;" srcset="https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-06.webp?width=700&amp;name=hugging-face-blog-figure-06.webp 700w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-06.webp?width=1400&amp;name=hugging-face-blog-figure-06.webp 1400w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-06.webp?width=2100&amp;name=hugging-face-blog-figure-06.webp 2100w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-06.webp?width=2800&amp;name=hugging-face-blog-figure-06.webp 2800w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-06.webp?width=3500&amp;name=hugging-face-blog-figure-06.webp 3500w, https://www.reversinglabs.com/hs-fs/hubfs/Blog/hugging-face-blog-figure-06.webp?width=4200&amp;name=hugging-face-blog-figure-06.webp 4200w" sizes="(max-width: 1400px) 100vw, 1400px"></a>
+<p style="font-weight: bold; font-size: 16px; text-align: center;">Figure 6: Triggered Threat Hunting Policies for the described models.</p>
+<h2 style="font-weight: normal; font-size: 24px;">Responsible disclosure</h2>
+<p>After discovering the malicious Pickle files, RL contacted the Hugging Face security team and notified them about the vulnerability. Additionally, we reported the malicious packages we identified on January 20. The Hugging Face security team quickly responded and removed malicious models in less than 24 hours. Hugging Face also <a href="https://github.com/mmaitre314/picklescan/pull/33" rel="noopener" target="_blank">made changes to the Picklescan tool</a> to identify threats in “broken” Pickle files.</p>
+<h2><span style="font-weight: normal; font-size: 24px;">Pickle on Hugging Face: Proceed with caution</span></h2>
+<p>Threats lurking in Pickle files are not new. In fact, there are warnings popping out all over the documentation and there has been a lot of research on this topic. Hugging Face stated that the company has three options related to Pickle: to ban Pickle files, do nothing about them — or find a middle ground and try to implement security mechanisms to make usage of Pickle file format as safe as possible.&nbsp;<br><br>However, walking that middle road is a challenge, because the Pickle file format was designed without consideration given to security, which will frustrate efforts by Hugging Face or other ML platforms to address the risks posed by malicious code implanted in Pickle files.&nbsp;<br><br><span>The RL research team's discovery of a flaw in the Picklescan security feature on Hugging Face that can allow compromised and non-functional Pickle files to execute malicious code on a developer system represents just one threat. There are more ways to exploit Pickle files and bypass the implemented security measures that are just waiting to be found. Our conclusion: Pickle files present a security risk when used on a collaborative platform where consuming data from untrusted sources is the basic part of the workflow. But if you still need to use Pickle, contact RL to learn more about our capabilities to secure your organization from malicious Pickle attacks.</span></p>
+<h2 style="font-weight: normal; font-size: 24px;">Indicators of Compromise (IOCs)</h2>
+<p>Indicators of Compromise (IoCs) refer to forensic artifacts or evidence related to a security breach or unauthorized activity on a computer network or system. IOCs play a crucial role in cybersecurity investigations and cyber incident response efforts, helping analysts and cybersecurity professionals identify and detect potential security incidents.<br><br>The following IOCs were collected as part of ReversingLabs investigation of this software supply chain campaign.</p>
+<p style="font-weight: bold;">Malicious Hugging Face model files:</p>
+<div data-hs-responsive-table="true" style="overflow-x: auto; max-width: 100%; width: 99.9983%; margin-left: auto; margin-right: auto;">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; border: 1px solid #99acc2; border-color: #afc7d7; border-width: 1px;">
+<tbody>
+<tr>
+<td style="width: 49.85%; padding: 8px; text-align: center; background-color: #171d38; border: 1px solid #171d38;"><span style="color: #ffffff;"><strong>model</strong></span></td>
+<td style="width: 49.85%; padding: 8px; text-align: center; background-color: #171d38; border: 1px solid #171d38;"><span style="color: #ffffff;"><strong>SHA1</strong></span></td>
+</tr>
+<tr>
+<td style="width: 49.85%; padding: 8px; text-align: center; border: 1px solid #afc7d7;">glockr1/ballr7<br>PyTorch file</td>
+<td style="width: 49.85%; padding: 8px; text-align: center; border: 1px solid #afc7d7;">1733506c584dd6801accf7f58dc92a4a1285db1f&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 49.85%; padding: 8px; text-align: center; border: 1px solid #afc7d7;">glockr1/ballr7<br>Pickle file</td>
+<td style="width: 49.85%; padding: 8px; text-align: center; border: 1px solid #afc7d7;">79601f536b1b351c695507bf37236139f42201b0&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 49.85%; padding: 8px; text-align: center; border: 1px solid #afc7d7;">who-r-u0000/0000000000000000000000000000000000000<br>PyTorch file</td>
+<td style="width: 49.85%; padding: 8px; text-align: center; border: 1px solid #afc7d7;">0dcc38fc90eca38810805bb03b9f6bb44945bbc0</td>
+</tr>
+<tr>
+<td style="width: 49.85%; padding: 8px; text-align: center; border: 1px solid #afc7d7;">who-r-u0000/0000000000000000000000000000000000000<br>Pickle file</td>
+<td style="width: 49.85%; padding: 8px; text-align: center; border: 1px solid #afc7d7;">85c898c5db096635a21a9e8b5be0a58648205b47</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><span style="font-weight: bold;"><br>Malicious Hugging Face repositories:</span><br>glockr1/ballr7<br>who-r-u0000/0000000000000000000000000000000000000</p>
+<p><span style="font-weight: bold;">IP addresses:</span><br>107.173.7.141&nbsp;</p></span>
+<div id="hs_cos_wrapper_module_172950521527438" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="blog-ctas module">
+<div class="blog-ctas__container module__container">
+<a class="cta cta--gradient cta--small" href="https://www.reversinglabs.com/blog/spectra-assure-malware-detection-in-ml-and-llm-models" target="_blank">Learn How RL Stops ML Malware</a>
+<a class="cta cta--outline cta--small" href="https://www.reversinglabs.com/webinar/hugging-face-ml-malware-nullifai" target="_blank">Join the nullifAI Webinar</a>
+</div>
+</div></div>
+<div id="hs_cos_wrapper_module_16770726333806" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<h3 style="font-size: 36px;">Keep learning</h3>
+<ul>
+<li><span style="font-size: 18px;"><strong>Read</strong> the <a href="https://www.reversinglabs.com/gartner-market-guide-to-software-supply-chain-security" rel="noopener"><strong>2025 Gartner® Market Guide to Software Supply Chain Security</strong></a>. Plus: See <a href="https://www.reversinglabs.com/webinar/2025-gartner-market-guide-sscs" rel="noopener"><strong>RL's&nbsp;webinar</strong></a> for expert insights.</span><br><br><span style="font-size: 18px;"></span></li>
+<li><span style="font-size: 18px;"><strong>Get the white paper:</strong><a href="https://www.reversinglabs.com/go-beyond-the-sbom" rel="noopener"> <strong>Go Beyond the SBOM</strong></a>. Plus: See the Webinar: <strong><a href="https://www.reversinglabs.com/webinar/beyond-the-sbom-welcome-cyclonedx-xbom" rel="noopener">Welcome CycloneDX's xBOM</a>.</strong></span><span style="font-size: 18px;"><br><br></span></li>
+<li><span style="font-size: 18px;"><strong>Go big-picture</strong> on the software risk landscape with<strong>&nbsp;<a href="https://www.reversinglabs.com/sscs-report" rel="noopener">RL's 2025 Software Supply Chain Security Report</a>. Plus: </strong>See our <a href="https://www.reversinglabs.com/webinar/the-year-in-software-supply-chain-threats" rel="noopener"><strong>Webinar for discussion about the findings</strong></a>.</span><br><span style="font-size: 18px;"></span><br><span style="font-size: 18px;"></span></li>
+<li><span style="font-size: 18px;"><strong>Get up to speed on securing AI/ML</strong>&nbsp;with our white paper: <strong><a href="https://www.reversinglabs.com/ai-is-the-supply-chain" rel="noopener">AI Is the Supply Chain</a>. </strong>Plus: See <a href="https://www.reversinglabs.com/blog/rl-identifies-malware-ml-model-hosted-on-hugging-face" rel="noopener"><strong>RL's research on nullifAI</strong></a> and replay our Webinar to learn <a href="https://www.reversinglabs.com/webinar/hugging-face-ml-malware-nullifai" rel="noopener"><strong>how</strong> <strong>RL discovered the novel threat</strong></a>.</span><br><br></li>
+<li style="font-size: 18px;"><strong>Learn how commercial software risk is under-addressed:</strong>&nbsp;Download the <a href="https://www.reversinglabs.com/manage-your-commercial-software-risk" rel="noopener"><strong>white paper</strong></a> — and see <a href="https://www.reversinglabs.com/webinar/managing-your-commercial-software-risks" rel="noopener"><strong>our related Webinar for more insig</strong><strong>hts</strong></a>.</li>
+</ul>
+<hr align="center" size="1" width="80%">
+<p style="font-size: 18px; text-align: center;"><em>Explore RL's Spectra suite: <a target="_blank" data-stringify-link="https://www.reversinglabs.com/products/software-supply-chain-security" data-sk="tooltip_parent" href="https://www.reversinglabs.com/products/software-supply-chain-security" rel="noopener noreferrer" delay="150">Spectra Assure</a> <a target="_blank" data-stringify-link="https://www.reversinglabs.com/products/software-supply-chain-security" data-sk="tooltip_parent" href="https://www.reversinglabs.com/products/software-supply-chain-security" rel="noopener noreferrer" delay="150"></a>for software supply chain security, <a href="https://www.reversinglabs.com/products/spectra-detect" rel="noopener">Spectra Detect</a> for scalable file analysis, <a href="https://www.reversinglabs.com/products/spectra-analyze" rel="noopener">Spectra Analyze</a> for malware analysis and threat hunting, and <a href="https://www.reversinglabs.com/products/spectra-intelligence" rel="noopener">Spectra Intelligence</a> for reputation data and intelligence.</em></p> 
+</div>
+<div id="hs_cos_wrapper_module_1665507034702351" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+</div>
+</div>      
+<div class="blog__listing-item blog__listing-item--more">
+<ul class="tag-list-inline">
+<li class="tag-list-inline__item--text">Tags: </li>  
+<li class="tag-list-inline__item"><a class="tag-list-inline__item-link" href="https://www.reversinglabs.com/blog/tag/threat-research">Threat Research</a></li>
+</ul>
+</div>       
+<div class="blog__listing-item blog__listing-item--more"><h2>More Blog Posts</h2></div>
+<div class="blog__listing-item blog__listing-item--more"> 
+<article class="blog__item">
+<a href="https://www.reversinglabs.com/blog/why-complex-binary-analysis-is-essential-for-tpsrm" class="blog__item-image">
+<img src="https://3375217.fs1.hubspotusercontent-na1.net/hub/3375217/hubfs/complex-binary-analysis-tools-tpsrm.jpg?width=480&amp;name=complex-binary-analysis-tools-tpsrm.jpg" alt="Why complex binary analysis is an essential tool for TPSRM">
+</a>
+<div class="blog__item-content">
+<h3><a href="https://www.reversinglabs.com/blog/why-complex-binary-analysis-is-essential-for-tpsrm">Why complex binary analysis is an essential tool for TPSRM</a></h3>
+<div class="blog__item-desc">
+Software procurement is risky business. Learn why outdated tooling doesn’t cut it — and how modern technologies can provide much-needed transparency.
+</div>
+<a class="blog__item-read-more" href="https://www.reversinglabs.com/blog/why-complex-binary-analysis-is-essential-for-tpsrm">Read More</a>
+</div>
+</article>
+<article class="blog__item">
+<a href="https://www.reversinglabs.com/blog/how-to-accelerate-pqc-migration-leveraging-cboms-for-cryptographic-asset-discovery" class="blog__item-image">
+<img src="https://3375217.fs1.hubspotusercontent-na1.net/hub/3375217/hubfs/Blog/CBOMs-for-Cryptographic.webp?width=480&amp;name=CBOMs-for-Cryptographic.webp" alt="Accelerate PQC Migration: How to Leverage CBOMs for Cryptographic Asset Discovery">
+</a>
+<div class="blog__item-content">
+<h3><a href="https://www.reversinglabs.com/blog/how-to-accelerate-pqc-migration-leveraging-cboms-for-cryptographic-asset-discovery">Accelerate PQC Migration: How to Leverage CBOMs for Cryptographic Asset Discovery</a></h3>
+<div class="blog__item-desc">
+Here’s how to achieve crypto-agility and secure your software supply chain with ReversingLabs Spectra Assure’s Cryptography Bills of Materials (CBOM).
+</div>
+<a class="blog__item-read-more" href="https://www.reversinglabs.com/blog/how-to-accelerate-pqc-migration-leveraging-cboms-for-cryptographic-asset-discovery">Read More</a>
+</div>
+</article>
+<article class="blog__item">
+<a href="https://www.reversinglabs.com/blog/dod-secure-software-with-sboms-and-automation-required" class="blog__item-image">
+<img src="https://3375217.fs1.hubspotusercontent-na1.net/hub/3375217/hubfs/dod-swft-secure-software.jpg?width=480&amp;name=dod-swft-secure-software.jpg" alt="DoD issues new marching orders on secure software and SBOMs">
+</a>
+<div class="blog__item-content">
+<h3><a href="https://www.reversinglabs.com/blog/dod-secure-software-with-sboms-and-automation-required">DoD issues new marching orders on secure software and SBOMs</a></h3>
+<div class="blog__item-desc">
+DoD’s Software Fast Track (SWFT) program steps up supply chain risk management via procurement. Here's what you need to know.
+</div>
+<a class="blog__item-read-more" href="https://www.reversinglabs.com/blog/dod-secure-software-with-sboms-and-automation-required">Read More</a>
+</div>
+</article>
+</div>
+</div>
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+ 
+<div class="span3 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="9" data-w="3">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-5 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_170411393043375" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<div class="module module--side">
+<div class="hs-search-field module__container">
+    <div class="hs-search-field__bar"> 
+      <form action="/hs-search-results" class="hs-search-field__bar-form">
+        
+        <input type="text" class="hs-search-field__input hs-search-field__input--results" name="term" autocomplete="off" aria-label="Search" placeholder="Search">
+        
+        
+          <input type="hidden" name="type" value="SITE_PAGE">
+        
+        
+        
+          <input type="hidden" name="type" value="BLOG_POST">
+          <!--<input type="hidden" name="type" value="LISTING_PAGE">-->
+        
+        
+          <input type="hidden" name="limit" value="500">
+        
+          <button aria-label="Search" class="hs-search-field__button cta cta--default cta--red"><span class="ico search ico--24"></span></button>
+        
+      </form>
+    </div>
+    <ul class="hs-search-field__suggestions"></ul>
+</div> 
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-6 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1703953719683100" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="module module--side categories-block">
+<h2>Topics</h2>
+  <ul>
+  
+    <li><a href="https://www.reversinglabs.com/blog"><span class="ico dynamic-analysis"></span> All Blog Posts</a></li>
+  
+    <li><a href="https://www.reversinglabs.com/blog/tag/software-supply-chain-security"><span class="ico decomposition"></span> AppSec &amp; Supply Chain Security</a></li>
+  
+    <li><a href="https://www.reversinglabs.com/blog/tag/dev-devsecops"><span class="ico system-power"></span> Dev &amp; DevSecOps</a></li>
+  
+    <li><a href="https://www.reversinglabs.com/blog/tag/threat-research"><span class="ico malware"></span> Threat Research</a></li>
+  
+    <li><a href="https://www.reversinglabs.com/blog/tag/security-operations"><span class="ico wheel"></span> Security Operations</a></li>
+  
+    <li><a href="https://www.reversinglabs.com/blog/tag/products-technology"><span class="ico monitor-dev"></span> Products &amp; Technology</a></li>
+  
+    <li><a href="https://www.reversinglabs.com/blog/tag/company-events"><span class="ico calendar"></span> Company &amp; Events</a></li>
+  
+  </ul>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-7 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1704023979676166" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="module module--side social-block">
+  <h2>Follow us</h2>
+  <ul>
+    
+      <li><a class="ico x" href="https://x.com/reversinglabs" target="_blank"><span>X</span></a></li>
+    
+      <li><a class="ico youtube" href="https://www.youtube.com/user/reversinglabs" target="_blank"><span>YouTube</span></a></li>
+    
+      <li><a class="ico linkedin" href="https://www.linkedin.com/company/reversinglabs" target="_blank"><span>LinkedIn</span></a></li>
+    
+      <li><a class="ico bluesky" href="https://bsky.app/profile/reversinglabs.com"><span>Bluesky</span></a></li>
+    
+  </ul>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-8 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1704025192341206" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="module module--side subscribe-block background-color--blue-gradient">
+  <h2>Subscribe</h2>
+  <p>Get the best of RL Blog delivered to your in-box weekly to stay up to date on key trends, analysis and best practices across threat intelligence and software supply chain security.</p>
+   <div class="subscribe-block__form">
+      <span id="hs_cos_wrapper_module_1704025192341206_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" style="" data-hs-cos-general-type="widget" data-hs-cos-type="form"><h3 id="hs_cos_wrapper_form_502239880_title" class="hs_cos_wrapper form-title" data-hs-cos-general-type="widget_field" data-hs-cos-type="text"></h3>
+
+<div id="hs_form_target_form_502239880"></div>
+
+
+
+
+
+
+
+
+
+</span>
+    </div>
+</div></div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-9 ">
+<div class="row-fluid ">
+
+
+ 
+
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1704026912146250" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="module module--side favorite-post-block">
+  <h2>Special Reports</h2>
+    
+      <div class="favorite-post-block__item">
+          <a href="https://www.reversinglabs.com/sscs-report" class="favorite-post-block__item-img"><img src="https://www.reversinglabs.com/hubfs/Resources/SSCS-Report-2025-featured-1.webp" alt="The 2025 Software Supply Chain Security Report"></a>
+          <div>
+            <h2 style="margin-top:0;"><a href="https://www.reversinglabs.com/sscs-report">The 2025 Software Supply Chain Security Report</a> </h2>
+             
+                <div class="html-content"><p><span>Software supply chain attacks are an increasingly popular tool for malicious actors. And the rapid embrace of AI and machine learning (ML) tools is introducing new supply chain risks. Here's what your organization needs to know.</span></p></div>
+            
+             <span class="favorite-post-block__item-date"> March 12, 2025  </span>
+          </div>
+      </div>
+</div></div>
+
+</div><!--end widget-span -->
+    
+
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-10 ">
+<div class="row-fluid ">
+
+
+ 
+
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_1704027775852284" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="module module--side latest-post-block">
+  
+  
+  
+    
+      
+        <h2><a href="https://www.reversinglabs.com/webinars">Upcoming Webinars</a></h2>
+      
+       <div class="latest-post-block__item" style="margin-bottom: 20px;">
+         
+          <a href="https://www.reversinglabs.com/webinars/ai-meets-sscs"><img src="https://www.reversinglabs.com/hubfs/AI%20Meets%20Software%20Supply%20Chain%20Security%201400x732%20-%20HubSpot%20Featured%20image-3.png" alt="Webinar: AI meets SSCS"></a>
+          <a href="https://www.reversinglabs.com/webinars/ai-meets-sscs">Webinar: AI meets SSCS</a>
+           
+         
+       </div>
+      
+    
+      
+       <div class="latest-post-block__item" style="margin-bottom: 20px;">
+         
+          <a href="https://www.reversinglabs.com/webinars/yara-rules-201"><img src="https://www.reversinglabs.com/hubfs/YARA%20201-1400x732%20-%20HubSpot%20Featured%20image-1.jpg" alt="Webinar:YARA Rules 201"></a>
+          <a href="https://www.reversinglabs.com/webinars/yara-rules-201">Webinar:YARA Rules 201</a>
+           
+         
+           <a href="https://www.reversinglabs.com/webinars" style="font-size:1.6rem; margin-top: 10px; display:block">See more Webinars</a>
+         
+       </div>
+      
+    
+  
+  
+  
+    
+      
+        <h2><a href="https://www.reversinglabs.com/conversinglabs">ConversingLabs</a></h2>
+      
+       <div class="latest-post-block__item" style="margin-bottom: 20px;">
+         
+          <a href="https://www.reversinglabs.com/conversinglabs/going-back-to-basics-to-thwart-attacks"><img src="https://www.reversinglabs.com/hubfs/ConversingLabs/ConversingLabs-Going-Back-to-Basics-to-Thwart-Attacks.webp" alt="Going Back to Basics to Thwart Attacks"></a>
+          <a href="https://www.reversinglabs.com/conversinglabs/going-back-to-basics-to-thwart-attacks">Going Back to Basics to Thwart Attacks</a>
+           
+         
+       </div>
+      
+    
+      
+       <div class="latest-post-block__item" style="margin-bottom: 20px;">
+         
+          <a href="https://www.reversinglabs.com/conversinglabs/appsec-girl-power"><img src="https://www.reversinglabs.com/hubfs/ConversingLabs/ConversingLabs-AppSec-Girl-Power.webp" alt="AppSec Girl Power"></a>
+          <a href="https://www.reversinglabs.com/conversinglabs/appsec-girl-power">AppSec Girl Power</a>
+           
+         
+           <a href="https://www.reversinglabs.com/conversinglabs" style="font-size:1.6rem; margin-top: 10px; display:block">See more ConversingLabs</a>
+         
+       </div>
+      
+    
+  
+</div></div>
+
+</div><!--end widget-span -->
+    
+
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+ 
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+  </div>
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+    </div><!--end body -->
+</div><!--end body wrapper -->
+
+<div class="footer-container-wrapper">
+    <div class="footer-container container-fluid">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+<div id="hs_cos_wrapper_module_170367796202877" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><footer class="footer">
+
+  <div class="footer__container footer__container-wide">
+    <span class="footer__to-top-button"><span class="ico arrow-up-bold"></span></span>
+    <div class="footer__content-container">
+     
+      <div class="footer__article">
+         <h2><a href="https://www.reversinglabs.com/software-supply-chain-security-free-trial">Spectra Assure Free Trial</a></h2>
+         <p>Get your 14-day free trial of Spectra Assure™</p>
+         <a class="footer-cta cta cta--lg cta--gradient" href="https://www.reversinglabs.com/software-supply-chain-security-free-trial">Get Free Trial</a>
+      </div>
+        
+          <div class="footer__links-container">
+            
+            <ul class="footer__links">
+              
+            
+              <li class="footer__links-item"><a href="https://www.reversinglabs.com/blog">Blog</a></li>
+            
+              <li class="footer__links-item"><a href="https://www.reversinglabs.com/webinars">Webinars</a></li>
+            
+              <li class="footer__links-item"><a href="https://www.reversinglabs.com/demo-videos">Demo Videos</a></li>
+            
+            </ul>
+            
+            <ul class="footer__links">
+              
+            
+              <li class="footer__links-item"><a href="https://www.reversinglabs.com/events">Events</a></li>
+            
+              <li class="footer__links-item"><a href="https://www.reversinglabs.com/newsroom/news">In the News</a></li>
+            
+              <li class="footer__links-item"><a href="https://www.reversinglabs.com/glossary">Glossary</a></li>
+            
+            </ul>
+            
+            <ul class="footer__links">
+              
+            
+              <li class="footer__links-item"><a href="https://www.reversinglabs.com/company/about-us">About Us</a></li>
+            
+              <li class="footer__links-item"><a href="https://www.reversinglabs.com/company/careers">Careers</a></li>
+            
+              <li class="footer__links-item"><a href="https://www.reversinglabs.com/contact-us">Contact Us</a></li>
+            
+            </ul>
+            
+          </div>
+        </div>
+    </div> 
+
+  
+  <div class="footer__bottom">
+    <div class="footer__bottom-container footer__container-wide">
+      <div class="footer__copy">
+         <div class="footer__copy-logo">
+           <svg xmlns="https://www.w3.org/2000/svg" width="45" height="46" viewbox="0 0 45 46" fill="none">
+            <path d="M45 0H0V46H45V0Z" fill="white" />
+            <path d="M27 33V15H30.2263V30.1406H38V33H27Z" fill="black" />
+            <path d="M8 32.9994L12.5123 25.7081C10.474 24.8923 9.21087 23.4713 9.21087 20.7523V20.5832C9.21087 15.8657 13.0251 15 17.6389 15C19.5722 15 21.3018 15.0488 23 15.1203V32.9994H19.4956V26.407H17.7173C17.1225 26.407 16.5563 26.407 16.0428 26.3826L11.8178 33H8V32.9994ZM12.7426 20.7755C12.7426 23.085 14.2111 23.7356 17.5101 23.7356C18.1802 23.7356 18.8249 23.7356 19.4956 23.7101V17.8387C14.8034 17.8387 12.7426 17.8642 12.7426 20.6309V20.7755Z" fill="black" />
+          </svg>
+        </div>
+         <div class="footer__copy-text">
+          <a href="https://www.reversinglabs.com/privacy-policy">Privacy Policy</a> | 
+          <a href="https://www.reversinglabs.com/cookie-policy">Cookies</a> | 
+          <a href="https://www.reversinglabs.com/impressum">Impressum</a>
+          <div>All rights reserved ReversingLabs © 2025</div>
+        </div>  
+      </div>
+      <ul class="footer__social">    
+          <li><a href="https://twitter.com/reversinglabs"><span class="ico x"></span></a></li>
+          <li><a href="https://www.linkedin.com/company/reversinglabs"><span class="ico linkedin"></span></a></li>       
+          <li><a href="https://www.facebook.com/reversinglabs"><span class="ico facebook"></span></a></li>
+          <li><a href="https://www.instagram.com/reversinglabs"><span class="ico instagram"></span></a></li>        
+          <li><a href="https://www.youtube.com/user/reversinglabs"><span class="ico youtube"></span></a></li>
+          <li><a href="https://blog.reversinglabs.com/blog/rss.xml"><span class="ico rss"></span></a></li>
+          <li><a href="https://bsky.app/profile/reversinglabs.com"><span class="ico bluesky"></span></a></li>
+      </ul> 
+    </div>  
+  </div>
+</footer>
+
+<!-- jQuery -->
+
+
+
+
+
+
+      
+
+
+
+  
+  
+  
+      
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.css" integrity="sha512-FaAQujRxLMvw+BkmGN3w7u9EdQQr1t0vQoY8KDh09+6SFaWSTe+KrT8oCWg25X91hytm5c5BTmiSGQejkraaZg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+</div>
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+    </div><!--end footer -->
+</div><!--end footer wrapper -->
+
+    
+<!-- HubSpot performance collection script -->
+
+
+
+
+
+
+    <!--[if lte IE 8]>
+    
+    <![endif]-->
+
+
+
+    
+
+
+
+<!-- Start of HubSpot Analytics Code -->
+
+
+
+<!-- End of HubSpot Analytics Code -->
+
+
+
+
+
+
+
+
+<noscript>
+  <img src="https://ws.zoominfo.com/pixel/JrRu3vUM8j33QSR7Bwxw" width="1" height="1" style="display: none;">
+</noscript>
+  
+
+<div id="fb-root"></div>
+   
+ 
+
+
+    
+    <!-- Generated by the HubSpot Template Builder - template version 1.03 -->
+
+</body></html>
