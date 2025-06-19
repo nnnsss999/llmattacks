@@ -82,3 +82,43 @@ poisoned to embed a hidden trigger, causing malicious generation when activated.
 ### Visual Jailbreaking
 General term for attacks that use images or video frames to smuggle prompts past
 content filters in multimodal models.
+
+### Adversarial Preference Learning
+An iterative reinforcement-learning attack that corrupts reward feedback so the
+model adopts unsafe behaviours.
+
+### BadReward Poisoning
+Clean-label poisoning of reward models to flip safety signals during RLHF,
+gradually steering the base model toward malicious outputs.
+
+### Locality-Reinforced Distillation (LoRD)
+A model extraction technique that uses preference-guided distillation to
+reconstruct weights with fewer queries.
+
+### PandaBench
+A benchmark suite measuring the effectiveness of jailbreak attacks and defences
+across multiple LLMs.
+
+### PiCo Data Poisoning
+"Poisoning Code" datasets with hidden instructions so fine-tuned models emit
+attacker-controlled code.
+
+### Safety Chain-of-Thought (SCoT)
+A defence that makes the model reason about a request's harmfulness before
+answering, improving robustness to jailbreaks.
+
+### SASP Jailbreak
+"Self-Adversarial Attack via System Prompt" uses leaked system prompts to craft
+highly effective jailbreaks, often with human refinement.
+
+### LoRA Leakage
+Gradient inversion techniques that recover training data or LoRA weights from
+fine-tuning processes.
+
+### Activation Obfuscation
+Adversarially altering model activations so latent-space monitors fail to detect
+malicious behaviour.
+
+### Rapid Response
+A mitigation approach providing a short list of safe examples that guide the
+model away from harmful completions.

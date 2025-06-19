@@ -121,13 +121,26 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 
 ## original/
 Original sources of the catalog in PDF and Markdown.
+- `Comprehensive Catalog of LLM Jailbreaking and Attack Techniques.md` — master
+  Markdown source for the catalog
+- `Comprehensive Catalog of LLM Jailbreaking and Attack Techniques.pdf` — PDF
+  version of the same document
 
 ## pdfs/
-Local cache for PDFs. Includes a short `README.md` describing the cache.
+Local cache for PDFs.
+- `README.md` — explains the hashing scheme for cached PDFs
 
 ## scripts/
 Utility scripts for building and checking the catalog.
-- `build_index.py`, `cache_pdfs.py`, `check_duplicates.py`, `check_front_matter.py`, `generate_sbom.py`, `link_check.py`, `refresh_links.py`, `scrub_js.py`
+- `build_index.py` — regenerate `index.json`
+- `cache_pdfs.py` — download and store external PDFs
+- `check_duplicates.py` — detect duplicate content in docs
+- `check_front_matter.py` — validate YAML headers
+- `generate_sbom.py` — produce `sbom.json`
+- `link_check.py` — scan for broken links
+- `refresh_links.py` — archive and update remote URLs
+- `scrub_js.py` — remove third-party JavaScript
 
 ## tests/
-Two pytest test files verifying link checks and SBOM generation.
+- `test_link_check.py` — unit test for the link checker
+- `test_sbom.py` — unit test for SBOM generation
