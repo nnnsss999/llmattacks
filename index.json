@@ -1,15 +1,8 @@
 {
   "Overview": [
     {
-      "title": "Attack\u2013Defence Matrix",
-      "path": "attack-defense-matrix.md",
-      "category": "Overview",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    },
-    {
-      "title": "Additional Resources on LLM Attacks",
-      "path": "additional-resources.md",
+      "title": "Additional Resources on LLM Attacks 2027",
+      "path": "additional-resources-2027.md",
       "category": "Overview",
       "sub_category": "",
       "date_collected": "2025-06-18"
@@ -27,6 +20,29 @@
       "category": "Overview",
       "sub_category": "",
       "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Attack\u2013Defence Matrix",
+      "path": "attack-defense-matrix.md",
+      "category": "Overview",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Additional Resources on LLM Attacks",
+      "path": "additional-resources.md",
+      "category": "Overview",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    }
+  ],
+  "Zero-Day": [
+    {
+      "title": "Zero-Day Vulnerabilities in LLMs",
+      "path": "zero-day-resources.md",
+      "category": "Zero-Day",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
     }
   ],
   "Uncategorized": [
@@ -38,11 +54,41 @@
       "date_collected": ""
     }
   ],
-  "Zero-Day": [
+  "Tokenization": [
     {
-      "title": "Zero-Day Vulnerabilities in LLMs",
-      "path": "zero-day-resources.md",
-      "category": "Zero-Day",
+      "title": "Token-Level Attack Resources",
+      "path": "token-level/additional-token-level-resources.md",
+      "category": "Tokenization",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
+    },
+    {
+      "title": "TokenBreak Single-Character Bypass",
+      "path": "prompt-dialogue/tokenbreak-single-character-bypass.md",
+      "category": "Tokenization",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    }
+  ],
+  "Optimization": [
+    {
+      "title": "TAG: Gradient Attack on Transformer-based LMs",
+      "path": "optimization/tag-gradient-attack.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Gradient-based Adversarial Attacks Against Text Transformers",
+      "path": "optimization/gradient-based-adversarial-transformers.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Attacking LLMs with Projected Gradient Descent",
+      "path": "optimization/projected-gradient-descent-attack.md",
+      "category": "Optimization",
       "sub_category": "",
       "date_collected": "2025-06-18"
     }
@@ -63,25 +109,14 @@
       "date_collected": "2025-06-18"
     }
   ],
-  "Tokenization": [
-    {
-      "title": "TokenBreak Single-Character Bypass",
-      "path": "prompt-dialogue/tokenbreak-single-character-bypass.md",
-      "category": "Tokenization",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    }
-  ],
-  "Prompt Dialogue": [
-    {
-      "title": "Unicode Homograph Jailbreak",
-      "path": "prompt-dialogue/unicode-homograph-jailbreak.md",
-      "category": "Prompt Dialogue",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    }
-  ],
   "Training Alignment": [
+    {
+      "title": "Gradient Hacking in Reinforcement Learning",
+      "path": "training-alignment/gradient-hacking.md",
+      "category": "Training Alignment",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
     {
       "title": "Reinforcement-Learning Alignment Attacks",
       "path": "training-alignment/reinforcement-learning-alignment-attacks.md",
@@ -97,6 +132,13 @@
       "date_collected": "2025-06-18"
     },
     {
+      "title": "Adversarial Preference Learning",
+      "path": "data-poisoning/adversarial-preference-learning.md",
+      "category": "Training Alignment",
+      "sub_category": "Data Poisoning",
+      "date_collected": "2025-06-18"
+    },
+    {
       "title": "BadReward Clean-Label Poisoning",
       "path": "data-poisoning/badreward-clean-label.md",
       "category": "Training Alignment",
@@ -106,13 +148,6 @@
     {
       "title": "Data Poisoning Attacks",
       "path": "data-poisoning/index.md",
-      "category": "Training Alignment",
-      "sub_category": "Data Poisoning",
-      "date_collected": "2025-06-18"
-    },
-    {
-      "title": "Adversarial Preference Learning",
-      "path": "data-poisoning/adversarial-preference-learning.md",
       "category": "Training Alignment",
       "sub_category": "Data Poisoning",
       "date_collected": "2025-06-18"
@@ -127,23 +162,42 @@
       "date_collected": "2025-06-18"
     }
   ],
-  "Multimodal": [
+  "Inference": [
     {
-      "title": "Audio Steganography Jailbreak",
-      "path": "multimodal/audio-steganography-jailbreak.md",
-      "category": "Multimodal",
+      "title": "Gradient Inversion Risks in Practical LM Training",
+      "path": "inference/practical-gradient-inversion.md",
+      "category": "Inference",
       "sub_category": "",
       "date_collected": "2025-06-18"
     },
     {
-      "title": "Image Obscuring Jailbreak",
-      "path": "multimodal/image-obscuring-jailbreak.md",
-      "category": "Multimodal",
+      "title": "Timing Side-Channel Extraction",
+      "path": "inference/timing-side-channel.md",
+      "category": "Inference",
       "sub_category": "",
       "date_collected": "2025-06-18"
-    }
-  ],
-  "Inference": [
+    },
+    {
+      "title": "Malware Generation Using Jailbroken LLMs",
+      "path": "inference/malware-generation-llm.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Membership Inference Attacks on Large-Scale Models: A Survey",
+      "path": "inference/membership-inference.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Alignment-Aware Model Extraction Attacks",
+      "path": "inference/alignment-aware-mea.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
     {
       "title": "Safety Filter Timing Side-Channel",
       "path": "inference/safety-filter-timing-side-channel.md",
@@ -159,42 +213,85 @@
       "date_collected": "2025-06-18"
     },
     {
-      "title": "Membership Inference Attacks on Large-Scale Models: A Survey",
-      "path": "inference/membership-inference.md",
-      "category": "Inference",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    },
-    {
-      "title": "Malware Generation Using Jailbroken LLMs",
-      "path": "inference/malware-generation-llm.md",
-      "category": "Inference",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    },
-    {
-      "title": "Alignment-Aware Model Extraction Attacks",
-      "path": "inference/alignment-aware-mea.md",
-      "category": "Inference",
-      "sub_category": "",
-      "date_collected": "2025-06-18"
-    },
-    {
-      "title": "Timing Side-Channel Extraction",
-      "path": "inference/timing-side-channel.md",
+      "title": "Fuzzing-Based LLM Attack Techniques",
+      "path": "fuzzing/fuzzing-techniques.md",
       "category": "Inference",
       "sub_category": "",
       "date_collected": "2025-06-18"
     }
   ],
-  "Agentic": [
+  "Prompt Dialogue": [
     {
-      "title": "Agentic and Physical-World Misuse",
-      "path": "agentic/index.md",
-      "category": "Agentic",
+      "title": "Unicode Homograph Jailbreak",
+      "path": "prompt-dialogue/unicode-homograph-jailbreak.md",
+      "category": "Prompt Dialogue",
       "sub_category": "",
       "date_collected": "2025-06-18"
     },
+    {
+      "title": "Prompt Injection Resources 2026",
+      "path": "prompt-dialogue/prompt-injection-resources-2026.md",
+      "category": "Prompt Dialogue",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Prompt Engineering Attack Resources",
+      "path": "prompt-dialogue/prompt-engineering-attack-resources.md",
+      "category": "Prompt Dialogue",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    }
+  ],
+  "Fuzzing": [
+    {
+      "title": "Fuzzing Resources 2026",
+      "path": "fuzzing/fuzzing-resources-2026.md",
+      "category": "Fuzzing",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    }
+  ],
+  "Linguistic Manipulation": [
+    {
+      "title": "Linguistic Manipulation Attacks",
+      "path": "linguistic-manipulation/index.md",
+      "category": "Linguistic Manipulation",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    }
+  ],
+  "Multimodal": [
+    {
+      "title": "Image-Based LLM Attack Resources",
+      "path": "multimodal/image-based-attack-resources.md",
+      "category": "Multimodal",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Image Obscuring Jailbreak",
+      "path": "multimodal/image-obscuring-jailbreak.md",
+      "category": "Multimodal",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Audio Steganography Jailbreak",
+      "path": "multimodal/audio-steganography-jailbreak.md",
+      "category": "Multimodal",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Visual Jailbreaking Resources",
+      "path": "multimodal/visual-jailbreaking-resources.md",
+      "category": "Multimodal",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
+    }
+  ],
+  "Agentic": [
     {
       "title": "Necromancer Self-Replication Attack",
       "path": "agentic/necromancer-attack.md",
@@ -205,6 +302,13 @@
     {
       "title": "Agent Toolchain Privilege Escalation",
       "path": "agentic/agent-toolchain-priv-escalation.md",
+      "category": "Agentic",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    },
+    {
+      "title": "Agentic and Physical-World Misuse",
+      "path": "agentic/index.md",
       "category": "Agentic",
       "sub_category": "",
       "date_collected": "2025-06-18"

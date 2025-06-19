@@ -141,3 +141,4 @@ These references track emerging threats and defence research through 2026 and ar
 - [LAGO: Few-shot Crosslingual Embedding Inversion Attacks via Language Similarity-Aware Graph Optimization](https://arxiv.org/abs/2505.16008)
 - [Prompt Injection Resources 2026](prompt-dialogue/prompt-injection-resources-2026.md)
 - [Fuzzing Resources 2026](fuzzing/fuzzing-resources-2026.md)
+- [Additional Resources on LLM Attacks 2027](additional-resources-2027.md)
