@@ -15,7 +15,7 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 ## Documentation Timeline
 
 - All documentation files under `docs/` include YAML front matter with a `date_collected` of **2025-06-18**, marking the snapshot used to build the catalog. Later commits refine tooling and link archives, but the documentation content reflects that 2025-06-18 snapshot.
- - The `@extractions1/` directory holds **55** markdown drafts automatically converted on **2025-06-19**. These drafts are queued for future integration into the main catalog.
+ - The `@extractions1/` directory holds **57** markdown drafts automatically converted on **2025-06-19**. These drafts are queued for future integration into the main catalog.
 - The repository was initially committed on **2025-06-18**, establishing the baseline snapshot.
 
 ## Repository Structure
@@ -43,8 +43,9 @@ A searchable website built with **MkDocs Material** is automatically deployed to
   - `rename.py` to enforce kebab-case filenames
 - `tests/` – unit tests (`test_link_check.py` and `test_sbom.py`) validating the helper scripts.
 - `docs_files.txt` – manifest listing every document archived in this
-  repository (70 entries).
-- `all_files.txt` – complete inventory of every file tracked in the repository.
+  repository (73 entries).
+- `all_files.txt` – complete inventory of every file tracked in the repository
+  (132 files).
 - `requirements.txt` – Python dependencies (`requests`, `markdownify`, `pdfminer.six`, `PyYAML`) used by the helper scripts.
 - `llm-attack-catalog.md` – printable version of the master catalog inside `docs/`.
 - `docs/comprehensive-catalog-of-llm-jailbreaking-and-attack-techniques.md` –
@@ -77,9 +78,9 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 
 ## Repository Statistics
 
-- The `docs/` folder contains **19** themed subdirectories with a total of **89** documents (42 Markdown and 47 HTML).
-- `docs_files.txt` lists **70** canonical entries used to build the site.
-- `all_files.txt` inventories **131** tracked files across the repository.
+- The `docs/` folder contains **19** themed subdirectories with a total of **104** documents (57 Markdown and 47 HTML).
+- `docs_files.txt` lists **73** canonical entries used to build the site.
+- `all_files.txt` inventories **132** tracked files across the repository.
 - GitHub Actions run on **Python 3.10** and **Node 18**, while pre‑commit hooks
   pin markdownlint **v0.38.0** and codespell **v2.4.1**.
 - `sbom.json` follows the **CycloneDX&nbsp;1.5** specification for reproducible

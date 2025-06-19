@@ -306,21 +306,99 @@
     "existing": "extractions1/b274658c19.md"
   },
   "http://purl.org/dc/dcam/domainIncludes": {
-    "saved_as": "8de6b83d7d.md"
+    "existing": "@extractions1/8de6b83d7d.md"
   },
   "http://purl.org/dc/dcam/memberOf": {
-    "saved_as": "62973babd8.md"
+    "existing": "@extractions1/62973babd8.md"
   },
   "http://purl.org/dc/dcam/rangeIncludes": {
-    "saved_as": "46b152b5a8.md"
+    "existing": "@extractions1/46b152b5a8.md"
   },
   "http://purl.org/dc/dcmitype/": {
     "existing": "extractions1/2730184a15.md"
   },
   "http://purl.org/dc/dcmitype/Collection": {
-    "saved_as": "cff3647119.md"
+    "existing": "@extractions1/cff3647119.md"
   },
   "http://purl.org/dc/dcmitype/Dataset": {
-    "saved_as": "17bd65c0aa.md"
+    "existing": "@extractions1/17bd65c0aa.md"
+  },
+  "http://purl.org/dc/dcmitype/Event": {
+    "saved_as": "edda2377b5.md"
+  },
+  "http://purl.org/dc/dcmitype/Image": {
+    "saved_as": "4c56e9d132.md"
+  },
+  "http://purl.org/dc/dcmitype/InteractiveResource": {
+    "saved_as": "03e982baaa.md"
+  },
+  "http://purl.org/dc/dcmitype/MovingImage": {
+    "saved_as": "1a65f61a92.md"
+  },
+  "http://purl.org/dc/dcmitype/PhysicalObject": {
+    "saved_as": "16a7e9cf70.md"
+  },
+  "http://purl.org/dc/dcmitype/Service": {
+    "saved_as": "4f6f6919bd.md"
+  },
+  "http://purl.org/dc/dcmitype/Software": {
+    "saved_as": "830c1cb094.md"
+  },
+  "http://purl.org/dc/dcmitype/Sound": {
+    "saved_as": "68b62d3682.md"
+  },
+  "http://purl.org/dc/dcmitype/StillImage": {
+    "saved_as": "1e075c9f54.md"
+  },
+  "http://purl.org/dc/dcmitype/Text": {
+    "saved_as": "985c2f5c68.md"
+  },
+  "http://purl.org/dc/dcmitype/`**": {
+    "existing": "extractions1/2d0bd07be6.md"
+  },
+  "http://purl.org/dc/elements/1.1": {
+    "existing": "extractions1/2aeb059b18.md"
+  },
+  "http://purl.org/dc/elements/1.1/": {
+    "existing": "extractions1/f414295724.md"
+  },
+  "http://purl.org/dc/elements/1.1/`**": {
+    "existing": "extractions1/bc3771f434.md"
+  },
+  "http://purl.org/dc/elements/1.1/contributor": {
+    "saved_as": "5964b42bb0.md"
+  },
+  "http://purl.org/dc/elements/1.1/coverage": {
+    "saved_as": "10a8af6d36.md"
+  },
+  "http://purl.org/dc/elements/1.1/creator": {
+    "saved_as": "d98f283f4b.md"
+  },
+  "http://purl.org/dc/elements/1.1/date": {
+    "existing": "extractions1/4fa51e6f20.md"
+  },
+  "http://purl.org/dc/elements/1.1/date`": {
+    "existing": "extractions1/d115fb2f77.md"
+  },
+  "http://purl.org/dc/elements/1.1/description": {
+    "saved_as": "2afba585fe.md"
+  },
+  "http://purl.org/dc/elements/1.1/format": {
+    "saved_as": "3b8785de67.md"
+  },
+  "http://purl.org/dc/elements/1.1/identifier": {
+    "saved_as": "bfa2e34279.md"
+  },
+  "http://purl.org/dc/elements/1.1/language": {
+    "saved_as": "25933321b8.md"
+  },
+  "http://purl.org/dc/elements/1.1/publisher": {
+    "saved_as": "3a68973a1f.md"
+  },
+  "http://purl.org/dc/elements/1.1/relation": {
+    "saved_as": "4a6e0ce603.md"
+  },
+  "http://purl.org/dc/elements/1.1/rights": {
+    "saved_as": "ccca4a7114.md"
   }
 }
