@@ -164,6 +164,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `llm-supply-chain-attacks.md` — overview of supply chain risks
 - `poisoned-pretraining-markets.md` — resources on poisoned dataset marketplaces
 - `extended-llm-supply-chain-resources.md` — additional references on supply chain threats
+- `more-llm-supply-chain-resources.md` — further resources gathered after the initial publication
 
 ### token-level/
 - `techradar-tokenbreak.html` — token level manipulation article
