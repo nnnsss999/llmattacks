@@ -78,6 +78,9 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 
 ### latent-space/
 - `latent-space-attack-resources.md` — curated latent space references
+- `latent-space-resources-2026.md` — additional latent-space papers
+- `latent-space-resources-2027.md` — newer latent-space research
+- `latent-space-resources-2028.md` — latest latent-space papers
 - `apexhq-latentspace.html` — attack on latent representations
 - `obfuscated-activations.html` — obfuscating activations during alignment
 
@@ -93,6 +96,8 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `visual-jailbreaking.html` — blog post on visual jailbreaks
 - `visual-jailbreaking-resources.md` — curated references on multimodal jailbreaks
 - `image-based-attack-resources.md` — additional references on using images for jailbreaks
+- `image-based-attack-resources-2028.md` — newer papers on multimodal jailbreaks
+- `visual-jailbreaking-resources-2028.md` — updated references on multimodal jailbreaks
 - `steganography-resources-2026.md` — latest papers on covert LLM attacks
 
 ### optimization/
@@ -106,7 +111,15 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `projected-gradient-descent-attack.md` — PGD-based jailbreaks
 - `tag-gradient-attack.md` — early gradient attack on transformers
 - `gradient-based-adversarial-transformers.md` — adversarial distribution search
+- `gradient-attack-resources.md` — additional readings on gradient-based jailbreaks
+- `gradient-based-attack-resources.md` — curated references on gradient-guided attacks
 - `gradient-resources-2026.md` — additional gradient-based jailbreak research
+- `gradient-resources-2027.md` — further gradient-based jailbreak references
+- `evolutionary-algorithm-attacks.md` — overview of GA-based jailbreak techniques
+- `boosting-jailbreak-with-momentum.md` — momentum-based gradient attack
+- `dager-gradient-inversion.md` — exact gradient inversion method
+- `improved-techniques-for-jailbreaking.md` — refined optimization approach
+- `llm-abuse-prevention-gcg.md` — GCG jailbreak detection with DistilBERT
 
 ### prompt-dialogue/
 - `gpt4v-safe.html` — safe multimodal prompt
@@ -127,14 +140,20 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `confident-ai-jailbreak.html` — case study of social engineering a chatbot
 - `social-engineering-overview.html` — summary of social engineering risks
 - `emotional-manipulation-resources.md` — social engineering and emotional manipulation references
+- `persona-based-resources.md` — persona-driven jailbreak references
 
 ### supply-chain/
 - `hackernews-pypi.html` — story on PyPI supply-chain risks
 - `thehackernews-dependency-hijack.html` — dependency hijacking example
 - `llm-supply-chain-attacks.md` — overview of supply chain risks
+- `poisoned-pretraining-markets.md` — resources on poisoned dataset marketplaces
+- `extended-llm-supply-chain-resources.md` — additional references on supply chain threats
 
 ### token-level/
 - `techradar-tokenbreak.html` — token level manipulation article
+- `token-prediction-resources.md` — references on token prediction and side channels
+- `additional-token-level-resources.md` — broader tokenization attack bibliography
+- `token-level-resources-2027.md` — newer token-level manipulation papers
 
 ### training-alignment/
 - `index.md` — overview of training-phase attacks

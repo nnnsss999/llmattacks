@@ -6,7 +6,8 @@ date_collected: 2025-06-18
 license: "CC-BY-4.0"
 ---
 
-The following articles and research papers document the **Many-Shot Jailbreaking** technique and proposed mitigations.
+The following articles and research papers document the
+**Many-Shot Jailbreaking** technique and proposed mitigations.
 
 - [Many-shot jailbreaking (Anthropic Research)](https://www.anthropic.com/research/many-shot-jailbreaking)
 - [Large-Scale Jailbreaking via Many-Shot Prompting (NeurIPS 2024)](https://openreview.net/forum?id=cw5mgd71jW)
@@ -21,3 +22,25 @@ The following articles and research papers document the **Many-Shot Jailbreaking
 - [PANDAS: Improving Many-shot Jailbreaking via Positive Affirmation, Negative Demonstration, and Adaptive Sampling (arXiv:2502.01925)](https://arxiv.org/abs/2502.01925)
 - [Compromesso! Italian Many-Shot Jailbreaks Undermine the Safety of Large Language Models (arXiv:2408.04522)](https://arxiv.org/abs/2408.04522)
 - [Improved Few-Shot Jailbreaking Can Circumvent Aligned Language Models and Their Defenses (arXiv:2406.01288)](https://arxiv.org/abs/2406.01288)
+- [LLM Guardrails Fall to a Simple "Many-Shot Jailbreaking" Attack, Anthropic Warns (Hackster.io)](https://www.hackster.io/news/llm-guardrails-fall-to-a-simple-many-shot-jailbreaking-attack-anthropic-warns-f6eb7b37f4cc)
+- [Cognitive Overload Attack: Prompt Injection for Long Context (SAIL Lab)](https://sail-lab.org/cognitive-overload-attack-prompt-injection-for-long-context/)
+- [LongSafety: Evaluating Long-Context Safety of Large Language Models (arXiv:2502.16971)](https://arxiv.org/abs/2502.16971)
+- [Many-Shot Jailbreaking (PDF)](https://www-cdn.anthropic.com/af5633c94ed2beb282f6a53c595eb437e8e7b630/Many_Shot_Jailbreaking__2024_04_02_0936.pdf)
+- [Many-shot jailbreaking: How expanded context windows in AI models led to a new vulnerability (Medium)](https://medium.com/@_jeremy_/many-shot-jailbreaking-how-expanded-context-windows-in-ai-models-led-to-a-new-vulnerability-37055b2f11d4)
+- [Many-shot jailbreaking: A new LLM vulnerability (Prompt Security Blog)](https://www.prompt.security/blog/many-shot-jailbreaking-a-new-llm-vulnerability)
+- [Context window overflow: Breaking the barrier (AWS Security Blog)](https://aws.amazon.com/blogs/security/context-window-overflow-breaking-the-barrier/)
+- [RAG in the era of LLMs with 10 million token context windows (F5 Blog)](https://www.f5.com/company/blog/rag-in-the-era-of-llms-with-10-million-token-context-windows)
+- [Understanding LLM context windows: tokens, attention, and challenges (IBM Think Blog)](https://www.ibm.com/think/topics/context-window)
+- [Context Degradation Syndrome: When Large Language Models Lose the Plot (James Howard)](https://jameshoward.us/2024/11/26/context-degradation-syndrome-when-large-language-models-lose-the-plot)
+- [Why Large Language Models Struggle With Long Contexts (Understanding AI)](https://www.understandingai.org/p/why-large-language-models-struggle)
+- [Virtual Context: Enhancing Jailbreak Attacks with Special Token Injection (arXiv:2406.19845)](https://arxiv.org/abs/2406.19845)
+- [The Big List Of AI Jailbreaking References And Resources (Briand Colwell)](https://briandcolwell.com/the-big-list-of-ai-jailbreaking-references-and-resources/)
+- [ita-many-shots-jailbreaking Dataset (GitHub)](https://github.com/fabiopernisi/ita-many-shots-jailbreaking)
+- [Cognitive Overload Attack GitHub Repository (UNHSAILLab)](https://github.com/UNHSAILLab/cognitive-overload-attack)
+- [Many-Shot Jailbreaking Dataset (GitHub)](https://github.com/KutalVolkan/many-shot-jailbreaking-dataset)
+- [Many-Shot Jailbreaking Demo Repository (TrustAI-laboratory)](https://github.com/TrustAI-laboratory/Many-Shot-Jailbreaking-Demo)
+- [Many-shot jailbreaking: A new frontier in AI safety (Medium)](https://medium.com/@elmo92/many-shot-jailbreaking-a-new-frontier-in-ai-safety-75dc7002e1b9)
+- [New jailbreak method discovered: Many-shot jailbreaking (Substack)](https://jailbreakai.substack.com/p/new-jailbreak-method-discovered-many)
+- [Many-Shot In-Context Learning (arXiv:2404.11018)](https://arxiv.org/abs/2404.11018)
+- [Guardians of the Agentic System: Preventing Many Shots Jailbreak with Agentic System (arXiv:2502.16750)](https://arxiv.org/abs/2502.16750)
+- [Jailbreaking Leading Safety-Aligned LLMs with Simple Adaptive Attacks (arXiv:2404.02151)](https://arxiv.org/abs/2404.02151)
