@@ -5,6 +5,9 @@
   "http://ai.meta.com/blog/meta-llama-3-1": {
     "existing": "extractions1/a15fda3325.md"
   },
+  "http://ai.meta.com/blog/meta-llama-3-1-ai-responsibility": {
+    "saved_as": "21d1cef9a8.md"
+  },
   "http://ai.meta.com/llama": {
     "existing": "extractions1/5ce86332d8.md"
   },
@@ -82,6 +85,9 @@
   },
   "http://arxiv.org/licenses/nonexclusive-distrib/1.0/": {
     "existing": "extractions1/94bca121d0.md"
+  },
+  "http://arxiv.org/licenses/nonexclusive-distrib/1.0/%60": {
+    "error": "404 Client Error: Not Found for url: http://arxiv.org/licenses/nonexclusive-distrib/1.0/%60"
   },
   "http://arxiv.org/licenses/nonexclusive-distrib/1.0/`": {
     "error": "404 Client Error: Not Found for url: http://arxiv.org/licenses/nonexclusive-distrib/1.0/%60"
@@ -167,6 +173,9 @@
   "http://datasets.While": {
     "error": "503 Server Error: Service Unavailable for url: http://datasets.while/"
   },
+  "http://datasets.while/": {
+    "error": "503 Server Error: Service Unavailable for url: http://datasets.while/"
+  },
   "http://dlmf.nist.gov/LaTeXML": {
     "existing": "extractions1/a99a711fb0.md"
   },
@@ -176,299 +185,7 @@
   "http://dlmf.nist.gov/LaTeXML/.--": {
     "existing": "extractions1/dfe95ebb1b.md"
   },
-  "http://dublincore.org/specifications/dublin-core/dces/1999-07-02/": {
-    "existing": "extractions1/b42d8d9a7d.md"
-  },
-  "http://dublincore.org/specifications/dublin-core/dces/1999-07-02/`": {
-    "error": "404 Client Error: Not Found for url: https://www.dublincore.org/specifications/dublin-core/dces/1999-07-02/%60"
-  },
-  "http://dublincore.org/specifications/dublin-core/dcmi-terms/2020-01-20/": {
-    "existing": "extractions1/d19bb1a7d7.md"
-  },
-  "http://filters.To": {
-    "error": "503 Server Error: Service Unavailable for url: http://filters.to/"
-  },
-  "http://github.com/llm-attacks/llm-attacks": {
-    "existing": "extractions1/e7faca322a.md"
-  },
-  "http://gmpg.org/xfn/11": {
-    "existing": "extractions1/434bc5d3f9.md"
-  },
-  "http://gotit.pub/faq": {
-    "existing": "extractions1/a19f5ec71f.md"
-  },
-  "http://library.isical.ac.in:8080/jspui/handle/10263/6765.AleksandarMakelov": {
-    "error": "503 Server Error: Service Unavailable for url: http://library.isical.ac.in:8080/jspui/handle/10263/6765.AleksandarMakelov"
-  },
-  "http://llm-attacks.org/": {
-    "existing": "extractions1/6ea37d80f9.md"
-  },
-  "http://madskills.com/public/xml/rss/module/trackback": {
-    "error": "503 Server Error: Service Unavailable for url: http://madskills.com/public/xml/rss/module/trackback"
-  },
-  "http://madskills.com/public/xml/rss/module/trackback/": {
-    "error": "503 Server Error: Service Unavailable for url: http://madskills.com/public/xml/rss/module/trackback/"
-  },
-  "http://meyerweb.com/": {
-    "existing": "extractions1/f401a61178.md"
-  },
-  "http://opengraphprotocol.org/schema": {
-    "error": "404 Client Error: Not Found for url: https://ogp.me/schema/"
-  },
-  "http://opengraphprotocol.org/schema/": {
-    "error": "404 Client Error: Not Found for url: https://ogp.me/schema/"
-  },
-  "http://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html": {
-    "existing": "extractions1/6ae68c32c7.md"
-  },
-  "http://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html[30]S.Yao": {
-    "error": "404 Client Error: Not Found for url: https://proceedings.neurips.cc//paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html%5b30%5dS.Yao"
-  },
-  "http://photomatt.net/": {
-    "existing": "extractions1/9265bed4df.md"
-  },
-  "http://purl.org/dc/dcam/": {
-    "existing": "extractions1/64970bc2d4.md"
-  },
-  "http://purl.org/dc/dcam/`**": {
-    "existing": "extractions1/b274658c19.md"
-  },
-  "http://purl.org/dc/dcmitype/": {
-    "existing": "extractions1/2730184a15.md"
-  },
-  "http://purl.org/dc/dcmitype/`**": {
-    "existing": "extractions1/2d0bd07be6.md"
-  },
-  "http://purl.org/dc/elements/1.1": {
-    "existing": "extractions1/2aeb059b18.md"
-  },
-  "http://purl.org/dc/elements/1.1/": {
-    "existing": "extractions1/f414295724.md"
-  },
-  "http://purl.org/dc/elements/1.1/`**": {
-    "existing": "extractions1/bc3771f434.md"
-  },
-  "http://purl.org/dc/elements/1.1/date": {
-    "existing": "extractions1/4fa51e6f20.md"
-  },
-  "http://purl.org/dc/elements/1.1/date`": {
-    "existing": "extractions1/d115fb2f77.md"
-  },
-  "http://purl.org/dc/terms/": {
-    "existing": "extractions1/1578eb47ce.md"
-  },
-  "http://purl.org/dc/terms/`**": {
-    "existing": "extractions1/4dfb3ccb9c.md"
-  },
-  "http://purl.org/dc/terms/date": {
-    "existing": "extractions1/0f6461eb05.md"
-  },
-  "http://purl.org/dc/terms/date`": {
-    "existing": "extractions1/90a55f47c3.md"
-  },
-  "http://reddit.com/submit?url=https://www.apexhq.ai/blog/blog/latent-space-the-new-attack-vector-into-organizations": {
-    "error": "403 Client Error: Forbidden for url: https://www.reddit.com/submit?url=https://www.apexhq.ai/blog/blog/latent-space-the-new-attack-vector-into-organizations"
-  },
-  "http://reddit.com/submit?url=https://www.apexhq.ai/blog/blog/latent-space-the-new-attack-vector-into-organizations/": {
-    "error": "403 Client Error: Forbidden for url: https://www.reddit.com/submit?url=https://www.apexhq.ai/blog/blog/latent-space-the-new-attack-vector-into-organizations/"
-  },
-  "http://schema.org/SoftwareSourceCode": {
-    "existing": "extractions1/437821ec40.md"
-  },
-  "http://tantek.com/": {
-    "existing": "extractions1/053cc21814.md"
-  },
-  "http://tools.ietf.org/html/bcp47": {
-    "existing": "extractions1/2bcdb410f3.md"
-  },
-  "http://www.addthis.com/help/api-spec": {
-    "error": "403 Client Error: Forbidden for url: https://www.oracle.com/"
-  },
-  "http://www.anthropic.com/rsp-updates": {
-    "existing": "extractions1/9cfe082a80.md"
-  },
-  "http://www.apache.org/licenses/LICENSE-2.0": {
-    "existing": "extractions1/652ab88cd0.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2012.07805&amp;description=Extracting": {
-    "existing": "extractions1/4c175ee2f0.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2309.01446&amp;description=Open": {
-    "existing": "extractions1/f125125274.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2401.12192&amp;description=Text": {
-    "existing": "extractions1/02b9bd975d.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2402.02309&amp;description=Jailbreaking": {
-    "existing": "extractions1/00e8ce405c.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2402.07867&amp;description=PoisonedRAG": {
-    "existing": "extractions1/4ca33972ca.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2402.07867&amp;description=PoisonedRAG:": {
-    "existing": "extractions1/e809de0c24.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2402.16006&amp;description=ASETF": {
-    "existing": "extractions1/7d2fcb81a2.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2402.16006&amp;description=ASETF:": {
-    "existing": "extractions1/9105e2dfda.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2404.02532&amp;description=Learn": {
-    "existing": "extractions1/0d932658a5.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2406.14859&amp;description=From": {
-    "existing": "extractions1/b0fc360d1c.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2409.14729&amp;description=PROMPTFUZZ": {
-    "existing": "extractions1/5bb7f476e5.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2409.14729&amp;description=PROMPTFUZZ:": {
-    "existing": "extractions1/5c33113557.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2410.04884&amp;description=Patch": {
-    "existing": "extractions1/984141def2.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2411.07494&amp;description=Rapid": {
-    "existing": "extractions1/731ce7ed96.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2411.12762&amp;description=Playing": {
-    "existing": "extractions1/dc7d5b342b.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2412.09565&amp;description=Obfuscated": {
-    "existing": "extractions1/fffcb050b1.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2501.18536&amp;description=Illusions": {
-    "existing": "extractions1/c786f77346.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2505.16008&amp;description=LAGO": {
-    "existing": "extractions1/ccf5ea2a20.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2505.16008&amp;description=LAGO:": {
-    "existing": "extractions1/e181e49f0d.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/1906.01820&description=Risks": {
-    "existing": "extractions1/c6a15babb6.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2006.03463&description=Sponge": {
-    "existing": "extractions1/10bee923f1.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2010.15980&description=AutoPrompt": {
-    "existing": "extractions1/a2d4db513d.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2010.15980&description=AutoPrompt:": {
-    "existing": "@extractions1/9b97304fec.md"
-    "saved_as": "9b97304fec.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2012.07805&description=Extracting": {
-    "existing": "extractions1/1c5a8c8f11.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2102.12452&description=Probing": {
-    "existing": "extractions1/0a6de28295.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2112.00861&description=A": {
-    "existing": "extractions1/4f0ba2e843.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2203.02155&description=Training": {
-    "existing": "extractions1/b1ce1d8242.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2204.05862&description=Training": {
-    "existing": "extractions1/ae0cfc7fec.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2204.14198&description=Flamingo": {
-    "existing": "extractions1/b58f2107a8.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2204.14198&description=Flamingo:": {
-    "saved_as": "88639454bf.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2212.08073&description=Constitutional": {
-    "existing": "extractions1/b399c9a792.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2302.08582&description=Pretraining": {
-    "existing": "extractions1/4861150dc3.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2303.17071&description=DERA": {
-    "existing": "extractions1/7b5320865b.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2303.17071&description=DERA:": {
-    "saved_as": "d43da40710.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2303.17651&description=Self-Refine": {
-    "existing": "extractions1/8da841141a.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2303.17651&description=Self-Refine:": {
-    "saved_as": "1559139474.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2304.13861&description=The": {
-    "existing": "extractions1/b06d08199a.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2304.14178&description=mPLUG-Owl": {
-    "existing": "extractions1/de459badac.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2304.14178&description=mPLUG-Owl:": {
-    "saved_as": "806a079fca.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2305.13860&description=Jailbreaking": {
-    "existing": "extractions1/da9765b354.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2306.05499&description=Prompt": {
-    "existing": "extractions1/8dbb67d9d5.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2306.13588&description=System-Level": {
-    "existing": "extractions1/94f610dc7f.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2307.02483&description=Jailbroken": {
-    "existing": "extractions1/8110db0944.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2307.02483&description=Jailbroken:": {
-    "saved_as": "6eb355f759.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2307.06865&description=Effective": {
-    "existing": "extractions1/b42f141655.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2307.08715&description=MasterKey": {
-    "existing": "extractions1/65f04b46c5.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2307.08715&description=MasterKey:": {
-    "saved_as": "67063bd3f6.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2307.15043&description=Universal": {
-    "existing": "extractions1/e442e944b0.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.00236&description=Image": {
-    "existing": "extractions1/95cf480fd1.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.01446&description=Open": {
-    "existing": "extractions1/7210c0b565.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.03409&description=Large": {
-    "existing": "extractions1/55740ab119.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.10253&description=GPTFUZZER": {
-    "existing": "extractions1/ff584c6590.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.10253&description=GPTFUZZER:": {
-    "saved_as": "857a7a915a.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.11053&description=Fed-LSAE": {
-    "existing": "extractions1/bffd2375e8.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.11053&description=Fed-LSAE:": {
-    "saved_as": "a272d8562d.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.11751&description=How": {
-    "existing": "extractions1/1dac1c1129.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2309.15840&description=How": {
-    "existing": "extractions1/ff591f0a61.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2310.06987&description=Catastrophic": {
-    "existing": "extractions1/b4fda79c4e.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2311.09127&description=Jailbreaking": {
-    "existing": "extractions1/b73e732d58.md"
-  },
-  "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2312.11513&description=Maatphor": {
-    "saved_as": "2322d4200e.md"
+  "http://dublincore.org": {
+    "saved_as": "03bfb89141.md"
   }
 }
