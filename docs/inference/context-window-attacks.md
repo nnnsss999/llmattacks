@@ -91,3 +91,8 @@ These resources detail how manipulating a model's working context can produce ha
 - [LLM Scope Violation: Expanding Attack Surface (Aim Security)](https://www.aim.security/blog/llm-scope-violation)
 - [Zero-click Copilot flaw reveals LLM Scope Violation (CSO Online)](https://www.csoonline.com/article/4005965/first-ever-zero-click-attack-targets-microsoft-365-copilot.html)
 - [Context Degradation Syndrome: When Large Language Models Lose the Plot](https://jameshoward.us/2024/11/26/context-degradation-syndrome-when-large-language-models-lose-the-plot)
+- [Llama 3 Context Window Analysis (Scale AI Blog)](https://scale.com/blog/llama-3-context-window)
+- [RAG vs Long Context Windows (Vellum AI Blog)](https://www.vellum.ai/blog/rag-vs-long-context)
+- [RAG and Long Context Windows: Why You Need Both (Google Cloud Medium)](https://medium.com/google-cloud/rag-and-long-context-windows-why-you-need-both-1b75cf4509d9)
+- [Managing the Context Window for Better Reasoning (OpenAI Docs)](https://platform.openai.com/docs/guides/reasoning/managing-the-context-window)
+- [Bringing Memory to AI: MCP A2A Agent Context Protocols (Orca Security Blog)](https://orca.security/resources/blog/bringing-memory-to-ai-mcp-a2a-agent-context-protocols/)

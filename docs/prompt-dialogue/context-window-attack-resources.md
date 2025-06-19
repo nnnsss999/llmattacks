@@ -88,3 +88,8 @@ The following sources examine how adversaries exploit an LLM's context window. T
 - [Token Smuggling for Prompt Injection (Lakera AI)](https://www.lakera.ai/blog/token-smuggling)
 - [Token-Smuggling: The Hidden Threat to A.I. and GPT Models (Hashdork)](https://hashdork.com/token-smuggling/)
 - [AI Guardrail Vulnerability Exposed: How Emoji Smuggling Bypasses LLM Safety Filters (WindowsForum)](https://windowsforum.com/threads/ai-guardrail-vulnerability-exposed-how-emoji-smuggling-bypasses-llm-safety-filters.365061/)
+- [Llama 3 Context Window Analysis (Scale AI Blog)](https://scale.com/blog/llama-3-context-window)
+- [RAG vs Long Context Windows (Vellum AI Blog)](https://www.vellum.ai/blog/rag-vs-long-context)
+- [RAG and Long Context Windows: Why You Need Both (Google Cloud Medium)](https://medium.com/google-cloud/rag-and-long-context-windows-why-you-need-both-1b75cf4509d9)
+- [Managing the Context Window for Better Reasoning (OpenAI Docs)](https://platform.openai.com/docs/guides/reasoning/managing-the-context-window)
+- [Bringing Memory to AI: MCP A2A Agent Context Protocols (Orca Security Blog)](https://orca.security/resources/blog/bringing-memory-to-ai-mcp-a2a-agent-context-protocols/)
