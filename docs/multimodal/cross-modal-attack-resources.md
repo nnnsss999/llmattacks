@@ -92,3 +92,7 @@ Below is a curated list of papers, tutorials, and repositories that document how
 - [Unveiling Vulnerabilities in Large Vision-Language Models](https://link.springer.com/chapter/10.1007/978-3-031-72344-5_28)
 - [ACL 2024 Tutorial: Vulnerabilities of Large Language Models to Adversarial Attacks](https://llm-vulnerability.github.io/)
 - [A Survey on Security and Privacy of Large Multimodal Deep Learning Systems](https://ieeexplore.ieee.org/document/10469434)
+
+- [BadCLIP: Dual-Embedding Guided Backdoor Attack on Multimodal Contrastive Learning](http://openaccess.thecvf.com/content/CVPR2024/html/Liang_BadCLIP_Dual-Embedding_Guided_Backdoor_Attack_on_Multimodal_Contrastive_Learning_CVPR_2024_paper.html)
+- [Heuristic-Induced Multimodal Risk Distribution Jailbreak Attack for Multimodal Large Language Models](https://arxiv.org/abs/2412.05934)
+- [MultiTrust: A Comprehensive Benchmark Towards Trustworthy Multimodal Large Language Models](https://arxiv.org/abs/2406.07057)
