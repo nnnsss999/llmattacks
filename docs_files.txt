@@ -85,6 +85,12 @@ docs/token-level/token-level-resources-2027.md
 docs/streaming/streaming-response-hijacking-resources.md
 docs/function-calling/function-calling-exploit-resources.md
 docs/latent-space/attention-hijacking-resources.md
+docs/neuron-resources.md
+docs/neuron-resources-2027.md
+docs/neuron-resources-2028.md
+docs/fuzzing/fuzzing-resources-2030.md
+docs/fuzzing/fuzzing-resources-2031.md
+docs/fuzzing/fuzzing-resources-2032.md
 docs/supply-chain/compromised-model-hub-resources.md
 docs/optimization/evolutionary-algorithm-attacks.md
 docs/prompt-dialogue/prompt-engineering-resources-2028.md
@@ -97,3 +103,5 @@ docs/supply-chain/thehackernews-rust-myth-stealer.html
 docs/supply-chain/checkmarx-free-hugs-part4.html
 docs/supply-chain/reversinglabs-nullif-ai.html
 docs/supply-chain/trailofbits-sleepy-pickle-part1.html
+docs/prompt-dialogue/prompt-engineering-resources-2029.md
+docs/prompt-dialogue/prompt-engineering-resources-2030.md
