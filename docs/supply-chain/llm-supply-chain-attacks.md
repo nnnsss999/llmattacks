@@ -14,6 +14,7 @@ Attackers can upload or sell curated datasets that secretly contain harmful prom
 - [The PiCo Framework](../training-alignment/pico.md) outlines a method for planting malicious code instructions into otherwise benign data.
 - [Mechanism-Centric Data Poisoning](../training-alignment/mechanism-centric-poisoning.md) suggests studying poisoning strategies to harden future LLMs.
 - "Poisoning data supply chains" by [NCC Group](https://research.nccgroup.com/2022/12/05/exploring-prompt-injection-attacks/) examines how publicly shared datasets can be manipulated.
+- [Additional references on poisoned markets](poisoned-pretraining-markets.md) expand on marketplace threats and defenses.
 
 ## Compromised Model Hubs
 
