@@ -163,6 +163,8 @@ Local cache for PDFs.
 ## extractions1/
 Temporary holding area for URL extractions.
 - `.gitkeep` — placeholder so the directory remains tracked
+- `extraction_log.json` — log summarising which URLs were processed
+- `*.md` — numerous hashed Markdown files generated from each URL
 
 ## scripts/
 Utility scripts for building and checking the catalog.
