@@ -78,6 +78,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 
 ### latent-space/
 - `latent-space-attack-resources.md` — curated latent space references
+- `latent-space-resources-2026.md` — additional latent-space papers
 - `apexhq-latentspace.html` — attack on latent representations
 - `obfuscated-activations.html` — obfuscating activations during alignment
 
@@ -93,6 +94,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `visual-jailbreaking.html` — blog post on visual jailbreaks
 - `visual-jailbreaking-resources.md` — curated references on multimodal jailbreaks
 - `image-based-attack-resources.md` — additional references on using images for jailbreaks
+- `image-based-attack-resources-2028.md` — newer papers on multimodal jailbreaks
 - `steganography-resources-2026.md` — latest papers on covert LLM attacks
 
 ### optimization/
@@ -131,6 +133,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 ### supply-chain/
 - `hackernews-pypi.html` — story on PyPI supply-chain risks
 - `thehackernews-dependency-hijack.html` — dependency hijacking example
+- `llm-supply-chain-attacks.md` — overview of supply chain risks
 
 ### token-level/
 - `techradar-tokenbreak.html` — token level manipulation article
