@@ -85,19 +85,19 @@
 - http://madskills.com/public/xml/rss/module/trackback/
 - http://meyerweb.com/
 - http://microformats.org/
-# @extractions1/7f4528c4b5.md
+- # @extractions1/7f4528c4b5.md
 - http://microformats.org/about/people
-# @extractions1/2a141f0bf1.md
+- # @extractions1/2a141f0bf1.md
 - http://microformats.org/wiki
-# @extractions1/6db31a3845.md
+- # @extractions1/6db31a3845.md
 - http://microformats.org/wiki/h-card
-# @extractions1/85de7cc253.md
+- # @extractions1/85de7cc253.md
 - http://microformats.org/wiki/h-cite
-# @extractions1/719b4074c3.md
+- # @extractions1/719b4074c3.md
 - http://microformats.org/wiki/h-entry
-# @extractions1/01bf55cdf8.md
+- # @extractions1/01bf55cdf8.md
 - http://microformats.org/wiki/h-event
-# @extractions1/075a2e127b.md
+- # @extractions1/075a2e127b.md
 - http://microformats.org/wiki/microformats2
 - http://opengraphprotocol.org/schema
 - http://opengraphprotocol.org/schema/
@@ -853,7 +853,7 @@
 - https://arxiv.org/abs/2405.13068v2
 - https://arxiv.org/abs/2405.14577.PaulR
 - https://arxiv.org/abs/2405.14577.PaulRöttger
-- https://arxiv.org/abs/2405.15589v3.38
+- XiangyuQi
 - https://arxiv.org/abs/2405.15589v3.38WenkaiYang
 - https://arxiv.org/abs/2405.20773
 - https://arxiv.org/abs/2405.20773v1
@@ -5128,6 +5128,28 @@ XiangyuQi
 - https://www.whatsapp.com/dl?wame_funnel=1
 - https://www.whatsapp.com/download
 - https://www.whatsapp.com/expressyourself
+- https://sysdig.com/blog/llmjacking-stolen-cloud-credentials-used-in-new-ai-attack/
+- https://thehackernews.com/2024/05/researchers-uncover-llmjacking-scheme.html
+- https://www.csoonline.com/article/3535433/llmjacking-how-attackers-use-stolen-aws-credentials-to-enable-llms-and-rack-up-costs-for-victims.html
+- https://www.neilsahota.com/llm-jacking-how-hackers-are-exploiting-large-language-models/
+- https://blog.securelayer7.net/understanding-llmjacking-guide/
+- https://www.wiz.io/academy/llm-jacking
+- https://www.upwind.io/glossary/llmjacking-what-is-it-and-why-is-it-a-concern
+- https://permiso.io/blog/exploiting-hosted-models
+- https://llmreporter.com/posts/the-dark-side-of-ai-how-hackers-are-stealing-llm-credentials/
+- https://arxiv.org/html/2408.13442v1
+- https://aclanthology.org/2023.emnlp-main.810/
+- https://learnprompting.org/docs/prompt_hacking/offensive_measures/obfuscation
+- https://hashdork.com/token-smuggling/
+- https://blog.cloudflare.com/ai-side-channel-attack-mitigated/
+- https://eprint.iacr.org/2025/167.pdf
+- https://letungbach.com/posts/hijacking-llm/
+- https://arxiv.org/abs/2311.09948
+- https://arxiv.org/html/2407.17915v3
+- https://github.com/wooozihui/jailbreakfunction
+- https://www.marktechpost.com/2024/08/08/securing-function-calls-in-llms-unveiling-and-mitigating-jailbreak-vulnerabilities/
+- https://medium.com/@has.dhia/the-dark-side-of-function-calling-in-large-language-models-ca089b994aa4
+- https://portswigger.net/web-security/llm-attacks
 - https://www.whatsapp.com/groups
 - https://www.whatsapp.com/join
 - https://www.whatsapp.com/legal/
