@@ -75,6 +75,17 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 - `.gitignore` – patterns for untracked files.
 - `README.md` – repository overview.
 
+## Repository Statistics
+
+- The `docs/` folder contains **18** themed subdirectories with a total of **78**
+  documents (31 Markdown and 47 HTML).
+- `docs_files.txt` lists **64** canonical entries used to build the site.
+- `all_files.txt` inventories **131** tracked files across the repository.
+- GitHub Actions run on **Python 3.10** and **Node 18**, while pre‑commit hooks
+  pin markdownlint **v0.38.0** and codespell **v2.4.1**.
+- `sbom.json` follows the **CycloneDX&nbsp;1.5** specification for reproducible
+  metadata.
+
 ## Using This Repository
 
 - The **canonical files** reside under `docs/` and use kebab‑case names.
