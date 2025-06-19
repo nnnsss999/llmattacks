@@ -17,7 +17,7 @@
       "date_collected": "2025-06-18"
     },
     {
-      "title": "Attack\u2013Defence Matrix",
+      "title": "Attack–Defence Matrix",
       "path": "attack-defense-matrix.md",
       "category": "Overview",
       "sub_category": "",
@@ -151,6 +151,15 @@
       "title": "Alignment-Aware Model Extraction Attacks",
       "path": "inference/alignment-aware-mea.md",
       "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    }
+  ],
+  "Latent Space": [
+    {
+      "title": "Embedding Inversion Attacks",
+      "path": "embedding/index.md",
+      "category": "Latent Space",
       "sub_category": "",
       "date_collected": "2025-06-18"
     }
