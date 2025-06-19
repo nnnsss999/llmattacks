@@ -46,4 +46,20 @@ Below is a curated set of external articles, blog posts and reports that further
 - [VulnHuntr: Zero Shot Vulnerability Discovery Using LLMs](https://github.com/protectai/vulnhuntr)
 - [LLM Embedding Attack Repository](https://github.com/SchwinnL/LLM_Embedding_Attack)
 
+Additional references collected after the original snapshot:
+
+- [Securing LLM Systems Against Prompt Injection](https://developer.nvidia.com/blog/securing-llm-systems-against-prompt-injection/)
+- [Prompt Sanitization Best Practices](https://boxplot.com/prompt-sanitization)
+- [Microsoft Guidance on Jailbreak Detection](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/jailbreak-detection)
+- [Jailbreaking LLMs – Public Dataset](https://jailbreaking-llms.github.io/)
+- [Jailbreaking Generative AI](https://lab.wallarm.com/jailbreaking-generative-ai/)
+- [Jailbreaking DeepSeek: Three Techniques](https://unit42.paloaltonetworks.com/jailbreaking-deepseek-three-techniques/)
+- [Jailbreaking Generative AI Web Products](https://unit42.paloaltonetworks.com/jailbreaking-generative-ai-web-products/)
+- [Many-Shot Jailbreaking Research](https://www.anthropic.com/research/many-shot-jailbreaking)
+- [LLM Jailbreaking Defense Repository](https://github.com/YihanWang617/llm-jailbreaking-defense)
+- [LLM Vector and Embedding Risks and How to Defend Against Them](https://www.sonatype.com/blog/llm-vector-and-embedding-risks-and-how-to-defend-against-them)
+- [Responsible Prompt Engineering: An Embedding-Based Approach to Secure LLM Interactions](https://www.ijraset.com/best-journal/responsible-prompt-engineering-an-embedding-based-approach-to-secure-llm-interactions)
+- [OWASP LLM Top 10: Vector and Embedding Weaknesses](https://scrumgit.com/owasp-llm-top-10-vector-and-embedding-weaknesses-285754bef598)
+- [Dissecting Auto-GPT's Prompt](https://community.openai.com/t/dissecting-auto-gpts-prompt/163892)
+
 These references track emerging threats and defence research through 2025 and are regularly reviewed for new developments.
