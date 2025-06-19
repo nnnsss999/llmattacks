@@ -96,3 +96,4 @@ docs/optimization/evolutionary-algorithm-attacks.md
 docs/prompt-dialogue/prompt-engineering-resources-2028.md
 docs/prompt-dialogue/prompt-engineering-resources-2029.md
 docs/prompt-dialogue/prompt-engineering-resources-2030.md
+docs/optimization/gradient-resources-2029.md
