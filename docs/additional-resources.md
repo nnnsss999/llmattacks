@@ -29,4 +29,21 @@ Below is a curated set of external articles, blog posts and reports that further
 - [Optimization-based Prompt Injection Attack to LLM-as-a-Judge](https://dl.acm.org/doi/abs/10.1145/3658644.3690291)
 - [LLMs know their vulnerabilities: Uncover Safety Gaps through Natural Distribution Shifts](https://arxiv.org/abs/2410.10700)
 
+- [Defending against Reverse Preference Attacks is Difficult](https://arxiv.org/abs/2409.12914)
+- ["Yes, My LoRD." Guiding Language Model Extraction with Locality Reinforced Distillation](https://arxiv.org/abs/2409.02718)
+- [PROMPTFUZZ: Harnessing Fuzzing Techniques for Robust Testing of Prompt Injection in LLMs](https://arxiv.org/abs/2409.14729)
+- [Patch is Enough: Naturalistic Adversarial Patch against Vision-Language Pre-training Models](https://arxiv.org/abs/2410.04884)
+- [Obfuscated Activations Bypass LLM Latent-Space Defenses](https://arxiv.org/abs/2412.09565)
+- [Illusions of Relevance: Using Content Injection Attacks to Deceive Retrievers, Rerankers, and LLM Judges](https://arxiv.org/abs/2501.18536)
+- [Membership Inference Attacks on Large-Scale Models: A Survey](https://arxiv.org/abs/2503.19338)
+- [LAGO: Few-shot Crosslingual Embedding Inversion Attacks via Language Similarity-Aware Graph Optimization](https://arxiv.org/abs/2505.16008)
+- [DarkMind Backdoor Leverages Capabilities LLMs](https://techxplore.com/news/2025-02-darkmind-backdoor-leverages-capabilities-llms.html)
+- [New TokenBreak Attack Bypasses AI Moderation with Single-Character Text Changes](https://thehackernews.com/2025/06/new-tokenbreak-attack-bypasses-ai.html)
+- [The TokenBreak Attack](https://hiddenlayer.com/innovation-hub/the-tokenbreak-attack/)
+- [RedTeaming DeepSeek Report (Jan 29, 2025)](https://cdn.prod.website-files.com/6690a78074d86ca0ad978007/679bc2e71b48e423c0ff7e60_1%20RedTeaming_DeepSeek_Jan29_2025%20(1).pdf)
+- [How nice that state-of-the-art LLMs reveal their reasoning ... for miscreants to exploit](https://www.theregister.com/2025/02/25/chain_of_thought_jailbreaking/)
+- [How to Jailbreak LLMs One Step at a Time: Top Techniques and Strategies](https://www.confident-ai.com/blog/how-to-jailbreak-llms-one-step-at-a-time)
+- [VulnHuntr: Zero Shot Vulnerability Discovery Using LLMs](https://github.com/protectai/vulnhuntr)
+- [LLM Embedding Attack Repository](https://github.com/SchwinnL/LLM_Embedding_Attack)
+
 These references track emerging threats and defence research through 2025 and are regularly reviewed for new developments.
