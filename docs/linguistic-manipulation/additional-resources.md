@@ -75,3 +75,7 @@ The following references extend the catalog with recent research on cross-lingua
 - [Dialogue Injection Attack: Jailbreaking LLMs through Context Manipulation](https://arxiv.org/abs/2503.08195)
 - [A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models](https://arxiv.org/abs/2402.13457)
 - [Amplified Vulnerabilities: Structured Jailbreak Attacks on LLM-based Multi-Agent Debate](https://arxiv.org/abs/2504.16489)
+- [LingoLoop Attack: Trapping MLLMs via Linguistic Context and State Entrapment into Endless Loops](https://arxiv.org/abs/2506.14493)
+- [Revisiting Jailbreaking for Large Language Models: A Representation Engineering Perspective](https://aclanthology.org/2025.coling-main.212/)
+- [Jigsaw Puzzles: Splitting Harmful Questions to Jailbreak Large Language Models](https://arxiv.org/abs/2410.11459)
+- [Against All Odds: Overcoming Typology, Script, and Language Confusion in Multilingual Embedding Inversion Attacks](https://arxiv.org/abs/2408.11749)
