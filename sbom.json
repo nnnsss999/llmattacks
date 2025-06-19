@@ -97,6 +97,126 @@
     },
     {
       "type": "file",
+      "name": "data-poisoning/adversarial-preference-learning.md",
+      "bom-ref": "data-poisoning/adversarial-preference-learning.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Adversarial Preference Learning"
+        },
+        {
+          "name": "category",
+          "value": "Training Alignment"
+        },
+        {
+          "name": "sub_category",
+          "value": "Data Poisoning"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/abs/2505.24369"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "data-poisoning/badreward-clean-label.md",
+      "bom-ref": "data-poisoning/badreward-clean-label.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "BadReward Clean-Label Poisoning"
+        },
+        {
+          "name": "category",
+          "value": "Training Alignment"
+        },
+        {
+          "name": "sub_category",
+          "value": "Data Poisoning"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/abs/2506.03234"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "data-poisoning/index.md",
+      "bom-ref": "data-poisoning/index.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Data Poisoning Attacks"
+        },
+        {
+          "name": "category",
+          "value": "Training Alignment"
+        },
+        {
+          "name": "sub_category",
+          "value": "Data Poisoning"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "glossary.md",
+      "bom-ref": "glossary.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Glossary"
+        },
+        {
+          "name": "category",
+          "value": "Overview"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "index.md",
       "bom-ref": "index.md",
       "properties": [
@@ -292,6 +412,33 @@
         {
           "name": "license",
           "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "navigation-map.md",
+      "bom-ref": "navigation-map.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Repository Navigation Map"
+        },
+        {
+          "name": "category",
+          "value": "Overview"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
         }
       ]
     },
