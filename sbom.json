@@ -173,6 +173,33 @@
     },
     {
       "type": "file",
+      "name": "additional-resources-2035.md",
+      "bom-ref": "additional-resources-2035.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Resources on LLM Attacks 2035"
+        },
+        {
+          "name": "category",
+          "value": "Overview"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-23"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "additional-resources.md",
       "bom-ref": "additional-resources.md",
       "properties": [
@@ -736,6 +763,33 @@
         {
           "name": "title",
           "value": "Fuzzing Resources 2035"
+        },
+        {
+          "name": "category",
+          "value": "Fuzzing"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-21"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "fuzzing/fuzzing-resources-2036.md",
+      "bom-ref": "fuzzing/fuzzing-resources-2036.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Fuzzing Resources 2036"
         },
         {
           "name": "category",
@@ -1497,6 +1551,33 @@
     },
     {
       "type": "file",
+      "name": "linguistic-manipulation/linguistic-manipulation-resources-2032.md",
+      "bom-ref": "linguistic-manipulation/linguistic-manipulation-resources-2032.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Linguistic Manipulation Resources 2032"
+        },
+        {
+          "name": "category",
+          "value": "Linguistic Manipulation"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "llm-attack-catalog.md",
       "bom-ref": "llm-attack-catalog.md"
     },
@@ -1799,6 +1880,33 @@
     },
     {
       "type": "file",
+      "name": "multimodal/visual-jailbreaking-resources-2033.md",
+      "bom-ref": "multimodal/visual-jailbreaking-resources-2033.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Visual Jailbreaking Resources 2033"
+        },
+        {
+          "name": "category",
+          "value": "Multimodal"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "multimodal/visual-jailbreaking-resources.md",
       "bom-ref": "multimodal/visual-jailbreaking-resources.md",
       "properties": [
@@ -2006,6 +2114,60 @@
         {
           "name": "date_collected",
           "value": "2025-06-20"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "neuron-resources-2035.md",
+      "bom-ref": "neuron-resources-2035.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Neuron-Level Manipulation Resources 2035"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-20"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "neuron-resources-2036.md",
+      "bom-ref": "neuron-resources-2036.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Neuron-Level Manipulation Resources 2036"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-21"
         },
         {
           "name": "license",
@@ -3609,6 +3771,29 @@
     },
     {
       "type": "file",
+      "name": "supply-chain/additional-supply-chain-resources-2026.md",
+      "bom-ref": "supply-chain/additional-supply-chain-resources-2026.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional LLM Supply Chain Resources 2026"
+        },
+        {
+          "name": "category",
+          "value": "Supply Chain"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "supply-chain/anthropic-rsp-supply-chain-controls.md",
       "bom-ref": "supply-chain/anthropic-rsp-supply-chain-controls.md",
       "properties": [
@@ -4149,6 +4334,33 @@
         {
           "name": "title",
           "value": "Additional Zero-Day Resources 2033"
+        },
+        {
+          "name": "category",
+          "value": "Zero-Day"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "zero-day-resources-2034.md",
+      "bom-ref": "zero-day-resources-2034.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Zero-Day Resources 2034"
         },
         {
           "name": "category",
