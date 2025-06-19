@@ -20,3 +20,4 @@ The references below capture additional papers, talks and repositories on fuzzin
 - [LLM1dFuzz Project](https://github.com/SoftSec-KAIST/LLM1dFuzz)
 - [Fuzzing Web APIs with LLM](https://github.com/Neroxeles/fuzzing-web-api-with-llm)
 - [RainJamesY/FuzzLLM Repository](https://github.com/RainJamesY/FuzzLLM)
+

@@ -105,6 +105,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `visual-jailbreaking-resources-2028.md` — updated references on multimodal jailbreaks
 - `visual-jailbreaking-resources-2031.md` — extended references on later visual jailbreak research
 - `visual-jailbreaking-resources-2029.md` — latest references on multimodal jailbreaks
+- `visual-jailbreaking-resources-2032.md` — additional resources on recent visual jailbreak research
 - `steganography-resources-2026.md` — latest papers on covert LLM attacks
 
 ### optimization/
@@ -123,7 +124,9 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `gradient-resources-2026.md` — additional gradient-based jailbreak research
 - `gradient-resources-2027.md` — further gradient-based jailbreak references
 - `gradient-resources-2028.md` — latest gradient-based jailbreak studies
+- `gradient-resources-2029.md` — recent gradient-based jailbreak updates
 - `evolutionary-algorithm-attacks.md` — overview of GA-based jailbreak techniques
+- `evolutionary-resources-2030.md` — newly documented GA-based attacks
 - `boosting-jailbreak-with-momentum.md` — momentum-based gradient attack
 - `dager-gradient-inversion.md` — exact gradient inversion method
 - `improved-techniques-for-jailbreaking.md` — refined optimization approach
@@ -161,6 +164,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `llm-supply-chain-attacks.md` — overview of supply chain risks
 - `poisoned-pretraining-markets.md` — resources on poisoned dataset marketplaces
 - `extended-llm-supply-chain-resources.md` — additional references on supply chain threats
+- `more-llm-supply-chain-resources.md` — further resources gathered after the initial publication
 
 ### token-level/
 - `techradar-tokenbreak.html` — token level manipulation article
@@ -168,6 +172,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `additional-token-level-resources.md` — broader tokenization attack bibliography
 - `token-level-resources-2027.md` — newer token-level manipulation papers
 - `token-level-resources-2028.md` — latest open source tools on hidden tokens
+- `token-level-resources-2029.md` — further token-level research from 2029
 
 ### training-alignment/
 - `index.md` — overview of training-phase attacks
