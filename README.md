@@ -16,7 +16,8 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 
 - All documentation files under `docs/` include YAML front matter with a
   `date_collected` of **2025-06-18**, marking the snapshot used to build the
-  catalog. Key folders include:
+  catalog. Later commits refine tooling and link archives, but the
+  documentation content reflects that 2025-06-18 snapshot. Key folders include:
 
 - `docs/` – canonical Markdown and HTML articles grouped into subfolders:
 `agentic/`, `data-poisoning/`, `defenses/`, `emerging/`, `evaluation/`,
@@ -38,23 +39,23 @@ A searchable website built with **MkDocs Material** is automatically deployed to
   - `rename.py` to enforce kebab-case filenames
 - `tests/` – unit tests (`test_link_check.py` and `test_sbom.py`) validating the helper scripts.
 - `docs_files.txt` – manifest listing every document archived in this
-  repository (59 entries).
+  repository (63 entries).
 - `llm-attack-catalog.md` – printable version of the master catalog inside `docs/`.
 - `fixes-1.md` – issue log and proposed improvements.
 - `link_archive.json` – Wayback Machine snapshots of referenced URLs.
-- `sbom.json` – machine-readable bill of materials (CycloneDX 1.5) linking each
-  document with its metadata.
+- `sbom.json` – machine-readable bill of materials using the **CycloneDX 1.5** specification linking each document with its metadata.
 - `docs/navigation-map.md` – human-readable map of every file in the
   repository with a short description.
 - `index.json` – JSON index generated from the YAML front matter.
-- `.github/workflows/` – GitHub Actions workflows:
-  - `ci.yml` runs linting and unit tests
-  - `gh-pages.yml` deploys the MkDocs site
-  - `link-check.yml` scans for broken links
-  - `refresh-links.yml` archives URLs weekly
+  - `.github/workflows/` – GitHub Actions workflows using **Python 3.10**
+    and **Node 18**:
+    - `ci.yml` installs dependencies, runs pre‑commit and `pytest`
+    - `gh-pages.yml` builds the MkDocs site and deploys to GitHub Pages
+    - `link-check.yml` runs the `lycheeverse/lychee` link checker
+    - `refresh-links.yml` updates `link_archive.json` on a weekly schedule
 - `.pre-commit-config.yaml` – pre‑commit hooks (markdownlint v0.38.0,
   codespell v2.4.1 and custom validators).
-- `mkdocs.yml` – configuration for building the documentation website.
+- `mkdocs.yml` – configuration for building the documentation website with **MkDocs Material** and the Mermaid2 plugin enabled.
 
 ## Using This Repository
 
