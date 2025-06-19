@@ -106,6 +106,7 @@
 - https://api.whatsapp.com/send?text=
 - https://app.confident-ai.com?utm_source=article
 - https://app.confident-ai.com?utm_source=landing
+- https://archive.org/wayback/available?url=
 - https://arxiv.org/
 - https://arxiv.org/IgnoreMe
 - https://arxiv.org/abs/1906.01820
@@ -1504,6 +1505,7 @@
 - https://huggingface.co/docs/hub/spaces
 - https://huggingface.co/huggingface
 - https://huggingface.co/liuhaotian/llava-v1.5-13b
+- https://huggingface.co/liuhaotian/llava-v1.5-13b,
 - https://huggingface.co/liuhaotian/llava-v1.5-7b.
 - https://huggingface.co/meta-llama/Llama-2-7b-chat-hf
 - https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct
@@ -1861,6 +1863,8 @@
 - https://venturebeat.com/wp-content/themes/vb-news/js/ie/html5shiv.js
 - https://venturebeat.com/wp-content/uploads/2017/07/untitled-design16.jpg?w=1024?w=1200&strip=all
 - https://virtualizationreview.com/articles/2024/08/08/using-ai-for-offensive-security-by-simulating-attacks.aspx
+- https://web.archive.org
+- https://web.archive.org/save/
 - https://widgets.hawk-assets.co.uk
 - https://windows.github.com
 - https://wired.jp/article/researchers-llm-ai-robot-violence/
@@ -1879,6 +1883,7 @@
 - https://www.anthropic.com/news/claude-character\
 - https://www.anthropic.com/news/introducing-claude
 - https://www.anthropic.com/news/probes-catch-sleeper-agents}
+- https://www.anthropic.com/news/probes-catch-sleeper-agents},
 - https://www.anthropic.com/news/probes-catch-sleeper-agents},\\n}\
 - https://www.anthropic.com/news/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training
 - https://www.anthropic.com/news/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training\
