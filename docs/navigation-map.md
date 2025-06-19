@@ -89,6 +89,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `latent-space-resources-2031.md` — latest latent-space references
 - `latent-space-resources-2032.md` — expanded latent-space research
 - `latent-space-resources-2035.md` — new latent-space papers
+- `latent-space-resources-2036.md` — expanded latent-space references
 - `apexhq-latentspace.html` — attack on latent representations
 - `obfuscated-activations.html` — obfuscating activations during alignment
 
