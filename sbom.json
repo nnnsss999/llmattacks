@@ -11,11 +11,6 @@
   "components": [
     {
       "type": "file",
-      "name": "Comprehensive Catalog of LLM Jailbreaking and Attack Techniques.md",
-      "bom-ref": "Comprehensive Catalog of LLM Jailbreaking and Attack Techniques.md"
-    },
-    {
-      "type": "file",
       "name": "agentic/agent-toolchain-priv-escalation.md",
       "bom-ref": "agentic/agent-toolchain-priv-escalation.md",
       "properties": [
@@ -94,6 +89,11 @@
           "value": "CC BY 4.0"
         }
       ]
+    },
+    {
+      "type": "file",
+      "name": "comprehensive-catalog-of-llm-jailbreaking-and-attack-techniques.md",
+      "bom-ref": "comprehensive-catalog-of-llm-jailbreaking-and-attack-techniques.md"
     },
     {
       "type": "file",
@@ -204,6 +204,168 @@
         {
           "name": "source_url",
           "value": "https://arxiv.org/abs/2401.12192"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "emerging/eccws-zero-day-attacks-ml.md",
+      "bom-ref": "emerging/eccws-zero-day-attacks-ml.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Exploring Zero-Day Attacks on ML Algorithms"
+        },
+        {
+          "name": "category",
+          "value": "Emerging"
+        },
+        {
+          "name": "source_url",
+          "value": "https://papers.academic-conferences.org/index.php/eccws/article/view/2310"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "emerging/llm-agents-exploit-zero-day.md",
+      "bom-ref": "emerging/llm-agents-exploit-zero-day.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Teams of LLM Agents Exploit Zero-Day Vulnerabilities"
+        },
+        {
+          "name": "category",
+          "value": "Emerging"
+        },
+        {
+          "name": "source_url",
+          "value": "https://arxiv.org/abs/2406.01637"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "emerging/nofluffsec-ai-zero-days.md",
+      "bom-ref": "emerging/nofluffsec-ai-zero-days.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "The New Face of AI Zero-Days"
+        },
+        {
+          "name": "category",
+          "value": "Emerging"
+        },
+        {
+          "name": "source_url",
+          "value": "https://read.nofluffsec.com/p/nofluffsec-weekly-8-blurring-the-lines-the-new-face-of-ai-zero-days"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "emerging/register-python-zero-day-tool.md",
+      "bom-ref": "emerging/register-python-zero-day-tool.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Open Source LLM Tool Finds Python Zero-Days"
+        },
+        {
+          "name": "category",
+          "value": "Emerging"
+        },
+        {
+          "name": "source_url",
+          "value": "https://www.theregister.com/2024/10/20/python_zero_day_tool/"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "emerging/socket-autonomous-exploit-zero-day.md",
+      "bom-ref": "emerging/socket-autonomous-exploit-zero-day.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "LLM Agents Autonomously Exploit Zero-Day Flaws"
+        },
+        {
+          "name": "category",
+          "value": "Emerging"
+        },
+        {
+          "name": "source_url",
+          "value": "https://socket.dev/blog/teams-of-llm-agents-can-autonomously-exploit-zero-day-vulnerabilities"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-18"
+        },
+        {
+          "name": "license",
+          "value": "Fair Use"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "emerging/takumi-ai-security-engineer.md",
+      "bom-ref": "emerging/takumi-ai-security-engineer.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Takumi AI Engineer Finds Zero-Day Bugs"
+        },
+        {
+          "name": "category",
+          "value": "Emerging"
+        },
+        {
+          "name": "source_url",
+          "value": "https://flatt.tech/en/takumi"
         },
         {
           "name": "date_collected",
@@ -387,6 +549,11 @@
           "value": "Fair Use"
         }
       ]
+    },
+    {
+      "type": "file",
+      "name": "llm-attack-catalog.md",
+      "bom-ref": "llm-attack-catalog.md"
     },
     {
       "type": "file",
