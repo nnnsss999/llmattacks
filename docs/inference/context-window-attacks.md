@@ -31,6 +31,11 @@ Credible references discussing these vectors:
 - [New AI hacking technique: Many-shot jailbreaking (Barracuda Networks Blog)](https://blog.barracuda.com/2024/05/30/new-AI-hacking-technique-many-shot-jailbreaking)
 - [Many-shot jailbreaking (HuggingFace Blog)](https://huggingface.co/blog/vladbogo/many-shot-jailbreaking)
 - [What Is Anthropic’s Many-shot Jailbreaking (Dataconomy)](https://dataconomy.com/2024/04/03/anthropic-many-shot-jailbreaking/)
+- [Breaking Safeguards: Unveil "Many-Shot Jailbreaking" a Method to Bypass All LLM Safety Measures (InfoSec Write-ups)](https://infosecwriteups.com/breaking-safeguards-unveil-many-shot-jailbreaking-a-method-to-bypass-all-llm-safety-measures-2d188ebc12fb)
+- [Many-shot Jailbreaking in Artificial Intelligence (LinkedIn)](https://www.linkedin.com/pulse/many-shot-jailbreaking-artificial-intelligence-reem-khattab-zudpc)
+- [New AI Jailbreak Method 'Bad Likert Judge' Boosts Attack Success Rates by Over 60% (The Hacker News)](https://thehackernews.com/2025/01/new-ai-jailbreak-method-bad-likert.html)
+- [PANDAS Poster at ICML 2025](https://icml.cc/virtual/2025/poster/43847)
+- [SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents (Anthropic Research)](https://www.anthropic.com/research/shade-arena-sabotage-monitoring)
 
 These resources detail how manipulating a model's working context can produce harmful or destabilizing behavior, motivating stricter input limits and improved monitoring.
 - [Context window overflow: Breaking the barrier (AWS Security Blog)](https://aws.amazon.com/blogs/security/context-window-overflow-breaking-the-barrier/)
