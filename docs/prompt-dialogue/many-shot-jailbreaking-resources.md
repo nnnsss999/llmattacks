@@ -63,3 +63,8 @@ The following articles and research papers document the
 - [Anthropic news article on Many-shot Jailbreaking](https://www.anthropic.com/news/many-shot-jailbreaking)
 - [Anthropic researchers wear down AI ethics with repeated questions (TechCrunch)](https://techcrunch.com/2024/04/02/anthropic-researchers-wear-down-ai-ethics-with-repeated-questions/)
 - [AI's use many-shot jailbreaking method to bust LLM guardrails (Fanatical Futurist)](https://www.fanaticalfuturist.com/2024/06/ais-use-many-shot-jailbreaking-method-to-bust-llm-guardrails/)
+- [Self-Instruct Few-Shot Jailbreaking: Decompose the Attack into Pattern and Behavior Learning (arXiv:2501.07959)](https://arxiv.org/abs/2501.07959)
+- [Short-length Adversarial Training Helps LLMs Defend Long-length Jailbreak Attacks: Theoretical and Empirical Evidence (arXiv:2502.04204)](https://arxiv.org/abs/2502.04204)
+- [PiCo: Jailbreaking Multimodal Large Language Models via Pictorial Code Contextualization (arXiv:2504.01444)](https://arxiv.org/abs/2504.01444)
+- [StructuralSleight: Automated Jailbreak Attacks on Large Language Models Utilizing Uncommon Text-Organization Structures (arXiv:2406.08754)](https://arxiv.org/abs/2406.08754)
+- [Breaking Quadratic Barriers: A Non-Attention LLM for Ultra-Long Context Horizons (arXiv:2506.01963)](https://arxiv.org/abs/2506.01963)

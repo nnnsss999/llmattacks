@@ -253,5 +253,17 @@
   },
   "https://web.archive.org/web/20240506043214/https://dl.acm.org/doi/10.1145/3663529.3663784": {
     "snapshot": "https://web.archive.org/web/20240506043214/https://dl.acm.org/doi/10.1145/3663529.3663784"
+  },
+  "https://journals.sagepub.com/doi/10.1177/18344909231213958": {
+    "snapshot": "https://web.archive.org/web/20250225124756/https://journals.sagepub.com/doi/10.1177/18344909231213958"
+  },
+  "https://ieeexplore.ieee.org/document/10674052": {
+    "snapshot": "https://web.archive.org/web/20250505220323/https://ieeexplore.ieee.org/document/10674052"
+  },
+  "https://ieeexplore.ieee.org/document/10825018": {
+    "snapshot": "https://web.archive.org/web/20250429204234/https://ieeexplore.ieee.org/document/10825018"
+  },
+  "https://www.indusface.com/blog/owasp-top-10-llm/": {
+    "snapshot": "https://web.archive.org/web/20250618/https://www.indusface.com/blog/owasp-top-10-llm/"
   }
 }
