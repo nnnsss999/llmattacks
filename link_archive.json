@@ -265,5 +265,8 @@
   },
   "https://www.indusface.com/blog/owasp-top-10-llm/": {
     "snapshot": "https://web.archive.org/web/20250618/https://www.indusface.com/blog/owasp-top-10-llm/"
+  },
+  "https://www.bleepingcomputer.com/news/security/zero-click-ai-data-leak-flaw-uncovered-in-microsoft-365-copilot/": {
+    "snapshot": "https://web.archive.org/web/20240611/https://www.bleepingcomputer.com/news/security/zero-click-ai-data-leak-flaw-uncovered-in-microsoft-365-copilot/"
   }
 }

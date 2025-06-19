@@ -180,6 +180,10 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `more-llm-supply-chain-resources.md` — further resources gathered after the initial publication
 - `additional-supply-chain-resources-2026.md` — curated 2026 reference list
 - `additional-supply-chain-resources-2027.md` — updated references
+- `compromised-model-hub-resources.md` — examples of malicious model hub uploads
+- `additional-model-hub-resources.md` — curated model hub references
+- `additional-model-hub-resources-2028.md` — latest model hub incidents
+- `thehackernews-hf-spaces-unauthorized-access.html` — article on Hugging Face unauthorized access
 
 ### token-level/
 - `techradar-tokenbreak.html` — token level manipulation article
