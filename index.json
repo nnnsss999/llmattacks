@@ -226,4 +226,14 @@
       "date_collected": "2025-06-18"
     }
   ]
+  ,
+  "Social Engineering": [
+    {
+      "title": "Persona-Based Jailbreak Resources",
+      "path": "social-engineering/persona-based-resources.md",
+      "category": "Social Engineering",
+      "sub_category": "",
+      "date_collected": "2025-06-18"
+    }
+  ]
 }
