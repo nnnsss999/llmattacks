@@ -232,3 +232,111 @@ trick LLM operators or guard systems into revealing sensitive information.
 ### PyPI Supply-Chain Attack
 An incident where a malicious package on PyPI compromises downstream projects,
 highlighting the risk of third-party dependency hijacking.
+
+### Alignment-Aware MEA
+Shortened name for the alignment-aware model extraction attack highlighted in the inference folder.
+
+### AmpleGCG Repo
+Repository hosting code examples for the AmpleGCG prompt-search technique.
+
+### Anthropic Sleeper Agents
+Study from Anthropic that reveals how models can be trained to remain benign until a trigger activates malicious behaviour.
+
+### ApexHQ LatentSpace
+Alternative reference to the ApexHQ latent-space attack that manipulates internal representations.
+
+### ArXiv Embedding Inversion
+Early arXiv paper demonstrating how embeddings can be reversed to recover text.
+
+### Attack-Defense Matrix
+Table mapping each attack in the catalog to recommended defensive measures.
+
+### BadReward Clean Label
+Variant of BadReward poisoning where only benign-looking data is injected during RLHF.
+
+### Byte-Level Universal Triggers ArXiv
+Original arXiv post describing universal byte sequences that cause harmful behaviour.
+
+### Comprehensive Catalog of LLM Jailbreaking and Attack Techniques
+Master document that aggregates every jailbreak method documented in this repository.
+
+### CrossLingual Inversion 2505.16008
+Case study showing cross-lingual embedding inversion across different languages.
+
+### Extracting Training Data 2012.07805
+Research revealing how text can be reconstructed from embedding model APIs.
+
+### GPT4V Safe
+Example prompt demonstrating safe multimodal queries for GPT-4V.
+
+### Gradient Leakage Inversion
+Recovering private data by analysing fine-tuning gradients.
+
+### HackerNews PyPI
+News report about a malicious PyPI package compromise.
+
+### HiddenLayer TokenBreak
+Blog post exploring token-level bypasses using hidden characters.
+
+### ImgJP
+Demonstration image used to show a visual jailbreak in action.
+
+### Index
+Generic landing page found in most folders of the documentation site.
+
+### Language Games ArXiv
+Academic article discussing conversational games that slowly induce jailbreaks.
+
+### LLM Attack Catalog
+Printable markdown version of the full attack catalog.
+
+### LoRD Distillation
+Locality-Reinforced Distillation technique for extracting model weights.
+
+### Mechanism-Centric Poisoning
+Training manipulation that targets internal learning mechanisms rather than outputs.
+
+### Naturalistic Patch ArXiv
+Paper describing realistic-looking adversarial patches that bypass visual filters.
+
+### Obfuscated Activations
+Technique that hides neuron activations so safety monitors miss malicious behaviour.
+
+### PDF Extract
+Plain-text extraction of the PDF catalog for easier diffing and search.
+
+### PiCo
+Short for "Poisoning Code" datasets with hidden instructions.
+
+### PoisonedRAG ArXiv
+Academic write-up of retrieval-augmented generation poisoning.
+
+### Reinforcement Learning Alignment Attacks
+Overview page summarising RL-based attacks on model alignment.
+
+### Safety Chain-of-Thought
+Method where the model reasons about harmfulness before answering.
+
+### Safety Filter Timing Side Channel
+Attack using response delays to infer hidden prompts from safety filters.
+
+### Social Engineering Overview
+General summary page covering manipulation tactics against LLM users.
+
+### TechRadar TokenBreak
+News coverage of token-level prompt injection from TechRadar.
+
+### Text Embedding Inversion 2401.12192
+ArXiv paper demonstrating text reconstruction from embedding APIs.
+
+### The Register CoT
+Register article describing chain-of-thought jailbreak techniques.
+
+### TheHackerNews Dependency Hijack
+Report from TheHackerNews on a real-world dependency hijacking incident.
+
+### TokenBreak Single Character Bypass
+Specific example where a single-character tokenbreak defeats safety checks.
+
+### URLs
+Index of all external links referenced across the catalog.

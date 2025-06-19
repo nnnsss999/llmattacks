@@ -20,7 +20,6 @@ Directories are shown as headings with bullet points for each file.
 - `link_archive.json` — cached external links for offline builds
 - `mkdocs.yml` — configuration for the documentation site
 - `sbom.json` — CycloneDX software bill of materials
-- `catalog_content.md` — full text of the catalog with citations
 - `docs_files.txt` — list of document paths used by build scripts
 
 ## .github/workflows/
