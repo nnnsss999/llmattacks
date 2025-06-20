@@ -90,6 +90,8 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `latent-space-resources-2032.md` — expanded latent-space research
 - `latent-space-resources-2035.md` — new latent-space papers
 - `latent-space-resources-2036.md` — expanded latent-space references
+- `latent-space-resources-2037.md` — additional latent-space studies
+- `latent-space-resources-2038.md` — recent attention-hijacking research
 - `apexhq-latentspace.html` — attack on latent representations
 - `obfuscated-activations.html` — obfuscating activations during alignment
 
@@ -110,6 +112,8 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `visual-jailbreaking-resources-2031.md` — extended references on later visual jailbreak research
 - `visual-jailbreaking-resources-2029.md` — latest references on multimodal jailbreaks
 - `visual-jailbreaking-resources-2032.md` — additional resources on recent visual jailbreak research
+- `visual-jailbreaking-resources-2034.md` — follow-up resources on multimodal jailbreaks
+- `visual-jailbreaking-resources-2035.md` — latest visual jailbreak articles and defences
 - `steganography-resources-2026.md` — latest papers on covert LLM attacks
 
 ### optimization/
@@ -142,6 +146,9 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `evolutionary-resources-2031.md` — further references on evolutionary prompt search
 - `evolutionary-resources-2032.md` — newest evolutionary and RL-based jailbreak work
 - `evolutionary-resources-2033.md` — expanded catalog of evolutionary jailbreaking references
+- `evolutionary-resources-2034.md` — additional GA-based references
+- `evolutionary-resources-2035.md` — expanded GA-based resources
+- `evolutionary-resources-2036.md` — new GA-based jailbreak research
 - `boosting-jailbreak-with-momentum.md` — momentum-based gradient attack
 - `dager-gradient-inversion.md` — exact gradient inversion method
 - `improved-techniques-for-jailbreaking.md` — refined optimization approach

@@ -97,3 +97,8 @@ These resources detail how manipulating a model's working context can produce ha
 - [Why Do LLMs Forget? Context Window Challenges, Risks (LinkedIn)](https://www.linkedin.com/pulse/magic-madness-context-windows-your-llms-memory-explained-katira-kixgf/)
 - [LLM Security Guide - Understanding the Risks of Prompt Injections and Other Attacks (MLOps Audits)](https://www.mlopsaudits.com/blog/llm-security-guide-understanding-the-risks-of-prompt-injections-and-other-attacks-on-large-language-models)
 - [Tokens and Context Windows in LLMs (GeeksforGeeks)](https://www.geeksforgeeks.org/artificial-intelligence/tokens-and-context-windows-in-llms/)
+- [LooGLE: Can Long-Context Language Models Understand Long Contexts? (arXiv:2311.04939)](https://arxiv.org/abs/2311.04939)
+- [LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models (arXiv:2309.12307)](https://arxiv.org/abs/2309.12307)
+- [Augmenting Language Models with Long-Term Memory (arXiv:2306.07174)](https://arxiv.org/abs/2306.07174)
+- [Why Use Retrieval Instead of Larger Context? (Pinecone Blog)](https://www.pinecone.io/blog/why-use-retrieval-instead-of-larger-context/)
+- [DeepSpeed Blog on Long-Context Transformers](https://www.deepspeed.ai/2024/03/18/long-context-transformers/)

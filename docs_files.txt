@@ -111,6 +111,7 @@ docs/token-level/token-level-resources-2029.md
 docs/multimodal/visual-jailbreaking-resources-2031.md
 docs/multimodal/visual-jailbreaking-resources-2032.md
 docs/multimodal/visual-jailbreaking-resources-2034.md
+docs/multimodal/visual-jailbreaking-resources-2035.md
 docs/zero-day-resources-2028.md
 docs/zero-day-resources-2032.md
 docs/zero-day-resources-2033.md
@@ -118,3 +119,4 @@ docs/supply-chain/anthropic-rsp-supply-chain-controls.md
 docs/zero-day-resources-2035.md
 docs/supply-chain/additional-supply-chain-resources-2026.md
 docs/supply-chain/additional-supply-chain-resources-2027.md
+docs/multimodal/visual-jailbreaking-resources-2035.md
