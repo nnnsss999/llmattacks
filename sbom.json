@@ -1956,6 +1956,60 @@
     },
     {
       "type": "file",
+      "name": "linguistic-manipulation/linguistic-manipulation-resources-2037.md",
+      "bom-ref": "linguistic-manipulation/linguistic-manipulation-resources-2037.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Linguistic Manipulation Resources 2037"
+        },
+        {
+          "name": "category",
+          "value": "Linguistic Manipulation"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-27"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "linguistic-manipulation/linguistic-manipulation-resources-2038.md",
+      "bom-ref": "linguistic-manipulation/linguistic-manipulation-resources-2038.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Linguistic Manipulation Resources 2038"
+        },
+        {
+          "name": "category",
+          "value": "Linguistic Manipulation"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-28"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "llm-attack-catalog.md",
       "bom-ref": "llm-attack-catalog.md"
     },
@@ -2291,6 +2345,33 @@
         {
           "name": "title",
           "value": "Visual Jailbreaking Resources 2034"
+        },
+        {
+          "name": "category",
+          "value": "Multimodal"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "multimodal/visual-jailbreaking-resources-2035.md",
+      "bom-ref": "multimodal/visual-jailbreaking-resources-2035.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Visual Jailbreaking Resources 2035"
         },
         {
           "name": "category",
@@ -2654,6 +2735,33 @@
         {
           "name": "date_collected",
           "value": "2025-06-23"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "neuron-resources-2039.md",
+      "bom-ref": "neuron-resources-2039.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Neuron-Level Manipulation Resources 2039"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-24"
         },
         {
           "name": "license",
