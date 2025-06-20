@@ -9,5 +9,7 @@ license: "CC-BY-4.0"
 | attack_type | risk_id | source | covered | folder |
 |-------------|---------|--------|---------|--------|
 
-<!-- rows will be added in subsequent steps -->
+| Indirect Prompt Injection | HL-IND-PI | <https://hiddenlayer.com/innovation-hub/the-tokenbreak-attack/> | ❌ | attacks/prompt/indirect/ |
+| TokenBreak spacer | HL-TOKENBREAK | <https://hiddenlayer.com/innovation-hub/the-tokenbreak-attack/> | ❌ | attacks/prompt/indirect/ |
+| Homoglyph confusion | HL-HOMOGLYPH | <https://hiddenlayer.com/innovation-hub/the-tokenbreak-attack/> | ❌ | attacks/prompt/indirect/ |
 
