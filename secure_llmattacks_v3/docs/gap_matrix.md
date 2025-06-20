@@ -21,4 +21,5 @@ license: "CC-BY-4.0"
 | Indirect Prompt Injection | HL-INDIRECT | HiddenLayer | ❌ | - |
 | TokenBreak | HL-TOKENBREAK | HiddenLayer | ❌ | - |
 | Homoglyph Obfuscation | HL-HOMOGLYPH | HiddenLayer | ❌ | - |
+| Many-shot Jailbreaking | LLM01 | [Anthropic Research](https://www.anthropic.com/research/many-shot-jailbreaking); [Guardian report](https://www.theguardian.com/technology/2024/apr/03/many-shot-jailbreaking-ai-artificial-intelligence-safety-features-bypass) | ❌ | jailbreaking/many_shot |
 
