@@ -23,6 +23,8 @@ jobs:
       - name: Run tests
         run: |
           FAST_LINK_CHECK=10 pytest -q --cov=. --cov-report=xml
+      - name: Validate dataset
+        run: python scripts/build_dataset.py --check-only
       - name: Mypy
         run: mypy --strict .
       - name: Post coverage comment

@@ -121,7 +121,8 @@ Convert the attack examples into a machine‑learning dataset using
 python scripts/build_dataset.py --out-dir datasets/v1 --format csv
 ```
 
-The `--format` option also accepts `parquet` (requires `pyarrow`).
+The `--format` option also accepts `parquet` (requires `pyarrow`). Use
+`--check-only` to validate the dataset without writing any files.
 
 ## Contributing
 

@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Build the attacks dataset from Markdown, text, and Python files.
 
-Usage:
+Usage::
+
     python scripts/build_dataset.py [--out-dir PATH] [--format {parquet,csv}]
+    python scripts/build_dataset.py --check-only
 """
 
 from __future__ import annotations
@@ -115,5 +117,14 @@ if __name__ == "__main__":
         default="parquet",
         help="output format",
     )
+    parser.add_argument(
+        "--check-only",
+        action="store_true",
+        help="validate dataset without writing output",
+    )
     args = parser.parse_args()
-    build_dataset(out_dir=args.out_dir, fmt=args.format)
+    if args.check_only:
+        samples = gather_samples()
+        print(f"Validated {len(samples)} samples")
+    else:
+        build_dataset(out_dir=args.out_dir, fmt=args.format)
