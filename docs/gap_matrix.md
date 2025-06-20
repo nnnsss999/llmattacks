@@ -9,5 +9,7 @@ license: "CC-BY-4.0"
 | attack_type | risk_id | source | covered | folder |
 |-------------|---------|--------|---------|--------|
 
+| Data Poisoning | ATC-T0018 | <https://atlas.mitre.org/> | ❌ | `attacks/poisoning/pretrain/` |
+
 <!-- rows will be added in subsequent steps -->
 
