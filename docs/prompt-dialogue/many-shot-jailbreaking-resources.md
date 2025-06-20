@@ -82,3 +82,13 @@ The following articles and research papers document the
 - [Rapid Response: Mitigating LLM Jailbreaks With a Few Examples (arXiv:2411.07494)](http://arxiv.org/abs/2411.07494)
 - [From LLMs to MLLMs: Exploring the Landscape of Multimodal Jailbreaking (arXiv:2406.14859)](http://arxiv.org/abs/2406.14859)
 - [Obfuscated Activations Bypass LLM Latent-Space Defenses (arXiv:2412.09565)](http://arxiv.org/abs/2412.09565)
+
+- [How to exploit top LRMs that reveal their reasoning steps (The Register)](https://www.theregister.com/2025/02/25/chain_of_thought_jailbreaking/)
+- [Gemini 1.5 Pro's Million Token Context Window (Google Cloud Blog)](https://cloud.google.com/blog/products/ai-machine-learning/gemini-1-5-pro-context-window)
+- [Gemini Developer API Pricing – 1M token context window (Google AI for Developers)](https://ai.google.dev/pricing#1_5flash)
+- [Gemini 1.5 Flash Models (Google AI for Developers)](https://ai.google.dev/gemini-api/docs/models/gemini#gemini-1.5-flash)
+- [Introducing Llama 3.1: Our Most Capable Models to Date (Meta AI Blog)](http://ai.meta.com/blog/meta-llama-3-1)
+- [Analysis of Llama 4's 10 Million Token Context Window Claim (Medium)](https://sandar-ali.medium.com/analysis-of-llama-4s-10-million-token-context-window-claim-9e68ee5abcde)
+- [Long Context LLMs: Tools and Challenges (HuggingFace Blog)](https://huggingface.co/blog/long-context-llms)
+- [LLM Context Window Threats and Mitigations (BlackBerry Blog)](https://blogs.blackberry.com/en/2024/06/large-language-model-context-window-threats)
+- [Large Context Window LLMs - Developer's Perspective (NVIDIA Blog)](https://developer.nvidia.com/blog/large-context-window-llms)
