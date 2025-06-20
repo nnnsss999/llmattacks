@@ -8,8 +8,7 @@ import unicodedata
 from pathlib import Path
 
 import yaml
-import pyarrow as pa
-import pyarrow.parquet as pq
+import csv
 
 import sys
 
@@ -19,9 +18,19 @@ from datasets.schema import AttackSample
 ROOT = Path(__file__).resolve().parents[1]
 ATTACKS_DIR = ROOT / "attacks"
 OUT_DIR = ROOT / "datasets" / "v1"
-OUT_FILE = OUT_DIR / "attacks.parquet"
+OUT_FILE = OUT_DIR / "attacks.csv"
 
 ZERO_WIDTH = {ord(c): None for c in ["\u200b", "\u200c", "\u200d", "\ufeff"]}
+
+
+def label_for_path(path: Path) -> int:
+    """Return 0 if path lies under a 'control' folder, else 1."""
+    try:
+        rel = path.relative_to(ATTACKS_DIR)
+    except ValueError:
+        return 1
+    parts = rel.parts
+    return 0 if parts and parts[0] == "control" else 1
 
 
 def parse_front_matter(path: Path) -> tuple[dict, str]:
@@ -56,7 +65,7 @@ def gather_samples() -> list[AttackSample]:
         record = {
             "uuid": str(uuid.uuid4()),
             "text": clean_text(body),
-            "label": 1,
+            "label": label_for_path(path),
             "attack_type": fm.get("attack_type", "unknown"),
             "source_path": str(path.relative_to(ROOT)),
         }
@@ -68,9 +77,12 @@ def gather_samples() -> list[AttackSample]:
 def build_dataset() -> None:
     samples = gather_samples()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    table = pa.Table.from_pylist([s.model_dump() for s in samples])
-    pq.write_table(table, OUT_FILE)
-    print(f"Wrote {OUT_FILE} ({table.num_rows} rows)")
+    with OUT_FILE.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=AttackSample.model_fields.keys())
+        writer.writeheader()
+        for sample in samples:
+            writer.writerow(sample.model_dump())
+    print(f"Wrote {OUT_FILE} ({len(samples)} rows)")
 
 
 if __name__ == "__main__":
