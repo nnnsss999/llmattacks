@@ -15,7 +15,7 @@ license: "CC-BY-4.0"
 | Supply Chain Vulnerabilities | LLM05 | OWASP LLM Top 10 | ❌ | - |
 | Sensitive Information Disclosure | LLM06 | OWASP LLM Top 10 | ❌ | - |
 | Insecure Plugin Design | LLM07 | OWASP LLM Top 10 | ❌ | - |
-| Excessive Agency | LLM08 | OWASP LLM Top 10 | ❌ | - |
+| Excessive Agency | LLM08 | OWASP LLM Top 10 | ❌ | physical/robotics |
 | Overreliance | LLM09 | OWASP LLM Top 10 | ❌ | - |
 | Model Theft | LLM10 | OWASP LLM Top 10 | ❌ | - |
 | Indirect Prompt Injection | HL-INDIRECT | HiddenLayer | ❌ | - |
