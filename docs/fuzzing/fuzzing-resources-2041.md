@@ -6,6 +6,12 @@ date_collected: 2025-06-27
 license: "CC-BY-4.0"
 ---
 
+The references below extend [fuzzing-resources-2040.md](fuzzing-resources-2040.md) with additional repositories exploring LLM-driven fuzzing techniques.
+
+- [Agent-Fuzz repository](https://github.com/revsic/agent-fuzz) – Python implementation of LLM agent-based fuzz driver generation.
+- [clozeFuzz repository](https://github.com/ClozeFuzzProduction/clozeFuzz) – LLM-based fuzzer for Rust code.
+- [AiFuzzer repository](https://github.com/tavgar/AiFuzzer) – automated jailbreak prompt generation for evaluating LLM robustness.
+
 The references below extend [fuzzing-resources-2040.md](fuzzing-resources-2040.md) with additional papers, articles and repositories on fuzzing techniques for large language models (LLMs).
 
 - [FuzzCLIP: Fuzzing Large-Scale Multimodal Models via Contrastive Prompting](https://arxiv.org/abs/2505.12222) – proposes a mutation strategy for vision-language models.
