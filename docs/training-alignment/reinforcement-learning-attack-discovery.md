@@ -268,6 +268,59 @@ Additional references covering reinforcement learning for cyber-attack discovery
   [PENETRATION TESTING USING DEEP REINFORCEMENT LEARNING](https://doi.org/10.28925/2663-4023.2024.23.1730).
 - **Autonomous Threat Response Frameworks** – RL-enhanced cybersecurity frameworks for automated defence.
   [Reinforcement Learning Enhanced Cybersecurity Frameworks for Autonomous Threat Response Systems](https://doi.org/10.71443/9789349552319-10).
+- **Deep Reinforcement Fuzzing** – early RL approach optimizing fuzzing with Q-learning.
+  [Deep Reinforcement Fuzzing](https://arxiv.org/abs/1801.04589).
+- **SyzVegas** – RL scheduling of syscall sequences improves kernel fuzzing odds.
+  [SyzVegas: Beating Kernel Fuzzing Odds with Reinforcement Learning](https://www.usenix.org/conference/usenixsecurity21/presentation/wang-daimeng).
+- **RL-Fuzz** – reinforcement learning guided fuzz testing with dynamic reward shaping.
+  [RL-Fuzz: Reinforcement Learning Guided Fuzz Testing](https://doi.org/10.1016/j.jss.2024.111963).
+- **Dynamic Embeddings for Ransomware** – RL with Bayesian networks enhances resilience.
+  [Leveraging Dynamic Embeddings and Reinforcement Learning with Bayesian Networks for Ransomware Resiliences](https://www.sciencedirect.com/science/article/pii/S2772918425000128).
+- **Deep VULMAN** – RL-enabled vulnerability management automatically prioritizes patches.
+  [Deep VULMAN: A Deep Reinforcement Learning-Enabled Cyber Vulnerability Management Framework](https://www.sciencedirect.com/science/article/pii/S095741742300235X).
+- **Code Vulnerability Repair** – uses RL with semantic reward to patch code.
+  [LLM-Powered Code Vulnerability Repair with Reinforcement Learning and Semantic Reward](https://arxiv.org/abs/2401.03374).
+- **Hierarchical MARL Defence** – organizes RL agents hierarchically to identify attack paths.
+  [Hierarchical Multi-agent Reinforcement Learning for Cyber Network Defense](https://arxiv.org/abs/2410.17351).
+- **Intrusion Detection in SCADA** – deep RL model locates malicious SCADA activity.
+  [Leveraging Deep Reinforcement Learning Technique for Intrusion Detection in SCADA Infrastructure](https://ieeexplore.ieee.org/document/10504835).
+- **Phishing Prevention via RL** – RL algorithms adapt to new phishing techniques.
+  [AI-Driven Phishing Detection: Enhancing Cybersecurity with Reinforcement Learning](https://www.mdpi.com/2624-800X/5/2/26).
+- **Comprehensive Survey** – classification of RL methods for cybersecurity.
+  [Multi-Agent Reinforcement Learning for Cybersecurity: Classification and Survey](https://www.sciencedirect.com/science/article/pii/S2667305325000213).
+
+- **When LLM Meets DRL** – integrates deep RL with LLM-driven search to automate jailbreak discovery.
+  [When LLM Meets DRL: Advancing Jailbreaking Efficiency via DRL-guided Search](https://www.semanticscholar.org/paper/ff9854d4323e75252fec985d411f3b058eb718bf).
+- **PathSeeker** – explores LLM vulnerabilities using a reinforcement learning-based jailbreak approach.
+  [PathSeeker: Exploring LLM Security Vulnerabilities with a Reinforcement Learning-Based Jailbreak Approach](https://www.semanticscholar.org/paper/26c1431f46f90b29b4ee8522ebce92de68068cbb).
+- **xJailbreak** – representation space guided reinforcement learning enables interpretable jailbreaks.
+  [xJailbreak: Representation Space Guided Reinforcement Learning for Interpretable LLM Jailbreaking](https://www.semanticscholar.org/paper/f88411c138583c3875009db49291e1daafc825ba).
+- **Modeling Behavioral Preferences** – applies inverse RL to infer attacker behavior from audit logs.
+  [Modeling Behavioral Preferences of Cyber Adversaries Using Inverse Reinforcement Learning](https://arxiv.org/abs/2505.03817).
+- **Quantitative Resilience Modeling** – evaluates network resilience under RL-driven attacks and defences.
+  [Quantitative Resilience Modeling for Autonomous Cyber Defense](https://arxiv.org/abs/2503.02780).
+- **Multi-Agent RL Defence Tactics** – cooperative RL agents learn cyber defence strategies from scratch.
+  [Learning Cyber Defence Tactics from Scratch with Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2310.05939).
+- **CybORG Environment** – open-source RL framework for simulating automated network attack and defence.
+  [CybORG](https://github.com/cyber-phys/cyborg).
+
+Additional recent work also explores novel RL-driven jailbreak discovery methods:
+
+- **Adaptive RL with LLM-Augmented Rewards** – leverages language model feedback
+  to guide RL agents toward exploitable behaviors.
+  [Adaptive Reinforcement Learning with LLM-augmented Reward Functions](https://doi.org/10.36227/techrxiv.24708198).
+- **Visual Analytics for Jailbreak Prompt Discovery** – mines large conversational
+  logs to surface emergent jailbreak prompts.
+  [A Visual Analytics Approach for Jailbreak Prompts Discovery from Large-Scale Human-LLM Conversational Datasets](https://doi.org/10.1109/TVCG.2025.3557568).
+- **Contextual Backdoor Attacks on LLM Agents** – demonstrates RL-guided backdoor
+  triggers for embodied agents.
+  [Compromising LLM Driven Embodied Agents with Contextual Backdoor Attacks](https://doi.org/10.1109/TIFS.2025.3555410).
+- **Communication-Efficient Multi-Agent RL with LLMs** – studies RL cooperation
+  with language-model-mediated communication.
+  [Towards Communication Efficient Multi-Agent Cooperations: Reinforcement Learning and LLM](https://doi.org/10.36227/techrxiv.173739115.54193062/v1).
+- **Transformer RL Attacks on Fake News Detectors** – uses RL to defeat automated
+  misinformation detectors.
+  [Transformer Reinforcement Learning Approach to Attack Automatic Fake News Detectors](https://doi.org/10.18122/td.2140.boisestate).
 
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine

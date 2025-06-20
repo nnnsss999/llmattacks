@@ -23,6 +23,8 @@ The following documents provide curated resources for different time frames:
 - [Neuron-Level Manipulation Resources 2036](neuron-resources-2036.md)
 - [Neuron-Level Manipulation Resources 2037](neuron-resources-2037.md)
 - [Neuron-Level Manipulation Resources 2038](neuron-resources-2038.md)
+- [Neuron-Level Manipulation Resources 2039](neuron-resources-2039.md)
+- [Neuron-Level Manipulation Resources 2040](neuron-resources-2040.md)
 - [Additional Neuron-Level Manipulation Resources](neuron-level-additional-resources.md)
 
 ## Unique Links
@@ -190,6 +192,20 @@ https://doi.org/10.2139/ssrn.4893610
 https://doi.org/10.2139/ssrn.4882305
 https://doi.org/10.1109/icdsaai65575.2025.11011640
 https://github.com/opanhw/FiNE
+https://arxiv.org/abs/2501.14457
+https://doi.org/10.1609/aaai.v39i22.34529
+https://doi.org/10.1609/aaai.v39i23.34625
+https://arxiv.org/abs/2502.05159
+https://doi.org/10.2139/ssrn.5131392
+https://doi.org/10.1016/j.knosys.2025.113167
+https://doi.org/10.2139/ssrn.5131766
+https://doi.org/10.1609/aaai.v39i21.34441
+https://doi.org/10.1109/jetcas.2024.3450527
+https://github.com/ECNU-ICALK/MELO
+https://github.com/opanhw/MM_Neurons
+https://github.com/jianghoucheng/NSE
+https://github.com/ruchikachavhan/concept-prune
+https://github.com/Butanium/llm-lang-agnostic
 ```
 
 This consolidated list captures research papers, code repositories and articles that examine neuron-level manipulation attacks or defences in LLMs. Each URL is sourced from the documents above and kept for quick reference.

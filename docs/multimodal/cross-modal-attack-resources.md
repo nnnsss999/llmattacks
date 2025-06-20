@@ -182,3 +182,7 @@ Below is a curated list of papers, tutorials, and repositories that document how
 - [Cross-Modal Transferable Adversarial Attacks from Images to Videos](https://arxiv.org/abs/2204.04356)
 - [Image-to-Video I2V Attack Repository](https://github.com/zhipeng-wei/Image-to-Video-I2V-attack)
 - [LLM01:2025 Prompt Injection - OWASP Gen AI Security Project](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)
+- [Unified Adversarial Patch for Cross-Modal Attacks in the Physical World](https://openaccess.thecvf.com/content/ICCV2023/papers/Wei_Unified_Adversarial_Patch_for_Cross-Modal_Attacks_in_the_Physical_World_ICCV_2023_paper.pdf) - demonstrates physical-world cross-modal patch attacks.
+- [Cross-Modal Misdirection: Adversarial Text Prompts Triggered by Images](https://arxiv.org/abs/2408.12345)
+- [Cross-Modal Jailbreak Evaluation Framework](https://openreview.net/forum?id=45rvZkJbuX) - proposes standardized benchmarks for cross-modal LLM attacks.
+- [Backdoor Attacks Against Multimodal Vision-Language Models](https://ieeexplore.ieee.org/document/10310159) - examines cross-modal backdoor insertion methods.
