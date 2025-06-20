@@ -10,4 +10,10 @@ authors = [ {name="LLM Attacks Team"} ]
 readme = "README.md"
 license = {file = "LICENSE"}
 requires-python = ">=3.8"
+dependencies = [
+    "requests",
+    "markdownify",
+    "pdfminer.six",
+    "PyYAML",
+]
 
