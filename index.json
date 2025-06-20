@@ -661,8 +661,17 @@
       "path": "optimization/tag-gradient-attack.md",
       "category": "Optimization",
       "sub_category": "",
-      "date_collected": "2025-06-18"
+      "date_collected": "2025-06-24"
     },
+    {
+      "title": "Evolutionary Algorithm Resources 2035",
+      "path": "optimization/evolutionary-resources-2035.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-26"
+    },
+  ],
+  "Supply Chain": [
     {
       "title": "Evolutionary Algorithm Resources 2030",
       "path": "optimization/evolutionary-resources-2030.md",
