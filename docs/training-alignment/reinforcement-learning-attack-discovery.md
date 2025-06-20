@@ -220,6 +220,17 @@ Additional references covering reinforcement learning for cyber-attack discovery
   [Multi-Objective Reinforcement Learning for Automated Resilient Cyber Defence](https://arxiv.org/abs/2411.17585).
 - **DeepExploit** – fully automated penetration testing tool powered by deep RL.
   [DeepExploit README](https://github.com/13o-bbr-bbq/machine_learning_security/blob/master/DeepExploit/README.md).
+- **AED** – RL drives discovery of critical vulnerabilities in autonomous driving policies.
+  [AED: Automatic Discovery of Effective and Diverse Vulnerabilities for Autonomous Driving Policy with Large Language Models](https://arxiv.org/abs/2503.20804).
+- **Scalable RL Engine for Response** – reduces state-action space for RL-based cyber-physical optimal response.
+  [A Reinforcement Learning Engine with Reduced Action and State Space for Scalable Cyber-Physical Optimal Response](https://arxiv.org/abs/2410.04518).
+- **Topology Poisoning via OpenFlow** – RL manipulates OpenFlow link discovery to poison network topology.
+  [Manipulating OpenFlow Link Discovery Packet Forwarding for Topology Poisoning](https://arxiv.org/abs/2408.16940).
+- **Graph RL APT Detection** – uses graph reinforcement learning to detect advanced persistent threats.
+  [Slot: Provenance-Driven APT Detection through Graph Reinforcement Learning](https://arxiv.org/abs/2410.17910).
+- **C2 Channel Discovery** – reinforcement learning uncovers covert command and control channels.
+  [Discovering Command and Control (C2) Channels on Tor and Public Networks Using Reinforcement Learning](https://arxiv.org/abs/2402.09200).
+
 
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine
