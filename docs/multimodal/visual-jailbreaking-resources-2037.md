@@ -16,3 +16,9 @@ The references below extend [visual-jailbreaking-resources-2036.md](visual-jailb
 - [Semantic Shield: Defending Vision-Language Models Against Backdooring and Poisoning](https://openaccess.thecvf.com/content/CVPR2024/papers/Ishmam_Semantic_Shield_Defending_Vision-Language_Models_Against_Backdooring_and_Poisoning_via_CVPR_2024_paper.pdf) – CVPR paper proposing defences for visual prompt injection.
 - [When Do Universal Image Jailbreaks Transfer Between Vision-Language Models?](https://neurips.cc/virtual/2024/100201) – NeurIPS study on the transferability of adversarial images across models.
 - [Gradient-based Jailbreak Images for Multimodal Fusion Models](https://arxiv.org/abs/2410.03489) – shows how gradients can optimize images to bypass LVLM safety.
+
+This page extends [visual-jailbreaking-resources-2036.md](visual-jailbreaking-resources-2036.md) with more references on image-driven jailbreak attacks and defences. The papers and articles below highlight ongoing research into multimodal exploits.
+
+- [Visual Adversarial Examples Jailbreak Aligned Large Language Models](https://dl.acm.org/doi/10.1609/aaai.v38i19.30150) – AAAI paper detailing how crafted images bypass alignment mechanisms.
+- [JailbreakLens: Visual Analysis of Jailbreak Attacks Against Large Language Models](https://ieeexplore.ieee.org/document/11020711) – IEEE Xplore article examining jailbreak behaviours using visualization tools.
+- [Bohrium DP-Tech mirror of Visual Adversarial Examples Jailbreak Aligned LLMs](https://bohrium.dp.tech/paper/arxiv/2306.13213) – alternative host for the original arXiv paper.
