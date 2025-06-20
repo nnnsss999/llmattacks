@@ -20,6 +20,8 @@ jobs:
           pip install black mypy pytest pytest-cov
       - name: Black check
         run: black --check .
+      - name: Validate dataset schema
+        run: python scripts/build_dataset.py --check-only
       - name: Run tests
         run: |
           FAST_LINK_CHECK=10 pytest -q --cov=. --cov-report=xml

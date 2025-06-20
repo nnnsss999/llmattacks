@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
-"""Build the attacks dataset from Markdown files."""
+"""Build the attacks dataset from Markdown files.
+
+Run with ``--check-only`` to validate that all Markdown files can be parsed
+into :class:`~datasets.schema.AttackSample` instances without writing the
+output file. The command exits with a non-zero status code if validation fails.
+"""
 
 from __future__ import annotations
 
 import uuid
 import unicodedata
 from pathlib import Path
+import argparse
 
 import json
 import yaml
@@ -64,8 +70,11 @@ def gather_samples() -> list[AttackSample]:
     return samples
 
 
-def build_dataset() -> None:
+def build_dataset(check_only: bool = False) -> None:
     samples = gather_samples()
+    if check_only:
+        print(f"Validated {len(samples)} samples")
+        return
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     with OUT_FILE.open("w", encoding="utf-8") as f:
         for sample in samples:
@@ -74,5 +83,16 @@ def build_dataset() -> None:
     print(f"Wrote {OUT_FILE} ({len(samples)} rows)")
 
 
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--check-only",
+        action="store_true",
+        help="Validate samples without writing output",
+    )
+    args = parser.parse_args()
+    build_dataset(check_only=args.check_only)
+
+
 if __name__ == "__main__":
-    build_dataset()
+    main()
