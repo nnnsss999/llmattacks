@@ -670,6 +670,13 @@
       "sub_category": "",
       "date_collected": "2025-06-26"
     },
+    {
+      "title": "Evolutionary Algorithm Resources 2037",
+      "path": "optimization/evolutionary-resources-2037.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-28"
+    },
   ],
   "Supply Chain": [
     {
@@ -762,6 +769,13 @@
       "category": "Supply Chain",
       "sub_category": "",
       "date_collected": "2025-06-19"
+    },
+    {
+      "title": "Additional LLM Supply Chain Resources 2031",
+      "path": "supply-chain/additional-supply-chain-resources-2031.md",
+      "category": "Supply Chain",
+      "sub_category": "",
+      "date_collected": "2025-06-20"
     }
   ],
   "Social Engineering": [
@@ -836,6 +850,13 @@
       "category": "Inference",
       "sub_category": "",
       "date_collected": "2025-06-19"
+    },
+    {
+      "title": "Context Window Resources 2030",
+      "path": "inference/context-window-resources-2030.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-21"
     },
     {
       "title": "Alignment-Aware Model Extraction Attacks",
@@ -949,6 +970,20 @@
       "date_collected": "2025-06-25"
     },
     {
+      "title": "Fuzzing Resources 2040",
+      "path": "fuzzing/fuzzing-resources-2040.md",
+      "category": "Fuzzing",
+      "sub_category": "",
+      "date_collected": "2025-06-26"
+    },
+    {
+      "title": "Fuzzing Resources 2041",
+      "path": "fuzzing/fuzzing-resources-2041.md",
+      "category": "Fuzzing",
+      "sub_category": "",
+      "date_collected": "2025-06-27"
+    },
+    {
       "title": "Fuzzing Resources 2033",
       "path": "fuzzing/fuzzing-resources-2033.md",
       "category": "Fuzzing",
@@ -1058,6 +1093,13 @@
     {
       "title": "Additional Compromised Model Hub Resources 2029",
       "path": "supply-chain/additional-compromised-model-hub-resources-2029.md",
+      "category": "Supply Chain",
+      "sub_category": "",
+      "date_collected": "2025-06-20"
+    },
+    {
+      "title": "Additional Compromised Model Hub Resources 2031",
+      "path": "supply-chain/additional-compromised-model-hub-resources-2031.md",
       "category": "Supply Chain",
       "sub_category": "",
       "date_collected": "2025-06-20"
