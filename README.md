@@ -101,6 +101,9 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 - Run `python scripts/check_duplicates.py` to detect duplicate markdown entries.
 - Run `python scripts/link_check.py` to spot broken links locally.
 - Run `python scripts/refresh_links.py` to update `link_archive.json` with fresh Wayback snapshots.
+- Run `python scripts/build_dataset.py --out-dir datasets/v1 --format json` to
+  compile all Markdown prompts into `attacks.jsonl`. Use `--format csv` for a
+  CSV file instead.
 - Broken links are checked via `lychee` in CI.
 - A scheduled workflow refreshes external links weekly and stores Wayback Machine snapshots in `link_archive.json`.
 

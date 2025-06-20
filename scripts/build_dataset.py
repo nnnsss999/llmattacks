@@ -1,11 +1,21 @@
 #!/usr/bin/env python3
-"""Build the attacks dataset from Markdown files."""
+"""Build the attacks dataset from Markdown files.
+
+Usage::
+
+    python scripts/build_dataset.py [--out-dir DIR] [--format json|csv]
+
+The script walks ``attacks/`` for ``*.md`` files, normalises text and writes a
+validated dataset. By default ``datasets/v1/attacks.jsonl`` is created.
+"""
 
 from __future__ import annotations
 
 import uuid
 import unicodedata
 from pathlib import Path
+import argparse
+import csv
 
 import json
 import yaml
@@ -17,8 +27,7 @@ from datasets.schema import AttackSample
 
 ROOT = Path(__file__).resolve().parents[1]
 ATTACKS_DIR = ROOT / "attacks"
-OUT_DIR = ROOT / "datasets" / "v1"
-OUT_FILE = OUT_DIR / "attacks.jsonl"
+DEFAULT_OUT_DIR = ROOT / "datasets" / "v1"
 
 ZERO_WIDTH = {ord(c): None for c in ["\u200b", "\u200c", "\u200d", "\ufeff"]}
 
@@ -64,15 +73,42 @@ def gather_samples() -> list[AttackSample]:
     return samples
 
 
-def build_dataset() -> None:
+def build_dataset(out_dir: Path, fmt: str) -> Path:
     samples = gather_samples()
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    with OUT_FILE.open("w", encoding="utf-8") as f:
-        for sample in samples:
-            json.dump(sample.model_dump(), f, ensure_ascii=False)
-            f.write("\n")
-    print(f"Wrote {OUT_FILE} ({len(samples)} rows)")
+    out_dir.mkdir(parents=True, exist_ok=True)
+    if fmt == "csv":
+        out_file = out_dir / "attacks.csv"
+        with out_file.open("w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(
+                f,
+                fieldnames=["uuid", "text", "label", "attack_type", "source_path"],
+            )
+            writer.writeheader()
+            for sample in samples:
+                writer.writerow(sample.model_dump())
+    else:
+        out_file = out_dir / "attacks.jsonl"
+        with out_file.open("w", encoding="utf-8") as f:
+            for sample in samples:
+                json.dump(sample.model_dump(), f, ensure_ascii=False)
+                f.write("\n")
+    print(f"Wrote {out_file} ({len(samples)} rows)")
+    return out_file
 
 
 if __name__ == "__main__":
-    build_dataset()
+    parser = argparse.ArgumentParser(description="Build dataset from markdown")
+    parser.add_argument(
+        "--out-dir",
+        type=Path,
+        default=DEFAULT_OUT_DIR,
+        help="directory for output files",
+    )
+    parser.add_argument(
+        "--format",
+        choices=["json", "csv"],
+        default="json",
+        help="output format (json or csv)",
+    )
+    args = parser.parse_args()
+    build_dataset(args.out_dir, args.format)

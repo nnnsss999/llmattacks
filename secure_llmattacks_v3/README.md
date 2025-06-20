@@ -24,3 +24,13 @@ This workspace provides a trimmed snapshot of the `llmattacks` project focused o
    ```bash
    pytest
    ```
+
+## Dataset Builder
+
+Generate a consolidated attack corpus from the Markdown prompts:
+
+```bash
+python scripts/build_dataset.py --out-dir datasets/v1 --format json
+```
+
+Use `--format csv` to create `attacks.csv` instead of the default `attacks.jsonl`.
