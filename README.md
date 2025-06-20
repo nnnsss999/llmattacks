@@ -56,9 +56,8 @@ A searchable website built with **MkDocs Material** is automatically deployed to
 - `docs/navigation-map.md` – human-readable map of every file in the
   repository with a short description.
 - `index.json` – JSON index generated from the YAML front matter.
-  - `.github/workflows/` – GitHub Actions workflows using **Python 3.10**
-    and **Node 18**:
-    - `ci.yml` installs dependencies, runs pre‑commit and `pytest`
+  - `.github/workflows/` – GitHub Actions workflows using **Python 3.10**:
+    - `ci.yml` installs dependencies, runs `black --check`, `mypy --strict`, `pytest` and posts coverage
     - `gh-pages.yml` builds the MkDocs site and deploys to GitHub Pages
     - `link-check.yml` runs the `lycheeverse/lychee` link checker
     - `refresh-links.yml` updates `link_archive.json` on a weekly schedule
@@ -117,7 +116,7 @@ Contributions are welcome! Please review [CONTRIBUTING.md](CONTRIBUTING.md) for 
 
 ## Development Workflow
 
-This project uses **pre-commit** hooks for basic linting and a GitHub Actions pipeline that runs the hooks and unit tests. Run `pre-commit run --all-files` and `pytest` before committing; the CI will enforce these checks on every pull request.
+Use **pre-commit** for local linting. The CI workflow runs `black --check`, `mypy --strict` and the test suite with coverage. Run `pre-commit run --all-files` and `pytest` before committing.
 
 ## License
 
