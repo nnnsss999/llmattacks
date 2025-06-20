@@ -118,3 +118,4 @@ docs/supply-chain/anthropic-rsp-supply-chain-controls.md
 docs/zero-day-resources-2035.md
 docs/supply-chain/additional-supply-chain-resources-2026.md
 docs/supply-chain/additional-supply-chain-resources-2027.md
+docs/multimodal/visual-jailbreaking-resources-2035.md
