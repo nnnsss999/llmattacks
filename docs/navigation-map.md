@@ -152,6 +152,8 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `evolutionary-resources-2034.md` — additional GA-based references
 - `evolutionary-resources-2035.md` — expanded GA-based resources
 - `evolutionary-resources-2036.md` — new GA-based jailbreak research
+- `evolutionary-resources-2037.md` — expanded GA-based references
+- `evolutionary-resources-2038.md` — recent GA-based research
 - `boosting-jailbreak-with-momentum.md` — momentum-based gradient attack
 - `dager-gradient-inversion.md` — exact gradient inversion method
 - `improved-techniques-for-jailbreaking.md` — refined optimization approach
