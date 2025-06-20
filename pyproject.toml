@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llmattacks"
+version = "0.1.0"
+description = "LLM Attacks Catalog"
+authors = [ {name="LLM Attacks Team"} ]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+
