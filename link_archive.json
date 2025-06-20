@@ -322,17 +322,26 @@
   },
   "https://doi.org/10.1109/ase56229.2023.00065": {
     "snapshot": "https://web.archive.org/web/20250618/ase56229"
-  }
-  ,"https://doi.org/10.1145/3634737.3656289?utm_source=chatgpt.com": {
+  },
+  "https://doi.org/10.1145/3634737.3656289?utm_source=chatgpt.com": {
     "snapshot": "https://web.archive.org/web/20250618/acm-3634737"
-  }
-  ,"https://www.anthropic.com/research/many-shot-jailbreaking": {
+  },
+  "https://www.anthropic.com/research/many-shot-jailbreaking": {
     "snapshot": "https://web.archive.org/web/20250618/anthropic-many-shot"
-  }
-  ,"https://www.theguardian.com/technology/2024/apr/03/many-shot-jailbreaking-ai-artificial-intelligence-safety-features-bypass": {
+  },
+  "https://www.theguardian.com/technology/2024/apr/03/many-shot-jailbreaking-ai-artificial-intelligence-safety-features-bypass": {
     "snapshot": "https://web.archive.org/web/20250618/guardian-many-shot"
-  }
-  ,"https://www.theregister.com/2024/10/20/python_zero_day_tool/": {
+  },
+  "https://www.theregister.com/2024/10/20/python_zero_day_tool/": {
     "snapshot": "https://web.archive.org/web/20250618/theregister-zero-day"
+  },
+  "https://www.darkreading.com/application-security/google-open-sources-ai-boosted-fuzzing-framework": {
+    "snapshot": "https://web.archive.org/web/20250618/dr-fuzz"
+  },
+  "https://sennovate.com/zero-day-exploits-in-2025-detection-prevention-and-response-strategies/": {
+    "snapshot": "https://web.archive.org/web/20250618/sennovate"
+  },
+  "https://www.theregister.com/2024/11/05/google_ai_vulnerability_hunting/": {
+    "snapshot": "https://web.archive.org/web/20250618/thereg"
   }
 }
