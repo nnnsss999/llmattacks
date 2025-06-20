@@ -194,6 +194,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `additional-model-hub-resources.md` — curated model hub references
 - `additional-model-hub-resources-2028.md` — latest model hub incidents
 - `thehackernews-hf-spaces-unauthorized-access.html` — article on Hugging Face unauthorized access
+- `additional-compromised-model-hub-resources-2031.md` — new model hub incidents
 
 ### token-level/
 - `techradar-tokenbreak.html` — token level manipulation article
