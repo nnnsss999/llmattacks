@@ -2582,6 +2582,33 @@
     },
     {
       "type": "file",
+      "name": "neuron-resources-catalog.md",
+      "bom-ref": "neuron-resources-catalog.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Comprehensive Neuron-Level Manipulation Resource Catalog"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-24"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "neuron-resources.md",
       "bom-ref": "neuron-resources.md",
       "properties": [
@@ -3248,6 +3275,33 @@
         {
           "name": "date_collected",
           "value": "2025-06-24"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "optimization/gradient-resources-2034.md",
+      "bom-ref": "optimization/gradient-resources-2034.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Gradient Attack Resources 2034"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-26"
         },
         {
           "name": "license",
@@ -4252,6 +4306,33 @@
         {
           "name": "date_collected",
           "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "social-engineering/emotional-manipulation-resources-2036.md",
+      "bom-ref": "social-engineering/emotional-manipulation-resources-2036.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Emotional Manipulation Attack Resources 2036"
+        },
+        {
+          "name": "category",
+          "value": "Social Engineering"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-30"
         },
         {
           "name": "license",
