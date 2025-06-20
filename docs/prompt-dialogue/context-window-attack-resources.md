@@ -104,3 +104,7 @@ The following sources examine how adversaries exploit an LLM's context window. T
 - [Jailbreaking is (Mostly) Simpler Than You Think (Microsoft Security Blog)](https://msrc.microsoft.com/blog/2025/03/jailbreaking-is-mostly-simpler-than-you-think/)
 - [Why LLMs Get Dumb: Context Windows Explained (Frank's World Blog)](https://www.franksworld.com/2025/04/12/why-llms-get-dumb-context-windows-explained/)
 - [The Context Window Problem: Why LLMs Forget the Middle of a Long File (TechTalks)](https://bdtechtalks.com/2025/02/05/the-context-window-problem-or-why-llm-forgets-the-middle-of-a-long-file/)
+- [Anthropic researchers wear down AI ethics with repeated questions (TechCrunch)](https://techcrunch.com/2024/04/02/anthropic-researchers-wear-down-ai-ethics-with-repeated-questions/)
+- [Anthropic Exposes Many-Shot Jailbreaking Vulnerability in LLMs (Analytics Vidhya)](https://www.analyticsvidhya.com/blog/2024/04/anthropic-exposes-many-shot-jailbreaking-vulnerability-in-llms/)
+- [AI\x27s use many-shot jailbreaking method to bust LLM guardrails (Fanatical Futurist)](https://www.fanaticalfuturist.com/2024/06/ais-use-many-shot-jailbreaking-method-to-bust-llm-guardrails/)
+- [New AI Jailbreak Method "Bad Likert Judge" Boosts Attack Success Rates by Over 60% (The Hacker News)](https://thehackernews.com/2025/01/new-ai-jailbreak-method-bad-likert.html)
