@@ -43,7 +43,7 @@ def gather_links() -> list[str]:
 def main() -> None:
     urls = gather_links()
     out = Path('docs/urls.md')
-    out.write_text(''.join(f'- {u}\n' for u in urls), encoding='utf-8')
+    out.write_text(''.join(f'- [{u}]({u})\n' for u in urls), encoding='utf-8')
 
 
 if __name__ == '__main__':
