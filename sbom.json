@@ -2091,6 +2091,33 @@
     },
     {
       "type": "file",
+      "name": "linguistic-manipulation/linguistic-manipulation-resources-2038.md",
+      "bom-ref": "linguistic-manipulation/linguistic-manipulation-resources-2038.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Linguistic Manipulation Resources 2038"
+        },
+        {
+          "name": "category",
+          "value": "Linguistic Manipulation"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-28"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "llm-attack-catalog.md",
       "bom-ref": "llm-attack-catalog.md"
     },
