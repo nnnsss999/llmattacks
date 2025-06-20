@@ -13,3 +13,5 @@ The references below extend [fuzzing-resources-2038.md](fuzzing-resources-2038.m
 - [GPTFuzz Mutation Analysis](https://github.com/sherdencooper/GPTFuzz.B.MutationAnalysisToinvestigatewhyPROMPTFUZZimprovesperformancewithinitialseeds) – explores how prompt mutations impact success rates.
 - [Lakera GandalfIgnoreInstructions dataset](https://huggingface.co/datasets/Lakera/gandalfignoreinstructions) – corpus for evaluating instruction-resistant prompts.
 - [BlackHat Asia 2025 talk: LLM Zero Day Fuzzing](https://www.blackhat.com/asia-25/briefings/schedule/index.html#llm-zero-day-fuzzing-102) – conference presentation covering zero-day discovery via LLM fuzzing.
+- [Fuzz4All GitHub Repository](https://github.com/fuzz4all/fuzz4all) – reference implementation accompanying the Fuzz4All paper and website.
+- [LLM-Fuzz Repository](https://github.com/Block-RS/LLM-Fuzz) – open-source project exploring directed fuzzing strategies for LLM-based systems.
