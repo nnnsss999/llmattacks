@@ -1033,6 +1033,13 @@
       "category": "Social Engineering",
       "sub_category": "",
       "date_collected": "2025-06-23"
+    },
+    {
+      "title": "Emotional Manipulation Attack Resources 2036",
+      "path": "social-engineering/emotional-manipulation-resources-2036.md",
+      "category": "Social Engineering",
+      "sub_category": "",
+      "date_collected": "2025-06-27"
     }
   ],
   "Insecure Output": [
