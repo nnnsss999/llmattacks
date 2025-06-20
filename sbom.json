@@ -1713,6 +1713,60 @@
     },
     {
       "type": "file",
+      "name": "latent-space/latent-space-resources-2038.md",
+      "bom-ref": "latent-space/latent-space-resources-2038.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Latent Space Attack Resources 2038"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-07-15"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "latent-space/latent-space-resources-2039.md",
+      "bom-ref": "latent-space/latent-space-resources-2039.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Latent Space Attack Resources 2039"
+        },
+        {
+          "name": "category",
+          "value": "Latent Space"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-07-20"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "linguistic-manipulation/additional-resources.md",
       "bom-ref": "linguistic-manipulation/additional-resources.md",
       "properties": [
@@ -2055,6 +2109,33 @@
         {
           "name": "date_collected",
           "value": "2025-06-27"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "linguistic-manipulation/linguistic-manipulation-resources-2038.md",
+      "bom-ref": "linguistic-manipulation/linguistic-manipulation-resources-2038.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Linguistic Manipulation Resources 2038"
+        },
+        {
+          "name": "category",
+          "value": "Linguistic Manipulation"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-28"
         },
         {
           "name": "license",
