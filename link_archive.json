@@ -295,5 +295,26 @@
   },
   "https://aclanthology.org/2025.acl-long.533": {
     "snapshot": "https://web.archive.org/web/20250618/acl-long-533"
+  },
+  "https://doi.org/10.1609/aaai.v39i22.34529": {
+    "snapshot": "https://web.archive.org/web/20250618/aaai-34529"
+  },
+  "https://doi.org/10.1609/aaai.v39i23.34625": {
+    "snapshot": "https://web.archive.org/web/20250618/aaai-34625"
+  },
+  "https://doi.org/10.2139/ssrn.5131392": {
+    "snapshot": "https://web.archive.org/web/20250618/ssrn-5131392"
+  },
+  "https://doi.org/10.1016/j.knosys.2025.113167": {
+    "snapshot": "https://web.archive.org/web/20250618/knosys-113167"
+  },
+  "https://doi.org/10.2139/ssrn.5131766": {
+    "snapshot": "https://web.archive.org/web/20250618/ssrn-5131766"
+  },
+  "https://doi.org/10.1609/aaai.v39i21.34441": {
+    "snapshot": "https://web.archive.org/web/20250618/aaai-34441"
+  },
+  "https://doi.org/10.1109/jetcas.2024.3450527": {
+    "snapshot": "https://web.archive.org/web/20250618/jetcas-3450527"
   }
 }

@@ -1,4 +1,5 @@
 # LLM Attacks Catalog
+[![CI](https://github.com/example/llmattacks/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/example/llmattacks/actions/workflows/ci.yml)
 
 This repository collects documented techniques for attacking large language models (LLMs). Each markdown file in `docs/` summarizes a known or theorized vector, linking to the original research or incident report.
 
