@@ -946,6 +946,33 @@
     },
     {
       "type": "file",
+      "name": "fuzzing/fuzzing-resources-2040.md",
+      "bom-ref": "fuzzing/fuzzing-resources-2040.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Fuzzing Resources 2040"
+        },
+        {
+          "name": "category",
+          "value": "Fuzzing"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-26"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "fuzzing/fuzzing-resources-compendium.md",
       "bom-ref": "fuzzing/fuzzing-resources-compendium.md",
       "properties": [
@@ -3041,6 +3068,33 @@
     },
     {
       "type": "file",
+      "name": "optimization/evolutionary-resources-2035.md",
+      "bom-ref": "optimization/evolutionary-resources-2035.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Evolutionary Algorithm Resources 2035"
+        },
+        {
+          "name": "category",
+          "value": "Optimization"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-26"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "optimization/gradient-attack-resources.md",
       "bom-ref": "optimization/gradient-attack-resources.md",
       "properties": [
@@ -4486,7 +4540,7 @@
         },
         {
           "name": "date_collected",
-          "value": "2025-06-20"
+          "value": "2025-06-24"
         },
         {
           "name": "license",
@@ -5240,6 +5294,33 @@
         {
           "name": "date_collected",
           "value": "2025-06-19"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "zero-day-resources-2036.md",
+      "bom-ref": "zero-day-resources-2036.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Zero-Day Resources 2036"
+        },
+        {
+          "name": "category",
+          "value": "Zero-Day"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-24"
         },
         {
           "name": "license",
