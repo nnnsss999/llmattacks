@@ -18,3 +18,11 @@ The references below consolidate additional research and community materials on 
 - [Jailbreak Attacks and Defenses Against Large Language Models: A Survey](https://arxiv.org/abs/2407.04295) – comprehensive survey including evolutionary attack frameworks.
 - [Adaptive Strategy Evolution for Generating Tailored Jailbreaks](https://openreview.net/forum?id=xF5st2HtYP) – proposes self-adapting genetic strategies for customized prompts.
 - [PromptBreeder Evolves & Adapts Prompts For A Given Domain](https://cobusgreyling.medium.com/promptbreeder-evolves-adapts-prompts-for-a-given-domain-7d7bf75b5555) – demonstrates domain-specific prompt evolution using genetic algorithms.
+
+The references below add more coverage of evolutionary algorithm approaches for jailbreaking large language models (LLMs).
+
+- [Paper - RED QUEEN : Safeguarding LLMs against Concealed Multi-Turn Jailbreaking](https://www.youtube.com/watch?v=5y-xPiqrToo) – overview of a multi-turn jailbreak method and corresponding mitigation strategy.
+- [AI Jailbreaking Demo: How Prompt Engineering Bypasses LLM Security Measures](https://www.youtube.com/watch?v=F_KychntktU) – demonstration of iterative prompt evolution to evade safeguards.
+- [The Secrets of Jailbreaking LLMs // Ron Heichman // MLOps Podcast #252 clip](https://www.youtube.com/watch?v=RgL3NwOE64M) – discussion of automated jailbreak frameworks including genetic approaches.
+- [Jailbreaking Large Language Models: Techniques, Examples, Prevention Methods](https://www.lakera.ai/blog/jailbreaking-large-language-models-guide) – blog covering state-of-the-art attacks and defenses such as evolutionary search.
+- [How to Automatically Jailbreak OpenAI's o1 (Case Studies)](https://artificialintelligencemadesimple.substack.com/p/how-to-automatically-jailbreak-openais) – case studies of automated jailbreaks using evolutionary optimization.

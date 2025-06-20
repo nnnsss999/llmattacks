@@ -230,6 +230,24 @@ Additional references covering reinforcement learning for cyber-attack discovery
   [Safe-RLHF Repository](https://github.com/PKU-Alignment/safe-rlhf).
 - **Deep RL Intrusion Detection** – open-source project applying deep RL to detect network intrusions.
   [GitHub Repository](https://github.com/SwathiReddy03/Intrusion-Detection-System-using-Deep-Reinforcement-Learning).
+- **LLM-Based RL Agents for Bug Discovery** – RL-powered agents automatically uncover bugs in web applications.
+  [Using LLM-Based Deep Reinforcement Learning Agents to Detect Bugs in Web Applications](https://doi.org/10.5220/0013248800003890).
+- **Graph Poisoning via RL** – applies reinforcement learning to craft feature bias perturbations that degrade graph-based detectors.
+  [Graph Poisoning Attack Based on Feature Bias Perturbation Via Reinforcement Learning](https://doi.org/10.2139/ssrn.5254394).
+- **Ad-hoc Network Attack Identification** – reinforcement learning configures ad-hoc networks to surface malicious traffic.
+  [Routing and Security Based Ad-hoc Networks Configuration for Identification of Attack Using Reinforcement Learning Approach](https://doi.org/10.21203/rs.3.rs-4045649/v1).
+- **Cyber-Physical Attack Detection for Robotic Arms** – RL with heterogeneous data fusion spots anomalies in industrial robots.
+  [Cyber-Physical Attack Detection in Industrial Robotic Arms by Reinforcement Learning with Systemic Heterogeneous Data Fusion](https://doi.org/10.2139/ssrn.5272672).
+- **DDoS Mitigation via RL** – reinforcement learning policies counter distributed denial-of-service attacks.
+  [Distributed Denial of Service Attack Mitigation Using Reinforcement Learning](https://doi.org/10.36676/j.sust.sol.v2.i1.54).
+- **Risk-Sensitive RL for Smart Factories** – explores sabotage scenarios in human–robot symbiosis.
+  [LLM-Guided Risk-Sensitive Reinforcement Learning for Smart Factories in the Scenario of Human-Robot Symbiosis](https://doi.org/10.2139/ssrn.5294964).
+- **ProRLearn** – reinforcement learning improves prompt-tuning-based vulnerability detection.
+  [ProRLearn: Boosting Prompt Tuning-based Vulnerability Detection by Reinforcement Learning](https://doi.org/10.21203/rs.3.rs-3856133/v1).
+- **Deep RL Penetration Testing** – demonstrates penetration testing techniques using deep reinforcement learning.
+  [PENETRATION TESTING USING DEEP REINFORCEMENT LEARNING](https://doi.org/10.28925/2663-4023.2024.23.1730).
+- **Autonomous Threat Response Frameworks** – RL-enhanced cybersecurity frameworks for automated defence.
+  [Reinforcement Learning Enhanced Cybersecurity Frameworks for Autonomous Threat Response Systems](https://doi.org/10.71443/9789349552319-10).
 
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine
