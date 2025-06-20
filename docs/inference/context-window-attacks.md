@@ -102,3 +102,11 @@ These resources detail how manipulating a model's working context can produce ha
 - [Augmenting Language Models with Long-Term Memory (arXiv:2306.07174)](https://arxiv.org/abs/2306.07174)
 - [Why Use Retrieval Instead of Larger Context? (Pinecone Blog)](https://www.pinecone.io/blog/why-use-retrieval-instead-of-larger-context/)
 - [DeepSpeed Blog on Long-Context Transformers](https://www.deepspeed.ai/2024/03/18/long-context-transformers/)
+
+- [Zero-click AI data leak flaw uncovered in Microsoft 365 Copilot (BleepingComputer)](https://www.bleepingcomputer.com/news/security/zero-click-ai-data-leak-flaw-uncovered-in-microsoft-365-copilot/)
+- [How to Overcome LLM Context Window Limitations (Medium)](https://medium.com/the-business-of-ai/how-to-overcome-llm-context-window-limitations-dc94f4cc6509)
+- [The Double-Edged Sword of Massive Context Windows in Modern LLMs (Medium)](https://medium.com/@wmechem/the-double-edged-sword-of-massive-context-windows-in-modern-llms-cd3dbe36c954)
+- [LLM Prompt Best Practices – Large Context Windows (Winder AI)](https://winder.ai/llm-prompt-best-practices-large-context-windows/)
+- [Beyond the Boundaries of Code: The Quest for Longer Context Windows in Large Language Models (LLM Reporter)](https://www.llmreporter.com/posts/beyond-the-boundaries-of-code-the-quest-for-longer-context-windows-in-large-language-models/)
+- [Do Enormous LLM Context Windows Spell the End of RAG? (The New Stack)](https://thenewstack.io/do-enormous-llm-context-windows-spell-the-end-of-rag/)
+- [Evaluating Long Context Lengths in LLMs: Challenges and Benchmarks (Medium)](https://onnyunhui.medium.com/evaluating-long-context-lengths-in-llms-challenges-and-benchmarks-ef77a220d34d)
