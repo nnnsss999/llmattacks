@@ -15,6 +15,7 @@ dependencies = [
     "markdownify",
     "pdfminer.six",
     "PyYAML",
+    "pydantic>=2.0",
 ]
 
 [tool.black]
