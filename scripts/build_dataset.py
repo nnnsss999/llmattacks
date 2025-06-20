@@ -1,10 +1,20 @@
 #!/usr/bin/env python3
-"""Build the attacks dataset from Markdown files."""
+"""Build the attacks dataset from Markdown files.
+
+Usage::
+
+    python scripts/build_dataset.py [--out-dir DATASETS/VERSION] [--format {parquet,csv}]
+
+The script scans ``attacks/`` for Markdown files, normalises the
+text, validates each record with ``AttackSample`` and writes the output
+dataset. Parquet is the default and recommended format for training.
+"""
 
 from __future__ import annotations
 
 import uuid
 import unicodedata
+import argparse
 from pathlib import Path
 
 import yaml
@@ -18,8 +28,7 @@ from datasets.schema import AttackSample
 
 ROOT = Path(__file__).resolve().parents[1]
 ATTACKS_DIR = ROOT / "attacks"
-OUT_DIR = ROOT / "datasets" / "v1"
-OUT_FILE = OUT_DIR / "attacks.parquet"
+DEFAULT_OUT_DIR = ROOT / "datasets" / "v1"
 
 ZERO_WIDTH = {ord(c): None for c in ["\u200b", "\u200c", "\u200d", "\ufeff"]}
 
@@ -65,13 +74,40 @@ def gather_samples() -> list[AttackSample]:
     return samples
 
 
-def build_dataset() -> None:
+def build_dataset(out_dir: Path, fmt: str) -> Path:
+    """Generate dataset in the given directory and return the output path."""
     samples = gather_samples()
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    out_dir.mkdir(parents=True, exist_ok=True)
     table = pa.Table.from_pylist([s.model_dump() for s in samples])
-    pq.write_table(table, OUT_FILE)
-    print(f"Wrote {OUT_FILE} ({table.num_rows} rows)")
+    out_file = out_dir / f"attacks.{ 'parquet' if fmt == 'parquet' else 'csv' }"
+    if fmt == "parquet":
+        pq.write_table(table, out_file)
+    else:
+        import pandas as pd
+
+        df = table.to_pandas()
+        df.to_csv(out_file, index=False)
+    print(f"Wrote {out_file} ({table.num_rows} rows)")
+    return out_file
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Build attacks dataset")
+    parser.add_argument(
+        "--out-dir",
+        type=Path,
+        default=DEFAULT_OUT_DIR,
+        help="Destination directory for the dataset",
+    )
+    parser.add_argument(
+        "--format",
+        choices=["parquet", "csv"],
+        default="parquet",
+        help="Output file format",
+    )
+    return parser.parse_args()
 
 
 if __name__ == "__main__":
-    build_dataset()
+    args = parse_args()
+    build_dataset(args.out_dir, args.format)
