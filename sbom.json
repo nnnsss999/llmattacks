@@ -4870,6 +4870,29 @@
     },
     {
       "type": "file",
+      "name": "supply-chain/additional-compromised-model-hub-resources-2032.md",
+      "bom-ref": "supply-chain/additional-compromised-model-hub-resources-2032.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Additional Compromised Model Hub Resources 2032"
+        },
+        {
+          "name": "category",
+          "value": "Supply Chain"
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-07-05"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "supply-chain/additional-model-hub-resources-2028.md",
       "bom-ref": "supply-chain/additional-model-hub-resources-2028.md",
       "properties": [
