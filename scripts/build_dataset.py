@@ -6,6 +6,7 @@ from __future__ import annotations
 import uuid
 import unicodedata
 from pathlib import Path
+import argparse
 
 import json
 import yaml
@@ -70,15 +71,39 @@ def gather_samples() -> list[AttackSample]:
     return samples
 
 
-def build_dataset() -> None:
+def build_dataset(out_dir: Path = OUT_DIR) -> int:
     samples = gather_samples()
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    with OUT_FILE.open("w", encoding="utf-8") as f:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_file = out_dir / OUT_FILE.name
+    with out_file.open("w", encoding="utf-8") as f:
         for sample in samples:
             json.dump(sample.model_dump(), f, ensure_ascii=False)
             f.write("\n")
-    print(f"Wrote {OUT_FILE} ({len(samples)} rows)")
+    print(f"Wrote {out_file} ({len(samples)} rows)")
+    return 0
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--check-only",
+        action="store_true",
+        help="Validate samples without writing dataset",
+    )
+    parser.add_argument(
+        "--out-dir",
+        type=Path,
+        default=OUT_DIR,
+        help="Output directory for dataset",
+    )
+    args = parser.parse_args()
+
+    samples = gather_samples()
+    if args.check_only:
+        print(f"Validated {len(samples)} samples")
+        return 0
+    return build_dataset(args.out_dir)
 
 
 if __name__ == "__main__":
-    build_dataset()
+    raise SystemExit(main())
