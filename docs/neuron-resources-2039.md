@@ -13,7 +13,7 @@ This update extends the neuron-level bibliography with research and tooling publ
 - [Does Large Language Model Contain Task-Specific Neurons?](https://aclanthology.org/2024.emnlp-main.403/) – analyses specialized neurons associated with downstream tasks.
 - [Learnable Privacy Neurons Localization in Language Models](https://arxiv.org/abs/2405.10989) – proposes a method to detect and modify privacy neurons.
 - [Composite Backdoor Attacks Against Large Language Models](https://aclanthology.org/2024.findings-naacl.94/) – demonstrates multi-trigger backdoors at the neuron level.
-- [Multi-Turn Hidden Backdoor in Large Language Model-powered Chatbot](https://dl.acm.org/doi/10.1145/3634737.3656289) – implants hidden triggers that persist across conversations.
+- [Multi-Turn Hidden Backdoor in Large Language Model-powered Chatbot](https://doi.org/10.1145/3634737.3656289?utm_source=chatgpt.com) – implants hidden triggers that persist across conversations.
 - [BackdoorLLM: A Comprehensive Benchmark for Backdoor Attacks and Defenses on Large Language Models](https://github.com/bboylyg/BackdoorLLM) – curated dataset and tools for evaluating neuron-level backdoors.
 - [Cross-Lingual Knowledge Editing in Large Language Models](https://aclanthology.org/2024.acl-long.627/) – explores targeted neuron edits across languages.
 - [How to Use and Interpret Activation Patching](https://arxiv.org/abs/2404.15255) – provides guidance on large-scale neuron patching.
