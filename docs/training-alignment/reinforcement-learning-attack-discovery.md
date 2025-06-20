@@ -314,6 +314,23 @@ Additional references covering reinforcement learning for cyber-attack discovery
   [Red Team Diffuser: Exposing Toxic Continuation Vulnerabilities in Vision-Language Models via Reinforcement Learning](https://www.semanticscholar.org/paper/c50fa892e3c585fa1d4add5a8d69b87fb4cdfd34).
 - **SwordEcho** – RL-driven optimization strategy for LLM jailbreaks.
   [SwordEcho: A LLM Jailbreaking Optimization Strategy Driven by Reinforcement Learning](https://doi.org/10.1145/3709026.3709115).
+Additional recent work also explores novel RL-driven jailbreak discovery methods:
+
+- **Adaptive RL with LLM-Augmented Rewards** – leverages language model feedback
+  to guide RL agents toward exploitable behaviors.
+  [Adaptive Reinforcement Learning with LLM-augmented Reward Functions](https://doi.org/10.36227/techrxiv.24708198).
+- **Visual Analytics for Jailbreak Prompt Discovery** – mines large conversational
+  logs to surface emergent jailbreak prompts.
+  [A Visual Analytics Approach for Jailbreak Prompts Discovery from Large-Scale Human-LLM Conversational Datasets](https://doi.org/10.1109/TVCG.2025.3557568).
+- **Contextual Backdoor Attacks on LLM Agents** – demonstrates RL-guided backdoor
+  triggers for embodied agents.
+  [Compromising LLM Driven Embodied Agents with Contextual Backdoor Attacks](https://doi.org/10.1109/TIFS.2025.3555410).
+- **Communication-Efficient Multi-Agent RL with LLMs** – studies RL cooperation
+  with language-model-mediated communication.
+  [Towards Communication Efficient Multi-Agent Cooperations: Reinforcement Learning and LLM](https://doi.org/10.36227/techrxiv.173739115.54193062/v1).
+- **Transformer RL Attacks on Fake News Detectors** – uses RL to defeat automated
+  misinformation detectors.
+  [Transformer Reinforcement Learning Approach to Attack Automatic Fake News Detectors](https://doi.org/10.18122/td.2140.boisestate).
 
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine

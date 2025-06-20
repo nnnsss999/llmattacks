@@ -92,6 +92,8 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `latent-space-resources-2036.md` — expanded latent-space references
 - `latent-space-resources-2037.md` — additional latent-space studies
 - `latent-space-resources-2038.md` — recent attention-hijacking research
+- `latent-space-resources-2039.md` — newly published latent-space exploits
+- `latent-space-resources-2040.md` — extended catalog with diffusion defenses
 - `apexhq-latentspace.html` — attack on latent representations
 - `obfuscated-activations.html` — obfuscating activations during alignment
 
@@ -114,6 +116,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `visual-jailbreaking-resources-2032.md` — additional resources on recent visual jailbreak research
 - `visual-jailbreaking-resources-2034.md` — follow-up resources on multimodal jailbreaks
 - `visual-jailbreaking-resources-2035.md` — latest visual jailbreak articles and defences
+- `visual-jailbreaking-resources-2036.md` — continuing updates on cross-modal jailbreak strategies
 - `steganography-resources-2026.md` — latest papers on covert LLM attacks
 
 ### optimization/
@@ -149,6 +152,8 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `evolutionary-resources-2034.md` — additional GA-based references
 - `evolutionary-resources-2035.md` — expanded GA-based resources
 - `evolutionary-resources-2036.md` — new GA-based jailbreak research
+- `evolutionary-resources-2037.md` — expanded GA-based references
+- `evolutionary-resources-2038.md` — recent GA-based research
 - `boosting-jailbreak-with-momentum.md` — momentum-based gradient attack
 - `dager-gradient-inversion.md` — exact gradient inversion method
 - `improved-techniques-for-jailbreaking.md` — refined optimization approach
@@ -193,6 +198,12 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `additional-model-hub-resources.md` — curated model hub references
 - `additional-model-hub-resources-2028.md` — latest model hub incidents
 - `thehackernews-hf-spaces-unauthorized-access.html` — article on Hugging Face unauthorized access
+- `additional-compromised-model-hub-resources-2028.md` — detailed list of 2028 incidents
+- `additional-compromised-model-hub-resources-2029.md` — expanded 2029 references
+- `additional-compromised-model-hub-resources-2030.md` — latest 2030 references
+- `additional-compromised-model-hub-resources-2031.md` — supply chain insights 2031
+- `additional-compromised-model-hub-resources-2032.md` — ongoing research and news
+- `additional-compromised-model-hub-resources-2031.md` — new model hub incidents
 
 ### token-level/
 - `techradar-tokenbreak.html` — token level manipulation article

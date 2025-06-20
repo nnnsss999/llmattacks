@@ -984,6 +984,13 @@
       "date_collected": "2025-06-27"
     },
     {
+      "title": "Additional Fuzzing Resources 2042",
+      "path": "fuzzing/additional-fuzzing-resources-2042.md",
+      "category": "Fuzzing",
+      "sub_category": "",
+      "date_collected": "2025-06-28"
+    },
+    {
       "title": "Fuzzing Resources 2033",
       "path": "fuzzing/fuzzing-resources-2033.md",
       "category": "Fuzzing",
@@ -1154,6 +1161,20 @@
       "date_collected": "2025-06-19"
     },
     {
+      "title": "Additional LLM Supply Chain Resources 2032",
+      "path": "supply-chain/additional-supply-chain-resources-2032.md",
+      "category": "Supply Chain",
+      "sub_category": "",
+      "date_collected": "2025-06-21"
+    },
+    {
+      "title": "Additional Compromised Model Hub Resources 2032",
+      "path": "supply-chain/additional-compromised-model-hub-resources-2032.md",
+      "category": "Supply Chain",
+      "sub_category": "",
+      "date_collected": "2025-06-21"
+    },
+    {
       "title": "Poisoned Pre-Training Data Markets",
       "path": "supply-chain/poisoned-pretraining-markets.md",
       "category": "Supply Chain",
@@ -1272,6 +1293,20 @@
     {
       "title": "Visual Jailbreaking Resources 2031",
       "path": "multimodal/visual-jailbreaking-resources-2031.md",
+      "category": "Multimodal",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
+    },
+    {
+      "title": "Visual Jailbreaking Resources 2035",
+      "path": "multimodal/visual-jailbreaking-resources-2035.md",
+      "category": "Multimodal",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
+    },
+    {
+      "title": "Visual Jailbreaking Resources 2036",
+      "path": "multimodal/visual-jailbreaking-resources-2036.md",
       "category": "Multimodal",
       "sub_category": "",
       "date_collected": "2025-06-19"

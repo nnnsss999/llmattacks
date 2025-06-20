@@ -4693,6 +4693,33 @@
     },
     {
       "type": "file",
+      "name": "social-engineering/emotional-manipulation-resources-2036.md",
+      "bom-ref": "social-engineering/emotional-manipulation-resources-2036.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Emotional Manipulation Attack Resources 2036"
+        },
+        {
+          "name": "category",
+          "value": "Social Engineering"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-28"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "social-engineering/emotional-manipulation-resources.md",
       "bom-ref": "social-engineering/emotional-manipulation-resources.md",
       "properties": [
