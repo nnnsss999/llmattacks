@@ -123,3 +123,5 @@ docs/supply-chain/additional-supply-chain-resources-2027.md
 docs/supply-chain/additional-compromised-model-hub-resources-2031.md
 docs/multimodal/visual-jailbreaking-resources-2035.md
 docs/multimodal/visual-jailbreaking-resources-2036.md
+docs/multimodal/visual-jailbreaking-resources-2037.md
+docs/multimodal/visual-jailbreaking-resources-2037.md
