@@ -3,6 +3,9 @@
 This directory contains a clean workspace for the next version of the project.
 Legacy files from v2 are referenced under `original_v2_snapshot/`.
 
+The project uses a plain `pyproject.toml` for dependency management instead of
+Poetry.
+
 ## Folder layout
 
 - `attacks/` – attack corpora and scripts
@@ -19,4 +22,5 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -e ./secure_llmattacks_v3[dev]
 pytest
+pre-commit install
 ```
