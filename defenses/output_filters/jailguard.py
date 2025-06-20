@@ -4,7 +4,8 @@ This module implements a lightweight version of the
 JailGuard risk metric which detects adversarial suffixes
 attached to language-model outputs. The original demo of
 this technique is available from the Hugging Face Spaces
-platform under the name ``JailGuard``.
+platform under the name ``JailGuard``:
+<https://huggingface.co/spaces/JailGuard/JailGuard>.
 
 The score combines two signals:
 1. Token overlap with a corpus of known adversarial
