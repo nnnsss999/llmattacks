@@ -20,6 +20,13 @@ This supplement aggregates neuron-level manipulation references from across the 
 - [Reconstructive Neuron Pruning for Backdoor Defense](https://proceedings.mlr.press/v202/li23v.html) – reconstructs benign behaviour after removing compromised neurons.
 - [Holes in Latent Space: Topological Signatures Under Adversarial Influence](https://arxiv.org/abs/2505.20435) – analyses neuron-activation patterns with persistent homology to detect backdoor attacks.
 
+- [DistillMIKE: Editing Distillation of Massive In-Context Knowledge Editing in Large Language Models](https://doi.org/10.18653/v1/2024.findings-acl.455) – scales neuron editing techniques through distilled demonstrations.
+- [LEMoE: Advanced Mixture of Experts Adaptor for Lifelong Model Editing of Large Language Models](https://doi.org/10.18653/v1/2024.emnlp-main.149) – introduces an adaptor that targets neurons across expert modules.
+- [Knowledge Graph Enhanced Large Language Model Editing](https://doi.org/10.18653/v1/2024.emnlp-main.1261) – uses graph structure to pinpoint and modify factual neurons.
+- [Freehal: A Framework for Editing Large Language Model Hallucinations](https://doi.org/10.2139/ssrn.4893610) – demonstrates neuron-level edits to suppress hallucinated content.
+- [Mlke: A Benchmark for Multilingual Knowledge Editing on Large Language Model](https://doi.org/10.2139/ssrn.4882305) – evaluates cross-lingual neuron manipulation capabilities.
+- [Exploring Mechanistic Interpretability in Large Language Models: Challenges, Approaches, and Insights](https://doi.org/10.1109/icdsaai65575.2025.11011640) – surveys neuron-level control techniques and remaining obstacles.
+
 ## Tools and Code
 
 - [Massive Activations in Large Language Models](https://github.com/locuslab/massive-activations) – explores large-scale neuron activations.
@@ -27,6 +34,7 @@ This supplement aggregates neuron-level manipulation references from across the 
 - [THU-KEG/SafetyNeuron](https://github.com/THU-KEG/SafetyNeuron) – dynamic activation patching to test safety neuron behaviour.
 - [neelnanda/Attribution-Patching](https://github.com/neelnanda-io/Attribution-Patching) – code for scaling activation patching to industry-scale models.
 - [LLM Causal Neuron Attack](https://www.promptfoo.dev/lm-security-db/vuln/llm-causal-neuron-attack-92701d5e) – database entry describing a causal neuron manipulation attack.
+- [opanhw/FiNE](https://github.com/opanhw/FiNE) – research code implementing Fine-grained Neuron Editing techniques.
 
 ## Articles and Links
 
@@ -35,3 +43,4 @@ This supplement aggregates neuron-level manipulation references from across the 
 - [Language models can explain neurons in language models](https://openai.com/index/language-models-can-explain-neurons-in-language-models/) – blog post discussing neuron interpretation and control.
 - [Patchscopes Demo](https://pair.withgoogle.com/explorables/patchscopes/) – interactive environment for neuron patching experiments.
 - [Causality Analysis for LLMs](https://casperllm.github.io/) – project applying causal techniques to map dangerous neuron dependencies.
+- [How to Think About Activation Patching](https://www.alignmentforum.org/posts/xh85KbTFhbCz7taD4/how-to-think-about-activation-patching) – conceptual guidance on designing neuron patching experiments.
