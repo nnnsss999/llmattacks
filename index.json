@@ -613,7 +613,14 @@
       "category": "Optimization",
       "sub_category": "",
       "date_collected": "2025-06-24"
-    }
+    },
+    {
+      "title": "Evolutionary Algorithm Resources 2035",
+      "path": "optimization/evolutionary-resources-2035.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-26"
+    },
   ],
   "Supply Chain": [
     {
