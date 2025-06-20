@@ -292,5 +292,8 @@
   },
   "https://arxiv.org/abs/2506.13301": {
     "snapshot": ""
+  },
+  "https://aclanthology.org/2025.acl-long.533": {
+    "snapshot": "https://web.archive.org/web/20250618/acl-long-533"
   }
 }
