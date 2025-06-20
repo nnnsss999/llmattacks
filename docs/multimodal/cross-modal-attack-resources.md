@@ -172,3 +172,7 @@ Below is a curated list of papers, tutorials, and repositories that document how
 - [Immune: Improving Safety Against Jailbreaks in Multi-modal LLMs via Inference-Time Alignment](https://arxiv.org/abs/2411.18688)
 - [Understanding and Rectifying Safety Perception Distortion in VLMs](https://arxiv.org/abs/2502.13095)
 - [HiddenDetect: Detecting Jailbreak Attacks against Large Vision-Language Models via Monitoring Hidden States](https://arxiv.org/abs/2502.14744)
+- [Empirical Analysis of Large Vision-Language Models against Goal Hijacking via Visual Prompt Injection](https://arxiv.org/abs/2408.03554)
+- [VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents](https://arxiv.org/abs/2506.02456)
+- [Prompt Injection Attacks on Large Language Models in Oncology](https://arxiv.org/abs/2407.18981)
+- [The Beginner's Guide to Visual Prompt Injections: Invisibility Cloaks, Cannibalistic Adverts, and Robot Women](https://www.lakera.ai/blog/visual-prompt-injections)

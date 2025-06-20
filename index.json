@@ -154,6 +154,13 @@
       "path": "neuron-resources.md",
       "category": "Latent Space",
       "sub_category": "",
+      "date_collected": "2025-06-24"
+    },
+    {
+      "title": "Neuron-Level Manipulation Resources 2033",
+      "path": "neuron-resources-2033.md",
+      "category": "Latent Space",
+      "sub_category": "",
       "date_collected": "2025-06-19"
     },
     {
@@ -480,6 +487,16 @@
       "date_collected": "2025-06-19"
     },
     {
+      "title": "Evolutionary Algorithm Resources 2035",
+      "path": "optimization/evolutionary-resources-2035.md",
+      "category": "Optimization",
+      "sub_category": "",
+      "date_collected": "2025-06-26"
+      "title": "Gradient Attack Resources 2031",
+      "path": "optimization/gradient-resources-2031.md",
+      "category": "Optimization",
+    },
+    {
       "title": "Token-Level Attack Resources 2028",
       "path": "token-level/token-level-resources-2028.md",
       "category": "Tokenization",
@@ -730,6 +747,15 @@
       "sub_category": "",
       "date_collected": "2025-06-19"
     },
+    {
+      "title": "Additional LLM Supply Chain Resources 2030",
+      "path": "supply-chain/additional-supply-chain-resources-2030.md",
+      "category": "Supply Chain",
+      "sub_category": "",
+      "date_collected": "2025-06-19"
+    }
+  ],
+  "Social Engineering": [
     {
       "title": "Gradient Attack Resources 2031",
       "path": "optimization/gradient-resources-2031.md",
