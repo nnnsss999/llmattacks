@@ -35,3 +35,9 @@ The references below focus on the **many-shot jailbreaking** technique. They cov
 - [What Is Anthropic’s Many-shot Jailbreaking (Dataconomy)](https://dataconomy.com/2024/04/03/anthropic-many-shot-jailbreaking/)
 - [Many-shot jailbreaking: A new LLM vulnerability (Prompt Security Blog)](https://www.prompt.security/blog/many-shot-jailbreaking-a-new-llm-vulnerability)
 
+
+- [The Silent Threat: When Tokens Become Weapons - A Deep Dive into LLM Tokenization Vulnerabilities](https://blog.ailab.sh/2024/11/the-silent-threat-when-tokens-become.html)
+- [The TokenBreak Attack](https://hiddenlayer.com/innovation-hub/the-tokenbreak-attack/)
+- [Agentic AI Security: Threats, Attacks, and Defenses](https://adversa.ai/blog/agentic-ai-security/)
+- [Expanding Our Model Safety Bug Bounty Program](https://www.anthropic.com/news/model-safety-bug-bounty)
+- [Anthropic Responsible Scaling Policy (PDF)](https://www-cdn.anthropic.com/1adf000c8f675958c2ee23805d91aaade1cd4613/responsible-scaling-policy.pdf)
