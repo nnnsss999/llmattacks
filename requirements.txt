@@ -2,3 +2,4 @@ requests
 markdownify
 pdfminer.six
 PyYAML
+pydantic>=2.0
