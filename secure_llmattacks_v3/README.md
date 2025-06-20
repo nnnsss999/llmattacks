@@ -1,6 +1,6 @@
 # Secure LLM Attacks v3
 
-This workspace collects research code and datasets for studying secure large language model attacks and defenses.  It mirrors the wider `llmattacks` catalog but is structured for reproducible experimentation.
+This workspace contains code and datasets for exploring secure large language model attacks and defenses. It is a self-contained snapshot of the broader `llmattacks` project with a focus on reproducible experiments. All tooling is defined in a simple `pyproject.toml`, so no Poetry workflow is required.
 
 ## Folder Map
 
@@ -16,7 +16,7 @@ This workspace collects research code and datasets for studying secure large lan
 
 ## Quick Start
 
-1. Install the package and dependencies from the project root:
+1. Ensure Python 3.11 is available and install the package from the repository root:
    ```bash
    python3 -m pip install -e secure_llmattacks_v3
    ```
@@ -25,4 +25,3 @@ This workspace collects research code and datasets for studying secure large lan
    pytest
    ```
 
-The project uses a standard `pyproject.toml`—no Poetry workflow is required.
