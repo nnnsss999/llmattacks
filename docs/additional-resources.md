@@ -256,6 +256,7 @@ These references track emerging threats and defence research through 2026 and ar
 - [Linguistic Manipulation Resources 2036](linguistic-manipulation/linguistic-manipulation-resources-2036.md)
 - [Linguistic Manipulation Resources 2037](linguistic-manipulation/linguistic-manipulation-resources-2037.md)
 - [Linguistic Manipulation Resources 2038](linguistic-manipulation/linguistic-manipulation-resources-2038.md)
+- [Linguistic Manipulation Resources 2039](linguistic-manipulation/linguistic-manipulation-resources-2039.md)
 - [Fuzzing Resources 2029](fuzzing/fuzzing-resources-2029.md)
 - [Fuzzing Resources 2030](fuzzing/fuzzing-resources-2030.md)
 - [Fuzzing Resources 2031](fuzzing/fuzzing-resources-2031.md)

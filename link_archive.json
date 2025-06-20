@@ -289,5 +289,11 @@
   },
   "https://arxiv.org/abs/2506.13301": {
     "snapshot": ""
+  },
+  "https://www.cyberark.com/resources/threat-research-blog/operation-grandma-a-tale-of-llm-chatbot-vulnerability": {
+    "snapshot": "https://web.archive.org/web/20250618/cyberark-grandma"
+  },
+  "https://www.securityweek.com/google-deepmind-unveils-defense-against-indirect-prompt-injection-attacks/": {
+    "snapshot": "https://web.archive.org/web/20250618/securityweek-deepmind"
   }
 }
