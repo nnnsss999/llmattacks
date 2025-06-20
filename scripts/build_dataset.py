@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the attacks dataset from Markdown files."""
+"""Build the attacks dataset from Markdown, text, and Python files."""
 
 from __future__ import annotations
 
@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ATTACKS_DIR = ROOT / "attacks"
 OUT_DIR = ROOT / "datasets" / "v1"
 OUT_FILE = OUT_DIR / "attacks.jsonl"
+EXTS = {".md", ".txt", ".py"}
 
 ZERO_WIDTH = {ord(c): None for c in ["\u200b", "\u200c", "\u200d", "\ufeff"]}
 
@@ -50,8 +51,13 @@ def clean_text(text: str) -> str:
 
 def gather_samples() -> list[AttackSample]:
     samples: list[AttackSample] = []
-    for path in ATTACKS_DIR.rglob("*.md"):
-        fm, body = parse_front_matter(path)
+    for path in ATTACKS_DIR.rglob("*"):
+        if path.suffix.lower() not in EXTS:
+            continue
+        if path.suffix.lower() == ".md":
+            fm, body = parse_front_matter(path)
+        else:
+            fm, body = {}, path.read_text(encoding="utf-8")
         record = {
             "uuid": str(uuid.uuid4()),
             "text": clean_text(body),
