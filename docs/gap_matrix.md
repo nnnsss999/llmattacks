@@ -18,5 +18,8 @@ license: "CC-BY-4.0"
 | Excessive Agency | LLM08 | OWASP LLM Top 10 | ❌ | - |
 | Overreliance | LLM09 | OWASP LLM Top 10 | ❌ | - |
 | Model Theft | LLM10 | OWASP LLM Top 10 | ❌ | - |
+| Indirect Prompt Injection | HL-INDIRECT | HiddenLayer | ❌ | - |
+| TokenBreak | HL-TOKENBREAK | HiddenLayer | ❌ | - |
+| Homoglyph Obfuscation | HL-HOMOGLYPH | HiddenLayer | ❌ | - |
 
 
