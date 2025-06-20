@@ -984,6 +984,13 @@
       "date_collected": "2025-06-27"
     },
     {
+      "title": "Additional Fuzzing Resources 2042",
+      "path": "fuzzing/additional-fuzzing-resources-2042.md",
+      "category": "Fuzzing",
+      "sub_category": "",
+      "date_collected": "2025-06-28"
+    },
+    {
       "title": "Fuzzing Resources 2033",
       "path": "fuzzing/fuzzing-resources-2033.md",
       "category": "Fuzzing",
