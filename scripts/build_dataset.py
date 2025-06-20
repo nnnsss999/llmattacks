@@ -7,8 +7,9 @@ import uuid
 import unicodedata
 from pathlib import Path
 
-import json
 import yaml
+import pyarrow as pa
+import pyarrow.parquet as pq
 
 import sys
 
@@ -18,7 +19,7 @@ from datasets.schema import AttackSample
 ROOT = Path(__file__).resolve().parents[1]
 ATTACKS_DIR = ROOT / "attacks"
 OUT_DIR = ROOT / "datasets" / "v1"
-OUT_FILE = OUT_DIR / "attacks.jsonl"
+OUT_FILE = OUT_DIR / "attacks.parquet"
 
 ZERO_WIDTH = {ord(c): None for c in ["\u200b", "\u200c", "\u200d", "\ufeff"]}
 
@@ -67,11 +68,9 @@ def gather_samples() -> list[AttackSample]:
 def build_dataset() -> None:
     samples = gather_samples()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    with OUT_FILE.open("w", encoding="utf-8") as f:
-        for sample in samples:
-            json.dump(sample.model_dump(), f, ensure_ascii=False)
-            f.write("\n")
-    print(f"Wrote {OUT_FILE} ({len(samples)} rows)")
+    table = pa.Table.from_pylist([s.model_dump() for s in samples])
+    pq.write_table(table, OUT_FILE)
+    print(f"Wrote {OUT_FILE} ({table.num_rows} rows)")
 
 
 if __name__ == "__main__":
