@@ -28,3 +28,6 @@ dev = [
     "pre-commit",
     "flake8",
 ]
+
+[tool.setuptools]
+packages = []
