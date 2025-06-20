@@ -112,6 +112,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `visual-jailbreaking-resources-2032.md` — additional resources on recent visual jailbreak research
 - `visual-jailbreaking-resources-2034.md` — follow-up resources on multimodal jailbreaks
 - `visual-jailbreaking-resources-2035.md` — latest visual jailbreak articles and defences
+- `visual-jailbreaking-resources-2036.md` — follow-up research on multimodal jailbreaking
 - `steganography-resources-2026.md` — latest papers on covert LLM attacks
 
 ### optimization/
