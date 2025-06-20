@@ -220,6 +220,16 @@ Additional references covering reinforcement learning for cyber-attack discovery
   [Multi-Objective Reinforcement Learning for Automated Resilient Cyber Defence](https://arxiv.org/abs/2411.17585).
 - **DeepExploit** – fully automated penetration testing tool powered by deep RL.
   [DeepExploit README](https://github.com/13o-bbr-bbq/machine_learning_security/blob/master/DeepExploit/README.md).
+- **rlhf-poisoning** – code for "Universal Jailbreak Backdoors from Poisoned Human Feedback" that plants universal jailbreak triggers via RLHF.
+  [GitHub Repository](https://github.com/ethz-spylab/rlhf-poisoning).
+- **RL4RedTeam** – reinforcement-learning toolkit that automates LLM jailbreak experiments.
+  [GitHub Repository](https://github.com/yyzpiero/RL4RedTeam).
+- **RLCheck** – RL-based method for quickly generating diverse valid test inputs, useful for fuzzing.
+  [RLCheck on GitHub](https://github.com/sameerreddy13/rlcheck).
+- **Safe-RLHF** – open-source framework for constrained value-aligned RLHF training.
+  [Safe-RLHF Repository](https://github.com/PKU-Alignment/safe-rlhf).
+- **Deep RL Intrusion Detection** – open-source project applying deep RL to detect network intrusions.
+  [GitHub Repository](https://github.com/SwathiReddy03/Intrusion-Detection-System-using-Deep-Reinforcement-Learning).
 
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine
