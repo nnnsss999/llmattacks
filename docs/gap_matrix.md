@@ -9,3 +9,5 @@ license: "CC-BY-4.0"
 | attack_type | risk_id | source | covered | folder |
 |-------------|---------|--------|---------|--------|
 
+<!-- rows will be added in subsequent steps -->
+
