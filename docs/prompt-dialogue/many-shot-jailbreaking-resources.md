@@ -92,3 +92,9 @@ The following articles and research papers document the
 - [Long Context LLMs: Tools and Challenges (HuggingFace Blog)](https://huggingface.co/blog/long-context-llms)
 - [LLM Context Window Threats and Mitigations (BlackBerry Blog)](https://blogs.blackberry.com/en/2024/06/large-language-model-context-window-threats)
 - [Large Context Window LLMs - Developer's Perspective (NVIDIA Blog)](https://developer.nvidia.com/blog/large-context-window-llms)
+
+- [The Silent Threat: When Tokens Become Weapons - A Deep Dive into LLM Tokenization Vulnerabilities](https://blog.ailab.sh/2024/11/the-silent-threat-when-tokens-become.html)
+- [The TokenBreak Attack](https://hiddenlayer.com/innovation-hub/the-tokenbreak-attack/)
+- [Agentic AI Security: Threats, Attacks, and Defenses](https://adversa.ai/blog/agentic-ai-security/)
+- [Expanding Our Model Safety Bug Bounty Program](https://www.anthropic.com/news/model-safety-bug-bounty)
+- [Anthropic Responsible Scaling Policy (PDF)](https://www-cdn.anthropic.com/1adf000c8f675958c2ee23805d91aaade1cd4613/responsible-scaling-policy.pdf)

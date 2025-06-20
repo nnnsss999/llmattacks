@@ -946,6 +946,33 @@
     },
     {
       "type": "file",
+      "name": "fuzzing/fuzzing-resources-2040.md",
+      "bom-ref": "fuzzing/fuzzing-resources-2040.md",
+      "properties": [
+        {
+          "name": "title",
+          "value": "Fuzzing Resources 2040"
+        },
+        {
+          "name": "category",
+          "value": "Fuzzing"
+        },
+        {
+          "name": "source_url",
+          "value": ""
+        },
+        {
+          "name": "date_collected",
+          "value": "2025-06-26"
+        },
+        {
+          "name": "license",
+          "value": "CC-BY-4.0"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "name": "fuzzing/fuzzing-resources-compendium.md",
       "bom-ref": "fuzzing/fuzzing-resources-compendium.md",
       "properties": [
