@@ -11,3 +11,7 @@ readme = "README.md"
 license = {file = "LICENSE"}
 requires-python = ">=3.8"
 
+[tool.black]
+line-length = 88
+extend-exclude = 'scripts/.*\.py'
+
