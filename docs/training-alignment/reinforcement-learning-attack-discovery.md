@@ -230,6 +230,26 @@ Additional references covering reinforcement learning for cyber-attack discovery
   [Safe-RLHF Repository](https://github.com/PKU-Alignment/safe-rlhf).
 - **Deep RL Intrusion Detection** – open-source project applying deep RL to detect network intrusions.
   [GitHub Repository](https://github.com/SwathiReddy03/Intrusion-Detection-System-using-Deep-Reinforcement-Learning).
+- **Hierarchical Seed Scheduling** – reinforcement learning selects the next seed for greybox fuzzing.
+  [Reinforcement Learning-based Hierarchical Seed Scheduling for Greybox Fuzzing](https://doi.org/10.14722/ndss.2021.24486).
+- **LinFuzz** – uses a LinUCB algorithm to schedule program-sensitive fuzzing seeds.
+  [LinFuzz: Program-Sensitive Seed Scheduling Greybox Fuzzing Based on LinUCB Algorithm](https://doi.org/10.1109/access.2024.3404918).
+- **Cloud-Native Fuzzing** – RL-based scheduler improves coverage on cloud-native apps.
+  [Adaptive Scheduling-Based Fine-Grained Greybox Fuzzing for Cloud-Native Applications](https://doi.org/10.1186/s13677-024-00681-1).
+- **Deep RL Penetration Testing** – reinforcement learning agent selects optimal exploits.
+  [PENETRATION TESTING USING DEEP REINFORCEMENT LEARNING](https://doi.org/10.28925/2663-4023.2024.23.1730).
+- **IoT Pentesting via DRL** – multi-agent RL coordinates penetration tests across IoT companions.
+  [Multi-Agent Deep Reinforcement Learning for Penetration Testing of IoT Devices through their Mobile Companion App](https://doi.org/10.36227/techrxiv.174114576.61410228/v1).
+- **Ad-hoc Network Attack Discovery** – RL configures routing to expose vulnerabilities.
+  [Routing and Security Based Ad-hoc Networks Configuration for Identification of Attack Using Reinforcement Learning Approach](https://doi.org/10.21203/rs.3.rs-4045649/v1).
+- **Industrial Robot Attack Detection** – RL with heterogeneous data fusion detects manipulator threats.
+  [Cyber-Physical Attack Detection in Industrial Robotic Arms by Reinforcement Learning with Systemic Heterogeneous Data Fusion](https://doi.org/10.2139/ssrn.5272672).
+- **GCN Integrity Protection** – RL-empowered graph convolutional networks spot data integrity attacks.
+  [Reinforcement Learning-Empowered Graph Convolutional Network Framework for Data Integrity Attack Detection in Cyber-Physical Systems](https://doi.org/10.17775/cseejpes.2023.01250).
+- **Attack Resilience Scheduling** – federated heterogeneous multi-agent RL defends multi-integrated energy systems.
+  [Federated Heterogeneous Multi-Agent Deep Reinforcement Learning-Based Attack Resilience Scheduling for Heterogeneous Multi-Integrated Energy System](https://doi.org/10.2139/ssrn.5233949).
+- **Distribution Inference Attacks** – RL infers data distribution in federated learning.
+  [Data Distribution Inference Attack in Federated Learning via Reinforcement Learning Support](https://doi.org/10.1016/j.hcc.2024.100235).
 
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine
