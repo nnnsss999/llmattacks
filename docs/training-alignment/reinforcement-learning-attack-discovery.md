@@ -249,6 +249,21 @@ Additional references covering reinforcement learning for cyber-attack discovery
 - **Autonomous Threat Response Frameworks** – RL-enhanced cybersecurity frameworks for automated defence.
   [Reinforcement Learning Enhanced Cybersecurity Frameworks for Autonomous Threat Response Systems](https://doi.org/10.71443/9789349552319-10).
 
+- **When LLM Meets DRL** – integrates deep RL with LLM-driven search to automate jailbreak discovery.
+  [When LLM Meets DRL: Advancing Jailbreaking Efficiency via DRL-guided Search](https://www.semanticscholar.org/paper/ff9854d4323e75252fec985d411f3b058eb718bf).
+- **PathSeeker** – explores LLM vulnerabilities using a reinforcement learning-based jailbreak approach.
+  [PathSeeker: Exploring LLM Security Vulnerabilities with a Reinforcement Learning-Based Jailbreak Approach](https://www.semanticscholar.org/paper/26c1431f46f90b29b4ee8522ebce92de68068cbb).
+- **xJailbreak** – representation space guided reinforcement learning enables interpretable jailbreaks.
+  [xJailbreak: Representation Space Guided Reinforcement Learning for Interpretable LLM Jailbreaking](https://www.semanticscholar.org/paper/f88411c138583c3875009db49291e1daafc825ba).
+- **Modeling Behavioral Preferences** – applies inverse RL to infer attacker behavior from audit logs.
+  [Modeling Behavioral Preferences of Cyber Adversaries Using Inverse Reinforcement Learning](https://arxiv.org/abs/2505.03817).
+- **Quantitative Resilience Modeling** – evaluates network resilience under RL-driven attacks and defences.
+  [Quantitative Resilience Modeling for Autonomous Cyber Defense](https://arxiv.org/abs/2503.02780).
+- **Multi-Agent RL Defence Tactics** – cooperative RL agents learn cyber defence strategies from scratch.
+  [Learning Cyber Defence Tactics from Scratch with Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2310.05939).
+- **CybORG Environment** – open-source RL framework for simulating automated network attack and defence.
+  [CybORG](https://github.com/cyber-phys/cyborg).
+
 These works demonstrate that reinforcement learning can actively search
 for exploits, generate sophisticated jailbreak sequences, and refine
 attacks over time. Defenders should audit reward models and monitor for
