@@ -16,6 +16,7 @@ dependencies = [
     "pdfminer.six",
     "PyYAML",
     "pydantic>=2.0",
+    "pyarrow",
 ]
 
 [tool.black]
