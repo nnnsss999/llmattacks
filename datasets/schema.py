@@ -13,4 +13,3 @@ class AttackSample(BaseModel):
     source_path: str
 
     model_config = ConfigDict(extra="forbid")
-
