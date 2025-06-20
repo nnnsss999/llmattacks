@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
-"""Build the attacks dataset from Markdown, text, and Python files."""
+"""Build the attacks dataset from Markdown, text, and Python files.
+
+Usage:
+    python scripts/build_dataset.py [--out-dir PATH] [--format {parquet,csv}]
+"""
 
 from __future__ import annotations
 
 import uuid
 import unicodedata
 from pathlib import Path
+import argparse
 
 import json
 import yaml
@@ -18,7 +23,6 @@ from datasets.schema import AttackSample
 ROOT = Path(__file__).resolve().parents[1]
 ATTACKS_DIR = ROOT / "attacks"
 OUT_DIR = ROOT / "datasets" / "v1"
-OUT_FILE = OUT_DIR / "attacks.jsonl"
 EXTS = {".md", ".txt", ".py"}
 
 ZERO_WIDTH = {ord(c): None for c in ["\u200b", "\u200c", "\u200d", "\ufeff"]}
@@ -70,15 +74,46 @@ def gather_samples() -> list[AttackSample]:
     return samples
 
 
-def build_dataset() -> None:
+def build_dataset(out_dir: Path = OUT_DIR, fmt: str = "parquet") -> Path:
     samples = gather_samples()
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    with OUT_FILE.open("w", encoding="utf-8") as f:
-        for sample in samples:
-            json.dump(sample.model_dump(), f, ensure_ascii=False)
-            f.write("\n")
-    print(f"Wrote {OUT_FILE} ({len(samples)} rows)")
+    out_dir.mkdir(parents=True, exist_ok=True)
+    records = [s.model_dump() for s in samples]
+    if fmt == "parquet":
+        try:
+            import pyarrow as pa
+            import pyarrow.parquet as pq
+        except ModuleNotFoundError as exc:  # pragma: no cover - runtime dep
+            raise SystemExit("pyarrow required for parquet output") from exc
+        out_file = out_dir / "attacks.parquet"
+        table = pa.Table.from_pylist(records)
+        pq.write_table(table, out_file)
+        row_count = table.num_rows
+    else:
+        import csv
+
+        out_file = out_dir / "attacks.csv"
+        with out_file.open("w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=records[0].keys())
+            writer.writeheader()
+            writer.writerows(records)
+        row_count = len(records)
+    print(f"Wrote {out_file} ({row_count} rows)")
+    return out_file
 
 
 if __name__ == "__main__":
-    build_dataset()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--out-dir",
+        type=Path,
+        default=OUT_DIR,
+        help="directory to write output files",
+    )
+    parser.add_argument(
+        "--format",
+        choices=["parquet", "csv"],
+        default="parquet",
+        help="output format",
+    )
+    args = parser.parse_args()
+    build_dataset(out_dir=args.out_dir, fmt=args.format)
