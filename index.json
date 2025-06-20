@@ -956,6 +956,20 @@
       "date_collected": "2025-06-25"
     },
     {
+      "title": "Fuzzing Resources 2040",
+      "path": "fuzzing/fuzzing-resources-2040.md",
+      "category": "Fuzzing",
+      "sub_category": "",
+      "date_collected": "2025-06-26"
+    },
+    {
+      "title": "Fuzzing Resources 2041",
+      "path": "fuzzing/fuzzing-resources-2041.md",
+      "category": "Fuzzing",
+      "sub_category": "",
+      "date_collected": "2025-06-27"
+    },
+    {
       "title": "Fuzzing Resources 2033",
       "path": "fuzzing/fuzzing-resources-2033.md",
       "category": "Fuzzing",
