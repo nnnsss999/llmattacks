@@ -183,6 +183,13 @@ https://www.semanticscholar.org/paper/e42262c4b67a8003ca930de0ac6275725bb76332
 https://www.semanticscholar.org/paper/e7fbad785456ba036e989a2a19e6964897f0231e
 https://www.semanticscholar.org/paper/f17b9c4118e6cf6042e9fb9feacbea8909e5e655
 https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-rui
+https://doi.org/10.18653/v1/2024.findings-acl.455
+https://doi.org/10.18653/v1/2024.emnlp-main.149
+https://doi.org/10.18653/v1/2024.emnlp-main.1261
+https://doi.org/10.2139/ssrn.4893610
+https://doi.org/10.2139/ssrn.4882305
+https://doi.org/10.1109/icdsaai65575.2025.11011640
+https://github.com/opanhw/FiNE
 ```
 
 This consolidated list captures research papers, code repositories and articles that examine neuron-level manipulation attacks or defences in LLMs. Each URL is sourced from the documents above and kept for quick reference.
