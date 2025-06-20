@@ -1126,6 +1126,20 @@
       "date_collected": "2025-06-19"
     },
     {
+      "title": "Additional LLM Supply Chain Resources 2032",
+      "path": "supply-chain/additional-supply-chain-resources-2032.md",
+      "category": "Supply Chain",
+      "sub_category": "",
+      "date_collected": "2025-06-21"
+    },
+    {
+      "title": "Additional Compromised Model Hub Resources 2032",
+      "path": "supply-chain/additional-compromised-model-hub-resources-2032.md",
+      "category": "Supply Chain",
+      "sub_category": "",
+      "date_collected": "2025-06-21"
+    },
+    {
       "title": "Poisoned Pre-Training Data Markets",
       "path": "supply-chain/poisoned-pretraining-markets.md",
       "category": "Supply Chain",
