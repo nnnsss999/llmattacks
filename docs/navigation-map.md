@@ -90,6 +90,8 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `latent-space-resources-2032.md` — expanded latent-space research
 - `latent-space-resources-2035.md` — new latent-space papers
 - `latent-space-resources-2036.md` — expanded latent-space references
+- `latent-space-resources-2037.md` — additional latent-space studies
+- `latent-space-resources-2038.md` — recent attention-hijacking research
 - `apexhq-latentspace.html` — attack on latent representations
 - `obfuscated-activations.html` — obfuscating activations during alignment
 
@@ -112,6 +114,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `visual-jailbreaking-resources-2032.md` — additional resources on recent visual jailbreak research
 - `visual-jailbreaking-resources-2034.md` — follow-up resources on multimodal jailbreaks
 - `visual-jailbreaking-resources-2035.md` — latest visual jailbreak articles and defences
+- `visual-jailbreaking-resources-2036.md` — continuing updates on cross-modal jailbreak strategies
 - `steganography-resources-2026.md` — latest papers on covert LLM attacks
 
 ### optimization/
@@ -191,6 +194,7 @@ Primary source articles grouped by theme. Markdown files include YAML front matt
 - `additional-model-hub-resources.md` — curated model hub references
 - `additional-model-hub-resources-2028.md` — latest model hub incidents
 - `thehackernews-hf-spaces-unauthorized-access.html` — article on Hugging Face unauthorized access
+- `additional-compromised-model-hub-resources-2031.md` — new model hub incidents
 
 ### token-level/
 - `techradar-tokenbreak.html` — token level manipulation article
