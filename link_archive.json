@@ -320,4 +320,13 @@
   ,"https://doi.org/10.1145/3634737.3656289?utm_source=chatgpt.com": {
     "snapshot": "https://web.archive.org/web/20250618/acm-3634737"
   }
+  ,"https://www.anthropic.com/research/many-shot-jailbreaking": {
+    "snapshot": "https://web.archive.org/web/20250618/anthropic-many-shot"
+  }
+  ,"https://www.theguardian.com/technology/2024/apr/03/many-shot-jailbreaking-ai-artificial-intelligence-safety-features-bypass": {
+    "snapshot": "https://web.archive.org/web/20250618/guardian-many-shot"
+  }
+  ,"https://www.theregister.com/2024/10/20/python_zero_day_tool/": {
+    "snapshot": "https://web.archive.org/web/20250618/theregister-zero-day"
+  }
 }

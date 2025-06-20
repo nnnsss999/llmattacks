@@ -22,4 +22,5 @@ license: "CC-BY-4.0"
 
 | GCG universal suffix | LLM01 | [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043) | ❌ | optimization |
 | AmpleGCG universal suffix | LLM01 | [AmpleGCG: Learning a Universal and Transferable Generative Model of Adversarial Suffixes for Jailbreaking Both Open and Closed LLMs](https://arxiv.org/abs/2404.07921) | ❌ | optimization |
+| Many-shot Jailbreaking | LLM01 | [Anthropic Research](https://www.anthropic.com/research/many-shot-jailbreaking); [Guardian report](https://www.theguardian.com/technology/2024/apr/03/many-shot-jailbreaking-ai-artificial-intelligence-safety-features-bypass) | ❌ | jailbreaking/many_shot |
 
