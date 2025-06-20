@@ -1,8 +1,3 @@
-Below is an **implementation-grade task grid** for **Steps 0 – 3** only.
-Each atomic card starts with **“Act as …”** so you can drop it straight into Jira.
-Dependencies are spelled out by ID; deliverables are concrete files or CI artefacts.
-
----
 
 ## Quick-look summary
 
