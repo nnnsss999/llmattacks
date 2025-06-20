@@ -1,0 +1,22 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Packaging
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+
+# Pytest cache
+.pytest_cache/
+
+# Logs
+*.log

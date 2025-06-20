@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "secure-llmattacks-v3"
+version = "0.1.0"
+description = "Research workspace for secure LLM attack detection"
+authors = [{name = "LLM Security"}]
+requires-python = ">=3.11"
+
+dependencies = [
+    "pydantic",
+    "pyarrow",
+    "pandas",
+    "datasets",
+    "sentencepiece",
+    "transformers",
+    "bitsandbytes",
+    "scikit-learn",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "mypy",
+    "pre-commit",
+    "flake8",
+]
+
+[tool.setuptools]
+packages = []
