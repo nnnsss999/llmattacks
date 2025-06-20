@@ -122,7 +122,7 @@ This project uses **pre-commit** hooks for basic linting and a GitHub Actions pi
 
 ## Release History
 
- - v3.0.0-alpha - CI passing on master commit 1459892
+ - v3.0.0-alpha - CI passing on master commit 3d99e6e
 
 
 ## License
