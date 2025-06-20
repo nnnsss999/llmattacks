@@ -852,6 +852,13 @@
       "date_collected": "2025-06-19"
     },
     {
+      "title": "Context Window Resources 2030",
+      "path": "inference/context-window-resources-2030.md",
+      "category": "Inference",
+      "sub_category": "",
+      "date_collected": "2025-06-21"
+    },
+    {
       "title": "Alignment-Aware Model Extraction Attacks",
       "path": "inference/alignment-aware-mea.md",
       "category": "Inference",
