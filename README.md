@@ -112,6 +112,17 @@ Markdown in the `@extractions1/` directory. URLs already represented in `docs/`
 are skipped automatically. A summary of processed links is written to
 `@extractions1/extraction_log.json`.
 
+## Dataset Generation
+
+Convert the attack examples into a machine‑learning dataset using
+`scripts/build_dataset.py`:
+
+```bash
+python scripts/build_dataset.py --out-dir datasets/v1 --format csv
+```
+
+The `--format` option also accepts `parquet` (requires `pyarrow`).
+
 ## Contributing
 
 Contributions are welcome! Please review [CONTRIBUTING.md](CONTRIBUTING.md) for coding style and front‑matter guidelines. All content must respect the project license and third‑party terms.
