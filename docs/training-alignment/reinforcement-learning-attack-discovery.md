@@ -304,6 +304,16 @@ Additional references covering reinforcement learning for cyber-attack discovery
 - **CybORG Environment** – open-source RL framework for simulating automated network attack and defence.
   [CybORG](https://github.com/cyber-phys/cyborg).
 
+- **Jailbreak Attack via Scene Construction** – RL-guided prompts craft jailbreak scenarios that bypass filters.
+  [Jailbreak attack of large language model based on scene construction](https://www.semanticscholar.org/paper/7a7a2121525afed503a64a7481e983c049f5cef3).
+- **Query Refinement RL** – improves jailbreak success through iterative RL search.
+  [Enhancing the Capability and Robustness of Large Language Models through Reinforcement Learning-Driven Query Refinement](https://www.semanticscholar.org/paper/a6bee5c982638049a70a2690697465cf058ef516).
+- **Few-shot Jailbreaking Attack** – RL-based method uses minimal samples to defeat defences.
+  [Reinforcement Learning-powered Effectiveness and Efficiency Few-shot Jailbreaking Attack LLMs](https://www.semanticscholar.org/paper/c53238273d3195b531d1a282af8529d7cfb2da0d).
+- **Red Team Diffuser** – RL exposes toxic continuation vulnerabilities in vision-language models.
+  [Red Team Diffuser: Exposing Toxic Continuation Vulnerabilities in Vision-Language Models via Reinforcement Learning](https://www.semanticscholar.org/paper/c50fa892e3c585fa1d4add5a8d69b87fb4cdfd34).
+- **SwordEcho** – RL-driven optimization strategy for LLM jailbreaks.
+  [SwordEcho: A LLM Jailbreaking Optimization Strategy Driven by Reinforcement Learning](https://doi.org/10.1145/3709026.3709115).
 Additional recent work also explores novel RL-driven jailbreak discovery methods:
 
 - **Adaptive RL with LLM-Augmented Rewards** – leverages language model feedback
